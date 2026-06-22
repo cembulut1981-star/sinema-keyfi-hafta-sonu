@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Search, Menu, Flame, Clock, ChevronRight, Play } from "lucide-react";
+import { Search, Menu, Flame, Clock, ChevronRight } from "lucide-react";
 
 import hero from "@/assets/hero-main.jpg";
 import n1 from "@/assets/news-1.jpg";
