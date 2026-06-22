@@ -137,12 +137,22 @@
 }
 
 @layer base {
-  * {
-    border-color: var(--color-border);
-  }
-
+  * { border-color: var(--color-border); }
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
   }
+  h1, h2, h3, h4 { font-family: var(--font-serif); letter-spacing: -0.01em; }
 }
+
+@utility font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+@utility font-serif-display {
+  font-family: var(--font-serif);
+}
+@utility text-balance { text-wrap: balance; }
+
