@@ -95,7 +95,7 @@ function Nav() {
     <nav className="border-b border-border sticky top-0 z-30 bg-background/95 backdrop-blur">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8">
         <ul className="flex items-center gap-1 overflow-x-auto scrollbar-none">
-          {CATEGORIES.map((c, i) => (
+          {CATEGORIES.slice(0, 4).map((c, i) => (
             <li key={c}>
               <a
                 href="#"
