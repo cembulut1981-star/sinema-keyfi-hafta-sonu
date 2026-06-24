@@ -109,7 +109,7 @@ function Nav() {
           </ul>
         </div>
       </nav>
-      <div className="h-2 bg-primary" aria-hidden="true" />
+      <div className="h-5 bg-primary" aria-hidden="true" />
     </>
   );
 }
