@@ -92,22 +92,25 @@ function Header() {
 
 function Nav() {
   return (
-    <nav className="border-b border-border sticky top-0 z-30 bg-background/95 backdrop-blur">
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8">
-        <ul className="flex items-center gap-1 overflow-x-auto scrollbar-none">
-          {CATEGORIES.slice(0, 4).map((c, i) => (
-            <li key={c}>
-              <a
-                href="#"
-                className={`font-display uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap transition-colors ${i === 0 ? "text-primary" : "text-foreground/70 hover:text-primary"}`}
-              >
-                {c}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </nav>
+    <>
+      <nav className="border-b border-border sticky top-0 z-30 bg-background/95 backdrop-blur">
+        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8">
+          <ul className="flex items-center gap-1 overflow-x-auto scrollbar-none">
+            {CATEGORIES.slice(0, 6).map((c, i) => (
+              <li key={c}>
+                <a
+                  href="#"
+                  className={`font-display uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap transition-colors ${i === 0 ? "text-primary" : "text-foreground/70 hover:text-primary"}`}
+                >
+                  {c}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
+      <div className="h-2 bg-primary" aria-hidden="true" />
+    </>
   );
 }
 
