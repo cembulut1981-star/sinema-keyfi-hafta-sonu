@@ -13,9 +13,9 @@ import n8 from "@/assets/news-8.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Perde — Sinema Haberleri, İncelemeler, Listeler" },
+      { title: "Sine-Meta — Sinema Haberleri, İncelemeler, Listeler" },
       { name: "description", content: "Türkiye'nin sinema gündemi: vizyon haberleri, eleştiriler, listeler ve özel dosyalar." },
-      { property: "og:title", content: "Perde — Sinema" },
+      { property: "og:title", content: "Sine-Meta — Sinema" },
       { property: "og:description", content: "Türkiye'nin sinema gündemi." },
     ],
   }),
@@ -144,8 +144,8 @@ function Footer() {
   return (
     <footer className="border-t border-border mt-20">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-        <span className="font-display text-primary text-xl">PERDE</span>
-        <span>© 2026 Perde Sinema Dergisi</span>
+        <span className="font-display text-primary text-xl">SINE-META</span>
+        <span>© 2026 Sine-Meta Sinema Dergisi</span>
       </div>
     </footer>
   );
