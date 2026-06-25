@@ -75,11 +75,11 @@ function Index() {
 function Header() {
   return (
     <header className="border-b border-border">
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img src="/src/assets/logo-icon.png" alt="" className="h-10 w-auto" />
+          <img src="/src/assets/logo-icon.png" alt="" className="h-20 w-auto" />
           <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
-            SINE-META
+            SİNE-META
           </Link>
         </div>
         <button className="p-2 hover:text-primary transition-colors" aria-label="Ara">
@@ -144,7 +144,7 @@ function Footer() {
   return (
     <footer className="border-t border-border mt-20">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-        <span className="font-display text-primary text-xl">SINE-META</span>
+        <span className="font-display text-primary text-xl">SİNE-META</span>
         <span>© 2026 Sine-Meta Sinema Dergisi</span>
       </div>
     </footer>
