@@ -79,7 +79,7 @@ function Header() {
   return (
     <header className="border-b border-border">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <Link to="/" className="font-display text-4xl text-primary leading-none">
+        <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
           PERDE
         </Link>
         <button className="p-2 hover:text-primary transition-colors" aria-label="Ara">
