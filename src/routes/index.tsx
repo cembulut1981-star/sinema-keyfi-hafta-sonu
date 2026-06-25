@@ -144,7 +144,7 @@ function Footer() {
   return (
     <footer className="border-t border-border mt-20">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-        <span className="font-display text-primary text-xl">SINE-META</span>
+        <span className="font-display text-primary text-xl">SİNE-META</span>
         <span>© 2026 Sine-Meta Sinema Dergisi</span>
       </div>
     </footer>
