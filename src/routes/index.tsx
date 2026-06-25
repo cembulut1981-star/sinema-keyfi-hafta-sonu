@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Search, Clock } from "lucide-react";
+import { Search } from "lucide-react";
 
 import n1 from "@/assets/news-1.jpg";
 import n2 from "@/assets/news-2.jpg";
