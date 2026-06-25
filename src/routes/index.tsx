@@ -76,9 +76,12 @@ function Header() {
   return (
     <header className="border-b border-border">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
-          PERDE
-        </Link>
+        <div className="flex items-center gap-3">
+          <img src="/src/assets/logo-icon.png" alt="" className="h-10 w-auto" />
+          <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
+            SINE-META
+          </Link>
+        </div>
         <button className="p-2 hover:text-primary transition-colors" aria-label="Ara">
           <Search className="w-5 h-5" />
         </button>
