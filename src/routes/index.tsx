@@ -31,8 +31,6 @@ type Article = {
   category: string;
   title: string;
   excerpt: string;
-  author: string;
-  readTime: string;
   image: string;
 };
 
