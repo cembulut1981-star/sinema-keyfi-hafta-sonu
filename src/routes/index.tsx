@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Search, Clock } from "lucide-react";
+import { Search } from "lucide-react";
 
 import n1 from "@/assets/news-1.jpg";
 import n2 from "@/assets/news-2.jpg";
@@ -31,24 +31,21 @@ type Article = {
   category: string;
   title: string;
   excerpt: string;
-  author: string;
-  readTime: string;
   image: string;
 };
 
 const ARTICLES: Article[] = [
-  { id: 1, category: "Vizyon", title: "Karanlık Şövalye Yeniden: Nolan Sonrası Çağda Süper Kahraman Sineması Nereye Gidiyor?", excerpt: "Stüdyolar gişe baskısı altında ezilirken auteur sineması yeni bir nefes arıyor. Sektörün geleceğine dair derinlemesine bir analiz.", author: "Mert Yılmaz", readTime: "8 dk", image: n6 },
-  { id: 2, category: "İnceleme", title: "Yeşilçam'ın Hayaleti: Modern Türk Sineması Geçmişiyle Nasıl Yüzleşiyor?", excerpt: "Genç yönetmenler kuşağı, Yeşilçam mirasını bir yük olarak değil, yeniden yorumlanacak bir hazine olarak görüyor.", author: "Selin Aksoy", readTime: "12 dk", image: n2 },
-  { id: 3, category: "Liste", title: "21. Yüzyılın En İyi 25 Film Noir Yapımı — Sıralı Liste", excerpt: "Neon ışıkları, ahlaki bulanıklık ve şehrin karanlığı. Modern noirin altın çağına bir bakış.", author: "Cem Demir", readTime: "15 dk", image: n1 },
-  { id: 4, category: "Bilim Kurgu", title: "Dune: Part Three Çekimleri Başladı — İlk Setten Sızan Detaylar", excerpt: "Villeneuve, Arrakis'in son perdesini perdeye taşırken kadroya katılan sürpriz isimler heyecan yaratıyor.", author: "Burak Eren", readTime: "5 dk", image: n3 },
-  { id: 5, category: "Korku", title: "A24'ün Yeni Korku Şaheseri: Karanlık Orman Eleştirmenleri Böldü", excerpt: "Festival galasında ayakta alkışlanan film, sosyal medyada tartışma yaratıyor.", author: "Deniz Kaya", readTime: "7 dk", image: n4 },
-  { id: 6, category: "Dosya", title: "Osmanlı Sarayı Perdede: Tarihi Dramalar Neden Yeniden Moda Oldu?", excerpt: "Dizi platformlarının yatırımıyla dönem yapımları altın çağını yaşıyor. Peki bu nostalji ne anlatıyor?", author: "Ayşe Yıldız", readTime: "10 dk", image: n5 },
-  { id: 7, category: "Festival", title: "Antalya Altın Portakal: Bu Yılın Öne Çıkan Beş Bağımsız Yapımı", excerpt: "Festivalin bu yılki seçkisinden öne çıkan ve mutlaka izlenmesi gereken filmler.", author: "Kerem Polat", readTime: "6 dk", image: n8 },
-  { id: 8, category: "Röportaj", title: "“Sinema Bir Direniş Eylemidir” — Yönetmen Nuri Bilge Ceylan ile Söyleşi", excerpt: "Usta yönetmen, yeni projesi ve Türk sinemasının geleceği üzerine konuştu.", author: "İrem Sönmez", readTime: "14 dk", image: n7 },
+  { id: 1, category: "Vizyon", title: "Karanlık Şövalye Yeniden: Nolan Sonrası Çağda Süper Kahraman Sineması Nereye Gidiyor?", excerpt: "Stüdyolar gişe baskısı altında ezilirken auteur sineması yeni bir nefes arıyor. Sektörün geleceğine dair derinlemesine bir analiz.", image: n6 },
+  { id: 2, category: "İnceleme", title: "Yeşilçam'ın Hayaleti: Modern Türk Sineması Geçmişiyle Nasıl Yüzleşiyor?", excerpt: "Genç yönetmenler kuşağı, Yeşilçam mirasını bir yük olarak değil, yeniden yorumlanacak bir hazine olarak görüyor.", image: n2 },
+  { id: 3, category: "Liste", title: "21. Yüzyılın En İyi 25 Film Noir Yapımı — Sıralı Liste", excerpt: "Neon ışıkları, ahlaki bulanıklık ve şehrin karanlığı. Modern noirin altın çağına bir bakış.", image: n1 },
+  { id: 4, category: "Bilim Kurgu", title: "Dune: Part Three Çekimleri Başladı — İlk Setten Sızan Detaylar", excerpt: "Villeneuve, Arrakis'in son perdesini perdeye taşırken kadroya katılan sürpriz isimler heyecan yaratıyor.", image: n3 },
+  { id: 5, category: "Korku", title: "A24'ün Yeni Korku Şaheseri: Karanlık Orman Eleştirmenleri Böldü", excerpt: "Festival galasında ayakta alkışlanan film, sosyal medyada tartışma yaratıyor.", image: n4 },
+  { id: 6, category: "Dosya", title: "Osmanlı Sarayı Perdede: Tarihi Dramalar Neden Yeniden Moda Oldu?", excerpt: "Dizi platformlarının yatırımıyla dönem yapımları altın çağını yaşıyor. Peki bu nostalji ne anlatıyor?", image: n5 },
+  { id: 7, category: "Festival", title: "Antalya Altın Portakal: Bu Yılın Öne Çıkan Beş Bağımsız Yapımı", excerpt: "Festivalin bu yılki seçkisinden öne çıkan ve mutlaka izlenmesi gereken filmler.", image: n8 },
+  { id: 8, category: "Röportaj", title: "\"Sinema Bir Direniş Eylemidir\" — Yönetmen Nuri Bilge Ceylan ile Söyleşi", excerpt: "Usta yönetmen, yeni projesi ve Türk sinemasının geleceği üzerine konuştu.", image: n7 },
 ];
 
 function Index() {
-  // Build a long feed by repeating articles
   const feed = [...ARTICLES, ...ARTICLES, ...ARTICLES].map((a, i) => ({ ...a, id: i + 1 }));
 
   return (
@@ -79,7 +76,7 @@ function Header() {
   return (
     <header className="border-b border-border">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <Link to="/" className="font-display text-4xl text-primary leading-none">
+        <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
           PERDE
         </Link>
         <button className="p-2 hover:text-primary transition-colors" aria-label="Ara">
@@ -100,7 +97,7 @@ function Nav() {
               <li key={c}>
                 <a
                   href="#"
-                  className={`font-display uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap transition-colors ${i === 0 ? "text-primary" : "text-foreground/70 hover:text-primary"}`}
+                  className={`font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap transition-colors ${i === 0 ? "text-primary" : "text-foreground/70 hover:text-primary"}`}
                 >
                   {c}
                 </a>
@@ -136,11 +133,6 @@ function ArticleCard({ article }: { article: Article }) {
       <p className="text-[15px] text-muted-foreground leading-relaxed line-clamp-3 mb-4">
         {article.excerpt}
       </p>
-      <div className="text-[11px] uppercase tracking-widest text-muted-foreground flex items-center gap-3">
-        <span>{article.author}</span>
-        <span aria-hidden>·</span>
-        <span className="inline-flex items-center gap-1"><Clock className="w-3 h-3" />{article.readTime}</span>
-      </div>
     </article>
   );
 }
