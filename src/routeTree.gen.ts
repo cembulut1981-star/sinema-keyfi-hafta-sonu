@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
+import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,30 +23,39 @@ const KategoriSlugRoute = KategoriSlugRouteImport.update({
   path: '/kategori/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const IncelemeSlugRoute = IncelemeSlugRouteImport.update({
+  id: '/inceleme/$slug',
+  path: '/inceleme/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/kategori/$slug'
+  fullPaths: '/' | '/inceleme/$slug' | '/kategori/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/kategori/$slug'
-  id: '__root__' | '/' | '/kategori/$slug'
+  to: '/' | '/inceleme/$slug' | '/kategori/$slug'
+  id: '__root__' | '/' | '/inceleme/$slug' | '/kategori/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  IncelemeSlugRoute: typeof IncelemeSlugRoute
   KategoriSlugRoute: typeof KategoriSlugRoute
 }
 
@@ -65,11 +75,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KategoriSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/inceleme/$slug': {
+      id: '/inceleme/$slug'
+      path: '/inceleme/$slug'
+      fullPath: '/inceleme/$slug'
+      preLoaderRoute: typeof IncelemeSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  IncelemeSlugRoute: IncelemeSlugRoute,
   KategoriSlugRoute: KategoriSlugRoute,
 }
 export const routeTree = rootRouteImport
