@@ -1,0 +1,139 @@
+import { Link } from "@tanstack/react-router";
+import { Search } from "lucide-react";
+import type { ReactNode } from "react";
+
+import logoIcon from "@/assets/logo-icon.png";
+import { type Article, type CategorySlug } from "@/data/articles";
+
+const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
+  { label: "Anasayfa", to: "/" },
+  { label: "Vizyon", to: "/kategori/$slug", params: { slug: "vizyon" } },
+  { label: "İncelemeler", to: "/kategori/$slug", params: { slug: "incelemeler" } },
+  { label: "Listeler", to: "/kategori/$slug", params: { slug: "listeler" } },
+  { label: "Diziler", to: "/kategori/$slug", params: { slug: "diziler" } },
+  { label: "Festival", to: "/kategori/$slug", params: { slug: "festival" } },
+];
+
+export function SiteShell({ children }: { children: ReactNode }) {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <Header />
+      <Nav />
+      {children}
+      <Footer />
+    </div>
+  );
+}
+
+function Header() {
+  return (
+    <header className="border-b border-border">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <img src={logoIcon} alt="" className="h-20 w-auto" />
+          <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
+            SİNE-META
+          </Link>
+        </div>
+        <button className="p-2 hover:text-primary transition-colors" aria-label="Ara">
+          <Search className="w-5 h-5" />
+        </button>
+      </div>
+    </header>
+  );
+}
+
+function Nav() {
+  return (
+    <>
+      <nav className="border-b border-border sticky top-0 z-30 bg-background/95 backdrop-blur">
+        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8">
+          <ul className="flex items-center gap-1 overflow-x-auto scrollbar-none">
+            {NAV.map((item) => (
+              <li key={item.label}>
+                <Link
+                  to={item.to as any}
+                  params={item.params as any}
+                  activeOptions={{ exact: true }}
+                  className="font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-foreground/70 hover:text-primary transition-colors data-[status=active]:text-primary"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
+      <div className="h-5 bg-primary" aria-hidden="true" />
+    </>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="border-t border-border mt-20">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
+        <span className="font-display text-primary text-xl">SİNE-META</span>
+        <span>© 2026 Sine-Meta Sinema Dergisi</span>
+      </div>
+    </footer>
+  );
+}
+
+export function ArticleGrid({ articles }: { articles: Article[] }) {
+  return (
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-12">
+      {articles.map((a) => (
+        <ArticleCard key={a.id} article={a} />
+      ))}
+    </section>
+  );
+}
+
+const CATEGORY_TO_SLUG: Record<CategorySlug, string> = {
+  vizyon: "vizyon",
+  incelemeler: "incelemeler",
+  listeler: "listeler",
+  diziler: "diziler",
+  festival: "festival",
+  roportajlar: "roportajlar",
+};
+
+const CATEGORY_LABEL: Record<CategorySlug, string> = {
+  vizyon: "Vizyon",
+  incelemeler: "İnceleme",
+  listeler: "Liste",
+  diziler: "Dizi",
+  festival: "Festival",
+  roportajlar: "Röportaj",
+};
+
+function ArticleCard({ article }: { article: Article }) {
+  return (
+    <article className="group cursor-pointer">
+      <div className="relative aspect-[16/10] overflow-hidden bg-muted mb-4">
+        <img
+          src={article.image}
+          alt={article.title}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          width={800}
+          height={500}
+          loading="lazy"
+        />
+      </div>
+      <Link
+        to="/kategori/$slug"
+        params={{ slug: CATEGORY_TO_SLUG[article.category] }}
+        className="font-display uppercase tracking-widest text-[11px] text-primary mb-2 inline-block hover:underline"
+      >
+        {CATEGORY_LABEL[article.category]}
+      </Link>
+      <h2 className="font-serif-display text-2xl font-bold leading-tight mb-3 group-hover:text-primary transition-colors text-balance">
+        {article.title}
+      </h2>
+      <p className="text-[15px] text-muted-foreground leading-relaxed line-clamp-3 mb-4">
+        {article.excerpt}
+      </p>
+    </article>
+  );
+}
