@@ -109,17 +109,43 @@ const CATEGORY_LABEL: Record<CategorySlug, string> = {
 };
 
 function ArticleCard({ article }: { article: Article }) {
+  const hasReview = !!article.reviewSlug;
+  const TitleLink = hasReview ? (
+    <Link
+      to="/inceleme/$slug"
+      params={{ slug: article.reviewSlug! }}
+      className="block group-hover:text-primary transition-colors"
+    >
+      {article.title}
+    </Link>
+  ) : (
+    <span>{article.title}</span>
+  );
+
   return (
-    <article className="group cursor-pointer">
+    <article className="group">
       <div className="relative aspect-[16/10] overflow-hidden bg-muted mb-4">
-        <img
-          src={article.image}
-          alt={article.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          width={800}
-          height={500}
-          loading="lazy"
-        />
+        {hasReview ? (
+          <Link to="/inceleme/$slug" params={{ slug: article.reviewSlug! }}>
+            <img
+              src={article.image}
+              alt={article.title}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              width={800}
+              height={500}
+              loading="lazy"
+            />
+          </Link>
+        ) : (
+          <img
+            src={article.image}
+            alt={article.title}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            width={800}
+            height={500}
+            loading="lazy"
+          />
+        )}
       </div>
       <Link
         to="/kategori/$slug"
@@ -128,8 +154,8 @@ function ArticleCard({ article }: { article: Article }) {
       >
         {CATEGORY_LABEL[article.category]}
       </Link>
-      <h2 className="font-serif-display text-2xl font-bold leading-tight mb-3 group-hover:text-primary transition-colors text-balance">
-        {article.title}
+      <h2 className="font-serif-display text-2xl font-bold leading-tight mb-3 text-balance">
+        {TitleLink}
       </h2>
       <p className="text-[15px] text-muted-foreground leading-relaxed line-clamp-3 mb-4">
         {article.excerpt}
