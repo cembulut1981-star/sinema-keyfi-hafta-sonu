@@ -1,0 +1,42 @@
+import n1 from "@/assets/news-1.jpg";
+import n2 from "@/assets/news-2.jpg";
+import n3 from "@/assets/news-3.jpg";
+import n4 from "@/assets/news-4.jpg";
+import n5 from "@/assets/news-5.jpg";
+import n6 from "@/assets/news-6.jpg";
+import n7 from "@/assets/news-7.jpg";
+import n8 from "@/assets/news-8.jpg";
+
+export type CategorySlug = "vizyon" | "incelemeler" | "listeler" | "diziler" | "festival" | "roportajlar";
+
+export const CATEGORY_LABELS: Record<CategorySlug, string> = {
+  vizyon: "Vizyon",
+  incelemeler: "İncelemeler",
+  listeler: "Listeler",
+  diziler: "Diziler",
+  festival: "Festival",
+  roportajlar: "Röportajlar",
+};
+
+export type Article = {
+  id: number;
+  category: CategorySlug;
+  title: string;
+  excerpt: string;
+  image: string;
+};
+
+export const ARTICLES: Article[] = [
+  { id: 1, category: "vizyon", title: "Karanlık Şövalye Yeniden: Nolan Sonrası Çağda Süper Kahraman Sineması Nereye Gidiyor?", excerpt: "Stüdyolar gişe baskısı altında ezilirken auteur sineması yeni bir nefes arıyor. Sektörün geleceğine dair derinlemesine bir analiz.", image: n6 },
+  { id: 2, category: "incelemeler", title: "Yeşilçam'ın Hayaleti: Modern Türk Sineması Geçmişiyle Nasıl Yüzleşiyor?", excerpt: "Genç yönetmenler kuşağı, Yeşilçam mirasını bir yük olarak değil, yeniden yorumlanacak bir hazine olarak görüyor.", image: n2 },
+  { id: 3, category: "listeler", title: "21. Yüzyılın En İyi 25 Film Noir Yapımı — Sıralı Liste", excerpt: "Neon ışıkları, ahlaki bulanıklık ve şehrin karanlığı. Modern noirin altın çağına bir bakış.", image: n1 },
+  { id: 4, category: "vizyon", title: "Dune: Part Three Çekimleri Başladı — İlk Setten Sızan Detaylar", excerpt: "Villeneuve, Arrakis'in son perdesini perdeye taşırken kadroya katılan sürpriz isimler heyecan yaratıyor.", image: n3 },
+  { id: 5, category: "incelemeler", title: "A24'ün Yeni Korku Şaheseri: Karanlık Orman Eleştirmenleri Böldü", excerpt: "Festival galasında ayakta alkışlanan film, sosyal medyada tartışma yaratıyor.", image: n4 },
+  { id: 6, category: "diziler", title: "Osmanlı Sarayı Perdede: Tarihi Dramalar Neden Yeniden Moda Oldu?", excerpt: "Dizi platformlarının yatırımıyla dönem yapımları altın çağını yaşıyor. Peki bu nostalji ne anlatıyor?", image: n5 },
+  { id: 7, category: "festival", title: "Antalya Altın Portakal: Bu Yılın Öne Çıkan Beş Bağımsız Yapımı", excerpt: "Festivalin bu yılki seçkisinden öne çıkan ve mutlaka izlenmesi gereken filmler.", image: n8 },
+  { id: 8, category: "roportajlar", title: "\"Sinema Bir Direniş Eylemidir\" — Yönetmen Nuri Bilge Ceylan ile Söyleşi", excerpt: "Usta yönetmen, yeni projesi ve Türk sinemasının geleceği üzerine konuştu.", image: n7 },
+  { id: 9, category: "diziler", title: "Yeni Sezon Dizileri: Bu Sonbahar Mutlaka İzlenmesi Gereken 10 Yapım", excerpt: "Platformların yeni sezon takvimi belli oldu. İşte öne çıkan diziler ve beklentiler.", image: n4 },
+  { id: 10, category: "listeler", title: "Tüm Zamanların En İyi 50 Bilim Kurgu Filmi", excerpt: "Metropolis'ten Dune'a uzanan büyük bir yolculuk. Türün dönüm noktaları.", image: n3 },
+  { id: 11, category: "vizyon", title: "Bu Hafta Vizyona Giren Filmler: Kısa Rehber", excerpt: "Hafta sonu için sinema programınızı hazırlarken işinize yarayacak özet.", image: n6 },
+  { id: 12, category: "festival", title: "Cannes 2026 Seçkisi Açıklandı: Türk Sinemasından İki Film Yarışmada", excerpt: "Croisette'te bu yıl rüzgâr nereden esecek? Yarışma ve yan bölümlere ilk bakış.", image: n8 },
+];
