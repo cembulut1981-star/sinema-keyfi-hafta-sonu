@@ -3,7 +3,7 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { ArticleGrid, SiteShell } from "@/components/site/SiteShell";
 import { ARTICLES, CATEGORY_LABELS, type CategorySlug } from "@/data/articles";
 
-const VALID: CategorySlug[] = ["vizyon", "incelemeler", "listeler", "diziler", "festival", "roportajlar"];
+const VALID: CategorySlug[] = ["haberler", "incelemeler", "listeler", "diziler", "festival", "roportajlar"];
 
 export const Route = createFileRoute("/kategori/$slug")({
   beforeLoad: ({ params }) => {

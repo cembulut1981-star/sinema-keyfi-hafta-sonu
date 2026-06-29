@@ -7,7 +7,7 @@ import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
   { label: "Anasayfa", to: "/" },
-  { label: "Vizyon", to: "/kategori/$slug", params: { slug: "vizyon" } },
+  { label: "Haberler", to: "/kategori/$slug", params: { slug: "haberler" } },
   { label: "İncelemeler", to: "/kategori/$slug", params: { slug: "incelemeler" } },
   { label: "Listeler", to: "/kategori/$slug", params: { slug: "listeler" } },
   { label: "Diziler", to: "/kategori/$slug", params: { slug: "diziler" } },
@@ -91,7 +91,7 @@ export function ArticleGrid({ articles }: { articles: Article[] }) {
 }
 
 const CATEGORY_TO_SLUG: Record<CategorySlug, string> = {
-  vizyon: "vizyon",
+  haberler: "haberler",
   incelemeler: "incelemeler",
   listeler: "listeler",
   diziler: "diziler",
@@ -100,7 +100,7 @@ const CATEGORY_TO_SLUG: Record<CategorySlug, string> = {
 };
 
 const CATEGORY_LABEL: Record<CategorySlug, string> = {
-  vizyon: "Vizyon",
+  haberler: "Haber",
   incelemeler: "İnceleme",
   listeler: "Liste",
   diziler: "Dizi",
@@ -109,11 +109,15 @@ const CATEGORY_LABEL: Record<CategorySlug, string> = {
 };
 
 function ArticleCard({ article }: { article: Article }) {
-  const hasReview = !!article.reviewSlug;
-  const TitleLink = hasReview ? (
+  const linkTo = article.reviewSlug
+    ? { to: "/inceleme/$slug" as const, params: { slug: article.reviewSlug } }
+    : article.newsSlug
+    ? { to: "/haber/$slug" as const, params: { slug: article.newsSlug } }
+    : null;
+  const TitleLink = linkTo ? (
     <Link
-      to="/inceleme/$slug"
-      params={{ slug: article.reviewSlug! }}
+      to={linkTo.to}
+      params={linkTo.params}
       className="block group-hover:text-primary transition-colors"
     >
       {article.title}
@@ -125,8 +129,8 @@ function ArticleCard({ article }: { article: Article }) {
   return (
     <article className="group">
       <div className="relative aspect-[16/10] overflow-hidden bg-muted mb-4">
-        {hasReview ? (
-          <Link to="/inceleme/$slug" params={{ slug: article.reviewSlug! }}>
+        {linkTo ? (
+          <Link to={linkTo.to} params={linkTo.params}>
             <img
               src={article.image}
               alt={article.title}
