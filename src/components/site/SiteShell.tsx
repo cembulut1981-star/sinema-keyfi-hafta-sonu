@@ -29,7 +29,7 @@ function Header() {
   return (
     <header className="border-b border-border">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1">
           <img src={logoIcon} alt="" className="h-20 w-auto" />
           <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
             SİNE-META
