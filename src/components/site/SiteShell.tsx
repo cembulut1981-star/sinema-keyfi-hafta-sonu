@@ -154,7 +154,7 @@ function ArticleCard({ article }: { article: Article }) {
       <Link
         to="/kategori/$slug"
         params={{ slug: CATEGORY_TO_SLUG[article.category] }}
-        className="font-display uppercase tracking-widest text-[11px] text-primary mb-2 inline-block hover:underline"
+        className="font-display uppercase tracking-widest text-[11px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-2 py-1"
       >
         {CATEGORY_LABEL[article.category]}
       </Link>
