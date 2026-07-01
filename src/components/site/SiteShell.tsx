@@ -113,6 +113,8 @@ function ArticleCard({ article }: { article: Article }) {
     ? { to: "/inceleme/$slug" as const, params: { slug: article.reviewSlug } }
     : article.newsSlug
     ? { to: "/haber/$slug" as const, params: { slug: article.newsSlug } }
+    : article.listSlug
+    ? { to: "/liste/$slug" as const, params: { slug: article.listSlug } }
     : null;
   const TitleLink = linkTo ? (
     <Link
