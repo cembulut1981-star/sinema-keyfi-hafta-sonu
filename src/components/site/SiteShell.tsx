@@ -11,7 +11,7 @@ const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
   { label: "İncelemeler", to: "/kategori/$slug", params: { slug: "incelemeler" } },
   { label: "Listeler", to: "/kategori/$slug", params: { slug: "listeler" } },
   { label: "Diziler", to: "/kategori/$slug", params: { slug: "diziler" } },
-  { label: "Festival", to: "/kategori/$slug", params: { slug: "festival" } },
+  { label: "Müzik", to: "/kategori/$slug", params: { slug: "muzik" } },
 ];
 
 export function SiteShell({ children }: { children: ReactNode }) {
@@ -82,7 +82,7 @@ function Footer() {
 
 export function ArticleGrid({ articles }: { articles: Article[] }) {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-12">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10">
       {articles.map((a) => (
         <ArticleCard key={a.id} article={a} />
       ))}
@@ -95,7 +95,7 @@ const CATEGORY_TO_SLUG: Record<CategorySlug, string> = {
   incelemeler: "incelemeler",
   listeler: "listeler",
   diziler: "diziler",
-  festival: "festival",
+  muzik: "muzik",
   roportajlar: "roportajlar",
 };
 
@@ -104,7 +104,7 @@ const CATEGORY_LABEL: Record<CategorySlug, string> = {
   incelemeler: "İnceleme",
   listeler: "Liste",
   diziler: "Dizi",
-  festival: "Festival",
+  muzik: "Müzik",
   roportajlar: "Röportaj",
 };
 
@@ -115,6 +115,8 @@ function ArticleCard({ article }: { article: Article }) {
     ? { to: "/haber/$slug" as const, params: { slug: article.newsSlug } }
     : article.listSlug
     ? { to: "/liste/$slug" as const, params: { slug: article.listSlug } }
+    : article.musicSlug
+    ? { to: "/muzik/$slug" as const, params: { slug: article.musicSlug } }
     : null;
   const TitleLink = linkTo ? (
     <Link
@@ -129,14 +131,14 @@ function ArticleCard({ article }: { article: Article }) {
   );
 
   return (
-    <article className="group">
-      <div className="relative aspect-[16/10] overflow-hidden bg-muted mb-4">
+    <article className="group border border-black bg-background">
+      <div className="relative aspect-[16/10] overflow-hidden bg-muted border-b border-black">
         {linkTo ? (
           <Link to={linkTo.to} params={linkTo.params}>
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover"
               width={800}
               height={500}
               loading="lazy"
@@ -146,26 +148,28 @@ function ArticleCard({ article }: { article: Article }) {
           <img
             src={article.image}
             alt={article.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-cover"
             width={800}
             height={500}
             loading="lazy"
           />
         )}
       </div>
-      <Link
-        to="/kategori/$slug"
-        params={{ slug: CATEGORY_TO_SLUG[article.category] }}
-        className="font-display uppercase tracking-widest text-[11px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-2 py-1"
-      >
-        {CATEGORY_LABEL[article.category]}
-      </Link>
-      <h2 className="font-serif-display text-2xl font-bold leading-tight mb-3 text-balance">
-        {TitleLink}
-      </h2>
-      <p className="text-[15px] text-muted-foreground leading-relaxed line-clamp-3 mb-4">
-        {article.excerpt}
-      </p>
+      <div className="p-4">
+        <Link
+          to="/kategori/$slug"
+          params={{ slug: CATEGORY_TO_SLUG[article.category] }}
+          className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-2 py-1"
+        >
+          {CATEGORY_LABEL[article.category]}
+        </Link>
+        <h2 className="font-serif-display text-xl font-bold leading-tight mb-2 text-balance">
+          {TitleLink}
+        </h2>
+        <p className="text-[14px] text-muted-foreground leading-relaxed line-clamp-3">
+          {article.excerpt}
+        </p>
+      </div>
     </article>
   );
 }
