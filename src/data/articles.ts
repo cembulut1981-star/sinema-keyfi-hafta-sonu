@@ -1,15 +1,16 @@
 import { REVIEWS } from "./reviews";
 import { NEWS } from "./news";
 import { LISTS } from "./lists";
+import { MUSIC } from "./music";
 
-export type CategorySlug = "haberler" | "incelemeler" | "listeler" | "diziler" | "festival" | "roportajlar";
+export type CategorySlug = "haberler" | "incelemeler" | "listeler" | "diziler" | "muzik" | "roportajlar";
 
 export const CATEGORY_LABELS: Record<CategorySlug, string> = {
   haberler: "Haberler",
   incelemeler: "İncelemeler",
   listeler: "Listeler",
   diziler: "Diziler",
-  festival: "Festival",
+  muzik: "Müzik",
   roportajlar: "Röportajlar",
 };
 
@@ -22,6 +23,7 @@ export type Article = {
   reviewSlug?: string;
   newsSlug?: string;
   listSlug?: string;
+  musicSlug?: string;
 };
 
 const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
@@ -51,7 +53,16 @@ const LIST_ARTICLES: Article[] = LISTS.map((l, i) => ({
   listSlug: l.slug,
 }));
 
-// Interleave arrays so categories are mixed in the feed (haber-inceleme-liste-...).
+const MUSIC_ARTICLES: Article[] = MUSIC.map((m, i) => ({
+  id: 400 + i,
+  category: "muzik" as const,
+  title: m.title,
+  excerpt: m.excerpt,
+  image: m.image,
+  musicSlug: m.slug,
+}));
+
+// Interleave arrays so categories are mixed in the feed.
 function interleave<T>(...arrays: T[][]): T[] {
   const out: T[] = [];
   const max = Math.max(...arrays.map((a) => a.length));
@@ -63,4 +74,4 @@ function interleave<T>(...arrays: T[][]): T[] {
   return out;
 }
 
-export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LIST_ARTICLES);
+export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LIST_ARTICLES, MUSIC_ARTICLES);
