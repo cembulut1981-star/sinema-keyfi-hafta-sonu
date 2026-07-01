@@ -18,7 +18,7 @@ export const REVIEWS: Review[] = [
   {
     slug: "glastonbury-the-movie",
     origTitle: "Glastonbury the Movie",
-    title: "İnceleme: \"Glastonbury the Movie\" — Çamur, Müzik ve Kaybolan Masumiyet",
+    title: "\"Glastonbury the Movie\" — Çamur, Müzik ve Kaybolan Masumiyet",
     excerpt: "Dijital dünyanın gürültüsünden uzak, 1993 Glastonbury festivalinin çamurlu ve özgür ruhuna yapılan, 16mm dokusunda nostaljik ve antropolojik bir yolculuk.",
     rating: "4/5",
     image: glastonburyImg,
@@ -35,7 +35,7 @@ Sonuç olarak *Glastonbury the Movie*, otuz yıl sonra geriye dönüp baktığı
   {
     slug: "strung",
     origTitle: "Strung",
-    title: "İnceleme: \"Strung\" — Korku ve Melodramın Çatışmasında Kısılan Bir Tür Denemesi",
+    title: "\"Strung\" — Korku ve Melodramın Çatışmasında Kısılan Bir Tür Denemesi",
     excerpt: "Blumhouse gerilimi ile Tyler Perry dramatizminin ilginç bir çarpışması olan Strung, senaryo yoğunluğuyla boğuşan ancak atmosferiyle merak uyandıran bir tür denemesi sunuyor.",
     rating: "2.5/5",
     image: strungImg,
@@ -52,7 +52,7 @@ Sonuç olarak *Strung*, türsel denemeleri seven ve "guilty pleasure" (izlemekte
   {
     slug: "the-mission",
     origTitle: "The Mission",
-    title: "İnceleme: \"The Mission\" — Karanlığın İçinde Bir Neşter Darbesi",
+    title: "\"The Mission\" — Karanlığın İçinde Bir Neşter Darbesi",
     excerpt: "Gazze'nin karanlık hastane koridorlarında çaresizliğe meydan okuyan Cerrah Muhammed Tahir'in hikayesi, insanlık onurunun en saf ve sarsıcı belgesine dönüşüyor.",
     rating: "4.5/5",
     image: missionImg,
@@ -69,7 +69,7 @@ Sonuç olarak *The Mission*, izlemesi kolay bir film değil; hatta bazen bakış
   {
     slug: "little-brother",
     origTitle: "Little Brother",
-    title: "İnceleme: \"Little Brother\" — Ehlileştirilmiş Bir Kaos ve Beklenen Sıra Dışılığın Uzağında Bir Yol Hikâyesi",
+    title: "\"Little Brother\" — Ehlileştirilmiş Bir Kaos ve Beklenen Sıra Dışılığın Uzağında Bir Yol Hikâyesi",
     excerpt: "Eric André'nin vahşi enerjisinin ehlileştirildiği bu yol hikâyesi, kara mizah ile aile dramı arasında kararsız kalarak unutulabilir bir Netflix deneyimine dönüşüyor.",
     rating: "2.5/5",
     image: littleBrotherImg,
@@ -86,7 +86,7 @@ Sonuç olarak *Little Brother*, türün meraklıları için vakit geçirmelik bi
   {
     slug: "jackass-best-and-last",
     origTitle: "Jackass: Best and Last",
-    title: "İnceleme: \"Jackass: Best and Last\" — Acının ve Kahkahanın Grotesk Vedası",
+    title: "\"Jackass: Best and Last\" — Acının ve Kahkahanın Grotesk Vedası",
     excerpt: "Johnny Knoxville ve ekibi, acının ve kahkahanın sınırlarını zorlayan bu son veda ile sinema tarihinin en iğrenç ama en samimi dostluk hikayelerinden birine imza atıyor.",
     rating: "4/5",
     image: jackassImg,
