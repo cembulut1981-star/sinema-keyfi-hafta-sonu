@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import { Search } from "lucide-react";
 import type { ReactNode } from "react";
 
 import logoIcon from "@/assets/logo-icon.png";
@@ -28,16 +27,13 @@ export function SiteShell({ children }: { children: ReactNode }) {
 function Header() {
   return (
     <header>
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-center">
         <div className="flex items-center gap-1">
           <img src={logoIcon} alt="" className="h-20 w-auto" />
           <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
             SİNE-META
           </Link>
         </div>
-        <button className="p-2 hover:text-primary transition-colors" aria-label="Ara">
-          <Search className="w-5 h-5" />
-        </button>
       </div>
     </header>
   );
@@ -48,7 +44,7 @@ function Nav() {
     <>
       <nav className="border-t border-black border-b border-black sticky top-0 z-30 bg-background/95 backdrop-blur">
         <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8">
-          <ul className="flex items-center gap-1 overflow-x-auto scrollbar-none">
+          <ul className="flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
             {NAV.map((item) => (
               <li key={item.label}>
                 <Link
@@ -131,14 +127,14 @@ function ArticleCard({ article }: { article: Article }) {
   );
 
   return (
-    <article className="group border border-black bg-background">
+    <article className="group border border-black bg-background shadow-[0_2px_0_0_rgba(0,0,0,1)] transition-shadow duration-200 hover:shadow-[0_6px_0_0_rgba(0,0,0,1)]">
       <div className="relative aspect-[16/10] overflow-hidden bg-muted border-b border-black">
         {linkTo ? (
           <Link to={linkTo.to} params={linkTo.params}>
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
               width={800}
               height={500}
               loading="lazy"
@@ -148,7 +144,7 @@ function ArticleCard({ article }: { article: Article }) {
           <img
             src={article.image}
             alt={article.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
             width={800}
             height={500}
             loading="lazy"
@@ -156,19 +152,26 @@ function ArticleCard({ article }: { article: Article }) {
         )}
       </div>
       <div className="p-4">
-        <Link
-          to="/kategori/$slug"
-          params={{ slug: CATEGORY_TO_SLUG[article.category] }}
-          className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-2 py-1"
-        >
-          {CATEGORY_LABEL[article.category]}
-        </Link>
+        <div className="flex items-center gap-2 mb-2">
+          <Link
+            to="/kategori/$slug"
+            params={{ slug: CATEGORY_TO_SLUG[article.category] }}
+            className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold inline-block px-2 py-1"
+          >
+            {CATEGORY_LABEL[article.category]}
+          </Link>
+          <span className="text-[10px] text-muted-foreground uppercase tracking-wider">{article.date}</span>
+        </div>
         <h2 className="font-serif-display text-xl font-bold leading-tight mb-2 text-balance">
           {TitleLink}
         </h2>
-        <p className="text-[14px] text-muted-foreground leading-relaxed line-clamp-3">
+        <p className="text-[14px] text-muted-foreground leading-relaxed line-clamp-3 mb-3">
           {article.excerpt}
         </p>
+        <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60 group-hover:text-primary transition-colors">
+          <span>Devamını Oku</span>
+          <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">→</span>
+        </div>
       </div>
     </article>
   );
