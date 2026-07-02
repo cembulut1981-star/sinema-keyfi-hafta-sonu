@@ -152,16 +152,13 @@ function ArticleCard({ article }: { article: Article }) {
         )}
       </div>
       <div className="p-4">
-        <div className="flex items-center gap-2 mb-2">
-          <Link
-            to="/kategori/$slug"
-            params={{ slug: CATEGORY_TO_SLUG[article.category] }}
-            className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold inline-block px-2 py-1"
-          >
-            {CATEGORY_LABEL[article.category]}
-          </Link>
-          <span className="text-[10px] text-muted-foreground uppercase tracking-wider">{article.date}</span>
-        </div>
+        <Link
+          to="/kategori/$slug"
+          params={{ slug: CATEGORY_TO_SLUG[article.category] }}
+          className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-2 py-1"
+        >
+          {CATEGORY_LABEL[article.category]}
+        </Link>
         <h2 className="font-serif-display text-xl font-bold leading-tight mb-2 text-balance">
           {TitleLink}
         </h2>
