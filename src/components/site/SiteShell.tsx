@@ -27,7 +27,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
 
 function Header() {
   return (
-    <header className="border-b border-border">
+    <header>
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
         <div className="flex items-center gap-1">
           <img src={logoIcon} alt="" className="h-20 w-auto" />
@@ -46,7 +46,7 @@ function Header() {
 function Nav() {
   return (
     <>
-      <nav className="border-b border-border sticky top-0 z-30 bg-background/95 backdrop-blur">
+      <nav className="border-t border-black border-b border-black sticky top-0 z-30 bg-background/95 backdrop-blur">
         <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8">
           <ul className="flex items-center gap-1 overflow-x-auto scrollbar-none">
             {NAV.map((item) => (
