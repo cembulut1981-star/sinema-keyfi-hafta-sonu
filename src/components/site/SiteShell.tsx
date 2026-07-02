@@ -165,10 +165,21 @@ function ArticleCard({ article }: { article: Article }) {
         <p className="text-[14px] text-muted-foreground leading-relaxed line-clamp-3 mb-3">
           {article.excerpt}
         </p>
-        <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60 group-hover:text-primary transition-colors">
-          <span>Devamını Oku</span>
-          <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">→</span>
-        </div>
+        {linkTo ? (
+          <Link
+            to={linkTo.to}
+            params={linkTo.params}
+            className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60 group-hover:text-primary transition-colors"
+          >
+            <span>Devamını Oku</span>
+            <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">→</span>
+          </Link>
+        ) : (
+          <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
+            <span>Devamını Oku</span>
+            <span>→</span>
+          </div>
+        )}
       </div>
     </article>
   );

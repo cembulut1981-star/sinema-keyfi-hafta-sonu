@@ -45,13 +45,12 @@ function CategoryPage() {
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <div className="mb-10 pb-6 border-b border-border">
-          <div className="font-display uppercase tracking-widest text-[11px] text-muted-foreground mb-2">
+          <div className="font-display uppercase tracking-widest text-[11px] text-foreground mb-2">
             Kategori
           </div>
           <h1 className="font-display text-5xl font-black text-primary uppercase">
             {label}
           </h1>
-          <p className="mt-3 text-sm text-muted-foreground">{articles.length} yazı</p>
         </div>
         {articles.length > 0 ? (
           <ArticleGrid articles={articles} />
