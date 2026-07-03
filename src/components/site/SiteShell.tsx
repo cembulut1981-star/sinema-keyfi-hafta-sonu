@@ -116,11 +116,11 @@ function getArticleLink(article: Article) {
     : null;
 }
 
-export function SmallArticleCard({ article }: { article: Article }) {
+export function SmallArticleCard({ article, className }: { article: Article; className?: string }) {
   const linkTo = getArticleLink(article);
 
   return (
-    <article className="group flex items-stretch border border-black bg-background shadow-[0_2px_0_0_rgba(0,0,0,1)] transition-shadow duration-200 hover:shadow-[0_4px_0_0_rgba(0,0,0,1)]">
+    <article className={`group flex items-stretch border border-black bg-background shadow-[0_2px_0_0_rgba(0,0,0,1)] transition-shadow duration-200 hover:shadow-[0_4px_0_0_rgba(0,0,0,1)] ${className || ""}`}>
       <div className="relative w-28 sm:w-32 flex-shrink-0 overflow-hidden bg-muted border-r border-black">
         {linkTo ? (
           <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full">

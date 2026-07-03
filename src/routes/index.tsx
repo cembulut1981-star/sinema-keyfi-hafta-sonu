@@ -17,10 +17,12 @@ export const Route = createFileRoute("/")({
 
 function FeaturedSection({ smallCards, bigCard }: { smallCards: typeof ARTICLES; bigCard: (typeof ARTICLES)[0] }) {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 mb-12">
-      <div className="flex flex-col gap-4">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 mb-12 items-stretch">
+      <div className="flex flex-col gap-4 h-full">
         {smallCards.map((a) => (
-          <SmallArticleCard key={a.id} article={a} />
+          <div key={a.id} className="flex-1 min-h-0">
+            <SmallArticleCard article={a} className="h-full" />
+          </div>
         ))}
       </div>
       <div>
