@@ -166,7 +166,7 @@ export function SmallArticleCard({ article }: { article: Article }) {
   );
 }
 
-function ArticleCard({ article }: { article: Article }) {
+export function ArticleCard({ article }: { article: Article }) {
   const linkTo = getArticleLink(article);
   const TitleLink = linkTo ? (
     <Link
