@@ -104,8 +104,8 @@ const CATEGORY_LABEL: Record<CategorySlug, string> = {
   roportajlar: "Röportaj",
 };
 
-function ArticleCard({ article }: { article: Article }) {
-  const linkTo = article.reviewSlug
+function getArticleLink(article: Article) {
+  return article.reviewSlug
     ? { to: "/inceleme/$slug" as const, params: { slug: article.reviewSlug } }
     : article.newsSlug
     ? { to: "/haber/$slug" as const, params: { slug: article.newsSlug } }
@@ -114,6 +114,60 @@ function ArticleCard({ article }: { article: Article }) {
     : article.musicSlug
     ? { to: "/muzik/$slug" as const, params: { slug: article.musicSlug } }
     : null;
+}
+
+export function SmallArticleCard({ article }: { article: Article }) {
+  const linkTo = getArticleLink(article);
+
+  return (
+    <article className="group flex items-stretch border border-black bg-background shadow-[0_2px_0_0_rgba(0,0,0,1)] transition-shadow duration-200 hover:shadow-[0_4px_0_0_rgba(0,0,0,1)]">
+      <div className="relative w-28 sm:w-32 flex-shrink-0 overflow-hidden bg-muted border-r border-black">
+        {linkTo ? (
+          <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full">
+            <img
+              src={article.image}
+              alt={article.title}
+              className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
+              width={200}
+              height={150}
+              loading="lazy"
+            />
+          </Link>
+        ) : (
+          <img
+            src={article.image}
+            alt={article.title}
+            className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
+            width={200}
+            height={150}
+            loading="lazy"
+          />
+        )}
+      </div>
+      <div className="flex flex-col justify-center p-3 min-w-0">
+        <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-1 inline-block px-1.5 py-0.5 self-start">
+          {CATEGORY_LABEL[article.category]}
+        </span>
+        {linkTo ? (
+          <Link
+            to={linkTo.to}
+            params={linkTo.params}
+            className="font-serif-display text-sm font-bold leading-snug text-foreground group-hover:text-primary transition-colors line-clamp-2"
+          >
+            {article.title}
+          </Link>
+        ) : (
+          <h3 className="font-serif-display text-sm font-bold leading-snug line-clamp-2">
+            {article.title}
+          </h3>
+        )}
+      </div>
+    </article>
+  );
+}
+
+function ArticleCard({ article }: { article: Article }) {
+  const linkTo = getArticleLink(article);
   const TitleLink = linkTo ? (
     <Link
       to={linkTo.to}
