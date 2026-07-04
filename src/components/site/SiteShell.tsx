@@ -32,7 +32,7 @@ function Header() {
           <img
             src={logoSvg}
             alt="Sine-Meta"
-            className="w-full h-auto invert"
+            className="w-full h-auto"
             width={2017}
             height={528}
           />
