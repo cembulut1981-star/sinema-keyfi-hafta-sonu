@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 
-import logoIcon from "@/assets/logo-icon.png";
+import logoSvg from "@/assets/logo.svg";
 import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
