@@ -26,14 +26,36 @@ export function SiteShell({ children }: { children: ReactNode }) {
 
 function Header() {
   return (
-    <header>
+    <header className="relative overflow-hidden">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-center">
-        <div className="flex items-center gap-1">
-          <img src={logoIcon} alt="" className="h-20 w-auto" />
-          <Link to="/" className="font-display text-4xl font-black text-primary leading-none">
-            SİNE-META
-          </Link>
-        </div>
+        <Link to="/" className="group relative flex items-center gap-2">
+          {/* small "live" badge, left of the logo */}
+          <span className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-black text-white px-2.5 py-1 text-[10px] font-display font-black uppercase tracking-[0.15em]">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="absolute inline-flex h-full w-full rounded-full bg-primary opacity-75 animate-ping" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
+            </span>
+            Canlı
+          </span>
+
+          <img src={logoIcon} alt="" className="h-20 w-auto transition-transform duration-500 group-hover:rotate-[-6deg]" />
+
+          <div className="relative leading-none">
+            <span className="font-display text-4xl font-black text-primary leading-none">
+              SİNE-META
+            </span>
+            {/* animated underline sweep */}
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute left-0 -bottom-1 h-[3px] w-full bg-gradient-to-r from-primary via-black to-primary bg-[length:200%_100%] animate-[shimmer_3s_linear_infinite]"
+            />
+          </div>
+
+          {/* small "est." chip, right of the logo */}
+          <span className="hidden sm:inline-block ml-1 border border-black bg-background px-1.5 py-0.5 text-[9px] font-display font-black uppercase tracking-[0.2em] rotate-[-4deg]">
+            Est. '26
+          </span>
+        </Link>
       </div>
     </header>
   );
