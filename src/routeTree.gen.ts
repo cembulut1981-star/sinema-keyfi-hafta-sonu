@@ -1,3 +1,4 @@
+
 /* eslint-disable */
 
 // @ts-nocheck
@@ -10,8 +11,6 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
-import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
 import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
 import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
 import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
@@ -19,16 +18,6 @@ import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const MuzikSlugRoute = MuzikSlugRouteImport.update({
-  id: '/muzik/$slug',
-  path: '/muzik/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ListeSlugRoute = ListeSlugRouteImport.update({
-  id: '/liste/$slug',
-  path: '/liste/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const KategoriSlugRoute = KategoriSlugRouteImport.update({
@@ -52,16 +41,12 @@ export interface FileRoutesByFullPath {
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
-  '/liste/$slug': typeof ListeSlugRoute
-  '/muzik/$slug': typeof MuzikSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
-  '/liste/$slug': typeof ListeSlugRoute
-  '/muzik/$slug': typeof MuzikSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -69,34 +54,13 @@ export interface FileRoutesById {
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
-  '/liste/$slug': typeof ListeSlugRoute
-  '/muzik/$slug': typeof MuzikSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    | '/'
-    | '/haber/$slug'
-    | '/inceleme/$slug'
-    | '/kategori/$slug'
-    | '/liste/$slug'
-    | '/muzik/$slug'
+  fullPaths: '/' | '/haber/$slug' | '/inceleme/$slug' | '/kategori/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to:
-    | '/'
-    | '/haber/$slug'
-    | '/inceleme/$slug'
-    | '/kategori/$slug'
-    | '/liste/$slug'
-    | '/muzik/$slug'
-  id:
-    | '__root__'
-    | '/'
-    | '/haber/$slug'
-    | '/inceleme/$slug'
-    | '/kategori/$slug'
-    | '/liste/$slug'
-    | '/muzik/$slug'
+  to: '/' | '/haber/$slug' | '/inceleme/$slug' | '/kategori/$slug'
+  id: '__root__' | '/' | '/haber/$slug' | '/inceleme/$slug' | '/kategori/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -104,8 +68,6 @@ export interface RootRouteChildren {
   HaberSlugRoute: typeof HaberSlugRoute
   IncelemeSlugRoute: typeof IncelemeSlugRoute
   KategoriSlugRoute: typeof KategoriSlugRoute
-  ListeSlugRoute: typeof ListeSlugRoute
-  MuzikSlugRoute: typeof MuzikSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -115,20 +77,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/muzik/$slug': {
-      id: '/muzik/$slug'
-      path: '/muzik/$slug'
-      fullPath: '/muzik/$slug'
-      preLoaderRoute: typeof MuzikSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/liste/$slug': {
-      id: '/liste/$slug'
-      path: '/liste/$slug'
-      fullPath: '/liste/$slug'
-      preLoaderRoute: typeof ListeSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/kategori/$slug': {
@@ -160,8 +108,6 @@ const rootRouteChildren: RootRouteChildren = {
   HaberSlugRoute: HaberSlugRoute,
   IncelemeSlugRoute: IncelemeSlugRoute,
   KategoriSlugRoute: KategoriSlugRoute,
-  ListeSlugRoute: ListeSlugRoute,
-  MuzikSlugRoute: MuzikSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
