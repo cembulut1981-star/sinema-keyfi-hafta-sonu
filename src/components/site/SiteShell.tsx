@@ -27,12 +27,12 @@ export function SiteShell({ children }: { children: ReactNode }) {
 function Header() {
   return (
     <header className="relative overflow-hidden">
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-28 flex items-center justify-center">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-center">
         <Link to="/" className="block w-full max-w-2xl">
           <img
             src={logoSvg}
             alt="Sine-Meta"
-            className="h-20 w-auto"
+            className="h-20 w-auto mx-auto"
             width={2017}
             height={528}
           />
@@ -63,7 +63,7 @@ function Nav() {
           </ul>
         </div>
       </nav>
-      <div className="h-5 bg-primary" aria-hidden="true" />
+      <div className="h-3 bg-primary" aria-hidden="true" />
     </>
   );
 }
