@@ -255,6 +255,65 @@ Luca Guadagnino'nun Julia Roberts ve Ayo Edebiri'yi buluşturan akademik gerilim
     image: img5,
     source: "WhatCulture",
   },
+  {
+    slug: "2026-nin-simdiye-kadar-en-iyi-tv-dizileri",
+    title: "2026'nın Şimdiye Kadar En İyi TV Dizileri",
+    excerpt: "2026'nın ilk altı ayında öne çıkan ve türleri harmanlayan, kaygıları mizahla ve özgün hikâyelerle işleyen en güçlü TV dizileri.",
+    body: `Bu liste Rolling Stone'un "The Best TV Shows of 2026 So Far" yazısından esinlenerek hazırlandı. 2026'nın ilk yarısında dikkat çeken diziler, çoğunlukla endişe, kimlik ve iş dünyasının gerginliğini işlerken aynı zamanda sürprizli mizah ve orijinal anlatılar sunuyor.
+
+## 1. ‘A Knight of the Seven Kingdoms’ (HBO)
+
+*Game of Thrones* evrenine geçen bu spin-off, epik ihtişamdan çok Dunk ve Egg'in aynı zamanda komik, samimi maceralarına odaklanıyor. Hikâye, resmi destanın kenarında özgürce dolaşırken HBO'nun fantastik dünyasında yeni bir nefes gibi geliyor.
+
+## 2. ‘Bait’ (Prime)
+
+Riz Ahmed'in başrolündeki bu yapım, James Bond rolüne aday bir aktörün kimlik, utanç ve kişisel değerlerle boğuşmasını incelikle işliyor. Britanya sinemasına özgün bir kara mizah havası katıyor.
+
+## 3. ‘Beef’ Sezon 2 (Netflix)
+
+İlk sezonun karanlık ve keskin mizahını sürdüren bu devam, beklenmedik çatışmaların ve modern öfkenin toplumdaki yankılarını daha da güçlü yansıtıyor. Karakterlerin iç dünya kırılmaları izleyiciye yüksek tansiyonlu bir deneyim sunuyor.
+
+## 4. ‘Big Mistakes’ (Netflix)
+
+Güç, medya ve ceza adaleti üzerinden ilerleyen bu iş, hataların nasıl büyük bir sarmala dönüşebileceğini anlatıyor. Ağır tonu yanlış anlaşılmadan uzak, mizahı ve gerilimi dengeli tutan bir yapım.
+
+## 5. ‘The Comeback’ Sezon 3 (HBO)
+
+Dizi dünyasının acımasızlığına ve yeniden doğma çabasına bir gönderme olarak geri dönen bu sezon, karakterin kamera karşısındaki düşüşünü ve aynı zamanda yeniden yükselişini trajikomik bir dille sunuyor.
+
+## 6. ‘The Fall and Rise of Reggie Dinkins’ (NBC)
+
+Kamu hizmeti, medya ve siyasi kariyer arasında sıkışan bir karakterin hikâyesi. NBC formatına rağmen yapım cesur bir siyasi hiciv ve kimlik sorgulaması sunuyor.
+
+## 7. ‘Hacks’ Sezon 5 (Max)
+
+Komedi yazarlığının acımasız dünyasına giren bu sezon, kuşak çatışmalarını ve yaratıcılık baskısını hicivsel ama yumuşak bir tonla işliyor. Max için klasik bir hit olmaya devam ediyor.
+
+## 8. ‘Industry’ Sezon 4 (HBO)
+
+Finans dünyasının acımasız rekabetini gösteren bu sezon, genç profesyonellerin ahlaki sınırları zorlamasını ve başarı uğruna nasıl değiştiğini gözler önüne seriyor.
+
+## 9. ‘Margo’s Got Money Troubles’ (Apple TV)
+
+Apple TV'nin genç yetişkin komedisi, borç ve yetişkinlik kaygısını renkli ve akıcı bir dille anlatıyor. Margo'nun maddi sorunları, beklenmedik mizah ve samimiyetle birleştiriliyor.
+
+## 10. ‘The Pitt’ Sezon 2 (HBO Max)
+
+Hastane draması ile kurumsal çatışmayı harmanlayan bu sezon, sağlık sektörünün kaosu ve insanî öykülerini güçlü karakterler üzerinden anlatıyor.
+
+## 11. ‘Widow’s Bay’ (Apple TV)
+
+Sinister bir kıyı kasabasına yerleşen yeni dul karakterlerin etrafında dönen bu gizem dizisi, gerilimi yavaş yavaş yükselten atmosferiyle etkileyici bir gerilim sunuyor.
+
+## 12. ‘Wonder Man’ (Disney+)
+
+Süper kahraman formatına meta bir bakış getiren bu dizi, Hollywood ve üretim endüstrisi içindeki kimlik bunalımlarını zekice işliyor. Disney+ için hem eğlenceli hem düşündürücü bir seçenek.
+
+Kaynak: Rolling Stone – "The Best TV Shows of 2026 So Far".
+`,
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/06/Best-TV-so-far-2026.jpg?w=1581&h=1054&crop=1",
+    source: "Rolling Stone",
+  },
 ];
 
 export function getList(slug: string) {

@@ -119,43 +119,60 @@ function getArticleLink(article: Article) {
     : null;
 }
 
-export function SmallArticleCard({ article, className }: { article: Article; className?: string }) {
+export function SmallArticleCard({
+  article,
+  className,
+  badgeInImage = false,
+}: {
+  article: Article;
+  className?: string;
+  badgeInImage?: boolean;
+}) {
   const linkTo = getArticleLink(article);
 
   return (
-    <article className={`group flex items-stretch border border-black bg-background shadow-[0_2px_0_0_rgba(0,0,0,1)] transition-shadow duration-200 hover:shadow-[0_4px_0_0_rgba(0,0,0,1)] ${className || ""}`}>
-      <div className="relative w-28 sm:w-32 flex-shrink-0 overflow-hidden bg-muted border-r border-black">
-        {linkTo ? (
-          <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full">
+    <article className={`relative flex items-stretch bg-background border-b-[3px] border-black ${className || ""}`}>
+      <div className="relative w-28 sm:w-32 flex-shrink-0 z-10">
+        <div className="relative h-full w-full overflow-hidden bg-muted">
+          {linkTo ? (
+            <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
+              <img
+                src={article.image}
+                alt={article.title}
+                className="w-full h-full object-cover"
+                width={200}
+                height={150}
+                loading="lazy"
+              />
+            </Link>
+          ) : (
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
+              className="w-full h-full object-cover"
               width={200}
               height={150}
               loading="lazy"
             />
-          </Link>
-        ) : (
-          <img
-            src={article.image}
-            alt={article.title}
-            className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
-            width={200}
-            height={150}
-            loading="lazy"
-          />
-        )}
+          )}
+          {badgeInImage ? (
+            <span className="absolute bottom-2 right-2 font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
+              {CATEGORY_LABEL[article.category]}
+            </span>
+          ) : null}
+        </div>
       </div>
       <div className="flex flex-col justify-center p-3 min-w-0">
-        <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-1 inline-block px-1.5 py-0.5 self-start">
-          {CATEGORY_LABEL[article.category]}
-        </span>
+        {!badgeInImage ? (
+          <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-1 inline-block px-1.5 py-0.5 self-start">
+            {CATEGORY_LABEL[article.category]}
+          </span>
+        ) : null}
         {linkTo ? (
           <Link
             to={linkTo.to}
             params={linkTo.params}
-            className="font-serif-display text-sm font-bold leading-snug text-foreground group-hover:text-primary transition-colors line-clamp-2"
+            className="font-serif-display text-sm font-bold leading-snug text-foreground line-clamp-2"
           >
             {article.title}
           </Link>
@@ -172,11 +189,7 @@ export function SmallArticleCard({ article, className }: { article: Article; cla
 export function ArticleCard({ article }: { article: Article }) {
   const linkTo = getArticleLink(article);
   const TitleLink = linkTo ? (
-    <Link
-      to={linkTo.to}
-      params={linkTo.params}
-      className="block group-hover:text-primary transition-colors"
-    >
+    <Link to={linkTo.to} params={linkTo.params} className="block">
       {article.title}
     </Link>
   ) : (
@@ -184,14 +197,14 @@ export function ArticleCard({ article }: { article: Article }) {
   );
 
   return (
-    <article className="group border border-black bg-background shadow-[0_2px_0_0_rgba(0,0,0,1)] transition-shadow duration-200 hover:shadow-[0_6px_0_0_rgba(0,0,0,1)]">
-      <div className="relative aspect-[16/10] overflow-hidden bg-muted border-b border-black">
+    <article className="bg-background border-b-[3px] border-black">
+      <div className="relative aspect-[16/10] overflow-hidden bg-muted">
         {linkTo ? (
           <Link to={linkTo.to} params={linkTo.params}>
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
+              className="w-full h-full object-cover"
               width={800}
               height={500}
               loading="lazy"
@@ -201,7 +214,7 @@ export function ArticleCard({ article }: { article: Article }) {
           <img
             src={article.image}
             alt={article.title}
-            className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500"
+            className="w-full h-full object-cover"
             width={800}
             height={500}
             loading="lazy"
@@ -209,13 +222,9 @@ export function ArticleCard({ article }: { article: Article }) {
         )}
       </div>
       <div className="p-4">
-        <Link
-          to="/kategori/$slug"
-          params={{ slug: CATEGORY_TO_SLUG[article.category] }}
-          className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-2 py-1"
-        >
+        <span className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-2 py-1">
           {CATEGORY_LABEL[article.category]}
-        </Link>
+        </span>
         <h2 className="font-serif-display text-xl font-bold leading-tight mb-2 text-balance">
           {TitleLink}
         </h2>
@@ -223,13 +232,9 @@ export function ArticleCard({ article }: { article: Article }) {
           {article.excerpt}
         </p>
         {linkTo ? (
-          <Link
-            to={linkTo.to}
-            params={linkTo.params}
-            className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60 group-hover:text-primary transition-colors"
-          >
+          <Link to={linkTo.to} params={linkTo.params} className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
             <span>Devamını Oku</span>
-            <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">→</span>
+            <span>→</span>
           </Link>
         ) : (
           <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
