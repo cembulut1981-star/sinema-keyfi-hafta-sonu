@@ -131,9 +131,9 @@ export function SmallArticleCard({
   const linkTo = getArticleLink(article);
 
   return (
-    <article className={`relative flex items-stretch bg-background border-b-[3px] border-black ${className || ""}`}>
-      <div className="relative w-28 sm:w-32 flex-shrink-0 z-10">
-        <div className="relative h-full w-full overflow-hidden bg-muted">
+    <article className={`relative flex flex-col bg-background border-b-[3px] border-black ${className || ""}`}>
+      <div className="relative w-full">
+        <div className="relative aspect-square w-full max-h-36 overflow-hidden bg-muted">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
               <img
@@ -141,7 +141,7 @@ export function SmallArticleCard({
                 alt={article.title}
                 className="w-full h-full object-cover"
                 width={200}
-                height={150}
+                height={200}
                 loading="lazy"
               />
             </Link>
@@ -151,7 +151,7 @@ export function SmallArticleCard({
               alt={article.title}
               className="w-full h-full object-cover"
               width={200}
-              height={150}
+              height={200}
               loading="lazy"
             />
           )}
@@ -172,12 +172,12 @@ export function SmallArticleCard({
           <Link
             to={linkTo.to}
             params={linkTo.params}
-            className="font-serif-display text-sm font-bold leading-snug text-foreground line-clamp-2"
+            className="font-serif-display text-sm font-bold leading-snug text-foreground break-words"
           >
             {article.title}
           </Link>
         ) : (
-          <h3 className="font-serif-display text-sm font-bold leading-snug line-clamp-2">
+          <h3 className="font-serif-display text-sm font-bold leading-snug break-words">
             {article.title}
           </h3>
         )}
