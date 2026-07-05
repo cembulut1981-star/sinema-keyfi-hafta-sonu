@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 
-import logoSvg from "@/assets/logo.svg";
+import logoAsset from "@/assets/logo.svg.asset.json";
 import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
@@ -30,7 +30,7 @@ function Header() {
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-center">
         <Link to="/" className="block w-full max-w-2xl">
           <img
-            src={logoSvg}
+            src={logoAsset.url}
             alt="Sine-Meta"
             className="h-20 w-auto mx-auto"
             width={2017}
