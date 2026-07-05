@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
+import { ShareButtons } from "@/components/site/ShareButtons";
 import { getMusic, MUSIC } from "@/data/music";
 
 export const Route = createFileRoute("/muzik/$slug")({
@@ -62,6 +63,8 @@ function MusicPage() {
         <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
           <ReactMarkdown>{m.body}</ReactMarkdown>
         </div>
+
+        <ShareButtons title={m.title} path={`/muzik/${slug}`} />
 
         {others.length > 0 && (
           <section className="mt-16 pt-8 border-t border-border">
