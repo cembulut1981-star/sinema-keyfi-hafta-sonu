@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
+import { ShareButtons } from "@/components/site/ShareButtons";
 import { getReview, REVIEWS } from "@/data/reviews";
 
 export const Route = createFileRoute("/inceleme/$slug")({
@@ -63,6 +64,8 @@ function ReviewPage() {
         <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
           <ReactMarkdown>{r.body}</ReactMarkdown>
         </div>
+
+        <ShareButtons title={r.title} path={`/inceleme/${slug}`} />
 
         {others.length > 0 && (
           <section className="mt-16 pt-8 border-t border-border">

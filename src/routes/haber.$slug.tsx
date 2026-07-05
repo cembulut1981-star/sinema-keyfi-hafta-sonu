@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
+import { ShareButtons } from "@/components/site/ShareButtons";
 import { getNews, NEWS } from "@/data/news";
 
 export const Route = createFileRoute("/haber/$slug")({
@@ -62,6 +63,8 @@ function NewsPage() {
         <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
           <ReactMarkdown>{n.body}</ReactMarkdown>
         </div>
+
+        <ShareButtons title={n.title} path={`/haber/${slug}`} />
 
         {others.length > 0 && (
           <section className="mt-16 pt-8 border-t border-border">
