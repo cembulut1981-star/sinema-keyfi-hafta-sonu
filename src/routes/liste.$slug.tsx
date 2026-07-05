@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
+import { ShareButtons } from "@/components/site/ShareButtons";
 import { getList, LISTS } from "@/data/lists";
 
 export const Route = createFileRoute("/liste/$slug")({
@@ -62,6 +63,8 @@ function ListPage() {
         <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
           <ReactMarkdown>{l.body}</ReactMarkdown>
         </div>
+
+        <ShareButtons title={l.title} path={`/liste/${slug}`} />
 
         {others.length > 0 && (
           <section className="mt-16 pt-8 border-t border-border">
