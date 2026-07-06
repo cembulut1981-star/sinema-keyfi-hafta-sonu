@@ -35,8 +35,9 @@ Filmin gerçek sorunu tempoda ortaya çıkıyor. Tewkesbury'nin annesi kaçırı
 
 Sonuç olarak *Enola Holmes 3*, Millie Bobby Brown hayranları için hâlâ izlenebilir bir Netflix akşamı sunuyor; ama ilk filmin taze enerjisini ya da ikinci filmin dolu dolu kaosunu arayanlar için biraz "temel seviye" kalıyor. Bir sonraki bölüm için tek dileğimiz şu: Bırakın Enola gerçekten büyüsün — ve gizemler de onunla birlikte gerçekten karmaşıklaşsın.`,
   },
-
+  {
     slug: "glastonbury-the-movie",
+
     origTitle: "Glastonbury the Movie",
     title: "\"Glastonbury the Movie\" — Çamur, Müzik ve Kaybolan Masumiyet",
     excerpt: "Dijital dünyanın gürültüsünden uzak, 1993 Glastonbury festivalinin çamurlu ve özgür ruhuna yapılan, 16mm dokusunda nostaljik ve antropolojik bir yolculuk.",
