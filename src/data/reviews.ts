@@ -12,6 +12,7 @@ export type Review = {
   rating: string;
   body: string;
   image: string;
+  videoUrl?: string;
 };
 
 export const REVIEWS: Review[] = [
