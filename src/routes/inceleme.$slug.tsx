@@ -58,7 +58,17 @@ function ReviewPage() {
         </div>
 
         <div className="relative aspect-[16/9] overflow-hidden bg-muted my-8">
-          <img src={r.image} alt={r.title} className="w-full h-full object-cover" />
+          {r.videoUrl ? (
+            <iframe
+              src={r.videoUrl}
+              title={r.title}
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <img src={r.image} alt={r.title} className="w-full h-full object-cover" />
+          )}
         </div>
 
         <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
