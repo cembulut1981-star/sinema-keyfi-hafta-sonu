@@ -67,7 +67,7 @@ function Index() {
   const bigPool = ARTICLES.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
   const smallPool = ARTICLES.filter((a) => a.category === "haberler" || a.category === "diziler");
 
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 20; i++) {
     const center = bigPool.find((a) => !used.has(a.id));
     if (!center) break;
     used.add(center.id);
