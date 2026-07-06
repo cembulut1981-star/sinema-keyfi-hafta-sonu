@@ -70,35 +70,21 @@ function Index() {
   const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
 
   while (true) {
-    // Prefer a "big" article as center; fall back to any remaining article so
-    // we never leave orphans dangling in a mismatched grid at the bottom.
-    const center = pickUnused(bigPool) ?? pickUnused(ARTICLES);
+    // Only build rows from proper big+small combinations so every row has
+    // matching heights. Leftover articles are dropped to avoid ragged gaps.
+    const center = pickUnused(bigPool);
     if (!center) break;
-    used.add(center.id);
 
     const sides: Article[] = [];
     for (const a of smallPool) {
       if (sides.length === 4) break;
-      if (!used.has(a.id)) {
-        sides.push(a);
-        used.add(a.id);
-      }
+      if (!used.has(a.id)) sides.push(a);
     }
-    if (sides.length < 4) {
-      for (const a of ARTICLES) {
-        if (sides.length === 4) break;
-        if (!used.has(a.id)) {
-          sides.push(a);
-          used.add(a.id);
-        }
-      }
-    }
-    if (sides.length === 4) {
-      rows.push({ center, sides });
-    } else {
-      // Not enough articles left for a full row — stop rather than render a broken strip.
-      break;
-    }
+    if (sides.length < 4) break;
+
+    used.add(center.id);
+    for (const s of sides) used.add(s.id);
+    rows.push({ center, sides });
   }
 
   return (
