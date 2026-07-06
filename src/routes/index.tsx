@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import { ArticleCard, ArticleGrid, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
+import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
 
 export const Route = createFileRoute("/")({
