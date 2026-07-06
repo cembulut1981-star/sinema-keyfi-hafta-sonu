@@ -22,7 +22,7 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
     ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)]"
     : "grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)]";
   return (
-    <section className={`grid gap-6 mb-12 ${cols} items-stretch h-[520px]`}>
+    <section className={`grid gap-6 mb-12 ${cols} items-stretch`}>
       {reverse ? (
         <>
           <div className="min-h-0 h-full">

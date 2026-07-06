@@ -200,7 +200,7 @@ export function ArticleCard({ article }: { article: Article }) {
 
   return (
     <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden">
-      <div className="relative flex-1 min-h-0 overflow-hidden bg-muted">
+      <div className="relative aspect-[16/10] overflow-hidden bg-muted">
         {article.videoUrl ? (
           <iframe
             src={article.videoUrl}
