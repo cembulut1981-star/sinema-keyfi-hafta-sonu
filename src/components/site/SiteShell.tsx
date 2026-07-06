@@ -131,9 +131,9 @@ export function SmallArticleCard({
   const linkTo = getArticleLink(article);
 
   return (
-    <article className={`relative flex flex-col bg-background border-b-[3px] border-black ${className || ""}`}>
+    <article className={`relative flex flex-col bg-card-green rounded-lg overflow-hidden ${className || ""}`}>
       <div className="relative w-full">
-        <div className="relative aspect-square w-full max-h-36 overflow-hidden bg-muted">
+        <div className="relative aspect-square w-full max-h-36 overflow-hidden">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
               <img
