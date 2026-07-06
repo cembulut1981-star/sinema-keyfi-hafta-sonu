@@ -132,7 +132,7 @@ export function SmallArticleCard({
 
   return (
     <article className={`relative flex flex-col bg-card-green rounded-lg overflow-hidden ${className || ""}`}>
-      <div className="relative w-full">
+      <div className="p-3 pb-2">
         <div className="relative aspect-square w-full max-h-36 overflow-hidden">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
@@ -162,7 +162,7 @@ export function SmallArticleCard({
           ) : null}
         </div>
       </div>
-      <div className="flex flex-col justify-center p-3 min-w-0">
+      <div className="flex-1 bg-background rounded-t-xl mx-3 mb-3 p-3 min-w-0">
         {!badgeInImage ? (
           <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-1 inline-block px-1.5 py-0.5 self-start">
             {CATEGORY_LABEL[article.category]}
