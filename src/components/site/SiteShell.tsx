@@ -131,24 +131,11 @@ export function SmallArticleCard({
   const linkTo = getArticleLink(article);
 
   return (
-    <div className={`relative ${className || ""}`}>
-      {/* Green square behind */}
-      <div className="absolute inset-0 bg-card-green rounded-lg" aria-hidden="true" />
-      <article className="relative flex flex-col bg-background rounded-lg overflow-hidden">
-        <div className="relative w-full">
-          <div className="relative aspect-square w-full max-h-36 overflow-hidden bg-muted">
-            {linkTo ? (
-              <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
-                <img
-                  src={article.image}
-                  alt={article.title}
-                  className="w-full h-full object-cover"
-                  width={200}
-                  height={200}
-                  loading="lazy"
-                />
-              </Link>
-            ) : (
+    <article className={`relative flex flex-col bg-card-green rounded-lg overflow-hidden ${className || ""}`}>
+      <div className="relative w-full">
+        <div className="relative aspect-square w-full max-h-36 overflow-hidden">
+          {linkTo ? (
+            <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
               <img
                 src={article.image}
                 alt={article.title}
@@ -157,36 +144,45 @@ export function SmallArticleCard({
                 height={200}
                 loading="lazy"
               />
-            )}
-            {badgeInImage ? (
-              <span className="absolute bottom-2 right-2 font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
-                {CATEGORY_LABEL[article.category]}
-              </span>
-            ) : null}
-          </div>
-        </div>
-        <div className="flex flex-col justify-center p-3 min-w-0">
-          {!badgeInImage ? (
-            <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-1 inline-block px-1.5 py-0.5 self-start">
+            </Link>
+          ) : (
+            <img
+              src={article.image}
+              alt={article.title}
+              className="w-full h-full object-cover"
+              width={200}
+              height={200}
+              loading="lazy"
+            />
+          )}
+          {badgeInImage ? (
+            <span className="absolute bottom-2 right-2 font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
               {CATEGORY_LABEL[article.category]}
             </span>
           ) : null}
-          {linkTo ? (
-            <Link
-              to={linkTo.to}
-              params={linkTo.params}
-              className="font-serif-display text-sm font-bold leading-snug text-foreground break-words"
-            >
-              {article.title}
-            </Link>
-          ) : (
-            <h3 className="font-serif-display text-sm font-bold leading-snug break-words">
-              {article.title}
-            </h3>
-          )}
         </div>
-      </article>
-    </div>
+      </div>
+      <div className="flex flex-col justify-center p-3 min-w-0">
+        {!badgeInImage ? (
+          <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-1 inline-block px-1.5 py-0.5 self-start">
+            {CATEGORY_LABEL[article.category]}
+          </span>
+        ) : null}
+        {linkTo ? (
+          <Link
+            to={linkTo.to}
+            params={linkTo.params}
+            className="font-serif-display text-sm font-bold leading-snug text-foreground break-words"
+          >
+            {article.title}
+          </Link>
+        ) : (
+          <h3 className="font-serif-display text-sm font-bold leading-snug break-words">
+            {article.title}
+          </h3>
+        )}
+      </div>
+    </article>
   );
 }
 
