@@ -70,8 +70,6 @@ function Index() {
   const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
 
   while (true) {
-    // Only build rows from proper big+small combinations so every row has
-    // matching heights. Leftover articles are dropped to avoid ragged gaps.
     const center = pickUnused(bigPool);
     if (!center) break;
 
@@ -87,12 +85,34 @@ function Index() {
     rows.push({ center, sides });
   }
 
+  // Leftovers: keep every article visible, but in uniform-height rows.
+  const leftoverBigs = bigPool.filter((a) => !used.has(a.id));
+  const leftoverSmalls = smallPool.filter((a) => !used.has(a.id));
+
   return (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         {rows.map((r, i) => (
           <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
         ))}
+
+        {leftoverBigs.length > 0 ? (
+          <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 auto-rows-fr items-stretch">
+            {leftoverBigs.map((a) => (
+              <div key={a.id} className="min-h-0 h-full">
+                <ArticleCard article={a} />
+              </div>
+            ))}
+          </section>
+        ) : null}
+
+        {leftoverSmalls.length > 0 ? (
+          <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 auto-rows-fr items-stretch">
+            {leftoverSmalls.map((a) => (
+              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+            ))}
+          </section>
+        ) : null}
       </main>
     </SiteShell>
   );
