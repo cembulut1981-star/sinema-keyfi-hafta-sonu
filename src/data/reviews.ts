@@ -12,6 +12,7 @@ export type Review = {
   rating: string;
   body: string;
   image: string;
+  videoUrl?: string;
 };
 
 export const REVIEWS: Review[] = [
@@ -22,6 +23,7 @@ export const REVIEWS: Review[] = [
     excerpt: "Dijital dünyanın gürültüsünden uzak, 1993 Glastonbury festivalinin çamurlu ve özgür ruhuna yapılan, 16mm dokusunda nostaljik ve antropolojik bir yolculuk.",
     rating: "4/5",
     image: glastonburyImg,
+    videoUrl: "https://www.youtube.com/embed/jKAfhqmJ4ME",
     body: `Robin Mahoney, Matthew Salkeld ve William Beaton üçlüsünün yönetmen koltuğunda oturduğu *Glastonbury the Movie*, modern festival kültürünün endüstriyel bir canavara dönüşmeden önceki son saf, son masum nefesi gibi karşımızda duruyor. 1993 yılının o meşhur çamurlu düzlüğünde kaydedilen bu yapım, klasik bir konser filminden ziyade, antropolojik bir kazı çalışmasını andırıyor. Akıllı telefonların ekran ışıklarının karanlığı kirletmediği, kurumsal sponsorların logolarının her köşeden fırlamadığı bir dönemin ruhunu, adeta bir zaman kapsülü titizliğiyle günümüze taşıyor.
 
 Filmin anlatı yapısı, alışılagelmiş bir "başrol" veya "vokalist" etrafında dönmüyor; burada asıl kahraman kalabalığın kendisi. Yönetmenler, kamerayı bir gözlemci gibi kalabalığın içine salıyor. Çadır kurmaya çalışan sarhoşlar, şafak vaktinde dans eden siluetler ve o meşhur İngiliz çamurunun içinde kaybolan botlar... Sinematografi, yer yer yalpalayan ama her zaman samimi olan 16mm ve 35mm dokusuyla, dijitalin o steril dünyasına bir başkaldırı niteliğinde. Görüntülerdeki grenler, festivalin tozuna ve dumanına karışarak izleyiciyi koltuğundan alıp Worthy Farm'ın tekinsiz ama özgür atmosferine bırakıyor.

@@ -201,7 +201,15 @@ export function ArticleCard({ article }: { article: Article }) {
   return (
     <article className="bg-background border-b-[3px] border-black">
       <div className="relative aspect-[16/10] overflow-hidden bg-muted">
-        {linkTo ? (
+        {article.videoUrl ? (
+          <iframe
+            src={article.videoUrl}
+            title={article.title}
+            className="w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        ) : linkTo ? (
           <Link to={linkTo.to} params={linkTo.params}>
             <img
               src={article.image}
