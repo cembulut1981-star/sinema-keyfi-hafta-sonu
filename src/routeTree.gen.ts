@@ -15,6 +15,7 @@ import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
 import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
 import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
 import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
+import { Route as DiziSlugRouteImport } from './routes/dizi.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -46,9 +47,15 @@ const HaberSlugRoute = HaberSlugRouteImport.update({
   path: '/haber/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DiziSlugRoute = DiziSlugRouteImport.update({
+  id: '/dizi/$slug',
+  path: '/dizi/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
@@ -57,6 +64,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
@@ -66,6 +74,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
   '/kategori/$slug': typeof KategoriSlugRoute
@@ -76,6 +85,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
     | '/kategori/$slug'
@@ -84,6 +94,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
     | '/kategori/$slug'
@@ -92,6 +103,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
     | '/kategori/$slug'
@@ -101,6 +113,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DiziSlugRoute: typeof DiziSlugRoute
   HaberSlugRoute: typeof HaberSlugRoute
   IncelemeSlugRoute: typeof IncelemeSlugRoute
   KategoriSlugRoute: typeof KategoriSlugRoute
@@ -152,11 +165,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HaberSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dizi/$slug': {
+      id: '/dizi/$slug'
+      path: '/dizi/$slug'
+      fullPath: '/dizi/$slug'
+      preLoaderRoute: typeof DiziSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DiziSlugRoute: DiziSlugRoute,
   HaberSlugRoute: HaberSlugRoute,
   IncelemeSlugRoute: IncelemeSlugRoute,
   KategoriSlugRoute: KategoriSlugRoute,
