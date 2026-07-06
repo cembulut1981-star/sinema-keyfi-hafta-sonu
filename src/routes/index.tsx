@@ -61,16 +61,21 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
 }
 
 function Index() {
-  // Build three mixed rows (each: 1 big + 4 small = 5 articles)
+  // Build mixed rows (each: 1 big + 4 small = 5 articles) with uniform heights.
   const rows: { center: Article; sides: Article[] }[] = [];
   const used = new Set<number>();
   const bigPool = ARTICLES.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
   const smallPool = ARTICLES.filter((a) => a.category === "haberler" || a.category === "diziler");
 
-  for (let i = 0; i < 20; i++) {
-    const center = bigPool.find((a) => !used.has(a.id));
+  const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
+
+  while (true) {
+    // Prefer a "big" article as center; fall back to any remaining article so
+    // we never leave orphans dangling in a mismatched grid at the bottom.
+    const center = pickUnused(bigPool) ?? pickUnused(ARTICLES);
     if (!center) break;
     used.add(center.id);
+
     const sides: Article[] = [];
     for (const a of smallPool) {
       if (sides.length === 4) break;
@@ -79,7 +84,6 @@ function Index() {
         used.add(a.id);
       }
     }
-    // fallback fill from any remaining articles
     if (sides.length < 4) {
       for (const a of ARTICLES) {
         if (sides.length === 4) break;
@@ -89,10 +93,13 @@ function Index() {
         }
       }
     }
-    if (sides.length === 4) rows.push({ center, sides });
+    if (sides.length === 4) {
+      rows.push({ center, sides });
+    } else {
+      // Not enough articles left for a full row — stop rather than render a broken strip.
+      break;
+    }
   }
-
-  const remaining = ARTICLES.filter((a) => !used.has(a.id));
 
   return (
     <SiteShell>
@@ -100,7 +107,6 @@ function Index() {
         {rows.map((r, i) => (
           <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
         ))}
-        <ArticleGrid articles={remaining} />
       </main>
     </SiteShell>
   );
