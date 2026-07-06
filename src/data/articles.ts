@@ -34,6 +34,7 @@ const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
   excerpt: r.excerpt,
   image: r.image,
   reviewSlug: r.slug,
+  videoUrl: r.videoUrl,
 }));
 
 const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
