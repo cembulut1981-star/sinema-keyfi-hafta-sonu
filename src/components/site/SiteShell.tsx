@@ -133,16 +133,16 @@ export function SmallArticleCard({
   return (
     <article className={`relative flex flex-col rounded-lg overflow-hidden h-full ${className || ""}`}>
       {/* Üst yarı — yeşil arka plan + fotoğraf */}
-      <div className="flex-[0.5] min-h-0 bg-card-green flex items-center justify-center p-4">
-        <div className="relative aspect-square w-full max-w-[120px] overflow-hidden">
+      <div className="flex-[0.5] min-h-0 bg-card-green flex items-center justify-center overflow-hidden">
+        <div className="relative w-full h-full">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
               <img
                 src={article.image}
                 alt={article.title}
                 className="w-full h-full object-cover"
-                width={200}
-                height={200}
+                width={400}
+                height={300}
                 loading="lazy"
               />
             </Link>
@@ -151,8 +151,8 @@ export function SmallArticleCard({
               src={article.image}
               alt={article.title}
               className="w-full h-full object-cover"
-              width={200}
-              height={200}
+              width={400}
+              height={300}
               loading="lazy"
             />
           )}
