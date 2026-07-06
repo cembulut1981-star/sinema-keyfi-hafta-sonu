@@ -17,7 +17,27 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "enola-holmes-3",
+    origTitle: "Enola Holmes 3",
+    title: "\"Enola Holmes 3\" — Büyüme Sancıları Çeken Sevimli Bir Dedektif Sagası",
+    excerpt: "Millie Bobby Brown'ın cazibesi hâlâ yerli yerinde; ancak Philip Barantini'nin devraldığı üçüncü film, olgunlaşma denemesiyle serinin coşkulu ruhu arasında kararsız kalıyor.",
+    rating: "2.5/5",
+    image: "https://www.indiewire.com/wp-content/uploads/2026/06/EH3_Unit_12046R.jpg?w=1600",
+    body: `Zaman durmuyor; görünen o ki büyük ölçüde sevimli bir Netflix film serisi için bile. Büyüme sancıları, en keskin zekâların bile kaçamadığı bir yazgı. Philip Barantini'nin yönetmen koltuğuna oturduğu *Enola Holmes 3*, Millie Bobby Brown'ın canlandırdığı genç dedektifi bir kez daha karşımıza çıkarıyor; ancak seri, ilk iki filmin coşkulu ritmini bu kez tam olarak yakalayamıyor.
+
+Brown, Nancy Springer'ın YA külliyatından beslenen bu karakter için hâlâ kusursuz bir seçim. Enola'nın hem çocuksu neşesini hem de keskin zekâsını taşıyabilecek nadir oyunculardan biri o. Ne var ki üçüncü filmde işler yürümek yerine ağır bir kostüm gibi karakterin üstüne biniyor. Barantini'nin — *Adolescence* damarından tanıdığımız — daha yetişkin, daha ağırbaşlı yaklaşımı, Jack Thorne'un senaryosunun oyuncaklı yanıyla tam olarak uyumlanamıyor. Sonuç: aynı anda hem büyümek hem de "eski Enola" olmak isteyen, dolayısıyla ikisinde de tam başarılı olamayan bir film.
+
+Açılış son derece iddialı: Malta'da çekilen görkemli bir düğün, Enola ile Lord Tewkesbury'nin (Louis Partridge) evlilik günü. Sonra klasik Enola çilesi devreye giriyor — kiliseye geç kalış, yol kesiciler, evlilik kurumuna dair kuşkular. Ardından Sherlock'un (Henry Cavill) kaçırıldığı haberiyle düğün altüst oluyor ve gizem başlıyor. Yönetmenin geniş plan tercihleri Malta'nın taşını, ışığını, denizini güzel bir kartpostal gibi kadrajlarken; hikâyenin iç ritmi bir türlü aynı özene ulaşamıyor.
+
+Filmin gerçek sorunu tempoda ortaya çıkıyor. Tewkesbury'nin annesi kaçırılıyor, otel yanıyor, Maltalı özgürlük savaşçıları sahneye giriyor, eski bir düşman geri dönüyor — ama yığılan dramatik olayların hiçbiri gerçek bir gerilim üretmiyor. Enola'nın dedektifliği bu kez zekâ pırıltısından ziyade tanık olduğu şeyleri bir bir toplayan bir gözlemciliğe dönüşüyor. Kamera, "önemli detay" olan nesneye zoom yaptığında iş çözülüyor; sanki filmin adı "dedektiflik değil, dolly zoom" gibi.
+
+Öte yandan seri, her zaman ağır konularla flört etmeyi bilmişti — kadın hakları, sınıf farkları, sanayi devriminin insana bedeli. *Enola Holmes 3* de savaş suçlarına, sömürüye, işgale değiniyor; ama bu ağır meseleleri hikâyenin doğal parçası hâline getirecek dramatik vidayı sıkamıyor. Karakter olan Enola olgunlaşıyor gibi görünürken, hikâye onunla birlikte büyüyemiyor; adeta yetişkin bir ceket giymiş çocuk gibi.
+
+Sonuç olarak *Enola Holmes 3*, Millie Bobby Brown hayranları için hâlâ izlenebilir bir Netflix akşamı sunuyor; ama ilk filmin taze enerjisini ya da ikinci filmin dolu dolu kaosunu arayanlar için biraz "temel seviye" kalıyor. Bir sonraki bölüm için tek dileğimiz şu: Bırakın Enola gerçekten büyüsün — ve gizemler de onunla birlikte gerçekten karmaşıklaşsın.`,
+  },
+  {
     slug: "glastonbury-the-movie",
+
     origTitle: "Glastonbury the Movie",
     title: "\"Glastonbury the Movie\" — Çamur, Müzik ve Kaybolan Masumiyet",
     excerpt: "Dijital dünyanın gürültüsünden uzak, 1993 Glastonbury festivalinin çamurlu ve özgür ruhuna yapılan, 16mm dokusunda nostaljik ve antropolojik bir yolculuk.",
