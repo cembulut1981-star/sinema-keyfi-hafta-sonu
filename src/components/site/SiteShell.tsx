@@ -116,6 +116,8 @@ function getArticleLink(article: Article) {
     ? { to: "/liste/$slug" as const, params: { slug: article.listSlug } }
     : article.musicSlug
     ? { to: "/muzik/$slug" as const, params: { slug: article.musicSlug } }
+    : article.seriesSlug
+    ? { to: "/dizi/$slug" as const, params: { slug: article.seriesSlug } }
     : null;
 }
 

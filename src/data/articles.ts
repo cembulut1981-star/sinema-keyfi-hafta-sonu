@@ -2,6 +2,7 @@ import { REVIEWS } from "./reviews";
 import { NEWS } from "./news";
 import { LISTS } from "./lists";
 import { MUSIC } from "./music";
+import { SERIES } from "./series";
 
 export type CategorySlug = "haberler" | "incelemeler" | "listeler" | "diziler" | "muzik" | "roportajlar";
 
@@ -24,6 +25,7 @@ export type Article = {
   newsSlug?: string;
   listSlug?: string;
   musicSlug?: string;
+  seriesSlug?: string;
   videoUrl?: string;
 };
 
@@ -64,6 +66,15 @@ const MUSIC_ARTICLES: Article[] = MUSIC.map((m, i) => ({
   musicSlug: m.slug,
 }));
 
+const SERIES_ARTICLES: Article[] = SERIES.map((s, i) => ({
+  id: 500 + i,
+  category: "diziler" as const,
+  title: s.title,
+  excerpt: s.excerpt,
+  image: s.image,
+  seriesSlug: s.slug,
+}));
+
 // Interleave arrays so categories are mixed in the feed.
 function interleave<T>(...arrays: T[][]): T[] {
   const out: T[] = [];
@@ -76,4 +87,4 @@ function interleave<T>(...arrays: T[][]): T[] {
   return out;
 }
 
-export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LIST_ARTICLES, MUSIC_ARTICLES);
+export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LIST_ARTICLES, MUSIC_ARTICLES, SERIES_ARTICLES);
