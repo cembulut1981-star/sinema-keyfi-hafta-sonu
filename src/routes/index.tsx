@@ -39,7 +39,7 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
       ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)]"
       : "grid-cols-[minmax(0,1fr)_minmax(0,2fr)]";
     return (
-      <section className={`grid gap-6 mb-12 ${cols} items-stretch`}>
+      <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[560px] ${cols} items-stretch`}>
         {reverse ? (
           <>
             <div className="min-h-0 h-full">
@@ -68,10 +68,10 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
   }
 
   const cols = reverse
-    ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)]"
-    : "grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)]";
+    ? "md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)]"
+    : "md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)]";
   return (
-    <section className={`grid gap-6 mb-12 ${cols} items-stretch`}>
+    <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[560px] ${cols} items-stretch`}>
       {reverse ? (
         <>
           <div className="min-h-0 h-full">
