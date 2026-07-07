@@ -4,6 +4,12 @@ import img_jayz from "@/assets/news-rs-music-jay-z-444.jpg";
 import img_michael from "@/assets/news-rs-music-michael-biopic.jpg";
 import img_gabriel from "@/assets/news-rs-music-peter-gabriel.jpg";
 import img_rush from "@/assets/news-rs-music-rush-geddy-lee.jpg";
+import img_yungblud from "@/assets/news-rs-music-yungblud.jpg";
+import img_ramones from "@/assets/news-rs-music-ramones.jpg";
+import img_u2 from "@/assets/news-rs-music-u2-list.jpg";
+import img_rosalia from "@/assets/news-rs-music-rosalia.jpg";
+import img_bennett from "@/assets/news-rs-music-lauren-bennett.jpg";
+
 
 export type MusicItem = {
   slug: string;
