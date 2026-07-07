@@ -72,7 +72,7 @@ function Footer() {
   return (
     <footer className="border-t-4 border-primary mt-20 bg-gradient-to-b from-background to-muted/40">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <span className="font-display text-4xl sm:text-5xl font-black tracking-tight uppercase bg-gradient-to-r from-primary via-primary/70 to-primary bg-clip-text text-transparent drop-shadow-sm">
+        <span className="font-display text-3xl sm:text-4xl font-black tracking-tight uppercase leading-[1.4] py-2 bg-gradient-to-r from-primary via-primary/70 to-primary bg-clip-text text-transparent drop-shadow-sm">
           SİNE&#8209;META
         </span>
         <span className="text-black font-bold text-sm tracking-wide">
