@@ -1,7 +1,25 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
 
 import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
+
+// Slugs that only appear in the "Daha Fazla Göster" (load-more) extra row.
+const EXTRA_REVIEW_SLUGS = new Set(["good-luck-have-fun-dont-die"]);
+const EXTRA_NEWS_SLUGS = new Set(["yeni-yaz-dizileri-2026"]);
+const EXTRA_SERIES_SLUGS = new Set([
+  "dutton-ranch-s1-final",
+  "spider-noir-inceleme",
+  "from-son-sezon-set-ziyareti",
+]);
+
+function isExtra(a: Article) {
+  return (
+    (a.reviewSlug && EXTRA_REVIEW_SLUGS.has(a.reviewSlug)) ||
+    (a.newsSlug && EXTRA_NEWS_SLUGS.has(a.newsSlug)) ||
+    (a.seriesSlug && EXTRA_SERIES_SLUGS.has(a.seriesSlug))
+  );
+}
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -110,11 +128,17 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
 }
 
 function Index() {
+  const [showMore, setShowMore] = useState(false);
+
+  // Separate extras (revealed only after "Daha Fazla Göster") from the main feed.
+  const mainArticles = ARTICLES.filter((a) => !isExtra(a));
+  const extraArticles = ARTICLES.filter(isExtra);
+
   // Build mixed rows (each: 1 big + 4 small = 5 articles) with uniform heights.
   const rows: { center: Article; sides: Article[] }[] = [];
   const used = new Set<number>();
-  const bigPool = ARTICLES.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
-  const smallPool = ARTICLES.filter((a) => a.category === "haberler" || a.category === "diziler");
+  const bigPool = mainArticles.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
+  const smallPool = mainArticles.filter((a) => a.category === "haberler" || a.category === "diziler");
 
   const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
 
@@ -154,7 +178,13 @@ function Index() {
   }
 
   // Everything that didn't fit a full row → uniform small-card grid.
-  const leftovers = ARTICLES.filter((a) => !used.has(a.id));
+  const leftovers = mainArticles.filter((a) => !used.has(a.id));
+
+  // Build the extra row (revealed by the load-more button): 1 review center
+  // + 4 news/series smalls, styled exactly like the rows above.
+  const extraCenter = extraArticles.find((a) => a.category === "incelemeler");
+  const extraSides = extraArticles.filter((a) => a !== extraCenter);
+  const extraReverse = rows.length % 2 === 1;
 
   return (
     <SiteShell>
@@ -169,6 +199,22 @@ function Index() {
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
           </section>
+        ) : null}
+
+        {showMore && extraCenter ? (
+          <MixedRow centerCard={extraCenter} sideCards={extraSides} reverse={extraReverse} />
+        ) : null}
+
+        {!showMore && extraCenter ? (
+          <div className="flex justify-center mb-12">
+            <button
+              type="button"
+              onClick={() => setShowMore(true)}
+              className="font-display font-black uppercase tracking-wider text-sm px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+            >
+              Daha Fazla Göster
+            </button>
+          </div>
         ) : null}
       </main>
     </SiteShell>
