@@ -40,14 +40,7 @@ function ListPage() {
 
   return (
     <SiteShell>
-      <article className="mx-auto max-w-[820px] px-4 sm:px-6 lg:px-8 py-10">
-        <Link
-          to="/kategori/$slug"
-          params={{ slug: "listeler" }}
-          className="font-display uppercase tracking-widest text-[11px] text-primary hover:underline"
-        >
-          Liste
-        </Link>
+      <article className="mx-auto max-w-[820px] px-2 sm:px-3 py-10">
         <h1 className="font-serif-display text-4xl sm:text-5xl font-bold leading-tight mt-3 text-balance">
           {l.title}
         </h1>
