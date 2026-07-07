@@ -3,6 +3,7 @@ import strungImg from "@/assets/review-strung.jpg";
 import missionImg from "@/assets/review-mission.jpg";
 import littleBrotherImg from "@/assets/review-little-brother.jpg";
 import jackassImg from "@/assets/review-jackass.jpg";
+import goodLuckAsset from "@/assets/good_luck.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -143,7 +144,7 @@ Herkes 'kusursuz' demiyor; ama büyük bütçeli bir yaz filmi için beklenebile
     title: "\"Good Luck, Have Fun, Don't Die\" — Diner'da Başlayan Bir Zaman Yolculuğu Karnavalı",
     excerpt: "Sam Rockwell, Juno Temple ve Haley Lu Richardson'ı Los Angeles'ın ikonik bir diner'ında buluşturan aksiyon-komedi-bilimkurgu; gelecekten geldiğini iddia eden bir adamın rehin aldığı müşterileri dünyayı kurtaracak sıra dışı bir ekibe dönüştürüyor.",
     rating: "3.5/5",
-    image: "https://www.tvguide.com/a/img/catalog/provider/2/13/2-3d23721bebbd6f304f975ac667b17abc.jpg",
+    image: goodLuckAsset.url,
     body: `2 saat 14 dakikalık *Good Luck, Have Fun, Don't Die*, adının verdiği enerjiyi bir an bile kaybetmiyor. Los Angeles'ın ikonik bir gece diner'ında geçen açılış sekansında Sam Rockwell'in canlandırdığı isimsiz "Gelecekten Gelen Adam", elinde silahla masalara oturmuş müşterileri rehin alıyor. Ne para istiyor ne de intikam — dünyayı kurtaracak "olası adayları" arıyor.
 
 Rockwell, tam da kariyerinin bu döneminde yapması gereken türden bir performans veriyor: yarı deli, yarı melankolik, tamamen karizmatik. Juno Temple'ın canlandırdığı Susan başlangıçta filmin şüpheci sesi; Haley Lu Richardson'ın Ingrid'i ise en sıra dışı olmasına rağmen ekibin duygusal çekirdeği hâline geliyor. Üçünün diner masasındaki uzun diyaloğu, filmin en iyi 20 dakikası.

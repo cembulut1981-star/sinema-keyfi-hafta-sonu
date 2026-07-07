@@ -1,3 +1,6 @@
+import duttonAsset from "@/assets/dutton.jpg.asset.json";
+import spiderNoirAsset from "@/assets/spider_noir.jpg.asset.json";
+
 export type SeriesItem = {
   slug: string;
   title: string;
@@ -54,7 +57,7 @@ export const SERIES: SeriesItem[] = [
     title: "'Dutton Ranch' 1. Sezon Finali Bizi Havada Bıraktı",
     excerpt: "Paramount+'ın 'Yellowstone' evrenindeki yeni dizisi 'Dutton Ranch', aksiyon dolu ancak boşluklarla dolu bir birinci sezon finaliyle kapandı. İkinci sezon, bu delikleri kapatıp diziyi rayına oturtmak zorunda.",
     body: "'Dutton Ranch' birinci sezonunu, tuhaf ifşalarla dolu bir aksiyon finaliyle kapadı; ne var ki tüm parçalar tam olarak yerine oturmuyor. Ama tam da bu boşluklar, ikinci sezonun diziyi düzeltip yolunda tutması için bir fırsat sunuyor. Çünkü 'Dutton Ranch', şu an itibarıyla oldukça riskli bir noktada.\n\nSezon boyunca dizi, belli olay örgüsü detaylarını bilinçli olarak sakladı. Annette Bening'in canlandırdığı Beulah'ın 3. bölümde 'Mariano' adlı biriyle yaptığı tuhaf telefon görüşmesi, 7. bölümdeki tecavüzcüsünü — Mariano'nun yanında — öldürdüğü flashback bu ipuçlarından bazılarıydı. Finalde bu isim, ranç'a saldıran organize suç figürüne dönüşüyor; ama nedenleri, geçmişi ve Beulah ile ilişkisinin gerçek doğası hâlâ yeterince açıklanmıyor.\n\nAksiyon sekansı 'Yellowstone' evreninin en iyi geleneklerini hatırlatıyor: geniş açılar, kamyonet konvoyları, sert bir ateş çatışması. Kelly Reilly'nin performansı — Beulah'ın çevresine ördüğü suskun duvarı bir bakışla yıkabilen o oyunculuk — sezonun asıl çıpası olmaya devam ediyor. Ancak yan karakterlerin çoğu, finalin duygusal yükünü taşıyacak kadar kurulmadan bırakılmış.\n\nİkinci sezon için not: 'Dutton Ranch'in şu an ihtiyacı olan şey daha büyük setler değil, karakterlerin geçmişine daha çok saygı gösteren bir yazım. Mariano'nun kim olduğunu bilmeden onun 'kötü' olması yeterli bir motivasyon değil. Yolda düzelme umudu var; ama bu sefer dizi, kendi kurduğu tuzağa düşmemeli.",
-    image: "https://www.tvguide.com/a/img/hub/2026/07/02/f8235845-7d19-42cd-b477-e8f67f1e888e/dutton.jpg",
+    image: duttonAsset.url,
     source: "TV Guide",
   },
   {
@@ -62,7 +65,7 @@ export const SERIES: SeriesItem[] = [
     title: "'Spider-Noir' İncelemesi: Nihayet Spider-Man Yeniden Kirli ve Tuhaf",
     excerpt: "Prime Video'nun Nicolas Cage başrollü 'Spider-Noir'ı, süper kahraman türünün 'temiz' hâlinden bilinçli olarak uzaklaşan, sinsi ve stilize bir noir yorumu; olması gerekenden çok daha iyi bir dizi.",
     body: "Nicolas Cage'in canlandırdığı 1930'lar Spider-Man'i, Prime Video'nun 'Spider-Noir'ında ekrana sadece siyah-beyaz bir görüntü olarak değil, karakter olarak da geliyor. Dizi, süper kahraman türünün son on yıldaki 'temiz, evrensel, aile dostu' hâlini bilinçli biçimde tersine çeviriyor: kirli bir New York, viski kokan bir dedektiflik ofisi, ve gerçekten tuhaflaşmayı göze alan bir Peter Parker.\n\nCage'in performansı diziyi ilerlemekte olan bir gösteriye çeviriyor. Karakterin melankolisini komik bir küstahlıkla dengeliyor; hem film noir'ın soğuk gözlemci sesini hem de çizgi romanın grotesk enerjisini aynı anda taşıyor. Yan kadro da güçlü: özellikle karanlık bir kabare yıldızı olarak karşımıza çıkan yardımcı karakterle, dizinin türsel iddiasını sahiplendiğini gösteriyor.\n\nGörsellik, dizinin sırtını yasladığı en büyük unsur. Yağmurlu sokakların monokrom paleti, örümcek görüşünün sarı-kırmızı vurgularla vurulduğu sekanslar, ve seçici renk kullanımı — 'Spider-Noir' bir Marvel yan işi gibi değil, sinemasal ciddiyetle çekilmiş bir dönem noir'ı gibi hissettiriyor. Aksiyon sahneleri kısa ve sert; süper kahraman koreografisi yerine bir gangster filminin ritmini takip ediyor.\n\nEksikleri var: bazı bölümlerde tempo yavaşlıyor ve mitolojiye fazla yaslanan sahneler, dizinin kendi tonunu ödünç veriyor. Ama genel tabloda 'Spider-Noir', son yılların en cesur süper kahraman uyarlaması olmasa da en özgün olanı. Türde bir şeylerin farklı olabileceğini hatırlatıyor — ve bu tek başına önemli.",
-    image: "https://www.tvguide.com/a/img/hub/2026/02/12/760ea861-0ed1-4c17-8c1e-f9a890d7eeea/nore-still-7-3000.jpg",
+    image: spiderNoirAsset.url,
     source: "TV Guide",
   },
   {
