@@ -189,11 +189,27 @@ function Index() {
   // Everything that didn't fit a full row → uniform small-card grid.
   const leftovers = mainArticles.filter((a) => !used.has(a.id));
 
-  // Build the extra row (revealed by the load-more button): 1 review center
-  // + 4 news/series smalls, styled exactly like the rows above.
-  const extraCenter = extraArticles.find((a) => a.category === "incelemeler");
-  const extraSides = extraArticles.filter((a) => a !== extraCenter);
-  const extraReverse = rows.length % 2 === 1;
+  // Build extra rows (revealed by the load-more button) with the same
+  // 1 big + 4 sides layout. Interleave bigs (music/reviews) with smalls
+  // (news/series) so music articles are spread across rows instead of
+  // clumped together.
+  const extraBigs = extraArticles.filter(
+    (a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik",
+  );
+  const extraSmalls = extraArticles.filter(
+    (a) => a.category === "haberler" || a.category === "diziler",
+  );
+  const extraQueue: Article[] = [];
+  const maxLen = Math.max(extraBigs.length, extraSmalls.length);
+  for (let i = 0; i < maxLen; i++) {
+    if (i < extraBigs.length) extraQueue.push(extraBigs[i]);
+    if (i < extraSmalls.length) extraQueue.push(extraSmalls[i]);
+  }
+  const extraRows: { center: Article; sides: Article[] }[] = [];
+  for (let i = 0; i + 4 < extraQueue.length; i += 5) {
+    extraRows.push({ center: extraQueue[i], sides: extraQueue.slice(i + 1, i + 5) });
+  }
+  const extraLeftovers = extraQueue.slice(extraRows.length * 5);
 
   return (
     <SiteShell>
@@ -210,11 +226,27 @@ function Index() {
           </section>
         ) : null}
 
-        {showMore && extraCenter ? (
-          <MixedRow centerCard={extraCenter} sideCards={extraSides} reverse={extraReverse} />
+        {showMore && extraRows.length > 0
+          ? extraRows.map((r, i) => (
+              <MixedRow
+                key={r.center.id}
+                centerCard={r.center}
+                sideCards={r.sides}
+                reverse={(rows.length + i) % 2 === 1}
+              />
+            ))
+          : null}
+
+        {showMore && extraLeftovers.length > 0 ? (
+          <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 auto-rows-fr items-stretch">
+            {extraLeftovers.map((a) => (
+              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+            ))}
+          </section>
         ) : null}
 
-        {!showMore && extraCenter ? (
+        {!showMore && (extraRows.length > 0 || extraLeftovers.length > 0) ? (
+
           <div className="flex justify-center mb-12">
             <button
               type="button"
