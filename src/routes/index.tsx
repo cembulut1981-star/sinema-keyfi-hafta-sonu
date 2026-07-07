@@ -16,8 +16,57 @@ export const Route = createFileRoute("/")({
 });
 
 function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Article; sideCards: Article[]; reverse?: boolean }) {
-  const left = sideCards.slice(0, 2);
-  const right = sideCards.slice(2, 4);
+  // Split sides as evenly as possible so no column is empty / leaves a gap.
+  const half = Math.ceil(sideCards.length / 2);
+  const left = sideCards.slice(0, half);
+  const right = sideCards.slice(half);
+
+  // If there are no sides at all, let the big card span the whole row.
+  if (sideCards.length === 0) {
+    return (
+      <section className="grid gap-6 mb-12 grid-cols-1 items-stretch">
+        <div className="min-h-0 h-full">
+          <ArticleCard article={centerCard} />
+        </div>
+      </section>
+    );
+  }
+
+  // If only one side column is populated, use a 2-col layout so the big
+  // card and the small column share the row without an empty gap.
+  if (right.length === 0) {
+    const cols = reverse
+      ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)]"
+      : "grid-cols-[minmax(0,1fr)_minmax(0,2fr)]";
+    return (
+      <section className={`grid gap-6 mb-12 ${cols} items-stretch`}>
+        {reverse ? (
+          <>
+            <div className="min-h-0 h-full">
+              <ArticleCard article={centerCard} />
+            </div>
+            <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+              {left.map((a) => (
+                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              ))}
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+              {left.map((a) => (
+                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              ))}
+            </div>
+            <div className="min-h-0 h-full">
+              <ArticleCard article={centerCard} />
+            </div>
+          </>
+        )}
+      </section>
+    );
+  }
+
   const cols = reverse
     ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)]"
     : "grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)]";
