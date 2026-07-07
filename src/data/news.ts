@@ -113,6 +113,14 @@ export const NEWS: NewsItem[] = [
     image: "https://kotaku.com/app/uploads/2026/07/citizen-vigilante-4.jpg",
     source: "Kotaku",
   },
+  {
+    slug: "yeni-yaz-dizileri-2026",
+    title: "2026 Yaz Sezonunun Yeni Dizileri: Lindelof'un Süper Kahramanları, Larry David'in Dönüşü ve Bir 'Legally Blonde' Öncülü",
+    excerpt: "TV Guide'ın 2026 yazına özel yeni diziler rehberi, Damon Lindelof imzalı 'Lanterns'tan Larry David'in yeni komedisine, 'Legally Blonde' öncülünden Will Ferrell'ın televizyona dönüşüne kadar geniş bir yelpaze sunuyor.",
+    body: "Plaj sadece bir yığın kum, yol ayrımı benzin fiyatlarına takılıyor, aileyi ziyaret ise fazla aile demek. TV Guide'ın Tim Surette imzalı 2026 yaz rehberine göre bu yaz gerçek 'tatil', koltuğa oturup yeni dizileri açmakla mümkün. Rehber, sezonun 39 kayda değer yeni yapımını sıralıyor; öne çıkan başlıklar bile başlı başına bir program oluşturuyor.\n\nHBO Max cephesinde en büyük iddia Damon Lindelof'un adını verdiği 'Lanterns'; DC evrenindeki Green Lantern hikâyesini Lindelof'un karakter odaklı diline uyarlıyor. Kyle Chandler kadronun çıpası; James Gunn'ın yeni DCU stratejisinin televizyon ayağı olarak bekleniyor. Larry David'in HBO ile yaptığı çok yıllık anlaşma ise nihayet ilk meyvesini veriyor — 'Curb Your Enthusiasm' sonrası yeni komedisi bu yaz izleyiciyle buluşacak.\n\nNostalji tarafında iki büyük hamle var: MGM+'ın 'Legally Blonde' öncülü 'Elle', genç Elle Woods'un Harvard'a girmeden önceki lise yıllarını anlatıyor; 'Big Bang Theory' evreninde ise Sheldon-Amy hattını sürdüren yeni bir spinoff geliyor. Will Ferrell ise Peacock için hazırlanan bir yarı-otobiyografik komedi ile uzun aradan sonra televizyona dönüyor. Kitap uyarlaması hayranları için de bereketli bir sezon: birden fazla popüler roman perdeye taşınıyor.\n\nÖzet olarak: klimalı bir odada koltuğa uzanıp uzaktan kumandayı eline alan herkes için bu yaz, uzun süredir görülmeyen kadar zengin. Rehberin tam listesine göre farklı zevklere hitap eden en az bir düzine güçlü aday var; asıl mesele hangisiyle başlayacağınıza karar vermek.",
+    image: "https://www.tvguide.com/a/img/hub/2026/06/04/2aaafe9c-cea0-44c8-b20c-51028d3aa3c2/lanterns.jpg",
+    source: "TV Guide",
+  },
 ];
 
 export function getNews(slug: string) { return NEWS.find((n) => n.slug === slug); }
