@@ -69,25 +69,31 @@ function Index() {
 
   const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
 
+  // Keep alternating mixed rows for the entire feed. When bigs run out,
+  // promote a small to the center slot so the rhythm continues.
   while (true) {
-    const center = pickUnused(bigPool);
+    let center = pickUnused(bigPool);
+    if (!center) center = pickUnused(smallPool);
     if (!center) break;
+    used.add(center.id);
 
     const sides: Article[] = [];
+    // Prefer smalls as sides; fall back to remaining bigs if smalls run out.
     for (const a of smallPool) {
       if (sides.length === 4) break;
       if (!used.has(a.id)) sides.push(a);
     }
-    if (sides.length < 4) break;
-
-    used.add(center.id);
+    if (sides.length < 4) {
+      for (const a of bigPool) {
+        if (sides.length === 4) break;
+        if (!used.has(a.id)) sides.push(a);
+      }
+    }
     for (const s of sides) used.add(s.id);
-    rows.push({ center, sides });
-  }
 
-  // Leftovers: keep every article visible, but in uniform-height rows.
-  const leftoverBigs = bigPool.filter((a) => !used.has(a.id));
-  const leftoverSmalls = smallPool.filter((a) => !used.has(a.id));
+    rows.push({ center, sides });
+    if (sides.length === 0 && !pickUnused(bigPool) && !pickUnused(smallPool)) break;
+  }
 
   return (
     <SiteShell>
@@ -95,24 +101,6 @@ function Index() {
         {rows.map((r, i) => (
           <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
         ))}
-
-        {leftoverBigs.length > 0 ? (
-          <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 auto-rows-fr items-stretch">
-            {leftoverBigs.map((a) => (
-              <div key={a.id} className="min-h-0 h-full">
-                <ArticleCard article={a} />
-              </div>
-            ))}
-          </section>
-        ) : null}
-
-        {leftoverSmalls.length > 0 ? (
-          <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 auto-rows-fr items-stretch">
-            {leftoverSmalls.map((a) => (
-              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
-            ))}
-          </section>
-        ) : null}
       </main>
     </SiteShell>
   );
