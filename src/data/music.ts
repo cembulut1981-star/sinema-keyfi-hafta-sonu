@@ -4,6 +4,12 @@ import img_jayz from "@/assets/news-rs-music-jay-z-444.jpg";
 import img_michael from "@/assets/news-rs-music-michael-biopic.jpg";
 import img_gabriel from "@/assets/news-rs-music-peter-gabriel.jpg";
 import img_rush from "@/assets/news-rs-music-rush-geddy-lee.jpg";
+import img_yungblud from "@/assets/news-rs-music-yungblud.jpg";
+import img_ramones from "@/assets/news-rs-music-ramones.jpg";
+import img_u2 from "@/assets/news-rs-music-u2-list.jpg";
+import img_rosalia from "@/assets/news-rs-music-rosalia.jpg";
+import img_bennett from "@/assets/news-rs-music-lauren-bennett.jpg";
+
 
 export type MusicItem = {
   slug: string;
@@ -55,7 +61,48 @@ export const MUSIC: MusicItem[] = [
     image: img_rush,
     source: "Rolling Stone",
   },
+  {
+    slug: "yungblud-industry-plant-destegi",
+    title: "Yungblud'a \"Industry Plant\" Suçlamalarına Karşı SZA ve Anthrax'ten Destek Yağdı",
+    excerpt: "Bludfest sahnesinde gözyaşlarını tutmakta zorlanan Yungblud, \"industry plant\" (endüstri kuklası) suçlamalarına yanıt verdi. SZA, Scott Ian ve Lauren Jauregui gibi isimler sanatçıya kamuoyu önünde destek verdi.",
+    body: "İngiliz punk rock sanatçısı Yungblud, düzenlediği Bludfest festivalinin üçüncü yılını Çekya'da kapatırken duygusal anlar yaşadı. 20 bin kişilik kalabalığa hitap eden sanatçı, gözyaşlarını güçlükle tutarak \"her şeyden kopmuş\" hissettiğini ancak önündeki insan denizine bakınca \"dış dünyadan güvende\" olduğunu ve bir yere ait olduğunu hatırladığını söyledi.\n\nBu paylaşımın ardından sosyal medyada uzun bir yazı kaleme alarak kendisine yöneltilen \"industry plant\" — yani endüstri tarafından tepeden inme piyasaya sürülen sanatçı — suçlamalarına yanıt verdi. Yungblud, çocukluğundan bu yana verdiği emeği, küçük mekânlardan festival ana sahnesine uzanan yolculuğunu ve turnede fiziksel-ruhsal olarak ödediği bedeli anlattı.\n\nPaylaşımın hemen ardından müzik dünyasından yoğun bir destek dalgası geldi. SZA, Anthrax'in gitaristi Scott Ian, Lauren Jauregui ve oyuncu Alyssa Milano gibi isimler yorumlar ve alıntılarla sanatçının yanında olduklarını gösterdi. Sanatçının duygusal yükünü paylaşan hayranlar da bu suçlamaların haksız olduğunu vurguladı.\n\nYungblud, \"Bu sahnede olmak için yıllardır çalışıyorum. Hiçbir şey bir gecede gelmedi ve hiçbir şey kolay olmadı\" ifadelerini kullanırken, meslektaşlarından gelen destek onun yalnız olmadığını hatırlattı.",
+    image: img_yungblud,
+    source: "Rolling Stone",
+  },
+  {
+    slug: "cretin-family-ramones-50-yil",
+    title: "Billie Joe Armstrong, Tim Armstrong ve Travis Barker'dan Ramones İçin Süpergrup: Cretin Family",
+    excerpt: "Ramones'un ilk albümünün 50. yılı için Hollywood Forever Cemetery'de düzenlenecek tribute konserinde Cretin Family adlı yeni süpergrup ilk kez sahne alacak.",
+    body: "Ramones'un ilk stüdyo albümünün 50. yıl dönümü, 30 Ağustos'ta Los Angeles'taki Hollywood Forever Cemetery'de düzenlenecek resmi bir tribute gecesi ile kutlanacak. Etkinliğin en dikkat çekici sürprizi, sahne alacak isimlerin bir araya gelerek kurduğu yepyeni bir punk süpergrup olacak: Cretin Family.\n\nGrup; Green Day'den Billie Joe Armstrong, Rancid'ten Tim Armstrong, Blink-182'den Travis Barker ve Ramones'un son dönem basçısı C.J. Ramone'dan oluşuyor. Konserin geliri Dr. David Agus'un Ellison Institute Research Foundation bünyesinde yürüttüğü kanser araştırmalarına bağışlanacak.\n\nBillie Joe Armstrong yaptığı açıklamada, \"Ramones'un ruhu her arka bahçe punk konserinde, her punk kulübünde ve her festivalde yaşıyor\" dedi. \"Nesilden nesile 'cretin'ler ve tuhaflar Ramones aşığına dönüşüyor. Çocuklar Ramones'tan etkileniyor ve bunu henüz bilmiyor bile. ¡Viva Ramones!\"\n\nOrijinal kadrodaki tüm üyeleri son yirmi yılda kaybeden Ramones'un mirası, punk müziğin doğuşundan bu yana kuşaklar arasında el değiştiriyor. Cretin Family'nin ilk sahne performansı da bu mirasa saygı duruşu olarak konumlandırılıyor.",
+    image: img_ramones,
+    source: "Rolling Stone",
+  },
+  {
+    slug: "u2-street-of-dreams-lider-single",
+    title: "U2'nun Yeni Şarkısı \"Street of Dreams\" Grubun Lider Single Geleneğini Yeniliyor",
+    excerpt: "U2, dokuz yıllık aranın ardından çıkacak yeni stüdyo albümünün ilk single'ı \"Street of Dreams\"i yayımladı. Rolling Stone bu vesileyle grubun tüm lider single'larını sıraladı.",
+    body: "U2, Salı öğleden sonra bu yılın ilerleyen aylarında yayımlanması beklenen yeni stüdyo albümünün ilk single'ı \"Street of Dreams\"i dinleyiciyle buluşturdu. Hayranlar bu anı uzun süredir bekliyordu: grubun son albümü Songs of Experience, tam dokuz yıl önce yayımlanmıştı — bu, U2'nun iki stüdyo albümü arasında bugüne kadar bıraktığı en uzun ara.\n\n\"Street of Dreams\"i bütünüyle değerlendirmek için henüz erken olsa da Rolling Stone, grubun bugüne kadar yayımladığı tüm lider single'larını yeniden sıralayan bir liste yayımladı. Değerlendirmede iki ölçüt öne çıkarıldı: şarkının kendi başına kalitesi ve ait olduğu albümün sahnesini ne kadar başarılı kurduğu.\n\nListede beklendiği gibi \"Where the Streets Have No Name\" ve \"One\" gibi kariyer klasikleri üst sıralarda yer alırken, \"Get On Your Boots\" (2009) ve \"Fire\" (1981) gibi tartışmalı seçimler de tartışılıyor. \"Fire\", grubun ikinci albümü October'ın habercisi olarak yayımlandığında İngiltere'de Top 40'a giren ilk U2 single'ı olma özelliğini taşımasına rağmen bugün diskografideki en az hatırlanan çıkışlardan biri olarak kabul ediliyor.\n\nBono, The Edge, Adam Clayton ve Larry Mullen Jr. dörtlüsünün yeni albümünün sesi hakkında spekülasyonlar sürerken, \"Street of Dreams\"in özellikle 2000'lerin ortasındaki melodik rock damarına daha yakın durduğu belirtiliyor.",
+    image: img_u2,
+    source: "Rolling Stone",
+  },
+  {
+    slug: "rosalia-lux-turnesi-itiraf-kabinleri",
+    title: "Rosalía'nın Lux Turnesindeki İtiraf Kabinleri: Ünlü İsimler Sırlarını Döktü",
+    excerpt: "Rosalía Lux dünya turnesinde her gece sahneye özel bir konuk çağırarak yeniden inşa edilen gotik itiraf kabininde günah çıkartıyor. Turnede birçok ünlü isim itirafçı olarak sahneye çıktı.",
+    body: "Rosalía, pop yıldızlığında her zaman kendi çizgisini oluşturmasıyla tanınıyor; Lux dünya turnesi de bu farklılığın en somut örneklerinden biri. İspanyol sanatçı her gece göz kamaştıran görsellikler, bale figürleri ve opera vokalleriyle sahne alıyor. Bu unsurların arasına yerleştirdiği en özgün fikirlerden biri ise Lux'un dini imgelerini genişleten \"itiraf\" bölümü.\n\nKonseplerin her akşam yeniden kurulan gotik bir itiraf kabini üzerinden ilerlediği gösteride, sahneye davet edilen özel bir konuk Rosalía'ya bir itirafta bulunuyor; sanatçı hemen ardından sivri dilli \"La Perla\" şarkısına geçiyor. Bu ritüel, hem sahne şovunu kişiselleştiriyor hem de hayranların o geceyi eşsiz kılan bir sürprizle karşılaşmasını sağlıyor.\n\nTurne boyunca itiraf kabinine çok sayıda ünlü isim konuk oldu. Sanatçılar, oyuncular ve moda dünyasından figürler; ayrılıklar, kıskançlıklar, meslek hayatlarındaki pişmanlıklar ve bazen mizahi kabahatler üzerine küçük hikâyeler paylaştı. Bu itiraflar sosyal medyada da hızla viral hale gelerek Lux'u sıradan bir arena şovunun ötesine taşıdı.\n\nRosalía için Lux, hem müzikal hem tiyatral bir üretim; itiraf kabini ise sanatçının din, günah ve yıldızlık ilişkisini şovun kalbine yerleştirmesinin en cesur denemesi olarak öne çıkıyor.",
+    image: img_rosalia,
+    source: "Rolling Stone",
+  },
+  {
+    slug: "lauren-bennett-hayatini-kaybetti",
+    title: "\"Party Rock Anthem\"in Sesi Lauren Bennett 37 Yaşında Hayatını Kaybetti",
+    excerpt: "LMFAO'nun 2011 hit şarkısı \"Party Rock Anthem\"deki vokaliyle tanınan Lauren Bennett, 37 yaşında hayatını kaybetti. Ölüm nedeni henüz açıklanmadı.",
+    body: "2011 yılının fenomen hitleri arasında yer alan LMFAO şarkısı \"Party Rock Anthem\"deki vokaliyle tanınan şarkıcı Lauren Bennett, 37 yaşında hayatını kaybetti. Sanatçının G.R.L. grubundaki eski grup arkadaşları, 6 Temmuz Pazartesi günü Instagram üzerinden yaptıkları ortak açıklamayla haberi doğruladı. Ölüm nedeni paylaşılmadı.\n\nEmmalyn Estrada, Natasha Slayton ve Paula van Oppen'ın imzasını taşıyan açıklamada şu ifadeler yer aldı: \"Kalplerimiz kırık; onun bizim için ne kadar özel olduğunu anlatacak kelime bulamıyoruz. Bize armağan ettiği sevgiyi, kahkahaları ve sayısız anıyı sonsuza dek saklayacağız. Güzel ruhu pek çok hayata dokundu; derinden özlenecek ve daima sevilecek.\"\n\nBennett, İngiltere doğumluydu ve müzik kariyerinde en çok pop dünyasında iz bıraktı. \"Party Rock Anthem\" hem Billboard Hot 100 zirvesine oturmuş hem de 2010'ların en tanınmış elektronik pop şarkılarından biri olmuştu. Sanatçı ayrıca 2013'te Simon Cowell tarafından kurulan kız grubu G.R.L.'in de kurucu üyeleri arasında yer almıştı.\n\nBennett'in ani vefatı, birlikte çalıştığı isimler kadar geniş bir hayran kitlesini de derinden sarstı; sosyal medyada anma paylaşımları hızla çoğaldı. Rolling Stone, sanatçının temsilcilerinden ek açıklama beklendiğini duyurdu.",
+    image: img_bennett,
+    source: "Rolling Stone",
+  },
 ];
+
 
 export function getMusic(slug: string) {
   return MUSIC.find((m) => m.slug === slug);
