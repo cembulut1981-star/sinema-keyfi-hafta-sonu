@@ -41,6 +41,14 @@ export const SERIES: SeriesItem[] = [
     image: "https://cdn.nerdist.com/wp-content/uploads/2026/07/01150227/download-2-1.webp",
     source: "Nerdist",
   },
+  {
+    slug: "hotd-s3-cinsel-saldiri-tartismasi",
+    title: "'House of the Dragon' 3. Sezonda Bir Kez Daha Gereksiz Bir Cinsel Saldırı Sahnesi",
+    excerpt: "'House of the Dragon'ın son bölümünde Alicent Hightower'a yönelik cinsel saldırı girişimi, 'Game of Thrones'un tartışmalı geçmişinden ders çıkarılıp çıkarılmadığı sorusunu yeniden gündeme getiriyor.",
+    body: "'Game of Thrones' ve türevlerinin kadınlara yönelik cinsel şiddeti gereksiz yere ve grafik biçimde işlemesi yıllardır tartışılıyordu. 'House of the Dragon' bu geleneği kırar sanılıyordu; ancak son bölüm bu umudu boşa çıkardı. Ash Parrish, Kotaku'daki yazısında bu sahnenin neden bu kadar öfke uyandırdığını anlatıyor.\n\nSon bölümde Westeros'un Kraliçe Anası Alicent Hightower, kızı ve torunuyla başkentten kaçmaya çalışıyor. Kaçamadan, kralın konseyinden bir üye tarafından köşeye sıkıştırılıyor; adam Alicent'in Kingsguard üyesiyle yaşadığı yasak ilişkiyi öne sürerek onu tehdit ediyor. Sahne, şiddetli bir saldırıya dönüşüyor ve Alicent son anda kurtarılıyor. Fiziksel saldırı püskürtülse de, saldırgan kendisini yakalayan muhafızlara Alicent'in bunu 'hak ettiğini' söyleyerek psikolojik saldırıyı sürdürüyor. Şükür ki manipülasyon işe yaramıyor; ama izleyicide çok kötü bir tat bırakıyor.\n\nOrijinal 'Game of Thrones' Cersei Lannister, Sansa Stark ve Daenerys Targaryen için sahnede gösterilen saldırılarla, ve arka plandaki sayısız 'ihmal edilebilir' kadın karakterin başına gelenlerle sıkça eleştirilmişti. Vanity Fair, Esquire, The Atlantic gibi mecralarda bu meseleyi ele alan sayısız yazı yayımlandı. Aklı başında bir showrunner'ın 'Bu sefer yapmayalım' demesi beklenirdi.\n\nParrish'in vurguladığı gibi asıl mesele şu üç sorunun yanıtı: Bu sahne bir karakter hakkında ne öğretiyor? Olay örgüsünü hangi yönde ilerletiyor? Kaynak materyale bir sadakat mi? 'House of the Dragon'daki bu saldırıda üç sorunun da yanıtı hayır. Saldırgan olayı zaten önemsiz bir figür; Alicent'in kişisel yolculuğu için de bu saldırı yeni bir şey söylemiyor — onun failliği çoktan çevresindeki erkeklerin manipülasyonlarıyla elinden alınmıştı. Üstelik bu olay George R. R. Martin'in kitabında yer almıyor; senaristler tarafından baştan uyduruldu.\n\nEn can sıkıcı yanı, 'House of the Dragon'ın taht için savaşan iki güçlü kadın arasındaki çatışmayı zaten çok iyi işleyebiliyor olması. Güç sahibi kadınların ne kadar çeşitli yollarla güçsüzleştirilebileceği üzerine söyleyecek çok sözü olan bir dizi, eskimiş ve zararlı bir tropu tekrarlamak yerine kendine güvenebilirdi.",
+    image: "https://kotaku.com/app/uploads/2026/06/olivia-cooke.jpg",
+    source: "Kotaku",
+  },
 ];
 
 export function getSeries(slug: string) {
