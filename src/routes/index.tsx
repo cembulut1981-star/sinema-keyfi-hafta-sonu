@@ -210,7 +210,7 @@ function Index() {
             <button
               type="button"
               onClick={() => setShowMore(true)}
-              className="font-display font-black uppercase tracking-wider text-sm px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+              className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-[hsl(var(--primary))] hover:text-white hover:border-black transition-colors"
             >
               Daha Fazla Göster
             </button>
