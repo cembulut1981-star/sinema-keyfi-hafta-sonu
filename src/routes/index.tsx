@@ -1,7 +1,25 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
 
 import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
+
+// Slugs that only appear in the "Daha Fazla Göster" (load-more) extra row.
+const EXTRA_REVIEW_SLUGS = new Set(["good-luck-have-fun-dont-die"]);
+const EXTRA_NEWS_SLUGS = new Set(["yeni-yaz-dizileri-2026"]);
+const EXTRA_SERIES_SLUGS = new Set([
+  "dutton-ranch-s1-final",
+  "spider-noir-inceleme",
+  "from-son-sezon-set-ziyareti",
+]);
+
+function isExtra(a: Article) {
+  return (
+    (a.reviewSlug && EXTRA_REVIEW_SLUGS.has(a.reviewSlug)) ||
+    (a.newsSlug && EXTRA_NEWS_SLUGS.has(a.newsSlug)) ||
+    (a.seriesSlug && EXTRA_SERIES_SLUGS.has(a.seriesSlug))
+  );
+}
 
 export const Route = createFileRoute("/")({
   head: () => ({
