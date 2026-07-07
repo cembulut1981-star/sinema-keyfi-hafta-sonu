@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
 
-// Slugs that only appear in the "Daha Fazla Göster" (load-more) extra row.
+// Slugs that only appear in the "Daha Fazla Göster" (load-more) extra rows.
 const EXTRA_REVIEW_SLUGS = new Set(["good-luck-have-fun-dont-die"]);
 const EXTRA_NEWS_SLUGS = new Set(["yeni-yaz-dizileri-2026"]);
 const EXTRA_SERIES_SLUGS = new Set([
@@ -12,14 +12,23 @@ const EXTRA_SERIES_SLUGS = new Set([
   "spider-noir-inceleme",
   "from-son-sezon-set-ziyareti",
 ]);
+const EXTRA_MUSIC_SLUGS = new Set([
+  "yungblud-industry-plant-destegi",
+  "cretin-family-ramones-50-yil",
+  "u2-street-of-dreams-lider-single",
+  "rosalia-lux-turnesi-itiraf-kabinleri",
+  "lauren-bennett-hayatini-kaybetti",
+]);
 
 function isExtra(a: Article) {
   return (
     (a.reviewSlug && EXTRA_REVIEW_SLUGS.has(a.reviewSlug)) ||
     (a.newsSlug && EXTRA_NEWS_SLUGS.has(a.newsSlug)) ||
-    (a.seriesSlug && EXTRA_SERIES_SLUGS.has(a.seriesSlug))
+    (a.seriesSlug && EXTRA_SERIES_SLUGS.has(a.seriesSlug)) ||
+    (a.musicSlug && EXTRA_MUSIC_SLUGS.has(a.musicSlug))
   );
 }
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
