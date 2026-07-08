@@ -8,6 +8,7 @@ import starCityAsset from "@/assets/star_city.jpg.asset.json";
 import avatar2Asset from "@/assets/avatar2.jpg.asset.json";
 import boroughAsset from "@/assets/borough.jpg.asset.json";
 import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
+import projectHailMaryAsset from "@/assets/project_hail_mary.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -163,7 +164,7 @@ Sonuç: R sertifikalı, biraz kaotik, sık sık kendi kuyruğunu kovalayan ama s
     title: "\"Project Hail Mary\" — Ryan Gosling'in Cazibesiyle Ayakta Kalan Bir Uzay Kumarı",
     excerpt: "Andy Weir'in çok satan romanından uyarlanan bu son çare uzay macerası, ciddi olmakla çocuksu bir muzırlık arasında salınıyor; ama Gosling'in doğal karizması gemiyi limana getiriyor.",
     rating: "3/5",
-    image: "https://i.guim.co.uk/img/media/631da20497bc83156d6c7a990ea6c3b542c935bc/508_0_3750_3000/master/3750.jpg?width=1600",
+    image: projectHailMaryAsset.url,
     body: `Andy Weir'in çok satan bilimkurgu romanından uyarlanan *Project Hail Mary*, Güneş'i söndüren uzaylı mikropları durdurmak için Dünya'nın son umudu olarak uzaya fırlatılan bir görevi anlatıyor. Amerikan futbolundan "Hail Mary" pasına atıfla adlandırılan bu misyon; adı üstünde, hesabı tutmayan ama başka çare olmayan bir kumar. Yönetmenliği *The Lego Movie*'nin ve *Spider-Man: Into the Spider-Verse*'ün ekibi Phil Lord ve Chris Miller üstlenince, filmin tonundaki oynak, muzır çocuksuluk pek de sürpriz olmuyor.
 
 Ryan Gosling, moleküler biyolog Dr. Ryland Grace rolünde adeta yerleşik bir konforla oynuyor: bakımsız uzun saçlar, dağınık sakal ve neden orada olduğuna dair sıfır hafıza ile indüklenmiş komadan uyanır. Geminin geri kalan mürettebatı ölmüştür; onun görevi hem oraya nasıl geldiğini çözmek hem de insanlığı kurtarmaktır. Gosling'in ekrandaki o eforsuz büyüsü, filmin bazı yavaş anlarını ve zaman zaman rahatsız edici derecede hafifleşen tonunu tolere edilebilir kılıyor.
