@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
 import { ShareButtons } from "@/components/site/ShareButtons";
+import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getNews, NEWS } from "@/data/news";
 
 export const Route = createFileRoute("/haber/$slug")({
@@ -40,7 +41,8 @@ function NewsPage() {
 
   return (
     <SiteShell>
-      <article className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-8 items-start">
+        <article className="min-w-0">
         <h1 className="font-serif-display text-3xl sm:text-4xl font-bold leading-tight mt-3 text-balance text-center">
           {n.title}
         </h1>
@@ -62,28 +64,11 @@ function NewsPage() {
         </div>
 
         <ShareButtons title={n.title} path={`/haber/${slug}`} />
+        </article>
 
-        {others.length > 0 && (
-          <section className="mt-16 pt-8 border-t border-border">
-            <h2 className="font-display uppercase tracking-widest text-xs text-muted-foreground mb-4">
-              Diğer haberler
-            </h2>
-            <ul className="space-y-3">
-              {others.map((o) => (
-                <li key={o.slug}>
-                  <Link
-                    to="/haber/$slug"
-                    params={{ slug: o.slug }}
-                    className="font-serif-display text-lg font-bold hover:text-primary transition-colors"
-                  >
-                    {o.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-      </article>
+        <OtherArticlesSidebar heading="Diğer haberler" items={others} to="/haber/$slug" />
+      </div>
     </SiteShell>
   );
 }
+
