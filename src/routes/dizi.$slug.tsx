@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
 import { ShareButtons } from "@/components/site/ShareButtons";
+import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getSeries, SERIES } from "@/data/series";
 
 export const Route = createFileRoute("/dizi/$slug")({
