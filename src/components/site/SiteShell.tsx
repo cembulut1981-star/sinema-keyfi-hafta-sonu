@@ -1,5 +1,6 @@
-import { Link } from "@tanstack/react-router";
-import type { ReactNode } from "react";
+import { Link, useNavigate } from "@tanstack/react-router";
+import { useState, type FormEvent, type ReactNode } from "react";
+import { Search } from "lucide-react";
 
 import logoAsset from "@/assets/logo.svg.asset.json";
 import kissIconAsset from "@/assets/rock-kiss-icon.png.asset.json";
