@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 
 import logoAsset from "@/assets/logo.svg.asset.json";
+import kissIconAsset from "@/assets/rock-kiss-icon.png.asset.json";
 import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
@@ -46,8 +47,16 @@ function Nav() {
   return (
     <>
       <nav className="border-t border-black border-b border-black sticky top-0 z-30 bg-background/95 backdrop-blur">
-        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8">
-          <ul className="flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
+        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 flex items-center gap-3">
+          <img
+            src={kissIconAsset.url}
+            alt=""
+            aria-hidden="true"
+            className="h-8 w-8 shrink-0 object-contain"
+            width={32}
+            height={32}
+          />
+          <ul className="flex-1 flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
             {NAV.map((item) => (
               <li key={item.label}>
                 <Link
