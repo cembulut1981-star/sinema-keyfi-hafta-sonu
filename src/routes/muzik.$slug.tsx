@@ -50,8 +50,7 @@ function MusicPage() {
         </div>
 
         <div className="my-10 flex justify-center">
-          <div className="relative w-full max-w-[560px]">
-            <div aria-hidden className="absolute -top-3 -left-3 w-full h-full" style={{ background: "#ffbd3f" }} />
+          <div className="w-full max-w-[560px] p-3" style={{ background: "#ffbd3f" }}>
             <div className="relative aspect-[16/9] overflow-hidden bg-muted">
               <img src={m.image} alt={m.title} className="w-full h-full object-cover" />
             </div>
