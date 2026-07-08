@@ -41,7 +41,8 @@ function ReviewPage() {
 
   return (
     <SiteShell>
-      <article className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-8 items-start">
+        <article className="min-w-0">
         <h1 className="font-serif-display text-3xl sm:text-4xl font-bold leading-tight mt-3 text-balance text-center">
           {r.title}
         </h1>
@@ -74,28 +75,10 @@ function ReviewPage() {
         </div>
 
         <ShareButtons title={r.title} path={`/inceleme/${slug}`} />
+        </article>
 
-        {others.length > 0 && (
-          <section className="mt-16 pt-8 border-t border-border">
-            <h2 className="font-display uppercase tracking-widest text-xs text-muted-foreground mb-4">
-              Diğer incelemeler
-            </h2>
-            <ul className="space-y-3">
-              {others.map((o) => (
-                <li key={o.slug}>
-                  <Link
-                    to="/inceleme/$slug"
-                    params={{ slug: o.slug }}
-                    className="font-serif-display text-lg font-bold hover:text-primary transition-colors"
-                  >
-                    {o.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-      </article>
+        <OtherArticlesSidebar heading="Diğer incelemeler" items={others} to="/inceleme/$slug" />
+      </div>
     </SiteShell>
   );
 }
