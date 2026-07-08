@@ -37,7 +37,7 @@ export const Route = createFileRoute("/muzik/$slug")({
 function MusicPage() {
   const { slug } = Route.useParams();
   const m = getMusic(slug)!;
-  const others = MUSIC.filter((x) => x.slug !== slug).slice(0, 3);
+  const others = MUSIC.filter((x) => x.slug !== slug);
 
   return (
     <SiteShell>

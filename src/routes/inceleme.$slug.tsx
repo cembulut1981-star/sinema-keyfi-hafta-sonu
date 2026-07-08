@@ -37,7 +37,7 @@ export const Route = createFileRoute("/inceleme/$slug")({
 function ReviewPage() {
   const { slug } = Route.useParams();
   const r = getReview(slug)!;
-  const others = REVIEWS.filter((x) => x.slug !== slug).slice(0, 3);
+  const others = REVIEWS.filter((x) => x.slug !== slug);
 
   return (
     <SiteShell>

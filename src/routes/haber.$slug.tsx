@@ -37,7 +37,7 @@ export const Route = createFileRoute("/haber/$slug")({
 function NewsPage() {
   const { slug } = Route.useParams();
   const n = getNews(slug)!;
-  const others = NEWS.filter((x) => x.slug !== slug).slice(0, 3);
+  const others = NEWS.filter((x) => x.slug !== slug);
 
   return (
     <SiteShell>

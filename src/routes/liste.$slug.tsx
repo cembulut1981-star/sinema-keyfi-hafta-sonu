@@ -37,7 +37,7 @@ export const Route = createFileRoute("/liste/$slug")({
 function ListPage() {
   const { slug } = Route.useParams();
   const l = getList(slug)!;
-  const others = LISTS.filter((x) => x.slug !== slug).slice(0, 3);
+  const others = LISTS.filter((x) => x.slug !== slug);
 
   return (
     <SiteShell>
