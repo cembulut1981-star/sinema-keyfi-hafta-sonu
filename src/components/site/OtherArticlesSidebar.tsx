@@ -21,20 +21,20 @@ export function OtherArticlesSidebar({
   if (items.length === 0) return null;
 
   return (
-    <aside className="lg:sticky lg:top-24 lg:self-start">
+    <aside className="lg:mt-16 lg:ml-8">
       <div className="border-2 border-black bg-background">
         <div className="border-b-2 border-black bg-primary px-4 py-2">
           <h2 className="font-display uppercase tracking-widest text-xs font-black text-primary-foreground">
             {heading}
           </h2>
         </div>
-        <div className="max-h-[70vh] overflow-y-auto p-3 flex flex-col gap-3">
+        <div className="p-3 flex flex-col gap-3">
           {items.map((o, i) => (
             <Link
               key={o.slug}
               to={to}
               params={{ slug: o.slug }}
-              className="group block border border-black/10 hover:border-primary transition-colors"
+              className="block border border-black/10"
             >
               <div
                 className="p-2"
@@ -50,7 +50,7 @@ export function OtherArticlesSidebar({
                 </div>
               </div>
               <div className="p-3 bg-background">
-                <h3 className="font-serif-display text-sm font-bold leading-snug text-foreground group-hover:text-primary transition-colors">
+                <h3 className="font-serif-display text-sm font-bold leading-snug text-foreground">
                   {o.title}
                 </h3>
               </div>
