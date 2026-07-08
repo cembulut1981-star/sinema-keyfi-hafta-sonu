@@ -4,6 +4,10 @@ import missionImg from "@/assets/review-mission.jpg";
 import littleBrotherImg from "@/assets/review-little-brother.jpg";
 import jackassImg from "@/assets/review-jackass.jpg";
 import goodLuckAsset from "@/assets/good_luck.jpg.asset.json";
+import starCityAsset from "@/assets/star_city.jpg.asset.json";
+import avatar2Asset from "@/assets/avatar2.jpg.asset.json";
+import boroughAsset from "@/assets/borough.jpg.asset.json";
+import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -176,7 +180,7 @@ Sonuç: Weir'in *The Martian*'daki neşeli, esprili tonuna aşinaysanız kendini
     title: "\"Avatar: Son Hava Bükücü\" 2. Sezon — Netflix'in Canlı Aksiyon Uyarlaması Hâlâ Ayaklarını Yere Basamıyor",
     excerpt: "Netflix'in canlı aksiyon uyarlaması etkileyici bir hikâye kolunu adapte etse de temposuz, mizahsız ve karanlık lightingiyle animasyon orijinalinin cazibesini bir kez daha ıskalıyor.",
     rating: "2/5",
-    image: "https://www.tvguide.com/a/img/resize/f8dbe7d183cac272ba1073217f644b7a47c54b1a/hub/2026/05/19/d90e13bd-3abc-4657-b413-a9ba17da3e41/avtr-s2-unit-05752r-colored.jpg?auto=webp&width=1600",
+    image: avatar2Asset.url,
     body: `Netflix'in canlı aksiyon *Avatar: The Last Airbender* uyarlaması, orijinal Nickelodeon çizgi filminin neyi neden sevildiğini hâlâ anlamıyor. İkinci sezon, birinci sezonun bütün temel sorunlarını neredeyse hiç düzeltmeden geri getiriyor. Başat problem yine tempo. Ortaokul yaş grubuna hitap eden, 20 dakikalık bölümleri hızlı ve komik olan animasyon, burada yedi bölümlük, saatlik, olay yığılı bir yapıya sıkıştırılıyor. Bu, daha olgun bir yorum getirmiyor — sadece daha ağır ve daha ciddi bir versiyon yaratıyor; ki kaynağa yapılabilecek en büyük kötülük tam da bu.
 
 Su bükmeyi Su Kabilesi'nden Katara (Kiawentiio) ve Sokka (Ian Ousley) ile öğrenmiş 12 yaşındaki Avatar Aang (Gordon Cormier), sezon boyunca Toprak Krallığı'nda dolaşıyor. Dört elementte de ustalaşmak için bir toprak bükücü öğretmene ihtiyacı vardır ve bu, ekibe en canlı ve haşarı figürü olan kör kız Toph (Miyako) olarak katılıyor. Aynı zamanda Ateş Ulusu güçleri Toprak Krallığı'na yayılırken kahramanlar surlarla çevrili Ba Sing Se şehrinin propaganda, gözetim ve gizli polis üçgenine düşer. Bu, orijinal serinin en akılda kalan yaylarından biri — potansiyeli tartışılmaz.
@@ -193,7 +197,7 @@ Sonuç olarak Netflix'in *Avatar*'ı, M. Night Shyamalan'ın kötü şöhretli s
     title: "\"Cape Fear\" — Apple TV Uyarlaması, Selefini Takip Ederken Kendini Kaybediyor",
     excerpt: "Javier Bardem ve Amy Adams'ın başrolde olduğu 10 bölümlük Apple TV uyarlaması, Scorsese'nin klasiğini hem taklit edip hem ondan kaçmak isterken kendi tonunu bulamayan tekinsiz bir gerilim.",
     rating: "2.5/5",
-    image: "https://www.tvguide.com/a/img/resize/789e3c950743f060057c024a74b677d8b2d2668c/hub/2026/05/26/740346ad-cff2-48e5-9dfe-adc4a52bafce/260526-cape-fear-1.jpg?auto=webp&width=1600",
+    image: capeFearAsset.url,
     body: `Herhangi bir oyuncudan, daha önce Robert De Niro'nun canlandırdığı bir karakterin altına girmesini istemek zaten haksızlıktır — hele o karakter Max Cady ise. 1991'in şiddet dolu *Cape Fear* uyarlamasında De Niro, Cady'ye kibri, öfkeyi ve Güney cazibesini öyle bir dozda karıştırmıştı ki karakter hem korkutucu hem de gözünüzü ayıramadığınız kadar çekici oluyordu. Nick Antosca'nın (*Channel Zero*, *A Friend of the Family*) yaratıcısı olduğu, 10 bölüme yayılan yeni Apple TV mini dizisi, bu koltuğa Javier Bardem'i oturtuyor.
 
 Bardem iyi bir oyuncu ve zorlu figürleri canlandırma konusunda deneyimli — Anton Chigurh'u yaratmış bir aktörden bahsediyoruz. Cady olarak da manipülatif, ürkütücü, baştan çıkarıcı ve kaygan. Ama performansı De Niro'nunki gibi lazerle odaklanmamış; aksana kadar her şeyi yer yer dağılıyor. Anadili İspanyolca ağırlıklı bir konuşmanın arasına ara sıra Güneyli, ara sıra *Mare of Easttown* tınısı karışıyor. Bardem'in oyun oynadığını hep hissediyorsunuz; De Niro'da bu asla olmuyordu.
@@ -210,7 +214,7 @@ Dizinin problemi tam da bu genişleme çabasında ortaya çıkıyor. Herkes o ka
     title: "\"The Boroughs\" — Alfred Molina ve Geena Davis'in Öncülüğünde Eğlenceli, Spielbergvari Bir Bilimkurgu",
     excerpt: "New Mexico çölünde bir emeklilik köyünde canavarların ve şirket gözetiminin peşine düşen kıdemli oyuncu kadrosuyla ısınan, tempoda bazı düşüşler yaşayan ama son derece sevimli bir Netflix serisi.",
     rating: "3.5/5",
-    image: "https://www.tvguide.com/a/img/resize/d758a62ef93097e519e39f2b53efc7b434693bdb/hub/2026/05/20/62e34572-5460-4652-95f9-a837495311fb/260520-boroughs-2.jpg?auto=webp&width=1600",
+    image: boroughAsset.url,
     body: `Netflix'in *The Boroughs*'u, çoğu dizinin sadece hayalini kurabileceği türde bir topluluk oyuncu kadrosuyla geliyor ve bu süreçte tür TV'sindeki yaşçılığa oldukça açık bir eleştiri de yazıyor. Alfred Molina ve Geena Davis gibi sevilen karakter oyuncularını yardımcı rollere sıkıştırmaya alışkınız; onları kahraman başrol olarak görmek nadir bir keyif. *The Boroughs* bu eğilimi bozup emeklilik köyündeki ölümcül bir komployu çözmeye çalışan bir grup yaşlı vatandaşı Spielbergvari bir maceranın merkezine yerleştiriyor.
 
 Ruh hastanelerinin korku sinemasının vazgeçilmezi olmasının sebebi neyse, bu emeklilik topluluğunun da gizemli bir kurguya bu kadar yakışmasının sebebi aynı: otorite figürlerine güvenilemez. New Mexico çölünün tenha bir köşesindeki Boroughs, konutlardan spor salonlarına ve yerel polis gücüne kadar her şeyi tek bir şirketin sahiplendiği bir "kasaba". Her ev, aynı zamanda gözetim aracı olarak iş gören taklit bir Siri cihazıyla donatılmış. Yaşlı bir sakin şüpheli koşullarda ölürse — diyelim ince uzuvlu, kaynağı belirsiz bir yaratık tarafından saldırıya uğradıktan sonra — bunu halının altına süpürmek gayet kolay. Ne de olsa yaşlılar hep ölür ve unutkanlıkları herhangi bir görgü tanıklığını "kafa karışıklığı"na indirgemek için hazır bir gerekçe.
@@ -227,7 +231,7 @@ Sonuç olarak *The Boroughs*, ana kötü karakterin kimliğini neredeyse ilk bö
     title: "\"Star City\" — For All Mankind'ın Sarsıcı Yan Ürünü, Soğuk Savaş Paranoyasını Bilimkurguyla Örüyor",
     excerpt: "Rhys Ifans ve Anna Maxwell Martin'in başrolde olduğu bu For All Mankind spin-off'u, Sovyet uzay programını KGB gölgesinde işleyerek daha kasvetli, daha psikolojik bir bilimkurguya kapı açıyor.",
     rating: "4.5/5",
-    image: "https://www.tvguide.com/a/img/resize/a4fb2655a69e251eaf0c9923e57c3131522f7054/hub/2026/03/17/4bfaa030-02b6-4372-9e11-3d15ee141bc8/starc.jpg?auto=webp&width=1600",
+    image: starCityAsset.url,
     body: `*For All Mankind*'ın alternatif tarih fikri her zaman inandırıcı bir dünya kurmaktan çok bir dilek listesine yakındı. Apple TV dizisinin evreninde SSCB, ABD'yi Ay'a inişte geçmiş ve bu şok, NASA'ya kadınlardan oluşan bir astronot kadrosu kurmasına kadar giden bir domino etkisi yaratmıştı. On yıllar içinde ırk ve cinsiyet eşitliği bizim evrenimizden çok daha hızlı ilerlemiş; 1990'lara gelindiğinde insanlık Ay ve Mars'a yerleşmiş, ABD'nin ise lezbiyen bir başkanı olmuştu. Dizinin resmi olmayan amacı, *Star Trek*'in ütopik geleceğine giden gerçekçi bir yol çizmekti — bazen olmayan bir Amerika için propaganda gibi hissettiriyordu.
 
 Yeni yan ürün *Star City*, saati geri sarıp bu zaman çizelgesinin ilk yıllarını Soğuk Savaş'ın öteki tarafından anlatıyor. 1969'daki Sovyet Ay inişiyle açılan dizi, bizi *For All Mankind*'ın parlak, iyimser atmosferinden çok farklı bir dünyaya sokuyor: kozmonotların kahramanlıkları kadar KGB paranoyası da anlatının merkezinde. Aynı çekirdek ekip — Ronald D. Moore, Ben Nedivi ve Matt Wolpert — bu kez soap opera unsurlarını kesip yerine sıkı, psikolojik bir dram koymuş. Bilimkurgu yetkinlik pornosu hâlâ orada, ama daha bastırıcı bir hava altında.
