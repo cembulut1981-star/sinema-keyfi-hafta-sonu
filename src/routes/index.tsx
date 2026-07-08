@@ -5,7 +5,14 @@ import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/Site
 import { ARTICLES, type Article } from "@/data/articles";
 
 // Slugs that only appear in the "Daha Fazla Göster" (load-more) extra rows.
-const EXTRA_REVIEW_SLUGS = new Set(["good-luck-have-fun-dont-die"]);
+const EXTRA_REVIEW_SLUGS = new Set([
+  "good-luck-have-fun-dont-die",
+  "project-hail-mary",
+  "avatar-son-hava-bukucu-s2",
+  "cape-fear-apple-tv",
+  "the-boroughs",
+  "star-city",
+]);
 const EXTRA_NEWS_SLUGS = new Set(["yeni-yaz-dizileri-2026"]);
 const EXTRA_SERIES_SLUGS = new Set([
   "dutton-ranch-s1-final",
