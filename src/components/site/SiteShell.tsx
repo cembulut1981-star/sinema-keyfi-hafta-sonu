@@ -139,7 +139,10 @@ export function SmallArticleCard({
   return (
     <article className={`relative flex flex-col rounded-lg overflow-hidden h-full ${className || ""}`}>
       {/* Üst yarı — yeşil arka plan + fotoğraf */}
-      <div className="flex-[0.5] min-h-0 bg-card-green flex items-center justify-center overflow-hidden">
+      <div
+        className="flex-[0.5] min-h-0 flex items-center justify-center overflow-hidden"
+        style={{ background: article.id % 2 === 0 ? "#00EAA1" : "#ffbd3f" }}
+      >
         <div className="relative w-full h-full px-3">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
