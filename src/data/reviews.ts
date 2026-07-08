@@ -197,7 +197,7 @@ Sonuç olarak Netflix'in *Avatar*'ı, M. Night Shyamalan'ın kötü şöhretli s
     title: "\"Cape Fear\" — Apple TV Uyarlaması, Selefini Takip Ederken Kendini Kaybediyor",
     excerpt: "Javier Bardem ve Amy Adams'ın başrolde olduğu 10 bölümlük Apple TV uyarlaması, Scorsese'nin klasiğini hem taklit edip hem ondan kaçmak isterken kendi tonunu bulamayan tekinsiz bir gerilim.",
     rating: "2.5/5",
-    image: "https://www.tvguide.com/a/img/resize/789e3c950743f060057c024a74b677d8b2d2668c/hub/2026/05/26/740346ad-cff2-48e5-9dfe-adc4a52bafce/260526-cape-fear-1.jpg?auto=webp&width=1600",
+    image: capeFearAsset.url,
     body: `Herhangi bir oyuncudan, daha önce Robert De Niro'nun canlandırdığı bir karakterin altına girmesini istemek zaten haksızlıktır — hele o karakter Max Cady ise. 1991'in şiddet dolu *Cape Fear* uyarlamasında De Niro, Cady'ye kibri, öfkeyi ve Güney cazibesini öyle bir dozda karıştırmıştı ki karakter hem korkutucu hem de gözünüzü ayıramadığınız kadar çekici oluyordu. Nick Antosca'nın (*Channel Zero*, *A Friend of the Family*) yaratıcısı olduğu, 10 bölüme yayılan yeni Apple TV mini dizisi, bu koltuğa Javier Bardem'i oturtuyor.
 
 Bardem iyi bir oyuncu ve zorlu figürleri canlandırma konusunda deneyimli — Anton Chigurh'u yaratmış bir aktörden bahsediyoruz. Cady olarak da manipülatif, ürkütücü, baştan çıkarıcı ve kaygan. Ama performansı De Niro'nunki gibi lazerle odaklanmamış; aksana kadar her şeyi yer yer dağılıyor. Anadili İspanyolca ağırlıklı bir konuşmanın arasına ara sıra Güneyli, ara sıra *Mare of Easttown* tınısı karışıyor. Bardem'in oyun oynadığını hep hissediyorsunuz; De Niro'da bu asla olmuyordu.
