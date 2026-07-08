@@ -28,7 +28,7 @@ export function OtherArticlesSidebar({
             {heading}
           </h2>
         </div>
-        <div className="max-h-[70vh] overflow-y-auto p-3 flex flex-col gap-3">
+        <div className="h-[560px] overflow-y-scroll p-3 flex flex-col gap-3">
           {items.map((o, i) => (
             <Link
               key={o.slug}
