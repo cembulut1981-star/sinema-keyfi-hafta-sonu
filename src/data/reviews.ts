@@ -4,6 +4,10 @@ import missionImg from "@/assets/review-mission.jpg";
 import littleBrotherImg from "@/assets/review-little-brother.jpg";
 import jackassImg from "@/assets/review-jackass.jpg";
 import goodLuckAsset from "@/assets/good_luck.jpg.asset.json";
+import starCityAsset from "@/assets/star_city.jpg.asset.json";
+import avatar2Asset from "@/assets/avatar2.jpg.asset.json";
+import boroughAsset from "@/assets/borough.jpg.asset.json";
+import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
 
 export type Review = {
   slug: string;
