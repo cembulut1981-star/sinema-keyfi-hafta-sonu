@@ -48,7 +48,7 @@ function SeriesPage() {
   return (
     <SiteShell>
       <article className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
-        <h1 className="font-serif-display text-4xl sm:text-5xl font-bold leading-tight mt-3 text-balance">
+        <h1 className="text-4xl sm:text-5xl leading-tight mt-3 text-balance text-center" style={{ fontFamily: "&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif", fontWeight: 800, letterSpacing: "-0.02em" }}>
           {s.title}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{s.excerpt}</p>
