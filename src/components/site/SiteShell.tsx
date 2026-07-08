@@ -45,6 +45,16 @@ function Header() {
 }
 
 function Nav() {
+  const navigate = useNavigate();
+  const [q, setQ] = useState("");
+
+  function onSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const query = q.trim();
+    if (!query) return;
+    navigate({ to: "/arama", search: { q: query } });
+  }
+
   return (
     <>
       <nav className="border-t border-black border-b border-black sticky top-0 z-30 bg-background/95 backdrop-blur">
@@ -71,6 +81,28 @@ function Nav() {
               </li>
             ))}
           </ul>
+          <form
+            onSubmit={onSubmit}
+            role="search"
+            className="shrink-0 flex items-center border border-black/70 focus-within:border-primary transition-colors bg-background"
+          >
+            <label htmlFor="site-search" className="sr-only">Ara</label>
+            <input
+              id="site-search"
+              type="search"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder="Ara..."
+              className="w-32 sm:w-40 bg-transparent px-3 py-1.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none"
+            />
+            <button
+              type="submit"
+              aria-label="Ara"
+              className="h-full px-2 border-l border-black/70 text-foreground/70 hover:text-primary hover:bg-primary/5 transition-colors"
+            >
+              <Search className="h-4 w-4" />
+            </button>
+          </form>
         </div>
       </nav>
       <div className="h-3 bg-primary" aria-hidden="true" />
