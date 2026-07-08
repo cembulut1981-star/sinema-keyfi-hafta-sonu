@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as AramaRouteImport } from './routes/arama'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
 import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
@@ -17,6 +18,11 @@ import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
 import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
 import { Route as DiziSlugRouteImport } from './routes/dizi.$slug'
 
+const AramaRoute = AramaRouteImport.update({
+  id: '/arama',
+  path: '/arama',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -55,6 +61,7 @@ const DiziSlugRoute = DiziSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/arama': typeof AramaRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
@@ -64,6 +71,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/arama': typeof AramaRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
@@ -74,6 +82,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/arama': typeof AramaRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
@@ -85,6 +94,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/arama'
     | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
@@ -94,6 +104,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/arama'
     | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
@@ -103,6 +114,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/arama'
     | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
@@ -113,6 +125,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AramaRoute: typeof AramaRoute
   DiziSlugRoute: typeof DiziSlugRoute
   HaberSlugRoute: typeof HaberSlugRoute
   IncelemeSlugRoute: typeof IncelemeSlugRoute
@@ -123,6 +136,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/arama': {
+      id: '/arama'
+      path: '/arama'
+      fullPath: '/arama'
+      preLoaderRoute: typeof AramaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -177,6 +197,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AramaRoute: AramaRoute,
   DiziSlugRoute: DiziSlugRoute,
   HaberSlugRoute: HaberSlugRoute,
   IncelemeSlugRoute: IncelemeSlugRoute,
