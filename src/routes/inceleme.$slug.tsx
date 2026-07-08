@@ -50,18 +50,23 @@ function ReviewPage() {
           <span className="text-muted-foreground">Orijinal ad: <em>{r.origTitle}</em></span>
         </div>
 
-        <div className="relative aspect-[16/9] overflow-hidden bg-muted my-8">
-          {r.videoUrl ? (
-            <iframe
-              src={r.videoUrl}
-              title={r.title}
-              className="w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          ) : (
-            <img src={r.image} alt={r.title} className="w-full h-full object-cover" />
-          )}
+        <div className="my-10 flex justify-center">
+          <div className="relative w-full max-w-[560px]">
+            <div aria-hidden className="absolute -top-3 -left-3 w-full h-full" style={{ background: "#ffbd3f" }} />
+            <div className="relative aspect-[16/9] overflow-hidden bg-muted">
+              {r.videoUrl ? (
+                <iframe
+                  src={r.videoUrl}
+                  title={r.title}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              ) : (
+                <img src={r.image} alt={r.title} className="w-full h-full object-cover" />
+              )}
+            </div>
+          </div>
         </div>
 
         <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
