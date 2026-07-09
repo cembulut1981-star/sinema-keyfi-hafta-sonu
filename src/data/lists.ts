@@ -14,7 +14,7 @@ export type ListItem = {
   source: string;
 };
 
-export const LISTS: ListItem[] = [
+const _LISTS_RAW: ListItem[] = [
   {
     slug: "az-bilinen-korku-filmleri",
     title: "Kimsenin Konuşmadığı 10 Muhteşem Korku Filmi",
@@ -314,7 +314,257 @@ Kaynak: Rolling Stone – "The Best TV Shows of 2026 So Far".
     image: "https://www.rollingstone.com/wp-content/uploads/2026/06/Best-TV-so-far-2026.jpg?w=1581&h=1054&crop=1",
     source: "Rolling Stone",
   },
+  {
+    slug: "2026-yilinin-en-iyi-10-filmi",
+    title: "2026'nın (Şimdiye Kadar) En İyi 10 Filmi",
+    excerpt: "Korkudan animasyona, uzay macerasından belgesele: Entertainment Weekly'nin 2026'nın ilk yarısında öne çıkardığı on filmlik seçki.",
+    body: `2026, sinema için sürprizlerle dolu bir yıl oldu. *Sinners* Oscar'da En İyi Film ödülünü kaptı, *Obsession* düşük bütçesine rağmen fenomen haline geldi, *Toy Story 5* franchise rekorunu kırdı. Entertainment Weekly'nin editörlerinin yılın ilk yarısı için seçtiği on filmi Türkçeye çevirdik.
+
+## 1. 28 Years Later: The Bone Temple
+
+Nia DaCosta, Danny Boyle'un vizyoner devam filmini kendi karanlık ve gotik estetiğiyle sürdürüyor. Ralph Fiennes'in Dr. Kelson'ı yılın en unutulmaz karakterlerinden.
+
+## 2. The Drama
+
+Kristoffer Borgli'nin yönettiği, Zendaya ve Robert Pattinson'ı buluşturan bu A24 yapımı, sarsıcı twist'iyle ve düğün öncesi tempoyla akıllardan çıkmıyor.
+
+## 3. EPiC: Elvis Presley in Concert
+
+Baz Luhrmann, Elvis'in Vegas rezidansını daha önce görülmemiş görüntüler ve ses kayıtlarıyla yeniden inşa ediyor. Kralın kendi ağzından bir belgesel.
+
+## 4. The Invite
+
+Olivia Wilde'ın Seth Rogen, Penélope Cruz ve Edward Norton'la çektiği bu oda tiyatrosu; komşuluk, evlilik ve arzu üzerine cesur bir sohbet.
+
+## 5. Obsession
+
+Curry Barker'ın YouTube kökenli yönetmenliği, düşük bütçeli korku filmlerine olan iştahı yeniden alevlendirdi. Inde Navarrette'in bakışı yılın en tedirgin edici performansı.
+
+## 6. Omaha
+
+John Magaro'nun oynadığı, eşini kaybetmiş bir babanın iki çocuğuyla yaptığı yol hikâyesi. *Past Lives*'tan sonra Magaro kariyerinin en yıkıcı performanslarından birini veriyor.
+
+## 7. Project Hail Mary
+
+Ryan Gosling, Andy Weir uyarlamasında bir öğretmenin galaksinin kaderini kurtarma yolculuğunu üstleniyor. Merak ve umut dolu bir uzay macerası.
+
+## 8. Send Help
+
+Yaz aylarının en ilgi çekici bağımsız korku çıkışlarından biri. Türe minimalist bir tazelik getiriyor.
+
+## 9. Sinners
+
+Ryan Coogler'ın vampir filmi, Oscar'ı kazandıktan sonra hâlâ konuşulmaya devam ediyor. Michael B. Jordan'ın çift rolü performansların zirvesinde.
+
+## 10. Toy Story 5
+
+Pixar'ın franchise tarihinin en büyük açılışını yapan filmi. Jessie'nin öne çıktığı bu bölüm, oyuncakların dijital çağla imtihanını anlatıyor.
+
+Kaynak: Entertainment Weekly – "The 10 Best Movies of 2026 (So Far)".`,
+    image: "https://ew.com/thmb/CoqXR_xQBeqcojP4V0Gt0SHs3qc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-movies-sofar-2026-2f3913f606af48f2b946e2802d15cceb.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "en-gerilimli-suc-thrillerlari",
+    title: "Tüm Zamanların En Gerilimli 30 Suç Thriller'ı",
+    excerpt: "Klasik noir'lardan çağdaş şoklara: Hitchcock, Fincher ve Bong Joon Ho gibi ustaların imzasını taşıyan, gerilimin doruğunda dolaşan otuz film.",
+    body: `İyi bir suç thriller'ı bizi tehlikeli, yüksek riskli bir durumun tam ortasına yerleştirir; ama yasayı çiğnemenin bedeliyle yüzleşmek zorunda bırakmaz. Karmaşık kurgular, ahlaki ikilemler ve gri karakterlerle inşa edilen bu filmler, toplumun karanlık yüzüne bir bakış sunar. İşte Entertainment Weekly'nin derlediği, türün doruklarında dolaşan 30 filmden öne çıkan başlıklar.
+
+## 1. Memories of Murder (2003)
+
+Bong Joon Ho'nun gerçek bir seri katil vakasını anlattığı bu Kore klasiği; yetersizlik, öfke ve umutsuzluğu bir polisiye çerçevesine oturtuyor.
+
+## 2. Chinatown (1974)
+
+Roman Polanski'nin yönettiği bu neo-noir başyapıtı, Jack Nicholson'un ikonik performansıyla Los Angeles'ın su ihalelerinin ardındaki çürümüşlüğü ifşa ediyor.
+
+## 3. Seven (1995)
+
+David Fincher'ın yedi ölümcül günahı yılın en karanlık polisiye kâbusuna dönüştüren yapımı. Morgan Freeman ve Brad Pitt'in kimyası tartışılmaz.
+
+## 4. Zodiac (2007)
+
+Yine Fincher'dan, obsesyonun bir gazeteciyi ve polisleri nasıl tükettiğini anlatan sabırlı, titiz ve rahatsız edici bir başyapıt.
+
+## 5. Elevator to the Gallows (1958)
+
+Louis Malle'in ilk uzun metrajı, Miles Davis'in doğaçlama saksafonu eşliğinde bir cinayet planının çözülüşünü izliyor.
+
+## 6. The Silence of the Lambs (1991)
+
+Anthony Hopkins ve Jodie Foster'ın buluşması, Oscar'ın en büyük beşlisini kazanan tek korku-thriller karışımını ortaya çıkardı.
+
+## 7. Rear Window (1954)
+
+Hitchcock'un komşusunun cinayetine tanık olduğunu düşünen bir fotoğrafçıyı anlattığı, tek mekân gerilimin ders kitabı örneği.
+
+## 8. No Country for Old Men (2007)
+
+Coen Kardeşler'in Cormac McCarthy uyarlaması; Anton Chigurh'un varlığı türe yeni bir kötü adam arketipi kazandırdı.
+
+## 9. Prisoners (2013)
+
+Denis Villeneuve'ün Hugh Jackman ve Jake Gyllenhaal'ı buluşturan uzun, ıslak, karanlık gerilimi. Ahlaki sınırların nerede biteceğini sorgulatıyor.
+
+## 10. Listenin geri kalanı
+
+*The Departed*, *Nightcrawler*, *Gone Girl*, *Mystic River*, *L.A. Confidential*, *Heat*, *The French Connection*, *Blue Ruin*, *Drive*, *A Simple Plan*, *Fargo*, *Blood Simple*, *The Long Goodbye*, *Klute*, *Vertigo*, *Strangers on a Train*, *Insomnia*, *The Vanishing*, *Cure*, *Memento* ve *The Third Man*.
+
+Kaynak: Entertainment Weekly – "The 30 Most Suspenseful Crime Thrillers of All Time, Ranked".`,
+    image: "https://ew.com/thmb/OWWU1fEGv3QoNEQAG4y7TL1jJ0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/thrillers-4739c362cdcd41ca930dfe5bc361c97f.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "2026-en-iyi-tv-dizileri-ew",
+    title: "2026'nın (Şimdiye Kadar) En İyi 10 TV Dizisi",
+    excerpt: "The Pitt'ten Widow's Bay'e, Hacks'ten Industry'ye: Entertainment Weekly'nin 2026'nın ilk yarısı için seçtiği on TV dizisi.",
+    body: `Küçük ekran 2026'nın ilk yarısında hem yeni yapımlarla hem de güçlü devam sezonlarıyla doldu. Sterling K. Brown'ın *Paradise*'ı, Jean Smart'ın *Hacks*'i, Myha'la'nın *Industry*'si ve Sam Reid'in *Interview with the Vampire*'ı sezonun konuşulanları arasında.
+
+## 1. The Pitt (Max)
+
+Hastane draması formatını gerçek zamanlı, tek mekân gerilimiyle yeniden icat eden dizi. Noah Wyle kariyerinin en olgun performansını sergiliyor.
+
+## 2. Paradise (Hulu)
+
+Sterling K. Brown'ın başrolde olduğu bu politik thriller, ilk bölümdeki twist'iyle yılın en çok tartışılan pilot bölümünü verdi.
+
+## 3. Hacks (Max)
+
+Deborah Vance ve Ava'nın ilişkisi bu sezon en karanlık yerine ulaşıyor. Jean Smart'ın Emmy zaferi kesin görünüyor.
+
+## 4. Industry (HBO)
+
+Finansın acımasız dünyası, dördüncü sezonda yeni bir odaklamayla karakterlerin ahlaki çöküşünü daha da derinleştiriyor.
+
+## 5. Interview with the Vampire (AMC)
+
+Sam Reid'in Lestat'ı, Anne Rice uyarlamasının şimdiye kadarki en iyi ekran versiyonu olarak selamlanıyor.
+
+## 6. The Studio (Apple TV+)
+
+Seth Rogen'in yönettiği ve başrolde olduğu bu Hollywood hiciv dizisi, endüstrinin absürtlüğünü acımasızca kanıtlıyor.
+
+## 7. Severance (Apple TV+)
+
+İkinci sezon uzun beklemeye değdi. Ben Stiller'ın estetiği ve Dan Erickson'ın senaryosu türü yeniden şekillendirmeye devam ediyor.
+
+## 8. The White Lotus (HBO)
+
+Mike White'ın üçüncü sezonu Tayland'a taşındı. Ensemble kadrosu ve sosyal keskinliği yine yerinde.
+
+## 9. Widow's Bay (Apple TV+)
+
+Yılın en büyük sürprizi. Kıyı kasabasında geçen mistik gerilim, atmosferi kadar karakterleriyle de bağlılık kuruyor.
+
+## 10. Andor (Disney+)
+
+İkinci ve son sezon, *Star Wars* evreninin bugüne kadarki en yetişkin yapımı olarak tarihe geçiyor.
+
+Kaynak: Entertainment Weekly – "The 10 Best TV Shows of 2026 (So Far)".`,
+    image: "https://ew.com/thmb/rx4q94jgpMeYpKN2D1EmwC2Rw5w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/EW-Best-TV-Shows-SoFar-2026-0bb8e8f6f7b4444280230587426e29dd.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "tum-zamanlarin-en-iyi-25-rock-sarkisi",
+    title: "Tüm Zamanların En İyi 25 Rock Şarkısı",
+    excerpt: "Prince'ten Led Zeppelin'e, The Beatles'tan Nirvana'ya: türün kalbini oluşturan, isyanı ve gürültüyü hiç kaybetmemiş 25 rock klasiği.",
+    body: `Rock & roll özünde statükoya bir başkaldırıdır — gürültü çıkarmaktan, kaos yaratmaktan çekinmeyen bir isyan hali. Bu yüzden "tüm zamanların en iyi rock şarkıları" listesi hazırlamak biraz çelişkili bir iş. Ama Entertainment Weekly bu göreve girişti ve tür tarihine damga vurmuş 25 şarkıyı seçti.
+
+## 1. "Let's Go Crazy" — Prince
+
+*Purple Rain* açılışı; funk, rock ve gospel'in mükemmel buluşması. Prince'in dizüstü çıkışı hâlâ tüylerinizi diken diken ediyor.
+
+## 2. "Smells Like Teen Spirit" — Nirvana
+
+90'ların bir kuşağın manifestosu. Butch Vig'in produksiyonu ve Kurt Cobain'in ses kırılmaları hâlâ taze.
+
+## 3. "Stairway to Heaven" — Led Zeppelin
+
+Rock'ın belki de en tartışmalı "en iyi"si. Sekiz dakika boyunca akustik başlangıçtan elektrik zirveye tırmanıyor.
+
+## 4. "Bohemian Rhapsody" — Queen
+
+Kurallara meydan okuyan yapısı; opera, rock ve balad karışımıyla türün sınırlarını yeniden çizdi.
+
+## 5. "Like a Rolling Stone" — Bob Dylan
+
+Folk'tan rock'a geçişini ilan ettiği şarkı. Newport 1965 seyircisi bunu unutamadı.
+
+## 6. "Born to Run" — Bruce Springsteen
+
+New Jersey'nin sokakları rock'a şiir gibi işleniyor. "The Boss" lakabının başlangıcı.
+
+## 7. "London Calling" — The Clash
+
+Punk'ın en politik anı. 1979'da yayınlandığından beri her krizde yeniden dinleniyor.
+
+## 8. "Respect" — Aretha Franklin
+
+Otis Redding'in orijinali Aretha'nın elinde bir feminist himne dönüştü.
+
+## 9. "Hey Jude" — The Beatles
+
+Paul McCartney'nin Julian Lennon için yazdığı şarkı, yedi dakikalık koro finaliyle stadyum rock formatını başlattı.
+
+## 10. "Purple Haze" — Jimi Hendrix
+
+Gitarın elektrikli olarak ne yapabileceğini gösteren manifesto.
+
+Listenin geri kalanı: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine", "November Rain", "Comfortably Numb", "Won't Get Fooled Again", "Baba O'Riley", "Layla", "Free Bird", "Thunderstruck", "Enter Sandman", "One", "Black", "Everlong", "Somebody to Love" ve "Immigrant Song".
+
+Kaynak: Entertainment Weekly – "The 25 Greatest Rock Songs of All Time".`,
+    image: "https://ew.com/thmb/1VfMnMHiGOcyw0SRobYIfnufA2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/prince-3a3609373b9b4cc8aa04a06e03f09bdc.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "genc-yasta-hayatini-kaybeden-tv-yildizlari",
+    title: "Genç Yaşta Hayatını Kaybeden 8 TV Yıldızı",
+    excerpt: "Heather O'Rourke'tan Cameron Boyce'a, Jonathan Brandis'ten Brittany Murphy'ye: ekrana damga vurup çok erken aramızdan ayrılan sekiz oyuncu.",
+    body: `Bazı yıldızlar erken parlar, erken söner. Film ve müzik endüstrisinin James Dean, Jayne Mansfield, Jimi Hendrix ve Jim Morrison gibi kayıpları çoktur. Televizyon da benzer trajedilere sahne oldu: 12 yaşındaki Heather O'Rourke'tan *Descendants* yıldızı Cameron Boyce'a, bir kuşağın çocukluğunun kahramanları çok erken kayboldu.
+
+## 1. Heather O'Rourke (12)
+
+*Poltergeist* üçlemesinin unutulmaz "Carol Anne"i, tanı konamayan bağırsak rahatsızlığı yüzünden 1988'de hayatını kaybetti.
+
+## 2. Cameron Boyce (20)
+
+Disney Channel'ın parlayan yüzü, 2019'da uykusunda geçirdiği epilepsi nöbeti sonucu ailesini, hayranlarını ve endüstriyi yıktı.
+
+## 3. Jonathan Brandis (27)
+
+*SeaQuest DSV* yıldızı, kariyerinin durgunlaşması sonrası 2003'te intihar etti. Ölümü sonrası çocuk yıldızlarının psikolojik desteği tartışıldı.
+
+## 4. Brittany Murphy (32)
+
+*Clueless* ve *8 Mile* ile hafızalara kazınan Murphy, 2009'da beklenmedik biçimde hayatını kaybetti. Ölümüyle ilgili şüpheler yıllarca sürdü.
+
+## 5. Anton Yelchin (27)
+
+*Star Trek* yeniden başlatmasının Chekov'u. 2016'da kendi Jeep'i tarafından ezildiği trajik kaza, otomotiv geri çağırmalarını gündeme getirdi.
+
+## 6. Naya Rivera (33)
+
+*Glee*'nin Santana Lopez'i, 2020'de oğlunu tekneye bıraktıktan sonra göldeki bir kazada boğuldu.
+
+## 7. Cory Monteith (31)
+
+*Glee*'nin Finn Hudson'ı, 2013'te bağımlılık mücadelesinin sonunda hayatını kaybetti.
+
+## 8. Angus Cloud (25)
+
+*Euphoria*'nın Fezco'su. 2023'te babasının ölümünden hemen sonra kaza sonucu aşırı doz yüzünden vefat etti.
+
+Kaynak: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
+    image: "https://ew.com/thmb/BhJIB3fj9IqLUu8FY1RJWfTmZYA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/deaths-tout-56e249d36d5b47efbc4b4aad82404316.jpg",
+    source: "Entertainment Weekly",
+  },
 ];
+
+// Deterministic shuffle so new lists spread across the interleaved homepage feed.
+const _LIST_ORDER = [5, 8, 1, 9, 3, 7, 0, 10, 4, 2, 6];
+export const LISTS: ListItem[] = _LIST_ORDER
+  .filter((i) => i < _LISTS_RAW.length)
+  .map((i) => _LISTS_RAW[i]);
 
 export function getList(slug: string) {
   return LISTS.find((l) => l.slug === slug);
