@@ -231,7 +231,7 @@ export function SmallArticleCard({
         </div>
       </div>
       {/* Alt yarı — bembeyaz metin bloğu */}
-      <div className="flex-[0.5] min-h-0 bg-background p-4 flex flex-col justify-center">
+      <div className="flex-[0.4] min-h-0 bg-background px-4 pt-2 pb-3 flex flex-col justify-center">
         {!badgeInImage ? (
           <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-1.5 py-0.5 self-start">
             {CATEGORY_LABEL[article.category]}
