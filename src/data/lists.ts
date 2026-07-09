@@ -416,7 +416,7 @@ Denis Villeneuve'ün Hugh Jackman ve Jake Gyllenhaal'ı buluşturan uzun, ıslak
 *The Departed*, *Nightcrawler*, *Gone Girl*, *Mystic River*, *L.A. Confidential*, *Heat*, *The French Connection*, *Blue Ruin*, *Drive*, *A Simple Plan*, *Fargo*, *Blood Simple*, *The Long Goodbye*, *Klute*, *Vertigo*, *Strangers on a Train*, *Insomnia*, *The Vanishing*, *Cure*, *Memento* ve *The Third Man*.
 
 Kaynak: Entertainment Weekly – "The 30 Most Suspenseful Crime Thrillers of All Time, Ranked".`,
-    image: "https://ew.com/thmb/OWWU1fEGv3QoNEQAG4y7TL1jJ0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/thrillers-4739c362cdcd41ca930dfe5bc361c97f.jpg",
+    image: ewThrillers.url,
     source: "Entertainment Weekly",
   },
   {
