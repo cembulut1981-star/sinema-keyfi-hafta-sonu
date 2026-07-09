@@ -9,6 +9,7 @@ import ewThrillers from "@/assets/ew-crime-thrillers.jpg.asset.json";
 import ewTv from "@/assets/maxresdefault.jpg.asset.json";
 import ewRock from "@/assets/ew-rock-songs.webp.asset.json";
 import ewYoung from "@/assets/ew-young-stars.jpg.asset.json";
+import mythologicalAsset from "@/assets/mythological.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -650,7 +651,7 @@ Jean Cocteau'nun büyülü Orpheus modernizasyonu. Aynadan geçen ölüm figür�
 Tarkovsky'nin Rus Ortodoks ikon ressamı üzerine çektiği bu film, kutsalın ve mitolojik olanın sinemadaki en soylu ifadesi olarak zirvede.
 
 Kaynak: The Guardian – \"From Greek epics to biblical blockbusters: the 20 best mythological movies – ranked!\"`,
-    image: "https://i.guim.co.uk/img/media/38cf4e01ae4079dc97ad316300b748e8fa2ea892/629_0_3565_2852/master/3565.jpg?width=1400",
+    image: mythologicalAsset.url,
     source: "The Guardian",
   },
 ];
