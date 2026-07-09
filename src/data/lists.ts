@@ -9,7 +9,6 @@ import ewThrillers from "@/assets/ew-crime-thrillers.jpg.asset.json";
 import ewTv from "@/assets/maxresdefault.jpg.asset.json";
 import ewRock from "@/assets/ew-rock-songs.webp.asset.json";
 import ewYoung from "@/assets/ew-young-stars.jpg.asset.json";
-import ewYoung from "@/assets/ew-young-stars.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
