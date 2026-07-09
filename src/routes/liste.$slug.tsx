@@ -52,9 +52,9 @@ function ListPage() {
         </div>
 
         <div className="my-10 flex justify-center">
-          <div className="w-full max-w-[560px] p-3" style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}>
+          <div className="w-full max-w-[900px] p-3" style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}>
             <div className="relative aspect-[16/9] overflow-hidden bg-muted">
-              <img src={l.image} alt={l.title} className="w-full h-full object-cover" />
+              <img src={l.image} alt={l.title} className="w-full h-full object-cover" width={1600} height={900} />
             </div>
           </div>
         </div>

@@ -566,7 +566,7 @@ Kaynak: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-const _LIST_ORDER = [5, 8, 1, 9, 3, 7, 0, 10, 4, 2, 6];
+const _LIST_ORDER = [5, 1, 9, 3, 7, 0, 10, 4, 2, 6, 8];
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
   .map((i) => _LISTS_RAW[i]);

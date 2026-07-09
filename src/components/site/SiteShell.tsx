@@ -204,25 +204,25 @@ export function SmallArticleCard({
         <div className="relative w-full h-full px-3">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  className="w-full h-full object-cover"
+                  width={600}
+                  height={450}
+                  loading="lazy"
+                />
+              </Link>
+            ) : (
               <img
                 src={article.image}
                 alt={article.title}
                 className="w-full h-full object-cover"
-                width={400}
-                height={300}
+                width={600}
+                height={450}
                 loading="lazy"
               />
-            </Link>
-          ) : (
-            <img
-              src={article.image}
-              alt={article.title}
-              className="w-full h-full object-cover"
-              width={400}
-              height={300}
-              loading="lazy"
-            />
-          )}
+            )}
           {badgeInImage ? (
             <span className="absolute bottom-2 right-2 font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
               {CATEGORY_LABEL[article.category]}
@@ -278,25 +278,25 @@ export function ArticleCard({ article }: { article: Article }) {
           />
         ) : linkTo ? (
           <Link to={linkTo.to} params={linkTo.params}>
+              <img
+                src={article.image}
+                alt={article.title}
+                className="w-full h-full object-cover"
+                width={1200}
+                height={750}
+                loading="lazy"
+              />
+            </Link>
+          ) : (
             <img
               src={article.image}
               alt={article.title}
               className="w-full h-full object-cover"
-              width={800}
-              height={500}
+              width={1200}
+              height={750}
               loading="lazy"
             />
-          </Link>
-        ) : (
-          <img
-            src={article.image}
-            alt={article.title}
-            className="w-full h-full object-cover"
-            width={800}
-            height={500}
-            loading="lazy"
-          />
-        )}
+          )}
       </div>
       <div className="p-4 flex-1 flex flex-col">
         <span className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1">
