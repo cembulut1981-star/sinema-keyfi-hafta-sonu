@@ -563,10 +563,101 @@ Kaynak: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
     image: ewYoung.url,
     source: "Entertainment Weekly",
   },
+  {
+    slug: "en-iyi-mitolojik-filmler",
+    title: "Yunan Destanlarından İncil Blockbuster'larına: Sıralanmış En İyi 20 Mitolojik Film",
+    excerpt: "Christopher Nolan'ın The Odyssey'i gişeleri altüst etmeye hazırlanırken, Guardian sinemanın en görkemli, en tuhaf ve en unutulmaz mitolojik filmlerini sıraladı.",
+    body: `Christopher Nolan'ın The Odyssey'i Aralık'ta beyaz perdeye taşımaya hazırlanırken, Guardian mitolojik sinemanın büyük dosyalarını yeniden açtı. Yunan destanlarından İncil blockbuster'larına, Kore folkloruna ve Marvel öncesinin dev süperkahraman yapımlarına uzanan bu 20 film, mitolojinin sinemayla nasıl \"eve döndüğünü\" gösteriyor.
+
+## 20. Percy Jackson & the Olympians: The Lightning Thief (2010)
+
+Chris Columbus'un yönettiği Rick Riordan uyarlaması, seri hayranlarını hayal kırıklığına uğratsa da Uma Thurman'ın Medusa'sı ve Steve Coogan'ın Hades'iyle unutulmaz bir çocuk-mitolojisi karışımı.
+
+## 19. Immortals (2011)
+
+Tarsem Singh'in görsel şölene dönüşen Theseus filmi, tarihsel doğrulukla değil, resimsel etkiyle ilgilenir. Henry Cavill'in ilk büyük rolü.
+
+## 18. Wonder Woman (2017)
+
+Patty Jenkins'in filmi, Amazon mitolojisini I. Dünya Savaşı melodramına ustaca yerleştirir. Gal Gadot'un Diana'sı süperkahraman filmlerinin en mitolojik olanlarından biri.
+
+## 17. Troy (2004)
+
+Wolfgang Petersen'in Homeros uyarlaması, tanrıları çıkarıp yerine Brad Pitt'in kasları ile insan trajedisini koyar. Peter O'Toole'un Priam'ı sarsıcı.
+
+## 16. The Prince of Egypt (1998)
+
+DreamWorks'ün animasyon başyapıtı. Musa'nın hikâyesini Yeşilköy-Broadway şarkılarıyla yeniden anlatır.
+
+## 15. Excalibur (1981)
+
+John Boorman'ın gotik Arthur uyarlaması, mitolojik sinemayı sisli, çamurlu ve mistik bir çukura sürükleyerek türü yeniden tanımladı.
+
+## 14. Noah (2014)
+
+Darren Aronofsky'nin İncil epigi, taş devi meleklerden dünyanın sonuna uzanan sanatsal bir sanrı. Russell Crowe'un Noah'ı monolitik.
+
+## 13. The Odyssey (1997)
+
+Andrei Konchalovsky'nin Emmy'li mini dizisi, Nolan'dan önceki büyük Odyssey uyarlaması. Armand Assante'nin sabırlı Odysseus'u.
+
+## 12. Jason and the Argonauts (1963)
+
+Ray Harryhausen'in iskelet savaşçıları ve Talos figürü, mitolojik sinemanın stop-motion altın çağını temsil eder.
+
+## 11. Clash of the Titans (1981)
+
+Yine Harryhausen; Perseus'un Medusa ile karşılaşması ve Kraken'in yükselişi kuşakların rüyalarına girdi.
+
+## 10. The Passion of the Christ (2004)
+
+Mel Gibson'ın Aramice-Latince çektiği, kanlı ve kesintisiz haçlanma anlatısı. Din sinemasının en tartışmalı örneklerinden.
+
+## 9. Ben-Hur (1959)
+
+William Wyler'ın 11 Oscar'lı epiği. At arabası yarışı hâlâ sinema tarihinin en etkileyici aksiyon sahnelerinden biri.
+
+## 8. Black Orpheus (1959)
+
+Marcel Camus'nün Rio karnavalında geçen Orpheus uyarlaması. Bossa nova müziği ve tropikal renkleriyle bir başyapıt.
+
+## 7. Ulysses (1954)
+
+Kirk Douglas'ın Odysseus'u. Mario Camerini'nin bu İtalyan yapımı, destanı 100 dakikaya sığdırma cüretiyle bugün bile şaşırtıcı.
+
+## 6. Kagemusha (1980)
+
+Akira Kurosawa'nın samuray filmleri, Japon feodal mitolojisinin destansı sinemadaki en güçlü ifadeleridir.
+
+## 5. The Ten Commandments (1956)
+
+Cecil B. DeMille'in Musa'sı. Charlton Heston, denizi ikiye ayırırken sinema mitolojisinin de sınırlarını genişletti.
+
+## 4. Spirited Away (2001)
+
+Hayao Miyazaki'nin Shinto ve Japon folkloruna yaptığı en büyük armağan. Mitolojik sinemanın animasyondaki zirvesi.
+
+## 3. Medea (1969)
+
+Pier Paolo Pasolini'nin Maria Callas ile çektiği bu film, Euripides'i modern bir arkeoloji dersine dönüştürür.
+
+## 2. Orphée (1950)
+
+Jean Cocteau'nun büyülü Orpheus modernizasyonu. Aynadan geçen ölüm figürüyle sinema tarihine gömüldü.
+
+## 1. Andrei Rublev (1966)
+
+Tarkovsky'nin Rus Ortodoks ikon ressamı üzerine çektiği bu film, kutsalın ve mitolojik olanın sinemadaki en soylu ifadesi olarak zirvede.
+
+Kaynak: The Guardian – \"From Greek epics to biblical blockbusters: the 20 best mythological movies – ranked!\"`,
+    image: "https://i.guim.co.uk/img/media/38cf4e01ae4079dc97ad316300b748e8fa2ea892/629_0_3565_2852/master/3565.jpg?width=1400",
+    source: "The Guardian",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-const _LIST_ORDER = [5, 1, 9, 3, 7, 0, 10, 4, 2, 6, 8];
+const _LIST_ORDER = [11, 5, 1, 9, 3, 7, 0, 10, 4, 2, 6, 8];
+
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
   .map((i) => _LISTS_RAW[i]);
