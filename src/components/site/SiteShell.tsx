@@ -198,10 +198,10 @@ export function SmallArticleCard({
     <article className={`relative flex flex-col rounded-lg overflow-hidden h-full ${className || ""}`}>
       {/* Üst yarı — yeşil arka plan + fotoğraf */}
       <div
-        className="flex-[0.5] min-h-0 flex items-center justify-center overflow-hidden"
+        className="flex-[0.6] min-h-0 flex items-center justify-center overflow-hidden"
         style={{ background: article.id % 2 === 0 ? "#00EAA1" : "#ffbd3f" }}
       >
-        <div className="relative w-full h-full px-3">
+        <div className="relative w-full h-full px-2 pt-1">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
                 <img
@@ -231,7 +231,7 @@ export function SmallArticleCard({
         </div>
       </div>
       {/* Alt yarı — bembeyaz metin bloğu */}
-      <div className="flex-[0.5] min-h-0 bg-background p-4 flex flex-col justify-center">
+      <div className="flex-[0.4] min-h-0 bg-background px-4 pt-2 pb-3 flex flex-col justify-center">
         {!badgeInImage ? (
           <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-1.5 py-0.5 self-start">
             {CATEGORY_LABEL[article.category]}
