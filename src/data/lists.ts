@@ -4,6 +4,11 @@ import img2 from "@/assets/wc-list-2.jpg";
 import img3 from "@/assets/wc-list-3.jpg";
 import img4 from "@/assets/wc-list-4.jpg";
 import img5 from "@/assets/wc-list-5.jpg";
+import ewMovies from "@/assets/ew-best-movies-2026.webp.asset.json";
+import ewThrillers from "@/assets/ew-crime-thrillers.jpg.asset.json";
+import ewTv from "@/assets/ew-best-tv-2026.jpg.asset.json";
+import ewRock from "@/assets/ew-rock-songs.webp.asset.json";
+import ewYoung from "@/assets/ew-young-stars.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -361,7 +366,7 @@ Ryan Coogler'ın vampir filmi, Oscar'ı kazandıktan sonra hâlâ konuşulmaya d
 Pixar'ın franchise tarihinin en büyük açılışını yapan filmi. Jessie'nin öne çıktığı bu bölüm, oyuncakların dijital çağla imtihanını anlatıyor.
 
 Kaynak: Entertainment Weekly – "The 10 Best Movies of 2026 (So Far)".`,
-    image: "https://ew.com/thmb/CoqXR_xQBeqcojP4V0Gt0SHs3qc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-movies-sofar-2026-2f3913f606af48f2b946e2802d15cceb.jpg",
+    image: ewMovies.url,
     source: "Entertainment Weekly",
   },
   {
@@ -411,7 +416,7 @@ Denis Villeneuve'ün Hugh Jackman ve Jake Gyllenhaal'ı buluşturan uzun, ıslak
 *The Departed*, *Nightcrawler*, *Gone Girl*, *Mystic River*, *L.A. Confidential*, *Heat*, *The French Connection*, *Blue Ruin*, *Drive*, *A Simple Plan*, *Fargo*, *Blood Simple*, *The Long Goodbye*, *Klute*, *Vertigo*, *Strangers on a Train*, *Insomnia*, *The Vanishing*, *Cure*, *Memento* ve *The Third Man*.
 
 Kaynak: Entertainment Weekly – "The 30 Most Suspenseful Crime Thrillers of All Time, Ranked".`,
-    image: "https://ew.com/thmb/OWWU1fEGv3QoNEQAG4y7TL1jJ0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/thrillers-4739c362cdcd41ca930dfe5bc361c97f.jpg",
+    image: ewThrillers.url,
     source: "Entertainment Weekly",
   },
   {
@@ -461,7 +466,7 @@ Yılın en büyük sürprizi. Kıyı kasabasında geçen mistik gerilim, atmosfe
 İkinci ve son sezon, *Star Wars* evreninin bugüne kadarki en yetişkin yapımı olarak tarihe geçiyor.
 
 Kaynak: Entertainment Weekly – "The 10 Best TV Shows of 2026 (So Far)".`,
-    image: "https://ew.com/thmb/rx4q94jgpMeYpKN2D1EmwC2Rw5w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/EW-Best-TV-Shows-SoFar-2026-0bb8e8f6f7b4444280230587426e29dd.jpg",
+    image: ewTv.url,
     source: "Entertainment Weekly",
   },
   {
@@ -513,7 +518,7 @@ Gitarın elektrikli olarak ne yapabileceğini gösteren manifesto.
 Listenin geri kalanı: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine", "November Rain", "Comfortably Numb", "Won't Get Fooled Again", "Baba O'Riley", "Layla", "Free Bird", "Thunderstruck", "Enter Sandman", "One", "Black", "Everlong", "Somebody to Love" ve "Immigrant Song".
 
 Kaynak: Entertainment Weekly – "The 25 Greatest Rock Songs of All Time".`,
-    image: "https://ew.com/thmb/1VfMnMHiGOcyw0SRobYIfnufA2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/prince-3a3609373b9b4cc8aa04a06e03f09bdc.jpg",
+    image: ewRock.url,
     source: "Entertainment Weekly",
   },
   {
@@ -555,7 +560,7 @@ Disney Channel'ın parlayan yüzü, 2019'da uykusunda geçirdiği epilepsi nöbe
 *Euphoria*'nın Fezco'su. 2023'te babasının ölümünden hemen sonra kaza sonucu aşırı doz yüzünden vefat etti.
 
 Kaynak: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
-    image: "https://ew.com/thmb/BhJIB3fj9IqLUu8FY1RJWfTmZYA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/deaths-tout-56e249d36d5b47efbc4b4aad82404316.jpg",
+    image: ewYoung.url,
     source: "Entertainment Weekly",
   },
 ];
