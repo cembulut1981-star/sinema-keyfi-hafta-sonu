@@ -466,7 +466,7 @@ Yılın en büyük sürprizi. Kıyı kasabasında geçen mistik gerilim, atmosfe
 İkinci ve son sezon, *Star Wars* evreninin bugüne kadarki en yetişkin yapımı olarak tarihe geçiyor.
 
 Kaynak: Entertainment Weekly – "The 10 Best TV Shows of 2026 (So Far)".`,
-    image: "https://ew.com/thmb/rx4q94jgpMeYpKN2D1EmwC2Rw5w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/EW-Best-TV-Shows-SoFar-2026-0bb8e8f6f7b4444280230587426e29dd.jpg",
+    image: ewTv.url,
     source: "Entertainment Weekly",
   },
   {
