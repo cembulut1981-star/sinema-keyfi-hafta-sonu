@@ -1,4 +1,6 @@
 // Auto-curated news content. Sources: Rolling Stone film news.
+import odysseyAsset from "@/assets/odyssey.webp.asset.json";
+import aliGAsset from "@/assets/ali-g.jpg.asset.json";
 import img_practical_magic_2 from "@/assets/news-rs-practical-magic-2.jpg";
 import img_blair_witch_reboot from "@/assets/news-rs-blair-witch-reboot.jpg";
 import img_tangled_up_in_blue from "@/assets/news-rs-tangled-up-in-blue.jpg";

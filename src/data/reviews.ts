@@ -1,3 +1,4 @@
+import lastOneRoadAsset from "@/assets/last-one-road.jpg.asset.json";
 import glastonburyImg from "@/assets/review-glastonbury.jpg";
 import strungImg from "@/assets/review-strung.jpg";
 import missionImg from "@/assets/review-mission.jpg";
