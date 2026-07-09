@@ -366,7 +366,7 @@ Ryan Coogler'ın vampir filmi, Oscar'ı kazandıktan sonra hâlâ konuşulmaya d
 Pixar'ın franchise tarihinin en büyük açılışını yapan filmi. Jessie'nin öne çıktığı bu bölüm, oyuncakların dijital çağla imtihanını anlatıyor.
 
 Kaynak: Entertainment Weekly – "The 10 Best Movies of 2026 (So Far)".`,
-    image: "https://ew.com/thmb/CoqXR_xQBeqcojP4V0Gt0SHs3qc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-movies-sofar-2026-2f3913f606af48f2b946e2802d15cceb.jpg",
+    image: ewMovies.url,
     source: "Entertainment Weekly",
   },
   {
