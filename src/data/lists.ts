@@ -560,7 +560,7 @@ Disney Channel'ın parlayan yüzü, 2019'da uykusunda geçirdiği epilepsi nöbe
 *Euphoria*'nın Fezco'su. 2023'te babasının ölümünden hemen sonra kaza sonucu aşırı doz yüzünden vefat etti.
 
 Kaynak: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
-    image: "https://ew.com/thmb/BhJIB3fj9IqLUu8FY1RJWfTmZYA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/deaths-tout-56e249d36d5b47efbc4b4aad82404316.jpg",
+    image: ewYoung.url,
     source: "Entertainment Weekly",
   },
 ];
