@@ -518,7 +518,7 @@ Gitarın elektrikli olarak ne yapabileceğini gösteren manifesto.
 Listenin geri kalanı: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine", "November Rain", "Comfortably Numb", "Won't Get Fooled Again", "Baba O'Riley", "Layla", "Free Bird", "Thunderstruck", "Enter Sandman", "One", "Black", "Everlong", "Somebody to Love" ve "Immigrant Song".
 
 Kaynak: Entertainment Weekly – "The 25 Greatest Rock Songs of All Time".`,
-    image: "https://ew.com/thmb/1VfMnMHiGOcyw0SRobYIfnufA2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/prince-3a3609373b9b4cc8aa04a06e03f09bdc.jpg",
+    image: ewRock.url,
     source: "Entertainment Weekly",
   },
   {
