@@ -23,6 +23,21 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "the-last-one-for-the-road",
+    origTitle: "The Last One for the Road",
+    title: "\"The Last One for the Road\" — Venedik Yolunda Yaşlı Ayyaşların Trajikomik Odesi",
+    excerpt: "Francesco Sossai'nin filmi; alkolizmi bir hastalık olarak değil, iflah olmaz iyimserlerin kaçınılmaz zamanı olarak resmediyor. Karamsar ama komik, tuhaf bir buddy-yol filmi.",
+    rating: "3.5/5",
+    image: "https://i.guim.co.uk/img/media/e30967c72aa278810026d298d308953fc37cf2a9/419_0_7920_6336/master/7920.jpg?width=1200",
+    body: `Francesco Sossai'nin yeni filmi, \"alkolizm\" gibi işkilli klinik kavramlara pek prim vermiyor. Bunun yerine sarhoşluğa, bulanıklığa, hüzne ve arada mide bulantısına alaycı bir hoşgörüyle bakıyor; günün her saatinde içmeye devam edebilme süper gücüne sahip, hep \"son bir kadeh daha\" isteyen orta yaşlı ayyaşların trajikomik iyimserliğine göz kırpıyor. Filmin başında ve sonunda tekrarlanan aynı deadpan şaka bunu özetliyor: Biri kalıcı bir vedanın eşiğinde hayati bir öğüt bağırıyor ama bu öğüt anlaşılmayacak kadar boğuk çıkıyor.
+      
+Bu bir yol filmi, bir buddy filmi, biraz saçmalayan bir shaggy-dog masalı; olgunlaşmayı reddeden bir olgunlaşma hikâyesi; tatlı yanı silinmiş bir tatlı-acı komedi. Doriano (Pierpaolo Capovilla) ile Carlobianchi (Sergio Romano), sürekli iyi niyetle sarhoş, elden ağıza yaşayan, küçük dolandırıcılıkların kıyısındaki iki orta yaşlı serseri. Ortakları Genio'nun (Andrea Pennacchi) fabrikadan çaldığı marka gözlükleri yok pahasına satmalarından kalan lüks bir arabada yaşıyorlar.
+
+Genio yıllar sonra Venedik'e döneceğini haber verince ikili yola koyulur; ama saçma bir hata yüzünden onu ıskalarlar. Yolda tanıştıkları genç mimarlık öğrencisi Giulio (Filippo Scotti), bir başka öğrenciye karşılıksız bir aşk yaşamaktadır. Doriano ile Carlobianchi bunu sezerler ve Giulio, canı sıkıla sıkıla bu iki adamla takılmayı kabul eder. Onları Carlo Scarpa'nın postmodernist Brion mezarına götürür; beton formları ölüm üzerine bir meditasyon gibi duran bu yapıda film karakterlerin de sessiz sedasız bir hesaplaşma içinde olduğunu ima eder.
+
+Sossai, Venedik'i hiç sentimentalleştirmeden gösteriyor: Santa Croce'ye kısa bir bakış ve İtalya'nın 'Luton havalimanı' Treviso. Filmin ana damarı, Doriano ile Carlobianchi'nin Giulio'nun romantik yarasını iyileştirip iyileştirmediği; belki de gerçekte iyileştirdikleri onların Genio'ya duyduğu özlem oluyor. Giulio, Genio'nun olamadığı gerçek üçüncü silahşor. Öğleden sonra sallana sallana yürüyen bir sarhoş gibi burnunun izlediği yönü takip eden, sevimli bir film.`,
+  },
+  {
     slug: "enola-holmes-3",
     origTitle: "Enola Holmes 3",
     title: "\"Enola Holmes 3\" — Büyüme Sancıları Çeken Sevimli Bir Dedektif Sagası",
