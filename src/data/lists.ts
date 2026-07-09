@@ -14,7 +14,7 @@ export type ListItem = {
   source: string;
 };
 
-export const LISTS: ListItem[] = [
+const _LISTS_RAW: ListItem[] = [
   {
     slug: "az-bilinen-korku-filmleri",
     title: "Kimsenin Konuşmadığı 10 Muhteşem Korku Filmi",
