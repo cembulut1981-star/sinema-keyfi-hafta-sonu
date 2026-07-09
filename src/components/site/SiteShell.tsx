@@ -201,7 +201,7 @@ export function SmallArticleCard({
         className="flex-[0.6] min-h-0 flex items-center justify-center overflow-hidden"
         style={{ background: article.id % 2 === 0 ? "#00EAA1" : "#ffbd3f" }}
       >
-        <div className="relative w-full h-full px-3">
+        <div className="relative w-full h-full px-2 pt-1">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
                 <img
