@@ -4,6 +4,11 @@ import img2 from "@/assets/wc-list-2.jpg";
 import img3 from "@/assets/wc-list-3.jpg";
 import img4 from "@/assets/wc-list-4.jpg";
 import img5 from "@/assets/wc-list-5.jpg";
+import ewMovies from "@/assets/ew-best-movies-2026.webp.asset.json";
+import ewThrillers from "@/assets/ew-crime-thrillers.jpg.asset.json";
+import ewTv from "@/assets/ew-best-tv-2026.jpg.asset.json";
+import ewRock from "@/assets/ew-rock-songs.webp.asset.json";
+import ewYoung from "@/assets/ew-young-stars.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
