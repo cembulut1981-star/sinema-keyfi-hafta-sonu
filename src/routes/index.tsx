@@ -4,38 +4,7 @@ import { useState } from "react";
 import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
 
-// Slugs that only appear in the "Daha Fazla Göster" (load-more) extra rows.
-const EXTRA_REVIEW_SLUGS = new Set([
-  "good-luck-have-fun-dont-die",
-  "project-hail-mary",
-  "avatar-son-hava-bukucu-s2",
-  "cape-fear-apple-tv",
-  "the-boroughs",
-  "star-city",
-]);
-const EXTRA_NEWS_SLUGS = new Set(["yeni-yaz-dizileri-2026"]);
-const EXTRA_SERIES_SLUGS = new Set([
-  "dutton-ranch-s1-final",
-  "spider-noir-inceleme",
-  "from-son-sezon-set-ziyareti",
-]);
-const EXTRA_MUSIC_SLUGS = new Set([
-  "yungblud-industry-plant-destegi",
-  "cretin-family-ramones-50-yil",
-  "u2-street-of-dreams-lider-single",
-  "rosalia-lux-turnesi-itiraf-kabinleri",
-  "lauren-bennett-hayatini-kaybetti",
-]);
-
-function isExtra(a: Article) {
-  return (
-    (a.reviewSlug && EXTRA_REVIEW_SLUGS.has(a.reviewSlug)) ||
-    (a.newsSlug && EXTRA_NEWS_SLUGS.has(a.newsSlug)) ||
-    (a.seriesSlug && EXTRA_SERIES_SLUGS.has(a.seriesSlug)) ||
-    (a.musicSlug && EXTRA_MUSIC_SLUGS.has(a.musicSlug))
-  );
-}
-
+const PAGE_SIZE = 20;
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -50,12 +19,10 @@ export const Route = createFileRoute("/")({
 });
 
 function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Article; sideCards: Article[]; reverse?: boolean }) {
-  // Split sides as evenly as possible so no column is empty / leaves a gap.
   const half = Math.ceil(sideCards.length / 2);
   const left = sideCards.slice(0, half);
   const right = sideCards.slice(half);
 
-  // If there are no sides at all, let the big card span the whole row.
   if (sideCards.length === 0) {
     return (
       <section className="grid gap-6 mb-12 grid-cols-1 items-stretch">
@@ -66,8 +33,6 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
     );
   }
 
-  // If only one side column is populated, use a 2-col layout so the big
-  // card and the small column share the row without an empty gap.
   if (right.length === 0) {
     const cols = reverse
       ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)]"
@@ -143,24 +108,17 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
   );
 }
 
-function Index() {
-  const [showMore, setShowMore] = useState(false);
-
-  // Separate extras (revealed only after "Daha Fazla Göster") from the main feed.
-  const mainArticles = ARTICLES.filter((a) => !isExtra(a));
-  const extraArticles = ARTICLES.filter(isExtra);
-
-  // Build mixed rows (each: 1 big + 4 small = 5 articles) with uniform heights.
+// Build 1-big + 4-small rows from a slice of articles. Rows are laid out in
+// alternating orientation starting from `startIndex` so the pattern stays
+// consistent when a new page is appended.
+function buildRows(articles: Article[]) {
   const rows: { center: Article; sides: Article[] }[] = [];
   const used = new Set<number>();
-  const bigPool = mainArticles.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
-  const smallPool = mainArticles.filter((a) => a.category === "haberler" || a.category === "diziler");
+  const bigPool = articles.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
+  const smallPool = articles.filter((a) => a.category === "haberler" || a.category === "diziler");
 
   const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
 
-  // Only build FULL 1+4 rows so every row keeps the exact same layout.
-  // Anything that doesn't fit into a complete row falls through into a
-  // uniform small-card grid below (no big-card gaps).
   while (true) {
     const remainingBigs = bigPool.filter((a) => !used.has(a.id)).length;
     const remainingSmalls = smallPool.filter((a) => !used.has(a.id)).length;
@@ -170,7 +128,6 @@ function Index() {
     if (!center) center = pickUnused(smallPool);
     if (!center) break;
 
-    // Tentatively reserve; collect 4 sides preferring smalls, then bigs.
     const centerId = center.id;
     used.add(centerId);
     const sides: Article[] = [];
@@ -185,7 +142,6 @@ function Index() {
       }
     }
     if (sides.length < 4) {
-      // Not enough for a full row — release the center and stop.
       used.delete(centerId);
       break;
     }
@@ -193,30 +149,17 @@ function Index() {
     rows.push({ center, sides });
   }
 
-  // Everything that didn't fit a full row → uniform small-card grid.
-  const leftovers = mainArticles.filter((a) => !used.has(a.id));
+  const leftovers = articles.filter((a) => !used.has(a.id));
+  return { rows, leftovers };
+}
 
-  // Build extra rows (revealed by the load-more button) with the same
-  // 1 big + 4 sides layout. Interleave bigs (music/reviews) with smalls
-  // (news/series) so music articles are spread across rows instead of
-  // clumped together.
-  const extraBigs = extraArticles.filter(
-    (a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik",
-  );
-  const extraSmalls = extraArticles.filter(
-    (a) => a.category === "haberler" || a.category === "diziler",
-  );
-  const extraQueue: Article[] = [];
-  const maxLen = Math.max(extraBigs.length, extraSmalls.length);
-  for (let i = 0; i < maxLen; i++) {
-    if (i < extraBigs.length) extraQueue.push(extraBigs[i]);
-    if (i < extraSmalls.length) extraQueue.push(extraSmalls[i]);
-  }
-  const extraRows: { center: Article; sides: Article[] }[] = [];
-  for (let i = 0; i + 4 < extraQueue.length; i += 5) {
-    extraRows.push({ center: extraQueue[i], sides: extraQueue.slice(i + 1, i + 5) });
-  }
-  const extraLeftovers = extraQueue.slice(extraRows.length * 5);
+function Index() {
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  // Newest posts sit at the top of ARTICLES; slice to show only the first N.
+  const visibleArticles = ARTICLES.slice(0, visibleCount);
+  const { rows, leftovers } = buildRows(visibleArticles);
+  const hasMore = visibleCount < ARTICLES.length;
 
   return (
     <SiteShell>
@@ -233,31 +176,11 @@ function Index() {
           </section>
         ) : null}
 
-        {showMore && extraRows.length > 0
-          ? extraRows.map((r, i) => (
-              <MixedRow
-                key={r.center.id}
-                centerCard={r.center}
-                sideCards={r.sides}
-                reverse={(rows.length + i) % 2 === 1}
-              />
-            ))
-          : null}
-
-        {showMore && extraLeftovers.length > 0 ? (
-          <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 auto-rows-fr items-stretch">
-            {extraLeftovers.map((a) => (
-              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
-            ))}
-          </section>
-        ) : null}
-
-        {!showMore && (extraRows.length > 0 || extraLeftovers.length > 0) ? (
-
+        {hasMore ? (
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setShowMore(true)}
+              onClick={() => setVisibleCount((c) => Math.min(c + PAGE_SIZE, ARTICLES.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-colors"
             >
               Daha Fazla Göster
