@@ -26,7 +26,7 @@ export const REVIEWS: Review[] = [
   {
     slug: "young-washington",
     origTitle: "Young Washington",
-    title: "\"Young Washington\" — Kapan Bağış Ricasıyla Kendi Ayağına Kurşun Sıkan Bir Biyografi",
+    title: "\"Young Washington\" — Kapanıştaki Bağış Ricasıyla Kendi Ayağına Kurşun Sıkan Bir Biyografi",
     excerpt: "Jon Erwin'in yönettiği Angel Studios yapımı; George Washington'ı efsaneleştirmeye çalışırken kapanış jeneriğindeki bağış çağrısıyla neredeyse tatmin edici olan bir biyografiyi zehirliyor.",
     rating: "2.5/5",
     image: "https://www.thewrap.com/wp-content/uploads/2026/07/Young-Washington-William-Franklyn-Miller.jpg",
