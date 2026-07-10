@@ -1,5 +1,6 @@
 import duttonAsset from "@/assets/dutton.jpg.asset.json";
 import spiderNoirAsset from "@/assets/spider_noir.jpg.asset.json";
+import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
 
 export type SeriesItem = {
   slug: string;
@@ -11,6 +12,15 @@ export type SeriesItem = {
 };
 
 export const SERIES: SeriesItem[] = [
+  {
+    slug: "cape-fear-asit-sekansi-goruntu-yonetmeni",
+    title: "'Cape Fear'in Asit Sekansı Neden Yepyeni Bir Görsel Alet Çantası Gerektirdi",
+    excerpt: "Görüntü yönetmeni Celiana Cárdenas, Apple TV'nin 'Cape Fear' dizisinin altıncı bölümündeki asit yolculuğunu perdeye taşımak için lens, en-boy oranı ve renkte köklü değişikliklere gitti.",
+    body: "Martin Scorsese'nin 1991 tarihli 'Cape Fear' uyarlaması, bir Hollywood stüdyosundan çıkmış en cesur estetiğe sahip filmlerden biriydi: hızlı pan'lar, hızlandırılmış kamera hareketleri ve alışılmadık açılarla Bowden ailesinin (Nick Nolte, Jessica Lange, Juliette Lewis) ve Robert De Niro'nun ikonik kötüsü Max Cady'nin ruh hâlleri perdeye taşınıyordu. Apple TV'nin yeni 'Cape Fear' dizisi, Nick Antosca'nın yaratıcılığı altında Scorsese'nin cüretini on saatlik bir formata yayıyor. Görüntü yönetmenleri Celiana Cárdenas ve Eben Bolter, Scorsese'nin bazı tekniklerini içselleştirse de kendine ait bir görsel dil kuruyor.\n\nCárdenas IndieWire'a verdiği demeçte her bölümün farklı bir tonu olduğunu vurguluyor: \"Karakterlerin nerede olduğunu, kameranın nesnel mi yoksa öznel mi olması gerektiğini anlamak çok önemliydi.\" En cesur öznel kamera denemesi ise altıncı bölümde geliyor: Max Cady — ya da bir başkası — Bowden ailesinin içeceğine asit karıştırıyor. Cárdenas ile yönetmen Trey Edward Shults, yolculuğu klişe görsel bozulmalar yerine daha içsel bir tedirginlik olarak resmetmeyi seçiyor.\n\n\"Dizi Atlas Mercury lenslerle ve 2.35:1 oranıyla çekiliyor. 'Neden daha yumuşak, daha rüyamsı bir şeye geçmiyoruz?' dedim.\" Cárdenas, Atlas'lardan 1960'ların vintage Super Baltar lenslerine geçiyor; en-boy oranını yavaş yavaş 2.35'ten daha dikey bir çerçeveye kaydırıyor. Alıştığımız letterbox'lı görüntü, asit devreye girdikçe televizyon ekranını daha çok kaplamaya başlıyor. Bu ince ama etkili müdahaleler, seyirciye ne olduğunu tam anlamlandırmadan Bowden ailesinin kayan zeminini hissettiriyor — Scorsese'nin ruhuna sadık, ama tamamen kendine ait bir 'Cape Fear' görselliği.",
+    image: capeFearAsset.url,
+    source: "IndieWire",
+  },
+
   {
     slug: "the-bear-s5-final-anilar",
     title: "'The Bear' Finali Her Şeyden Önce Anılarla İlgili",
