@@ -666,7 +666,7 @@ Kaynak: The Guardian – \"From Greek epics to biblical blockbusters: the 20 bes
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-const _LIST_ORDER = [11, 5, 1, 9, 3, 7, 0, 10, 4, 2, 6, 8];
+const _LIST_ORDER = [0, 12, 6, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
