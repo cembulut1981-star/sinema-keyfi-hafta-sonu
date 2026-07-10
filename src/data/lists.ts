@@ -22,6 +22,15 @@ export type ListItem = {
 
 const _LISTS_RAW: ListItem[] = [
   {
+    slug: "guardian-okurlarinin-2026-favori-filmleri",
+    title: "\"Sinemada Yedi Kez İzledim\": Guardian Okurlarının 2026 Favori Filmleri",
+    excerpt: "Guardian editörlerinin 2026'nın en iyilerini seçmesinin ardından okurlar da söz aldı. 'Backrooms'tan 'The Secret Agent'a, yılın ilk yarısına damga vuran sihirli sinema anları.",
+    body: "Guardian editörlerinin 2026'nın ilk yarısının en iyi filmlerini seçmesinin ardından, okurlardan da yılın ilk altı ayına ait sihirli sinema anlarını paylaşmalarını istediler. Gelen mesajlarda tekrar tekrar öne çıkan başlıklar ve şaşırtıcı seçimler dikkat çekici bir kolektif portre çiziyor.\n\n**The Secret Agent** — Kleber Mendonça Filho'nun filmi, Brezilya kırsalında bir benzin istasyonunda geçen tuhaf açılış sahnesiyle Londra'dan yazan Liz'i daha ilk kareden yakalamış. Kaçak akademisyen Armando'yu köşeye sıkıştırmaya çalışan yozlaşmış bir şirket yetkilisi Ghirotti, izleyicinin tüylerini diken diken eden bir kötü.\n\n**Backrooms** — Sonsuz sarı koridorlar ve floresan aydınlatmayla çekilen bu düşük bütçeli deneme, yılın ilk yarısının en çok konuşulan indie'lerinden biri. Bir okurun ifadesiyle \"sinemada yedi kez izledim\" — YouTube kısa filminden çıkıp uzun metraj olmayı başaran ender işlerden.\n\n**The Ballad of Wallis Island** — Küçük ölçekli, sıcak ve müzik dolu bir ada hikâyesi; birçok okur için yılın 'küçük mucize' filmi. Sinemadan çıkarken bir yabancıya sarılmak istedim diyenler var.\n\n**Sinners** — Ryan Coogler'ın vampir-müzik hibrid filmi, IMAX salonlarında yaşayan bir deneyime dönüşmüş. Okurlar özellikle blues sekansını yılın en cesur set-piece'i olarak anıyor.\n\n**Bring Her Back** — Danny ve Michael Philippou kardeşlerin 'Talk to Me' sonrası ikinci filmi, korkuseverler için beklentiyi karşıladığı gibi aştı da. \"Sinemada bu kadar suskun kalmış bir salonu son ne zaman gördüm hatırlamıyorum\" yazmış Manchester'dan bir okur.\n\nListe; 'Anora' cesaretiyle Cannes'da yankı bulan 'Sentimental Value', Werner Herzog'un yeni belgeseli, Payal Kapadia'nın yeni işi ve okurların sürpriz favorisi 'Friendship' gibi başlıklarla uzayıp gidiyor. Sinema salonuna dönüş her yıl kutlanan bir söylem olmaktan çıkıp somut bir alışkanlığa evriliyor gibi — en azından Guardian okurları için 2026'nın ilk yarısı bunun kanıtı.",
+    image: "https://i.guim.co.uk/img/media/e245923817e6c5241c330a7af2bc71a910020417/0_0_1547_1031/master/1547.jpg?width=1200&dpr=1&s=none&crop=none",
+    source: "The Guardian",
+  },
+
+  {
     slug: "az-bilinen-korku-filmleri",
     title: "Kimsenin Konuşmadığı 10 Muhteşem Korku Filmi",
     excerpt: "Gişe başarılarının ve klasiklerin gölgesinde kalan, ancak türün en cesur, en atmosferik ve en unutulmaz örnekleri arasında yer alan on korku filmi.",
@@ -657,7 +666,7 @@ Kaynak: The Guardian – \"From Greek epics to biblical blockbusters: the 20 bes
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-const _LIST_ORDER = [11, 5, 1, 9, 3, 7, 0, 10, 4, 2, 6, 8];
+const _LIST_ORDER = [0, 12, 6, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
