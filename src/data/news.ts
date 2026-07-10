@@ -20,6 +20,22 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "heat-2-bale-dicaprio-mann",
+    title: "\"Heat 2\" Kasım'da Kameraların Karşısına Geçiyor: Christian Bale ve Leonardo DiCaprio Kadroda",
+    excerpt: "Michael Mann'in efsanevi 1995 yapımı 'Heat'in devam filmi 'Heat 2'nin Kasım'da çekimlere başladığı öğrenildi. Bale, Al Pacino'nun Hanna'sını; DiCaprio, Val Kilmer'ın Shiherlis'ini üstleniyor.",
+    body: "TheWrap'in ulaştığı yapımın içinden dört kaynağa göre, bir yıllık zorlu müzakerelerin ardından Christian Bale ve Leonardo DiCaprio, Michael Mann'in 'Heat 2' devam filminin başrollerini üstlenecek. Kaynaklardan ikisi anlaşmaların hâlihazırda kapandığını, diğer ikisi ise anlaşmaların son müzakerelerde olduğunu ancak kapanmasının beklendiğini söylüyor.\n\nBale, orijinal filmde Al Pacino tarafından canlandırılan, azimli LAPD Cinayet Masası dedektifi Vincent Hanna'yı; DiCaprio ise Val Kilmer'ın canlandırdığı Chris Shiherlis'i oynayacak. Mann, 2022'de Meg Gardiner ile birlikte kaleme aldığı romana dayanan devam filminin yazarlığını ve yönetmenliğini üstlenecek. 'Heat 2', Mann'in 1995 tarihli çığır açıcı filmi 'Heat'in hem öncesinde hem sonrasında geçen bir prekuel/sekuel yapısına sahip.\n\nAmazon MGM Studios sözcüsü henüz hiçbir anlaşmanın kesinleşmediğini belirtti. TheWrap ayrıca kötü adam Wardell rolü için Adam Driver'ın istendiğini ve müzakerelerin derinleştiğini öğrendi. Stephen Graham'ın da ilk filmdeki Robert De Niro rolü Neil McCauley için görüşmelerde olduğu belirtiliyor. Ashley Judd'ın canlandırdığı Sharlene rolü için ise çok sayıda oyuncunun yarıştığı bildiriliyor.\n\nÇekimlerin Kasım'da başlaması planlanan filmin yayın tarihi henüz açıklanmadı; ancak Mann'in tüm kariyerinin en büyük ölçekli suç epiği olma yolunda ilerlediği şimdiden konuşuluyor.",
+    image: "https://www.thewrap.com/wp-content/uploads/2026/07/Christian-Bale-Leonardo-DiCaprio-Heat-2.jpg",
+    source: "TheWrap",
+  },
+  {
+    slug: "supergirl-gise-cokusu-neden",
+    title: "\"Supergirl\" Gişede Neden Çakıldı? DC'nin Yeni Evreninde Alarm Zilleri",
+    excerpt: "170 milyon dolar bütçeli 'Supergirl' 38 milyon dolarlık açılışla DC'nin sinematik evren planlarını sarstı. Hedef kitle Z kuşağı kadınlar salonlara gelmedi; süper kahraman türü için bir dönüm noktası mı?",
+    body: "Bir sinematik evren başlatmaya çalışırken istemeyeceğiniz şey 37 milyon dolarlık bir açılış hafta sonudur — ne var ki DC bu hafta sonu 'Supergirl'ün sarsıcı çıkışının ardından tam olarak buradadır.\n\nBir Warner Bros. iç kaynağı TheWrap'e film için 'çok fazla düzeyde ıskaladı' dedi. Eleştiriler sertti, ancak salonlara gelen çizgi roman hayranları bile ikna olmadı — film CinemaScore'dan B- aldı. En kritik nokta ise hedef kitleye tamamen ulaşamamış olması: 26 yaşındaki Milly Alcock'ın başrolde olduğu film Z kuşağı kadınlar için yapılmıştı, ancak bu demografi hafta sonu salonlara gelmedi. Seyircinin %59'u erkek, %65'i 25 yaşın üzerindeydi.\n\n'Supergirl'ün 170 milyon dolarlık bütçesi kârlılık çıtasını çok yüksek koyuyor — mucize olmadan bu çıtayı aşması mümkün değil. Süper kahraman türü zaten son birkaç yıldır düşüş trendindeyken (Florence Pugh ve Pedro Pascal bile Marvel filmlerini 2010'ların performansına ulaştıramadı), 'Supergirl' bu kadar yüksek bütçeyle onaylanan son A sınıfı olmayan süper kahraman filmi olabilir.\n\nİyi haber şu ki DC'nin sıradaki filmi zaten farklı bir kalıpta: bu sonbaharın 'Clayface'i 40 milyon dolarlık bir beden korkusu filmi. Ancak 'Supergirl', James Gunn ve Peter Safran'ın 10 yıllık DC planına yönelik topyekûn bir ilgisizliği mi işaret ediyor, yoksa bu sadece tek bir filmin reddi mi? Kaynaklara göre önümüzdeki aylar bu sorunun cevabını verecek.\n\nKarşılaştırma için: 'Supergirl' Sony/Marvel'ın 2022 fiyaskosu 'Morbius'un 39 milyon dolarlık açılışının hemen altında çıkış yaptı. 4 Temmuz tatili ikinci hafta düşüşünü sınırlasa bile filmin 2023 yapımı 'The Flash'in 271 milyon dolarlık küresel gişesini geçmesi bile ihtimal dışı görünüyor.",
+    image: "https://www.thewrap.com/wp-content/uploads/2026/06/supergirl-milly-alcock-1.jpg",
+    source: "TheWrap",
+  },
+  {
     slug: "2026-emmy-adaylari-tam-liste",
     title: "2026 Emmy Adayları Açıklandı: 'The Pitt' ve 'Hacks' Rekor Kırdı",
     excerpt: "78. Primetime Emmy Ödülleri'nin adayları belli oldu. 'The Pitt' 25 adaylıkla dramanın en çok aday gösterilen dizisi olurken 'Hacks' final sezonunda 24 adaylıkla komedi rekorunu tazeledi.",

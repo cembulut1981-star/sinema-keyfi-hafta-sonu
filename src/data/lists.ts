@@ -663,10 +663,57 @@ Kaynak: The Guardian – \"From Greek epics to biblical blockbusters: the 20 bes
     image: mythologicalAsset.url,
     source: "The Guardian",
   },
+  {
+    slug: "evil-dead-tum-filmler-nerede",
+    title: "Tüm 'Evil Dead' Filmleri Nerede İzlenir? Franchise'ın Tek Adres Rehberi",
+    excerpt: "'Evil Dead Burn'un vizyonuyla birlikte Sam Raimi'nin başlattığı serinin tamamı tek bir yayın platformunda toplandı. Ash'in Deadite'larla savaşını baştan sona izlemek için pratik bir rehber.",
+    body: `'Evil Dead Burn'un vizyona girmesinden önce sadece 2023 yapımı 'Evil Dead Rise'ı değil, tüm franchise'ı gözden geçirmeye değer. Ash'in Deadite'larla mücadelesini izlemekten şikâyet etmek zor, ama önce onları bulmanız gerek. Şanslıyız ki serinin tamamı tek bir uygun yerde ve devam dizisini de aynı adreste bulabilirsiniz.
+
+## Tüm 'Evil Dead' filmleri nerede izlenir?
+
+'Evil Dead Burn' nihayet vizyona girerken franchise'ı tazelemek için mükemmel bir zaman — çünkü serinin son halkasının ötesinde bir dizi bağlantı olduğu söyleniyor.
+
+Önceki tüm filmlerin bulunabileceği yerler şöyle:
+
+- **The Evil Dead** (1981) – HBO Max
+- **Evil Dead II** (1987) – HBO Max
+- **The Army of Darkness** (1992) – HBO Max
+- **Evil Dead** (2013) – HBO Max
+- **Evil Dead Rise** (2023) – HBO Max
+
+Görüldüğü gibi HBO Max, franchise'ın tümü için tek durak alışveriş noktası hâline gelmiş durumda. Devam dizisi 'Ash vs. Evil Dead' de aynı platformda bulunuyor. Bu, yeni Sébastien Vaniček filmine hazırlanırken tüm seriyi ardışık olarak izlemek isteyen 'completionist' izleyiciler için ideal bir konfigürasyon.
+
+Kaynak: TheWrap – "Where to Stream Every 'Evil Dead' Movie"`,
+    image: "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2023/04/Evil-Dead-2.jpeg?fit=1200%2C675&quality=89&ssl=1",
+    source: "TheWrap",
+  },
+  {
+    slug: "hbo-max-bu-haftanin-en-iyi-3-filmi",
+    title: "HBO Max'te Bu Haftanın En İyi 3 Filmi: 'Mask of the Phantasm', 'Evil Dead II' ve 'Legally Blonde'",
+    excerpt: "Emmy adaylıklarıyla dolu bir TV haftasında HBO Max, sinema tutkunları için de bir Batman animasyon başyapıtı, bir korku klasiği ve 2000'lerin en iyi komedilerinden biriyle iddialı.",
+    body: `Emmy adaylıklarının yeni açıklandığı büyük bir TV haftası. Ama HBO Max, sinema severleri de mutlu edecek başlıklarla dolu. Bu hafta gelmiş geçmiş en iyi DC filmlerinden birine, bir korku klasiğine ve 2000'lerin başından mükemmel bir komediye göz atabilirsiniz.
+
+## "Batman: Mask of the Phantasm"
+
+Kendini pasif bir Batman hayranı bile sayan herkes, 'Batman: The Animated Series' evreninde geçen uzun metrajlı bu maceraya bir şans vermeli. Kevin Conroy ve Mark Hamill'in ikonik Batman/Joker ikilisinin yer aldığı film, geçmişten bir figürle yüzleşen Bruce Wayne'in bir zamanlar pelerini bırakmayı düşünecek kadar sevdiği Andrea Beaumont (Dana Delany) hikâyesine odaklanıyor. Bruce'un anne-babasının mezarını ziyaret ettiği sahne, karakterin ekrandaki en duygusal anlarından biri.
+
+## "Evil Dead II"
+
+Cuma günü Sébastien Vaniček'in imzasıyla yeni bir 'Evil Dead' filmi vizyona giriyor. Bu filmler başından beri güçlü kalmayı başardı, ama Sam Raimi'nin ilk iki yapımı hâlâ 'ormandaki kulübe' korkusunun en büyük örnekleri olmaya devam ediyor. İkinci filmde artan kara mizah öğesi (korkuyu hiç yumuşatmadan) pastanın üstündeki krema. Bruce Campbell'ın başrolde olduğu bu splatter şölen korkutucu, acımasız ve son derece eğlenceli.
+
+## "Legally Blonde"
+
+Prime Video'nun prekuel dizisi 'Elle' hakkında ne düşünürseniz düşünün, 'Legally Blonde'a dönmek her zaman iyi fikirdir. Robert Luketic'in yönetmenliğinde, Karen McCullah Lutz ve Kirsten Smith tarafından yazılan film, Harvard'da hukuk merdivenlerini tırmanarak muhaliflerine yanıldıklarını kanıtlayan bir kadını (Reese Witherspoon) anlatan komik ve düşündürücü bir yapıt. Witherspoon'un en iyi performanslarından biri ve 2000'lerin en iyi komedilerinden.
+
+Kaynak: TheWrap – "The 3 Best Movies on HBO Max This Week"`,
+    image: "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2022/03/batman-mask-of-the-phantasm.jpg?resize=1024%2C576&quality=89&ssl=1",
+    source: "TheWrap",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-const _LIST_ORDER = [0, 12, 6, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
+// New TheWrap entries (indices 13, 14) sit at the front so they surface at the top.
+const _LIST_ORDER = [13, 14, 0, 12, 6, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
