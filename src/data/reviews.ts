@@ -24,6 +24,27 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "young-washington",
+    origTitle: "Young Washington",
+    title: "\"Young Washington\" — Kredilerdeki Bağış Ricasıyla Kendi Ayağına Kurşun Sıkan Bir Biyografi",
+    excerpt: "Jon Erwin'in yönettiği Angel Studios yapımı; George Washington'ı efsaneleştirmeye çalışırken kapanış jeneriğindeki bağış çağrısıyla neredeyse tatmin edici olan bir biyografiyi zehirliyor.",
+    rating: "2.5/5",
+    image: "https://www.thewrap.com/wp-content/uploads/2026/07/Young-Washington-William-Franklyn-Miller.jpg",
+    body: `Angel Studios kadar muhafazakâr Hristiyan ve Amerikan değerlerine hitap etmeye adanmış başka bir büyük stüdyo yok — ve başka hiçbir stüdyo da Amerikalıların bu değerleri paylaştığına bu kadar az inanmıyor. Diğer yapımcılar filmlerini vizyona sokup seyircinin bilet parasını ödemesini beklerken, Angel Studios ısrarla en jingoist ve dini filmlerini kapanış jeneriğinin üzerine yerleştirilmiş bir son-dakika bağış çağrısıyla bitiriyor.
+
+Jon Erwin'in yönettiği, ürettiği ve senaryoya ortak imza attığı 'Young Washington'da George Washington'ı William Franklyn-Miller canlandırıyor. Sonunda ABD'nin ilk başkanı olacak, ama önce liderlik hakkında değerli dersler öğrenmesi ve yavaş çekimde Fransızların kıçına tekmeyi basması gerek. Başlık, John Ford'un 1939 yapımı 'Young Mr. Lincoln'ünü çağrıştırıyor — ancak Erwin, Ford değil; Franklyn-Miller de Henry Fonda değil.
+
+Tüm karşılaştırmaları bir yana bıraksak bile Franklyn-Miller Amerika'nın kurucu babası rolünde kabul edilebilir. Erken sahnelerdeki oğlansı, samimi köpek yavrusu ifadesi giderek ciddi, hak edilmiş bir suratsızlığa dönüşüyor. Erwin'in yönetmenliği son derece yetkin; 1750'lerin Virginia ve Ohio topraklarını canlı ve çeşitli tonlarla resmediyor. Kostümler ve dekorlar da inandırıcı.
+
+Ne var ki oyuncu kadrosu, Kristopher Kimlin'in görüntü yönetmenliği kadar tutarlı değil. Sir Ben Kingsley Virginia Vali Yardımcısı olarak filmin büyük bölümünü bir masanın arkasında geçiriyor. Kelsey Grammer olayı öne taşımaya adanmış; Andy Serkis, karakteri Braddock'ı basit bir palavracı olarak oynuyor. Sadece Angus Castle-Doughty, mantıklı ve alaycı bir milis rolünde sahne çalmaya kararlı — ve çaldığı her sahnede paçayı sıyırıyor.
+
+'Young Washington' o kadar mekanik bir biyografi ki küçük parçalara odaklanmamak zor. Özellikle temalar bir arada tutamıyor; film, tarihin çirkin taraflarına ilgisiz. Washington doğduğu koşulların adaletsizliğinden motive oluyor — okula gidememesi, İngiliz ordusuna katılamaması. Ancak filmin kendi itirafına göre on kölesi var. Washington'ın köleleri ekranda hiç görünmüyor; diyalogda bir kez anıldıklarında ailesinin hayırseverliğinin alıcıları olarak tanımlanıyorlar.
+
+21. yüzyılda Kurucu Babalar'ın basit bir portresi zor yutulur. Yavaş çekimde Fransızlarla silah düellosu yapıp dizanteriyle at üstünde numara çeken bir Washington görünce filmi ciddiye almak imkânsızlaşıyor. Amerika'nın çeyrek binyıllık doğum gününde yapılmış bu mısır tadında insistant bir yapım gişe rekoru bile kırabilir; ama Angel Studios bunu bilemez, çünkü satılan bilet sayısı gerçek seyirci sayısından çok daha yüksek olabilir. Para kazanma girişiminin dürüstsüzlüğü, aslında sadece bir başka yapay biyografi olabilecek bu filmi zehirliyor.
+
+Kaynak: TheWrap – William Bibbiani`,
+  },
+  {
     slug: "the-last-one-for-the-road",
     origTitle: "The Last One for the Road",
     title: "\"The Last One for the Road\" — Venedik Yolunda Yaşlı Ayyaşların Trajikomik Odesi",
