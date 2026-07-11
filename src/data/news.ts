@@ -1,6 +1,7 @@
 // Auto-curated news content. Sources: Rolling Stone film news.
 import odysseyAsset from "@/assets/odyssey.webp.asset.json";
 import aliGAsset from "@/assets/ali-g.jpg.asset.json";
+import scottFoleyAsset from "@/assets/scott-foley.jpg.asset.json";
 import img_practical_magic_2 from "@/assets/news-rs-practical-magic-2.jpg";
 import img_blair_witch_reboot from "@/assets/news-rs-blair-witch-reboot.jpg";
 import img_tangled_up_in_blue from "@/assets/news-rs-tangled-up-in-blue.jpg";
@@ -24,7 +25,7 @@ export const NEWS: NewsItem[] = [
     title: "Scott Foley'in Yeni Dizisi Rotten Tomatoes'ta %100 Aldı, Prime Video Yine de İptal Etti",
     excerpt: "Prime Video'nun 'It's Not Like That' dizisi eleştirmenlerden tam not almasına rağmen tek sezonun ardından iptal edildi. Scott Foley kararı Instagram'dan duyurdu: 'Kırgınım ve şaşkınım.'",
     body: "Scott Foley'in başrolünde yer aldığı Prime Video draması 'It's Not Like That', Rotten Tomatoes'ta eleştirmenlerden %100 taze puan almasına ve izleyicilerden yüksek not toplamasına rağmen tek sezonun ardından iptal edildi. 'Scandal' ve 'The Unit' yıldızı Foley, haberi Instagram'da paylaştığı bir videoyla duyurdu.\n\n'Herkese üzgün bir haberim var,' diye başladı Foley videosunda. 'Amazon 'It's Not Like That' dizisini yenilemeyeceğine karar verdi. Kırgınım ve şaşkınım. Yüzde 100 taze puan aldık, izleyici skorlarımız harikaydı. İkinci bir sezonun neden yeşil ışık almadığına dair pek anlam veremiyorum ama akış platformları bu günlerde böyle çalışıyor.'\n\nMart 2026'da yayınlanan sekiz bölümlük dizide Foley, bir gecede on üç yaşındaki üvey oğlu (Bodhi Sabongui) ve altı yaşındaki üvey kızının tek ebeveyni olmak zorunda kalan Malcolm karakterini canlandırıyordu. Kadroda ayrıca Jasmine Cephas Jones, Rachel Bay Jones, Alicia Silverstone ve Alfre Woodard yer alıyordu.\n\nDizinin iptali, Prime Video'nun son dönemde kritik başarıyı ticari performansın önünde tutmayan bir stratejiye kaydığının en dikkat çekici örneklerinden biri olarak yorumlanıyor.",
-    image: "https://ew.com/thmb/E72zzdlMMZZ51j4ASNEwQ2d526o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Its-Not-Like-That-070926-1-fe273c8dbfee4b8083d5a2d1a09fe8a9.jpg",
+    image: scottFoleyAsset.url,
     source: "Entertainment Weekly",
   },
   {
