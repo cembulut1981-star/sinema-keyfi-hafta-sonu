@@ -737,7 +737,7 @@ Aslında Bonnie Tyler'ın hitinden önce, aynı yıl piyasaya çıkan bir başka
 Şarkının doğrudan kullanıldığı bir film değil, ama duygusal DNA'sını devralıyor. Britt Hayes'in yazısında hatırlattığı gibi 'Total Eclipse of the Heart' aslında ergen romantizmi kanonunun kalbinde bir yerde duruyor — Emma Watson'ın "I feel infinite" sahnesi bu ruhun bir mirasçısı.
 
 Bonnie Tyler'ın sesi gitti; ama Jim Steinman'ın melodramatik notaları sinema tarihinde kalıcı bir yer edindi.`,
-    image: "https://ew.com/thmb/dGkcq0YQvjs5BHyxwBohDxbvVJ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/bonnie-tyler-old-school-will-ferrell-070926-67d596cfac5343c08650eeb21a213d8c.jpg",
+    image: bonnieTylerAsset.url,
     source: "Entertainment Weekly",
   },
 ];
