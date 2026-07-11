@@ -24,6 +24,40 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "moana-live-action",
+    origTitle: "Moana",
+    title: "\"Moana\" — Disney'in İşe Yarayan İlk Live-Action Yeniden Çekimi",
+    excerpt: "Filmin yarısı hâlâ animasyon, Dwayne Johnson tam Maui modunda ve yeni yıldız Catherine Laga'aia Moana'yı ışıltılı bir coşkuyla oynuyor. Owen Gleiberman'a göre bu, Disney'in ilk gerçek başarılı live-action uyarlaması.",
+    rating: "4/5",
+    image: "https://variety.com/wp-content/uploads/2026/05/Moana.jpg?w=1000&h=667&crop=1",
+    body: `Owen Gleiberman'ın Variety'de yayımlanan yazısına göre Disney'in son yıllarda üst üste çektiği live-action uyarlamalar, sadakat ile ilhamsızlık arasında sıkışıp kalmıştı. 'Moana' ise bu döngüyü kırıyor: Thomas Kail'in yönettiği film, hem 2016 orijinaline kalbi çarpan bir sadakatle bağlı hem de kendi görsel şiirsel diline sahip.
+
+Yönetmenlik tercihlerinin en cesuru, filmin neredeyse yarısının hâlâ animasyon olarak kalması. Okyanus, ada ruhları, kum canavarları ve özellikle Maui'nin dövmelerinin canlanan dünyası CGI ve stilize animasyon arasında bir yerde duruyor; bu tercih uyarlamanın masalsı tonunu koruyor. Görsellik, Cook Adaları ve Yeni Zelanda'da çekilen gerçek Pasifik manzaralarının fotogerçekçi güzelliğiyle harmanlanınca ortaya sıra dışı bir hibrit çıkıyor.
+
+Yeni yıldız Catherine Laga'aia, Moana'yı canlandırırken Auli'i Cravalho'nun animasyondaki tazeliğini taklit etmek yerine kendi ışıltısını getiriyor: Meraklı, inatçı, ışıl ışıl gülen bir kâşif. Dwayne Johnson ise Maui rolünde tamamen serbest — kendi ikonik gülüşünü karaktere devredip 'You're Welcome' sahnesini adeta bir konser yıldızı gibi taşıyor. Şarkılar Lin-Manuel Miranda ve Opetaia Foa'i imzasıyla yeniden düzenlenmiş; iki yeni parça eklenmiş.
+
+Gleiberman'ın vurguladığı temel argüman şu: 'The Lion King' ya da 'Mulan' gibi denemelerin aksine 'Moana' animasyonun dilinden korkmadığı için çalışıyor. Disney nihayet 'live-action' etiketini bir soğutma değil, bir zenginleştirme aracı olarak kullanmayı öğrenmiş görünüyor.
+
+Kaynak: Variety — Owen Gleiberman`,
+  },
+  {
+    slug: "night-nurse",
+    origTitle: "Night Nurse",
+    title: "\"Night Nurse\" — İki Sapkın Yolu Kesiştiğinde Kışkırtıcı Bir Bakım Fantezisi",
+    excerpt: "Georgia Bernstein'ın cesur ilk uzun metrajı; sömürüye dair gerçek bir vakayı rahatsız edici ölçüde şatafatlı bir erotik gerilime dönüştürüyor. Bruce McKenzie ve Cemre Paksoy hipnotize ediyor.",
+    rating: "3.5/5",
+    image: "https://variety.com/wp-content/uploads/2026/05/NIGHT-NURSE-STILL-1-1.jpg?w=1000&h=667&crop=1",
+    body: `Beatrice Loayza'nın Variety'de yayımlanan eleştirisine göre Georgia Bernstein'ın yönetmen olarak çıkış filmi 'Night Nurse', tehlikeli bir tazelik taşıyor. Gerçek bir sömürü hikâyesinden yola çıkan film, konuyu didaktik bir drama olarak değil; kışkırtıcı, karanlık, zaman zaman komik bir erotik gerilim olarak ele alıyor — ve bu risk büyük ölçüde tutuyor.
+
+Hikâye, ekonomik olarak sıkışmış genç bir bakıcı olan Ada'nın (yeni yüz Cemre Paksoy), yaşlı, hasta ama son derece manipülatif bir dolandırıcının (Bruce McKenzie) evine yerleşmesiyle başlıyor. Klasik bakım anlaşması kısa sürede karmaşık bir üstünlük oyununa dönüşüyor: Kim kimi kullanıyor, kim kimden besleniyor, giderek bulanıklaşıyor. Bernstein bu bulanıklığı sadece anlatıda değil, bakış açısında da kuruyor; kamera, kimin arzu nesnesi olduğunu bilinçli olarak sürekli değiştiriyor.
+
+Paksoy'un performansı filmin en büyük keşfi: Yüzünde masumiyetle hesaplı bir soğukluk arasında gidip gelen bir okunaksızlık var. McKenzie ise Loayza'nın deyimiyle 'karakteri gölge ve ışığın tam ortasına yerleştirmeyi' başarıyor. Bernstein'ın görsel dili, Hitchcock'tan çok Paul Verhoeven'e daha yakın — abartılı bir zenginlik, kırmızı-altın bir palet, zaman zaman rüya gibi.
+
+Filmin zayıf yanı, gerçek olaydan uzaklaştıkça ahlaki çerçevesini de gevşetmesi; bazı izleyiciler bunu 'estetize edilmiş sömürü' olarak okuyabilir. Ancak Loayza'ya göre 'Night Nurse'ün asıl gücü tam da bu rahatsız edici konfor: Film sizden acımayı değil, seyretmenin suçluluğunu istiyor. Cesur, sapkın ve gelecek vaat eden bir çıkış.
+
+Kaynak: Variety — Beatrice Loayza`,
+  },
+  {
     slug: "young-washington",
     origTitle: "Young Washington",
     title: "\"Young Washington\" — Kapanıştaki Bağış Ricasıyla Kendi Ayağına Kurşun Sıkan Bir Biyografi",

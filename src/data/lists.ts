@@ -709,11 +709,41 @@ Kaynak: TheWrap – "The 3 Best Movies on HBO Max This Week"`,
     image: "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2022/03/batman-mask-of-the-phantasm.jpg?resize=1024%2C576&quality=89&ssl=1",
     source: "TheWrap",
   },
+  {
+    slug: "bonnie-tyler-total-eclipse-en-iyi-5-film-sahnesi",
+    title: "Bonnie Tyler'ın 'Total Eclipse of the Heart' Şarkısının En İyi 5 Sinema Anı",
+    excerpt: "Bonnie Tyler'ın 75 yaşında hayatını kaybetmesinin ardından geriye kalan en güçlü mirası: 'Total Eclipse of the Heart'ın komedi, dram ve korku filmlerinde perdeyi patlatan beş anı.",
+    body: `Efsanevi kısık sesli şarkıcı Bonnie Tyler'ı 75 yaşında kaybettik. Ardında bıraktığı en büyük miraslardan biri, 1983 tarihli power ballad'ı 'Total Eclipse of the Heart' — ve bu şarkının onlarca yıldır sinema salonlarında yarattığı unutulmaz anlar. Britt Hayes'in Entertainment Weekly için derlediği listeyi paylaşıyoruz.
+
+## 1. "Old School" (2003) — The Dan Band Sahnesi
+
+Todd Phillips'in kült komedisi 'Old School'da The Dan Band'in Frank Sinatra'yı andıran Frank'in (Will Ferrell) düğününde şarkıyı seslendirmesi, filmin en meşhur sahnelerinden biri. Perrey Reeves ile Ferrell'ın dansıyla birlikte bu sahne, şarkının 2000'ler nostaljisiyle yeniden doğuşunun başlangıcı sayılıyor.
+
+## 2. "Bandslam" (2009) — Karaoke Sahnesi
+
+Bir genç müzik draması olan 'Bandslam'de karakterlerin karaokede söylediği bu şarkı, filmin en samimi duygusal patlaması. Vanessa Hudgens ve Aly Michalka'nın yer aldığı sekans, şarkının kuşaklar arasında köprü kurma gücünü kanıtlıyor.
+
+## 3. "It's Always Sunny in Philadelphia" — The Nightman Cometh
+
+Teknik olarak bir TV bölümü olsa da 'The Nightman Cometh' müzikal bölümündeki finalin 'Total Eclipse' esintileri, popüler kültürün bu şarkıyla olan takıntısının en absürt örneklerinden biri.
+
+## 4. "Urban Cowboy" (1980) — Öncü Duygusal Kullanım
+
+Aslında Bonnie Tyler'ın hitinden önce, aynı yıl piyasaya çıkan bir başka aşk temalı şarkının kullanımıyla türün habercisi. Tyler'ın şarkısı daha sonra country ayrılık sahnelerinin şablonuna dönüştü.
+
+## 5. "The Perks of Being a Wallflower" (2012) — Kamyonet Sahnesinin Ruhu
+
+Şarkının doğrudan kullanıldığı bir film değil, ama duygusal DNA'sını devralıyor. Britt Hayes'in yazısında hatırlattığı gibi 'Total Eclipse of the Heart' aslında ergen romantizmi kanonunun kalbinde bir yerde duruyor — Emma Watson'ın "I feel infinite" sahnesi bu ruhun bir mirasçısı.
+
+Bonnie Tyler'ın sesi gitti; ama Jim Steinman'ın melodramatik notaları sinema tarihinde kalıcı bir yer edindi.`,
+    image: "https://ew.com/thmb/dGkcq0YQvjs5BHyxwBohDxbvVJ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/bonnie-tyler-old-school-will-ferrell-070926-67d596cfac5343c08650eeb21a213d8c.jpg",
+    source: "Entertainment Weekly",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-// New TheWrap entries (indices 13, 14) sit at the front so they surface at the top.
-const _LIST_ORDER = [13, 14, 0, 12, 6, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
+// Newest entry (index 15) sits at the front so it surfaces at the top.
+const _LIST_ORDER = [15, 13, 14, 0, 12, 6, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
