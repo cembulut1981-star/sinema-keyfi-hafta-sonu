@@ -20,6 +20,22 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "scott-foley-its-not-like-that-iptal",
+    title: "Scott Foley'in Yeni Dizisi Rotten Tomatoes'ta %100 Aldı, Prime Video Yine de İptal Etti",
+    excerpt: "Prime Video'nun 'It's Not Like That' dizisi eleştirmenlerden tam not almasına rağmen tek sezonun ardından iptal edildi. Scott Foley kararı Instagram'dan duyurdu: 'Kırgınım ve şaşkınım.'",
+    body: "Scott Foley'in başrolünde yer aldığı Prime Video draması 'It's Not Like That', Rotten Tomatoes'ta eleştirmenlerden %100 taze puan almasına ve izleyicilerden yüksek not toplamasına rağmen tek sezonun ardından iptal edildi. 'Scandal' ve 'The Unit' yıldızı Foley, haberi Instagram'da paylaştığı bir videoyla duyurdu.\n\n'Herkese üzgün bir haberim var,' diye başladı Foley videosunda. 'Amazon 'It's Not Like That' dizisini yenilemeyeceğine karar verdi. Kırgınım ve şaşkınım. Yüzde 100 taze puan aldık, izleyici skorlarımız harikaydı. İkinci bir sezonun neden yeşil ışık almadığına dair pek anlam veremiyorum ama akış platformları bu günlerde böyle çalışıyor.'\n\nMart 2026'da yayınlanan sekiz bölümlük dizide Foley, bir gecede on üç yaşındaki üvey oğlu (Bodhi Sabongui) ve altı yaşındaki üvey kızının tek ebeveyni olmak zorunda kalan Malcolm karakterini canlandırıyordu. Kadroda ayrıca Jasmine Cephas Jones, Rachel Bay Jones, Alicia Silverstone ve Alfre Woodard yer alıyordu.\n\nDizinin iptali, Prime Video'nun son dönemde kritik başarıyı ticari performansın önünde tutmayan bir stratejiye kaydığının en dikkat çekici örneklerinden biri olarak yorumlanıyor.",
+    image: "https://ew.com/thmb/E72zzdlMMZZ51j4ASNEwQ2d526o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Its-Not-Like-That-070926-1-fe273c8dbfee4b8083d5a2d1a09fe8a9.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "letterboxd-satis-goruusmeleri-netflix-sony",
+    title: "Letterboxd Satılıyor mu? Netflix, Sony ve Paramount Masada",
+    excerpt: "Film eleştirisi sosyal ağı Letterboxd için satış görüşmelerinin erken aşamada olduğu bildiriliyor. Alıcı adayları arasında Netflix, Sony, Paramount ve Reddit kurucusu Alexis Ohanian var.",
+    body: "Sinema tutkunlarının 'sinemanın Goodreads'i' olarak sevdiği Letterboxd, büyük bir eğlence şirketinin çatısı altına girme yolunda olabilir. The Information'ın haberine göre film eleştirisi sosyal ağı, aralarında Netflix, Sony Pictures Entertainment, Paramount ve Reddit'in kurucu ortağı Alexis Ohanian'ın bulunduğu birden fazla potansiyel alıcıyla erken aşama görüşmeler yürütüyor.\n\nYeni Zelanda merkezli platform, 2024 sonlarında Amerikan private equity firması Tiny'ye 50 milyon dolarlık bir azınlık hissesi satmıştı; bu anlaşma şirketi 100 milyon doların üzerinde bir değerlemeye oturtuyordu. Şimdi ise şirketin tamamı için gelen tekliflerin bu rakamın çok üzerine çıktığı belirtiliyor. Letterboxd'un aylık aktif kullanıcı sayısı 2026 itibarıyla 15 milyonu aşmış durumda; platform özellikle Z kuşağı ve genç milenyum sinema izleyicileri arasında bir kültürel referans noktası hâline geldi.\n\nStüdyoların ilgisi tesadüf değil: Letterboxd verisi, bir filmin ilk hafta sonundaki izleyici algısı için giderek daha güvenilir bir barometre olarak kullanılıyor. Netflix için platform hem bir keşif kaynağı hem de içerik pazarlama aracı olabilir. Paramount ise yeni CEO'su David Ellison döneminde 'sinema kültürüne yeniden yatırım' söylemini yükseltiyor. Görüşmeler henüz kesinleşmedi; Letterboxd sözcüsü yorum yapmayı reddetti.",
+    image: "https://variety.com/wp-content/uploads/2026/07/letterboxd-logo.png?w=1000&h=667&crop=1",
+    source: "Variety",
+  },
+  {
     slug: "heat-2-bale-dicaprio-mann",
     title: "\"Heat 2\" Kasım'da Kameraların Karşısına Geçiyor: Christian Bale ve Leonardo DiCaprio Kadroda",
     excerpt: "Michael Mann'in efsanevi 1995 yapımı 'Heat'in devam filmi 'Heat 2'nin Kasım'da çekimlere başladığı öğrenildi. Bale, Al Pacino'nun Hanna'sını; DiCaprio, Val Kilmer'ın Shiherlis'ini üstleniyor.",
