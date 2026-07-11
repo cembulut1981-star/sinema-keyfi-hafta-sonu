@@ -83,10 +83,10 @@ function CategoryPage() {
                   onClick={() => navigate({ search: { page: p } })}
                   aria-current={active ? "page" : undefined}
                   className={
-                    "font-display font-black text-lg min-w-[40px] h-10 px-3 border-2 border-red-600 transition-colors " +
+                    "font-display font-black text-lg min-w-[40px] h-10 px-3 border-2 transition-colors " +
                     (active
-                      ? "bg-red-600 text-white"
-                      : "bg-white text-red-600 hover:bg-red-600 hover:text-white")
+                      ? "bg-red-600 text-white border-red-600"
+                      : "bg-black text-white border-black hover:bg-red-600 hover:border-red-600")
                   }
                 >
                   {p}
