@@ -164,6 +164,7 @@ function Index() {
   return (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
+        <h1 className="sr-only">Sine-Meta — Sinema Haberleri, İncelemeler ve Listeler</h1>
         {rows.map((r, i) => (
           <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
         ))}
