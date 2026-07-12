@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as AramaRouteImport } from './routes/arama'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
@@ -18,6 +19,11 @@ import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
 import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
 import { Route as DiziSlugRouteImport } from './routes/dizi.$slug'
 
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AramaRoute = AramaRouteImport.update({
   id: '/arama',
   path: '/arama',
@@ -62,6 +68,7 @@ const DiziSlugRoute = DiziSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/arama': typeof AramaRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
@@ -72,6 +79,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/arama': typeof AramaRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
@@ -83,6 +91,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/arama': typeof AramaRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
   '/inceleme/$slug': typeof IncelemeSlugRoute
@@ -95,6 +104,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/arama'
+    | '/sitemap.xml'
     | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
@@ -105,6 +115,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/arama'
+    | '/sitemap.xml'
     | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
@@ -115,6 +126,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/arama'
+    | '/sitemap.xml'
     | '/dizi/$slug'
     | '/haber/$slug'
     | '/inceleme/$slug'
@@ -126,6 +138,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AramaRoute: typeof AramaRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   DiziSlugRoute: typeof DiziSlugRoute
   HaberSlugRoute: typeof HaberSlugRoute
   IncelemeSlugRoute: typeof IncelemeSlugRoute
@@ -136,6 +149,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/arama': {
       id: '/arama'
       path: '/arama'
@@ -198,6 +218,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AramaRoute: AramaRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   DiziSlugRoute: DiziSlugRoute,
   HaberSlugRoute: HaberSlugRoute,
   IncelemeSlugRoute: IncelemeSlugRoute,
@@ -208,13 +229,3 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
