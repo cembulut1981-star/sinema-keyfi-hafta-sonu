@@ -740,11 +740,333 @@ Bonnie Tyler'ın sesi gitti; ama Jim Steinman'ın melodramatik notaları sinema 
     image: bonnieTylerAsset.url,
     source: "Entertainment Weekly",
   },
+  {
+    slug: "paste-en-iyi-yeni-albumler-10-temmuz-2026",
+    title: "Bu Hafta Dinlenmesi Gereken 12 Yeni Albüm (10 Temmuz 2026)",
+    excerpt: "Finn Wolfhard'ın indie-rock çıkışından Jack White'ın blues-punk kükreyişine, Kelela'nın R&B laboratuvarından Xiu Xiu'nun Eraserhead güzellemesine: Paste'in bu haftaki New Music Friday seçkisi.",
+    body: `Paste her Cuma New Music Friday'in kalbi olmaya devam ediyor. Best New Songs listelerinin ardından yayımlanan bu albüm derlemesi, 10 Temmuz haftasının en çarpıcı on iki plağını bir araya getiriyor. Rock, folk, elektronik ve deneysel arasında gidip gelen bir kesit.
+
+## Finn Wolfhard — Fire From The Hip
+
+Finn Wolfhard'ın *Fire from the Hip*'i ilk dinleyişte tanıdık geliyor: Sharp Pins, Alex G, Elliott Smith ve Pavement kokusu bariz. Ama Wolfhard'ın kendinden emin, hınzır sunumu pastişten uzak duruyor. "Lights Go Down" Nicole Kidman'ın ikonikleşip aşırı kullanılan AMC konuşmasını, bir oyuncunun film izleme deneyimine dair hüzünlü bir yorumuna çeviriyor. "Common Side Effects"te George Clooney, "Maggie"de George W. Bush esprileri; ama arka planda country-folk yaylılar ve "Nice to Meet You Again"in jam band havası tüm plağa dolgun bir doku katıyor.
+
+## Houndmouth — Lordy
+
+Beş yıllık sessizliğin ardından gelen *Lordy*, Matt Myers'ın yaratıcı krizinden doğan en samimi Houndmouth albümü. Kamp ateşi müziği gibi okunuyor: yetmişler etkili folk-rock parçaları, güneşe boğulmuş Güney yolları, muğlak bir fisheye anı defteri. "Never Gonna Die"da "yaptığımız bu ev / tahtası çürümesin diye dua edelim" diye titreyen bir sese kavuşuyoruz. "Holy Moses"ta Iron and Wine'dan Sam Beam eşlik ediyor.
+
+## Hurry — Zoned Out
+
+Matt Scottoline'un power-pop projesi Hurry'nin altıncı LP'si, yaşlanmakla ilgili karışık hissiyatların özeti. "The Dumbest Person You've Ever Seen"in şeker gibi kancalarında "her şey değişiyor, tırsıyorum" itirafı var. Cars tarzı Moog riff'leriyle "Untitled" ara sesi ve Teenage Fanclub'dan Gerard Love'ın vokal katkısıyla "Moving After You" plağı yaz albümü tartışmalarına dahil ediyor.
+
+## Jack White — Frozen Charlotte
+
+Jack White, modern söz yazımını White Stripes bulaşıcılığından geçirmenin yolunu bulmuş. *Frozen Charlotte*, "Ball and Biscuit"i andıran dev gitar sololarıyla dolu blues-punk barn burner'ların yeni bir koleksiyonu. Kapanış "Neighbors Blues"un çok bölümlü solosu, White'ın hâlâ nasıl shred ettiğinin ispatı.
+
+## Kelela — new avatar
+
+L.A. alt-pop sahnesinden çıkışının üzerinden on yılı aşkın süre geçen Kelela, *new avatar*'da geriye kısmen dönüp katalogunu yeniden yorumluyor. "point blank"in titreşen breakleri hem *Cut 4 Me*'nin grime ritmini hem *Raven*'ın en kulüp kısımlarını hatırlatıyor. Belki de kariyerinin en olgun plağı.
+
+## Panda Bear / Sonic Boom — A ? of When
+
+Panda Bear ile Sonic Boom'un yıllara yayılan iş birliğinde bile benzersiz duran bir plak. Rahatsız edici sözleri parıldayan psych-pop içine gömme geleneğinin en olgun örneği.
+
+## Sad13 — 1331
+
+Speedy Ortiz'den Sadie Dupuis'in Sad13 rumuzuyla yayımladığı 15 dakikalık mixtape. On üç kısa parçada JRPG oda müziği, mağara orgları ve programlanmış davullar dolaşıyor.
+
+## Show Me The Body — Alone Together
+
+Show Me The Body New York hardcore'unu her zaman sivil görev bilmişti. Dördüncü plakları *Alone Together*, "radikal sevgi" temelli bir eylem çağrısı. On üç parça, otuz yedi dakikaya sığan saf ses.
+
+## The Temper Trap — Sungazer
+
+On yıl aradan sonra dönen The Temper Trap, 2009'daki çıkış plağından beri en meraklı hallerinde. "Giving Up Air" grubun bugüne kadarki en iyi işi.
+
+## Tracey Nelson — Hercules
+
+Perennial etiketinden çıkan bu ilk plak, country-rock mükemmelliği. Karly Hartman, Jack Kraus ve MJ Lenderman'ın konuk katkılarıyla, modern hayatın küçük kalp kırıklıklarını sakin bir umursamazlıkla dolaşıyor.
+
+## Twisted Teens — Florida Water Blues
+
+Twisted Teens efekt kullanmıyor, Caspian'ın akordu bile yok. "Just plug in and go." Spaghetti-western gitar rulolarıyla dolu, sıkı ve dürüst bir plak.
+
+## Xiu Xiu — Eraserhead Xiu Xiu
+
+Xiu Xiu'nun David Lynch'in 1977 tarihli *Eraserhead*'ini yeniden yorumladığı yedi parçalık plak. Ev yapımı enstrümanlar, saha kayıtları, el fenerleri ve elektrik parazitiyle inşa edilmiş bir yeraltı.
+
+Kaynak: Paste Magazine — "Best New Albums: July 10, 2026".`,
+    image: "https://img.pastemagazine.com/wp-content/uploads/2026/07/10130803/ECC4B89C-35CC-4BFA-AE87-7B1AB37DBDF5-scaled.jpeg",
+    source: "Paste Magazine",
+  },
+  {
+    slug: "paste-haziran-2026-en-iyi-10-sarki",
+    title: "Haziran 2026'nın En İyi 10 Şarkısı",
+    excerpt: "heavensouls'un yedi dakikalık kolajından Lily Seabird'ün Americana headbanger'ına, Kelela'nın broken beat'ından Mykki Blanco'nun queer flâneur teasine — Paste'in Haziran 2026 favorileri.",
+    body: `Paste'in her hafta yayımladığı Best New Songs sütununda öne çıkan yirmi parçadan onunu seçtik. Bunlar, aralık ayında yılın en iyileri konuşulmaya başlandığında masaya en güçlü aday olarak gelecek şarkılar. Mykki Blanco ile Kelela ayı brilliant dans müziğiyle açtı; The Tubs ile Sullivan kardeşler ise rock and roll ziyafetiyle kapadı.
+
+## heavensouls — "shipping times and quiet streets"
+
+Nijerya doğumlu, Houston merkezli rapçi-yapımcı Chidi Obialo'nun *westside trapped* plağı yıl ortası listemizde ilk beşe girdi. Yeni single'ı "shipping times and quiet streets", fairy therapy'nin çevik caz saksafonu ve Sidepeices ortağı Stickerbush'un Auto-Tune mırıltılarıyla renklenen törensel bir kolaj. Yedi dakika boyunca sarmalanan detaylar.
+
+## Kelela — "point blank"
+
+*Cut 4 Me*'nin ruhu, "point blank"in Batı Londra broken beat'inde geziniyor. Kelela'nın feraheti gecikmelerde ve breakbeat'lerde geri dönüyor. Fade to Mind ve Night Slugs bağları tüm parçaya yayılıyor.
+
+## L'Rain — "soulless cycle"
+
+L'Rain'in yaklaşan LP'si *Fata Morgana*, ülkenin "faşizm ve trad kültüre inişi" ile hesaplaşmaktan doğuyor. "soulless cycle" habersizce sinip patlıyor. Kriz rutine dönüştüğünde ne oluyor sorusunun ses-dokusal cevabı.
+
+## Lily Seabird — "Election Day"
+
+Vermont'lu şarkı yazarının üç yılda üçüncü plağı *Lightspheres On Their Way* için yayımladığı bu single, isyancı distorsiyon, çığlık atan gitarlar ve düpedüz ulumalar barındırıyor. Bir Americana headbanger, folk için mosh giriş kapısı.
+
+## Mykki Blanco — "Little Feet"
+
+*CAFE PARADISO*'nun ilk teasi. Ian Isiah ve Breakaway'in yardımıyla iki dakikaya sığdırılmış tam kadro queer flâneur şarkısı. Sokak lambasının altında kaynaşan bedenler, dans ve adanmışlıkla döşenmiş bir oda.
+
+## Sam & Louise Sullivan — "Working Girl"
+
+Sullivan kardeşlerin folk-rock kimyası "Working Girl"de en olgun haline erişiyor. Yorgun bir mesai anlatısını yumuşak vokal harmonileriyle sarmalayan parça, ayın en insani anını sunuyor.
+
+## SML — "Spontaneous Live Music"
+
+Doğaçlama caz kuartetinin yeni single'ı, çevik bas hattı ve rüzgâr enstrümanlarının serbest diyalogu üzerinden ilerliyor. Live prodüksiyon estetiği plağa nefes veriyor.
+
+## Tasha — "You Are Spring"
+
+Şair-şarkı yazarı Tasha'nın albüm başlığı parçası, akustik gitar ve fısıltılı vokallerle bir bahar imgesi kuruyor.
+
+## The Tubs — "Illusion Pt. II"
+
+İngiliz jangle-pop grubu The Tubs'ın devam parçası, twin-guitar örgüleriyle klasik R.E.M. anlarına selam çakıyor. Ayı rock için kapatan bir anthem.
+
+## Kelsey Lu — "So Help Me God"
+
+Çellist ve şarkıcı Kelsey Lu'nun yeni albüm parçası, koro düzenlemeleri ve elektronik doku arasında dolaşan bir dua.
+
+Kaynak: Paste Magazine — "The 10 Best Songs of June 2026".`,
+    image: "https://img.pastemagazine.com/wp-content/uploads/2026/07/06121515/B3800E2E-09F5-496B-88A2-CAF8743A2B5A-scaled.jpeg",
+    source: "Paste Magazine",
+  },
+  {
+    slug: "paste-bu-hafta-dinlenmesi-gereken-5-yeni-sarki-18-haziran-2026",
+    title: "Bu Hafta Dinlenmesi Gereken 5 Yeni Şarkı (18 Haziran 2026)",
+    excerpt: "Haftanın şarkısı Lily Seabird'ün 'Election Day'i. Julia Jacklin, No Joy & Fire-Toolz, Saul Williams ve daha fazlası: Paste'in 18 Haziran 2026 seçkisi.",
+    body: `Her perşembe Paste ekibi ve katkı sağlayanları haftanın en sevdikleri beş şarkısını seçiyor; bir tanesine "Haftanın Şarkısı" unvanını veriyor. İşte 18 Haziran 2026 haftasının beş favorisi.
+
+## Haftanın Şarkısı: Lily Seabird — "Election Day"
+
+Vermont'lu şarkı yazarı Lily Seabird üç yılda üçüncü plağı *Lightspheres On Their Way*'i duyurdu. "Election Day", 2024'teki "Dirge"den bu yana Seabird'ün girmediği bir moda dönüşü işaret ediyor: isyancı distorsiyon, çığlık atan gitarlar, düpedüz ulumalar. Vokali hâlâ bir kanaryanın uyarısı gibi net, ama sözlerin duygusunda takılıyor ve kenarlarından yırtılıyor. Bir Americana headbanger, folk için mosh giriş kapısı.
+
+## Julia Jacklin — "Get Away From Me (I Think I'll Love You Soon)"
+
+Julia Jacklin indie rock'ın en ayırt edici seslerinden biri olmaya devam ediyor. Yaklaşan LP'si *The Gem*'in ilk single'ı, saçını başını yolduğu, muhtemelen sonuçsuz bir aşk ilişkisi üzerine. Bulutsu gitarların ve marş ritminin arasında bir ara solo parlıyor.
+
+## No Joy & Fire-Toolz — "Big Life, Big Leaf"
+
+Bir zamanlar Jasamine White-Gluz'un doom-shoegaze aracı olan No Joy, son on beş yıldır synth-pop ve techno karışımı garip bir tarafa savruluyor. Fire-Toolz'un Angel Marcloid yapımcılığındaki geçen yılın *Bugland*'inin ardından bu iş birliği, güneş ışığıyla ağartılmış bir dans müziği.
+
+## Saul Williams feat. Moor Mother & Gonjasufi — "Conspiracy"
+
+Saul Williams'ın yedi yıl aradan sonra çıkacak solo albümü *Leaf Life*, Massive Attack'ten Robert Del Naja, Kamasi Washington ve daha pek çok konuğa ev sahipliği yapacak. İlk single "Conspiracy"de Moor Mother ve Gonjasufi eşlik ediyor. Williams'ın "ses bir enstrümandır" felsefesinin bir dışa vurumu.
+
+## The Tubs — "Illusion Pt. II"
+
+İngiliz jangle-pop grubu The Tubs'ın *Cotton Crown* devamı. Twin-guitar örgüleriyle klasik R.E.M. anlarına selam çakan, haftanın en tazelenmiş anthem'ı.
+
+Kaynak: Paste Magazine — "Best New Songs: June 18, 2026".`,
+    image: "https://img.pastemagazine.com/wp-content/uploads/2026/06/18122900/DDC18B8D-4083-4DCD-9F47-2A813B9B3EC2-scaled.jpeg",
+    source: "Paste Magazine",
+  },
+  {
+    slug: "paste-beach-boys-tum-zamanlarin-en-iyi-25-sarkisi",
+    title: "The Beach Boys'un Tüm Zamanların En İyi 25 Şarkısı",
+    excerpt: "'Surfin' U.S.A.'nın 63. yılında Paste, Brian Wilson ve arkadaşlarının kataloğunun zirvesini derliyor: 'Caroline, No'dan 'Heroes and Villains'a, 'God Only Knows'a uzanan bir dinleme rehberi.",
+    body: `Altmış üç yıl önce The Beach Boys "Surfin' U.S.A."yı yayımladı ve grup, ABD'de ilk 1 numaralarını böyle aldı. Sonraki yıllarda Brian Wilson liderliğindeki Hawthorne, California grubu rock and roll'un en büyük şarkılarını ve en etkileyici plaklarını üretti. 1966'daki *Pet Sounds*, Amerika'nın ürettiği en büyük kayıtlardan biri. İşte Paste'in seçtiği en iyi 25 Beach Boys şarkısı.
+
+## 25. "Busy Doin' Nothin" (1968)
+
+Brian Wilson lounge pop'a giriyor. *Friends*'in lo-fi sinsi cevheri. Burt Bacharach, Chris Montez ve bossa nova esintili.
+
+## 24. "Big Sur" (1973)
+
+Mike Love'ın yazdığı bu şarkının 2021 *Feel Flows* box-set versiyonu grubun katalogundaki en büyülü kompozisyonlardan biri. Kaliforniya'nın Central Coast harikasına şiirsel bir saygı duruşu.
+
+## 23. "Please Let Me Wonder" (1965)
+
+*The Beach Boys Today!*'un B-tarafı. Doo-wop surf-rock ile Brian'ın *Pet Sounds*'a hazırlanan orkestral vizyonunu birleştiren, saf pop görkemi.
+
+## 22. "Cabin Essence" (1967)
+
+*20/20*'nin kapanış parçası. Brian ve Van Dyke Parks tarafından "Union Pacific Railroad'un donmuş bir karesi" olarak yazıldı.
+
+## 21. "Feel Flows" (1971)
+
+Bu listedeki tek Carl Wilson kompozisyonu. Baldwin org, Moog synth ve bantlı tellerle piyanolar.
+
+## 20. "I'm Waiting For the Day" (1966)
+
+Al de Lory'nin snake gibi piyano riff'i ve Sid Sharp Strings'in yaylılarıyla dolu bir hüzün.
+
+## 19. "Disney Girls (1957)" (1971)
+
+Bruce Johnston'ın en büyük Beach Boys katkısı. Walt Disney film yıldızları, garaj şarabı ve "açık arabalar ile daha berrak yıldızlar" fantezisi.
+
+## 18. "Surfer Girl" (1963)
+
+Brian'ın yazdığını iddia ettiği ilk şarkı. Dion and the Belmonts'un "When You Wish Upon a Star" yorumundan ilham.
+
+## 17. "I Get Around" (1964)
+
+Amerika'nın British Invasion'a cevabı. Surf-rock, doo-wop enerjisi ve o Kaliforniya sesi.
+
+## 16. "Caroline, No" (1966)
+
+*Pet Sounds*'un kapanışı. Hal Blaine bir Sparklett su şişesi çalıyor; Brian'ın köpekleri Banana ve Louie de sesleniyor.
+
+## 15. "Heroes and Villains" (1967)
+
+*Smile* için yazılan bu opera-benzeri parça, erken Kaliforniya tarihinin bir arşivi.
+
+## 14. "The Night Was So Young" (1977)
+
+*The Beach Boys Love You*'nun kalbi. Lester Bangs "grubun en iyi albümü" demişti.
+
+## 13. "Don't Talk (Put Your Head On My Shoulder)" (1966)
+
+Kromatik mükemmellik. Elvis Costello: "Yarın dünyadaki tüm plakçalarlar bozulursa, bu şarkılar yüz yıl sonra bile duyulabilir."
+
+## 12. "'Til I Die" (1971)
+
+Brian'ın Santa Monica iskelesinden atlatma tehdidinin ardından yazdığı varoluşsal krizin sese dökülmüş hali.
+
+## 11. "I Just Wasn't Made For These Times" (1966)
+
+Tony Asher ile birlikte yazılan, Electro-Theremin solosu bulunan epik bir balad.
+
+## 10. "All I Wanna Do" (1970)
+
+*Sunflower*'ın dream-pop cevheri. Yıllar sonra Panda Bear ve M83'e uzanan bir sesin habercisi.
+
+## 9. "Sail On, Sailor" (1973)
+
+*Holland*'ın açılışı. Blondie Chaplin'in vokali grubun en soul-etkili anlarından birini üretiyor.
+
+## 8. "Wouldn't It Be Nice" (1966)
+
+*Pet Sounds*'un açılışı. Pop müziğin en mükemmel giriş parçalarından biri.
+
+## 7. "In My Room" (1963)
+
+Brian ve Gary Usher'ın yazdığı, yalnızlık ve odaya sığınma üzerine bir başyapıt.
+
+## 6. "Surf's Up" (1971)
+
+Brian ile Van Dyke Parks'ın *Smile* için yazdığı, 1971'de tamamlanmış uzun kompozisyon.
+
+## 5. "California Girls" (1965)
+
+Phil Spector'un "Wall of Sound" mirasını devralan bir güneşli manifesto.
+
+## 4. "Sloop John B" (1966)
+
+*Pet Sounds*'un halk şarkısı uyarlaması. Grubun harmonik dehasının en berrak anlarından.
+
+## 3. "Good Vibrations" (1966)
+
+"Cep senfonisi." Elektro-Theremin, çello ve müzikal geçişlerle inşa edilen üç buçuk dakikalık bir pop mucizesi.
+
+## 2. "God Only Knows" (1966)
+
+Paul McCartney'nin "yazılmış en iyi şarkı" dediği başyapıt. Carl Wilson'ın vokali ve Fransız kornosuyla açılan giriş.
+
+## 1. "Wouldn't It Be Nice / God Only Knows" — Pet Sounds Zirvesi
+
+*Pet Sounds*'un ortasındaki geçit, pop müziğin şimdiye kadar ürettiği en mükemmel süreklilik.
+
+Kaynak: Paste Magazine — "The 25 Greatest Beach Boys Songs of All Time".`,
+    image: "https://img.pastemagazine.com/wp-content/uploads/2026/05/08232842/01C97D02-9176-4609-B2EC-B493F01665AB-scaled.jpeg",
+    source: "Paste Magazine",
+  },
+  {
+    slug: "paste-en-buyuk-en-iyi-orijinal-sarki-oscar-kazananlari",
+    title: "En Büyük 'En İyi Orijinal Şarkı' Oscar Kazananları, Sıralandı",
+    excerpt: "'My Heart Will Go On'dan 'Moon River'a, 'Flashdance…What a Feeling'den 'Arthur's Theme'e — Paste, Akademi'nin 90 yıllık Best Original Song tarihinden en iyi 15 kazananı derledi.",
+    body: `Her yıl Akademi; yönetmen, oyuncu, görüntü yönetmeni, yazar, makyaj sanatçısı ve bestecilerin en iyilerine ödül veriyor. 1935'ten beri Akademi En İyi Orijinal Şarkı Oscar'ını dağıtıyor. Con Conrad ve Herb Magidson *The Gay Divorcee*'nin "The Continental"ı için ilk ödülü kazandı; Johnny Mercer, Randy Newman, Giorgio Moroder, Henry Mancini, Burt Bacharach ve Elton John birden fazla kez ödül aldı. Paste, 90 yıllık tarihin en iyi 15 kazananını sıraladı.
+
+## Onursal: "Man or Muppet" (*The Muppets*, 2011)
+
+Jason Segel ve Peter Linz'in seslendirdiği Walter'ın piyano baladı. Bret McKenzie'nin yazımıyla, çocuk filmi olmasına rağmen tüm kuşaklarda karşılık bulan bir kalp taşıyor.
+
+## 15. "My Heart Will Go On" (*Titanic*, 1997)
+
+Dünya çapında 18 milyon satış, dört Grammy, 30 ülkede 1 numara. Celine Dion, *Titanic*'e ruhunu verdi. Kaynak filmini bile geride bırakan bir pop kültür hazinesi.
+
+## 14. "Arthur's Theme (Best That You Can Do)" (*Arthur*, 1981)
+
+Christopher Cross'un piyano baladı. "when you get caught between the moon and New York City" dizesi, kuşaklara New York rüyası taşıyan bir cümle.
+
+## 13. "Moon River" (*Breakfast at Tiffany's*, 1961)
+
+Henry Mancini'nin bestelediği, Audrey Hepburn'ün Holly Golightly'nin yangın merdivenindeki performansı.
+
+## 12. "Flashdance…What a Feeling" (*Flashdance*, 1983)
+
+Giorgio Moroder ve Keith Forsey'in Irene Cara ile birlikte yazdığı, 1980'lerin pop hareketini tek başına özetleyen bir marş.
+
+## 11. "The Way You Look Tonight" (*Swing Time*, 1936)
+
+Jerome Kern ve Dorothy Fields imzalı, Fred Astaire'in orijinal olarak seslendirdiği ölümsüz standart.
+
+## 10. "Streets of Philadelphia" (*Philadelphia*, 1993)
+
+Bruce Springsteen'in kısık bas synth'iyle söylediği ağıt. AIDS ve dışlanma üzerine yazılmış en insanca pop şarkılarından.
+
+## 9. "Falling Slowly" (*Once*, 2007)
+
+Glen Hansard ve Markéta Irglová'nın seslendirdiği folk duet. Küçük bütçeli bir İrlanda filminin kazandığı en büyük ödül.
+
+## 8. "Skyfall" (*Skyfall*, 2012)
+
+Adele'in James Bond marşı. Serinin en olgun tema şarkısı.
+
+## 7. "Lose Yourself" (*8 Mile*, 2002)
+
+Eminem'in rap için ilk Oscar. "One shot" temasının en çıplak, en dürüst hali.
+
+## 6. "Shallow" (*A Star Is Born*, 2018)
+
+Lady Gaga ve Bradley Cooper düeti. Geçtiğimiz on yılın en çok karşılık bulan aşk ilanı.
+
+## 5. "Let It Go" (*Frozen*, 2013)
+
+Idina Menzel'in seslendirdiği, animasyon müziklerinin son on beş yılını tanımlayan güç şarkısı.
+
+## 4. "Over the Rainbow" (*The Wizard of Oz*, 1939)
+
+Judy Garland'ın icrası, Amerikan popüler müziğinin belki de en simgesel anı.
+
+## 3. "The Windmills of Your Mind" (*The Thomas Crown Affair*, 1968)
+
+Michel Legrand ve Bergman'ların yazdığı, Noel Harrison'ın seslendirdiği sürreal düşünce döngüsü.
+
+## 2. "White Christmas" (*Holiday Inn*, 1942)
+
+Irving Berlin klasiği. Bing Crosby'nin yorumu, tüm zamanların en çok satan tekli olmaya devam ediyor.
+
+## 1. "Days of Wine and Roses" (*Days of Wine and Roses*, 1962)
+
+Henry Mancini ve Johnny Mercer'ın kanonun zirvesi. Alkol ve kayıp üzerine yazılmış, jazz standardına dönüşmüş bir başyapıt.
+
+Kaynak: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranked".`,
+    image: "https://img.pastemagazine.com/wp-content/uploads/2026/03/15142116/6E8F79E6-31B3-4F8F-B116-CCFBE3DE6587-scaled.jpeg",
+    source: "Paste Magazine",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-// Newest entry (index 15) sits at the front so it surfaces at the top.
-const _LIST_ORDER = [15, 13, 14, 0, 12, 6, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
+// New Paste entries (indices 16-20) are mixed into various positions of the feed.
+const _LIST_ORDER = [16, 15, 17, 13, 18, 14, 0, 19, 12, 6, 20, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
