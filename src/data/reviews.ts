@@ -24,6 +24,89 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "evil-dead-burn",
+    origTitle: "Evil Dead Burn",
+    title: "\"Evil Dead Burn\" — Serinin En Karanlık, En Sinir Bozucu Halkası",
+    excerpt: "Sébastien Vaniček'in devraldığı yeni Evil Dead filmi; splatstick kahkahasını bir kenara bırakıp saf bir kâbusa dönüşüyor. Souheila Yacoub başrolde, Deadite'lar tam kadro.",
+    rating: "4/5",
+    image: "https://images.bauerhosting.com/empire/2026/07/Evil-Dead-Burn-Review.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    body: `Ben Travis'in Empire'da yayımlanan eleştirisine göre Evil Dead serisi baştan beri bir ton skalası üzerinde salınıyor: Bir yanda *Evil Dead II* ve *Army Of Darkness*'ın splatstick kahkahası, diğer yanda Sam Raimi'nin orijinali ve Fede Alvarez'in 2013 yeniden çevriminin saf dehşeti. Lee Cronin'in *Evil Dead Rise*'ı iki damarı birleştirmişti; Sébastien Vaniček'in devraldığı *Evil Dead Burn* ise ibreyi kararlı bir şekilde en karanlık uca çeviriyor — ve sinir bozucu ölçüde etkili sonuçlar üretiyor.
+
+Hikâye, istismarcı kocasını (George Pullar) bir trafik kazasında kaybeden Alice (Souheila Yacoub) üzerine kuruluyor. Kişisel cehennemi bitmek bilmez: Koca toprağa verilirken Deadite'lar kapıyı çalıyor. Vaniček, aile içi şiddetin metaforik yükünü doğaüstü dehşetin üstüne bindirmekten çekinmiyor; bu tercih, filmin en rahatsız edici sahnelerinde bile sırıtan bir alt metin bırakıyor.
+
+Vaniček'in yönetmenlik dili, kâğıt inceliğinde bir gerilimi tercih ediyor: Kamera geniş açılarda uzun süre tutuluyor, ses tasarımı zonklayıcı, gore sahneleri Cronin'inki kadar cömert ama çok daha az eğlenceli. Yacoub'un performansı filmin çıpası — travmayı taşıyan bedenin, bir anda av olmaktan avcıya dönüşmesini inandırıcı kılıyor.
+
+Empire'a göre *Evil Dead Burn*, seriye yeni bir hayran kazandırmaktan çok, eski hayranlara "bu iş gerçekten korkutabilir" diye hatırlatıyor. Splatstick isteyenler yanlış salondadır; kâbus isteyenler için ise en tavizsiz Evil Dead deneyimlerinden biri.
+
+Kaynak: Empire — Ben Travis`,
+  },
+  {
+    slug: "the-furious",
+    origTitle: "The Furious",
+    title: "\"The Furious\" — Hong Kong Dövüş Sinemasının Kemik Kıran Geri Dönüşü",
+    excerpt: "Aksiyon koreograflığından yönetmenliğe terfi eden Kenji Tanigaki, Taken'ın iskeletini alıp iki saate yayılan kesintisiz bir dövüş resitaline çeviriyor. Xie Miao ve Joe Taslim durmuyor.",
+    rating: "4/5",
+    image: "https://images.bauerhosting.com/empire/2026/07/The-Furious-Review.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    body: `Harry Stainer'ın Empire'da yayımlanan eleştirisine göre *The Furious*'un kanla ıslanmış final düellosu geldiğinde, iki saatlik süresi boyunca birinin yumruklanmadığı, tekmelenmediği ya da suratının masaya çarpılmadığı beş dakikayı zar zor sayarsınız. Aksiyon koreograflığından yönetmen koltuğuna geçen Kenji Tanigaki bu alanda tam anlamıyla evinde; *Taken*'ın "kızım kaçırıldı" iskeletini paketleyip Hong Kong dövüş sanatları furyasına adanmış bir festivale dönüştürüyor.
+
+Kızı kaçırılan dilsiz bir baba (Xie Miao) ile bir gazetecinin (Joe Taslim) çocuk kaçakçılığı çetesinin peşine düşmesi öyküsü, senaryo olarak yeni bir şey vaat etmiyor. Ama Tanigaki'nin sezgileri doğru: Karakterleri konuşturmak yerine dövüştürüyor. Setler, koridorlar, sokaklar, restoran mutfakları — hepsi tek uzun plana yakın koreografilerle kullanılıyor. Xie Miao'nun bedensel dili, dilin yerini fazlasıyla dolduruyor; Joe Taslim ise en sert vuruşları en az efor harcıyormuş gibi savuruyor.
+
+Filmin başarısı, tür seyircisinin gerçekten istediği şeyi bilmesi ve o şeyi hiç aksatmadan servis etmesi. Duygusal derinlik arayanlar başka salona; kemik kıran, nefes kesen, coğrafyası net kurulmuş dövüş sahneleri isteyenler ise yılın en tatminkâr aksiyon filmlerinden biriyle karşı karşıya.
+
+Kaynak: Empire — Harry Stainer`,
+  },
+  {
+    slug: "500-miles",
+    origTitle: "500 Miles",
+    title: "\"500 Miles\" — Sheffield'dan Dingle'a Uzanan Kalbi Yumuşak Bir Yol Filmi",
+    excerpt: "Morgan Matthews'un yönettiği bu hassas yol filminde iki kardeş, dedeleriyle (Bill Nighy) buluşmak için Sheffield'dan İrlanda'ya kaçıyor. Yaş gözyaşı garantili.",
+    rating: "3.5/5",
+    image: "https://images.bauerhosting.com/empire/2026/07/500-Miles.png?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    body: `Barry Levitt'in Empire'da yayımlanan eleştirisine göre Morgan Matthews'un yönettiği *500 Miles*, adına rağmen bir Proclaimers müzikali değil — ama duygusal olarak o şarkıyla aynı damardan besleniyor. Finn (Roman Griffin Davis) ile küçük kardeşi Charlie (Dexter Sol Ansell), evden kaçmışlardır ve planları basittir: Sheffield'dan İrlanda'nın Dingle sahilindeki küçük kasabaya gidip yabancılaştıkları dedeleriyle (Bill Nighy) buluşmak, ailelerini bir arada yeniden toplamak.
+
+Film, açılıştaki flashback'te aile mutluluğunun kartpostal gibi bir gününü gösterir: Sahilde bulünürler oynanır, kumdan kaleler kurulur, dede ve büyükanne torunlarıyla iç içedir. Bugünün karanlığı, o kayıp cennetin ışığıyla ters aydınlanır. Matthews'un yönetmenliği kadrajı olabildiğince alçak tutuyor — hikâye çocukların gözünden anlatılıyor; kamera çoğunlukla omuz hizasında.
+
+Roman Griffin Davis, *Jojo Rabbit*'ten tanıdığımız o hassas oyunculuğu bir başka gelişim çağına taşıyor; Dexter Sol Ansell filmin sürprizi olarak masumiyetle inatçılığı aynı anda taşıyabiliyor. Bill Nighy ise beklendiği gibi, sadece varlığıyla sahneleri ısıtıyor. Maisie Williams küçük ama etkili bir rolde.
+
+Empire'a göre *500 Miles* melodrama flört ediyor ama düşmüyor; klişelere yaklaşıyor ama zamanında geri çekiliyor. Sonuç, izleyiciyi arabaya bindirip yol boyunca ağlatıp güldüren, hassas ama sağlam bir aile dramı.
+
+Kaynak: Empire — Barry Levitt`,
+  },
+  {
+    slug: "voicemails-for-isabelle",
+    origTitle: "Voicemails For Isabelle",
+    title: "\"Voicemails For Isabelle\" — Yanlış Numaradan Doğan Sıcak Bir Romantik Komedi",
+    excerpt: "Zoey Deutch ve Nick Robinson'ın kimyası; ölmüş kız kardeşe bırakılan sesli mesajların yanlış telefona ulaşmasıyla başlayan sıra dışı bir aşk hikâyesini taşıyor.",
+    rating: "3.5/5",
+    image: "https://images.bauerhosting.com/empire/2026/06/Voicemails-For-Isabelle.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    body: `Jordan King'in Empire'da yayımlanan eleştirisine göre *Voicemails For Isabelle*, romantik komedinin klasik "yanlış numara" motifini yasla harmanlayan, beklenmedik ölçüde hassas bir tür karışımı. Jill (Zoey Deutch), San Francisco'da kaotik bir hayat süren, umut vaat eden bir pastacı; ölen kız kardeşi Isabelle'e her gün sesli mesajlar bırakıyor — bu mesajlar onun için hem terapisi hem günlüğü.
+
+Ne var ki mesajlar artık Isabelle'in eski numarasına değil; Wes'in (Nick Robinson) yeni iş telefonuna düşüyor. Wes, Teksaslı bir emlakçı — düzenli, temkinli, biraz kırılgan. Jill'in sesini duymayı bir süre sonra bekler hale geliyor. Klasik rom-com kurgusu buradan doğuyor: Wes gerçeği söylemeli mi, ne zaman söylemeli, söylediğinde ne olacak?
+
+Filmin gücü ikili oyunculuktan geliyor. Zoey Deutch, karakterin dağınıklığını, mizahını ve altındaki yasını aynı anda tutabiliyor; Nick Robinson ise sessiz, gözlemci performansıyla dengeliyor. Empire'a göre en iyi sahneler ikilinin aslında birbirini görmediği anlar: Ses üstüne kurulan yakınlık, filmin duygusal omurgası.
+
+Yönetmenlik zaman zaman güvenli oynuyor ve sonlara doğru rom-com formülüne fazla teslim oluyor. Ama King'e göre *Voicemails For Isabelle*'in asıl başarısı, "yas tutulan biriyle konuşmaya devam etmek" fikrini bir bahaneden çıkarıp filmin kalbi haline getirmesi. Sıcak, hüzünlü, izlemesi kolay bir romantik komedi.
+
+Kaynak: Empire — Jordan King`,
+  },
+  {
+    slug: "nirvanna-the-band-the-show-the-movie",
+    origTitle: "Nirvanna The Band The Show The Movie",
+    title: "\"Nirvanna The Band The Show The Movie\" — Cinnetin Eşiğinde Parlak Bir Orijinal",
+    excerpt: "Matt Johnson ve Jay McCarrol'un onlarca yıldır sürdürdüğü hayal — Toronto'daki Rivoli'de sahne almak — sonunda beyazperdeye taşındı. Deli, dahiyane, hüzünlü.",
+    rating: "4.5/5",
+    image: "https://images.bauerhosting.com/empire/2026/06/ntbtstm-1.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    body: `Ben Travis'in Empire'da yayımlanan eleştirisine göre *Nirvanna The Band The Show The Movie*'nin açılış sahnesi — ta 2008'de çekilmiş — Matt Johnson'ın karakteri "birazdan izleyeceğiniz şey daha önce hiç görmediğiniz bir şey" diye ilan etmesiyle başlıyor. Karakter, aslında bir grup bile olmayan (o, arkadaşı Jay ve bir piyano) topluluğunun bir gün Toronto'nun efsanevi mekânı Rivoli'de sahneye çıktığını hayal ediyor. Ama bu cümle, film için de birebir geçerli: Delice, parlak, kahkaha atmaktan ağrıyan, hüzünlü ve tamamen orijinal.
+
+Matt (Matt Johnson) ile Jay (Jay McCarrol), on yıllardır sürdürdükleri hayali — Rivoli sahnesinde çalmak — gerçekleştirmek için en çılgın planlarını devreye sokuyor. Film, kısa filmden diziye, oradan uzun metraja evrilen bir projenin tüm katmanlarını üstünde taşıyor: Gerilla çekim estetiği, halktan gerçek tepkiler, meta şakalar, sıra dışı bir kurgu ritmi.
+
+Johnson ve McCarrol'un kimyası filmin tek ve yeter sebebi; ikili, hem çocuksu bir enerjiyle hem de artık genç olmadıklarını bilen bir kırılganlıkla oynuyor. Empire'a göre film, salt komedi olmanın ötesine geçen bir şey başarıyor: Bir hayali onlarca yıl boyunca sürdürmenin komik, saçma ama derinden içten portresi.
+
+Travis, filmi "sadece varlığı bile bir zekâ eylemi" olarak nitelendiriyor. Bağımsız komedinin gerçekten neye benzeyebileceğini merak edenler için 2026'nın en tuhaf ve en tatlı sürprizlerinden biri.
+
+Kaynak: Empire — Ben Travis`,
+  },
+  {
     slug: "moana-live-action",
     origTitle: "Moana",
     title: "\"Moana\" — Disney'in İşe Yarayan İlk Live-Action Yeniden Çekimi",
