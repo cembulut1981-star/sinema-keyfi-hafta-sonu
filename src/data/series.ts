@@ -13,6 +13,22 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "lanterns-hbo-tom-king-cia-green-lantern",
+    title: "Tom King, HBO'nun \"Lanterns\" Dizisiyle Green Lantern'ı \"True Detective\"e Çeviriyor",
+    excerpt: "\"WandaVision\" ve \"Supergirl\"ün ardından çizgi roman yazarı Tom King, HBO'nun yeni DC dizisi \"Lanterns\"te Green Lantern mitolojisini dünyaya indirilmiş bir polis dramına dönüştürüyor.",
+    body: "Çizgi roman yazarı Tom King'in dokunduğu her şey altına dönüyor: 2021'de Marvel için 'WandaVision', 2026'da DC için 'Supergirl'. Şimdi HBO'nun 'Lanterns' dizisiyle yeni DC evrenini şekillendiren isimlerden biri.\n\nGreen Lantern karakteri Hollywood'da hep zor bir sınav olmuştu — Ryan Reynolds'lı 2011 yapımı 'Green Lantern' sinema tarihine geçmiş bir başarısızlıktı. King, Variety'e verdiği söyleşide bu kez tamamen farklı bir yaklaşım denediklerini söylüyor: 'Lanterns'i Matthew McConaughey ile Woody Harrelson'ın 'True Detective'deki karakterleri gibi Dünya'ya bağlı, gerçekçi dedektifler olarak yeniden hayal ettik.'\n\nAksiyon dizisi ya da uzay operası değil; bir polis-noir formatında iki Green Lantern'ın Dünya üzerinde bir cinayet soruşturmasını yürütmesini izleyeceğiz. King, uzun süredir DC'nin CIA odaklı hikâyelerine (özellikle 'Sheriff of Babylon' ve 'The Human Target' çizgi romanlarında) ilgi duyduğunu; 'Lanterns'i de bu damarın televizyondaki uzantısı olarak kurguladığını söylüyor. Dizinin HBO Max'te 2026 sonunda vizyona girmesi planlanıyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/Tom-King.jpg?w=1200&h=1500&crop=1",
+    source: "Variety",
+  },
+  {
+    slug: "hacks-emmy-rekoru-final-sezon",
+    title: "\"Hacks\" Final Sezonuyla Komedi Kategorisinde Emmy Rekoru Kırdı",
+    excerpt: "HBO Max'in \"Hacks\" dizisi beşinci ve son sezonunda 24 Emmy adaylığı toplayarak tek bir komedi sezonu için tarihin en çok aday gösterilen yapımı oldu. Önceki rekor \"The Studio\"ya aitti.",
+    body: "HBO Max'in Jean Smart başrollü komedi dizisi 'Hacks', final sezonunda 24 Emmy adaylığı toplayarak tek bir sezonda bir komedi dizisinin aldığı en çok aday gösterilme rekorunu kırdı. Önceki rekor 'The Bear' ve ardından 'The Studio'ya (23) aitti.\n\nSolgun Las Vegas efsanesi Deborah Vance ile onun kariyerini yeniden ateşleyen milenyum kuşağı yazar Ava'nın öyküsünü anlatan 'Hacks', beşinci sezonuyla noktayı koydu. Variety'e göre bu, sadece final sezonuna gösterilen sevgiyle değil, dizinin kalitesini sonuna kadar koruyabilmesiyle ilgili — 'Schitt's Creek' örneğinde olduğu gibi Emmy tarihinde çok az sayıda dizinin başardığı bir şey.\n\nAday listesinde Jean Smart (Komedide En İyi Kadın Oyuncu), Hannah Einbinder (Yardımcı Kadın), Christopher McDonald ve Paul W. Downs (Yardımcı Erkek), en iyi komedi dizisi, yönetmenlik, yazarlık ve teknik dalların büyük bölümü yer alıyor. 78. Primetime Emmy Ödülleri 14 Eylül'de sahiplerini bulacak.\n\nDizinin ne kadar Emmy alacağı belli olmasa da 'Hacks', tıpkı Deborah Vance karakteri gibi 'tepeye çıkıp orada bırakma' fikrinin bir örneği hâline geliyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/jean-smart-hannah-einbinder_4.jpeg?w=1000&h=667&crop=1",
+    source: "Variety",
+  },
+  {
     slug: "temmuz-2026-en-iyi-yeni-diziler",
     title: "Temmuz'da İzlenecek 10 Dizi: 'The Hawk'tan 'Little House on the Prairie' Uyarlamasına",
     excerpt: "BBC Culture'ın Temmuz 2026 seçkisi: Will Ferrell'lı golf komedisi 'The Hawk', 'Legally Blonde' öncesini anlatan 'Elle', Netflix'in yeni 'Little House on the Prairie' uyarlaması ve daha fazlası.",

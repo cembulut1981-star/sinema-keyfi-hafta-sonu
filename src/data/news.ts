@@ -21,6 +21,22 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "supergirl-hits-flops-2026-yaz-ozeti",
+    title: "2026 Yazının Gişe Bilançosu: \"Obsession\" Sürprizi, \"Supergirl\" ve \"Masters of the Universe\" Fiyaskosu",
+    excerpt: "Variety'nin ilk yarı bilançosu net: Domestik gişe 2025'e göre %10 arttı, yaz sezonu 4 milyar doları aşmaya hazırlanıyor. Ama \"Supergirl\" ve \"Masters of the Universe\" DC ile Amazon MGM için ağır bir darbe.",
+    body: "Variety'nin 2026 yaz gişe bilançosuna göre pandemi sonrası sinema salonlarının 'eski hâline dönme' söylemi nihayet somut rakamlarla karşılık buluyor. Rentrak verilerine göre domestik bilet satışları 2025'e kıyasla %10 artmış durumda; dört aylık yaz sezonunun 'Barbenheimer' fenomenli 2023'ten bu yana ilk kez 4 milyar dolar barajını aşması bekleniyor.\n\n**İyi haber cephesi.** 'Obsession' ve 'Backrooms' gibi düşük-orta bütçeli sleeper hit'ler, 'The Super Mario Galaxy Movie', 'Toy Story 5' ve 'The Devil Wears Prada 2' gibi franchise devam filmleri sezonu ayakta tutan omurgayı oluşturuyor. Sıradaki büyük vaatler ise 'The Odyssey', 'Dune: Part Three' ve 'Avengers: Doomsday'.\n\n**Kötü haber cephesi.** Warner Bros.'un DC yeniden başlangıcı 'Supergirl' 170 milyon dolarlık bütçesine karşılık 38 milyon dolarlık zayıf bir açılışla düştü; Milly Alcock'a inanılıyordu ancak Z kuşağı kadın seyirci beklendiği gibi salonlara gelmedi. Amazon MGM'nin 'Masters of the Universe' uyarlaması ve Disney'in 'Moana' canlı çekim uyarlaması ise sezonun en pahalı çakılmaları arasında.\n\n**Ne anlama geliyor?** Variety'e göre sonuç, süper kahraman türünün 'her koşulda güvenli para' çağının fiilen sona erdiği. Orta ölçekli özgün yapımlar ile denenmiş IP'ler öne çıkarken 200 milyon dolar üstü riskli süper kahraman bahisleri stüdyolar için giderek daha savunulamaz bir strateji hâline geliyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/Michael-and-The-Bride-Movie-Roundup.jpg?w=1920&h=1279&crop=1",
+    source: "Variety",
+  },
+  {
+    slug: "matt-damon-odyssey-set-bagirti",
+    title: "Matt Damon, \"The Odyssey\" Setinde Sesini Kısmak İçin \"Saatlerce Bağırdı\": Pattinson \"Tam Bir Psikopat\" Dedi",
+    excerpt: "Christopher Nolan'ın \"The Odyssey\"inde Odysseus'u canlandıran Matt Damon, karakterini yaşlı göstermek için setten önce saatlerce bağırarak sesini kıstı. Robert Pattinson: \"Bir yandan onunla konuşmaya çalışıyorum, adam tam bir psikopat.\"",
+    body: "Robert Pattinson, Christopher Nolan'ın 'The Odyssey' setinde Matt Damon'ın hazırlık yöntemini hâlâ hazmedemediğini anlatıyor. Variety'ye konuşan Pattinson, Damon'ın karakteri Odysseus'un yaşlanan ve yıpranan sesini yakalayabilmek için sahne öncesi 'saatlerce bağırdığını' söyledi.\n\n\"Bir yandan onunla normal bir konuşma yapmaya çalışıyorum,\" diyor Pattinson. \"Diğer yandan adam sürekli avazı çıktığı kadar bağırıyor, sesini kısmaya çalışıyor. Bir noktada dönüp, 'Sen tam bir psikopatsın' dedim. Ama işe yarıyor — kamera açıldığında sesinde yıllardır denizde olan bir adamın yorgunluğu var.\"\n\nUniversal Pictures'ın 'The Odyssey'i, Nolan'ın IMAX 65mm formatında çektiği ilk mitolojik epik. Filmde Damon (Odysseus) ve Pattinson'ın yanı sıra Anne Hathaway, Tom Holland, Zendaya, Charlize Theron, Lupita Nyong'o gibi geniş bir kadro var. Yapımın vizyon tarihi 17 Temmuz 2026 olarak duyuruldu.\n\nDamon'ın 'sesini yakma' tekniği aslında karakter oyunculuğunun uzun bir geleneğine yaslanıyor — Daniel Day-Lewis'ten Christian Bale'e uzanan yöntem oyunculuğunun bir uzantısı. Pattinson'ın anlatımına göre bu sadece bir 'numara' değil: Nolan'ın uzun tek plan sahnelerinde Damon'ın gerçekten yorgun ve kısılmış bir sesle konuşması, dijital post-prodüksiyonun taklit edemeyeceği bir doku üretiyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/Screenshot-2026-07-16-at-10.11.45-AM.png?w=1000&h=667&crop=1",
+    source: "Variety",
+  },
+  {
     slug: "scott-foley-its-not-like-that-iptal",
     title: "Scott Foley'in Yeni Dizisi Rotten Tomatoes'ta %100 Aldı, Prime Video Yine de İptal Etti",
     excerpt: "Prime Video'nun 'It's Not Like That' dizisi eleştirmenlerden tam not almasına rağmen tek sezonun ardından iptal edildi. Scott Foley kararı Instagram'dan duyurdu: 'Kırgınım ve şaşkınım.'",

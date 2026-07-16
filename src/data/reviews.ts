@@ -24,6 +24,25 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "the-hawk-will-ferrell-golf",
+    origTitle: "The Hawk",
+    title: "\"The Hawk\" — Will Ferrell'ın Golf Komedisi \"Talladega Nights\" Değil",
+    excerpt: "Netflix'in Will Ferrell'lı yeni golf komedisi \"The Hawk\", yıldızının klasik spor komedilerinin ağırlığına yaklaşamıyor: Ferrell tanıdık ama yorgun, tempo düşük, kahkaha az.",
+    rating: "2.5/5",
+    image: "https://variety.com/wp-content/uploads/2026/07/THEHAWK_101_250915_CH_00106_R2.jpg?w=1000&h=667&crop=1",
+    body: `Alison Herman'ın Variety'de yayımlanan eleştirisine göre Will Ferrell'ın Netflix için çektiği yeni golf komedisi *The Hawk*, yıldızının seyirci hafızasında yer eden 'Talladega Nights' ve 'Blades of Glory' gibi spor komedileriyle aynı kulvarda yarışmayı vaat ediyor — ama sahaya çıktığında ligin çok altında kalıyor.
+
+Ferrell, kariyerinin sonlarına yaklaşan, huysuz, alkolik ve unutulmakta olan bir profesyonel golfçü olan Lonnie 'The Hawk' Hawkins'i canlandırıyor. 2004 şampiyonasını kazandıktan sonra kariyeri çöken karakter, PGA Champions Tour üzerinden bir geri dönüş kovalıyor. Molly Shannon eski eşi, Jimmy Tatro sinir bozucu genç rakibi, Luke Wilson ise sabırlı menajeri olarak kadroda.
+
+**Sorun nerede?** Ferrell'ın karakter tipi çok tanıdık: içi boş, iddialı, patlayan çıkışlarla tetiklenen yaşlı sporcu. Sorun tipin kendisinde değil, senaryonun bu tipe yeni bir şey söyletmemesinde. Yönetmen Jason Woliner ('Borat Subsequent Moviefilm') temayı ciddiye almakla saçmalık üretmek arasında bir denge kuramıyor; sonuçta ne 'Talladega Nights'ın anarşik enerjisi ne de 'The Squid and the Whale' türü acı-tatlı bir düşüş dramı var elimizde.
+
+**Neyi kurtarıyor?** Molly Shannon her sahneye enerji taşıyor; Luke Wilson'ın 'yorgun ama sadık' menajer rolü sürekli izlenebilir. Golf mekânlarının cinematografisi güzel — Herman'a göre Netflix'in son yıllardaki en 'kartpostal gibi görünen' komedilerinden biri.
+
+**Sonuç.** *The Hawk*, bir Will Ferrell filmi kadar kolay izleniyor ve bir Will Ferrell filmi kadar hızlı unutuluyor. Ferrell'ın spor komedisi klasikleri için hâlâ zamanı olduğuna inananlar için tatminkâr değil; klasikleri hiç izlememişler içinse zayıf bir başlangıç noktası.
+
+Kaynak: Variety — Alison Herman`,
+  },
+  {
     slug: "evil-dead-burn",
     origTitle: "Evil Dead Burn",
     title: "\"Evil Dead Burn\" — Serinin En Karanlık, En Sinir Bozucu Halkası",
