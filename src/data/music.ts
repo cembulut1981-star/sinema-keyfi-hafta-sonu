@@ -23,6 +23,15 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "gracie-abrams-daughter-from-hell",
+    title: "Gracie Abrams Üçüncü Stüdyo Albümü \"Daughter From Hell\"i Yayımladı",
+    excerpt: "Gracie Abrams, 16 şarkılık yeni albümü 'Daughter From Hell' ile 'The Secret of Us'ın ardından üçüncü stüdyo çalışmasını dinleyiciyle buluşturdu. Albümde The National'dan Aaron Dessner ve Jack Antonoff imzaları var.",
+    body: "Bu gece spirale hazır olun: Gracie Abrams, üçüncü stüdyo albümü 'Daughter From Hell'i yayımladı. 16 şarkılık koleksiyon, geçen yıl çıkan 'The Secret of Us (Deluxe)' albümünün ve 2024'teki orijinal versiyonun devamı niteliğinde.\n\nAbrams, albümü bu yılın başında Instagram'dan duyurmuş, 'yıllardır üzerinde çalıştığı en kişisel ve en cesur çalışmam' olarak tanımlamıştı. Şarkı sözleri, sanatçının 26 yaşındaki hayatının bir aynası: aşk, hayal kırıklığı, aile, kendini yeniden tanımlama. Prodüksiyonda The National'dan Aaron Dessner ve uzun süredir işbirlikçisi Jack Antonoff'un ismi öne çıkıyor.\n\nAlbüm, 'That's So True' ve 'Us' gibi radyo şarkılarıyla listelere hızla girme sözü veren tek tanıtım parçalarını da içeriyor. Abrams'ın son dönemdeki turne başarısıyla birlikte 'Daughter From Hell' onu artık pop-folk kuşağının en tanınan isimleri arasına yerleştirmiş görünüyor.\n\nSanatçı, albümü destekleyecek 'Daughter From Hell World Tour' takvimini de birlikte duyurdu; turne sonbaharda Kuzey Amerika ayağıyla başlıyor.",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/07/Gracie-Abrams-Album-Is-Here.jpg?w=1581&h=1054&crop=1",
+    source: "Rolling Stone",
+  },
+
+  {
     slug: "david-byrne-guardian-reader-interview",
     title: "David Byrne'den \"Reader Interview\": Ramones'un Deri Ceketi, Lou Reed'in Dondurma Kaşığı ve Talking Heads Günleri",
     excerpt: "David Byrne, American Utopia turne filminin gösterime girmesi vesilesiyle Guardian okurlarının sorularını yanıtladı: Ramones ile 1977 UK turnesinden Brian Eno ile stüdyoda çalışma biçimine, Lou Reed'in şaşırtan tavsiyelerinden İskoç mizahının kendisine kattıklarına.",

@@ -13,6 +13,15 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "widows-bay-hiro-murai-roportaj",
+    title: "Hiro Murai \"Widow's Bay\" Finalini Anlatıyor: \"Stephen King, Parks and Recreation'ı Yeniden Yazsa Böyle Olurdu\"",
+    excerpt: "Apple TV'nin sürpriz hiti 'Widow's Bay'in ilk sezonunu bitiren yönetmen Hiro Murai, Rolling Stone'a diziyi, King etkilerini ve komedi-korku dengesini anlattı: 'Katie Dippold'un senaryoları ilk okuduğumda hemen 'evet' dedim.'",
+    body: "Apple TV'nin Katie Dippold tarafından yaratılan komedi-korku dizisi 'Widow's Bay', ilk sezonunu bitirdi ve dönemin en beklenmedik hitine dönüştü. Dizi, nostaljik korku klişelerini bir komedi kılığında yeniden hayal ediyor — neredeyse Stephen King'in 'Parks and Recreation'ı yeniden yazması gibi. Stephen King külliyatından 'Jaws'a, John Carpenter'dan 'A Clockwork Orange'a kadar pek çok referans içeriyor.\n\nSezonun beş bölümünü yöneten ve yönetici yapımcılığını üstlenen Hiro Murai ('Atlanta', 'Station Eleven'), Rolling Stone'a projeye nasıl dahil olduğunu anlattı: 'Katie'nin senaryosunu okuduğumda, hem ne kadar komik hem de ne kadar samimi bir şekilde korkutucu olduğuna hayran kaldım. Bu iki tonu aynı sahnede tutmak çok zor bir şey; ama Katie'nin sesi o kadar özgün ki hemen evet dedim.'\n\nMurai, sezonun finalinin şaşırtıcı dönüşümlerini de değerlendirdi (SPOILER UYARISI). Stephen Root, Matthew Rhys ve Kate O'Flynn'ın karakterleri arasındaki gerilimin tırmanışını 'karakter tabanlı bir dehşet' olarak tanımlıyor: 'Bir korku yaratığı çıkarmak kolay; ama izleyicinin gerçekten sevdiği bir karakterin başına kötü bir şey geldiğinde işte gerçek korku o.'\n\nApple TV, dizinin ikinci sezonunu onayladı. Murai, ikinci sezonun daha da 'karanlık ve tuhaf' olacağını, ama komedi tonunun korunacağını söylüyor: 'Katie ile birlikte, bu dünyada daha yapılacak çok şey olduğunu hissediyoruz.'",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/06/LEAD-Widows_Bay_Photo_010902.jpg?w=1581&h=1054&crop=1",
+    source: "Rolling Stone",
+  },
+
+  {
     slug: "lanterns-hbo-tom-king-cia-green-lantern",
     title: "Tom King, HBO'nun \"Lanterns\" Dizisiyle Green Lantern'ı \"True Detective\"e Çeviriyor",
     excerpt: "\"WandaVision\" ve \"Supergirl\"ün ardından çizgi roman yazarı Tom King, HBO'nun yeni DC dizisi \"Lanterns\"te Green Lantern mitolojisini dünyaya indirilmiş bir polis dramına dönüştürüyor.",

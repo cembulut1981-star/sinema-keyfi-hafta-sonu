@@ -21,6 +21,23 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "the-uprising-trailer-andrew-garfield",
+    title: "\"The Uprising\" Fragmanı: Andrew Garfield Süper Kahramanlığı Bırakıp Ortaçağ Devriminin Başına Geçiyor",
+    excerpt: "Paul Greengrass'ın 1381 İngiliz köylü isyanından esinlenen tarih draması 'The Uprising'in fragmanı yayınlandı. Andrew Garfield, Kral II. Richard'a karşı ayaklanmayı örgütleyen Wat Tyler'ı canlandırıyor.",
+    body: "Andrew Garfield, modern süper kahramanları bir kenara bırakıp ortaçağ devrimine geçiyor. Paul Greengrass'ın İngiltere'nin 1381 köylü isyanından esinlenen tarih draması 'The Uprising'in yeni fragmanı yayınlandı. Oscar adayı Garfield, ağır vergiler ve siyasi baskının işçi sınıfını kırılma noktasına getirmesi üzerine Kral II. Richard'a karşı olağanüstü bir mücadelenin başına geçen sıradan bir köylü, Wat Tyler'ı canlandırıyor.\n\nFragman, Kara Ölüm'ün ardından açılıyor: Garfield'ın oynadığı yaslı bir çiftçi, veba yüzünden kaybettiği ailesinin yasını tutarken kendini giderek büyüyen bir devrimin merkezinde buluyor. Fragman, 'ruhlarının kaldırabileceğinden fazlasını çalışmak zorunda bırakılan' sömürülmüş çiftçilerin sahnelerinden tırmanan bir şiddete uzanıyor.\n\nGreengrass ('United 93', 'Captain Phillips', 'Jason Bourne' üçlemesi) tanıdık el kamerası estetiğini ortaçağ savaş sahnelerine taşıyor. Kadroda ayrıca Jessie Buckley, Paul Mescal ve Ralph Fiennes yer alıyor. Focus Features imzalı yapım 6 Kasım 2026'da vizyona giriyor.",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/07/the-uprising-trailer.jpg?w=1581&h=1054&crop=1",
+    source: "Rolling Stone",
+  },
+  {
+    slug: "behemoth-trailer-pedro-pascal-tony-gilroy",
+    title: "\"Behemoth!\" Fragmanı: Pedro Pascal Bu Kez Bir Çello Taşıyor, Tony Gilroy Yönetiyor",
+    excerpt: "'Andor' yaratıcısı Tony Gilroy'un uzun süredir beklenen draması 'Behemoth!'ın fragmanı yayınlandı. Pedro Pascal, iki on yıl sonra Los Angeles'a dönen dünyaca ünlü bir çellisti canlandırıyor.",
+    body: "Pedro Pascal galaksileri ve post-apokaliptik çorak diyarları omuzlarında taşıdı; 'Behemoth!'ta ise bir çello taşıyor.\n\nTony Gilroy'un uzun süredir beklenen dramasının yeni fragmanında Pascal, iki on yıllık turnenin ardından Los Angeles'a dönen dünyaca ünlü çellist Alex'i canlandırıyor. Alex, kendisini Hollywood film müziği endüstrisinin görünmez çarklarına kaptırıyor; her yeni beste, onu bir zamanlar bu şehirden uzaklaştıran yaraları yeniden açma tehdidi taşıyor.\n\n'Andor'un yaratıcısı Gilroy, yönetmen koltuğuna 2007 yapımı 'Michael Clayton'dan bu yana ilk kez oturuyor. Filmde ayrıca Rosamund Pike, Brian Tyree Henry ve Bill Nighy yer alıyor. Fragman, sanatsal takıntı ile kişisel çöküş arasındaki ince çizgide gezinen 'sanatçı portresi' türünün klasik izlerini taşıyor.\n\nSearchlight Pictures dağıtımıyla 25 Aralık 2026'da sınırlı sayıda salonda vizyona girecek 'Behemoth!'un ödül sezonu için güçlü bir aday olması bekleniyor.",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/07/pedro-pascal-behemoth.jpg?w=1581&h=1054&crop=1",
+    source: "Rolling Stone",
+  },
+
+  {
     slug: "supergirl-hits-flops-2026-yaz-ozeti",
     title: "2026 Yazının Gişe Bilançosu: \"Obsession\" Sürprizi, \"Supergirl\" ve \"Masters of the Universe\" Fiyaskosu",
     excerpt: "Variety'nin ilk yarı bilançosu net: Domestik gişe 2025'e göre %10 arttı, yaz sezonu 4 milyar doları aşmaya hazırlanıyor. Ama \"Supergirl\" ve \"Masters of the Universe\" DC ile Amazon MGM için ağır bir darbe.",
