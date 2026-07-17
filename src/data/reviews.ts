@@ -24,6 +24,26 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "the-odyssey-nolan-inceleme",
+    origTitle: "The Odyssey",
+    title: "\"The Odyssey\" — Nolan'ın Bronz Çağ Epiği İhtişamlı, Ama Kalbi Serin",
+    excerpt: "Christopher Nolan'ın IMAX 65mm ile çektiği 'The Odyssey', Matt Damon ve Zendaya başrolünde görkemli bir mitolojik yolculuk sunuyor — fakat Rolling Stone'a göre teknik büyüklüğü zaman zaman duygusal soğuklukla el ele gidiyor.",
+    rating: "3.5/5",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/06/the-odyssey-Lead.jpg?w=1581&h=1054&crop=1",
+    body: `David Fear'ın Rolling Stone'da yayımlanan eleştirisine göre Christopher Nolan'ın 'The Odyssey'i, yönetmenin şimdiye kadar giriştiği en cüretkâr biçimsel deney: Homeros'un destanını IMAX 65mm ile, çoğunlukla gerçek mekânlarda ve minimum dijital efektle sahneye koyuyor.
+
+Matt Damon'ın Odysseus'u; baba, koca, savaşçı, kral ve Bronz Çağı'nda yolunu kaybetmiş bir ruh. Sakalıyla, yorgun bakışlarıyla, çok şey görmüş bir adamın huzursuzluğunu taşıyor. Zendaya (Penelope), Tom Holland (Telemakhos), Anne Hathaway (Athena), Charlize Theron (Kalypso), Lupita Nyong'o ve Robert Pattinson kadronun geri kalanında.
+
+**Neyi doğru yapıyor?** Nolan'ın kamera kompozisyonları destansı: Ithaka kıyılarındaki uzun planlar, Kykloplar mağarasındaki karanlık iç mekânlar, sirenler sekansındaki ses tasarımı. Ludwig Göransson'un müziği tanıdık Nolan yoğunluğunda ama antik bir tını yakalıyor. Damon'ın performansı 'Interstellar'daki Cooper'dan bu yana en duygusal işi.
+
+**Nerede takılıyor?** Fear'a göre, tam olarak Nolan'ın diğer filmlerinde de karşılaştığımız yerde: karakter yakınlığı. Penelope-Odysseus ilişkisi, filmin duygusal omurgası olması gerekirken serin ve mesafeli kalıyor. Zendaya'nın performansı iyi ama karakterin ekranda geçirdiği zaman az. Aynı sorun Telemakhos alt hikâyesinde de var.
+
+**Sonuç.** 'The Odyssey', Nolan'ın 'Dunkirk'ten bu yana en görsel olarak etkileyici filmi; sinema salonunda IMAX 65mm ile izlenmesi gereken nadir bir deneyim. Ama Homeros'un asıl gücü olan insanın eve dönme özlemi, ihtişamın gölgesinde bazen kayboluyor. Ödül sezonunun teknik dallarında güçlü bir aday, ancak Nolan'ın kariyerinin zirvesi değil.
+
+Kaynak: Rolling Stone — David Fear`,
+  },
+
+  {
     slug: "the-hawk-will-ferrell-golf",
     origTitle: "The Hawk",
     title: "\"The Hawk\" — Will Ferrell'ın Golf Komedisi \"Talladega Nights\" Değil",
