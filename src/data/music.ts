@@ -1,5 +1,6 @@
 // Auto-curated music news content. Sources: Rolling Stone music news.
 import davidByrneAsset from "@/assets/david-byrne.jpg.asset.json";
+import jackWhiteAsset from "@/assets/jack.webp.asset.json";
 import img_ariana from "@/assets/news-rs-music-ariana-grande.jpg";
 import img_jayz from "@/assets/news-rs-music-jay-z-444.jpg";
 import img_michael from "@/assets/news-rs-music-michael-biopic.jpg";
@@ -27,7 +28,7 @@ export const MUSIC: MusicItem[] = [
     title: "Jack White'ın 25 Solo Single'ı 'Frozen Charlotte' Sonrası Sıralandı",
     excerpt: "Jack White'ın sürpriz yedinci solo albümü 'Frozen Charlotte' 10 Temmuz'da Third Man Records'tan çıktı. Billboard, sanatçının 2012'den bu yana yayımladığı 25 solo single'ı en zayıftan en güçlüsüne sıraladı.",
     body: "Jack White, bu yıl Nisan ayında Saturday Night Live'da müzik konuğu olarak sahne aldığında yeni bir projenin sinyalini vermeden \"G.O.D. And The Broken Ribs / Derecho Demonico\" ikilisini canlı olarak debüt etti. Coachella 2026 birinci hafta sonuna sürpriz sanatçı olarak eklendiğinde de aynı iki şarkıyı çaldı; ancak yeni bir albümden söz edilmedi. Tek işaret, beyaz geniş paça pantolon ve mavi devasa kafatası desenli tişörtle poz veren gerçek boyutlu bir heykeldi.\n\nBu figür sonunda White'ın 10 Temmuz'da Third Man Records'tan çıkan yedinci solo albümü 'Frozen Charlotte'un kapak görseline dönüştü. Sanatçının şimdiye kadarki altı solo albümü de Billboard 200'de debüt yaptı; ilk üçü 'Blunderbuss', 'Lazaretto' ve 'Boarding House Reach' zirveden giriş yapmıştı. Bu arada 'G.O.D.' hem Rock Digital Song Sales hem de Alternative Digital Song Sales listelerinde 2 numaradan açıldı; birinciliği Tame Impala ve JENNIE'nin 'Dracula' remiksine kaptırdı.\n\nWhite şu anda 10 Temmuz'da Washington D.C.'de başlayan ve 21 Kasım'da Atlanta'da sona erecek turnede. Asla aynı setlisti iki kez çalmamasıyla ve The White Stripes, The Raconteurs ile The Dead Weather hitlerini serpiştirmesiyle bilinen sanatçı için 'Frozen Charlotte'un 13 yeni parçası her gecenin farklı kombinasyonları için taze cephane sunuyor.\n\nYedinci solo albümü onuruna Billboard, White'ın 25 solo single'ını en zayıftan en güçlüsüne sıraladı: listenin sonunda 'Fear of the Dawn'dan 'Hi-De-Ho' yer alırken, karakteristik gitar riffleriyle örülü klasikler tepede kendine yer buldu.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Jack_White_by_Jo_McCaughey.jpg/1024px-Jack_White_by_Jo_McCaughey.jpg",
+    image: jackWhiteAsset.url,
     source: "Billboard",
   },
   {
