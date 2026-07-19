@@ -1,5 +1,6 @@
 // Auto-curated music news content. Sources: Rolling Stone music news.
 import davidByrneAsset from "@/assets/david-byrne.jpg.asset.json";
+import jackWhiteAsset from "@/assets/jack.webp.asset.json";
 import img_ariana from "@/assets/news-rs-music-ariana-grande.jpg";
 import img_jayz from "@/assets/news-rs-music-jay-z-444.jpg";
 import img_michael from "@/assets/news-rs-music-michael-biopic.jpg";
