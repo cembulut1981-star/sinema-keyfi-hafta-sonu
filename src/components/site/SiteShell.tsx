@@ -130,7 +130,10 @@ function Footer() {
   return (
     <footer className="border-t border-black/10 mt-20 bg-white">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-6 flex items-center gap-6">
-        <span className="font-display text-2xl font-black tracking-tight text-black leading-none">
+        <span
+          className="inline-flex items-center justify-center px-3 py-1 font-display text-2xl font-black tracking-tight text-black leading-none"
+          style={{ background: "#00EAA1" }}
+        >
           SM
         </span>
         <span className="text-neutral-600 text-xs sm:text-sm tracking-wide">
