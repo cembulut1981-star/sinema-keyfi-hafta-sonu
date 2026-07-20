@@ -137,9 +137,10 @@ function Footer() {
         >
           SM
         </span>
-        <span className="text-neutral-600 text-xs sm:text-sm tracking-wide">
+        <span className="flex-1 text-center italic text-neutral-600 text-[11px] tracking-wide">
           Sine-Meta media. Bağımsız sinema dergisi, tüm hakları saklıdır.
         </span>
+
         <div className="ml-auto relative">
           <button
             type="button"
