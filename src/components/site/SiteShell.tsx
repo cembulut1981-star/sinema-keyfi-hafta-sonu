@@ -137,7 +137,7 @@ function Footer() {
           SM
         </span>
         <span className="text-neutral-600 text-xs sm:text-sm tracking-wide">
-          Sine-Meta bağımsız bir sinema dergisidir. © 2026 Sine-Meta Media. Tüm hakları saklıdır.
+          Sine-Meta media. Bağımsız sinema dergisi, tüm hakları saklıdır.
         </span>
       </div>
     </footer>
