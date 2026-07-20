@@ -132,7 +132,7 @@ function Footer() {
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-6 flex items-center gap-6">
         <span
           className="inline-flex items-center justify-center px-3 py-1 font-display text-2xl font-black tracking-tight text-black leading-none"
-          style={{ background: "#00EAA1" }}
+          style={{ background: "linear-gradient(to bottom, #00EAA1 0%, #00EAA1 50%, transparent 50%, transparent 100%)" }}
         >
           SM
         </span>
