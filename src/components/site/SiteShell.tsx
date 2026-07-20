@@ -127,6 +127,7 @@ function Nav() {
 }
 
 function Footer() {
+  const [open, setOpen] = useState(false);
   return (
     <footer className="border-t border-black/10 mt-20 bg-white">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-6 flex items-center gap-6">
@@ -139,10 +140,43 @@ function Footer() {
         <span className="text-neutral-600 text-xs sm:text-sm tracking-wide">
           Sine-Meta media. Bağımsız sinema dergisi, tüm hakları saklıdır.
         </span>
+        <div className="ml-auto relative">
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            onBlur={() => setTimeout(() => setOpen(false), 150)}
+            aria-haspopup="menu"
+            aria-expanded={open}
+            className="inline-flex items-center gap-1.5 text-xs font-display uppercase tracking-widest text-neutral-700 hover:text-primary transition-colors border border-black/15 px-3 py-2 bg-white"
+          >
+            Keşfet
+            <span className={`transition-transform text-[10px] ${open ? "rotate-180" : ""}`}>▾</span>
+          </button>
+          {open ? (
+            <div
+              role="menu"
+              className="absolute right-0 bottom-full mb-2 w-48 bg-white border border-black/10 shadow-lg py-1 z-40"
+            >
+              {NAV.map((item) => (
+                <Link
+                  key={item.label}
+                  to={item.to as any}
+                  params={item.params as any}
+                  role="menuitem"
+                  onClick={() => setOpen(false)}
+                  className="block px-4 py-2 text-xs font-display uppercase tracking-wider text-neutral-700 hover:bg-neutral-50 hover:text-primary transition-colors"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          ) : null}
+        </div>
       </div>
     </footer>
   );
 }
+
 
 export function ArticleGrid({ articles }: { articles: Article[] }) {
   return (
