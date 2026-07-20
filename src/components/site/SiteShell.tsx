@@ -147,15 +147,15 @@ function Footer() {
             onBlur={() => setTimeout(() => setOpen(false), 150)}
             aria-haspopup="menu"
             aria-expanded={open}
-            className="inline-flex items-center gap-1.5 text-xs font-display uppercase tracking-widest text-neutral-700 hover:text-primary transition-colors border border-black/15 px-3 py-2 bg-white"
+            className="inline-flex items-center justify-between gap-4 min-w-[240px] text-xs font-display uppercase tracking-widest text-neutral-700 hover:text-primary transition-colors border border-black/15 px-5 py-3 bg-white"
           >
-            Keşfet
+            <span>Keşfet — Kategoriler</span>
             <span className={`transition-transform text-[10px] ${open ? "rotate-180" : ""}`}>▾</span>
           </button>
           {open ? (
             <div
               role="menu"
-              className="absolute right-0 bottom-full mb-2 w-48 bg-white border border-black/10 shadow-lg py-1 z-40"
+              className="absolute right-0 bottom-full mb-2 w-[240px] bg-white border border-black/10 shadow-lg py-1 z-40"
             >
               {NAV.map((item) => (
                 <Link
@@ -164,7 +164,7 @@ function Footer() {
                   params={item.params as any}
                   role="menuitem"
                   onClick={() => setOpen(false)}
-                  className="block px-4 py-2 text-xs font-display uppercase tracking-wider text-neutral-700 hover:bg-neutral-50 hover:text-primary transition-colors"
+                  className="block px-5 py-2.5 text-xs font-display uppercase tracking-wider text-neutral-700 hover:bg-neutral-50 hover:text-primary transition-colors"
                 >
                   {item.label}
                 </Link>
@@ -172,6 +172,7 @@ function Footer() {
             </div>
           ) : null}
         </div>
+
       </div>
     </footer>
   );
