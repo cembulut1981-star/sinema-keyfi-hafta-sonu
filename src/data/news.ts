@@ -21,6 +21,22 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "the-odyssey-uk-ireland-box-office-rekor",
+    title: "\"The Odyssey\" İngiltere ve İrlanda Gişesinde Rekorla Açıldı",
+    excerpt: "Christopher Nolan'ın Homeros uyarlaması \"The Odyssey\", İngiltere ve İrlanda'da açılış haftasonu 12,5 milyon sterlin (16,8 milyon dolar) hasılatla zirveye oturdu — bölgenin son yılların en büyük tentpole debüsü.",
+    body: "Universal'ın Christopher Nolan imzalı \"The Odyssey\" filmi, İngiltere ve İrlanda gişesine bomba gibi düştü. Variety'nin aktardığına göre açılış haftasonu tahmini 12,5 milyon sterlin (16,8 milyon dolar) hasılat toplayan film, bölgede zirveye kuruldu ve son yılların en yüksek tentpole açılışlarından birini yaptı.\n\nIMAX 70mm ile çekilen film, Matt Damon (Odysseus), Zendaya (Penelope), Tom Holland (Telemakhos), Anne Hathaway (Athena) ve Robert Pattinson gibi geniş bir kadroyu bir araya getiriyor. Nolan'ın 'Oppenheimer' sonrası ilk filmi olan 'The Odyssey', kritik ve seyirci ilgisini aynı anda çekmeyi başardı — özellikle IMAX seanslarının haftalarca önceden dolduğu bildirildi.\n\nÖzel format satışları toplam gişenin önemli kısmını oluşturuyor: Filmin IMAX 70mm gösterimleri neredeyse tamamı satılmış durumda. Universal, uluslararası açılışın 200 milyon doları aşacağını öngörüyor; bu da 'Oppenheimer'ın açılış rakamlarını geçme ihtimalini güçlendiriyor. Ödül sezonu spekülasyonları da şimdiden başladı.",
+    image: "https://variety.com/wp-content/uploads/2026/07/MCDODYS_UV008_1ac039.jpg?w=1200&h=800&crop=1",
+    source: "Variety",
+  },
+  {
+    slug: "jon-stewart-world-cup-halftime-trump",
+    title: "Jon Stewart Dünya Kupası Finalini \"Ters Super Bowl\" Olarak Nitelendirdi",
+    excerpt: "\"The Daily Show\" sunucusu Jon Stewart, İspanya ile Arjantin arasındaki Dünya Kupası finalini şaka yollu \"ters Super Bowl\" olarak tanımladı: \"Oyuncular İspanyolca konuşuyordu, devre arası şovu ise İngilizceydi.\"",
+    body: "Pazartesi gecesi 'The Daily Show'un yeni bölümünde ekrana gelen Jon Stewart, Pazar günü oynanan ve İspanya'nın Arjantin'i 1-0 yendiği FIFA Dünya Kupası finali hakkındaki gözlemlerini paylaştı.\n\n'Elbette Dünya Kupası dün bitti; İspanya, sahada Arjantin'i 1-0 yenerek finito dedi,' diye başladı Stewart. 'İspanya-Arjantin finali bir çeşit ters Super Bowl'du — oyuncular İspanyolca konuşuyordu, devre arası şovu ise İngilizceydi.' Stewart'ın espri hedefinde New Jersey MetLife Stadium'da sahne alan Madonna, BTS, Justin Bieber ve Shakira'nın yer aldığı gösterişli 'Topps Final Halftime Show' vardı.\n\nStewart ayrıca Donald Trump'ın maçta tribünde bulunmasına da değindi: 'Trump kupayı Messi'ye teslim ederken görüntülendi — sanki turnuvayı kendisi organize etmiş gibi bir tavırla.' Sunucu, 2026 turnuvasının ABD, Kanada ve Meksika ortak ev sahipliğinde düzenlenmesinin yarattığı absürt anları da eleştirdi. Bölüm, Comedy Central'ın 2026 yaz sezonunun en çok izlenen 'The Daily Show' bölümü oldu.",
+    image: "https://variety.com/wp-content/uploads/2026/07/MixCollage-20-Jul-2026-09-23-PM-9469.jpg?w=1200&h=800&crop=1",
+    source: "Variety",
+  },
+  {
     slug: "the-uprising-trailer-andrew-garfield",
     title: "\"The Uprising\" Fragmanı: Andrew Garfield Süper Kahramanlığı Bırakıp Ortaçağ Devriminin Başına Geçiyor",
     excerpt: "Paul Greengrass'ın 1381 İngiliz köylü isyanından esinlenen tarih draması 'The Uprising'in fragmanı yayınlandı. Andrew Garfield, Kral II. Richard'a karşı ayaklanmayı örgütleyen Wat Tyler'ı canlandırıyor.",
