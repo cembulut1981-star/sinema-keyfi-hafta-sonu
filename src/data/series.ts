@@ -26,7 +26,7 @@ export const SERIES: SeriesItem[] = [
     title: "Tom King, HBO'nun \"Lanterns\" Dizisiyle Green Lantern'ı \"True Detective\"e Çeviriyor",
     excerpt: "\"WandaVision\" ve \"Supergirl\"ün ardından çizgi roman yazarı Tom King, HBO'nun yeni DC dizisi \"Lanterns\"te Green Lantern mitolojisini dünyaya indirilmiş bir polis dramına dönüştürüyor.",
     body: "Çizgi roman yazarı Tom King'in dokunduğu her şey altına dönüyor: 2021'de Marvel için 'WandaVision', 2026'da DC için 'Supergirl'. Şimdi HBO'nun 'Lanterns' dizisiyle yeni DC evrenini şekillendiren isimlerden biri.\n\nGreen Lantern karakteri Hollywood'da hep zor bir sınav olmuştu — Ryan Reynolds'lı 2011 yapımı 'Green Lantern' sinema tarihine geçmiş bir başarısızlıktı. King, Variety'e verdiği söyleşide bu kez tamamen farklı bir yaklaşım denediklerini söylüyor: 'Lanterns'i Matthew McConaughey ile Woody Harrelson'ın 'True Detective'deki karakterleri gibi Dünya'ya bağlı, gerçekçi dedektifler olarak yeniden hayal ettik.'\n\nAksiyon dizisi ya da uzay operası değil; bir polis-noir formatında iki Green Lantern'ın Dünya üzerinde bir cinayet soruşturmasını yürütmesini izleyeceğiz. King, uzun süredir DC'nin CIA odaklı hikâyelerine (özellikle 'Sheriff of Babylon' ve 'The Human Target' çizgi romanlarında) ilgi duyduğunu; 'Lanterns'i de bu damarın televizyondaki uzantısı olarak kurguladığını söylüyor. Dizinin HBO Max'te 2026 sonunda vizyona girmesi planlanıyor.",
-    image: "https://variety.com/wp-content/uploads/2026/07/Tom-King.jpg?w=1200&h=1500&crop=1",
+    image: "https://www.tvguide.com/a/img/hub/2026/06/04/2aaafe9c-cea0-44c8-b20c-51028d3aa3c2/lanterns.jpg",
     source: "Variety",
   },
   {
