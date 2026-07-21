@@ -28,6 +28,7 @@ export const SERIES: SeriesItem[] = [
     image: "https://variety.com/wp-content/uploads/2026/07/Afterlife-with-Archie.jpg?w=1200&h=800&crop=1",
     source: "Variety",
   },
+  {
     slug: "widows-bay-hiro-murai-roportaj",
     title: "Hiro Murai \"Widow's Bay\" Finalini Anlatıyor: \"Stephen King, Parks and Recreation'ı Yeniden Yazsa Böyle Olurdu\"",
     excerpt: "Apple TV'nin sürpriz hiti 'Widow's Bay'in ilk sezonunu bitiren yönetmen Hiro Murai, Rolling Stone'a diziyi, King etkilerini ve komedi-korku dengesini anlattı: 'Katie Dippold'un senaryoları ilk okuduğumda hemen 'evet' dedim.'",
