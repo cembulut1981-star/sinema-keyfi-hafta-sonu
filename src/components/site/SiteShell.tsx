@@ -180,7 +180,16 @@ function Footer() {
 }
 
 
-export function ArticleGrid({ articles }: { articles: Article[] }) {
+export function ArticleGrid({ articles, compact = false }: { articles: Article[]; compact?: boolean }) {
+  if (compact) {
+    return (
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
+        {articles.map((a) => (
+          <ArticleCard key={a.id} article={a} compact />
+        ))}
+      </section>
+    );
+  }
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10">
       {articles.map((a) => (
