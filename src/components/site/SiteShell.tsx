@@ -303,7 +303,7 @@ export function SmallArticleCard({
   );
 }
 
-export function ArticleCard({ article }: { article: Article }) {
+export function ArticleCard({ article, compact = false }: { article: Article; compact?: boolean }) {
   const linkTo = getArticleLink(article);
   const TitleLink = linkTo ? (
     <Link to={linkTo.to} params={linkTo.params} className="block">
@@ -346,14 +346,14 @@ export function ArticleCard({ article }: { article: Article }) {
             />
           )}
       </div>
-      <div className="p-4 flex-1 flex flex-col">
-        <span className="font-display uppercase tracking-widest text-[10px] bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1">
+      <div className={compact ? "p-3 flex-1 flex flex-col" : "p-4 flex-1 flex flex-col"}>
+        <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
           {CATEGORY_LABEL[article.category]}
         </span>
-        <h2 className="font-serif-display text-xl font-bold leading-tight mb-2 text-balance">
+        <h2 className={`font-serif-display font-bold leading-tight mb-2 text-balance ${compact ? "text-base" : "text-xl"}`}>
           {TitleLink}
         </h2>
-        <p className="text-[14px] text-muted-foreground leading-relaxed line-clamp-3 mb-3">
+        <p className={`text-muted-foreground leading-relaxed mb-3 ${compact ? "text-[12px] line-clamp-2" : "text-[14px] line-clamp-3"}`}>
           {article.excerpt}
         </p>
         {linkTo ? (
