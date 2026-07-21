@@ -23,6 +23,14 @@ export type ListItem = {
 
 const _LISTS_RAW: ListItem[] = [
   {
+    slug: "christopher-nolan-en-iyi-oyunculuk-performanslari",
+    title: "Christopher Nolan Filmlerinden 13 En İyi Oyunculuk Performansı: Matt Damon'dan Heath Ledger'a",
+    excerpt: "Variety'nin ödül editörü Clayton Davis, Nolan'ın kariyerindeki en unutulmaz 13 oyunculuk performansını sıraladı — Heath Ledger'ın Joker'inden Matt Damon'ın Odysseus'una uzanan bir liste.",
+    body: "Zaman Christopher Nolan'a iyi davrandı. Yönetmenin filmografisi, sadece görsel tasarımı ve zamansal deneyleriyle değil, çıkardığı oyunculuk performanslarıyla da bir referans noktası hâline geldi. Variety'nin ödül editörü Clayton Davis, Nolan'ın kariyerindeki en iyi 13 oyunculuk performansını sıraladı.\n\n**1. Heath Ledger — Joker (The Dark Knight, 2008):** Listede tartışmasız zirve. Ledger'ın kaotik, hesaplanamaz Joker'i, bir süper kahraman filminin oyuncuya Oscar kazandırabileceğini kanıtladı.\n\n**2. Cillian Murphy — J. Robert Oppenheimer (Oppenheimer, 2023):** Nolan-Murphy işbirliğinin doruğu; Murphy'ye ilk Oscar'ını getirdi. Tarihsel bir figürü içeriden dışarıya doğru inşa eden nadir bir performans.\n\n**3. Matt Damon — Dr. Mann / Odysseus (Interstellar, 2014 & The Odyssey, 2026):** Davis, Damon'ın iki farklı Nolan projesindeki performansını birlikte değerlendiriyor. 'The Odyssey'de Damon, kariyerinin en katmanlı işlerinden birini veriyor.\n\n**4. Marion Cotillard — Mal (Inception, 2010):** Cobb'un zihnindeki hayaletin sadece bir tehdit değil, bir yas figürü olduğunu unutturmayan performans.\n\n**5. Matthew McConaughey — Cooper (Interstellar):** 'McConaissance' döneminin en duygusal işi; kitaplık sahnesindeki gözyaşları hâlâ tartışılıyor.\n\nListe ayrıca Christian Bale (Batman üçlemesi ve The Prestige), Guy Pearce (Memento), Robert Pattinson (Tenet), Anne Hathaway (Interstellar & The Dark Knight Rises), Tom Hardy (Dunkirk, The Dark Knight Rises), Florence Pugh (Oppenheimer), Ken Watanabe (Batman Begins, Inception) ve Michael Caine (kariyer boyu Nolan işbirliği) ile devam ediyor.\n\nDavis'in sonucu net: Nolan bir 'oyuncu yönetmeni' olarak anılmasa da, filmografisi son yirmi yılın en zengin performans arşivlerinden birini oluşturuyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/Christopher-Nolan-Movie-Performances.jpg?w=1200&h=800&crop=1",
+    source: "Variety",
+  },
+  {
     slug: "guardian-okurlarinin-2026-favori-filmleri",
     title: "\"Sinemada Yedi Kez İzledim\": Guardian Okurlarının 2026 Favori Filmleri",
     excerpt: "Guardian editörlerinin 2026'nın en iyilerini seçmesinin ardından okurlar da söz aldı. 'Backrooms'tan 'The Secret Agent'a, yılın ilk yarısına damga vuran sihirli sinema anları.",
@@ -1066,7 +1074,7 @@ Kaynak: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranke
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New Paste entries (indices 16-20) are mixed into various positions of the feed.
-const _LIST_ORDER = [16, 15, 17, 13, 18, 14, 0, 19, 12, 6, 20, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
+const _LIST_ORDER = [0, 17, 16, 18, 14, 19, 15, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
