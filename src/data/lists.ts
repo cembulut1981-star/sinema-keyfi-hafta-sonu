@@ -1074,7 +1074,7 @@ Kaynak: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranke
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New Paste entries (indices 16-20) are mixed into various positions of the feed.
-const _LIST_ORDER = [16, 15, 17, 13, 18, 14, 0, 19, 12, 6, 20, 2, 10, 4, 8, 1, 11, 5, 3, 7, 9];
+const _LIST_ORDER = [0, 17, 16, 18, 14, 19, 15, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)
