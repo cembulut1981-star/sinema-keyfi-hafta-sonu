@@ -13,6 +13,21 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "ed-harris-dutton-ranch-misled",
+    title: "Ed Harris \"Dutton Ranch\" Konusunda \"Yanıltıldığını\" Söyledi: \"Beni Buradan Çıkarın\"",
+    excerpt: "Oscar adayı Ed Harris, Taylor Sheridan'ın \"Yellowstone\" spin-off'u \"Dutton Ranch\"teki rolünün önemi konusunda yanıltıldığını açıkladı. Variety'e verdiği demeçte 1. sezonun ortasında ekibine \"beni buradan çıkarın\" dediğini itiraf etti.",
+    body: "Ed Harris, Paramount+'ın 'Yellowstone' evrenindeki yeni dizisi 'Dutton Ranch'teki rolünden memnun olmadığını açıkça dile getirdi. Apple TV'nin 'The Dink' galasında Variety'e konuşan oyuncu, dizinin dört ana karakterinden biri olacağı vaadiyle projeye dahil olduğunu, ancak gerçeğin çok farklı çıktığını söyledi.\n\n'İmzalamadan önce sezonun ne olduğu, karakterimin ne yapacağı ve dört ana karakterden biri olduğum bana uzun uzun anlatılmıştı,' diyor Harris. 'Ama gerçek pek öyle değildi.' 1. sezonun yarısına geldiğinde ekibine 'beni buradan çıkarın' demeye başladığını itiraf ediyor.\n\nHarris'in canlandırdığı Everett McKinney karakteri, Beth Dutton'ın (Kelly Reilly) yolunu kesen gizemli bir figür olarak tanıtılmıştı. Ancak oyuncuya göre karakter, ilerleyen bölümlerde 'önemsiz' bir konuma düştü. Taylor Sheridan cephesinden henüz bir açıklama gelmedi. 'Dutton Ranch'in 2. sezonu için hazırlıkların sürdüğü Paramount+'ta duyuruldu — ancak Harris'in geri dönüp dönmeyeceği belirsiz.",
+    image: "https://variety.com/wp-content/uploads/2026/03/RP_102_EM_0826_00262_RT2.jpg?w=1200&h=800&crop=1",
+    source: "Variety",
+  },
+  {
+    slug: "afterlife-with-archie-disney-plus",
+    title: "\"Afterlife With Archie\" Dizisi Disney+'a Yeşil Işık Yaktı",
+    excerpt: "\"Riverdale\" ekibinin uzun süredir geliştirdiği Archie Comics uyarlaması nihayet dizi siparişi aldı. Zombi salgınıyla altüst olan Riverdale kasabasını anlatan yapım Cadılar Bayramı 2027'de yayınlanacak.",
+    body: "Disney+, uzun süredir geliştirme aşamasında olan 'Afterlife With Archie' çizgi romanının dizi uyarlamasına yeşil ışık yaktı. 2025'te senaryo-diziye taahhüdüyle başlayan proje, artık tam siparişe dönüşmüş durumda ve Cadılar Bayramı 2027 civarında yayın hedefliyor.\n\nRoberto Aguirre-Sacasa ve Francesco Francavilla'nın 2013 yılında başlattığı çizgi roman, Riverdale kasabasında Jughead Jones'un ölü köpeği Hot Dog'un Sabrina Spellman tarafından karanlık büyülerle diriltilmesiyle başlayan bir zombi salgınını anlatıyor. Bu karanlık ton, 'Riverdale' ve 'Chilling Adventures of Sabrina' evreninden bildiğimiz Aguirre-Sacasa dokunuşunun en uç örneği.\n\nDizinin yapımını Aguirre-Sacasa ve 'Riverdale' yürütücü yapımcıları üstleniyor. Kadro henüz açıklanmadı; Archie Comics evreninin bu en karanlık dalı, Disney+'ın olgun içerik stratejisinin bir parçası olarak konumlandırılıyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/Afterlife-with-Archie.jpg?w=1200&h=800&crop=1",
+    source: "Variety",
+  },
     slug: "widows-bay-hiro-murai-roportaj",
     title: "Hiro Murai \"Widow's Bay\" Finalini Anlatıyor: \"Stephen King, Parks and Recreation'ı Yeniden Yazsa Böyle Olurdu\"",
     excerpt: "Apple TV'nin sürpriz hiti 'Widow's Bay'in ilk sezonunu bitiren yönetmen Hiro Murai, Rolling Stone'a diziyi, King etkilerini ve komedi-korku dengesini anlattı: 'Katie Dippold'un senaryoları ilk okuduğumda hemen 'evet' dedim.'",
