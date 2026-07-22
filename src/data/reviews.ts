@@ -10,6 +10,11 @@ import avatar2Asset from "@/assets/avatar2.jpg.asset.json";
 import boroughAsset from "@/assets/borough.jpg.asset.json";
 import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
 import projectHailMaryAsset from "@/assets/project_hail_mary.jpg.asset.json";
+import aUsefulGhostAsset from "@/assets/ausefulghost.jpg.asset.json";
+import animalFarmAsset from "@/assets/animalfarm.jpg.asset.json";
+import theDayShereturnsAsset from "@/assets/thedayshereturns.jpg.asset.json";
+import theyFightAsset from "@/assets/theyfight.jpg.asset.json";
+import deepWaterAsset from "@/assets/deepwater.jpg.asset.json";
 
 export type Review = {
   slug: string;
