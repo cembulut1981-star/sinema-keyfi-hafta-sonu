@@ -8,7 +8,7 @@ import { ARTICLES, CATEGORY_LABELS, type CategorySlug } from "@/data/articles";
 
 const VALID: CategorySlug[] = ["haberler", "incelemeler", "listeler", "diziler", "muzik", "roportajlar"];
 
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 12;
 
 const searchSchema = z.object({
   page: fallback(z.number().int(), 1).default(1),
