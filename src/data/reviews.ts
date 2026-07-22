@@ -70,7 +70,7 @@ Kaynak: The Guardian`,
     title: "\"The Day She Returns\" — Hong Sang-soo'nun Ağır Çekim İçkili Meditasyonu",
     excerpt: "Kore sinemasının üretken lo-fi ustası Hong Sang-soo, kariyerine ara vermiş bir oyuncunun dönüşünü anlatan yeni siyah-beyaz filmiyle yine tanıdık ama gizemli biçimde bağımlılık yaratan bir esere imza atıyor.",
     rating: "4/5",
-    image: "https://i.guim.co.uk/img/media/b8878ec98a57060f904eca44829f76c451fb32fc/244_0_900_720/master/900.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: theDayShereturnsAsset.url,
     body: `Guardian eleştirisine göre üretken Kore sineması ustası Hong Sang-soo'nun yeni siyah-beyaz filmi 'The Day She Returns', yönetmenin sadık takipçilerini şaşırtmayacak — ve bu iyi bir şey. Uzun sahneler, sabit kamera açısı, restoran masasında geçen konuşmalar ve nedeni belirsiz ani zoom-in'ler yerli yerinde.
 
 Song Seon-mi, kariyerine uzun bir ara verdikten sonra sinemaya dönmeye çalışan bir oyuncuyu canlandırıyor. Eski meslektaşları, yeni yönetmen adayları ve unutulmaya yüz tutmuş bir aşk arasında gidip gelen karakter; Hong'un tipik 'gündüz içkisi' sahnelerinde soju şişeleri eşliğinde geçmişiyle yüzleşiyor.
