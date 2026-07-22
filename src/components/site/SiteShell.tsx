@@ -243,7 +243,7 @@ export function SmallArticleCard({
   const linkTo = getArticleLink(article);
 
   return (
-    <article className={`relative flex flex-col rounded-lg overflow-hidden h-full ${className || ""}`}>
+    <article className={`relative flex flex-col rounded-lg overflow-hidden h-full transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] group ${className || ""}`}>
       {/* Üst yarı — yeşil arka plan + fotoğraf */}
       <div
         className="flex-[0.6] min-h-0 flex items-center justify-center overflow-hidden"
