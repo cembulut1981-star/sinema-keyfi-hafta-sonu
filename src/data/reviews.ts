@@ -88,7 +88,7 @@ Kaynak: The Guardian`,
     title: "\"They Fight\" — André Holland'ın Boks Draması Duygusal Bir Gut Punch",
     excerpt: "'Creed' ve 'Million Dollar Baby' geleneğini sürdüren 'They Fight', unutulmaz bir André Holland performansıyla Washington DC'nin sert arka planında şefkat ve sıcaklık buluyor — Guardian'a göre yılın en dokunaklı spor filmlerinden.",
     rating: "4/5",
-    image: "https://i.guim.co.uk/img/media/25c81b7cc1d516dbf31f54fa4fed63a31beea2f3/122_0_2528_2022/master/2528.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: theyFightAsset.url,
     body: `Guardian eleştirisine göre 'They Fight', 'Creed' ve 'Million Dollar Baby' soyundan gelen bir boks draması — ve boksun neden hâlâ insanlık durumu için zamansız bir alegori olduğunu bir kez daha kanıtlıyor. Bu kez ringde 10 sayımın altında kalma tehlikesiyle yüzleşen kişi, André Holland'ın canlandırdığı Walt.
 
 Bir zamanlar Washington DC boks sahnesinin parlayan yıldızlarından olan Walt, kariyerini şehrin uyuşturucu ticaretine kaptırmış. Uzun bir hapis cezasının ardından şartlı tahliye edilen karakter; eski sevgilisi (Samira Wiley) ve küçük oğluyla yeniden bir hayat kurmaya çalışıyor. Wendell Pierce, Walt'un mentoru olarak kadroya ağırlık katıyor; Anthony B Jenkins ise Walt'un oğlu rolünde film boyunca en dokunaklı sahnelerin ortağı.
