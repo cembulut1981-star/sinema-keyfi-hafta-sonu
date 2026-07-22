@@ -106,7 +106,7 @@ Kaynak: The Guardian`,
     title: "\"Deep Water\" — Uçak Kazasından Sağ Çıkanlar Köpekbalıklarıyla Egzistansiyel Rulet Oynuyor",
     excerpt: "Renny Harlin'in yeni felaket filmi, köpekbalıklarıyla dolu sularda hayatta kalmaya çalışan uçak yolcularını izliyor — Aaron Eckhart başrolünde, aksiyon-şaadenfrud dozu tam ayarında bir tür lezzeti.",
     rating: "3/5",
-    image: "https://i.guim.co.uk/img/media/bb9e0a0a1577cd9c6652ca6c9a48d8fb327f2e4f/908_0_3830_3064/master/3830.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: deepWaterAsset.url,
     body: `Guardian eleştirisine göre, iyi yapıldığında bir felaket filmi hiçbir şeyin kaşıyamadığı bir sinema kaşıntısını giderir: duygusallık, gerilim ve şaadenfrud'u derli toplu aksiyon paketleri halinde sunar. Renny Harlin'in yeni işi 'Deep Water', bunu tam olarak biliyor — ve pek çok selefine göz kırparken bile ne yaptığının farkında.
 
 Aaron Eckhart, yolcularının çoğu ikinci sınıf film yıldızlarından oluşan bir Amerikan uçağının köpekbalığı sularına düşmesinden sonra hayatta kalanların lideri konumuna yükselen karakteri canlandırıyor. Molly Belle Wright'ın oynadığı genç yolcuyla kurduğu 'baba-kız' benzeri ilişki, filmin duygusal çıpası. Geri kalanı ise klasik Harlin: köpekbalığı saldırıları, patlayan yakıt tankları, birbirini suçlayan yolcular ve okyanusun içinde hızla kararan gökyüzü.
