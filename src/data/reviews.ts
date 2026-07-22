@@ -34,7 +34,7 @@ export const REVIEWS: Review[] = [
     title: "\"A Useful Ghost\" — Perili Elektrik Süpürgesiyle Tayland Siyasetine Kara Komedi",
     excerpt: "Ratchapoom Boonbunchachoke'nin şık ve benzersiz filmi, bir elektrik süpürgesine yerleşen huzursuz bir ruhu Tayland'ın siyasi geçmişiyle çarpıştıran heyecan verici bir kara komedi sunuyor — Guardian eleştirisine göre yılın en özgün işlerinden biri.",
     rating: "4/5",
-    image: "https://i.guim.co.uk/img/media/27ffdda0599888c894504bda710db790ec4e4fc7/520_0_5200_4160/master/5200.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: aUsefulGhostAsset.url,
     body: `Guardian eleştirisine göre Ratchapoom Boonbunchachoke'nin ilk uzun metrajı 'A Useful Ghost', son yılların en özgün ve cesur türler-arası denemelerinden biri. Film; hayalet hikâyesi, siyasi alegori, kuir aşk melodramı ve endüstriyel kara komediyi tek bir çatı altında birleştiriyor — ve şaşırtıcı biçimde hepsi tutuyor.
 
 Hikâyenin merkezinde, ölen karısının ruhunun bir ev tipi elektrik süpürgesine yerleştiğine inanan genç bir adam ve bu 'perili süpürgeyi' işgücü olarak kullanmak isteyen bir fabrika var. Tayland'ın hava kirliliği krizinden askeri iktidar geçmişine, kapitalist sömürüden queer bellek politikasına kadar uzanan bir dizi mesele, absürt bir mizahla iç içe geçiyor.
