@@ -52,7 +52,7 @@ Kaynak: The Guardian`,
     title: "\"Animal Farm\" — Andy Serkis'in Orwell Uyarlaması Klasiği Şekerle Boğuyor",
     excerpt: "Seth Rogen, Laverne Cox ve Glenn Close'un seslendirdiği yeni animasyon; Stalinizm alegorisini mutlu sonlu bir pandomime dönüştürerek Orwell'e ihanet ediyor — Guardian'a göre yılın en cesaretsiz uyarlaması.",
     rating: "2/5",
-    image: "https://i.guim.co.uk/img/media/b9e59e435690911842bb6bb648564af7188193a2/429_0_1002_802/master/1002.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: animalFarmAsset.url,
     body: `Guardian eleştirisine göre Andy Serkis'in yönettiği ve Nicholas Stoller'ın senaryosunu yazdığı yeni 'Animal Farm' animasyonu, George Orwell'in 1945 tarihli klasiğine karşı işlenen en tatsız sinema suçlarından biri. Ucuz görünen dijital estetik bir yana, filmin asıl sorunu Orwell'in Stalinizm alegorisini Disney tarzı bir mutlu sonla defanging etmesi.
 
 Seth Rogen, Laverne Cox, Glenn Close ve Kieran Culkin'in yer aldığı seslendirme kadrosu güçlü, ancak karakterlerin ağzına konulan diyaloglar orijinalin acımasız politik zekâsından yoksun. Napoleon'un yükselişi, Snowball'un sürgünü ve 'Bütün hayvanlar eşittir ama bazıları daha eşittir' cümlesinin arkasındaki soğuk ironi — hepsi filmde yumuşatılıyor.
