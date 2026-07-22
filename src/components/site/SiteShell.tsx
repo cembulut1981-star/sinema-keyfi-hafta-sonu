@@ -314,7 +314,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
   );
 
   return (
-    <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden">
+    <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden group transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_-14px_rgba(0,0,0,0.35)]">
       <div className="relative aspect-[16/10] overflow-hidden bg-muted">
         {article.videoUrl ? (
           <iframe
@@ -329,7 +329,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 width={1200}
                 height={750}
                 loading="lazy"
@@ -339,7 +339,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
               width={1200}
               height={750}
               loading="lazy"
