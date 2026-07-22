@@ -10,6 +10,11 @@ import avatar2Asset from "@/assets/avatar2.jpg.asset.json";
 import boroughAsset from "@/assets/borough.jpg.asset.json";
 import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
 import projectHailMaryAsset from "@/assets/project_hail_mary.jpg.asset.json";
+import aUsefulGhostAsset from "@/assets/ausefulghost.jpg.asset.json";
+import animalFarmAsset from "@/assets/animalfarm.jpg.asset.json";
+import theDayShereturnsAsset from "@/assets/thedayshereturns.jpg.asset.json";
+import theyFightAsset from "@/assets/theyfight.jpg.asset.json";
+import deepWaterAsset from "@/assets/deepwater.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -29,7 +34,7 @@ export const REVIEWS: Review[] = [
     title: "\"A Useful Ghost\" — Perili Elektrik Süpürgesiyle Tayland Siyasetine Kara Komedi",
     excerpt: "Ratchapoom Boonbunchachoke'nin şık ve benzersiz filmi, bir elektrik süpürgesine yerleşen huzursuz bir ruhu Tayland'ın siyasi geçmişiyle çarpıştıran heyecan verici bir kara komedi sunuyor — Guardian eleştirisine göre yılın en özgün işlerinden biri.",
     rating: "4/5",
-    image: "https://i.guim.co.uk/img/media/27ffdda0599888c894504bda710db790ec4e4fc7/520_0_5200_4160/master/5200.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: aUsefulGhostAsset.url,
     body: `Guardian eleştirisine göre Ratchapoom Boonbunchachoke'nin ilk uzun metrajı 'A Useful Ghost', son yılların en özgün ve cesur türler-arası denemelerinden biri. Film; hayalet hikâyesi, siyasi alegori, kuir aşk melodramı ve endüstriyel kara komediyi tek bir çatı altında birleştiriyor — ve şaşırtıcı biçimde hepsi tutuyor.
 
 Hikâyenin merkezinde, ölen karısının ruhunun bir ev tipi elektrik süpürgesine yerleştiğine inanan genç bir adam ve bu 'perili süpürgeyi' işgücü olarak kullanmak isteyen bir fabrika var. Tayland'ın hava kirliliği krizinden askeri iktidar geçmişine, kapitalist sömürüden queer bellek politikasına kadar uzanan bir dizi mesele, absürt bir mizahla iç içe geçiyor.
@@ -47,7 +52,7 @@ Kaynak: The Guardian`,
     title: "\"Animal Farm\" — Andy Serkis'in Orwell Uyarlaması Klasiği Şekerle Boğuyor",
     excerpt: "Seth Rogen, Laverne Cox ve Glenn Close'un seslendirdiği yeni animasyon; Stalinizm alegorisini mutlu sonlu bir pandomime dönüştürerek Orwell'e ihanet ediyor — Guardian'a göre yılın en cesaretsiz uyarlaması.",
     rating: "2/5",
-    image: "https://i.guim.co.uk/img/media/b9e59e435690911842bb6bb648564af7188193a2/429_0_1002_802/master/1002.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: animalFarmAsset.url,
     body: `Guardian eleştirisine göre Andy Serkis'in yönettiği ve Nicholas Stoller'ın senaryosunu yazdığı yeni 'Animal Farm' animasyonu, George Orwell'in 1945 tarihli klasiğine karşı işlenen en tatsız sinema suçlarından biri. Ucuz görünen dijital estetik bir yana, filmin asıl sorunu Orwell'in Stalinizm alegorisini Disney tarzı bir mutlu sonla defanging etmesi.
 
 Seth Rogen, Laverne Cox, Glenn Close ve Kieran Culkin'in yer aldığı seslendirme kadrosu güçlü, ancak karakterlerin ağzına konulan diyaloglar orijinalin acımasız politik zekâsından yoksun. Napoleon'un yükselişi, Snowball'un sürgünü ve 'Bütün hayvanlar eşittir ama bazıları daha eşittir' cümlesinin arkasındaki soğuk ironi — hepsi filmde yumuşatılıyor.
@@ -65,7 +70,7 @@ Kaynak: The Guardian`,
     title: "\"The Day She Returns\" — Hong Sang-soo'nun Ağır Çekim İçkili Meditasyonu",
     excerpt: "Kore sinemasının üretken lo-fi ustası Hong Sang-soo, kariyerine ara vermiş bir oyuncunun dönüşünü anlatan yeni siyah-beyaz filmiyle yine tanıdık ama gizemli biçimde bağımlılık yaratan bir esere imza atıyor.",
     rating: "4/5",
-    image: "https://i.guim.co.uk/img/media/b8878ec98a57060f904eca44829f76c451fb32fc/244_0_900_720/master/900.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: theDayShereturnsAsset.url,
     body: `Guardian eleştirisine göre üretken Kore sineması ustası Hong Sang-soo'nun yeni siyah-beyaz filmi 'The Day She Returns', yönetmenin sadık takipçilerini şaşırtmayacak — ve bu iyi bir şey. Uzun sahneler, sabit kamera açısı, restoran masasında geçen konuşmalar ve nedeni belirsiz ani zoom-in'ler yerli yerinde.
 
 Song Seon-mi, kariyerine uzun bir ara verdikten sonra sinemaya dönmeye çalışan bir oyuncuyu canlandırıyor. Eski meslektaşları, yeni yönetmen adayları ve unutulmaya yüz tutmuş bir aşk arasında gidip gelen karakter; Hong'un tipik 'gündüz içkisi' sahnelerinde soju şişeleri eşliğinde geçmişiyle yüzleşiyor.
@@ -83,7 +88,7 @@ Kaynak: The Guardian`,
     title: "\"They Fight\" — André Holland'ın Boks Draması Duygusal Bir Gut Punch",
     excerpt: "'Creed' ve 'Million Dollar Baby' geleneğini sürdüren 'They Fight', unutulmaz bir André Holland performansıyla Washington DC'nin sert arka planında şefkat ve sıcaklık buluyor — Guardian'a göre yılın en dokunaklı spor filmlerinden.",
     rating: "4/5",
-    image: "https://i.guim.co.uk/img/media/25c81b7cc1d516dbf31f54fa4fed63a31beea2f3/122_0_2528_2022/master/2528.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: theyFightAsset.url,
     body: `Guardian eleştirisine göre 'They Fight', 'Creed' ve 'Million Dollar Baby' soyundan gelen bir boks draması — ve boksun neden hâlâ insanlık durumu için zamansız bir alegori olduğunu bir kez daha kanıtlıyor. Bu kez ringde 10 sayımın altında kalma tehlikesiyle yüzleşen kişi, André Holland'ın canlandırdığı Walt.
 
 Bir zamanlar Washington DC boks sahnesinin parlayan yıldızlarından olan Walt, kariyerini şehrin uyuşturucu ticaretine kaptırmış. Uzun bir hapis cezasının ardından şartlı tahliye edilen karakter; eski sevgilisi (Samira Wiley) ve küçük oğluyla yeniden bir hayat kurmaya çalışıyor. Wendell Pierce, Walt'un mentoru olarak kadroya ağırlık katıyor; Anthony B Jenkins ise Walt'un oğlu rolünde film boyunca en dokunaklı sahnelerin ortağı.
@@ -101,7 +106,7 @@ Kaynak: The Guardian`,
     title: "\"Deep Water\" — Uçak Kazasından Sağ Çıkanlar Köpekbalıklarıyla Egzistansiyel Rulet Oynuyor",
     excerpt: "Renny Harlin'in yeni felaket filmi, köpekbalıklarıyla dolu sularda hayatta kalmaya çalışan uçak yolcularını izliyor — Aaron Eckhart başrolünde, aksiyon-şaadenfrud dozu tam ayarında bir tür lezzeti.",
     rating: "3/5",
-    image: "https://i.guim.co.uk/img/media/bb9e0a0a1577cd9c6652ca6c9a48d8fb327f2e4f/908_0_3830_3064/master/3830.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    image: deepWaterAsset.url,
     body: `Guardian eleştirisine göre, iyi yapıldığında bir felaket filmi hiçbir şeyin kaşıyamadığı bir sinema kaşıntısını giderir: duygusallık, gerilim ve şaadenfrud'u derli toplu aksiyon paketleri halinde sunar. Renny Harlin'in yeni işi 'Deep Water', bunu tam olarak biliyor — ve pek çok selefine göz kırparken bile ne yaptığının farkında.
 
 Aaron Eckhart, yolcularının çoğu ikinci sınıf film yıldızlarından oluşan bir Amerikan uçağının köpekbalığı sularına düşmesinden sonra hayatta kalanların lideri konumuna yükselen karakteri canlandırıyor. Molly Belle Wright'ın oynadığı genç yolcuyla kurduğu 'baba-kız' benzeri ilişki, filmin duygusal çıpası. Geri kalanı ise klasik Harlin: köpekbalığı saldırıları, patlayan yakıt tankları, birbirini suçlayan yolcular ve okyanusun içinde hızla kararan gökyüzü.
