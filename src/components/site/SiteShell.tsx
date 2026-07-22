@@ -79,7 +79,7 @@ function Nav() {
                   to={item.to as any}
                   params={item.params as any}
                   activeOptions={{ exact: true }}
-                  className="font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-foreground/70 hover:text-primary transition-colors data-[status=active]:text-primary"
+                  className="relative font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-foreground/70 hover:text-primary transition-colors data-[status=active]:text-primary after:absolute after:left-3 after:right-3 after:bottom-2 after:h-[2px] after:bg-primary after:origin-left after:scale-x-0 hover:after:scale-x-100 data-[status=active]:after:scale-x-100 after:transition-transform after:duration-300"
                 >
                   {item.label}
                 </Link>
@@ -243,7 +243,7 @@ export function SmallArticleCard({
   const linkTo = getArticleLink(article);
 
   return (
-    <article className={`relative flex flex-col rounded-lg overflow-hidden h-full ${className || ""}`}>
+    <article className={`relative flex flex-col rounded-lg overflow-hidden h-full transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] group ${className || ""}`}>
       {/* Üst yarı — yeşil arka plan + fotoğraf */}
       <div
         className="flex-[0.6] min-h-0 flex items-center justify-center overflow-hidden"
@@ -255,7 +255,7 @@ export function SmallArticleCard({
                 <img
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   width={600}
                   height={450}
                   loading="lazy"
@@ -265,7 +265,7 @@ export function SmallArticleCard({
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 width={600}
                 height={450}
                 loading="lazy"
@@ -314,7 +314,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
   );
 
   return (
-    <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden">
+    <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden group transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_-14px_rgba(0,0,0,0.35)]">
       <div className="relative aspect-[16/10] overflow-hidden bg-muted">
         {article.videoUrl ? (
           <iframe
@@ -329,7 +329,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 width={1200}
                 height={750}
                 loading="lazy"
@@ -339,7 +339,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
               width={1200}
               height={750}
               loading="lazy"
