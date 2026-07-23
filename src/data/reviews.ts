@@ -29,6 +29,23 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "amadeus-en-yanlis-anlasilan-oscar-filmi",
+    origTitle: "Amadeus",
+    title: "\"Amadeus\" Tüm Zamanların En Yanlış Anlaşılan Oscar Filmi Olabilir mi?",
+    excerpt: "Miloš Forman'ın En İyi Film Oscar'lı başyapıtı 40. yaşında. BBC Culture'a göre film, tarihsel yanlışlıklarla suçlanmasına rağmen asıl derdi Mozart'ın hayatı değil — Soğuk Savaş dönemi SSCB'ye yönelik saklı bir eleştiri.",
+    rating: "5/5",
+    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0jt1zjz.jpg.webp",
+    body: `BBC Culture yazarı Tom Joudrey'ye göre Miloš Forman'ın 1984 tarihli 'Amadeus'u, yayınlandığı günden bu yana yanlış okunan bir film. Sekiz Oscar kazanan yapım — En İyi Film, En İyi Yönetmen ve F. Murray Abraham'a En İyi Erkek Oyuncu dahil — çoğunlukla Mozart'ın hayatının çarpıtılmış bir biyografisi olarak eleştirildi. Oysa Joudrey'ye göre filmin asıl derdi hiç Mozart olmadı.
+
+Peter Shaffer'ın oyununa dayanan senaryo, Salieri'nin kıskançlığını merkeze koyarken aslında çok daha büyük bir alegori kuruyor: Sanatın devlet tarafından kontrol edilmesi, dehânın bürokrasiyle boğulması ve otoritenin sanatçıyı ehlileştirme çabası. Çekimlerin Prag'da, henüz Demir Perde'nin arkasında yapılması bir tesadüf değil.
+
+Forman'ın kendisi de Çekoslovakya'dan kaçmış bir sürgündü ve 1968 Prag Baharı'nın bastırılışını yakından tanıyordu. Joudrey, filmin Salieri figüründeki 'orta halli, kurallara uyan, yeteneği ödüllendirmek yerine ehlileştirmeye çalışan devlet adamı' portresinin, doğrudan SSCB'nin kültür politikasına gönderme yaptığını savunuyor. Mozart'ın anarşik kahkahası ve iktidara boyun eğmeyen dehâsı ise sanatçının imkânsız özgürlüğünü temsil ediyor.
+
+40 yıl sonra bakıldığında 'Amadeus', yalnızca büyük bir kostüme dram değil; sansür, otorite ve sanatın hayatta kalma stratejileri üzerine kurulmuş, hâlâ güncelliğini koruyan siyasi bir manifesto.
+
+Kaynak: BBC Culture — Tom Joudrey.`,
+  },
+  {
     slug: "a-useful-ghost-thai-black-comedy",
     origTitle: "A Useful Ghost",
     title: "\"A Useful Ghost\" — Perili Elektrik Süpürgesiyle Tayland Siyasetine Kara Komedi",
