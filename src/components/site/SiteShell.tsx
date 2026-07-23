@@ -314,7 +314,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
   );
 
   return (
-    <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden group transition-shadow duration-300 hover:shadow-[0_14px_32px_-14px_rgba(0,0,0,0.35)]">
+    <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden group transition-shadow duration-300 hover:shadow-[0_6px_16px_-10px_rgba(0,0,0,0.2)]">
       <div className="relative aspect-[16/10] overflow-hidden bg-muted">
         {article.videoUrl ? (
           <iframe
