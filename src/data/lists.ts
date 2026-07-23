@@ -1069,7 +1069,9 @@ Henry Mancini ve Johnny Mercer'ın kanonun zirvesi. Alkol ve kayıp üzerine yaz
 Kaynak: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranked".`,
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/03/15142116/6E8F79E6-31B3-4F8F-B116-CCFBE3DE6587-scaled.jpeg",
     source: "Paste Magazine",
+  },
   {
+
     slug: "bbc-temmuz-2026-izlenecek-10-film",
     title: "Spider-Man'den The Odyssey'e: BBC'ye Göre Temmuz'da İzlenecek 10 Film",
     excerpt: "Tom Holland ve Zendaya'nın yılın en büyük iki gişe filminde başrolde olduğu bir ayda BBC Culture eleştirmeni Nicholas Barber, Temmuz'un sinema ve ev ekranı için en iyi 10 filmini seçti.",
