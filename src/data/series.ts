@@ -13,6 +13,14 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "euphoria-kendini-astti-3-sezon",
+    title: "\"Euphoria\" Hem Ekranda Hem Ekran Dışında Kendini Aştı",
+    excerpt: "CNN'e göre 2019'da mütevazı bir HBO dizisi olarak başlayan \"Euphoria\", 3. sezonuna girerken artık başrol oyuncularının küresel yıldızlığı ve yaşanan trajedilerle birlikte kendi ölçeğinin dışına taştı.",
+    body: "CNN yazarı Alli Rosenbloom'a göre 'Euphoria' 2019'da yayına girdiğinde her şey farklıydı. Sydney Sweeney ve Jacob Elordi henüz yeni yüzlerdi; Zendaya'nın Marvel'ın 'Spider-Man' evreninden sonra bu kadar sert bir role geçmesi konuşuluyordu; Eric Dane ve Angus Cloud hâlâ aramızdaydı; ve rapçi Drake'in dizinin yönetici yapımcılarından biri olarak kredilendirilmesi bir sürpriz olarak karşılanıyordu.\n\nAradan geçen yedi yılda dizi hem sanatsal iddiası hem de yıldız kadrosuyla küresel bir fenomene dönüştü — ama ekran dışındaki dramalar da diziyi gölgede bırakacak boyuta ulaştı. Angus Cloud'un 2023'teki erken vefatı ve Eric Dane'in ALS teşhisini kamuoyuyla paylaşması, üretim sürecini derinden etkiledi. Zendaya iki Emmy kazandı; Sweeney bağımsız bir film imparatorluğu kurdu; Elordi 'Saltburn' ve 'Priscilla' ile A-list'e yerleşti.\n\n3. sezon 2026 sonbaharında yayına gireceğinde 'Euphoria', artık sıradan bir gençlik dizisi değil — pop kültürünün ölçeğini test eden bir vaka çalışması. Rosenbloom'a göre asıl soru şu: 'Kendinden bu kadar büyümüş bir dizi, hâlâ orijinal ruhunu koruyabilir mi?'",
+    image: "https://media.cnn.com/api/v1/images/stellar/prod/zendaya-20260411001405736.jpg?c=original&q=w_1200,c_fill",
+    source: "CNN",
+  },
+  {
     slug: "ed-harris-dutton-ranch-misled",
     title: "Ed Harris \"Dutton Ranch\" Konusunda \"Yanıltıldığını\" Söyledi: \"Beni Buradan Çıkarın\"",
     excerpt: "Oscar adayı Ed Harris, Taylor Sheridan'ın \"Yellowstone\" spin-off'u \"Dutton Ranch\"teki rolünün önemi konusunda yanıltıldığını açıkladı. Variety'e verdiği demeçte 1. sezonun ortasında ekibine \"beni buradan çıkarın\" dediğini itiraf etti.",

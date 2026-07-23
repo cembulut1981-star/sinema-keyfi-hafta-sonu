@@ -1070,11 +1070,53 @@ Kaynak: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranke
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/03/15142116/6E8F79E6-31B3-4F8F-B116-CCFBE3DE6587-scaled.jpeg",
     source: "Paste Magazine",
   },
+  {
+
+    slug: "bbc-temmuz-2026-izlenecek-10-film",
+    title: "Spider-Man'den The Odyssey'e: BBC'ye Göre Temmuz'da İzlenecek 10 Film",
+    excerpt: "Tom Holland ve Zendaya'nın yılın en büyük iki gişe filminde başrolde olduğu bir ayda BBC Culture eleştirmeni Nicholas Barber, Temmuz'un sinema ve ev ekranı için en iyi 10 filmini seçti.",
+    body: `BBC Culture eleştirmeni Nicholas Barber, Temmuz 2026'nın sinema ve evde izlenecek en iyi 10 filmini bir araya getirdi. Ay, Tom Holland ve Zendaya'nın başrolde olduğu iki dev yapıma sahne oluyor: Sony'nin 'Spider-Man: Brand New Day'i ve Christopher Nolan'ın 'The Odyssey'i. Ancak liste yalnızca tentpole'lardan ibaret değil.
+
+## 1. Evil Dead Burn
+Sam Raimi evreninin yeni halkası — bu kez daha vahşi, daha kanlı, ve şaşırtıcı biçimde duygusal.
+
+## 2. Spider-Man: Brand New Day
+Tom Holland'ın Peter Parker olarak dördüncü çıkışı; MCU'nun sıfırlanma noktası olarak konumlanıyor.
+
+## 3. The Odyssey
+Christopher Nolan'ın Homeros uyarlaması. Matt Damon Odysseus rolünde; Zendaya Penelope. IMAX 70mm çekim.
+
+## 4. Superman: Man of Tomorrow
+James Gunn'ın yeni DCU evreninin devam filmi. David Corenswet, Superman rolünde yerini sağlamlaştırıyor.
+
+## 5. Bugonia
+Yorgos Lanthimos'un 'Save the Green Planet' yeniden yorumu. Emma Stone başrolde.
+
+## 6. Ella McCay
+James L. Brooks'un uzun aradan sonra çektiği yeni filmi; Emma Mackey ve Woody Harrelson kadroda.
+
+## 7. The Naked Gun
+Reboot. Liam Neeson, Leslie Nielsen'ın rolünde — ve şaşırtıcı biçimde çalışıyor.
+
+## 8. Splitsville
+Michael Angelo Covino'nun evlilik komedisi; Sundance'ten övgüyle çıktı.
+
+## 9. Sorry, Baby
+Eva Victor'un ilk uzun metrajı; travma-sonrası komedi türüne yeni bir soluk.
+
+## 10. Together
+Michael Shanks'in kara komedi-korku hibridi; Alison Brie ve Dave Franco başrolde.
+
+Kaynak: BBC Culture — Nicholas Barber.`,
+    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0ntx7jd.jpg.webp",
+    source: "BBC Culture",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New Paste entries (indices 16-20) are mixed into various positions of the feed.
-const _LIST_ORDER = [0, 17, 16, 18, 14, 19, 15, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [22, 0, 17, 16, 18, 14, 19, 15, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+
 
 export const LISTS: ListItem[] = _LIST_ORDER
   .filter((i) => i < _LISTS_RAW.length)

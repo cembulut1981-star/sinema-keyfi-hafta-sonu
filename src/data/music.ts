@@ -24,6 +24,14 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "psycho-bernard-herrmann-muzigi-sinemayi-degistirdi",
+    title: "\"Psycho\"nun Ürpertici Müziği Sinemayı Nasıl Sonsuza Dek Değiştirdi",
+    excerpt: "Alfred Hitchcock'un başyapıtı 65 yaşında. BBC Culture'a göre Bernard Herrmann'ın yalnızca yaylılardan oluşan skoru olmasaydı, \"Psycho\" bugün bir klasik olarak anılmayabilirdi — ve modern gerilim müziğinin DNA'sı çok farklı olurdu.",
+    body: "BBC Culture yazarı Thomas Hobbs'a göre Alfred Hitchcock'un 1960 tarihli 'Psycho'su bu ay 65 yaşına giriyor — ve tüm zamanların en etkili film skorlarından birine ev sahipliği yapmasaydı belki de asla bir klasik olarak anılmayacaktı. Bernard Herrmann'ın yalnızca yaylı çalgılardan oluşan skoru, sinema müziğinde bir devrimdi.\n\nEfsaneleşen duş sahnesinin ünlü 'shrieking violins' motifi — o keskin, tekrarlanan çığlıklar — aslında Hitchcock'un başlangıçta müziksiz düşündüğü bir sahne için Herrmann tarafından ısrarla önerildi. Sahneyi izleyen Hitchcock'un 'yanılmışım, iki katı ödeyeceğim' dediği rivayet edilir. O günden itibaren gerilim müziği aynı şey olmadı.\n\nHobbs'a göre Herrmann'ın etkisi doğrudan hissedilebiliyor: Jerry Goldsmith'ten Hans Zimmer'e, Mica Levi'den Jonny Greenwood'a kadar modern film besteci kuşağı Herrmann'ın minimal, disonant yaylı yaklaşımını referans olarak kullanıyor. Robert Eggers'ın 'The Northman'i, Jordan Peele'nin 'Us'ı, Ari Aster'in 'Hereditary'si — hepsinde Herrmann'ın DNA'sı okunabiliyor.\n\n'Gerginlik kurmak istediğinizde başvurulacak referans hâlâ Herrmann,' diye özetliyor besteci Mica Levi. 'O tek başına, korkunun sesinin nasıl olması gerektiğini yeniden yazdı.'",
+    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0lrtshw.jpg.webp",
+    source: "BBC Culture",
+  },
+  {
     slug: "jack-white-solo-single-siralamasi-frozen-charlotte",
     title: "Jack White'ın 25 Solo Single'ı 'Frozen Charlotte' Sonrası Sıralandı",
     excerpt: "Jack White'ın sürpriz yedinci solo albümü 'Frozen Charlotte' 10 Temmuz'da Third Man Records'tan çıktı. Billboard, sanatçının 2012'den bu yana yayımladığı 25 solo single'ı en zayıftan en güçlüsüne sıraladı.",

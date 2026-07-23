@@ -21,6 +21,14 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "euphoria-3-sezon-sam-levinson-storylines",
+    title: "Sam Levinson \"Euphoria\" 3. Sezonu Anlattı: Sosyal Medya Bağımlılığı ve \"Unutulmaz\" Bir Düğün",
+    excerpt: "\"Euphoria\"nın yaratıcısı Sam Levinson, Londra'daki bir etkinlikte yeni sezondan ipuçları verdi: karakterler beş yıl yaşlanmış, sosyal medya bağımlılığı merkezde ve sezonun ortasında \"unutulmaz\" bir düğün var.",
+    body: "HBO Max'in çok konuşulan dizisi 'Euphoria'nın yaratıcısı Sam Levinson, uzun süredir beklenen 3. sezona dair ilk somut ipuçlarını Londra'da düzenlenen bir etkinlikte paylaştı. BBC'nin aktardığına göre Levinson, Zendaya, Hunter Schafer, Jacob Elordi ve Sydney Sweeney'nin canlandırdığı karakterlerin 2. sezonun ardından beş yıl atlayacağını doğruladı.\n\n'Beş yıl bize doğal geldi,' dedi Levinson, 'çünkü eğer üniversiteye gitmiş olsalardı, bu noktada üniversiteden mezun olmuş olurlardı.' Bu zaman atlaması, karakterlerin ergenlik krizlerinden yetişkinliğin daha karmaşık ilişki, kariyer ve bağımlılık meseleleriyle yüzleşmesine olanak tanıyor.\n\nLevinson yeni sezonda sosyal medya bağımlılığının merkezi bir tema olacağını da açıkladı: 'Karakterlerimizin telefonlarıyla kurdukları ilişki, birbirleriyle kurdukları ilişkiden daha karmaşık hale geldi.' Ayrıca sezonun ortasında yer alacağını söylediği bir düğün sahnesini 'unutulmaz' olarak tanımladı — kimin evlendiğini ise açıklamadı.\n\n3. sezon 2026 sonbaharında HBO Max'te yayına girecek. Eric Dane ve Angus Cloud'un aramızdan ayrılmasının ardından çekilen ilk sezon olacak; kadroya Sharon Stone, Colman Domingo ve Kadeem Hardison gibi isimlerin eklendiği açıklanmıştı.",
+    image: "https://media.cnn.com/api/v1/images/stellar/prod/tcdeuph-ho041.jpg?c=original&q=w_1200,c_fill",
+    source: "CNN",
+  },
+  {
     slug: "the-odyssey-uk-ireland-box-office-rekor",
     title: "\"The Odyssey\" İngiltere ve İrlanda Gişesinde Rekorla Açıldı",
     excerpt: "Christopher Nolan'ın Homeros uyarlaması \"The Odyssey\", İngiltere ve İrlanda'da açılış haftasonu 12,5 milyon sterlin (16,8 milyon dolar) hasılatla zirveye oturdu — bölgenin son yılların en büyük tentpole debüsü.",
