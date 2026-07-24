@@ -1111,11 +1111,134 @@ Kaynak: BBC Culture — Nicholas Barber.`,
     image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0ntx7jd.jpg.webp",
     source: "BBC Culture",
   },
+  {
+    slug: "ew-en-iyi-binge-dizileri",
+    title: "Tek Oturuşta Bitirmelik: EW'nun Binge-Watch İçin En İyi 45 Dizisi",
+    excerpt: "Noah Wyle'lı 'The Pitt'ten 'Fleabag'e, 'Over the Garden Wall'dan 'The Americans'a — Entertainment Weekly'nin bir hafta sonuna sığdırabileceğiniz 45 dizilik binge listesi.",
+    body: `Streaming çağı, tek seferde koca bir sezonu bitirme alışkanlığını neredeyse bir tür sinema deneyimine dönüştürdü. Entertainment Weekly'nin Robert English ve Kevin Jacobsen imzalı güncel listesi, bir oturuşta izlemek için en uygun 45 diziyi bir araya getiriyor.
+
+## Zirvede: The Pitt (HBO Max)
+Noah Wyle'ın Dr. Robby Robinavitch olarak döndüğü, tek bir 15 saatlik vardiyayı gerçek zamanlı anlatan medikal dram. Eleştirmenlerin 2026'nın en güçlü yeni dizisi ilan ettiği yapım, binge için birebir.
+
+## Klasik köşeler: Fleabag, Over the Garden Wall, The Americans
+Phoebe Waller-Bridge'in iki sezonluk mucizesi *Fleabag*, çocuk-yetişkin arası konumlanan animasyon başyapıtı *Over the Garden Wall* ve Cold War casus dizisi *The Americans* — üçü de "kısa ama tam" tanımına oturuyor.
+
+## 2020'lerin binge favorileri
+Listede *Severance*, *Shōgun*, *The Bear*, *Yellowjackets*, *Only Murders in the Building* ve *Beef* öne çıkıyor. EW ekibi, bir cumartesi öğleden sonrasında tamamlanabilecek 6-10 bölümlük dizileri özellikle işaretliyor.
+
+## Kültleşenler
+*Halt and Catch Fire*, *Rectify*, *Enlightened* gibi vizyonda az konuşulmuş ama yıllar içinde kült statüsüne yükselmiş yapımlar da listede.
+
+## Neden binge?
+EW'nun analizine göre kısa sezonlu, sıkı kurgulu diziler, film ve dizi arasındaki sınırı bulanıklaştırıyor. Her bölümün sonundaki cliffhanger'ı çözmek için ertesi haftayı beklemek zorunda kalmamak, bir tür yeni izleme dilbilgisi yaratıyor.
+
+Kaynak: Entertainment Weekly — "The 45 best TV shows to binge-watch right now".`,
+    image: "https://ew.com/thmb/gpv8tvHvykZZs-YqqzuhlVFu4jE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Shows-to-binge-watch-050225-d3ca16cb7bba4d01bfa2c83003d5d92f.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "ew-hulu-en-iyi-gerilim-dizileri",
+    title: "Hulu'da Nefes Kesen 24 Gerilim Dizisi",
+    excerpt: "'Fargo'dan 'Only Murders in the Building'e, 'The Americans'tan 'The Handmaid's Tale'e — Entertainment Weekly'nin Hulu kataloğundan seçtiği koltuğa çivileyecek 24 gerilim dizisi.",
+    body: `Entertainment Weekly'nin Gwen Ihnat ve Kevin Jacobsen imzalı listesi, Hulu'nun geniş kataloğunda gizlenmiş 24 gerilim dizisini gün yüzüne çıkarıyor. Ortak paydaları: Bölüm sonunda bir sonrakini oynatmayı düşünmeden başlatmanız.
+
+## Suç ve karanlık mizah
+Noah Hawley'in *Fargo*'su tüm sezonlarıyla listede — özellikle Chris Rock'lı 4. sezon. Steve Martin, Martin Short ve Selena Gomez üçlüsünün *Only Murders in the Building*'i, cinayet-komedi dozunu kaçırmayan modern klasik.
+
+## Casusluk ve paranoya
+Keri Russell'lı *The Americans*, Soğuk Savaş dönemi KGB casuslarının aile hayatını anlatarak türün son 20 yıldaki zirvelerinden biri olarak konumlanıyor. *Homeland*'in ilk sezonları ve *The Looming Tower* da bu kategoride.
+
+## Distopya ve psikolojik gerilim
+Elisabeth Moss'lu *The Handmaid's Tale*, altı sezonluk yolculuğunu 2025'te tamamladı. Listede ayrıca Amy Adams'lı *Sharp Objects*, *The Bear*'in gerilim yönü öne çıkan bölümleri ve *Dopesick* var.
+
+## Sürpriz seçimler
+*Under the Banner of Heaven*, *A Murder at the End of the World*, *The Patient* ve *Reservation Dogs*'un koyu bölümleri gibi az konuşulmuş yapımlar da EW ekibinin radarında.
+
+Kaynak: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
+    image: "https://ew.com/thmb/ZGKGXtXGyR3FmMvaPhe61L5Dh_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Suspense-series-on-Hulu-062623-511fece1efe64bfdb512496670a5b7d9.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "ew-netflix-mart-2025-yenilikler",
+    title: "Netflix'te Mart 2025: '50 First Dates', 'Ma', 'The Residence' ve Fazlası",
+    excerpt: "Adam Sandler-Drew Barrymore klasiği '50 First Dates'ten Meghan Markle'ın yeni realite dizisine, Millie Bobby Brown'ın filminden Chelsea Handler ve John Mulaney'nin stand-up özeline — Netflix'in Mart 2025 katalog güncellemesi.",
+    body: `Entertainment Weekly'den Ryan Coleman, Netflix'in Mart 2025 için hazırladığı geniş katalog güncellemesini derledi. Nostalji, orijinal drama ve stand-up karışımı bir ay bekliyor aboneleri.
+
+## Nostaljik geri dönüşler
+*50 First Dates* (2004) — Adam Sandler ve Drew Barrymore'un modern rom-com klasiği yeniden Netflix'te. *Friday* (1995) ve *Next Friday* (2000), Ice Cube ve Chris Tucker'lı kült komedi ikilisi de kütüphaneye ekleniyor. Ayrıca *The Karate Kid* üçlemesi, *Bruce Almighty* ve *Legally Blonde 2*.
+
+## Orijinal diziler
+*The Residence* — Shonda Rhimes'ın yeni Netflix dizisi. Uzo Aduba'nın başrolde olduğu Beyaz Saray içi cinayet-gizem yapımı. *With Love, Meghan* — Meghan Markle'ın yaşam tarzı realite dizisi. *Adolescence* — Stephen Graham'lı dört bölümlük İngiliz mini dizisi.
+
+## Filmler
+*The Electric State* — Anthony ve Joe Russo yönetiminde, Millie Bobby Brown ve Chris Pratt'in başrolde olduğu retro-fütürist macera. *Plankton: The Movie* — SpongeBob evreninden animasyon spin-off. *Ma* (2019) — Octavia Spencer'ın psikolojik gerilimi.
+
+## Stand-up
+Chelsea Handler ve John Mulaney'nin yeni stand-up özelleri ay içinde platformda.
+
+Kaynak: Entertainment Weekly — "New on Netflix in March 2025".`,
+    image: "https://ew.com/thmb/HejMWSbFszfXBFZ2xKB4TVYRwvo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/nof-e0be2e8ccd304e97b9a1abdbd6cb2d95.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "ew-netflix-en-iyi-aile-filmleri",
+    title: "Netflix'in En İyi 20 Aile Filmi: 'Chicken Run'dan 'Matilda'ya",
+    excerpt: "Wesley Stenzel'in EW için hazırladığı liste, hem çocukların hem yetişkinlerin izleyebileceği 20 Netflix filmini bir araya getiriyor: 'Rango', 'Galaxy Quest', 'Nimona' ve daha fazlası.",
+    body: `Entertainment Weekly yazarı Wesley Stenzel, Netflix'in en iyi 20 aile filmini seçti. Aardman'ın kil animasyonlarından çağdaş animasyon hitlerine, klasik komedilere kadar uzanan çeşitli bir liste.
+
+## Animasyon klasikleri
+*Chicken Run* (2000) — Aardman'ın kaçış temalı stop-motion başyapıtı. *Rango* (2011) — Gore Verbinski'nin Johnny Depp'li western animasyonu; Oscar ödüllü. *Klaus* (2019) — Netflix'in kendi orijinal animasyonu, elde çizilmiş bir Noel hikâyesi.
+
+## Yeni nesil favoriler
+*Nimona* (2023) — ND Stevenson'ın grafik romanından uyarlanan, Netflix'in queer temalı orta çağ fantastik animasyonu. *The Sea Beast* (2022) — deniz canavarı avcıları hakkında Oscar adayı yapım.
+
+## Canlı çekim klasikleri
+*Matilda* (1996) — Roald Dahl uyarlaması, Danny DeVito yönetiminde. *Galaxy Quest* (1999) — bilim kurgu parodisinin altın standardı; hem çocuklar hem yetişkinler için mükemmel giriş. *The Adventures of Sharkboy and Lavagirl* (2005) — Robert Rodriguez'in çocuk fantastik filmi, artık kült statüsünde.
+
+## Dünya sineması
+*A Cat in Paris* (2010) — Fransız yapımı Oscar adayı animasyon. *The Boy, the Mole, the Fox and the Horse* (2022) — Charlie Mackesy'nin illüstre kitabından uyarlama, BAFTA ve Oscar sahibi.
+
+## Neden bu liste önemli?
+Stenzel'e göre "aile filmi" etiketi çocuk filmine indirgenmemeli; en iyi örnekleri, farklı yaş gruplarının aynı anda farklı katmanlar okuyabildiği çok yönlü yapımlar. Bu 20 film tam olarak bu formülü tutturuyor.
+
+Kaynak: Entertainment Weekly — "The 20 best family movies on Netflix".`,
+    image: "https://ew.com/thmb/f5RVoOZWLpQoNjOKlPZmwMj9DhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/netflix-family-movies-2000-88ebbfd8ea59454ba58a5b46b8b9d611.jpg",
+    source: "Entertainment Weekly",
+  },
+  {
+    slug: "ew-2023-sonbahar-en-iyi-yeni-diziler",
+    title: "2023 Sonbaharının Kaçırılmayacak 6 Yeni Dizisi",
+    excerpt: "EW TV eleştirmeni Kristen Baldwin, karanlık mizahlı Kore hayatta kalma dramasından tatlı-hüzünlü bir dönem romansına, 2023 sonbaharının izlenmesi gereken altı yeni dizisini derledi.",
+    body: `Entertainment Weekly'nin TV eleştirmeni Kristen Baldwin, 2023 sonbahar sezonuna girerken ekranlara gelen en dikkat çekici altı yeni diziyi seçti. Her biri farklı bir tondan konuşuyor, ancak ortak paydaları: Sezonun ilk bölümünde izleyiciyi çekmeyi başarıyorlar.
+
+## 1. Gyeongseong Creature (Netflix)
+1945'te işgal altındaki Kore'de geçen karanlık fantezi. Park Seo-jun ve Han So-hee, savaş, hayatta kalma ve doğaüstü tehditlerin kesiştiği bir hikâyede buluşuyor.
+
+## 2. All the Light We Cannot See (Netflix)
+Anthony Doerr'in Pulitzer ödüllü romanından Shawn Levy tarafından uyarlanan sınırlı dizi. Aria Mia Loberti ve Louis Hofmann, II. Dünya Savaşı Fransası'nda birbirlerine radyo dalgaları üzerinden bağlanıyor.
+
+## 3. Fellow Travelers (Showtime)
+Matt Bomer ve Jonathan Bailey'nin başrolde olduğu, 1950'lerden 1980'lere uzanan bir gay aşk hikâyesi. McCarthy dönemi, AIDS krizi ve siyasi baskı arka planda.
+
+## 4. Lessons in Chemistry (Apple TV+)
+Brie Larson'un başrolde olduğu, Bonnie Garmus'un çok satan romanından uyarlanan 1960'lar hikâyesi. Erkek egemen bilim dünyasında yer bulmaya çalışan bir kimyagerin, tesadüfen televizyon aşçısına dönüşme öyküsü.
+
+## 5. The Curse (Showtime)
+Nathan Fielder ve Emma Stone'un başrolde olduğu, sahte HGTV dekorasyon dizisi arka planında geçen kara komedi. Baldwin'in "sezonun en tuhaf ve en cesur dizisi" olarak nitelediği yapım.
+
+## 6. Bookie (Max)
+Chuck Lorre imzalı, Sebastian Maniscalco'lu Los Angeles bahis komedisi. Yasadışı bir bookmaker'ın hayatını 30 dakikalık bölümlere sığdıran nadir bir tür denemesi.
+
+Kaynak: Entertainment Weekly — "The 6 must-watch new TV shows this fall (2023)".`,
+    image: "https://ew.com/thmb/8P3kKfF6y1Yb3ThJvS0DKG0oX1U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-new-tv-shows-fall-2023-081823-90ec52b4a2f34c25a017cf7f88a6b1f7.jpg",
+    source: "Entertainment Weekly",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
-// New Paste entries (indices 16-20) are mixed into various positions of the feed.
-const _LIST_ORDER = [22, 0, 17, 16, 18, 14, 19, 15, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+// New EW entries (indices 23-27) are interleaved near the top of the feed.
+const _LIST_ORDER = [23, 22, 0, 24, 17, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+
 
 
 export const LISTS: ListItem[] = _LIST_ORDER
