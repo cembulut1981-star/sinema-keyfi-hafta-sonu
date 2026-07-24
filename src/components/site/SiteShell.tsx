@@ -243,12 +243,13 @@ export function SmallArticleCard({
   const linkTo = getArticleLink(article);
 
   return (
-    <article className={`relative flex flex-col rounded-lg overflow-hidden h-full transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] group ${className || ""}`}>
+    <article className={`relative flex flex-col rounded-lg overflow-hidden h-full transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] group ${className || ""}`}>
       {/* Üst yarı — yeşil arka plan + fotoğraf */}
       <div
-        className="flex-[0.6] min-h-0 flex items-center justify-center overflow-hidden"
+        className="relative flex-[0.6] min-h-0 flex items-center justify-center overflow-hidden after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[3px] after:bg-red-600 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"
         style={{ background: article.id % 2 === 0 ? "#00EAA1" : "#ffbd3f" }}
       >
+
         <div className="relative w-full h-full px-2 pt-1">
           {linkTo ? (
             <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
@@ -315,7 +316,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
 
   return (
     <article className="bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden group transition-shadow duration-300 hover:shadow-[0_6px_16px_-10px_rgba(0,0,0,0.2)]">
-      <div className="relative aspect-[16/10] overflow-hidden bg-muted">
+      <div className="relative aspect-[16/10] overflow-hidden bg-muted after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[3px] after:bg-red-600 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:z-10">
         {article.videoUrl ? (
           <iframe
             src={article.videoUrl}
