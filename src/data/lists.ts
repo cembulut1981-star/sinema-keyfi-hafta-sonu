@@ -1155,7 +1155,7 @@ Elisabeth Moss'lu *The Handmaid's Tale*, altı sezonluk yolculuğunu 2025'te tam
 *Under the Banner of Heaven*, *A Murder at the End of the World*, *The Patient* ve *Reservation Dogs*'un koyu bölümleri gibi az konuşulmuş yapımlar da EW ekibinin radarında.
 
 Kaynak: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
-    image: "https://ew.com/thmb/ZGKGXtXGyR3FmMvaPhe61L5Dh_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Suspense-series-on-Hulu-062623-511fece1efe64bfdb512496670a5b7d9.jpg",
+    image: "/__l5e/assets-v1/c5933f01-6f8e-4e7c-88a4-a5ee1e94947a/hulu.webp",
     source: "Entertainment Weekly",
   },
   {
