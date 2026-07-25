@@ -1230,7 +1230,7 @@ Nathan Fielder ve Emma Stone'un başrolde olduğu, sahte HGTV dekorasyon dizisi 
 Chuck Lorre imzalı, Sebastian Maniscalco'lu Los Angeles bahis komedisi. Yasadışı bir bookmaker'ın hayatını 30 dakikalık bölümlere sığdıran nadir bir tür denemesi.
 
 Kaynak: Entertainment Weekly — "The 6 must-watch new TV shows this fall (2023)".`,
-    image: "https://ew.com/thmb/8P3kKfF6y1Yb3ThJvS0DKG0oX1U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-new-tv-shows-fall-2023-081823-90ec52b4a2f34c25a017cf7f88a6b1f7.jpg",
+    image: "/__l5e/assets-v1/4ce09149-f650-4088-a78c-06d2403033be/fall2023.webp",
     source: "Entertainment Weekly",
   },
 ];
