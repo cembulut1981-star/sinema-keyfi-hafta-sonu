@@ -1160,7 +1160,7 @@ Kaynak: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
   },
   {
     slug: "ew-netflix-mart-2025-yenilikler",
-    title: "Netflix'te Mart 2025: '50 First Dates', 'Ma', 'The Residence' ve Fazlası",
+    title: "Netflix'te Mart: '50 First Dates', 'Ma', 'The Residence' ve Fazlası",
     excerpt: "Adam Sandler-Drew Barrymore klasiği '50 First Dates'ten Meghan Markle'ın yeni realite dizisine, Millie Bobby Brown'ın filminden Chelsea Handler ve John Mulaney'nin stand-up özeline — Netflix'in Mart 2025 katalog güncellemesi.",
     body: `Entertainment Weekly'den Ryan Coleman, Netflix'in Mart 2025 için hazırladığı geniş katalog güncellemesini derledi. Nostalji, orijinal drama ve stand-up karışımı bir ay bekliyor aboneleri.
 
