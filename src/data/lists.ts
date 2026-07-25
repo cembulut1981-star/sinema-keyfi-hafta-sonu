@@ -1115,24 +1115,144 @@ Kaynak: BBC Culture — Nicholas Barber.`,
     slug: "ew-en-iyi-binge-dizileri",
     title: "Tek Oturuşta Bitirmelik: EW'nun Binge-Watch İçin En İyi 45 Dizisi",
     excerpt: "Noah Wyle'lı 'The Pitt'ten 'Fleabag'e, 'Over the Garden Wall'dan 'The Americans'a — Entertainment Weekly'nin bir hafta sonuna sığdırabileceğiniz 45 dizilik binge listesi.",
-    body: `Streaming çağı, tek seferde koca bir sezonu bitirme alışkanlığını neredeyse bir tür sinema deneyimine dönüştürdü. Entertainment Weekly'nin Robert English ve Kevin Jacobsen imzalı güncel listesi, bir oturuşta izlemek için en uygun 45 diziyi bir araya getiriyor.
+    body: `Streaming çağı, tek seferde koca bir sezonu bitirme alışkanlığını neredeyse bir tür sinema deneyimine dönüştürdü. Entertainment Weekly'nin Robert English ve Kevin Jacobsen imzalı güncel listesi (3 Temmuz 2026), bir oturuşta izlemek için en uygun 45 diziyi bir araya getiriyor. Aşağıda EW'nun alfabetik sıradaki tam listesi ve her başlığın kısa bir Türkçe özeti yer alıyor.
 
-## Zirvede: The Pitt (HBO Max)
-Noah Wyle'ın Dr. Robby Robinavitch olarak döndüğü, tek bir 15 saatlik vardiyayı gerçek zamanlı anlatan medikal dram. Eleştirmenlerin 2026'nın en güçlü yeni dizisi ilan ettiği yapım, binge için birebir.
+## 1. Abbott Elementary (2021–)
+Quinta Brunson'ın yarattığı Philadelphia'daki bir devlet okulunda geçen mockumentary komedi. Sıcak, akıllı ve bölüm başı 22 dakika: klasik binge yakıtı.
 
-## Klasik köşeler: Fleabag, Over the Garden Wall, The Americans
-Phoebe Waller-Bridge'in iki sezonluk mucizesi *Fleabag*, çocuk-yetişkin arası konumlanan animasyon başyapıtı *Over the Garden Wall* ve Cold War casus dizisi *The Americans* — üçü de "kısa ama tam" tanımına oturuyor.
+## 2. Adolescence (2025)
+Stephen Graham'lı, tek çekimde kaydedilen dört bölümlük Netflix draması. Bir cinayet soruşturması etrafında ergenlik, sosyal medya ve baba-oğul ilişkisini tarayan sarsıcı bir eser.
 
-## 2020'lerin binge favorileri
-Listede *Severance*, *Shōgun*, *The Bear*, *Yellowjackets*, *Only Murders in the Building* ve *Beef* öne çıkıyor. EW ekibi, bir cumartesi öğleden sonrasında tamamlanabilecek 6-10 bölümlük dizileri özellikle işaretliyor.
+## 3. Baby Reindeer (2024)
+Richard Gadd'in kendi hikâyesinden uyarladığı taciz-travma draması. Jessica Gunning'in Emmy'li Martha performansıyla dikkat çeken 7 bölümlük Netflix şoku.
 
-## Kültleşenler
-*Halt and Catch Fire*, *Rectify*, *Enlightened* gibi vizyonda az konuşulmuş ama yıllar içinde kült statüsüne yükselmiş yapımlar da listede.
+## 4. Bait (2026)
+Riz Ahmed'in başrolde olduğu Prime Video draması. James Bond rolüne aday bir aktörün kimlik ve utançla hesaplaşmasını takip ediyor.
 
-## Neden binge?
-EW'nun analizine göre kısa sezonlu, sıkı kurgulu diziler, film ve dizi arasındaki sınırı bulanıklaştırıyor. Her bölümün sonundaki cliffhanger'ı çözmek için ertesi haftayı beklemek zorunda kalmamak, bir tür yeni izleme dilbilgisi yaratıyor.
+## 5. The Bear (2022–2026)
+Jeremy Allen White'ın Carmy'si; Chicago'da bir sandviççide geçen, mutfak stresini şiirsel bir kaygı dramına çeviren FX dizisi. 4 sezonda tamamlandı.
 
-Kaynak: Entertainment Weekly — "The 45 best TV shows to binge-watch right now".`,
+## 6. Black Doves (2024–)
+Keira Knightley ve Ben Whishaw'lı Netflix casus gerilimi. Yılbaşı temalı Londra sokaklarında hızlı tempolu bir suikast operası.
+
+## 7. Bodyguard (2018)
+Richard Madden'lı BBC gerilimi. 6 bölümde biten, dakika başına nabız yükselten "tek gecede biter" prototipi.
+
+## 8. Chernobyl (2019)
+Craig Mazin'in HBO mini dizisi. 1986 nükleer felaketinin arkasındaki bürokrasiyi ve insan hatasını dakik bir dehşetle anlatıyor.
+
+## 9. The Comeback (2005; 2014; 2026)
+Lisa Kudrow'un Valerie Cherish'i geri döndü. HBO'nun kült cringe komedisinin yeni sezonu, üçlemeyi tamamlıyor.
+
+## 10. Death Note (2006–2007)
+Tsugumi Ohba ve Takeshi Obata mangasından uyarlanan anime klasiği. Light ve L arasındaki zekâ düellosu 37 bölümde tamamlanıyor.
+
+## 11. Dying for Sex (2025)
+Michelle Williams'lı FX mini dizisi. Ölümcül kanser teşhisi alan bir kadının cinsel özgürleşmesini gerçek bir podcast'ten uyarlıyor.
+
+## 12. Enlightened (2011–2013)
+Mike White'ın erken başyapıtı. Laura Dern'in Amy Jellicoe'su, "aydınlanmış" bir orta yaş krizi portresi çiziyor. 18 bölüm.
+
+## 13. Firefly (2002–2003)
+Joss Whedon'un uzay-western'i. Tek sezonda kesilse de kült oldu; 14 bölüm + Serenity filmi ideal hafta sonu paketi.
+
+## 14. Fleabag (2016–2019)
+Phoebe Waller-Bridge'in kameraya bakışlarıyla televizyonu yeniden tanımladığı iki sezonluk mucize. 12 bölüm, tam bir cumartesi.
+
+## 15. Freaks and Geeks (1999–2000)
+Judd Apatow ve Paul Feig'in 1980 Michigan lisesinde geçen kısa ömürlü klasiği. Genç Seth Rogen, James Franco, Linda Cardellini kadrosu efsanesi.
+
+## 16. The Girlfriend (2025)
+Robin Wright'lı Prime Video psikolojik gerilimi. Bir anne ile oğlunun kız arkadaşı arasındaki güç savaşını iki bakış açısından anlatıyor.
+
+## 17. Hacks (2021–2026)
+Jean Smart ve Hannah Einbinder'in nesiller arası komedyen ikilisi. HBO Max'in Emmy avcısı, beşinci ve son sezonuyla tamamlandı.
+
+## 18. The Haunting of Hill House (2018)
+Mike Flanagan'ın Shirley Jackson uyarlaması. Aile dramı ile korkuyu birleştiren 10 bölümlük Netflix ödevi.
+
+## 19. Heartstopper (2022–2024)
+Alice Oseman'ın grafik romanından uyarlanan Netflix romantik gençlik dizisi. Üç kısa sezonda tamamlanan sıcak bir dünya.
+
+## 20. Heated Rivalry (2025–)
+Rachel Reid'in queer buz hokeyi romanından Crave uyarlaması. Rakip iki NHL yıldızının yıllara yayılan gizli ilişkisi.
+
+## 21. I May Destroy You (2020)
+Michaela Coel'in yazdığı, yönettiği ve başrolünde olduğu HBO/BBC şaheseri. Rıza ve travmayı 12 bölümde parçalıyor.
+
+## 22. Jury Duty (2023–) 
+Freevee'nin doğaçlama sahte jüri deneyi. Ronald Gladden'ın hiçbir şeyden haberi olmadığı bir sosyal deney komedisi.
+
+## 23. Love Story (2026–)
+Ryan Murphy imzalı FX dizisi. Sarah Pidgeon ve Paul Kelly, Carolyn Bessette ve JFK Jr. rollerinde.
+
+## 24. Mare of Easttown (2021)
+Kate Winslet'in Emmy'li Delaware County dedektifi. 7 bölümlük HBO mini dizisi, "small-town noir" için ders kitabı.
+
+## 25. Margo's Got Money Troubles (2026–)
+Rufi Thorpe romanından Apple TV+ uyarlaması. Elle Fanning ve Michelle Pfeiffer, güreşçi babalı genç anne hikâyesinde.
+
+## 26. The Night Of (2016)
+Riz Ahmed'in çıkışını yaptığı 8 bölümlük HBO polisiyesi. Amerikan adalet sisteminin klostrofobik bir röntgeni.
+
+## 27. Normal People (2020)
+Sally Rooney romanının Hulu/BBC uyarlaması. Paul Mescal ve Daisy Edgar-Jones ikilisi, yılın en özenli aşk hikâyesi.
+
+## 28. Over the Garden Wall (2014)
+Patrick McHale'in 10 bölümlük Cartoon Network mini dizisi. Sonbahar atmosferi, Elijah Wood'un sesi ve zamansız bir masal tonu.
+
+## 29. Overcompensating (2025–)
+Benito Skinner'ın Prime Video komedi dizisi. Kolej ilk yılında dolaptan çıkma sürecini keskin bir mizahla anlatıyor.
+
+## 30. Paradise (2025–)
+Dan Fogelman'ın Sterling K. Brown'lı Hulu gerilimi. Suikast sonrası politik komplo bilim-kurgu ile buluşuyor.
+
+## 31. The Pitt (2025–)
+Noah Wyle'ın Pittsburgh acil servisinde geçirdiği 15 saatlik vardiyayı gerçek zamanlı anlatan HBO Max dizisi. 2026'nın en güçlü yeni draması.
+
+## 32. Pluribus (2025–)
+Vince Gilligan'ın Rhea Seehorn'lu yeni Apple TV+ bilim-kurgusu. Küresel bir mutluluk salgınına direnen tek insan.
+
+## 33. The Queen's Gambit (2020)
+Anya Taylor-Joy'lu Netflix mini dizisi. Soğuk Savaş dönemi kadın satranç dâhisinin 7 bölümlük yükselişi.
+
+## 34. Schitt's Creek (2015–2020)
+Eugene ve Dan Levy'nin Kanada komedisi. Zenginlikten düşen bir ailenin altı sezonluk sıcak dönüşümü.
+
+## 35. Sense8 (2015–2018)
+Wachowski kardeşlerin Netflix'te sekiz kıtaya yayılan psikolojik bağ epiği. Görsel şölen niteliğinde bir kült.
+
+## 36. Severance (2022–present)
+Dan Erickson'ın Apple TV+ dizisi. Adam Scott'lı Lumon Industries'in "innie/outie" çalışanları, 2020'lerin en özgün konsepti.
+
+## 37. Shōgun (2024–)
+James Clavell romanından FX uyarlaması. Anna Sawai, Hiroyuki Sanada ve Cosmo Jarvis'in 17. yüzyıl Japonya destanı Emmy'leri süpürdü.
+
+## 38. Shrinking (2023–)
+Bill Lawrence, Brett Goldstein ve Jason Segel'in Apple TV+ komedi dramı. Harrison Ford'un geç kariyer sürprizi.
+
+## 39. Squid Game (2021–2025)
+Hwang Dong-hyuk'un Netflix fenomeni. Üç sezonda tamamlanan sınıf mücadelesi alegorisi, dünya çapında bir olay oldu.
+
+## 40. The Studio (2025–)
+Seth Rogen'in Apple TV+ Hollywood hicvi. Bir stüdyo başkanının kaotik ilk yılını Kathryn Hahn ve büyük kamera kadrosuyla anlatıyor.
+
+## 41. Survivor (2000–present)
+Jeff Probst'lu CBS reality klasiği. 45+ sezonuyla "binge etmeye zaman ayır" gerektiren tek programı listede.
+
+## 42. The Traitors (2023–)
+Alan Cumming sunumlu Peacock reality gerilimi. Sosyal aldatma oyunu, iki gecede bitirilecek tempoda.
+
+## 43. Twin Peaks (1990–1991)
+David Lynch ve Mark Frost'un ABC'de televizyonun dilbilgisini değiştiren gizemli kasaba draması. Kim öldürdü Laura Palmer'ı?
+
+## 44. The White Lotus (2021–)
+Mike White'ın HBO antolojisi. Her sezon farklı bir lüks tatil köyünde geçen sınıf hicvi; üç sezonda üç yıldız kadrosu.
+
+## 45. Widow's Bay (2026–)
+Matthew Rhys'lı Apple TV+ gizemi. Sahil kasabasında kaybolan bir kızın izini süren, sisli-noir estetikli yeni bir keşif.
+
+Kaynak: Entertainment Weekly — "The 45 best TV shows to binge-watch right now" (Robert English & Kevin Jacobsen, 3 Temmuz 2026).`,
     image: "/__l5e/assets-v1/0533f2d0-cc82-4ff7-be8b-7217b8fec22b/ew-binge-45.webp",
     source: "Entertainment Weekly",
   },
