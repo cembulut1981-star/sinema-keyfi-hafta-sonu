@@ -1177,7 +1177,7 @@ Kaynak: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
 Chelsea Handler ve John Mulaney'nin yeni stand-up özelleri ay içinde platformda.
 
 Kaynak: Entertainment Weekly — "New on Netflix in March 2025".`,
-    image: "https://ew.com/thmb/HejMWSbFszfXBFZ2xKB4TVYRwvo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/nof-e0be2e8ccd304e97b9a1abdbd6cb2d95.jpg",
+    image: "/__l5e/assets-v1/0d45694a-9768-47d5-8f11-8366afddb87d/netflix-march.jpg",
     source: "Entertainment Weekly",
   },
   {
