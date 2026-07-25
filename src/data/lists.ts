@@ -1207,7 +1207,7 @@ Kaynak: Entertainment Weekly — "The 20 best family movies on Netflix".`,
   },
   {
     slug: "ew-2023-sonbahar-en-iyi-yeni-diziler",
-    title: "2023 Sonbaharının Kaçırılmayacak 6 Yeni Dizisi",
+    title: "Sonbaharın Kaçırılmayacak 6 Yeni Dizisi",
     excerpt: "EW TV eleştirmeni Kristen Baldwin, karanlık mizahlı Kore hayatta kalma dramasından tatlı-hüzünlü bir dönem romansına, 2023 sonbaharının izlenmesi gereken altı yeni dizisini derledi.",
     body: `Entertainment Weekly'nin TV eleştirmeni Kristen Baldwin, 2023 sonbahar sezonuna girerken ekranlara gelen en dikkat çekici altı yeni diziyi seçti. Her biri farklı bir tondan konuşuyor, ancak ortak paydaları: Sezonun ilk bölümünde izleyiciyi çekmeyi başarıyorlar.
 
