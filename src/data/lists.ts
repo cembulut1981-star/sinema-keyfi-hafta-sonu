@@ -1202,7 +1202,7 @@ Kaynak: Entertainment Weekly — "New on Netflix in March 2025".`,
 Stenzel'e göre "aile filmi" etiketi çocuk filmine indirgenmemeli; en iyi örnekleri, farklı yaş gruplarının aynı anda farklı katmanlar okuyabildiği çok yönlü yapımlar. Bu 20 film tam olarak bu formülü tutturuyor.
 
 Kaynak: Entertainment Weekly — "The 20 best family movies on Netflix".`,
-    image: "https://ew.com/thmb/f5RVoOZWLpQoNjOKlPZmwMj9DhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/netflix-family-movies-2000-88ebbfd8ea59454ba58a5b46b8b9d611.jpg",
+    image: "/__l5e/assets-v1/f3677a5e-8d50-4a4b-909c-51c809f1a54e/family.jpg",
     source: "Entertainment Weekly",
   },
   {
