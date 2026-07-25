@@ -1133,7 +1133,7 @@ Listede *Severance*, *Shōgun*, *The Bear*, *Yellowjackets*, *Only Murders in th
 EW'nun analizine göre kısa sezonlu, sıkı kurgulu diziler, film ve dizi arasındaki sınırı bulanıklaştırıyor. Her bölümün sonundaki cliffhanger'ı çözmek için ertesi haftayı beklemek zorunda kalmamak, bir tür yeni izleme dilbilgisi yaratıyor.
 
 Kaynak: Entertainment Weekly — "The 45 best TV shows to binge-watch right now".`,
-    image: "https://ew.com/thmb/gpv8tvHvykZZs-YqqzuhlVFu4jE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Shows-to-binge-watch-050225-d3ca16cb7bba4d01bfa2c83003d5d92f.jpg",
+    image: "/__l5e/assets-v1/0533f2d0-cc82-4ff7-be8b-7217b8fec22b/ew-binge-45.webp",
     source: "Entertainment Weekly",
   },
   {
