@@ -13,6 +13,46 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "elon-musk-the-boys-finali-tepki",
+    title: "Elon Musk, \"The Boys\" Final Bölümüne Karşı Erimeye Devam Ediyor",
+    excerpt: "Amazon Prime'ın \"The Boys\" dizisi 5. sezon finalinde milyarderleri hedef alan bir sahneye yer verdi. Elon Musk'ı hicveden karakter Homelander tarafından uzaya bırakılınca, gerçek Musk da X'te dizinin finaline \"acınası\" diyerek karşılık verdi.",
+    body: "Amazon Prime'ın süperkahraman satiri 'The Boys', beş sezonluk maratonunu 8. bölümlük bir final sezonuyla noktaladı — ve son bölümde tam Kotaku yazarı Ethan Gach'ın 'inceliği bir levyeyle söken bir dizi' dediği tarzda, dünyanın en zengin adamına açık bir gönderme yaptı.\n\nSahnede birdenbire hikâyeye giren Günter Van Ellis adında yeni bir karakter var: dünyanın en zengini, 17 çocuklu, amatör astronot ve tıpatıp Elon Musk'ın giydiği MAGA şapkasına benzeyen siyah bir Homelander şapkası takıyor. Homelander'a 'beyaz doğurganlık oranlarından' endişe ettiğini söylüyor; Homelander da onu uzaya götürüp orada bırakıyor. Bir dakikadan kısa süren gag, bariz bir Musk parodisi.\n\nMusk sosyal medyada bölümün finalini 'acınası' bularak karşılık verdi, ardından 'diziyi izlemedim aslında' diyerek kendi cevabıyla çelişti. Showrunner Erik Kripke ise 'daha iyi bir eleştiri alamazdım' diyerek yanıtladı; Antony Starr ve Jack Quaid gibi oyuncular Instagram'da kahkaha atarak gündemi kapattı. Kotaku, Musk'ın 'The Odyssey' filmine yönelik ırkçı çıkışları arasında bu dizi finalinin de bir 'meltdown' zincirine dönüştüğünü aktarıyor.",
+    image: "https://kotaku.com/app/uploads/2026/05/image-2.jpg",
+    source: "Kotaku",
+  },
+  {
+    slug: "house-of-the-dragon-s3-premiere-tek-cumle",
+    title: "Tek Bir Replik \"House of the Dragon\" 3. Sezon Açılışını Baştan Sona Bozdu",
+    excerpt: "Kotaku yazarı Ash Parrish'e göre \"House of the Dragon\" 3. sezon premieri Battle of the Gullet ile serinin en iyi savaş sahnelerinden birini sunuyor, ancak Kraliçe Rhaenyra'nın Elizabeth I'e yaptığı hatalı bir gönderme tüm karakterini çöküyor.",
+    body: "HBO'nun 'Game of Thrones' prequel'i 'House of the Dragon', 3. sezona duygu yüklü bir premierla döndü. Ash Parrish'e göre The Battle of the Gullet — dizinin geniş çaplı deniz-ejderha savaşı — 'Battle of the Bastards' ve 'Hardhome' ile aynı ligde, Amiral Sharako Lohar (Abigail Thorn) ve gemisi 'Bitchfist'in başrolde olduğu, franchise tarihine geçebilecek bir sahne.\n\nAma bölümün ortasında, savaşa katılması engellenen Kraliçe Rhaenyra Targaryen odasına kilitleniyor ve elbisesini yırtarak ağlamaklı bir şekilde şöyle söylüyor: 'Kadının zayıf, çelimsiz vücudunu taşıyor gibi görünebilirim ama bir kralın kalbi ve ruhu bende.' Bu, Kraliçe I. Elizabeth'in 1588'de İspanyol Armadası'na karşı, at üstünde ve zırhlı halde ordusunun önünde haykırdığı efsanevi Tilbury konuşmasının bozuk bir kopyası.\n\nParrish, senaristlerin Rhaenyra'yı tarihin en güçlü kadın hükümdarlarından biriyle özdeşleştirmek istemesini takdir ettiğini ama bu repliği ağlayarak bir danışmana fısıldayan bir karaktere vererek sözün tüm gücünü öldürdüklerini yazıyor. Ona göre bu replik Amiral Lohar'ın ağzında olsaydı 'ayağa kalkıp alkışlardık' — Rhaenyra'nın karakter arkı bu bölümle geri dönülemez bir yara aldı.",
+    image: "https://kotaku.com/app/uploads/2024/07/e1423d0681de8f55c36ac0766c594757.jpg",
+    source: "Kotaku",
+  },
+  {
+    slug: "cyberpunk-edgerunners-2-sezon-premiere",
+    title: "\"Cyberpunk: Edgerunners\" 2. Sezonuyla Michael Bay'den Ayrılıp Scorsese'ye Yaklaşıyor",
+    excerpt: "Anime Expo 2026'da premieri yapılan Netflix'in \"Cyberpunk: Edgerunners\" 2. sezonu, 1. sezonun aksiyon dolu roller-coaster tonundan uzaklaşarak Night City'nin insanlarına odaklanan daha yavaş, sinemasal bir hikâye anlatımına geçiyor.",
+    body: "Netflix'in Studio Trigger imzalı 'Cyberpunk: Edgerunners' dizisi, 1. sezonun sonundaki David Martinez trajedisiyle bir kült statüsü kazanmıştı. Anime Expo 2026'da gösterilen 2. sezon premieri, CD Projekt Red'in söylediğine göre çok farklı bir tona sahip: 'Eğer 1. sezon bir Michael Bay filmiyse, biz 2. sezonda Martin Scorsese hedefliyoruz.'\n\nAçılış sahnesinde 'King' takma adlı 'Weak' isimli bir cyberpunk, bir soygun sırasında cyberpsychosis'in eşiğinden dönüyor; en yüksek sağlık sigortasını yatırmış olduğu için canlı kalıyor ama ekibi, evi, implantları — her şeyi kaybediyor. Yeni karakter Roman ise bu kaotik sahneyi kamerasıyla kayıt altına alıyor; James Galizio'ya göre dizinin ana teması artık 'sinema' üzerine, çünkü Night City'de baskın eğlence, birinin anılarını pasif olarak yaşamak (braindance) haline gelmiş.\n\nKai Ikarashi liderliğindeki Studio Trigger, 90'lar animasyonunun estetiğini yakalamayı hedeflemiş ve premier bölüm görsel olarak nefes kesici. Bölüm, sinyalin kaybolmasıyla ve 'Cyberpunk' logosunun ekranda bir DVD logosu gibi zıplamasıyla kapanıyor. Sezon 2, 2026 Sonbahar'ında Netflix'te yayınlanacak.",
+    image: "https://kotaku.com/app/uploads/2026/07/Edgerunner-2.jpg",
+    source: "Kotaku",
+  },
+  {
+    slug: "walking-dead-dead-city-negan-maggie-romantizm",
+    title: "\"Dead City\" 3. Sezon Fragmanı: Negan ve Maggie'ye Ne Oldu?",
+    excerpt: "AMC'nin \"The Walking Dead: Dead City\" 3. sezonundan sızan bir sahne, bir zamanlar Maggie'nin kocası Glenn'i öldüren Negan ile Maggie'nin sarhoş halde barda birbirine sarıldığını gösteriyor. Fanlar, dizinin bu ikili arasında bir romantizm imasında bulunmasını sindiremiyor.",
+    body: "AMC, 'The Walking Dead: Dead City'nin 3. sezonundan bir behind-the-scenes videosu yayınladı; ancak videonun 3:45'inci saniyesindeki bir görüntü hayran kitlesini yıktı: Jeffrey Dean Morgan'ın canlandırdığı Negan ile Lauren Cohan'ın canlandırdığı Maggie, sarhoş bir halde bir barda birbirinin yüzüne dokunuyorlar.\n\nKotaku yazarı Kenneth Shepard, ana 'The Walking Dead' dizisini 4. sezondan sonra bıraktığını, ama 7. sezonda Negan'ın Maggie'nin kocası Glenn'i sopayla öldürmesi olayının kültürel bir hafıza olarak hâlâ hatırlandığını yazıyor. Şimdi bu iki karakter, 'Dead City' dizisinin başrollerinde ve Manhattan'ın kıyameti sonrası kalıntıları arasında birlikte hayatta kalmaya çalışıyor.\n\nSevenler için asıl soru şu: On yıl geçmiş olsa ve karakterler kendilerine çok emek vermiş olsa bile, Maggie'nin kocasının katilinin yüzünü sarhoş halde okşaması, hikâyenin inandırıcılığını 'saçma bir fan fiction'a mı çeviriyor? Twitter, 'yandık' ile 'yazarlar Rick-Negan dostluğunu bozdu ama Maggie şimdi barda onunla oynuyor' arasında ikiye bölünmüş durumda. Yeni sezon 2026 sonbaharında AMC'de.",
+    image: "https://kotaku.com/app/uploads/2026/07/image-75.jpg",
+    source: "Kotaku",
+  },
+  {
+    slug: "house-of-the-dragon-link-zelda-oyuncu",
+    title: "\"House of the Dragon\" Bize Yeni Link Oyuncusunun İyi Bir Önizlemesini Sunuyor",
+    excerpt: "Bu haftaki \"House of the Dragon\" bölümü, Prens Daeron Targaryen rolündeki Benjamin Evan Ainsworth'ü tanıtıyor — aynı zamanda yaklaşan live-action \"Legend of Zelda\" filminde Link'i canlandıracak isim. Kotaku'nun Ash Parrish'i performansı Link için \"doğru his\" olarak niteliyor.",
+    body: "HBO'nun 'House of the Dragon' dizisinin son bölümü, Rhaenyra Targaryen ile Hightower cephesi arasındaki büyük çekişmenin yanı sıra, önümüzdeki 'Legend of Zelda' filmi için önemli bir önizleme sunuyor: Prens Daeron Targaryen rolünde Benjamin Evan Ainsworth. Ainsworth, Nintendo ve Sony'nin ortak yapımı live-action 'Zelda' filminde Link karakterini canlandıracak isim olarak seçilmişti.\n\nDaeron, Kraliçe Alicent ve merhum Kral Viserys'in en küçük oğlu — kitaplarda 'Daeron the Daring' olarak anılıyor. Bebekken saraydan uzağa, annesinin ailesi olan Hightower'ların yanına gönderilmiş; annesi onun kardeşleri gibi yozlaşmadan büyümesini umuyordu. Ash Parrish'e göre Ainsworth'ün bu performansı bir Link için doğru his veriyor: Çocuk çok konuşmuyor, duygularını yüzünde ve bakışlarında taşıyor.\n\nAinsworth daha önce Netflix'in 'The Haunting of Bly Manor' dizisinde ve 'Pinocchio' animasyonunda ses rollerinde yer almıştı. Parrish, senaristlerin filmde Link'e mümkün olduğunca az replik vermesini umut ettiğini yazıyor — çünkü Ainsworth az sözle çok şey anlatabildiğini şimdiden kanıtlamış. 'Legend of Zelda' filmi 2027 Mart'ında Sony Pictures tarafından vizyona sokulacak.",
+    image: "https://kotaku.com/app/uploads/2025/11/ZELDA.jpg",
+    source: "Kotaku",
+  },
+  {
     slug: "euphoria-kendini-astti-3-sezon",
     title: "\"Euphoria\" Hem Ekranda Hem Ekran Dışında Kendini Aştı",
     excerpt: "CNN'e göre 2019'da mütevazı bir HBO dizisi olarak başlayan \"Euphoria\", 3. sezonuna girerken artık başrol oyuncularının küresel yıldızlığı ve yaşanan trajedilerle birlikte kendi ölçeğinin dışına taştı.",
