@@ -3,7 +3,7 @@ import { fallback, zodValidator } from "@tanstack/zod-adapter";
 import { useEffect } from "react";
 import { z } from "zod";
 
-import { ArticleGrid, SiteShell } from "@/components/site/SiteShell";
+import { ArticleGrid, FeaturedArticleCard, SiteShell } from "@/components/site/SiteShell";
 import { ARTICLES, CATEGORY_LABELS, type CategorySlug } from "@/data/articles";
 
 const VALID: CategorySlug[] = ["haberler", "incelemeler", "listeler", "diziler", "muzik", "roportajlar"];
