@@ -3,7 +3,7 @@ import { fallback, zodValidator } from "@tanstack/zod-adapter";
 import { useEffect } from "react";
 import { z } from "zod";
 
-import { ArticleGrid, SiteShell } from "@/components/site/SiteShell";
+import { ArticleGrid, FeaturedArticleCard, SiteShell } from "@/components/site/SiteShell";
 import { ARTICLES, CATEGORY_LABELS, type CategorySlug } from "@/data/articles";
 
 const VALID: CategorySlug[] = ["haberler", "incelemeler", "listeler", "diziler", "muzik", "roportajlar"];
@@ -58,6 +58,12 @@ function CategoryPage() {
   const start = (safePage - 1) * PAGE_SIZE;
   const pageArticles = articles.slice(start, start + PAGE_SIZE);
 
+  const featured =
+    category === "haberler" && safePage === 1
+      ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
+      : null;
+  const gridArticles = featured ? pageArticles.filter((a) => a !== featured) : pageArticles;
+
   useEffect(() => {
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "auto" });
   }, [safePage, slug]);
@@ -66,11 +72,13 @@ function CategoryPage() {
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">{label}</h1>
-        {pageArticles.length > 0 ? (
-          <ArticleGrid articles={pageArticles} compact />
-        ) : (
+        {featured ? <FeaturedArticleCard article={featured} /> : null}
+        {gridArticles.length > 0 ? (
+          <ArticleGrid articles={gridArticles} compact />
+        ) : featured ? null : (
           <p className="text-center text-muted-foreground py-20">Bu kategoride henüz yazı yok.</p>
         )}
+
 
         {totalPages > 1 ? (
           <nav className="mt-10 flex justify-center items-center gap-2 flex-wrap" aria-label="Sayfalama">

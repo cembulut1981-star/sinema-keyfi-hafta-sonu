@@ -180,6 +180,51 @@ function Footer() {
 }
 
 
+export function FeaturedArticleCard({ article }: { article: Article }) {
+  const linkTo = getArticleLink(article);
+  const Img = (
+    <img
+      src={article.image}
+      alt={article.title}
+      className="w-full aspect-[16/9] object-cover object-top"
+      width={1400}
+      height={790}
+      loading="eager"
+    />
+  );
+
+  return (
+    <article className="mb-10 border-b-[3px] border-black pb-8">
+      <div className="mx-auto max-w-3xl">
+        <div className="relative">
+          {linkTo ? (
+            <Link to={linkTo.to} params={linkTo.params} className="block">
+              {Img}
+            </Link>
+          ) : (
+            Img
+          )}
+          <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
+            Manşet
+          </span>
+        </div>
+        <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
+          {linkTo ? (
+            <Link to={linkTo.to} params={linkTo.params}>
+              {article.title}
+            </Link>
+          ) : (
+            article.title
+          )}
+        </h2>
+        <p className="mt-3 text-center text-muted-foreground text-[15px] leading-relaxed">
+          {article.excerpt}
+        </p>
+      </div>
+    </article>
+  );
+}
+
 export function ArticleGrid({ articles, compact = false }: { articles: Article[]; compact?: boolean }) {
   if (compact) {
     return (
