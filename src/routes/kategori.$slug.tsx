@@ -62,8 +62,8 @@ function CategoryPage() {
     category === "haberler" && safePage === 1
       ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
       : null;
-  const sidekick = featured ? pageArticles.find((a) => a !== featured) ?? null : null;
-  const gridArticles = pageArticles.filter((a) => a !== featured && a !== sidekick);
+  const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
+  const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
 
   useEffect(() => {
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "auto" });
@@ -78,9 +78,11 @@ function CategoryPage() {
             <div className="lg:col-span-2">
               <FeaturedArticleCard article={featured} />
             </div>
-            {sidekick ? (
-              <div className="lg:col-span-1">
-                <ArticleCard article={sidekick} compact />
+            {sidekicks.length > 0 ? (
+              <div className="lg:col-span-1 flex flex-col gap-6 lg:gap-8">
+                {sidekicks.map((a) => (
+                  <ArticleCard key={a.id} article={a} compact />
+                ))}
               </div>
             ) : null}
           </div>
