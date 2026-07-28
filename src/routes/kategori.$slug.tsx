@@ -62,8 +62,8 @@ function CategoryPage() {
     category === "haberler" && safePage === 1
       ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
       : null;
-  const sidekick = featured ? pageArticles.find((a) => a !== featured) ?? null : null;
-  const gridArticles = pageArticles.filter((a) => a !== featured && a !== sidekick);
+  const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
+  const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
 
   useEffect(() => {
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "auto" });
