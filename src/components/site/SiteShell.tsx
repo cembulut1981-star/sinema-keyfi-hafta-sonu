@@ -186,7 +186,7 @@ export function FeaturedArticleCard({ article }: { article: Article }) {
     <img
       src={article.image}
       alt={article.title}
-      className="w-full aspect-[16/9] object-cover object-top"
+      className="w-full h-full object-cover object-top"
       width={1400}
       height={790}
       loading="eager"
@@ -194,11 +194,11 @@ export function FeaturedArticleCard({ article }: { article: Article }) {
   );
 
   return (
-    <article className="mb-10 border-b-[3px] border-black pb-8">
-      <div className="mx-auto max-w-3xl">
-        <div className="relative">
+    <article className="h-full flex flex-col border-b-[3px] border-black pb-8">
+      <div className="mx-auto max-w-3xl w-full h-full flex flex-col">
+        <div className="relative flex-1 min-h-[240px]">
           {linkTo ? (
-            <Link to={linkTo.to} params={linkTo.params} className="block">
+            <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full">
               {Img}
             </Link>
           ) : (
