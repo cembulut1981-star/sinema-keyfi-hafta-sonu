@@ -78,9 +78,11 @@ function CategoryPage() {
             <div className="lg:col-span-2">
               <FeaturedArticleCard article={featured} />
             </div>
-            {sidekick ? (
-              <div className="lg:col-span-1">
-                <ArticleCard article={sidekick} compact />
+            {sidekicks.length > 0 ? (
+              <div className="lg:col-span-1 flex flex-col gap-6 lg:gap-8">
+                {sidekicks.map((a) => (
+                  <ArticleCard key={a.id} article={a} compact />
+                ))}
               </div>
             ) : null}
           </div>
