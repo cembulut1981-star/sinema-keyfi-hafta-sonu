@@ -74,8 +74,8 @@ function CategoryPage() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">{label}</h1>
         {featured ? (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-start mb-10">
-            <div className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch mb-10">
+            <div className="lg:col-span-2 h-full">
               <FeaturedArticleCard article={featured} />
             </div>
             {sidekicks.length > 0 ? (
