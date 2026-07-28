@@ -194,7 +194,7 @@ export function FeaturedArticleCard({ article }: { article: Article }) {
   );
 
   return (
-    <article className="h-full flex flex-col border-b-[3px] border-black pb-8">
+    <article className="h-full flex flex-col border-l-[3px] border-r-[3px] border-black px-4 sm:px-6 pb-8">
       <div className="mx-auto max-w-3xl w-full h-full flex flex-col">
         <div className="relative flex-1 min-h-[240px]">
           {linkTo ? (
