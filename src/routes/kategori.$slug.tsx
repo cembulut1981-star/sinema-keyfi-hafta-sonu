@@ -62,7 +62,8 @@ function CategoryPage() {
     category === "haberler" && safePage === 1
       ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
       : null;
-  const gridArticles = featured ? pageArticles.filter((a) => a !== featured) : pageArticles;
+  const sidekick = featured ? pageArticles.find((a) => a !== featured) ?? null : null;
+  const gridArticles = pageArticles.filter((a) => a !== featured && a !== sidekick);
 
   useEffect(() => {
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "auto" });
@@ -72,7 +73,18 @@ function CategoryPage() {
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">{label}</h1>
-        {featured ? <FeaturedArticleCard article={featured} /> : null}
+        {featured ? (
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-start mb-10">
+            <div className="lg:col-span-2">
+              <FeaturedArticleCard article={featured} />
+            </div>
+            {sidekick ? (
+              <div className="lg:col-span-1">
+                <ArticleCard article={sidekick} compact />
+              </div>
+            ) : null}
+          </div>
+        ) : null}
         {gridArticles.length > 0 ? (
           <ArticleGrid articles={gridArticles} compact />
         ) : featured ? null : (
