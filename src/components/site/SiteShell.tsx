@@ -228,7 +228,7 @@ export function FeaturedArticleCard({ article }: { article: Article }) {
 export function ArticleGrid({ articles, compact = false }: { articles: Article[]; compact?: boolean }) {
   if (compact) {
     return (
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
         {articles.map((a) => (
           <ArticleCard key={a.id} article={a} compact />
         ))}
@@ -236,7 +236,7 @@ export function ArticleGrid({ articles, compact = false }: { articles: Article[]
     );
   }
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
       {articles.map((a) => (
         <ArticleCard key={a.id} article={a} />
       ))}
@@ -392,7 +392,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             />
           )}
       </div>
-      <div className={compact ? "p-3 flex-1 flex flex-col" : "p-4 flex-1 flex flex-col"}>
+      <div className="p-4 flex-1 flex flex-col">
         <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
           {CATEGORY_LABEL[article.category]}
         </span>
