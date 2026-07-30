@@ -64,8 +64,12 @@ function CategoryPage() {
         ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
         : category === "muzik"
         ? pageArticles.find((a) => a.musicSlug === "evanescence-amy-lee-sanctuary-kapak-roportaji") ?? null
+        : category === "incelemeler"
+        ? pageArticles.find((a) => a.reviewSlug === "spider-man-brand-new-day-inceleme") ?? null
         : null
       : null;
+
+  const isSpiderFeatured = featured?.reviewSlug === "spider-man-brand-new-day-inceleme";
 
   const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
   const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
