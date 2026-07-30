@@ -29,6 +29,19 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "spider-man-brand-new-day-inceleme",
+    origTitle: "Spider-Man: Brand New Day",
+    title: "\"Spider-Man: Brand New Day\" Daha İyi Bir Marvel Filmi Denemenin Mümkün Olduğunu Kanıtlıyor",
+    excerpt: "Destin Daniel Cretton'ın yönettiği filmde Tom Holland'ın Peter Parker'ı, 'No Way Home' sonrası herkesin hafızasından silinmiş bir yalnız. TIME eleştirmeni Stephanie Zacharek'e göre fazla kalabalık mekaniklerin altında keyifli bir yaz filmi saklı.",
+    rating: "3.5/5",
+    image: "https://static.time.com/v3/assets/bltea6093859af6183b/bltd536e66953ca6cf9/6a68f5dad15efc423088bfa5/spidey_close-up.jpg?branch=production&width=1600&quality=80&auto=webp&crop=16:9",
+    body: `2021 tarihli 'Spider-Man: No Way Home'un sonunda Tom Holland'ın Peter Parker'ı savrulmuş bir genç adamdı. En yakın arkadaşı Ned ve sevgilisi MJ, mistik bir büyüyle onu tamamen unuttu; May Yenge ise Green Goblin'in saldırısında hayatını kaybetti. 'Brand New Day' tam da bu yıkımın ardından başlıyor: "Bazen Örümcek Adam, Peter Parker'ın kalbini kırsa da zor olanı yapmak zorundadır."
+
+Destin Daniel Cretton'ın yönettiği, Chris McKenna ve Erik Sommers'ın yazdığı film, klişe sayılabilecek temalarla, olay örgüsü manevralarıyla ve birbirine çarpan duygularla o kadar dolu ki zaman zaman asıl hikâyeye — ve kahramanımızın acısına — odaklanmak güçleşiyor. Yine de bu aşırı meşgul mekaniklerin altında gayet keyifli bir yaz eğlencesi saklı.
+
+Holland'ın samimiyeti filmin en güçlü kozu olmayı sürdürüyor: Peter'ın yalnızlığı sertliğe dönüşmüyor, New York'ta suçla mücadele etmeye devam ediyor ama mutsuz. TIME eleştirmeni Stephanie Zacharek'e göre film, Marvel'ın son dönem yorgunluğuna karşı en azından "daha iyisini deneme" iradesini gösteriyor — ve bu bile başlı başına bir kazanım.`,
+  },
+  {
     slug: "amadeus-en-yanlis-anlasilan-oscar-filmi",
     origTitle: "Amadeus",
     title: "\"Amadeus\" Tüm Zamanların En Yanlış Anlaşılan Oscar Filmi Olabilir mi?",
