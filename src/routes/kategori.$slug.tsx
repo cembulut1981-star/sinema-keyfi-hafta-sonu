@@ -85,7 +85,12 @@ function CategoryPage() {
         {featured ? (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch mb-6">
             <div className="lg:col-span-2 h-full">
-              <FeaturedArticleCard article={featured} />
+              <FeaturedArticleCard
+                article={featured}
+                badgeLabel={isSpiderFeatured ? "Eleştiri" : "Manşet"}
+                kicker={isSpiderFeatured ? "TIME · Stephanie Zacharek" : undefined}
+                meta={isSpiderFeatured ? "★★★½  3.5/5" : undefined}
+              />
             </div>
             {sidekicks.length > 0 ? (
               <div className="lg:col-span-1 flex flex-col gap-6">
