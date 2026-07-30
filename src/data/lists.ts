@@ -1353,11 +1353,51 @@ Kaynak: Entertainment Weekly — "The 6 must-watch new TV shows this fall (2023)
     image: "/__l5e/assets-v1/4ce09149-f650-4088-a78c-06d2403033be/fall2023.webp",
     source: "Entertainment Weekly",
   },
+  {
+    slug: "agustos-ayinin-en-iyi-10-dizisi-bbc",
+    title: "Ted Lasso'dan The Shards'a: Ağustos'un İzlenmesi Gereken 10 Dizisi",
+    excerpt: "Apple TV'nin futbol komedisinin dönüşünden Ryan Murphy imzalı karanlık bir gençlik gerilimine, DC'nin yeni süper kahraman dizisi Lanterns'ten Conan O'Brien'ın yol hikâyelerine — BBC Culture'dan Caryn James'in ağustos seçkisi.",
+    body: `Yaz sonu televizyonu bu yıl alışılmadık ölçüde kalabalık. BBC Culture'dan Caryn James, ağustos boyunca yayına girecek yapımlar arasından on tanesini seçti: geri dönüşler, uyarlamalar ve tür denemeleri.
+
+## 1. Fightland (31 Temmuz — Starz / 27 Ağustos — Sky & NOW)
+Boks ve uyuşturucu kartelleri dünyasında geçen bir intikam draması. Yapımcılığını Curtis "50 Cent" Jackson üstleniyor. Ağır sıklet şampiyonu Duke Kilroy (Howard Charles), işlemediği bir cinayetten sekiz yıl hapis yattıktan sonra Londra'ya kendisini tuzağa düşüren uyuşturucu baronundan hesap sormaya dönüyor.
+
+## 2. Ted Lasso (5 Ağustos — Apple TV)
+Bittiğini sandığımız dizi üç yıl sonra bir dönüşle geri geliyor. Ted (Jason Sudeikis), Rebecca'nın (Hannah Waddingham) yeni kurduğu Richmond kadın takımını çalıştırmak üzere Kansas City'den Londra'ya dönüyor. Kadroda Brett Goldstein, Juno Temple, Jeremy Swift ve yeni katılan Tanya Reynolds var.
+
+## 3. The Shards (5 Ağustos — Hulu / 6 Ağustos — Disney+)
+Ryan Murphy yapımı, Bret Easton Ellis'in 2023 tarihli yarı otobiyografik romanından uyarlanan dizi 1981 Los Angeles'ında geçiyor. Lise son sınıftaki Bret (Igby Rigney), yeni öğrenci Robert (Homer Gere) okula geldiğinde "The Traveler" adlı bir seri katilin gölgesinde bir kimlik hikâyesine sürükleniyor. Kaia Gerber de kadroda.
+
+## 4. Sterling Point (5 Ağustos — Prime Video)
+"My Old Ass" ile tanınan Megan Park'ın yarattığı aile sırlarıyla dolu gençlik melodramı. İkiz kardeşler Annie (Ella Rubin) ve Connor (Keen Ruffalo), tanımadıkları dedelerinden Kanada'da bir ada miras alıyor.
+
+## 5. Alley Cats (7 Ağustos — Netflix)
+Ricky Gervais'in yarattığı ve seslendirdiği yetişkinlere yönelik İngiliz animasyon komedisi. Sokak kedilerinden oluşan çete varoluşsal sorular soruyor ve bolca küfrediyor. Gervais'in tanımı net: "Umarım kedileri ve küfrü seversiniz."
+
+## 6. Reacher (12 Ağustos — Prime Video)
+Alan Ritchson'ın Jack Reacher'ı yeni sezonuyla dönüyor; Lee Child uyarlaması aksiyon severler için ağustosun en garantili işi.
+
+## 7. My Brilliant Career (13 Ağustos — Netflix)
+Miles Franklin'in klasik Avustralya romanının yeni uyarlaması; 19. yüzyıl sonunda yazar olmak isteyen genç bir kadının hikâyesi.
+
+## 8. Lanterns (16 Ağustos — HBO Max)
+DC'nin yeni süper kahraman dizisi; Kyle Chandler ve Aaron Pierre'in Green Lantern'ları, süper kahraman formatını bir taşra polisiyesine dönüştürüyor.
+
+## 9. Conan O'Brien Must Go (21 Ağustos — HBO Max)
+Conan O'Brien'ın dünyayı dolaşıp internet üzerinden tanıştığı hayranlarını evlerinde ziyaret ettiği seyahat komedisi yeni bölümleriyle geri döndü.
+
+## 10. Dark Matter (28 Ağustos — Apple TV)
+Blake Crouch'un çok satan romanından uyarlanan paralel evren gerilimi ikinci sezonuyla devam ediyor; Joel Edgerton yeniden başrolde.
+
+Kaynak: BBC Culture — Caryn James, "10 of the best TV shows to watch this August".`,
+    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0p13955.jpg.webp",
+    source: "BBC Culture",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [23, 22, 0, 24, 17, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [28, 23, 22, 0, 24, 17, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
 
 
 
