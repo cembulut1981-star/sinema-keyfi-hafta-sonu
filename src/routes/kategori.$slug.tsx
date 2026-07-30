@@ -66,10 +66,14 @@ function CategoryPage() {
         ? pageArticles.find((a) => a.musicSlug === "evanescence-amy-lee-sanctuary-kapak-roportaji") ?? null
         : category === "incelemeler"
         ? pageArticles.find((a) => a.reviewSlug === "spider-man-brand-new-day-inceleme") ?? null
+        : category === "listeler"
+        ? pageArticles.find((a) => a.listSlug === "agustos-ayinin-en-iyi-10-dizisi-bbc") ?? null
         : null
       : null;
 
   const isSpiderFeatured = featured?.reviewSlug === "spider-man-brand-new-day-inceleme";
+  const isBbcListFeatured = featured?.listSlug === "agustos-ayinin-en-iyi-10-dizisi-bbc";
+
 
   const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
   const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
