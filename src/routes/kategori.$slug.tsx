@@ -66,10 +66,14 @@ function CategoryPage() {
         ? pageArticles.find((a) => a.musicSlug === "evanescence-amy-lee-sanctuary-kapak-roportaji") ?? null
         : category === "incelemeler"
         ? pageArticles.find((a) => a.reviewSlug === "spider-man-brand-new-day-inceleme") ?? null
+        : category === "listeler"
+        ? pageArticles.find((a) => a.listSlug === "agustos-ayinin-en-iyi-10-dizisi-bbc") ?? null
         : null
       : null;
 
   const isSpiderFeatured = featured?.reviewSlug === "spider-man-brand-new-day-inceleme";
+  const isBbcListFeatured = featured?.listSlug === "agustos-ayinin-en-iyi-10-dizisi-bbc";
+
 
   const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
   const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
@@ -87,9 +91,21 @@ function CategoryPage() {
             <div className="lg:col-span-2 h-full">
               <FeaturedArticleCard
                 article={featured}
-                badgeLabel={isSpiderFeatured ? "Eleştiri" : "Manşet"}
-                kicker={isSpiderFeatured ? "TIME · Stephanie Zacharek" : undefined}
-                meta={isSpiderFeatured ? "★★★½  3.5/5" : undefined}
+                badgeLabel={isSpiderFeatured ? "Eleştiri" : isBbcListFeatured ? "Ayın Listesi" : "Manşet"}
+                kicker={
+                  isSpiderFeatured
+                    ? "TIME · Stephanie Zacharek"
+                    : isBbcListFeatured
+                    ? "BBC Culture · Caryn James"
+                    : undefined
+                }
+                meta={isSpiderFeatured ? "★★★½  3.5/5" : isBbcListFeatured ? "10 DİZİ" : undefined}
+                counter={isBbcListFeatured ? "Ağustos" : undefined}
+                tags={
+                  isBbcListFeatured
+                    ? ["Ted Lasso", "The Shards", "Lanterns", "Reacher", "Dark Matter"]
+                    : undefined
+                }
               />
             </div>
             {sidekicks.length > 0 ? (

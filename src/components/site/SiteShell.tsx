@@ -185,11 +185,15 @@ export function FeaturedArticleCard({
   badgeLabel = "Manşet",
   kicker,
   meta,
+  tags,
+  counter,
 }: {
   article: Article;
   badgeLabel?: string;
   kicker?: string;
   meta?: string;
+  tags?: string[];
+  counter?: string;
 }) {
   const linkTo = getArticleLink(article);
   const Img = (
@@ -236,6 +240,11 @@ export function FeaturedArticleCard({
               {meta}
             </span>
           ) : null}
+          {counter ? (
+            <span className="absolute right-0 top-0 bg-black text-white px-2.5 py-1 font-display text-[12px] font-black tracking-[0.18em] uppercase">
+              {counter}
+            </span>
+          ) : null}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
             {badgeLabel}
           </span>
@@ -252,6 +261,19 @@ export function FeaturedArticleCard({
         <p className="mt-3 text-center text-muted-foreground text-[15px] leading-relaxed">
           {article.excerpt}
         </p>
+        {tags?.length ? (
+          <ul className="mt-4 flex flex-wrap justify-center gap-x-2 gap-y-2">
+            {tags.map((t, i) => (
+              <li
+                key={t}
+                className="inline-flex items-center gap-1.5 border border-black/15 px-2.5 py-1 font-display text-[10px] font-black uppercase tracking-wider text-foreground/70"
+              >
+                <span className="text-[9px] text-primary">{String(i + 1).padStart(2, "0")}</span>
+                {t}
+              </li>
+            ))}
+          </ul>
+        ) : null}
       </div>
     </article>
   );
