@@ -185,11 +185,15 @@ export function FeaturedArticleCard({
   badgeLabel = "Manşet",
   kicker,
   meta,
+  tags,
+  counter,
 }: {
   article: Article;
   badgeLabel?: string;
   kicker?: string;
   meta?: string;
+  tags?: string[];
+  counter?: string;
 }) {
   const linkTo = getArticleLink(article);
   const Img = (
