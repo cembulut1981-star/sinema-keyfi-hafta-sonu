@@ -91,9 +91,21 @@ function CategoryPage() {
             <div className="lg:col-span-2 h-full">
               <FeaturedArticleCard
                 article={featured}
-                badgeLabel={isSpiderFeatured ? "Eleştiri" : "Manşet"}
-                kicker={isSpiderFeatured ? "TIME · Stephanie Zacharek" : undefined}
-                meta={isSpiderFeatured ? "★★★½  3.5/5" : undefined}
+                badgeLabel={isSpiderFeatured ? "Eleştiri" : isBbcListFeatured ? "Ayın Listesi" : "Manşet"}
+                kicker={
+                  isSpiderFeatured
+                    ? "TIME · Stephanie Zacharek"
+                    : isBbcListFeatured
+                    ? "BBC Culture · Caryn James"
+                    : undefined
+                }
+                meta={isSpiderFeatured ? "★★★½  3.5/5" : isBbcListFeatured ? "10 DİZİ" : undefined}
+                counter={isBbcListFeatured ? "Ağustos" : undefined}
+                tags={
+                  isBbcListFeatured
+                    ? ["Ted Lasso", "The Shards", "Lanterns", "Reacher", "Dark Matter"]
+                    : undefined
+                }
               />
             </div>
             {sidekicks.length > 0 ? (
