@@ -64,8 +64,12 @@ function CategoryPage() {
         ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
         : category === "muzik"
         ? pageArticles.find((a) => a.musicSlug === "evanescence-amy-lee-sanctuary-kapak-roportaji") ?? null
+        : category === "incelemeler"
+        ? pageArticles.find((a) => a.reviewSlug === "spider-man-brand-new-day-inceleme") ?? null
         : null
       : null;
+
+  const isSpiderFeatured = featured?.reviewSlug === "spider-man-brand-new-day-inceleme";
 
   const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
   const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
@@ -81,7 +85,12 @@ function CategoryPage() {
         {featured ? (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch mb-6">
             <div className="lg:col-span-2 h-full">
-              <FeaturedArticleCard article={featured} />
+              <FeaturedArticleCard
+                article={featured}
+                badgeLabel={isSpiderFeatured ? "Eleştiri" : "Manşet"}
+                kicker={isSpiderFeatured ? "TIME · Stephanie Zacharek" : undefined}
+                meta={isSpiderFeatured ? "★★★½  3.5/5" : undefined}
+              />
             </div>
             {sidekicks.length > 0 ? (
               <div className="lg:col-span-1 flex flex-col gap-6">

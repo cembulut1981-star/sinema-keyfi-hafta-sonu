@@ -180,7 +180,17 @@ function Footer() {
 }
 
 
-export function FeaturedArticleCard({ article }: { article: Article }) {
+export function FeaturedArticleCard({
+  article,
+  badgeLabel = "Manşet",
+  kicker,
+  meta,
+}: {
+  article: Article;
+  badgeLabel?: string;
+  kicker?: string;
+  meta?: string;
+}) {
   const linkTo = getArticleLink(article);
   const Img = (
     <img
@@ -196,6 +206,15 @@ export function FeaturedArticleCard({ article }: { article: Article }) {
   return (
     <article className="h-full flex flex-col border-l-[3px] border-r-[3px] border-black px-4 sm:px-6 pb-8">
       <div className="mx-auto max-w-3xl w-full h-full flex flex-col">
+        {kicker ? (
+          <div className="mb-3 flex items-center gap-2">
+            <span className="inline-block h-2 w-2 bg-red-600" aria-hidden="true" />
+            <span className="font-display uppercase tracking-[0.25em] text-[10px] font-black text-muted-foreground">
+              {kicker}
+            </span>
+            <span className="flex-1 h-px bg-black/15" aria-hidden="true" />
+          </div>
+        ) : null}
         <div className="relative flex-1 min-h-[240px]">
           {article.videoUrl ? (
             <iframe
@@ -212,8 +231,13 @@ export function FeaturedArticleCard({ article }: { article: Article }) {
           ) : (
             Img
           )}
+          {meta ? (
+            <span className="absolute left-0 top-0 bg-[#ffbd3f] text-black px-2.5 py-1 font-display text-[13px] font-black tracking-tight">
+              {meta}
+            </span>
+          ) : null}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
-            Manşet
+            {badgeLabel}
           </span>
         </div>
         <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
