@@ -54,10 +54,21 @@ function MusicPage() {
         <div className="my-10 flex justify-center">
           <div className="w-full max-w-[560px] p-3" style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}>
             <div className="relative aspect-[16/9] overflow-hidden bg-muted">
-              <img src={m.image} alt={m.title} className="w-full h-full object-cover" />
+              {m.videoUrl ? (
+                <iframe
+                  src={m.videoUrl}
+                  title={m.title}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              ) : (
+                <img src={m.image} alt={m.title} className="w-full h-full object-cover" />
+              )}
             </div>
           </div>
         </div>
+
 
         <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
           <ReactMarkdown>{m.body}</ReactMarkdown>
