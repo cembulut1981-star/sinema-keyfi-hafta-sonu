@@ -59,9 +59,14 @@ function CategoryPage() {
   const pageArticles = articles.slice(start, start + PAGE_SIZE);
 
   const featured =
-    category === "haberler" && safePage === 1
-      ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
+    safePage === 1
+      ? category === "haberler"
+        ? pageArticles.find((a) => a.newsSlug === "robert-downey-jr-ryan-gosling-ghost-rider-mcu") ?? null
+        : category === "muzik"
+        ? pageArticles.find((a) => a.musicSlug === "evanescence-amy-lee-sanctuary-kapak-roportaji") ?? null
+        : null
       : null;
+
   const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
   const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
 

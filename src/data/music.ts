@@ -20,6 +20,7 @@ export type MusicItem = {
   body: string;
   image: string;
   source: string;
+  videoUrl?: string;
 };
 
 export const MUSIC: MusicItem[] = [
@@ -38,6 +39,7 @@ export const MUSIC: MusicItem[] = [
     body: "Bu röportaj için araştırma yaparken, Amy Lee'nin var olduğunu bilmediğim bir kızıyla birlikte şarkı söylediği bir video ile karşılaştım. Kız tıpkı ona benziyordu: saten siyahı saçlar, alabastır ten, hatta aynı kaş piercing'i. Kusursuz bir uyumla söylüyorlardı. Ancak sonradan anladım ki bu son derece inandırıcı video gerçek değildi; internette dolaşan sayısız Lee deepfake'inden yalnızca biriydi.\n\n\"Kaydırırken kendimin yapay zekâ versiyonunu görmekten daha ürkütücü bir şey yok,\" diyor Lee, ev stüdyosundan Zoom üzerinden konuşurken. \"Gerçekten rahatsız edici. Sanki insanlar beni düzeltmek istiyor — yüzümdeki çizgileri siliyorlar. Hatta 'Sanctuary' albüm kapağını bile değiştirdiler.\"\n\nİçinde yaşadığımız dijital çağın gerçek dışılığı, grubun 2021 tarihli 'The Bitter Truth'tan bu yana ilk uzunçaları olan 'Sanctuary'nin itici gücü hâline gelmiş durumda. 'The Bitter Truth' gerçeklikle doğrudan yüzleşirken, 'Sanctuary' hakikat sonrası bir dünyada insanlığı arayan çaresiz bir arayış gibi hissettiriyor.\n\n\"Pek çok açıdan müzik benim sığınağım,\" diyor Lee albümün adı hakkında. \"Ama aynı zamanda yalanlardan, gerçek olmayan her şeyden bir sığınak.\"\n\nBugüne dek 31 milyondan fazla albüm satan Evanescence, tüm zamanların en çok satan hard rock ve metal sanatçıları arasında. 2003 tarihli 'Fallen' ile ana akım rock'ı yeniden şekillendiren grup, alt-metal ve nu-metal canlanmasının merkezinde yeniden kendine yer buldu. Netflix'in 'Devil May Cry' dizisi için yazılan \"Afterlife\", grubun Billboard Mainstream Rock Airplay listesindeki ilk bir numarası oldu; \"Who Will You Follow\" ise üç ayrı listede zirveye çıktı.\n\nGrup, 5 Haziran'da çıkan albümün ardından iki yıl sürecek dev bir dünya turnesine başladı; Kuzey Amerika ve Avrupa ayaklarında Spiritbox, Poppy, Nova Twins ve K.Flay de kadroda.",
     image: "https://media.revolvermag.com/smaecrmuhw/styles/article-hero/2026/07/22/Evanescence-Amy-Lee-featured-2026-Cedrick-Jones.jpg.webp?t=01375080.webp",
     source: "Revolver",
+    videoUrl: "https://www.youtube.com/embed/E64jOWeVfpg",
   },
   {
     slug: "revolver-haftanin-en-iyi-6-yeni-sarkisi-7-24-26",

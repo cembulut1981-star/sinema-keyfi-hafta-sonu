@@ -64,6 +64,7 @@ const MUSIC_ARTICLES: Article[] = MUSIC.map((m, i) => ({
   excerpt: m.excerpt,
   image: m.image,
   musicSlug: m.slug,
+  videoUrl: m.videoUrl,
 }));
 
 const SERIES_ARTICLES: Article[] = SERIES.map((s, i) => ({
