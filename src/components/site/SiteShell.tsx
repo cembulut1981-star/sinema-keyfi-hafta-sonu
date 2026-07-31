@@ -249,6 +249,11 @@ export function FeaturedArticleCard({
               {counter}
             </span>
           ) : null}
+          {ribbon ? (
+            <span className="absolute right-0 bottom-0 bg-red-600 text-white px-3 py-1 font-display text-[11px] font-black uppercase tracking-[0.2em] -skew-x-12">
+              {ribbon}
+            </span>
+          ) : null}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
             {badgeLabel}
           </span>
