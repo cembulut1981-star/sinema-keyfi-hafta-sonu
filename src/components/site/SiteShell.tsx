@@ -187,6 +187,8 @@ export function FeaturedArticleCard({
   meta,
   tags,
   counter,
+  ribbon,
+  stats,
 }: {
   article: Article;
   badgeLabel?: string;
@@ -194,6 +196,8 @@ export function FeaturedArticleCard({
   meta?: string;
   tags?: string[];
   counter?: string;
+  ribbon?: string;
+  stats?: { label: string; value: string }[];
 }) {
   const linkTo = getArticleLink(article);
   const Img = (
