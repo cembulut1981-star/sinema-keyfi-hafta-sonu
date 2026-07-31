@@ -25,6 +25,15 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "adam-lambert-american-idol-sonrasi-kariyeri",
+    title: "Adam Lambert \"American Idol\"ı Nasıl Geride Bıraktı?",
+    excerpt: "2009'da \"American Idol\"da ikinci olan Adam Lambert, yarışmanın kalıplarına sığmayan glam-rock sesiyle yarım asırlık bir kariyer kurdu: solo albümler, on yılı aşkın Queen vokalliği ve müzikal tiyatroya dönüş.",
+    body: "Adam Lambert 2009'da 'American Idol'da ikinci olduğunda, yarışmanın en unutulmaz yarışmacılarından biri olarak ayrıldı: güçlü bir sese ve şovun alışıldık pop yıldızı şablonuna meydan okuyan teatral bir damara sahip, açık kimlikli bir glam-rock şarkıcısı. Finalden iki hafta sonra Rolling Stone'a verdiği röportajla açılmıştı.\n\nBugün 44 yaşında olan Lambert, çok yönlü bir kariyer inşa etti: birden fazla solo albüm yayımladı, on yılı aşkın süredir Brian May ve Roger Taylor'la birlikte Queen'in vokalliğini yapıyor ve 'Cabaret' ile 'Jesus Christ Superstar' gibi yapımlarla müzikal tiyatro köklerine döndü.\n\nLambert'ın hikâyesi, 'Idol' tarihinde kazanmadan kalıcı olmayı başaran nadir örneklerden biri. Yarışmanın ilk sezonlarındaki formül — kolay tüketilebilir bir pop sesi — onun teatralliğine hiçbir zaman tam oturmadı; ancak tam da bu uyumsuzluk, şovun bittiği yerde kariyerinin başlamasını sağladı. Queen ile çıktığı dünya turneleri, onu televizyon yarışmasından çıkan bir isim olmaktan çok, stadyum ölçeğinde bir rock vokalisti konumuna taşıdı.\n\nTHR'nin müzik dosyasında Lambert, kimliğini gizlemeye zorlanmadığı bir sektöre geçiş sürecini, yarışma sonrası plak şirketi baskılarını ve sahne kişiliğinin yıllar içinde nasıl olgunlaştığını anlatıyor.",
+    image: "https://www.hollywoodreporter.com/wp-content/uploads/2026/07/Dana-Scruggs-Image-5-H-2026.jpg?w=1296&h=730&crop=1",
+    source: "The Hollywood Reporter",
+  },
+
+  {
     slug: "tom-morello-everyone-gets-everything-they-want-date-night",
     title: "Tom Morello'dan Yeni Albüm: \"Date Night\", II. Dünya Savaşı'nın Nazi Avcılarından İlham Alıyor",
     excerpt: "Rage Against the Machine gitaristi, ilk \"solo rock albümü\" olarak tanımlanan 'Everyone Gets Everything They Want'ı duyurdu. Serj Tankian, Caleb Shomo ve Kneecap'in konuk olduğu 12 şarkılık albümün ilk teklisi, Nazilere karşı savaşan üç Hollandalı genç kadının gerçek hikâyesinden besleniyor.",
