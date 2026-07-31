@@ -13,6 +13,14 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "reacher-5-sezon-yeni-kadro-alan-ritchson",
+    title: "\"Reacher\" 5. Sezon Kadrosu Belli Oldu: Jay Baruchel ve Kevin Durand Ritchson'ın Karşısında",
+    excerpt: "Prime Video, 4. sezon prömiyerine iki haftadan az kala 5. sezon için dört yeni oyuncuyu duyurdu: Amanda Ip, Jay Baruchel, Ciara Bravo ve Kevin Durand, Lee Child'ın \"Make Me\" romanından uyarlanan sezonda Alan Ritchson'a eşlik edecek.",
+    body: "Prime Video, 'Reacher'ın 4. sezon prömiyerine iki haftadan kısa süre kala bir sonraki adımın hazırlığını yaptığını gösterdi: 5. sezon kadrosuna dört yeni isim katıldı.\n\nAmanda Ip, Jay Baruchel, Ciara Bravo ve Kevin Durand, Lee Child'ın 'Make Me' romanından uyarlanacak beşinci sezonda Alan Ritchson'ın canlandırdığı Jack Reacher'ın karşısında yer alacak. Yönetici yapımcı ve showrunner Nick Santora imzalı dizide Reacher, klasik formüle sadık kalarak yine ölümcül bir suç komplosunun ortasına düşüyor.\n\nRol dağılımı şöyle: Amanda Ip, Michelle Chang'i; Jay Baruchel, Şef Buck Bauer'ı; Ciara Bravo, Eunice'i; Kevin Durand ise Nokes karakterini canlandıracak. Kanadalı oyuncu Ip, CTV'nin 'Transplant' dizisindeki Carmen rolüyle tanınıyor; 'Cross', 'Hudson & Rex' ve 'Plan B' de özgeçmişinde yer alıyor.\n\nBaruchel ise 'This Is the End', 'Knocked Up', 'Tropic Thunder', 'BlackBerry' ve Oscar ödüllü 'Million Dollar Baby' gibi yapımlarla tanınan, aynı zamanda 'How to Train Your Dragon' serisinde Hiccup'ı seslendiren deneyimli bir isim. Kevin Durand ise son olarak 'Kingdom of the Planet of the Apes'teki Proximus Caesar rolüyle hatırlanıyor.\n\n4. sezon Prime Video'da yayına giriyor; 5. sezonun çekimleri ise ardından başlayacak.",
+    image: "https://www.hollywoodreporter.com/wp-content/uploads/2025/02/RCHR_S3_UT_301_240708_SAVJAS_00316RC_3000.jpg?crop=0px%2C152px%2C3000px%2C1679px&resize=2000%2C1126",
+    source: "The Hollywood Reporter",
+  },
+  {
     slug: "elon-musk-the-boys-finali-tepki",
     title: "Elon Musk, \"The Boys\" Final Bölümüne Karşı Erimeye Devam Ediyor",
     excerpt: "Amazon Prime'ın \"The Boys\" dizisi 5. sezon finalinde milyarderleri hedef alan bir sahneye yer verdi. Elon Musk'ı hicveden karakter Homelander tarafından uzaya bırakılınca, gerçek Musk da X'te dizinin finaline \"acınası\" diyerek karşılık verdi.",

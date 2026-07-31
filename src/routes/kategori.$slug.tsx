@@ -76,7 +76,17 @@ function CategoryPage() {
 
 
   const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
-  const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
+  const baseGrid = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
+
+  const REACHER_SLUG = "reacher-5-sezon-yeni-kadro-alan-ritchson";
+  const secondFeatured =
+    safePage === 1 && category === "diziler"
+      ? baseGrid.find((a) => a.seriesSlug === REACHER_SLUG) ?? null
+      : null;
+  const rows = secondFeatured ? baseGrid.filter((a) => a !== secondFeatured) : baseGrid;
+  const topRow = secondFeatured ? rows.slice(0, 3) : [];
+  const secondSidekicks = secondFeatured ? rows.slice(3, 5) : [];
+  const gridArticles = secondFeatured ? rows.slice(5) : rows;
 
   useEffect(() => {
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "auto" });
@@ -117,9 +127,42 @@ function CategoryPage() {
             ) : null}
           </div>
         ) : null}
+        {secondFeatured ? (
+          <>
+            {topRow.length > 0 ? (
+              <div className="mb-6">
+                <ArticleGrid articles={topRow} compact />
+              </div>
+            ) : null}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch mb-6">
+              <div className="lg:col-span-2 h-full">
+                <FeaturedArticleCard
+                  article={secondFeatured}
+                  badgeLabel="Dizi Manşeti"
+                  kicker="The Hollywood Reporter · Chris Gardner"
+                  ribbon="Sezon 5"
+                  stats={[
+                    { label: "Platform", value: "Prime Video" },
+                    { label: "Kaynak Roman", value: "Make Me" },
+                    { label: "Yeni Kadro", value: "4 Oyuncu" },
+                    { label: "Showrunner", value: "Nick Santora" },
+                  ]}
+                  tags={["Amanda Ip", "Jay Baruchel", "Ciara Bravo", "Kevin Durand"]}
+                />
+              </div>
+              {secondSidekicks.length > 0 ? (
+                <div className="lg:col-span-1 flex flex-col gap-6">
+                  {secondSidekicks.map((a) => (
+                    <ArticleCard key={a.id} article={a} compact />
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          </>
+        ) : null}
         {gridArticles.length > 0 ? (
           <ArticleGrid articles={gridArticles} compact />
-        ) : featured ? null : (
+        ) : featured || secondFeatured ? null : (
           <p className="text-center text-muted-foreground py-20">Bu kategoride henüz yazı yok.</p>
         )}
 

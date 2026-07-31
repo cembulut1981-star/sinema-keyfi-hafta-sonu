@@ -187,6 +187,8 @@ export function FeaturedArticleCard({
   meta,
   tags,
   counter,
+  ribbon,
+  stats,
 }: {
   article: Article;
   badgeLabel?: string;
@@ -194,6 +196,8 @@ export function FeaturedArticleCard({
   meta?: string;
   tags?: string[];
   counter?: string;
+  ribbon?: string;
+  stats?: { label: string; value: string }[];
 }) {
   const linkTo = getArticleLink(article);
   const Img = (
@@ -245,6 +249,11 @@ export function FeaturedArticleCard({
               {counter}
             </span>
           ) : null}
+          {ribbon ? (
+            <span className="absolute right-0 bottom-0 bg-red-600 text-white px-3 py-1 font-display text-[11px] font-black uppercase tracking-[0.2em] -skew-x-12">
+              {ribbon}
+            </span>
+          ) : null}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
             {badgeLabel}
           </span>
@@ -261,6 +270,20 @@ export function FeaturedArticleCard({
         <p className="mt-3 text-center text-muted-foreground text-[15px] leading-relaxed">
           {article.excerpt}
         </p>
+        {stats?.length ? (
+          <dl className="mt-5 grid grid-cols-2 sm:grid-cols-4 divide-x divide-black/10 border-y-2 border-black/80">
+            {stats.map((s) => (
+              <div key={s.label} className="px-2 py-2 text-center">
+                <dt className="font-display text-[9px] font-black uppercase tracking-[0.2em] text-muted-foreground">
+                  {s.label}
+                </dt>
+                <dd className="font-display text-[13px] font-black uppercase tracking-tight text-foreground">
+                  {s.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        ) : null}
         {tags?.length ? (
           <ul className="mt-4 flex flex-wrap justify-center gap-x-2 gap-y-2">
             {tags.map((t, i) => (
