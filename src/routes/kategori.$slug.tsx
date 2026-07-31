@@ -76,7 +76,17 @@ function CategoryPage() {
 
 
   const sidekicks = featured ? pageArticles.filter((a) => a !== featured).slice(0, 2) : [];
-  const gridArticles = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
+  const baseGrid = pageArticles.filter((a) => a !== featured && !sidekicks.includes(a));
+
+  const REACHER_SLUG = "reacher-5-sezon-yeni-kadro-alan-ritchson";
+  const secondFeatured =
+    safePage === 1 && category === "diziler"
+      ? baseGrid.find((a) => a.seriesSlug === REACHER_SLUG) ?? null
+      : null;
+  const rows = secondFeatured ? baseGrid.filter((a) => a !== secondFeatured) : baseGrid;
+  const topRow = secondFeatured ? rows.slice(0, 3) : [];
+  const secondSidekicks = secondFeatured ? rows.slice(3, 5) : [];
+  const gridArticles = secondFeatured ? rows.slice(5) : rows;
 
   useEffect(() => {
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "auto" });
