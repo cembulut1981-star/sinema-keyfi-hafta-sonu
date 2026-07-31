@@ -13,6 +13,15 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "crystal-lake-hbo-max-avrupa-friday-the-13th",
+    title: "HBO Max, \"Friday the 13th\" Öncesi Dizisi \"Crystal Lake\"i Avrupa'ya Taşıyor",
+    excerpt: "Linda Cardellini'nin Pamela Voorhees'i canlandırdığı A24 imzalı korku dizisi \"Crystal Lake\", Avrupa genelinde HBO Max'te yayımlanacak. Dizi ABD'de Ekim'de Peacock'ta başlıyor.",
+    body: "A24 yapımı korku dizisi 'Crystal Lake', Avrupa genelinde HBO Max'e geliyor. Dizi bölgede bu yıl içinde yayına girecek; ABD'de ise Peacock'ta Ekim ayında ekrana gelecek.\n\nPeacock diziyi ilk olarak 2022'de sipariş etmişti; başlangıçta yazar ve showrunner olarak Bryan Fuller projeye bağlanmıştı. Ancak yaratıcı görüş ayrılıkları Fuller'ın Mayıs 2024'te ayrılmasına yol açtı; Fuller, A24'ün \"materyalle farklı bir yola gitmeye karar verdiğini\" söylemişti. Şu anda dizinin yaratıcı, yazar ve showrunner'ı olarak Brad Caleb Kane ('It: Welcome to Derry') görünüyor.\n\n'Crystal Lake'te Emmy adayı Linda Cardellini ('Dead to Me', 'Mad Men'), 'Friday the 13th'ün meşhur katili Jason'ın annesi Pamela Voorhees'i canlandırıyor. Dizi, Jason'ın gölde boğularak ölmesinden bir yıl sonrasında açılıyor. Pamela'nın geçmişini araştıran iki yabancının kasabaya gelişi, Crystal Lake sakinlerinin onun gerçekte kim olduğunu sorgulamasına yol açan bir olaylar zincirini tetikliyor.\n\nWilliam Catlett yerel polis şefi Levon Brooks rolünde; Devin Kessler, Cameron Scoggins ve Gwendolyn Sundstrom da kadroda. Genç Jason Voorhees'i Callum Vinson oynuyor. Kane, diziyi A24 ve aralarında Marc Toberoff, Victor Miller, Stuart Manashil, Tyson Bidner, Michael Lennox ve Roy Lee'nin bulunduğu bir ekiple birlikte yönetici yapımcılığını üstleniyor.",
+    image: "https://www.hollywoodreporter.com/wp-content/uploads/2026/07/NUP_211121_00008-H-2026.jpg?w=1296&h=730&crop=1",
+    source: "The Hollywood Reporter",
+  },
+
+  {
     slug: "reacher-5-sezon-yeni-kadro-alan-ritchson",
     title: "\"Reacher\" 5. Sezon Kadrosu Belli Oldu: Jay Baruchel ve Kevin Durand Ritchson'ın Karşısında",
     excerpt: "Prime Video, 4. sezon prömiyerine iki haftadan az kala 5. sezon için dört yeni oyuncuyu duyurdu: Amanda Ip, Jay Baruchel, Ciara Bravo ve Kevin Durand, Lee Child'ın \"Make Me\" romanından uyarlanan sezonda Alan Ritchson'a eşlik edecek.",
