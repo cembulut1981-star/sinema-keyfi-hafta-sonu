@@ -156,19 +156,33 @@ function buildRows(articles: Article[]) {
 function Index() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  // Newest posts sit at the top of ARTICLES; slice to show only the first N.
-  const visibleArticles = ARTICLES.slice(0, visibleCount);
+  // Build the feed for a given number of visible posts.
+  const build = (count: number) => {
+    const visibleArticles = ARTICLES.slice(0, count);
+    const smallCandidates = visibleArticles.filter(
+      (a) => a.category === "haberler" || a.category === "diziler",
+    );
+    const duo = smallCandidates.slice(2, 4);
+    const duoIds = new Set(duo.map((a) => a.id));
+    const feedArticles = visibleArticles.filter((a) => !duoIds.has(a.id));
+    return { duo, ...buildRows(feedArticles) };
+  };
 
-  // Promote two small-format posts to special full-size feature cards.
-  const smallCandidates = visibleArticles.filter(
-    (a) => a.category === "haberler" || a.category === "diziler",
-  );
-  const duo = smallCandidates.slice(2, 4);
-  const duoIds = new Set(duo.map((a) => a.id));
-  const feedArticles = visibleArticles.filter((a) => !duoIds.has(a.id));
+  // Pad the visible count (up to 3 extra posts) so the final small-card row
+  // always fills all 4 columns instead of leaving a gap on the right.
+  let effectiveCount = Math.min(visibleCount, ARTICLES.length);
+  let built = build(effectiveCount);
+  for (let extra = 1; extra <= 3; extra++) {
+    if (built.leftovers.length % 4 === 0) break;
+    const next = Math.min(visibleCount + extra, ARTICLES.length);
+    if (next === effectiveCount) break;
+    effectiveCount = next;
+    built = build(next);
+  }
 
-  const { rows, leftovers } = buildRows(feedArticles);
-  const hasMore = visibleCount < ARTICLES.length;
+  const { duo, rows, leftovers } = built;
+  const hasMore = effectiveCount < ARTICLES.length;
+
 
   const duoSection =
     duo.length === 2 ? (
@@ -217,7 +231,7 @@ function Index() {
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setVisibleCount((c) => Math.min(c + PAGE_SIZE, ARTICLES.length))}
+              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, ARTICLES.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
               Daha Fazla Göster
