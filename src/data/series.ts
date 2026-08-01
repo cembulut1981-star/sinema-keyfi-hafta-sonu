@@ -13,6 +13,15 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "javier-bardem-cape-fear-final-lily-collias-sac-sahnesi",
+    title: "Javier Bardem \"Cape Fear\" Final Sahnesinde Saçını Çekmeden Önce Özür Diledi: \"Çok Üzgünüm Aşkım\"",
+    excerpt: "Apple TV+'ın yaz sezonu fenomeni \"Cape Fear\"in finalinde Max Cady'yi canlandıran Javier Bardem, saldırı sahnesi öncesinde partneri Lily Collias'ı nazikçe uyarıp önceden özür diledi.",
+    body: "2007'de Javier Bardem, 'No Country for Old Men'deki Anton Chigurh'la yüzyılın en ürkütücü performanslarından birini vermişti. Yaklaşık yirmi yıl sonra bir sosyopatı ikna edici biçimde canlandırabildiğini yeniden kanıtlıyor: Apple TV+'ın yazın en çok konuşulan dizisi 'Cape Fear'de intikam peşindeki katil Max Cady'yi yeniden yorumluyor.\n\nCady'yi daha önce 1962'de Robert Mitchum, 1991'de Robert De Niro oynamıştı. Bardem'in yorumunun asıl gücü ise uzun süren durgunluk anlarında saklı; bu sessizlik, Bowden ailesiyle oynadığı kedi-fare oyununun gerilimini katlıyor.\n\nDizinin genç yıldızı Lily Collias, bu deneyimi \"çok eğlenceli\" ama \"bazen fazlasıyla sarsıcı\" olarak tanımlıyor. New York'taki final gösteriminde Variety'ye konuşan Collias, \"Kedi-fare oynuyoruz, sonra kameralar kapanıyor ve ben hâlâ kendimi fare gibi hissediyorum. O da hâlâ 'Tom ve Jerry'deki Tom gibi\" diyor.\n\nCollias'ın anlattığına göre finaldeki saldırı sahnesinde saçının çekilmesi gerekiyordu ve Bardem çekim başlamadan önce onu nazikçe uyarıp önceden özür diledi: \"Çok üzgünüm aşkım.\" Oyuncu, sahnenin şiddetine rağmen sette kurulan bu güvenin işi kolaylaştırdığını söylüyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/GettyImages-2279525439_39760f.jpg?crop=882px%2C54px%2C3726px%2C2482px&resize=1000%2C667",
+    source: "Variety",
+  },
+
+  {
     slug: "crystal-lake-hbo-max-avrupa-friday-the-13th",
     title: "HBO Max, \"Friday the 13th\" Öncesi Dizisi \"Crystal Lake\"i Avrupa'ya Taşıyor",
     excerpt: "Linda Cardellini'nin Pamela Voorhees'i canlandırdığı A24 imzalı korku dizisi \"Crystal Lake\", Avrupa genelinde HBO Max'te yayımlanacak. Dizi ABD'de Ekim'de Peacock'ta başlıyor.",
