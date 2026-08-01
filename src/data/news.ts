@@ -22,6 +22,31 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "spider-man-brand-new-day-gise-rekoru-onizleme",
+    title: "\"Spider-Man: Brand New Day\" 72 Milyon Dolarlık Ön Gösterimle Gişe Rekoru Kırdı",
+    excerpt: "Tom Holland'ın yeni Örümcek Adam filmi, ön gösterimlerde 72 milyon dolar hasılat yaparak \"Avengers: Endgame\"in 60 milyon dolarlık rekorunu tarihe gömdü.",
+    body: "'Spider-Man: Brand New Day' henüz ilk gününde gişe tarihine ağ atmış durumda.\n\nTom Holland'ın yeni Örümcek Adam filmi, Çarşamba günkü erken erişim gösterimleri dahil olmak üzere ön gösterimlerde 72 milyon dolar hasılat elde etti — bu, sinema tarihinde bir filmin ön gösterimlerden kazandığı en yüksek rakam. Önceki rekor, açılış haftası sonunda tüm zamanların en büyük gişesine ulaşan 'Avengers: Endgame'e aitti; o film Perşembe ön gösterimlerinde 60 milyon dolar toplamıştı.\n\nDestin Daniel Cretton'ın yönettiği filmde Holland'a Zendaya ve Jacob Batalon eşlik ediyor. 2021'de 1,9 milyar dolarlık küresel gişeye ulaşan 'No Way Home'un ardından gelen dördüncü filmde Peter Parker, kimsenin onu hatırlamadığı bir dünyada yeniden sıfırdan başlıyor.\n\nSony ve Marvel için bu rakam, yaz sezonunun geri kalanına dair beklentileri de yukarı çekti; analistler açılış haftası sonu tahminlerini şimdiden yükseltmeye başladı.",
+    image: "https://variety.com/wp-content/uploads/2026/07/MCDSPMA_SP142.jpg?w=1000&h=667&crop=1",
+    source: "Variety",
+  },
+  {
+    slug: "tomi-adeyemi-children-of-blood-and-bone-set-aglayarak",
+    title: "\"Children of Blood and Bone\" Yazarı Tomi Adeyemi Setten Ağlayarak Ayrıldı: \"Yaşadığım En Kötü Şey\"",
+    excerpt: "Romanın yazarı ve filmin senaristlerinden Tomi Adeyemi, Paramount uyarlamasını \"hayatımda yaşamak zorunda kaldığım en kötü şey\" olarak tanımladı ve \"bu projeyi bir daha duymak istemiyorum\" dedi.",
+    body: "'Children of Blood and Bone' romanının yazarı Tomi Adeyemi, kitabından uyarlanan Paramount filmi hakkında beş dakikalık bir video paylaştı ve projeyi \"hayatımda yaşamak zorunda kaldığım en kötü şey\" olarak tanımladı. \"Bu projeyi bir daha duymak istemiyorum\" diye ekledi.\n\nFilmin senaryosunun ortak yazarlığını da üstlenen Adeyemi, daha önce de setteki deneyiminin ardından Afrika fantastik evreninde geçen romanından uyarlanan filmi izlemeyeceğini açıklamıştı.\n\nYazarın anlatımına göre çekimler sırasında yaratıcı süreçten dışlandığını hissetti ve sette geçirdiği günlerin ardından ağlayarak ayrıldı. Adeyemi, kitabın milyonlarca okura ulaşmış dünyasının ekranda kendisine yabancılaştığını söylüyor.\n\nParamount cephesinden bir yorum gelmedi. Uyarlama, yayınevi dünyasında yılın en çok konuşulan gençlik-fantastik serilerinden birinin beyazperde macerası olarak duyurulmuştu.",
+    image: "https://variety.com/wp-content/uploads/2026/07/GettyImages-1823673487.jpg?w=1000&h=667&crop=1",
+    source: "Variety",
+  },
+  {
+    slug: "i-want-your-sex-olivia-wilde-cooper-hoffman-aci-skalasi",
+    title: "Olivia Wilde ve Cooper Hoffman \"I Want Your Sex\" Sahnelerine \"Acı Skalası\" ile Hazırlandı",
+    excerpt: "Gregg Araki'nin erotik gerilimi \"I Want Your Sex\"te oyuncular, zorlu sahneler öncesinde birbirlerine 1-10 arası bir acı skalası üzerinden geri bildirim veren bir yöntem geliştirdi.",
+    body: "Cooper Hoffman, Gregg Araki'nin erotik gerilimi 'I Want Your Sex'e dahil olana kadar hiç cinsellik sahnesi çekmemişti. Bu yüzden sete ilk kez adım attığında kendisini kelepçeler, topuklular, kırbaçlar ve zincirlerle çevrili bulmasının yarattığı tedirginlik anlaşılırdı.\n\n\"Yapmaktan korksanız bile yapıyorsunuz\" diyor Hoffman, filmin Los Angeles galasında Variety'ye konuşurken. \"Çünkü hayatta bir şeyi sadece korktuğunuz için yapmamanın bir nedeni yok.\"\n\nHoffman ve Olivia Wilde, zorlu sahnelere hazırlanırken bir intimacy koordinatörü eşliğinde 1'den 10'a uzanan bir \"acı skalası\" kullandı: her provada temasın şiddeti bu ölçek üzerinden konuşuldu, sınırlar sahne çekilmeden önce netleştirildi. Wilde'ın bir sahnede oyuncuya \"gerçekten sert vurduğu\" anın skalada \"yalnızca yedi ya da sekiz\" karşılığı olduğu ortaya çıktı.\n\nAraki'nin yönettiği film, yönetmenin 90'lar kuşağına damgasını vuran cüretkâr sinemasına dönüşü olarak değerlendiriliyor; ekip, provalarda kurulan bu ortak dilin sette güven ortamı yarattığını vurguluyor.",
+    image: "https://variety.com/wp-content/uploads/2026/07/MCDIIWA_GI003.jpg?w=1000&h=667&crop=1",
+    source: "Variety",
+  },
+
+  {
     slug: "locarno-red-black-hollywood-solu-kara-liste-retrospektifi",
     title: "Locarno'nun \"Kızıl ve Siyah\" Retrospektifi: Hollywood Solu, Kara Liste ve Trump Çağı",
     excerpt: "Locarno Film Festivali'nin bu yılki retrospektifi 1947-1960 arasındaki Hollywood kara listesine bakıyor. Küratör Ehsan Khoshbakht, seçkiyi \"şimdiye kadar çalıştığı en güncel retrospektif\" olarak tanımlıyor.",
