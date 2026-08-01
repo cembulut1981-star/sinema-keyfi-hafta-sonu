@@ -29,6 +29,16 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "los-vampires-inceleme",
+    origTitle: "Los Vampires",
+    title: "\"Los Vampires\" İncelemesi: İki Dracula'nın Kapıştığı, Çekici Ama Dengesiz Bir Hollywood Geri Dönüşü",
+    excerpt: "Craig Mitchell'ın yazıp yönettiği film, Universal'ın 1931 \"Dracula\"sının İngilizce ve İspanyolca kadrolarla aynı dekorlarda çekildiği efsanevi üretim sürecine karanlık bir kurmaca ekliyor.",
+    rating: "3/5",
+    image: "https://variety.com/wp-content/uploads/2026/07/Los_Vampires_01.png?w=1000&h=667&crop=1",
+    body: "Sesli sinemanın gelişi, film endüstrisi için birçok açıdan büyük bir sarsıntıydı: salon sahipleri pahalı yeni ekipman kurmak zorunda kaldı, stüdyolar ise ürünlerini kârlı yabancı pazarlara eskisi kadar kolay ihraç edemedi. Bu ikinci soruna dönemin çözümlerinden biri, aynı filmi farklı dillerde alternatif versiyonlarla çekmekti.\n\nUniversal bu fikri 1930'un sonunda çoğu stüdyodan daha ileriye taşıdı ve 'Dracula'yı aynı dekorlarda iki kez, tamamen farklı kadrolar ve yönetmenlerle çekti. Biri elbette Bela Lugosi'li, Tod Browning imzalı efsanevi filmdi. Diğeri ise Rudolph Valentino'yu 'The Sheik'te yönetmiş olan George Melford'un imzasını taşıyordu; pelerinli kan emiciyi İspanyol göçmen oyuncu Carlos Villarias canlandırıyordu. Bu ikinci versiyon onlarca yıl unutuldu, ancak 1990'lardaki restorasyon ve yeniden gösterimlerin ardından bazı seyirciler onu ikisinin daha iyisi ilan etti.\n\nYazar-yönetmen Craig Mitchell'ın 'Los Vampires'ı işte bu paylaşılan sette geçen uğursuz olayları hayal ediyor: gündüz bir ekibin, gece diğerinin çalıştığı aynı dekorlarda iki Dracula'nın rekabeti, kıskançlık, sınıf farkı ve ürkütücü tesadüflerle örülü bir gerilime dönüşüyor.\n\nFilmin en güçlü yanı atmosferi: dönem tasarımı, gölgelerle oynayan görüntü yönetimi ve stüdyo sisteminin İspanyolca konuşan ekibe biçtiği ikincil konumun altını çizen sinsi ironisi. Ancak anlatı, kurmaca gerilim ile sinema tarihi dersi arasında gidip gelirken zaman zaman dengesini kaybediyor; bazı yan karakterler yeterince gelişmeden kalıyor.\n\nBuna karşın 'Dracula'nın kayıp ikizine duyulan sinefil merakı paylaşanlar için 'Los Vampires', kusurlarına rağmen çekici bir seyir sunuyor.",
+  },
+
+  {
     slug: "spider-man-brand-new-day-inceleme",
     origTitle: "Spider-Man: Brand New Day",
     title: "\"Spider-Man: Brand New Day\" Daha İyi Bir Marvel Filmi Denemenin Mümkün Olduğunu Kanıtlıyor",
