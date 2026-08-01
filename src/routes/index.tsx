@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
+import { ArticleCard, FeaturedArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
 
 const PAGE_SIZE = 20;
@@ -158,16 +158,51 @@ function Index() {
 
   // Newest posts sit at the top of ARTICLES; slice to show only the first N.
   const visibleArticles = ARTICLES.slice(0, visibleCount);
-  const { rows, leftovers } = buildRows(visibleArticles);
+
+  // Promote two small-format posts to special full-size feature cards.
+  const smallCandidates = visibleArticles.filter(
+    (a) => a.category === "haberler" || a.category === "diziler",
+  );
+  const duo = smallCandidates.slice(2, 4);
+  const duoIds = new Set(duo.map((a) => a.id));
+  const feedArticles = visibleArticles.filter((a) => !duoIds.has(a.id));
+
+  const { rows, leftovers } = buildRows(feedArticles);
   const hasMore = visibleCount < ARTICLES.length;
+
+  const duoSection =
+    duo.length === 2 ? (
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 items-stretch">
+        <div className="h-full">
+          <FeaturedArticleCard
+            article={duo[0]}
+            badgeLabel="Gündem"
+            kicker="Sine-Meta · Öne Çıkan"
+            counter="Seçki"
+          />
+        </div>
+        <div className="h-full">
+          <FeaturedArticleCard
+            article={duo[1]}
+            badgeLabel="Odak"
+            kicker="Sine-Meta · Editör Notu"
+            ribbon="Özel"
+          />
+        </div>
+      </section>
+    ) : null;
 
   return (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Sinema Haberleri, İncelemeler ve Listeler</h1>
         {rows.map((r, i) => (
-          <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
+          <div key={r.center.id}>
+            <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
+            {i === 1 ? duoSection : null}
+          </div>
         ))}
+        {rows.length < 2 ? duoSection : null}
 
         {leftovers.length > 0 ? (
           <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 auto-rows-fr items-stretch">
@@ -176,6 +211,7 @@ function Index() {
             ))}
           </section>
         ) : null}
+
 
         {hasMore ? (
           <div className="flex justify-center mb-12">
