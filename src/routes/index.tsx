@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import { ArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
+import { ArticleCard, FeaturedArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
 
 const PAGE_SIZE = 20;
