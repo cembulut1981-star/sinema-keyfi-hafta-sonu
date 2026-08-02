@@ -25,6 +25,22 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "selena-gomez-becky-g-benny-blanco-te-olvido-la-la",
+    title: "Selena Gomez ve Becky G, Benny Blanco'nun \"Te Olvido (La La)\" Şarkısında Buluştu",
+    excerpt: "Benny Blanco, yaklaşan albümü \"Hermoso\"nun ilk tadımlığı olan cumbia esintili \"Te Olvido (La La)\" için eşi Selena Gomez ve Becky G'yi bir araya getirdi.",
+    body: "Benny Blanco, yaklaşan albümü 'Hermoso'nun habercisi olan cumbia esintili yeni şarkısı 'Te Olvido (La La)'yı yayınladı. Yapımcı bu kez iki özel ismi yardıma çağırdı: eşi Selena Gomez ve Becky G, İspanyolca şarkıya hem yüksek enerji hem de Chicana gururu taşıyor.\n\nBecky G nakaratta \"Dime si somo o no somo de una vez, te lo pido / Y así yo decido si te quiero o te olvido\" diye söylüyor — yani \"Söyle bana, biz var mıyız yok muyuz, bir kez olsun söyle / Ki ben de seni sevmeye mi yoksa unutmaya mı karar veresim\".\n\nGomez'in de şarkıda kendi İspanyolca bölümü var; sanatçı daha önce 2021'de 'Revelación' EP'siyle İspanyolca repertuvarına yönelmişti.\n\nKlipte üçlü, renkli bir mahalle partisi estetiğinde bir araya geliyor; Blanco'nun Latin popa açılan bu yeni dönemi, albümün ana damarını da işaret ediyor.",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/07/bekcy-benny-selena.jpg?w=1581&h=1054&crop=1",
+    source: "Rolling Stone",
+  },
+  {
+    slug: "massive-attack-singapur-filistin-sorusturmasi",
+    title: "Massive Attack, Singapur'da Filistin'e Destek Verdiği İçin Soruşturuluyor",
+    excerpt: "Grup, Singapur konserinde sahnede Filistin bayrağı açıp \"Free Palestine\" sloganı attırdıktan sonra soruşturma başlatıldı; iki üyeye ülkeye giriş yasağı getirildi.",
+    body: "Massive Attack, Çarşamba günkü Singapur konserinde Filistin'e destek gösterisinde bulunduktan sonra ülkenin kamusal söylem yasalarını ihlal ettiği gerekçesiyle soruşturma altına alındı. Cuma günü ilerleyen saatlerde gruptan iki üyeye ülkeye giriş yasağı getirildi.\n\nYerel yetkililer, grubun sahnede Filistin bayrağı açtığı ve seyirciye \"Free Palestine\" sloganı attırdığı bildirildikten sonra polis ile Infocomm Media Development Authority'nin (IMDA) soruşturma başlattığını doğruladı. \"Polis, şikâyetlerin kaydedildiğini ve soruşturmaların sürdüğünü teyit ediyor\" dedi yetkililer; \"IMDA da olası bir lisans koşulu ihlalini inceliyor.\"\n\nSingapur'da konser ve gösteri lisansları, siyasi içerikli mesajların sahneden verilmesini sıkı biçimde sınırlıyor; yabancı sanatçıların yerel siyasete ya da uluslararası çatışmalara dair tutum alması ruhsat ihlali sayılabiliyor.\n\nBristol çıkışlı trip-hop grubu, yıllardır Filistin meselesinde açık tutum alan ve kültürel boykot çağrılarını destekleyen sanatçılar arasında yer alıyor. Grup, soruşturmaya dair ilk aşamada resmi bir açıklama yapmadı.",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/07/GettyImages-2221878486.jpg?w=1600&h=900&crop=1",
+    source: "Rolling Stone",
+  },
+  {
     slug: "adam-lambert-american-idol-sonrasi-kariyeri",
     title: "Adam Lambert \"American Idol\"ı Nasıl Geride Bıraktı?",
     excerpt: "2009'da \"American Idol\"da ikinci olan Adam Lambert, yarışmanın kalıplarına sığmayan glam-rock sesiyle yarım asırlık bir kariyer kurdu: solo albümler, on yılı aşkın Queen vokalliği ve müzikal tiyatroya dönüş.",
