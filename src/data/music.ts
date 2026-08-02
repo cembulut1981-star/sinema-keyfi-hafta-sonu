@@ -31,6 +31,8 @@ export const MUSIC: MusicItem[] = [
     body: "Benny Blanco, yaklaşan albümü 'Hermoso'nun habercisi olan cumbia esintili yeni şarkısı 'Te Olvido (La La)'yı yayınladı. Yapımcı bu kez iki özel ismi yardıma çağırdı: eşi Selena Gomez ve Becky G, İspanyolca şarkıya hem yüksek enerji hem de Chicana gururu taşıyor.\n\nBecky G nakaratta \"Dime si somo o no somo de una vez, te lo pido / Y así yo decido si te quiero o te olvido\" diye söylüyor — yani \"Söyle bana, biz var mıyız yok muyuz, bir kez olsun söyle / Ki ben de seni sevmeye mi yoksa unutmaya mı karar veresim\".\n\nGomez'in de şarkıda kendi İspanyolca bölümü var; sanatçı daha önce 2021'de 'Revelación' EP'siyle İspanyolca repertuvarına yönelmişti.\n\nKlipte üçlü, renkli bir mahalle partisi estetiğinde bir araya geliyor; Blanco'nun Latin popa açılan bu yeni dönemi, albümün ana damarını da işaret ediyor.",
     image: "https://www.rollingstone.com/wp-content/uploads/2026/07/bekcy-benny-selena.jpg?w=1581&h=1054&crop=1",
     source: "Rolling Stone",
+    videoUrl: "https://www.youtube.com/embed/XGKJxb2b3ZI",
+
   },
   {
     slug: "massive-attack-singapur-filistin-sorusturmasi",
