@@ -22,6 +22,30 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "napalm-kizi-fotografi-tartismasi-kim-cekti",
+    title: "\"Napalm Kızı\" Fotoğrafını Kim Çekti? Vietnam'ın En Ünlü Karesinin Ardındaki Tartışma",
+    excerpt: "1972'de çekilen ve Pulitzer kazanan \"Terror of War\" karesinin gerçek sahibi kim? Yeni bir soruşturma, yarım asırdır Nick Ut'a atfedilen fotoğrafın hikâyesini yeniden açıyor.",
+    body: "Saygon, 8 Haziran 1972. Gün doğmadan önce küçük bir gazeteci grubu savaş üniformalarını ve safari ceketlerini giyip minibüs ve kiralık araçlardan oluşan bir konvoyla uyanan şehirden sıyrıldı. Kuzeybatıya doğru hızlanırken sığınacak yer arayan insan kalabalıklarının arasından geçtiler: taşıyabildikleri her şeyi sırtlanmış, çocuklarını kollarında taşıyan siviller güneye akan bir hüzün nehri oluşturuyordu.\n\nGazeteciler, Trảng Bàng adlı kasabaya, Kuzey Vietnam ordusunun Güney Vietnam kuvvetlerine yönelik taarruzunun üçüncü gününü izlemeye gidiyordu. Grubun içinde Güney Vietnamlı askeri fotoğrafçılar ve serbest çalışan kameramanlar da vardı. O gün, yüzyılın en tanınmış savaş fotoğraflarından birinin doğduğu gün olacaktı: napalm bombardımanının ardından yolda çıplak koşan Kim Phuc'un görüntüsü.\n\nAssociated Press, \"Terror of War\" olarak bilinen kareyi yarım asırdır kadrolu fotoğrafçısı Nick Ut'a atfediyor; fotoğraf 1973'te Pulitzer kazandı ve savaş karşıtı hareketin simgesi oldu. Ancak son yıllarda ortaya atılan iddialar, karenin o gün aynı yolda bulunan serbest bir Vietnamlı fotoğrafçı tarafından çekilmiş olabileceğini söylüyor.\n\nRolling Stone'un uzun soluklu incelemesi; o günün kronolojisini, filmlerin laboratuvara ulaşma sırasını, ajansın arşiv kayıtlarını ve olay yerindeki tanıkların birbiriyle çelişen anlatılarını karşılaştırıyor. AP kendi yürüttüğü iç soruşturmanın sonunda atfı değiştirmek için yeterli kanıt bulunmadığını açıklamış olsa da, tartışma fotoğrafın telif ve tarih yazımı boyutuyla sürüyor.\n\nDosyanın merkezinde teknik bir tartışmadan fazlası var: savaş muhabirliğinin hiyerarşisi, yerel gazetecilerin uluslararası ajanslar içindeki görünmezliği ve bir imgenin kime ait olduğu sorusunun kimin tarihini yazdığıyla nasıl iç içe geçtiği.",
+    image: "https://www.rollingstone.com/wp-content/uploads/2025/07/AP72060801062-credited-to-Nick.jpg?w=1600&h=900&crop=1",
+    source: "Rolling Stone",
+  },
+  {
+    slug: "wicker-alexander-skarsgard-hasir-koca-filmi",
+    title: "Alexander Skarsgård'ın Yeni Filmi \"Wicker\": Hasırdan Örülmüş Bir Koca",
+    excerpt: "Olivia Colman, Peter Dinklage, Elizabeth Debicki ve Alexander Skarsgård'ın yer aldığı \"Wicker\", aşkta şansı yaman bir balıkçı kadının sepetçiden kendisine bir koca ördürmesini anlatan tuhaf bir romantik komedi.",
+    body: "Modern çağda flört etmek zor; öyle ki insanlar etten kemikten partnerlerden uzaklaşıp dijital eşlere yöneliyor. 'Wicker', bu olguya ortaçağ üzerinden bakıyor.\n\nAlexander Skarsgård, Olivia Colman, Elizabeth Debicki ve Peter Dinklage'ın rol aldığı filmde, aşkta şansı yaman gitmemiş bir balıkçı kadın (Colman) köyün sepetçisine (Dinklage) gidip kendisine bir koca örmesini istiyor. Sepetçi de hiç gözünü kırpmadan bunu yapıyor: hasırdan örülmüş, yakışıklı ve şaşırtıcı derecede yetenekli bir eş.\n\nFragman, filmin \"yalnızlık salgını\" tartışmasına alışılmadık bir yerden yaklaştığını gösteriyor. Colman'ın karakteri cinsel yaşamını köylülerle çekinmeden konuşuyor; kırkını geçmiş kadınların arzusunun görünürlüğü açısından bu, hele bir dönem filminde, hâlâ radikal duruyor.\n\n'Pillion' ve 'Murderbot' ile \"tuhaf ve çekici\" dönemine giren Skarsgård'ın hasırdan yapılmış kocası, son yılların 'Nosferatu' ve 'Frankenstein' gibi karanlık \"yaratık aşkı\" filmlerinin aksine daha tatlı, romantik komediye yakın bir tonda ilerliyor gibi görünüyor.\n\nElevation Pictures imzalı film, ilk fragmanının ardından festival sezonunun en çok merak edilen tuhaf yapımlarından biri hâline geldi.",
+    image: "https://kotaku.com/app/uploads/2026/07/wicker-1200x675.jpg",
+    source: "Kotaku",
+  },
+  {
+    slug: "street-fighter-filmi-jason-momoa-blanka-goruntusu",
+    title: "Jason Momoa'nın Blanka'sı \"Street Fighter\" Filminde Biraz Lanetli Görünüyor",
+    excerpt: "Yeni bir sahne videosu, Jason Momoa'nın canlandırdığı Blanka'yı Andrew Koji'nin Ryu'suyla dövüşürken gösteriyor. Yeşil derili mutantın CGI hâli hayranları pek ikna etmedi.",
+    body: "Geriye dönüp bakınca, Jason Momoa'nın canlandırdığı Blanka'nın canlı aksiyon 'Street Fighter' filminde nasıl görüneceğine dair net bir beklentimiz yoktu. Oyunlarda elektrik kullanan yeşil mutantın tasarımı öylesine insan dışı ki, bunu ister pratik efektlerle ister CGI ile gerçekçi bir zemine oturtmaya çalıştığınızda sonuç kaçınılmaz olarak biraz tuhaf çıkıyor.\n\nŞimdi karakterin en net görüntüsüne, Andrew Koji'nin Ryu'suyla dövüştüğü yeni bir sahne videosuyla kavuştuk. İkili, loş ışıklı bir hapishane kafes dövüşü gibi görünen bir mekânda karşı karşıya geliyor; sahnenin karanlığı bu Blanka versiyonunun bir çocuğun uyku felci yaratığına benzemesine katkı sağlıyor.\n\nFilmin kadrosu baştan beri alışılmadık: rapçi 50 Cent'ten internet fenomenlerine uzanan isimler Capcom'un dövüş oyunlarındaki tuhaf karakterleri canlandırıyor. Momoa kadronun en büyük isimlerinden biri ve görüntü rahatsız edici olsa da oyuncu rolün bütününe kendini teslim etmiş görünüyor.\n\n'Street Fighter' 16 Ekim'de vizyona giriyor. Geniş bir topluluk kadrosuna sahip olsa da filmin merkezinde Ryu ve Ken'in bozulmuş dostluğunun yer alacağı anlaşılıyor.",
+    image: "https://kotaku.com/app/uploads/2026/07/blanka-1200x675.jpg",
+    source: "Kotaku",
+  },
+  {
     slug: "spider-man-brand-new-day-gise-rekoru-onizleme",
     title: "\"Spider-Man: Brand New Day\" 72 Milyon Dolarlık Ön Gösterimle Gişe Rekoru Kırdı",
     excerpt: "Tom Holland'ın yeni Örümcek Adam filmi, ön gösterimlerde 72 milyon dolar hasılat yaparak \"Avengers: Endgame\"in 60 milyon dolarlık rekorunu tarihe gömdü.",
