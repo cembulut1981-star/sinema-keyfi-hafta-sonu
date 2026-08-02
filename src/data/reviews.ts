@@ -125,7 +125,7 @@ Kaynak: The Guardian`,
   {
     slug: "they-fight-boxing-drama-holland",
     origTitle: "They Fight",
-    title: "\"They Fight\" — André Holland'ın Boks Draması Duygusal Bir Gut Punch",
+    title: "\"They Fight\" — André Holland'ın Boks Draması Duygusal Bir \"Mideye Yumruk\"",
     excerpt: "'Creed' ve 'Million Dollar Baby' geleneğini sürdüren 'They Fight', unutulmaz bir André Holland performansıyla Washington DC'nin sert arka planında şefkat ve sıcaklık buluyor — Guardian'a göre yılın en dokunaklı spor filmlerinden.",
     rating: "4/5",
     image: theyFightAsset.url,
