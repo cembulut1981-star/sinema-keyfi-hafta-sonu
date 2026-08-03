@@ -25,6 +25,15 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "ariana-grande-sagliksag-tartismalari-ara-veriyor",
+    title: "Ariana Grande Ara Veriyor: Turne Bitince Gözlerden Uzaklaşacak, Broadway Projesinden Çekildi",
+    excerpt: "\"Eternal Sunshine\" turnesi 1 Eylül'de Londra'da sona erdikten sonra Ariana Grande kamusal hayattan çekiliyor; sağlığına dair bitmeyen spekülasyonların ardından Sondheim müzikali \"Sunday in the Park with George\"un West End yorumundan da ayrıldı.",
+    body: "Ariana Grande, 'Eternal Sunshine' turnesinin perdesi kapandıktan sonra sahne ışıklarından uzaklaşıyor. Grammy ödüllü şarkıcının temsilcisi, turnenin 1 Eylül'de Londra'da tamamlanmasının ardından sanatçının \"görünürlükten bir adım geri çekileceğini\" doğruladı.\n\nBu aranın ilk somut sonucu Broadway/West End cephesinde görüldü: Grande, gelecek yaz Londra'daki Barbican Centre'da açılması planlanan Stephen Sondheim müzikali 'Sunday in the Park with George' yorumunda yer almayacak. Yapım, kendisini 'Wicked' partneri Jonathan Bailey ile yeniden buluşturacaktı. Sanatçıya yakın bir kaynak, Grande'nin \"projeyi hayata geçiren muhteşem ekibi desteklemek için sabırsızlandığını\" söyledi. Yapım şirketi Empire Street Productions da kararın \"kolay olmadığını bildiklerini\" ve tam destek verdiklerini açıkladı.\n\nTurnede 13 konser daha kaldı; Chicago ve Londra durakları programda. \"Turneyi hem sağlıklı hem mutlu biçimde, yüksek bir notada bitirmeyi bekliyor,\" dedi temsilcisi. \"Ardından da bitmek bilmeyen kamusal incelemeye yol açan, halkın önünde olmayı gerektiren işlerden hak ettiği bir mola verecek.\"\n\nGrande'nin sağlığı son yıllarda sürekli bir tartışma konusu oldu; hayranların fiziksel görünümüne dair yorumları, turnenin haziranda başlamasıyla arttı ve temmuzda \"Petal\" tekliyle klibinin yayınlanmasının ardından zirveye ulaştı.\n\nŞarkıcı bu tartışmalara dair büyük ölçüde sessiz kalmayı seçti; ancak daha önce bedeninin yabancılar tarafından gözlemlenip yorumlanmasının rahatsızlığından söz etmişti. 2024 sonundaki bir podcast söyleşisinde 16 yaşından beri kendisini \"petri kabındaki bir numune\" gibi hissettiğini anlatmıştı: \"Bende neyin yanlış olduğuna dair her versiyonu duydum; düzeltiyorsun, sonra başka bir şey yanlış oluyor.\"\n\nTemsilcisinin altını çizdiği nokta ise şu: \"Bu turne onun için güzel bir deneyim oldu. Hayranlarını seviyor ve turnenin her dakikasını çok sevdi.\"",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ariana_Grande_promoting_Wicked_%282024%29.jpg",
+    source: "Entertainment Weekly",
+  },
+
+  {
     slug: "selena-gomez-becky-g-benny-blanco-te-olvido-la-la",
     title: "Selena Gomez ve Becky G, Benny Blanco'nun \"Te Olvido (La La)\" Şarkısında Buluştu",
     excerpt: "Benny Blanco, yaklaşan albümü \"Hermoso\"nun ilk tadımlığı olan cumbia esintili \"Te Olvido (La La)\" için eşi Selena Gomez ve Becky G'yi bir araya getirdi.",
