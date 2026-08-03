@@ -68,9 +68,32 @@ function NewsPage() {
         )}
 
 
-        <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
-          <ReactMarkdown>{n.body}</ReactMarkdown>
-        </div>
+        {isNapalm ? (
+          <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px] prose-p:my-8">
+            {n.body.split("\n\n").map((para, i) => (
+              <div key={i}>
+                <ReactMarkdown>{para}</ReactMarkdown>
+                {i === 1 ? (
+                  <figure className="my-10 flex justify-center not-prose">
+                    <div className="w-full max-w-[560px] bg-[#ffbd3f] p-3">
+                      <div className="relative aspect-[3/2] overflow-hidden bg-muted">
+                        <img src={nickUtAsset.url} alt="Fotoğrafçı Nick Ut, kamerasıyla" className="w-full h-full object-cover" />
+                      </div>
+                      <figcaption className="mt-3 text-center font-display text-sm font-black uppercase tracking-wider text-black">
+                        Nick Ut (1951)
+                      </figcaption>
+                    </div>
+                  </figure>
+                ) : null}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
+            <ReactMarkdown>{n.body}</ReactMarkdown>
+          </div>
+        )}
+
 
         <ShareButtons title={n.title} path={`/haber/${slug}`} />
         </article>
