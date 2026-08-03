@@ -5,6 +5,7 @@ import { SiteShell } from "@/components/site/SiteShell";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getNews, NEWS } from "@/data/news";
+import nickUtAsset from "@/assets/nick-ut.png.asset.json";
 
 export const Route = createFileRoute("/haber/$slug")({
   beforeLoad: ({ params }) => {
@@ -38,6 +39,7 @@ function NewsPage() {
   const { slug } = Route.useParams();
   const n = getNews(slug)!;
   const others = NEWS.filter((x) => x.slug !== slug);
+  const isNapalm = slug === "napalm-kizi-fotografi-tartismasi-kim-cekti";
 
   return (
     <SiteShell>
@@ -51,7 +53,7 @@ function NewsPage() {
           Kaynak: <em>{n.source}</em>
         </div>
 
-        {slug === "napalm-kizi-fotografi-tartismasi-kim-cekti" ? (
+        {isNapalm ? (
           <div className="my-10">
             <div className="relative aspect-[16/9] w-full overflow-hidden bg-muted">
               <img src={n.image} alt={n.title} className="w-full h-full object-cover" />
@@ -68,9 +70,32 @@ function NewsPage() {
         )}
 
 
-        <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
-          <ReactMarkdown>{n.body}</ReactMarkdown>
-        </div>
+        {isNapalm ? (
+          <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px] prose-p:my-8">
+            {n.body.split("\n\n").map((para, i) => (
+              <div key={i}>
+                <ReactMarkdown>{para}</ReactMarkdown>
+                {i === 1 ? (
+                  <figure className="my-10 flex justify-center not-prose">
+                    <div className="w-full max-w-[560px] bg-[#ffbd3f] p-3">
+                      <div className="relative aspect-[3/2] overflow-hidden bg-muted">
+                        <img src={nickUtAsset.url} alt="Fotoğrafçı Nick Ut, kamerasıyla" className="w-full h-full object-cover" />
+                      </div>
+                      <figcaption className="mt-3 text-center font-display text-sm font-black uppercase tracking-wider text-black">
+                        Nick Ut (1951)
+                      </figcaption>
+                    </div>
+                  </figure>
+                ) : null}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
+            <ReactMarkdown>{n.body}</ReactMarkdown>
+          </div>
+        )}
+
 
         <ShareButtons title={n.title} path={`/haber/${slug}`} />
         </article>
