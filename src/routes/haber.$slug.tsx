@@ -5,6 +5,7 @@ import { SiteShell } from "@/components/site/SiteShell";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getNews, NEWS } from "@/data/news";
+import nickUtAsset from "@/assets/nick-ut.png.asset.json";
 
 export const Route = createFileRoute("/haber/$slug")({
   beforeLoad: ({ params }) => {
@@ -38,6 +39,7 @@ function NewsPage() {
   const { slug } = Route.useParams();
   const n = getNews(slug)!;
   const others = NEWS.filter((x) => x.slug !== slug);
+  const isNapalm = slug === "napalm-kizi-fotografi-tartismasi-kim-cekti";
 
   return (
     <SiteShell>
@@ -51,7 +53,7 @@ function NewsPage() {
           Kaynak: <em>{n.source}</em>
         </div>
 
-        {slug === "napalm-kizi-fotografi-tartismasi-kim-cekti" ? (
+        {isNapalm ? (
           <div className="my-10">
             <div className="relative aspect-[16/9] w-full overflow-hidden bg-muted">
               <img src={n.image} alt={n.title} className="w-full h-full object-cover" />
