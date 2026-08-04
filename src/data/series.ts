@@ -13,6 +13,15 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "neil-patrick-harris-barney-stinson-toksik-tartismasi",
+    title: "Neil Patrick Harris, Barney Stinson'ın \"Toksik\" Görünmesinin Asıl Nedenini Açıkladı",
+    excerpt: "\"How I Met Your Mother\"ın dokuz sezonunda Barney'i canlandıran Harris'e göre karakterin davranışlarının hiçbiri \"kanıtlanmış ya da gerçek\" değil: Her şey yaşlı Ted'in anlattığı hikâyenin öznel süzgecinden geçiyor.",
+    body: "Neil Patrick Harris, 'How I Met Your Mother'daki karakterinin neden bu kadar \"toksik\" göründüğünü ve bu karanlık tarafın her zaman göründüğü gibi olmadığını anlattı.\n\n53 yaşındaki Harris, CBS'te 2005-2014 arasında yayınlanan dizinin dokuz sezonunda da zengin ve çapkın Barney Stinson'ı oynadı. Karakter dizide vicdansız bir çapkın olarak kurgulanmıştı; hem izleyiciler hem eleştirmenler yıllar içinde onun sık sık \"toksik erkeklik\" tanımıyla anıldığını belirtti.\n\nThe Times'a konuşan Harris, karakterin toksik doğasına ilişkin soruya, dizinin tümünün yaşlı Ted'in anlattığı bir hikâye olarak kurulduğunu hatırlatarak yanıt verdi (geri dönüşlerde Josh Radnor, anlatıcı olarak Bob Saget). Bu da Barney tasvirinin baştan sona öznel olduğu anlamına geliyor.\n\n\"Davranışların hiçbiri, bilirsiniz, kanıtlanmış ya da gerçek bile değil,\" dedi. \"Bu yüzden Barney'nin gerçekte olduğunu düşündüğümden çok daha şehvetli, çok daha saçma ve açık olma özgürlüğüne sahiptim. O her zaman Ted'in omzundaki şeytandı.\"\n\nHarris 2023'te Barney'e 'How I Met Your Father' spin-off'unda geri döndü. Hulu'da iki sezon süren dizide karakter, ikinci sezonda iki bölümde göründü — oyuncunun daha önce \"herkesi başımıza iş açmak\" korkusuyla dönmeyeceğini söylemesine rağmen.\n\nHilary Duff'la 'Wondercade' bülteni için yaptığı söyleşide şöyle yazmıştı: \"Barney'nin numaraları, büyüklük kuruntuları herkesi büyük olasılıkla belaya sokar. O yüzden yollarını değiştirmediyse ya da bir rahibe manastırına katılmadıysa, bunun kimsenin yararına olduğundan emin değilim.\" Duff da bu gerekçeye katılarak şaka yapmıştı: \"Nasıl karşılayacağını bilmiyorum ama Barney 2022'de kesin hapiste olurdu.\"\n\n'How I Met Your Mother' yayın döneminde istikrarlı bir reyting başarısıydı; ilk sezonları eleştirmenlerden de güçlü not aldı. Dizi toplamda 28 Emmy adaylığı topladı, bunların arasında En İyi Komedi Dizisi dalı da vardı.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Neil_Patrick_Harris-2952.jpg/1280px-Neil_Patrick_Harris-2952.jpg",
+    source: "The Independent",
+  },
+
+  {
     slug: "house-of-the-dragon-sunfyre-donusu-dreamfyre-yonetmen",
     title: "\"House of the Dragon\" Yönetmeni Sunfyre'ın Dönüşünü ve Dreamfyre Sürprizini Anlattı",
     excerpt: "3. sezonun final öncesi bölümü iki büyük ejderha sürprizi getirdi: ölü sanılan Sunfyre'ın dönüşü ve Helaena'ya bağlı Dreamfyre'ın ilk kez görünmesi. Yönetmen Nina Lopez-Corrado sahnelerin arkasını açıkladı.",
