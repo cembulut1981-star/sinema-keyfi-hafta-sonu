@@ -29,6 +29,22 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "i-want-your-sex-gregg-araki-inceleme",
+    origTitle: "I Want Your Sex",
+    title: "\"I Want Your Sex\" İncelemesi: Gregg Araki, Z Kuşağının Sofuluğunu Çılgın Bir Komediyle İğneliyor",
+    excerpt: "San Francisco Chronicle eleştirmeni David Lewis'e göre Araki'nin yeni filmi, kariyerinin en iyi kadrolarından biriyle çok eğlenceli: Olivia Wilde'ın canlandırdığı provokatör sanatçı Erika Tracy filmi tümüyle ele geçiriyor.",
+    rating: "4/5",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Olivia_Wilde_by_Gage_Skidmore_2.jpg/1280px-Olivia_Wilde_by_Gage_Skidmore_2.jpg",
+    body: `Onlarca yıldır bağımsız sinemanın efsanevi isimlerinden Gregg Araki, cinsel ahlak kodlarımıza saygısızca meydan okuyan bir kariyer kurdu. Son filmi 'I Want Your Sex'te bu kez sözde sofu Z kuşağını hedef alıyor — ve kariyerinin en iyi kadrolarından biri sayesinde sonuç epey komik.
+
+Çocuksu ve savruk Elliot (mükemmel bir Cooper Hoffman), okuldan yeni çıkmış ve cinselliğin neredeyse hiç yaşanmadığı, yaşandığında da tam bir esneme sebebi olduğu bir ilişkiye sıkışmış durumda. Ama yatak odasındaki hayatı, bir \"hipster terhanesi\"nde iş bulmasıyla sapkın bir yön alıyor: Elliot burada ikonik sanat provokatörü Erika Tracy'nin (harikulade bir Olivia Wilde) etkisi altına giriyor.
+
+Wilde'ın Erika'sı, film boyunca hem itici hem karşı konulamaz olmayı başaran bir güç figürü; Araki'nin mizahı ise özellikle Elliot'ın kendi arzularını tanımaya çalıştığı bölümlerde en keskin hâline ulaşıyor. Charli xcx, Mason Gooding, Chase Sui Wonders, Margaret Cho ve Johnny Knoxville'in de yer aldığı kadro, filmin tuhaf enerjisini dengede tutuyor.
+
+90 dakikalık film, erotik komedi ile gerilim arasında gidip gelirken zaman zaman kendi provokasyonuna fazla güveniyor. Yine de Araki'nin, açıklıkla değil kırılganlıkla ilgili bir çağrı yaptığı final, filmi basit bir şok komedisinin ötesine taşıyor: Birbirine gerçekten görünmeyi göze alan insanlar hakkında, şaşırtıcı biçimde tatlı bir hikâye.`,
+  },
+
+  {
     slug: "spider-man-brand-new-day-sf-chronicle-inceleme",
     origTitle: "Spider-Man: Brand New Day",
     title: "\"Spider-Man: Brand New Day\" Tom Holland'ın Bugüne Kadarki En İyi Örümcek Adam Filmi",
