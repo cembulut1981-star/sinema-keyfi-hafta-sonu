@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
+import { articleProse } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getSeries, SERIES } from "@/data/series";
@@ -66,7 +67,7 @@ function SeriesPage() {
           </div>
         </div>
 
-        <div className="prose prose-neutral max-w-none prose-headings:font-serif-display prose-p:leading-relaxed prose-p:text-[17px]">
+        <div className={articleProse}>
           <ReactMarkdown>{s.body}</ReactMarkdown>
         </div>
 
