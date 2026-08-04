@@ -34,7 +34,7 @@ export const REVIEWS: Review[] = [
     title: "\"I Want Your Sex\" İncelemesi: Gregg Araki, Z Kuşağının Sofuluğunu Çılgın Bir Komediyle İğneliyor",
     excerpt: "San Francisco Chronicle eleştirmeni David Lewis'e göre Araki'nin yeni filmi, kariyerinin en iyi kadrolarından biriyle çok eğlenceli: Olivia Wilde'ın canlandırdığı provokatör sanatçı Erika Tracy filmi tümüyle ele geçiriyor.",
     rating: "4/5",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Olivia_Wilde_by_Gage_Skidmore_2.jpg/1280px-Olivia_Wilde_by_Gage_Skidmore_2.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Olivia_Wilde_SFFILM_2026_05.jpg/1280px-Olivia_Wilde_SFFILM_2026_05.jpg",
     body: `Onlarca yıldır bağımsız sinemanın efsanevi isimlerinden Gregg Araki, cinsel ahlak kodlarımıza saygısızca meydan okuyan bir kariyer kurdu. Son filmi 'I Want Your Sex'te bu kez sözde sofu Z kuşağını hedef alıyor — ve kariyerinin en iyi kadrolarından biri sayesinde sonuç epey komik.
 
 Çocuksu ve savruk Elliot (mükemmel bir Cooper Hoffman), okuldan yeni çıkmış ve cinselliğin neredeyse hiç yaşanmadığı, yaşandığında da tam bir esneme sebebi olduğu bir ilişkiye sıkışmış durumda. Ama yatak odasındaki hayatı, bir \"hipster terhanesi\"nde iş bulmasıyla sapkın bir yön alıyor: Elliot burada ikonik sanat provokatörü Erika Tracy'nin (harikulade bir Olivia Wilde) etkisi altına giriyor.
