@@ -29,6 +29,21 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "spider-man-brand-new-day-sf-chronicle-inceleme",
+    origTitle: "Spider-Man: Brand New Day",
+    title: "\"Spider-Man: Brand New Day\" Tom Holland'ın Bugüne Kadarki En İyi Örümcek Adam Filmi",
+    excerpt: "San Francisco Chronicle eleştirmeni Mick LaSalle'a göre Destin Daniel Cretton'ın filmi, Holland'ın üçlemesindeki tüm halkaları toparlayıp seriyi hem daha duygusal hem daha eğlenceli bir yere taşıyor.",
+    rating: "4/5",
+    image: "https://static.time.com/v3/assets/bltea6093859af6183b/bltd536e66953ca6cf9/6a68f5dad15efc423088bfa5/spidey_close-up.jpg?branch=production&width=1400&quality=85&auto=webp&crop=3:2",
+    body: `Mick LaSalle'ın San Francisco Chronicle'daki incelemesine göre 'Spider-Man: Brand New Day', Tom Holland'ın canlandırdığı Örümcek Adam filmlerinin en iyisi. Bunun nedeni gösterişli bir final dövüşü ya da sürpriz konuk oyuncular değil; filmin Peter Parker'ı yeniden sıradan, kırılgan ve yalnız bir genç adam olarak ele almaya cesaret etmesi.
+
+'No Way Home'un sonunda herkesin hafızasından silinen Peter, artık ne bir ekibe ne de bir aileye yaslanabiliyor. Cretton bu sıfır noktasını bir kayıp öyküsü gibi kuruyor: kahramanın gücü değil, kimin için savaştığı sorusu merkeze geliyor. LaSalle'ın altını çizdiği gibi, seri ilk kez süper kahraman mitolojisinden çok bir büyüme hikâyesi gibi işliyor.
+
+Holland'ın performansı bu tonu taşıyabilecek olgunlukta. Aksiyon sahneleri gereksiz CGI kalabalığından uzak, mizah ise karakterden çıkıyor; filmin New York'u yeniden somut, kalabalık ve tanıdık bir yer.
+
+Sonuç, Marvel'ın son dönem formül yorgunluğuna iyi bir panzehir: hem çizgi roman okurunu hem de süper kahraman filmlerinden bıkmış seyirciyi tatmin edebilecek, şaşırtıcı biçimde duygusal bir yaz filmi.`,
+  },
+  {
     slug: "los-vampires-inceleme",
     origTitle: "Los Vampires",
     title: "\"Los Vampires\" İncelemesi: İki Dracula'nın Kapıştığı, Çekici Ama Dengesiz Bir Hollywood Geri Dönüşü",
