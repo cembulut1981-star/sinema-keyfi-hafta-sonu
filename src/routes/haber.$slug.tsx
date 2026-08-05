@@ -41,6 +41,8 @@ function NewsPage() {
   const n = getNews(slug)!;
   const others = NEWS.filter((x) => x.slug !== slug);
   const isNapalm = slug === "napalm-kizi-fotografi-tartismasi-kim-cekti";
+  // Dikey (portre) fotoğraflarda 16/9 çerçeve yüzü kesiyor.
+  const isPortraitPhoto = slug === "audrey-hepburn-anne-frank-rolunu-neden-reddetti";
 
   return (
     <SiteShell>
@@ -62,13 +64,17 @@ function NewsPage() {
           </div>
         ) : (
           <div className="my-10 flex justify-center">
-            <div className="w-full max-w-[560px] p-3" style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}>
-              <div className="relative aspect-[16/9] overflow-hidden bg-muted">
-                <img src={n.image} alt={n.title} className="w-full h-full object-cover" />
+            <div
+              className={`w-full ${isPortraitPhoto ? "max-w-[420px]" : "max-w-[560px]"} p-3`}
+              style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}
+            >
+              <div className={`relative ${isPortraitPhoto ? "aspect-[4/5]" : "aspect-[16/9]"} overflow-hidden bg-muted`}>
+                <img src={n.image} alt={n.title} className="w-full h-full object-cover object-top" />
               </div>
             </div>
           </div>
         )}
+
 
 
         {isNapalm ? (
