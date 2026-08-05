@@ -69,8 +69,19 @@ function NewsPage() {
               style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}
             >
               <div className={`relative ${isPortraitPhoto ? "aspect-[4/5]" : "aspect-[16/9]"} overflow-hidden bg-muted`}>
-                <img src={n.image} alt={n.title} className="w-full h-full object-cover object-top" />
+                {n.videoUrl ? (
+                  <iframe
+                    src={n.videoUrl}
+                    title={n.title}
+                    className="w-full h-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                ) : (
+                  <img src={n.image} alt={n.title} className="w-full h-full object-cover object-top" />
+                )}
               </div>
+
             </div>
           </div>
         )}
