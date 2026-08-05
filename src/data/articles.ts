@@ -46,6 +46,7 @@ const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
   excerpt: n.excerpt,
   image: n.image,
   newsSlug: n.slug,
+  videoUrl: n.videoUrl,
 }));
 
 const LIST_ARTICLES: Article[] = LISTS.map((l, i) => ({
