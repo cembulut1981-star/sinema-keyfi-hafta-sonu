@@ -204,7 +204,7 @@ export function FeaturedArticleCard({
     <img
       src={article.image}
       alt={article.title}
-      className="w-full h-full object-cover object-top"
+      className={`w-full h-full object-cover ${imageFocusClass(article)}`}
       width={1400}
       height={790}
       loading="eager"
@@ -339,6 +339,20 @@ const CATEGORY_LABEL: Record<CategorySlug, string> = {
   roportajlar: "Röportaj",
 };
 
+// Bazı portre görsellerde yüz, varsayılan "object-top" kırpmasıyla yarım kalıyor.
+// Bu içerikler için özel odak noktası tanımlıyoruz.
+const IMAGE_FOCUS: Record<string, string> = {
+  "audrey-hepburn-anne-frank-rolunu-neden-reddetti": "object-[50%_35%]",
+  "juliette-lewis-cape-fear-gosterimi-sonrasi-ozur": "object-[50%_25%]",
+};
+
+export function imageFocusClass(article: Article) {
+  const slug =
+    article.newsSlug ?? article.seriesSlug ?? article.reviewSlug ?? article.listSlug ?? article.musicSlug ?? "";
+  return IMAGE_FOCUS[slug] ?? "object-top";
+}
+
+
 function getArticleLink(article: Article) {
   return article.reviewSlug
     ? { to: "/inceleme/$slug" as const, params: { slug: article.reviewSlug } }
@@ -378,7 +392,7 @@ export function SmallArticleCard({
                 <img
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover object-top"
+                  className={`w-full h-full object-cover ${imageFocusClass(article)}`}
                   width={600}
                   height={450}
                   loading="lazy"
@@ -388,7 +402,7 @@ export function SmallArticleCard({
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover object-top"
+                className={`w-full h-full object-cover ${imageFocusClass(article)}`}
                 width={600}
                 height={450}
                 loading="lazy"
@@ -452,7 +466,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover object-top"
+                className={`w-full h-full object-cover ${imageFocusClass(article)}`}
                 width={1200}
                 height={750}
                 loading="lazy"
@@ -462,7 +476,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover object-top"
+              className={`w-full h-full object-cover ${imageFocusClass(article)}`}
               width={1200}
               height={750}
               loading="lazy"
