@@ -204,7 +204,7 @@ export function FeaturedArticleCard({
     <img
       src={article.image}
       alt={article.title}
-      className="w-full h-full object-cover object-top"
+      className={`w-full h-full object-cover ${imageFocusClass(article)}`}
       width={1400}
       height={790}
       loading="eager"
@@ -392,7 +392,7 @@ export function SmallArticleCard({
                 <img
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover object-top"
+                  className={`w-full h-full object-cover ${imageFocusClass(article)}`}
                   width={600}
                   height={450}
                   loading="lazy"
@@ -402,7 +402,7 @@ export function SmallArticleCard({
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover object-top"
+                className={`w-full h-full object-cover ${imageFocusClass(article)}`}
                 width={600}
                 height={450}
                 loading="lazy"
@@ -466,7 +466,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover object-top"
+                className={`w-full h-full object-cover ${imageFocusClass(article)}`}
                 width={1200}
                 height={750}
                 loading="lazy"
@@ -476,7 +476,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover object-top"
+              className={`w-full h-full object-cover ${imageFocusClass(article)}`}
               width={1200}
               height={750}
               loading="lazy"
