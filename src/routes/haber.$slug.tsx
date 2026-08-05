@@ -41,6 +41,8 @@ function NewsPage() {
   const n = getNews(slug)!;
   const others = NEWS.filter((x) => x.slug !== slug);
   const isNapalm = slug === "napalm-kizi-fotografi-tartismasi-kim-cekti";
+  // Dikey (portre) fotoğraflarda 16/9 çerçeve yüzü kesiyor.
+  const isPortraitPhoto = slug === "audrey-hepburn-anne-frank-rolunu-neden-reddetti";
 
   return (
     <SiteShell>
