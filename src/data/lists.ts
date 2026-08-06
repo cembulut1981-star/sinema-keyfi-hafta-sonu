@@ -1540,7 +1540,7 @@ Michel Gondry ve Charlie Kaufman'ın hafıza silme hikâyesinde Jim Carrey, Clem
 Ruffalo'nun "adalet arayan" rollerinin en büyüğü. Boston Globe'un Spotlight ekibinde Katolik Kilisesi'nin istismar örtbasını ortaya çıkaran araştırmacı gazeteci Michael Rezendes'i oynuyor. Film En İyi Film Oscar'ını kazandı, Ruffalo yine adaylar arasındaydı.
 
 Kaynak: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
-    image: "https://www.metacritic.com/a/img/resize/6f0373853afca68369f760e63178debc262e34f7/hub/2026/07/29/a868e16b-6dd2-43d6-9e27-5a807c6580de/mainmarkruffalo.jpg?auto=webp&quality=70&width=1024",
+    image: "https://www.metacritic.com/a/img/resize/a38737035466c4cf08a2d588c167f9d5cfdf3a24/hub/2026/07/29/a42bb4c5-77fb-44e6-b27c-6704e0e01a8b/whatdoesntkillyou.jpg?auto=webp&quality=70&width=1024",
     source: "Metacritic",
   },
 ];
