@@ -1473,11 +1473,82 @@ Kaynak: Giddy Up America — "The Ten Best Moments From 'Game of Thrones'".`,
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Game_of_Thrones_throne_model.jpg/1920px-Game_of_Thrones_throne_model.jpg",
     source: "Giddy Up America",
   },
+  {
+    slug: "mark-ruffalo-en-iyi-15-filmi",
+    title: "Mark Ruffalo'nun En İyi 15 Filmi: Spotlight'tan Zodiac'a",
+    excerpt: "Metacritic, Mark Ruffalo'nun kariyerini eleştirmen puanlarına göre sıraladı. Bağımsız dramalardan Marvel gişesine, adalet arayan gazetecilerden Viktorya dönemi komedisine uzanan 15 film.",
+    body: `Mark Ruffalo, hem bağımsız sinemanın hem de dünyanın en büyük film serisinin içinde eşit rahatlıkla var olabilen ender oyunculardan biri. Metacritic, eleştirmen puanlarını esas alarak Ruffalo'nun en iyi 15 filmini sıraladı — geriye doğru sayıyoruz.
+
+## 15. Collateral (2004)
+![Collateral](https://www.metacritic.com/a/img/resize/6c073f12f85ce6c3740431b1532e2675ab77ed76/hub/2026/07/29/3be3852e-f0c4-4a3d-b637-bbf32e258901/collateral.jpg?auto=webp&quality=70&width=1024)
+Ruffalo, Michael Mann'in gergin suç gerilimlerinde LAPD dedektifi Ray Fanning'i oynuyor. Tom Cruise ve Jamie Foxx'un taşıdığı filmde Ruffalo'nun rolü küçük ama Mann'in gece Los Angeles'ında iz bırakan bir varlık.
+
+## 14. Where the Wild Things Are (2009)
+![Where the Wild Things Are](https://www.metacritic.com/a/img/resize/6ec741bda77ec2ddd9d1a1681481b0d5b9384dd3/hub/2026/07/29/5fe5d79d-5d28-431d-8ea4-8aa042dffae3/wherethewildthingsare.jpg?auto=webp&quality=70&width=1024)
+Spike Jonze'un Maurice Sendak klasiğinden yaptığı melankolik uyarlama. Hayal gücü büyük, duyguları daha da büyük sekiz yaşındaki Max'in adasına giden yolda Ruffalo, çocukluğun kırılganlığını çerçeveleyen yetişkin dünyasını temsil ediyor.
+
+## 13. What Doesn't Kill You (2008)
+![What Doesn't Kill You](https://www.metacritic.com/a/img/resize/a38737035466c4cf08a2d588c167f9d5cfdf3a24/hub/2026/07/29/a42bb4c5-77fb-44e6-b27c-6704e0e01a8b/whatdoesntkillyou.jpg?auto=webp&quality=70&width=1024)
+Az izlenmiş ama eleştirmenlerin övdüğü bir suç draması. Ruffalo ve Ethan Hawke, South Boston'ın sert sokaklarından çıkmaya çalışan küçük çaplı suçluları oynuyor; hayatlarını düzeltme çabaları beklenen yöne gitmiyor.
+
+## 12. Arco (2025)
+![Arco](https://www.metacritic.com/a/img/resize/acd670f3dac345b198f6b41c1cecc1c10b341d8a/hub/2026/07/29/89ea9470-8db8-49dc-8958-a3cdf210ac69/arco.jpg?auto=webp&quality=70&width=1024)
+Fransız animasyonu, 2932 yılının ütopik dünyasından dinozorları görmek için zamanda yolculuğa çıkan 10 yaşındaki Arco'yu anlatıyor. Çocuk, hedefini ıskalayıp 2075'e düşüyor. Ruffalo İngilizce seslendirme kadrosunda.
+
+## 11. Mickey 17 (2025)
+![Mickey 17](https://www.metacritic.com/a/img/resize/93bfbe9f14252f3b22c5c293e1885dea695cc5a8/hub/2026/07/29/b1401d9e-a48d-4adb-9827-f906cc784eb0/mickey17.jpg?auto=webp&quality=70&width=1024)
+Bong Joon-ho'nun post-apokaliptik bilimkurgu komedisinde Ruffalo, buz gezegenini kolonileştirme misyonunun başındaki Kenneth Marshall'ı oynuyor: açıkça Trump'a göndermeler yapan, kibirli ve komik bir kötü.
+
+## 10. Dark Waters (2019)
+![Dark Waters](https://www.metacritic.com/a/img/resize/86f89ab7c77130a3ce85c9b6aab2e213b97b0b4d/hub/2026/07/29/4ca42598-7106-423a-be56-84c2c52ecb85/darkwaters.jpg?auto=webp&quality=70&width=1024)
+Todd Haynes'in gerçek olaylara dayanan hukuk gerilimi. Ruffalo, DuPont şirketini kimyasal kirlilik nedeniyle yıllar süren bir mücadeleyle mahkemeye taşıyan çevre avukatı Robert Bilott'u canlandırıyor — aynı zamanda filmin yapımcısı.
+
+## 9. Thor: Ragnarok (2017)
+![Thor: Ragnarok](https://www.metacritic.com/a/img/resize/a3c747cfae2e4004355559b8ccb3d45f14dfcd68/hub/2026/07/29/1ca4ab56-35cd-4845-aaed-43db2368a3dc/thorragnarok.jpg?auto=webp&quality=70&width=1024)
+Taika Waititi'nin yönettiği üçüncü Thor filmi, serinin tonunu tamamen komediye çeviriyor. Ruffalo'nun Hulk'u burada ilk kez tam anlamıyla konuşan, huysuz ve komik bir karakter hâline geliyor.
+
+## 8. Avengers: Endgame (2019)
+![Avengers: Endgame](https://www.metacritic.com/a/img/resize/8aaede0a77a1efbd901c86446f07726cd9599efd/hub/2026/07/29/8d0f93d8-6a4b-4266-830c-38d8c470d080/avengersendgame.jpg?auto=webp&quality=70&width=1024)
+MCU'nun ilk on yılının epik finali ve bir dönem tüm zamanların en çok gişe yapan filmi. Ruffalo'nun "Profesör Hulk"u, karakterin uzun yolculuğunun mantıklı ve şaşırtıcı derecede duygusal varış noktası.
+
+## 7. Zodiac (2007)
+![Zodiac](https://www.metacritic.com/a/img/resize/9a8602d2023c3839c09b90e8a48b336999c71582/hub/2026/07/29/71fe075d-e8e7-45b3-860a-28bef1c807fc/zodiac.jpg?auto=webp&quality=70&width=1024)
+David Fincher'ın takıntılı bakışını Zodiac cinayetlerine çevirdiği film. Ruffalo, davanın peşini bırakmayan dedektif Dave Toschi'yi oynuyor; kariyerinin "adalet arayan adam" rollerinin en soğukkanlısı.
+
+## 6. Foxcatcher (2014)
+![Foxcatcher](https://www.metacritic.com/a/img/resize/e80e65c05fbbce4ad34aea96908fdf612abe1314/hub/2026/07/29/0a49ca09-10f0-4ef6-a7f2-a655df2dcad7/foxcatcher.jpg?auto=webp&quality=70&width=1024)
+Ruffalo'nun du Pont ailesiyle ilgili iki filminden ikincisi. Olimpiyat şampiyonu güreşçi Dave Schultz rolüyle En İyi Yardımcı Erkek Oyuncu dalında Oscar'a aday oldu; bedensel dönüşümü kadar sessiz şefkati de konuşuldu.
+
+## 5. You Can Count on Me (2000)
+![You Can Count on Me](https://www.metacritic.com/a/img/resize/0d61cce1132de93149a61c8b214a08ac8b2ed037/hub/2026/07/29/45cbc388-6ba4-489c-88c8-17ce852be38e/youcancountonme.jpg?auto=webp&quality=70&width=1024)
+Ruffalo'nun çıkış rolü, Kenneth Lonergan'ın bağımsız dramasında geldi. Laura Linney'nin oynadığı yalnız anne Sammy'nin savruk kardeşi Terry olarak, oyunculuğunun bütün ileriki damarlarını burada gösteriyor.
+
+## 4. The Kids Are All Right (2010)
+![The Kids Are All Right](https://www.metacritic.com/a/img/resize/7300b1eeb9f180e9ae50f3588e9e0661bcd88bb1/hub/2026/07/29/28690a3b-85aa-46ad-962a-3973919cea81/kidsareallright.jpg?auto=webp&quality=70&width=1024)
+Annette Bening ve Julianne Moore'un iki ergen çocuklu bir çifti oynadığı Lisa Cholodenko filmi. Çocukların biyolojik babası Paul'ü arayıp bulmasıyla aile dengesi bozuluyor; Ruffalo bu rolle ilk Oscar adaylığını aldı.
+
+## 3. Poor Things (2023)
+![Poor Things](https://www.metacritic.com/a/img/resize/0431474592af7a939c8c0c79f141210add8d7820/hub/2023/09/11/5213317d-b568-4859-9076-f106f44f6c5a/poorthings.jpg?auto=webp&quality=70&width=1024)
+Yorgos Lanthimos'un Viktorya dönemi komedisinde Ruffalo, Bella Baxter'ı (Emma Stone) kaçıran züppe avukat Duncan Wedderburn'ü oynuyor. Kariyerinin en abartılı, en açıkça komik performansı — ve bir Oscar adaylığı daha.
+
+## 2. Eternal Sunshine of the Spotless Mind (2004)
+![Eternal Sunshine of the Spotless Mind](https://www.metacritic.com/a/img/resize/ee5ce8b3041e17fbd2fdd401170fdebfb1df7503/hub/2026/07/29/8afc5bcc-9d33-4cee-bbd9-3afcdfb17138/eternalsunshineofthespotlessmind.jpg?auto=webp&quality=70&width=1024)
+Michel Gondry ve Charlie Kaufman'ın hafıza silme hikâyesinde Jim Carrey, Clementine'e (Kate Winslet) dair tüm anılarını sildirmeye karar veriyor. Ruffalo, işlemi yürüten klinikteki teknisyen Stan olarak filmin dağınık insani tarafını taşıyor.
+
+## 1. Spotlight (2015)
+![Spotlight](https://www.metacritic.com/a/img/resize/1272a237592d94346cdf4fe8ab40336281932c0e/hub/2026/07/29/5ced3abc-89c2-4c34-a535-0f5ac56a7ffd/spotlight.jpg?auto=webp&quality=70&width=1024)
+Ruffalo'nun "adalet arayan" rollerinin en büyüğü. Boston Globe'un Spotlight ekibinde Katolik Kilisesi'nin istismar örtbasını ortaya çıkaran araştırmacı gazeteci Michael Rezendes'i oynuyor. Film En İyi Film Oscar'ını kazandı, Ruffalo yine adaylar arasındaydı.
+
+Kaynak: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
+    image: "https://www.metacritic.com/a/img/resize/6f0373853afca68369f760e63178debc262e34f7/hub/2026/07/29/a868e16b-6dd2-43d6-9e27-5a807c6580de/mainmarkruffalo.jpg?auto=webp&quality=70&width=1024",
+    source: "Metacritic",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [29, 28, 23, 22, 0, 24, 17, 30, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [31, 29, 28, 23, 22, 0, 24, 17, 30, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+
 
 
 
