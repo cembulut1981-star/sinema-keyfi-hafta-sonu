@@ -1393,11 +1393,91 @@ Kaynak: BBC Culture — Caryn James, "10 of the best TV shows to watch this Augu
     image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0p13955.jpg.webp",
     source: "BBC Culture",
   },
+  {
+    slug: "agustos-ayinin-en-iyi-10-filmi-bbc",
+    title: "The Dog Stars'tan One Night Only'ye: Ağustos'un İzlenmesi Gereken 10 Filmi",
+    excerpt: "Ridley Scott'ın Jacob Elordi'li kıyamet sonrası gerilimi, Eli Roth'un dondurmacı katili, Anthony Bourdain'in gençlik yılları ve rafa kaldırılmış Coyote vs Acme — BBC Culture'dan Nicholas Barber'ın ağustos seçkisi.",
+    body: `Ağustos, salonlarda da evde de alışılmadık ölçüde kalabalık bir ay. BBC Culture'dan Nicholas Barber, aya damga vuracak on filmi seçti: absürt bir romcom'dan Ridley Scott'ın yeni distopyasına, Cannes'ın en iyi eleştiri alan filminden yıllarca rafta bekletilmiş bir Looney Tunes uyarlamasına.
+
+## 1. One Night Only (7 Ağustos ABD/Kanada — 28 Ağustos İngiltere)
+Görünürde tipik bir romantik komedi: Monica Barbaro ve Callum Turner'ın canlandırdığı iki çekici New Yorklu, "Friends with Benefits" ve "Anyone but You"nun yönetmeni Will Gluck. Ama Travis Braun'ın senaryosunda tuhaf bir çengel var: bekârların cinsel ilişkiye girmesinin yılda tek bir gece dışında yasak olduğu alternatif bir gerçeklik. İnternette "seks için Purge" diye anılan fikir, filmi çıkmadan tartışma konusu yaptı. Turner'ın The Hollywood Reporter'a tavsiyesi net: "Absürtlüğe kendinizi bırakırsanız iyi vakit geçirirsiniz. Kurallara takılacaksanız gidip belgesel izleyin."
+
+## 2. Ice Cream Man (12–14 Ağustos, uluslararası)
+"Cabin Fever" ve "Hostel"ın yönetmeni Eli Roth, düşük bütçeli ve kanlı korkuya dönüyor. Ari Millen, Amerikan taşrasında dolaşıp sattığı dondurmayla çocukları cinayet makinesine çeviren gizemli dondurmacıyı oynuyor. Roth'un hedefi mütevazı değil: "Şimdiye kadar yaptığım en çılgın film olsun istiyorum. Kuşlar gibi ama çocuklarla… Yani tamamen delilik."
+
+## 3. The Dog Stars (7 Ağustos ABD/Kanada — 21 Ağustos İngiltere)
+Ridley Scott 88 yaşında ama hiç bu kadar üretken olmamıştı. Peter Heller'ın romanından uyarlanan bu kıyamet sonrası gerilimde, yakın gelecekteki bir grip salgınından sağ çıkanlar arasında bir pilot (Jacob Elordi), bir sağlık görevlisi (Margaret Qualley) ve eski bir denizci (Josh Brolin) var. Elordi'nin Scott hakkındaki yorumu: "Hayatı boyunca sinemaya bağlı kaldı — kanında dolaşıyor. Sinemanın bir hayatı ayakta tuttuğunu izliyorum."
+
+## 4. Tony (6–7 Ağustos, uluslararası)
+2018'de hayatını kaybeden Anthony Bourdain, yemek ve seyahat yazarlığının rock yıldızıydı; dolayısıyla bir rock yıldızı köken hikâyesi hak ediyor. "Kitchen Confidential"dan esinlenen film 1970'lerin ortasında, Bourdain'in Provincetown'da bir restoranda çalıştığı üniversiteyi bırakma yıllarında geçiyor. Yönetmen Matt Johnson; 19 yaşındaki Bourdain'i Dominic Sessa ("The Holdovers"), ona akıl hocalığı yapan şefi Antonio Banderas oynuyor. Leo Woodall ve Emilia Jones da kadroda.
+
+## 5. Teenage Sex and Death at Camp Miasma (14 Ağustos, ABD)
+Bu yılın Cannes'ında en iyi eleştirileri alan film. "I Saw the TV Glow"un yönetmeni Jane Schoenbrun'un gerçeküstü postmodern komedisinde Hannah Einbinder ("Hacks"), Cuma 13 benzeri bir slasher serisini diriltmek ve genç liberal seyirci için "kabul edilebilir" hale getirmekle görevlendirilen queer bir yönetmeni oynuyor. Fikri, ilk filmin yıldızı olan oyuncuyu (Gillian Anderson) geri getirmek — ama o oyuncu artık filmin çekildiği yaz kampında münzevi yaşıyor. Variety'den Jessica Kiang: "Seks, ölüm, VHS ve abur cuburdan oluşan buharlı bir güveç; Schoenbrun'un en olgun ve en oyunbaz filmi."
+
+## 6. The End of Oak Street (20–28 Ağustos, uluslararası)
+"It Follows"un yönetmeni David Robert Mitchell'ın yazıp yönettiği, JJ Abrams'ın yapımcılığını üstlendiği dinozor filmi. Anne Hathaway ve Ewan McGregor sıradan bir banliyöde sıradan ebeveynler — tek sorun, mahallenin bir şekilde ilkel bir vahşi doğaya ışınlanmış olması. Abrams: "Jurassic filmlerini herkes kadar severim ama onlar güzel ormanlarda, uzak adalarda geçer. David'in yaklaşımı sıradan banliyö hayatıyla dinozorları yan yana koymaktı."
+
+## 7. The Wrong Girls (7 Ağustos ABD — 14 Ağustos İngiltere)
+İki arkadaş fazla esrar içer ve tehlikeli bir suç dünyasına yuvarlanır: "Up in Smoke"tan "Pineapple Express"e uzanan türün istisnasız erkek kadrolu geleneğini bozan nadir örneklerden. Kristen Stewart ve Alia Shawkat, deneysel bir mucize ilaç sevkiyatına denk gelen tembel ikiliyi oynuyor; halüsinasyon anlarında konuşan kedileri Seth Rogen ve Kumail Nanjiani seslendiriyor. Yazar-yönetmen Dylan Meyer: "Çekimler boyunca bunun anılarım olduğu şakasını yaptım — filmde dev mürekkep balıkları ve telepati olduğu için epey komik."
+
+## 8. Union County (21 Ağustos, ABD/Kanada)
+Will Poulter ve Noah Centineo, Ohio kırsalında hapisten uzak durmak için ayık kalmaya ve iş tutmaya çalışan iki opioid bağımlısı kardeşi oynuyor. İlk filmini çeken yazar-yönetmen Adam Meeks Ohio'da büyümüş; iyileşme programındaki neredeyse tüm diğer kişiler kendi hikâyelerini anlatan profesyonel olmayan oyuncular. The Wrap'ten Chase Hutchinson: "Film her duygusal gelişimi hak ediyor; o kadar sessiz bir insanlıkla dolu ki masalarda onlarla birlikte oturuyormuş gibi oluyorsunuz."
+
+## 9. Coyote vs Acme (26–28 Ağustos, uluslararası)
+Göreceğimizi hiç sanmadığımız film. Roger Rabbit tarzı canlı çekim–2D animasyon karışımı yapım, Wile E Coyote ile Roadrunner'a odaklanıyor: klasik çizgi filmlerde sürekli arızalı alet satın alan Coyote, bu kez onları satan şirkete dava açıyor; avukatını Will Forte oynuyor. Warner Bros filmi üç yıl önce vergi indirimi uğruna rafa kaldırmıştı ("Batgirl"de olduğu gibi); şimdi bağımsız bir şirket tarafından gösterime giriyor. Senarist Samy Burch: "Yüz kez başarısız olduktan sonra bile denemekte bir güzellik var."
+
+## 10. The Magic Faraway Tree (21 Ağustos, ABD/Kanada)
+"Paddington 2" ve "Wonka"nın ortak yazarı Simon Farnaby, Enid Blyton'ın klasik çocuk romanlarını modernize ediyor. Claire Foy ve Andrew Garfield'ın oynadığı mucit-eş çifti, üç çocuğunu internetten uzaklaştırmak için kırsalda ıssız bir kulübeye taşınıyor; çocuklar dallarında başka dünyalara açılan portaller olan bir ağaç keşfediyor. Silky (Nicola Coughlan), Moonface (Nonso Anozie), Dame Washalot (Jessica Gunning) ve kötü kalpli Dame Snap (Rebecca Ferguson) da kadroda. Time Out'tan Phil de Semlyen: "Blyton hikâyelerinin akıllı telefon dönemine akıllı bir güncellemesi."
+
+Kaynak: BBC Culture — Nicholas Barber, "10 of the best films to watch this August".`,
+    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0p0cq6q.jpg.webp",
+    source: "BBC Culture",
+  },
+  {
+    slug: "game-of-thrones-en-iyi-10-ani",
+    title: "Game of Thrones'un En İyi 10 Anı: Büyük Savaşlar Değil, Fırtına Öncesi Sessizlikler",
+    excerpt: "Giddy Up America'nın seçkisi, dizinin dev set parçalarını bir kenara bırakıp gerilimin patlamadan önceki o küçük anlarına odaklanıyor — havlayan köpeklerden Roose Bolton'ın zırhına, Littlefinger'ın yüzündeki o ifadeye.",
+    body: `Game of Thrones'un mirasını konuşmak kolay değil: bir yanda dev savaşlar, şoke edici ölümler ve nefes kesen bölümler, öbür yanda kendinden önceki her şeye ters düşen aceleci final. Ama listeyi yapanın önerisi şu: dizinin gerçek gücü, fırtına öncesi o küçük anlarda. Havai fişekler akılda kalan şeydi, fakat asıl vuran genellikle patlamadan hemen önceki sessizlikti.
+
+## 10. Mountain'ın Oberyn'in bacağını çelmesi — "The Mountain and the Viper" (S4, B8)
+Kızıl Düğün sonrası Westeros'a gelen Dorne prensi, Tyrion'un şampiyonu olarak neredeyse bir sürprize imza atıyordu. Ama adamımız beş metre kala kutlamaya başladı — çaylak hatası. Bakmadığı anda Mountain önce gözlerini, sonra kafatasını ödetti. Yeni, taze bir karakterin ve Lannisterlara karşı olası bir gücün bir anda yok oluşu izlemesi zor bir sahneydi.
+
+## 9. Jon'un Rickon'un ölümünü izlemesi — "Battle of the Bastards" (S6, B9)
+İkinci ders: bir psikopattan düz çizgide kaçmayacaksın. Rickon sırtından oku aldı, Jon da özenle kurduğu planı pencereden atıp Ramsay'in ordusuna tek başına saldırdı. Diriltilişinden beri soğukkanlı görünen Jon'un duygularına kapılması hem şaşırtıcı hem de tam ona yakışan bir hamleydi.
+
+## 8. Littlefinger'ın sıranın kendisine geldiğini anlaması — "The Dragon and the Wolf" (S7, B7)
+Yedinci sezonda Stark kardeşlerin buluşması bekleneni vermedi; Sansa ile Arya'nın gerilimi izleyiciyi yordu. Sonra ikisi de bizi, Littlefinger'ı da kandırdı. Yedi sezon boyunca gölgede entrika kuran adamın, yargılananın Arya değil kendisi olduğunu fark ettiği andaki yüz ifadesi dizinin en tatmin edici karelerinden biri.
+
+## 7. Margaery'nin Cersei'nin duruşmaya gelmemesinden şüphelenmesi — "The Winds of Winter" (S6, B10)
+Serçeler Westeros'un aklını ele geçirmişti ve Cersei'nin duruşmasına herkes gelmişti — Cersei hariç. Yüksek Serçe'nin görmediği tehlikeyi Margaery gördü ve herkesi oradan çıkarmaya çalıştı. Dinlenmedi. Sonra hepsi öldü. Cersei hariç.
+
+## 6. Tormund'un Brienne'in şövalye olmadığını öğrenmesi — "A Knight of the Seven Kingdoms" (S8, B2)
+Bir sistemin çarpıklığını en iyi, o sistemin dışında yaşayanlar görür. Jaime'nin Brienne'i şövalye ilan etmesi kusurlu sekizinci sezonun en dokunaklı anıydı; ama Tormund'un "Brienne neden şövalye değil ki?" tepkisi asıl can alıcı olandı.
+
+## 5. Gece Nöbeti kolcularının Ak Gezenlerin bıraktığı cesetleri bulması — "Winter is Coming" (S1, B1)
+Dizi Starklarla, Lannisterlarla ya da ejderhalarla değil, Duvar'ın kuzeyinde titizlikle dizilmiş cesetlerle ve bir Wight'la açıldı. Yapımcıların diziye başlamak için seçtiği yol buydu — sonrasında hikâye başka yere gitse de, bir diziyi açmanın en iyi yollarından biri.
+
+## 4. Daenerys'in Lekesizleri satın alırken köle tacirini oyuna getirmesi — "And Now His Watch Has Ended" (S3, B4)
+Daenerys'in hafife alınacak biri olmadığını ilk iki sezonda öğrenmiştik: ateşe girip üç ejderha yavrusuyla çıkan biriydi. Ama Lekesizler karşılığında bir ejderha vermeye razı göründüğü an ve ardından tacire çevirdiği oyun, ününü kalıcı olarak çivileyen sahne oldu.
+
+## 3. Catelyn Stark'ın Roose Bolton'ın zırhını görüp Twins'te ne olduğunu anlaması — "The Rains of Castamere" (S3, B9)
+Kızıl Düğün'de hepimiz şoktaydık; Catelyn değil. Roose'la göz teması kurup ihanetin geldiğini onayladığı an, ikinci izleyişte iyice belirginleşen bir detay: her şey o kadar hızlı ve karanlık akıyor ki ilk seferde gözden kaçıyor. Ders: annenizi dinleyin.
+
+## 2. Hardhome'da köpeklerin havlamaya başlaması — "Hardhome" (S5, B8)
+Listeyi yapanın favori savaşı. Son yirmi dakika bir korku-aksiyon filmi gibi: her şey plana uygun görünürken köpekler havlamaya başlıyor, rüzgâr dönüyor, "Kapatın kapıları!" komutu geliyor ve her seferinde biri kapıya yetişemiyor. Ardından Gece Kralı'nın Jon'a bakıp ölüleri ayağa kaldırması: dizinin "biz şaka yapmıyoruz" dediği an.
+
+## 1. Daenerys'in Westeros'a yelken açması — "The Winds of Winter" (S6, B10)
+Nihayet. Altı sezon boyunca çölleri aşan, esir alınan, ölümden kaçan, ejderha büyüten Daenerys sonunda Westeros'a doğru yola çıkıyordu. Ölçeği hep dev olan dizi bu andan itibaren daralmaya, hikâyeler nihayet birbirine bağlanmaya başlıyordu — ve o kadro gemilerle birlikte akıp giden müzik, dizinin en görkemli finali oldu.
+
+Kaynak: Giddy Up America — "The Ten Best Moments From 'Game of Thrones'".`,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Game_of_Thrones_throne_model.jpg/1920px-Game_of_Thrones_throne_model.jpg",
+    source: "Giddy Up America",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [28, 23, 22, 0, 24, 17, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [29, 28, 23, 22, 0, 24, 17, 30, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
 
 
 
