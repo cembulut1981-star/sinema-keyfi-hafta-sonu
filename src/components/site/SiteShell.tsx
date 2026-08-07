@@ -433,6 +433,7 @@ export function SmallArticleCard({
               {CATEGORY_LABEL[article.category]}
             </span>
           ) : null}
+          <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
         </div>
       </div>
       {/* Alt yarı — bembeyaz metin bloğu */}
