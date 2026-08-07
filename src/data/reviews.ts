@@ -52,6 +52,7 @@ Wilde'ın Erika'sı, film boyunca hem itici hem karşı konulamaz olmayı başar
     title: "\"The Shards\" İncelemesi: Ryan Murphy'nin Seri Katil Gerilimi Sığ Suda Kalıyor",
     excerpt: "TIME eleştirmeni Judy Berman'a göre Murphy ile Bret Easton Ellis'in FX dizisi, göz alıcı prodüksiyonuna ve gönderme yığınına rağmen anlatmak istediği derinliğe hiç ulaşamıyor.",
     rating: "2.5/5",
+    imdbRating: "5,8",
     image: "https://static.time.com/v3/assets/bltea6093859af6183b/bltb09c348d73f94447/6a6cb2596f1c8a3ae4a8f424/Shards_Ep101-RayM-00235_r.jpg?branch=production&width=1600&quality=80&auto=webp&crop=16:9",
     body: `Ryan Murphy ile Bret Easton Ellis'in verimli bir iş birliği hem kaçınılmaz hem imkânsız görünüyor. Murphy her anlamda maksimalist: dizi üstüne dizi üreten, karakterlerine her hikâyenin sessiz kalması gereken kısmını yüksek sesle söyleten bir süper yapımcı ve televizyonun kapsayıcı, kimlik politikası odaklı programlarının en etkili savunucularından biri. Ellis ise kuşak tanımlayan ilk romanı 'Less Than Zero'nun minimalist üslubuyla ve son yıllarda eğlence endüstrisindeki \"sahte-woke kurumsal kültür\"e ateş püskürdüğü kültür savaşçısı dönemiyle tanınıyor. Öte yandan ikisi de kışkırtmaktan çekinmeyen, psikopat katillerin psikolojisine ve popüler kültür ile gerçek yaşam arasındaki geçişkenliğe tutkun isimler. Boomer-X kuşağı eşiğinde doğdukları için 80'lerde eşcinsel büyümenin ne olduğunu da hatırlıyorlar.
 
