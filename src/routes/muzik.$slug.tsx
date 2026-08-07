@@ -6,6 +6,7 @@ import { articleProse } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getMusic, MUSIC } from "@/data/music";
+import addisonFortniteAsset from "@/assets/addison-rae-fortnite.webp.asset.json";
 
 export const Route = createFileRoute("/muzik/$slug")({
   beforeLoad: ({ params }) => {
