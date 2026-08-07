@@ -502,6 +502,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
               loading="lazy"
             />
           )}
+          <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
       </div>
       <div className="p-4 flex-1 flex flex-col">
         <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
