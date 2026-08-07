@@ -67,6 +67,7 @@ function ReviewPage() {
               ) : (
                 <img src={r.image} alt={r.title} className="w-full h-full object-cover" />
               )}
+              <ImdbBadge rating={r.imdbRating} className="absolute left-3 top-3 z-20" />
             </div>
           </div>
         </div>
