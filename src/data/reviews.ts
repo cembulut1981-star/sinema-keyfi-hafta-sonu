@@ -25,6 +25,7 @@ export type Review = {
   body: string;
   image: string;
   videoUrl?: string;
+  imdbRating?: string;
 };
 
 export const REVIEWS: Review[] = [
@@ -34,6 +35,7 @@ export const REVIEWS: Review[] = [
     title: "\"I Want Your Sex\" İncelemesi: Gregg Araki, Z Kuşağının Sofuluğunu Çılgın Bir Komediyle İğneliyor",
     excerpt: "San Francisco Chronicle eleştirmeni David Lewis'e göre Araki'nin yeni filmi, kariyerinin en iyi kadrolarından biriyle çok eğlenceli: Olivia Wilde'ın canlandırdığı provokatör sanatçı Erika Tracy filmi tümüyle ele geçiriyor.",
     rating: "4/5",
+    imdbRating: "6,4",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Olivia_Wilde_SFFILM_2026_05.jpg/1280px-Olivia_Wilde_SFFILM_2026_05.jpg",
     body: `Onlarca yıldır bağımsız sinemanın efsanevi isimlerinden Gregg Araki, cinsel ahlak kodlarımıza saygısızca meydan okuyan bir kariyer kurdu. Son filmi 'I Want Your Sex'te bu kez sözde sofu Z kuşağını hedef alıyor — ve kariyerinin en iyi kadrolarından biri sayesinde sonuç epey komik.
 

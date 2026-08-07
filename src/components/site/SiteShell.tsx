@@ -257,6 +257,7 @@ export function FeaturedArticleCard({
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
             {badgeLabel}
           </span>
+          <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
         </div>
         <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
           {linkTo ? (
@@ -352,6 +353,26 @@ export function imageFocusClass(article: Article) {
   return IMAGE_FOCUS[slug] ?? "object-top";
 }
 
+/**
+ * IMDb tarzı puan etiketi — siyah zemin, altın sarısı "IMDb" logosu ve beyaz puan.
+ * Sadece imdbRating alanı tanımlı olan kartlarda gösterilir.
+ */
+export function ImdbBadge({ rating, className = "" }: { rating?: string; className?: string }) {
+  if (!rating) return null;
+  return (
+    <span
+      className={`inline-flex items-baseline gap-1 bg-black px-2 py-1 rounded-sm shadow-md ${className}`}
+      style={{ fontFamily: "'Arial', sans-serif" }}
+    >
+      <span className="font-black text-[11px] tracking-tight" style={{ color: "#F5C518" }}>
+        IMDb
+      </span>
+      <span className="text-white font-bold text-[13px] leading-none">{rating}</span>
+      <span className="text-neutral-400 text-[10px] leading-none font-medium">/10</span>
+    </span>
+  );
+}
+
 
 function getArticleLink(article: Article) {
   return article.reviewSlug
@@ -413,6 +434,7 @@ export function SmallArticleCard({
               {CATEGORY_LABEL[article.category]}
             </span>
           ) : null}
+          <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
         </div>
       </div>
       {/* Alt yarı — bembeyaz metin bloğu */}
@@ -482,6 +504,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
               loading="lazy"
             />
           )}
+          <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
       </div>
       <div className="p-4 flex-1 flex flex-col">
         <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
