@@ -10,7 +10,7 @@ import img_artificial_amazon from "@/assets/news-rs-artificial-amazon.jpg";
 import img_obsession_400m from "@/assets/news-variety-obsession-400m.jpg";
 import img_minions_monsters from "@/assets/news-variety-minions-monsters.jpg";
 import rdjDoomAsset from "@/assets/rdj-doom.webp.asset.json";
-import img_primetime_pattinson from "@/assets/news-primetime-robert-pattinson.jpg";
+import primetimeAsset from "@/assets/primetime-robert-pattinson.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
