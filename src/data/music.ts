@@ -25,6 +25,30 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "harper-grace-underneath-the-harvest-moon",
+    title: "Harper Grace'in \"underneath the harvest moon\" Şarkısındaki O Cümle: \"Herkese Bunun Sadece Bir Dans Şarkısı Olduğunu Söylemelisin\"",
+    excerpt: "Curb Records sanatçısı Harper Grace, büyüleyici yeni tekli \"underneath the harvest moon\"daki tek bir dizeden endişeli: nakarattaki \"knockin'-boots kinda mood\" ifadesi dinleyicilerde başka çağrışımlar yapıyor.",
+    body: "\"Herkese bunun sadece bir dans şarkısı olduğunu söylemelisin.\"\n\nCurb Records sanatçısı Harper Grace, büyüleyici yeni teklisi \"underneath the harvest moon\"daki tek bir cümle yüzünden hafif tedirgin. Grace nakaratta \"in a knockin'-boots kinda mood\" (kabaca \"çizmeleri çarpıştırasım var\") olduğunu söylüyor — ve bu ifadenin Amerikan argosunda köklü bir geçmişi var.\n\nLuke Bryan'ın \"Knockin' Boots\" şarkısı, buna ek olarak 1990'larda rapçi Candyman ve R&B üçlüsü H-Town'ın parçaları düşünüldüğünde, dinleyicilerin cümleyi cinsel bir imayla okuması neredeyse kaçınılmaz.\n\nOysa Grace şarkıyı 2021'de, 21 yaşındayken yazdığında aklında bu yoktu. Yazdıktan kısa süre sonra dinleyicilerin bu anlamı çıkarabileceğini fark etti — ama dizeyi değiştirmek yerine olduğu gibi bırakmayı seçti.\n\nŞarkı, hasat ayının altında geçen bir taşra gecesinin dokusunu kuruyor: sıcak, biraz nostaljik ve dans etmeye çağıran bir country-pop yapısı. Grace'in tercih ettiği yalın vokal yaklaşımı, sözlerin ikircikli tonunu daha da belirginleştiriyor.\n\nGenç sanatçı için bu tekli, Curb çatısı altındaki çıkışını pekiştiren bir adım niteliğinde; Nashville'in yeni nesil kadın söz yazarları arasında kendine yer açma çabasının da örneği.",
+    image: "https://www.billboard.com/wp-content/uploads/2026/08/Harper-Grace-cr-Zayne-Isom-billboard-1800.jpg?w=1600&h=900&crop=1",
+    source: "Billboard",
+  },
+  {
+    slug: "addison-rae-fortnite-icon-series",
+    title: "Addison Rae, Yeni Icon Series Kostümleriyle Fortnite'a Katıldı",
+    excerpt: "Şarkıcı ve sosyal medya yıldızı Addison Rae, Y2K pop estetiğini Fortnite'a taşıyor: \"Fame Is a Gun\" klibinden ve turne sahnelerinden esinlenen kostümler oyuna geliyor.",
+    body: "Addison Rae, Y2K pop estetiğini Fortnite'ın rengârenk dünyasına taşıyor.\n\nŞarkıcı ve sosyal medya yıldızının Fortnite Icon Series'e katıldığı Perşembe günü (6 Ağustos) resmen duyuruldu. Oyun içi paket, sanatçının son dönem müzikal hamlelerinden ilham alan kozmetiklerden oluşuyor: \"Fame Is a Gun\" klibindeki görünümler ve biletleri tükenen ilk dünya turnesindeki sahne kıyafetleri koleksiyonun merkezinde.\n\n\"Eskiden bayağı Fortnite oynardım. Liseyken tanıştım oyunla,\" diyor Rae, Teen Vogue'a verdiği röportajda. Sanatçı, oyunla kurduğu bu eski bağın iş birliğini daha kişisel hale getirdiğini anlatıyor.\n\nIcon Series, Fortnite'ın gerçek müzik ve kültür figürlerini oyuna taşıdığı seri; Travis Scott'tan Ariana Grande'ye uzanan bir listeye sahip. Rae'nin katılımı, pop yıldızlarının oyun ekosistemini bir tanıtım mecrasından çok bir sahne olarak kullanma eğiliminin son örneği.\n\nPakete kostümlerin yanı sıra sırt aksesuarları, kazma tasarımları ve dans emoteları da dâhil ediliyor.",
+    image: "https://www.billboard.com/wp-content/uploads/2026/08/addison-rae-fortnite-2026-billboard-1800-hero.jpg?w=1600&h=900&crop=1",
+    source: "Billboard",
+  },
+  {
+    slug: "greatest-pop-stars-temmuz-2026-ayin-kazanani",
+    title: "Temmuz 2026'nın Pop Yıldızı Kim? Madonna, Taylor Swift ve Charli xcx'li Yoğun Bir Ayın Muhasebesi",
+    excerpt: "Billboard'un Greatest Pop Stars podcast'i temmuz ayını değerlendiriyor: Madonna'nın \"Confessions II\" albümü, Taylor Swift'in düğünü, Lollapalooza ve Dünya Kupası finalindeki yıldız kadrolu devre arası şovu.",
+    body: "4 Temmuz hafta sonunun sadece bir ay önce olduğuna inanmak zor. Madonna'nın 'Confessions II' albümünü yayımlaması, Taylor Swift ile Travis Kelce'nin evlenmesi ve Toby Keith'in Amerika'nın 250. yıl kutlamalarında o kadar çok çalınıp kariyerinin en yüksek Billboard Hot 100 sırasına yeniden girmesi — hepsi o tek hafta sonuna sığdı.\n\nTek başına bir pop yıldızı ayına yetecek kadar olay vardı; ama devamı da geldi. Yılın en çok beklenen albümlerinden birkaçı temmuzda çıktı, Lollapalooza tıka basa dolu bir kadroyla gerçekleşti ve tüm bunların ortasında finalinde yıldız kadrolu bir devre arası şovu bulunan bir Dünya Kupası yaşandı.\n\nBillboard'un Greatest Pop Stars podcast'i bu yoğun ayı tek soruya indiriyor: ayı kim kazandı? Tartışmada Madonna'nın geri dönüşünün kültürel ağırlığı, Swift'in müzik dışı manşetlerinin çekim gücü ve Charli xcx'in festival sahnelerindeki hâkimiyeti karşılaştırılıyor.\n\nPodcast ekibi ayrıca ayın sürpriz kazananlarını da masaya yatırıyor: listelerde beklenmedik biçimde yükselen isimler, viral olan katalog şarkıları ve sonbahar için sinyal veren yeni imzalar.",
+    image: "https://www.billboard.com/wp-content/uploads/2026/07/charli-xcx-press-2026-credit-Aidan-Zamiri-billboard-1800.jpg?w=1600&h=900&crop=1",
+    source: "Billboard",
+  },
+  {
     slug: "ariana-grande-sagliksag-tartismalari-ara-veriyor",
     title: "Ariana Grande Ara Veriyor: Turne Bitince Gözlerden Uzaklaşacak, Broadway Projesinden Çekildi",
     excerpt: "\"Eternal Sunshine\" turnesi 1 Eylül'de Londra'da sona erdikten sonra Ariana Grande kamusal hayattan çekiliyor; sağlığına dair bitmeyen spekülasyonların ardından Sondheim müzikali \"Sunday in the Park with George\"un West End yorumundan da ayrıldı.",
