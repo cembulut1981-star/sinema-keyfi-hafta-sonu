@@ -45,6 +45,27 @@ Wilde'ın Erika'sı, film boyunca hem itici hem karşı konulamaz olmayı başar
   },
 
   {
+    slug: "the-shards-inceleme-ryan-murphy-bret-easton-ellis",
+    origTitle: "The Shards",
+    title: "\"The Shards\" İncelemesi: Ryan Murphy'nin Seri Katil Gerilimi Sığ Suda Kalıyor",
+    excerpt: "TIME eleştirmeni Judy Berman'a göre Murphy ile Bret Easton Ellis'in FX dizisi, göz alıcı prodüksiyonuna ve gönderme yığınına rağmen anlatmak istediği derinliğe hiç ulaşamıyor.",
+    rating: "2.5/5",
+    image: "https://static.time.com/v3/assets/bltea6093859af6183b/bltb09c348d73f94447/6a6cb2596f1c8a3ae4a8f424/Shards_Ep101-RayM-00235_r.jpg?branch=production&width=1600&quality=80&auto=webp&crop=16:9",
+    body: `Ryan Murphy ile Bret Easton Ellis'in verimli bir iş birliği hem kaçınılmaz hem imkânsız görünüyor. Murphy her anlamda maksimalist: dizi üstüne dizi üreten, karakterlerine her hikâyenin sessiz kalması gereken kısmını yüksek sesle söyleten bir süper yapımcı ve televizyonun kapsayıcı, kimlik politikası odaklı programlarının en etkili savunucularından biri. Ellis ise kuşak tanımlayan ilk romanı 'Less Than Zero'nun minimalist üslubuyla ve son yıllarda eğlence endüstrisindeki \"sahte-woke kurumsal kültür\"e ateş püskürdüğü kültür savaşçısı dönemiyle tanınıyor. Öte yandan ikisi de kışkırtmaktan çekinmeyen, psikopat katillerin psikolojisine ve popüler kültür ile gerçek yaşam arasındaki geçişkenliğe tutkun isimler. Boomer-X kuşağı eşiğinde doğdukları için 80'lerde eşcinsel büyümenin ne olduğunu da hatırlıyorlar.
+
+Ellis'in 2023 romanından uyarlanan 'The Shards'ta bu deneyimlerin sinerjisi, bakışlarının uzlaşmazlığına baskın çıkıyor ama onu silmiyor. Yüzeyde 1981'de Ellis'in lisesindeki öğrencileri avlayan bir seri katilin otokurmaca ama alışıldık hikâyesi var; Murphy'nin bilinen şık prodüksiyon tasarımı, tür pastişi ve büyük sahne düzenlemeleriyle parlıyor. Yine de 5 Ağustos'ta FX ve Hulu'da iki bölümle başlayan dizinin daha büyük hedefleri olduğu belli: dönemin kültürel taşlarına yaptığı göndermeler ve bugünün Bret'inin dış sesiyle gençlikten yetişkinliğe geçiş üzerine derin bir şey söylemeye çalışıyor. Uyumsuz bir yaratıcı ekibe mi yoksa görsel mecranın fikirler yerine imgeleri kayırmasına mı yazın; sonuçta sığ olan kazanıyor.
+
+Son sınıf başlıyor ve grubun ebeveynleri çoktan sahneden çekilmiş. (Bret'inkiler görünüşe göre yurt dışında tatilde.) Bu da beyaz masa örtülü lokantalarda zincirleme sigara içen, şehri sokağa çıkma yasağı ya da kısıt olmadan dolaşan, gösterişli biçimde bezgin gençlerin işine geliyor. Kadraja yalnızca Debbie'nin korkunç ailesi giriyor. Babası Terry (Wes Bentley) reşit olmayan oğlanlara göz koyan klişe bir yırtıcı yapımcı; karısı Liz (Evan Rachel Wood) uyuşturucu, alkol ve öfke patlamalarıyla kendini tedavi eden, Debbie'nin geleceğinin ön gösterimi gibi. Hanenin dördüncü üyesi Terry'nin etrafta sinsice dolaşan asistanı, androjen estet Steven (Jordan Roth).
+
+Bir kızın parçalanmış cesedi tenis filesine bağlanmış hâlde bulunup sınıf arkadaşları kaybolmaya başladığında gençlerin elinde işte bu yetişkinler var. Bret, okuldaki yakışıklı yeni çocuk Robert Mallory'nin (Homer Gere) katil olduğuna emin — ama mantığı zayıf: Robert, Bret'in onu ilk gördüğü 'The Shining' gösteriminde bulunduğunu inkâr ediyor, o kadar. Nedense Bret arkadaşlarını cinayetlere ilgi göstermeye ikna edemiyor; onlar mezuniyet balosu ve dans yarışması programlarıyla meşgul.
+
+'The Shards' göndermelerle yoğun. Kurguyu olay örgüsünün ötesinde okumak için 'The Shining'in şiddetle çıldıran bir yazarın öyküsü olduğunu, 'Chinatown'ın savaşılamayacak kadar kökleşmiş sistemsel kötülükle eşanlamlı olduğunu, Michael Cimino'nun 'Heaven's Gate' hezimetinin Yeni Hollywood'un yönetmen çağının sonunu simgelediğini bilmek gerekiyor. Oyuncu seçimi kaynak metnin üstüne yeni göstergeler yığıyor: Kaia Gerber, X kuşağının nihai güzeli Cindy Crawford'un ürkütücü biçimde tıpatıp kızı; Homer Gere ise babası Richard'la aynı köşeli çeneyi paylaşıyor — ve Richard Gere 90'ların başında Crawford'la evliydi.
+
+Anlamın büyük kısmı 40 yaş altındaki çoğu izleyicinin ıskalayacağı imalarda durduğu için Murphy ve Ellis aslında tek dizide iki dizi yapmışlar: 'Riverdale'-'Pretty Little Liars' damarında yapmacık bir genç cinayet pembe dizisi ve yaşlı seyirci için daha katmanlı, tanımlanması zor bir şey. Yalnızca ikincisi yeni bir şey gibi; ama düşünceli unsurlar hep kenarda kalıyor. Anlatıcının \"Matt bana hiç benim ona hissettiğim gibi hissetmedi, bu da hayatımın kalanında tekrar eden bir tema olacaktı\" dediği anlar merak uyandırıyor: yaşlı Bret'in hüznü, gerçek olgunlukla gelen öz bilgiyi edinmeden çocukluk masumiyetini yetişkin bir yazarlık hayatına takas eden erken gelişmiş genç Bret'e duyduğu öfke, yüzeye çıkıyor ama onu tam delip geçmiyor.
+
+Dizi son bölümlerinde dağılıyor. Biri, gençlerin takıldığı Hamburger Hamlet'in adıyla oynayarak karakterlerle Shakespeare'in trajik kişileri arasında öyle abartılı paralellikler kuruyor ki öz-farkındalık bile kurtaramıyor. Daha büyük hayal kırıklığı ise anlatısal olarak muğlak kalan bomba final: patlamak yerine cızlıyor. Bizi oraya taşıması gereken psikolojik tırmanış hiç tam olarak gerçekleşmiyor. Sınırlı iç gözlemin sonuçlarını anlatan bu dizi, o sonuçları kendisi de yaşıyor.`,
+  },
+  {
     slug: "los-vampires-inceleme",
     origTitle: "Los Vampires",
     title: "\"Los Vampires\" İncelemesi: İki Dracula'nın Kapıştığı, Çekici Ama Dengesiz Bir Hollywood Geri Dönüşü",
