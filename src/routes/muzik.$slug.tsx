@@ -6,6 +6,7 @@ import { articleProse } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getMusic, MUSIC } from "@/data/music";
+import addisonFortniteAsset from "@/assets/addison-rae-fortnite.webp.asset.json";
 
 export const Route = createFileRoute("/muzik/$slug")({
   beforeLoad: ({ params }) => {
@@ -74,6 +75,21 @@ function MusicPage() {
         <div className={articleProse}>
           <ReactMarkdown>{m.body}</ReactMarkdown>
         </div>
+
+        {slug === "addison-rae-fortnite-icon-series" && (
+          <figure className="mt-10">
+            <div className="p-3" style={{ background: "#ffbd3f" }}>
+              <img
+                src={addisonFortniteAsset.url}
+                alt="Addison Rae Fortnite Icon Series kostümleri"
+                className="w-full h-auto block"
+              />
+            </div>
+            <figcaption className="mt-2 text-sm text-muted-foreground text-center italic">
+              Fortnite Icon Series — Addison Rae kostümleri (Fortnite)
+            </figcaption>
+          </figure>
+        )}
 
         <ShareButtons title={m.title} path={`/muzik/${slug}`} />
         </article>
