@@ -9,6 +9,7 @@ export type SeriesItem = {
   body: string;
   image: string;
   source: string;
+  imdbRating?: string;
 };
 
 export const SERIES: SeriesItem[] = [
