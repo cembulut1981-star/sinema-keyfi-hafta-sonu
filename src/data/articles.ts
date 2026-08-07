@@ -27,6 +27,7 @@ export type Article = {
   musicSlug?: string;
   seriesSlug?: string;
   videoUrl?: string;
+  imdbRating?: string;
 };
 
 const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
@@ -37,6 +38,7 @@ const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
   image: r.image,
   reviewSlug: r.slug,
   videoUrl: r.videoUrl,
+  imdbRating: r.imdbRating,
 }));
 
 const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
