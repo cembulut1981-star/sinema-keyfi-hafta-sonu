@@ -84,6 +84,7 @@ Dizi son bölümlerinde dağılıyor. Biri, gençlerin takıldığı Hamburger H
     title: "\"Spider-Man: Brand New Day\" Daha İyi Bir Marvel Filmi Denemenin Mümkün Olduğunu Kanıtlıyor",
     excerpt: "Destin Daniel Cretton'ın yönettiği filmde Tom Holland'ın Peter Parker'ı, 'No Way Home' sonrası herkesin hafızasından silinmiş bir yalnız. TIME eleştirmeni Stephanie Zacharek'e göre fazla kalabalık mekaniklerin altında keyifli bir yaz filmi saklı.",
     rating: "3.5/5",
+    imdbRating: "8,1",
     image: "https://static.time.com/v3/assets/bltea6093859af6183b/bltd536e66953ca6cf9/6a68f5dad15efc423088bfa5/spidey_close-up.jpg?branch=production&width=1600&quality=80&auto=webp&crop=16:9",
     body: `2021 tarihli 'Spider-Man: No Way Home'un sonunda Tom Holland'ın Peter Parker'ı savrulmuş bir genç adamdı. En yakın arkadaşı Ned ve sevgilisi MJ, mistik bir büyüyle onu tamamen unuttu; May Yenge ise Green Goblin'in saldırısında hayatını kaybetti. 'Brand New Day' tam da bu yıkımın ardından başlıyor: "Bazen Örümcek Adam, Peter Parker'ın kalbini kırsa da zor olanı yapmak zorundadır."
 
@@ -132,6 +133,7 @@ Kaynak: The Guardian`,
     title: "\"Spider-Man: Brand New Day\" Tom Holland'ın Bugüne Kadarki En İyi Örümcek Adam Filmi",
     excerpt: "San Francisco Chronicle eleştirmeni Mick LaSalle'a göre Destin Daniel Cretton'ın filmi, Holland'ın üçlemesindeki tüm halkaları toparlayıp seriyi hem daha duygusal hem daha eğlenceli bir yere taşıyor.",
     rating: "4/5",
+    imdbRating: "8,1",
     image: "/__l5e/assets-v1/46f9cd50-4da3-4eb7-b447-b94a66df09bd/spiderman-brand-new-day-hq.jpg",
     body: `Mick LaSalle'ın San Francisco Chronicle'daki incelemesine göre 'Spider-Man: Brand New Day', Tom Holland'ın canlandırdığı Örümcek Adam filmlerinin en iyisi. Bunun nedeni gösterişli bir final dövüşü ya da sürpriz konuk oyuncular değil; filmin Peter Parker'ı yeniden sıradan, kırılgan ve yalnız bir genç adam olarak ele almaya cesaret etmesi.
 
