@@ -352,6 +352,26 @@ export function imageFocusClass(article: Article) {
   return IMAGE_FOCUS[slug] ?? "object-top";
 }
 
+/**
+ * IMDb tarzı puan etiketi — siyah zemin, altın sarısı "IMDb" logosu ve beyaz puan.
+ * Sadece imdbRating alanı tanımlı olan kartlarda gösterilir.
+ */
+export function ImdbBadge({ rating, className = "" }: { rating?: string; className?: string }) {
+  if (!rating) return null;
+  return (
+    <span
+      className={`inline-flex items-baseline gap-1 bg-black px-2 py-1 rounded-sm shadow-md ${className}`}
+      style={{ fontFamily: "'Arial', sans-serif" }}
+    >
+      <span className="font-black text-[11px] tracking-tight" style={{ color: "#F5C518" }}>
+        IMDb
+      </span>
+      <span className="text-white font-bold text-[13px] leading-none">{rating}</span>
+      <span className="text-neutral-400 text-[10px] leading-none font-medium">/10</span>
+    </span>
+  );
+}
+
 
 function getArticleLink(article: Article) {
   return article.reviewSlug
