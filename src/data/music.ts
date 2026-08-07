@@ -25,6 +25,15 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "my-chemical-romance-danger-days-yeniden-bir-numara",
+    title: "My Chemical Romance, 15 Yıllık Albümüyle Yeniden Zirvede",
+    excerpt: "\"Danger Days: The True Lives of the Fabulous Killjoys\", İngiltere'nin Official Rock & Metal Albums listesinde ikinci kez bir numaraya çıktı; grup listenin ilk iki sırasını da elinde tutuyor.",
+    body: "My Chemical Romance on beş yılı aşkın süredir yeni bir albüm yayımlamadı. Yine de grup, yalnızca iki hafta önce İngiltere'de yeni bir bir numara elde etmişti — ve şimdi aynı albüm zirveye geri döndü.\n\n_Danger Days: The True Lives of the Fabulous Killjoys_, bu hafta Official Rock & Metal Albums listesinde 4. sıradan 1. sıraya çıktı. Albümün yeniden listelere girmesindeki en büyük etken, grubun Long Live the Black Parade turnesi: Liverpool, Glasgow ve Londra konserlerinin ardından turne Avrupa'nın diğer duraklarına ilerledi ve grubun kataloğu yeniden popülerleşti.\n\nHaziran 2022'den bu yana listede görünmeyen albüm, birden zirveye girmiş, şimdi ise liderlikteki ikinci haftasını kazanmış oldu. Bu sayede _Life on the Murder Scene_, _May Death Never Stop You: The Greatest Hits 2001–2013_ ve _The Black Parade Is Dead!_ ile paylaştığı \"tek hafta zirvede kalan albüm\" eşitliğinden de sıyrıldı.\n\nMy Chemical Romance'ın bu listede toplam altı bir numarası var; bunların yalnızca üçü birden fazla hafta zirvede kalmayı başardı. _Danger Days_ artık üç haftalık _Three Cheers for Sweet Revenge_'in bir hafta gerisinde. Rekor ise tartışmasız _The Black Parade_'de: albüm listeyi tam 11 hafta boyunca yönetti — grubun diğer tüm zirve albümlerinin toplamından fazla.\n\nBu hafta grubun kendisini engellediği bir tablo da var: _Three Cheers for Sweet Revenge_ 6. sıradan 2. sıraya yükselerek listenin ilk iki basamağını da My Chemical Romance'a bıraktı. İlk 10'da grubun bir albümü daha bulunuyor: _The Black Parade_ 8. sıradan 10. sıraya geriledi.",
+    image: "https://imageio.forbes.com/specials-images/imageserve/6a75f5340511a377d47a5ec7/My-Chemical-Romance-Posed-In-Milan/0x0.jpg?crop=3317%2C2212%2Cx0%2Cy411%2Csafe&width=1600",
+    source: "Forbes",
+  },
+  {
+
     slug: "harper-grace-underneath-the-harvest-moon",
     title: "Harper Grace'in \"underneath the harvest moon\" Şarkısındaki O Cümle: \"Herkese Bunun Sadece Bir Dans Şarkısı Olduğunu Söylemelisin\"",
     excerpt: "Curb Records sanatçısı Harper Grace, büyüleyici yeni tekli \"underneath the harvest moon\"daki tek bir dizeden endişeli: nakarattaki \"knockin'-boots kinda mood\" ifadesi dinleyicilerde başka çağrışımlar yapıyor.",
