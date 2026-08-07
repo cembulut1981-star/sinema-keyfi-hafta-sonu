@@ -258,6 +258,7 @@ export function FeaturedArticleCard({
             {badgeLabel}
           </span>
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
+          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
         </div>
         <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
           {linkTo ? (
@@ -373,6 +374,24 @@ export function ImdbBadge({ rating, className = "" }: { rating?: string; classNa
   );
 }
 
+/**
+ * Özel metin rozeti — IMDb etiketiyle aynı görsel dili kullanır ama içeriği
+ * serbest metindir (ör. "monsters of god"). customBadge tanımlı kartlarda gösterilir.
+ */
+export function CustomBadge({ label, className = "" }: { label?: string; className?: string }) {
+  if (!label) return null;
+  return (
+    <span
+      className={`inline-flex items-center bg-black px-2 py-1 rounded-sm shadow-md ${className}`}
+      style={{ fontFamily: "'Arial', sans-serif" }}
+    >
+      <span className="text-white font-black text-[11px] tracking-tight uppercase leading-none">
+        {label}
+      </span>
+    </span>
+  );
+}
+
 
 function getArticleLink(article: Article) {
   return article.reviewSlug
@@ -435,6 +454,7 @@ export function SmallArticleCard({
             </span>
           ) : null}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
+          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
         </div>
       </div>
       {/* Alt yarı — bembeyaz metin bloğu */}
@@ -505,6 +525,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             />
           )}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
+          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
       </div>
       <div className="p-4 flex-1 flex flex-col">
         <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
