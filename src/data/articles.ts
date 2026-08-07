@@ -77,6 +77,7 @@ const SERIES_ARTICLES: Article[] = SERIES.map((s, i) => ({
   excerpt: s.excerpt,
   image: s.image,
   seriesSlug: s.slug,
+  imdbRating: s.imdbRating,
 }));
 
 // Interleave arrays so categories are mixed in the feed.
