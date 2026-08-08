@@ -264,6 +264,34 @@ Gossip Girl'ün yaratıcılarının elinden çıkan dizi, o ekibin en iyi bildi�
   },
 
   {
+    slug: "lucky-inceleme-anya-taylor-joy-apple-tv",
+    origTitle: "Lucky",
+    title: "\"Lucky\" İncelemesi: Anya Taylor-Joy'un Kaçışı, Hem Hızlı Hem Düşünceli Bir Suç Gerilimi",
+    excerpt: "TVGuide eleştirmeni Keith Phipps'e göre Apple TV'nin yedi bölümlük mini dizisi, bir dolandırıcının ustalığına hayran bırakırken paçayı kurtarmanın bedelini de sorguluyor — Taylor-Joy'un yanında Annette Bening ve Timothy Olyphant var.",
+    rating: "8,5/10",
+    imdbRating: "7,6",
+    image: "https://www.tvguide.com/a/img/resize/b6ea46b6adc44b5f0d3a355ff115811add0761c4/hub/2026/05/19/08047cfc-0e13-4824-a5e8-2e18370b57fd/lucky.jpg?auto=webp&width=1092",
+    body: `Marissa Stapley, 2021 tarihli romanı 'Lucky'yi yazarken dolandırıcıların nasıl çalıştığını soygun filmleri izleyerek, konuyla ilgili kitaplar okuyarak ve saf kurbanları paralarından ayırmayı anlatan YouTube videolarını inceleyerek öğrenmiş. Asıl ilham kaynağını ise çok sonra hatırladığını yazıyor: On yaşındayken annesinin tüm birikimini bir dolandırıcıya kaptırışını. "Merak ediyorum," diyor Stapley, "dolandırılmanın gerçekliği bu kadar acımasızken, işinin ustası kurgusal bir dolandırıcıyı desteklememek neden neredeyse imkânsız?"
+
+Bu görünür çelişki, romanın uyarlamasının da tam merkezinde. Dizi, izleyicinin kahramanının becerisine hayran kalmasına izin verirken, başkalarının hırsını ve iyi niyetini sömürmenin insani maliyetini — hem kurbanlar hem de dolandırıcıların kendisi için — hesaba katmayı da bırakmıyor. Jonathan Tropper'ın ('Warrior', 'Your Friends & Neighbors') yaratıcılığında, ortak showrunner Cassie Pappas ('Silo') ile birlikte hazırlanan 'Lucky' kızgın bir telaşla başlıyor ve yedi bölüm boyunca gerçekten hiç yavaşlamıyor. Ama uzun oyunu oynayan bir dolandırıcı gibi, dizinin ikinci yarısı tehlikede olanın yalnızca kahramanının hayatı değil, ruhu olduğunu açığa çıkarıyor.
+
+Anya Taylor-Joy'un canlandırdığı Lucky, diziye kaçarken başlıyor ve son bölüme kadar da koşmayı bırakmıyor. Geri dönüşlerin gösterdiği gibi bu, onun özenle kurduğu planın parçası değildi: Milyonlarca dolar nakde konmuş, kocası Cary (Drew Starkey) ile Caesar's Palace'ta kutlama yaptıktan sonra ülkeyi terk edecekti. Ama fazla uyuyup ağır bir başla uyandığında Cary'nin parayla birlikte ortadan kaybolduğunu görüyor. Daha kötüsü, polis kumarhanenin çıkışını kapatmıştır ve odasına dönmeye çalışırken Lucky, geçmişi karmaşık FBI ajanı Billie Rand'ı (Aunjanue Ellis-Taylor) fark ediyor.
+
+Aslında Lucky'nin hayatındaki herkesle geçmişi karmaşık. Paraya, onu tek başına büyütüp insanları kandırma zanaatını öğreten babası John'un (Timothy Olyphant) kurduğu bir düzen sayesinde konmuştur; John hapiste ama bunu geçici bir aksilik olarak görüyor. Diğer ilgili taraflar arasında Malibu'da bir at çiftliğinde saygın bir hayat sürüyormuş gibi görünen soğukkanlı gangster Priscilla (Annette Bening — aynı zamanda Lucky'nin kayınvalidesi) ve Priscilla'yı bile ürperten mafya babası Whittaker (William Fichtner) var.
+
+Dizi erkenden ortaya koyuyor: Kahramanını asıl süren şey hayatta kalma dürtüsü. Etrafındakilerin zarar görmesini istemiyor, insanların iyiliğini istismar etmek için yalan söylemek de hoşuna gitmiyor; ama peşindekilerden kurtulmak için ikisini de kaçınılmaz görüyor. Sürükleyici aksiyon sahneleri ve hiç eksilmeyen bir tedirginlik atmosferi bu bakışı doğruluyor. Yine de sezon ilerledikçe alttan gelen bir ses yükseliyor: Lucky, bildiği tek hayatı yaşamanın bedelini — planlar tuttuğunda bile içini kemiren pişmanlıkla gelen o yalnızlığı — düşünmeye başlıyor.
+
+Taylor-Joy'un performansının gücü şurada belli oluyor: Onun kadar çarpıcı bir yüze sahip birinin göze batmadan dolaşmasının ne kadar zor olacağını unutuveriyorsunuz. Etrafındaki kadro da en az onun kadar güçlü. Baykuş gözlüklerinin arkasında Bening, kariyerinde nadiren bu kadar buz gibi (ve buz kesen) bir karakter oynadı. Olyphant ilk bölümlerde az görünse de tam anlamıyla sahneye çıktığında beklemeye değdiğini kanıtlıyor; alışıldık zahmetsiz cazibesinin karanlık yüzünü keşfediyor. Ellis-Taylor, yasanın öte tarafında ama duyguları zaman zaman Lucky'ninkileri yansıtan bir karakterde çok iyi; Clifton Collins Jr. da Priscilla'nın sadık adamı olarak güzel anlar yakalıyor.
+
+Tropper ve Pappas'ın, aksiyon ve gerilim dalgaları arasına dikkatle nefes payı serpiştiren anlatımıyla birleşince, ucuz roman tadındaki bir kurgunun altında atan kalp ortaya çıkıyor. Lucky'nin karanlık büyüsünü izlemek heyecan verici; ama dizi de kahramanı gibi, heyecan söndüğünde yerleşen boşluğu iyi biliyor.
+
+İlk iki bölüm 15 Temmuz Çarşamba günü Apple TV'de yayına girdi; sonraki bölümler haftalık yayınlanıyor.
+
+Kaynak: TVGuide`,
+  },
+
+
+  {
     slug: "deep-water-aaron-eckhart-shark",
     origTitle: "Deep Water",
     title: "\"Deep Water\" — Uçak Kazasından Sağ Çıkanlar Köpekbalıklarıyla Egzistansiyel Rulet Oynuyor",
