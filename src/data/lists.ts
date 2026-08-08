@@ -1543,6 +1543,106 @@ Kaynak: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
     image: "https://www.metacritic.com/a/img/resize/a38737035466c4cf08a2d588c167f9d5cfdf3a24/hub/2026/07/29/a42bb4c5-77fb-44e6-b27c-6704e0e01a8b/whatdoesntkillyou.jpg?auto=webp&quality=70&width=1024",
     source: "Metacritic",
   },
+  {
+    slug: "2026nin-en-iyi-yeni-korku-filmleri",
+    title: "2026'nın En İyi 10 Yeni Korku Filmi",
+    excerpt: "Rotten Tomatoes, yılın en yüksek Tomatometer puanlı korku filmlerini sıraladı. Slasher parodisinden Nia DaCosta'nın '28 Years Later' devamına, 2026'nın en iyi 10 korku filmi.",
+    body: `2026 korku sineması için bereketli bir yıl oldu: kamp slasher'ları, dijital efsaneler, zombi devam filmleri ve klasik hayaletli ev hikâyeleri aynı sezonu paylaştı. Rotten Tomatoes'un Tomatometer sıralamasına göre yılın en iyi 10 yeni korku filmi:
+
+## 1. Teenage Sex and Death at Camp Miasma (2026) — %98
+![Teenage Sex and Death at Camp Miasma](https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=)
+Jane Schoenbrun'un yönettiği film, yorgun düşmüş bir slasher serisinin genç bir yönetmene (Hannah Einbinder) devredilmesini anlatıyor. Eleştirmenler filmi "slasher türüne yazılmış kanlı bir sevgi mektubu" olarak tanımlıyor. Kadroda Gillian Anderson ve Jasmin Savoy Brown da var.
+
+## 2. Obsession (2025) — %94
+![Obsession](https://resizing.flixster.com/5BlfhxiWUygGuQ_wr755BlVGVlw=/800x1200/v2/https://resizing.flixster.com/wciPMzUm5zbBhWKN24eGdoRfK8I=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzBlZDNhZmI5LTM3N2EtNGIyZC1iZTA5LTU0NzUyY2M2ZGYyYi5qcGc=)
+Curry Barker'ın filmi, gizemli "One Wish Willow"u kırıp aşkını kazanmak isteyen bir romantiğin dileğinin tam olarak gerçekleşmesiyle başlıyor. Rahatsız edici olduğu kadar eğlenceli de olmayı başaran nadir bir yapım.
+
+## 3. Send Help (2026) — %92
+![Send Help](https://resizing.flixster.com/m_3j1GhxYtAwK6L-U31pfjMtrXw=/800x1200/v2/https://resizing.flixster.com/WEelDTQoFz53v0hGRRC1rZ-3uxY=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2NkMzdhM2Y3LWYzMmEtNGNmYS04YzBjLTc1ZGNhN2JkZGFjOS5qcGc=)
+Sam Raimi'nin uçak kazasından sağ kurtulan iki iş arkadaşını ıssız bir adaya hapseden filmi. Rachel McAdams ve Dylan O'Brien, Raimi'nin şeytani mizah anlayışına birebir uyuyor.
+
+## 4. Leviticus (2026) — %92
+![Leviticus](https://resizing.flixster.com/Ie45ZUWu67iP1micNmKazANJGiY=/800x1200/v2/https://resizing.flixster.com/AQQe8xVq4v1wD42l1mFji4ZGm7s=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzVkNTI5YTVmLWNkYjgtNDBiNy1hNzcwLTVjMjgyNmNkMWI4Ny5qcGc=)
+Adrian Chiarella'nın filminde iki genç, en çok arzuladıkları kişinin — yani birbirlerinin — suretine bürünen bir varlıktan kaçmak zorunda. Duygusal bir aşk hikâyesiyle zekice bir canavar fikrini birleştiriyor.
+
+## 5. 28 Years Later: The Bone Temple (2026) — %91
+![28 Years Later: The Bone Temple](https://resizing.flixster.com/wzWUyaYeWCvCjpH-nMxdojatc_Q=/800x1200/v2/https://resizing.flixster.com/KhvweFDt8lqqSgqfVdOUZVXZzow=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFmNjI1OGU2LTY2MDEtNDMyNi04NGFiLTY3NjZhNDA3ODA2MS5qcGc=)
+Nia DaCosta, Danny Boyle ve Alex Garland'ın kurduğu dünyayı devralıp baş aşağı çeviriyor. Ralph Fiennes ve Jack O'Connell'ın performansları filmin dehşetini derinleştiriyor.
+
+## 6. Hokum (2026) — %90
+![Hokum](https://resizing.flixster.com/CsdnPMckJ4MRD64GQgwTM0n3oeU=/800x1200/v2/https://resizing.flixster.com/jRvqYBpvhPAKUPk2mY9cUsGwuRA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FhMzRlOTkxLWI4MmUtNDcxOS1hYWI2LWU3OGQ4NGNhYjdkMS5qcGc=)
+Damian McCarthy'nin filminde romancı Ohm Bauman (Adam Scott), ailesinin küllerini savurmak için gittiği ıssız handa bir cadı efsanesine saplanıyor. Atmosferik folklorla beslenmiş klasik bir perili ev hikâyesi.
+
+## 7. Backrooms (2026) — %87
+![Backrooms](https://resizing.flixster.com/vNXC0QV1iooJ0p7jei-lQJmjqNc=/800x1200/v2/https://resizing.flixster.com/rhgxSrAD0DJLjAa7CXGBQU5h81E=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U3YzFlM2U0LWM1NzctNDg5Yy05M2Y4LTVmYWYxOTQyMDEyMy5qcGc=)
+Kane Parsons'ın YouTube'dan doğan liminal koridor efsanesini uzun metraja taşıyan ilk filmi. Chiwetel Ejiofor ve Renate Reinsve'nin yer aldığı yapım, hipnotik olduğu kadar dehşet verici.
+
+## 8. We Bury the Dead (2024) — %87
+![We Bury the Dead](https://resizing.flixster.com/s_tZm2eyH-KstknuuyeKSqBvHuY=/800x1200/v2/https://resizing.flixster.com/h3jkbQNfvS-0g3ADQTmnH6-2cJE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzZlNmFmZTlkLTZmYjAtNDRhNi04ZjE5LTY1ZjhhZGQ5MTk1NS5qcGc=)
+Daisy Ridley'nin taşıdığı film, zombi klişelerini yas ve kayıp üzerine bir meditasyona dönüştürüyor. Askeri bir felaketin ardından ölüler yalnızca dirilmiyor, avlanıyor.
+
+## 9. Primate (2025) — %77
+![Primate](https://resizing.flixster.com/smtVXh-Oyl8DXPD4-rFqfvpGcK0=/800x1200/v2/https://resizing.flixster.com/hRGJ1nHXf3xkpX4qyQisxuSZyE0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzE1OWQ2MzdmLWU5OTMtNGM3Yi05NDQxLWYwMjIzOTJjZWFhNy5qcGc=)
+Johannes Roberts'ın yılın başında vizyona giren filmi, tropikal bir tatili ilkel bir hayatta kalma kâbusuna çeviriyor. Kısa, yalın ve etkili.
+
+## 10. Ready or Not 2: Here I Come (2026) — %75
+![Ready or Not 2](https://resizing.flixster.com/jf21tFzvWtc6lc1ezusO4yn6ZHM=/800x1200/v2/https://resizing.flixster.com/mb7jKn6kPjbfdG_ec1yxUpObtic=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RhYTI3MWU2LTJiMDctNDU3OC1hYTRmLTQ1NWZjNWExZGEyMi5qcGc=)
+Grace (Samara Weaving) Le Domas ailesinden kurtulduktan hemen sonra oyunun bir üst seviyesine geçiyor. Devam filmi lanetini büyük ölçüde Weaving'in vahşi enerjisi sayesinde kırıyor.
+
+Kaynak: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
+    image: "https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=",
+    source: "Rotten Tomatoes",
+  },
+  {
+    slug: "2026nin-en-iyi-yeni-komedi-filmleri",
+    title: "2026'nın En İyi 10 Yeni Komedi Filmi",
+    excerpt: "Olivia Wilde'ın 'The Invite'ından Pixar'ın 'Hoppers'ına, Rotten Tomatoes'un Tomatometer sıralamasına göre yılın en çok güldüren 10 filmi.",
+    body: `Boots Riley'den Olivia Wilde'a, Pixar'dan Minions'a: 2026 komedi sineması hem yazar sinemasının hem de büyük stüdyo animasyonlarının aynı anda güçlü olduğu bir yıl. Rotten Tomatoes'un Tomatometer sıralamasına göre yılın en iyi 10 yeni komedisi:
+
+## 1. The Invite (2026) — %97
+![The Invite](https://resizing.flixster.com/vu3WNu2gCk5JheviBy5KMw07wyc=/800x1200/v2/https://resizing.flixster.com/oQP7j5g3mdXhrPzuVM1Kt5yKNbo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMyM2E1MzNiLWJjYzgtNDQ1MC05M2Q0LTY2NWJmM2IyYjk4ZC5qcGc=)
+Olivia Wilde'ın yönettiği filmde evliliği çatırdayan Joe ve Angela, üst kattaki gizemli komşularını yemeğe davet ediyor. Seth Rogen, Penélope Cruz ve Edward Norton'lı kadrosuyla yılın en sofistike farsı.
+
+## 2. The Sheep Detectives (2026) — %95
+![The Sheep Detectives](https://resizing.flixster.com/mQRp4QAya4hb3SShwOckjngwLIA=/800x1200/v2/https://resizing.flixster.com/LviGdc9-5BykrMyhX1oGyU-HhXE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzYzNjA4ZWQ1LTE1M2UtNGI2Mi05NTJlLWM0ZTg2NWM5ODJhNC5qcGc=)
+Hugh Jackman, koyunlarına her gece dedektif romanı okuyan bir çobanı oynuyor. Emma Thompson ve Nicholas Braun'un da yer aldığı film, sıcak bir aile eğlencesi ambalajına şaşırtıcı derinlikte temalar sarıyor.
+
+## 3. Hoppers (2026) — %94
+![Hoppers](https://resizing.flixster.com/PLxuRQLKTav6wOOrBIvqw736EBE=/800x1200/v2/https://resizing.flixster.com/bwWq8XLRwb_i2OuzPIq0JwPPyw8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzkzNjM1M2U4LWVmODYtNGM4Mi1iYzJmLTNkZWU0MjkxZTU0Yi5qcGc=)
+Pixar'ın yeni filmi, hayvanlarla konuşabilmeyi mümkün kılan bir bilim kurgu fikrinden yola çıkıyor. Eleştirmenlere göre stüdyonun bugüne kadarki en komik işi.
+
+## 4. Toy Story 5 (2026) — %92
+![Toy Story 5](https://resizing.flixster.com/_qrGu1iWuHN_tDhkSw22ZvHl1B8=/800x1200/v2/https://resizing.flixster.com/mA3D_vy893aAyLJ9qFLLW4U6LIU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2YxNjlmZDVkLWU1YjEtNGU5Mi1hMDQwLWE0ZjNhYmNiMGFkZS5qcGc=)
+Bu kez oyuncaklar ekranlarla yarışıyor. Woody ve Buzz'ın dönüşü, seri yorgunluğuna rağmen çocukların bu karakterlere hâlâ ihtiyacı olduğunu hatırlatıyor.
+
+## 5. I Love Boosters (2026) — %92
+![I Love Boosters](https://resizing.flixster.com/xsf25W7RBZbGmis3mCgVcDfiqMY=/800x1200/v2/https://resizing.flixster.com/buDvWJ5KfAV4_4MVcFG_-nZBqLQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzNiZGNiNDA2LTY0NDItNGJlNy04NmRlLTM0OTllZjk0ZGQ2MS5qcGc=)
+Boots Riley'nin Keke Palmer, Naomi Ackie ve Taylour Paige'li yeni filmi; yönetmenin keskin toplumsal hicvini yine kaotik bir mizahla birleştiriyor.
+
+## 6. I Want Your Sex (2026) — %90
+![I Want Your Sex](https://resizing.flixster.com/_XzDHRpLdtIfwZBI0ssBt96kSsk=/800x1200/v2/https://resizing.flixster.com/fArozlChMxf5nY6-Ey0bvc32ig0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JlYjVjMmQ1LTc2YTQtNDBhNC04NzJhLWE2OWEwOTYyYWVkZi5qcGc=)
+Gregg Araki'nin en ulaşılabilir işlerinden biri. Cooper Hoffman'ın canlandırdığı Elliot, provokatif sanatçı Erika Tracy'nin (Olivia Wilde) yanında işe girince fantezileri gerçeğe dönüşüyor.
+
+## 7. Minions & Monsters (2026) — %89
+![Minions & Monsters](https://resizing.flixster.com/LeSi5fpSggaQ4EayHfYv_dCv_0c=/800x1200/v2/https://resizing.flixster.com/1gyu0k41JOFVHiGEh8aA1Pw7X14=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzY0ZTNhMGQwLWEwN2QtNDIxNS05ZTNmLTEzMGM1YmM0ZmYyNC5qcGc=)
+Minion'lar bu kez Hollywood tarihini fethediyor: yıldız oluyorlar, her şeylerini kaybediyorlar ve dünyaya canavarlar salıyorlar. Serinin en keyifli halkası.
+
+## 8. Power Ballad (2026) — %88
+![Power Ballad](https://resizing.flixster.com/48xFRdscTddL_6EpBxYa6QDLY0k=/800x1200/v2/https://resizing.flixster.com/D6ZNf6XfT_f-L-2iIpnUFpG21rA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzM3MTdjMjYzLTE4MzItNGU1MC1hZTYzLWI3NzUwMThjODI4OC5qcGc=)
+John Carney'nin filminde eski günlerini arayan düğün şarkıcısı Rick (Paul Rudd), sönmekte olan boyband yıldızı Danny (Nick Jonas) ile tanışıyor. Şöhretin cazibesini de bedelini de sakin bir zarafetle anlatıyor.
+
+## 9. GOAT (2026) — %82
+![GOAT](https://resizing.flixster.com/brDsSDz6YaqMD1PUxm6VepaVaEw=/800x1200/v2/https://resizing.flixster.com/E4RWTXg58eK-yeETfMDBjOKjfGI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzk1YWYwNTYzLWNjYjMtNGYyNi1iMGE4LWM2NWM5NmVhMWZkYi5qcGc=)
+Sony Pictures Animation'ın tamamen hayvanlardan oluşan dünyasında geçen aksiyon-komedisi. Steph Curry ve Gabrielle Union'ın da yer aldığı seslendirme kadrosu işi kotarıyor.
+
+## 10. Cold Storage (2026) — %81
+![Cold Storage](https://resizing.flixster.com/kytUurP27KN3R5E4ikzZDvVwUig=/800x1200/v2/https://resizing.flixster.com/ou6aGKAZo60oUaTDVfNmdc6wZcA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2UxZDY1YzRlLTZlMTYtNDUwOS05Mjc0LThkOGJmM2UzOWRhNS5qcGc=)
+Joe Keery ve Georgina Campbell'ın oynadığı film, eski bir askeri üssün üzerine kurulmuş depo tesisinde geçen bir B-film güzellemesi. Liam Neeson'lı kadrosuyla yapış yapış ve esprili bir bilim kurgu.
+
+Kaynak: Rotten Tomatoes — "Best New Comedies of 2026".`,
+    image: "https://resizing.flixster.com/vu3WNu2gCk5JheviBy5KMw07wyc=/800x1200/v2/https://resizing.flixster.com/oQP7j5g3mdXhrPzuVM1Kt5yKNbo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMyM2E1MzNiLWJjYzgtNDQ1MC05M2Q0LTY2NWJmM2IyYjk4ZC5qcGc=",
+    source: "Rotten Tomatoes",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
