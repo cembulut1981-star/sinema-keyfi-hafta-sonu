@@ -15,7 +15,7 @@ import animalFarmAsset from "@/assets/animalfarm.jpg.asset.json";
 import theDayShereturnsAsset from "@/assets/thedayshereturns.jpg.asset.json";
 import theyFightAsset from "@/assets/theyfight.jpg.asset.json";
 import deepWaterAsset from "@/assets/deepwater.jpg.asset.json";
-import theShardsAsset from "@/assets/theshards.jpg.asset.json";
+
 import possessionAsset from "@/assets/posession.jpg.asset.json";
 import sterlingPointAsset from "@/assets/sterlingpoint.jpg.asset.json";
 
@@ -49,22 +49,6 @@ Wilde'ın Erika'sı, film boyunca hem itici hem karşı konulamaz olmayı başar
 90 dakikalık film, erotik komedi ile gerilim arasında gidip gelirken zaman zaman kendi provokasyonuna fazla güveniyor. Yine de Araki'nin, açıklıkla değil kırılganlıkla ilgili bir çağrı yaptığı final, filmi basit bir şok komedisinin ötesine taşıyor: Birbirine gerçekten görünmeyi göze alan insanlar hakkında, şaşırtıcı biçimde tatlı bir hikâye.`,
   },
 
-  {
-    slug: "the-shards-guardian-inceleme-ryan-murphy-donusu",
-    origTitle: "The Shards",
-    title: "\"The Shards\" İncelemesi: Cinayet, 80'ler Kaosu ve Beklediğimiz Ryan Murphy Dönüşü",
-    excerpt: "The Guardian eleştirmeni Lucy Mangan'a göre Murphy, Bret Easton Ellis uyarlamasıyla formuna dönüyor: ayrıcalıklı Los Angeles gençlerinin peşine düşen bir seri katil, kusursuz kürasyonla görüntüye ve müziğe dökülüyor.",
-    rating: "4/5",
-    imdbRating: "5,9",
-    image: theShardsAsset.url,
-    body: `Dünya yeniden umut etmeye başlayabilir: Ryan Murphy dalıştan çıkmış, o eski görkemli ritmini yeniden buluyor gibi görünüyor. Süper showrunner, geçen yıl 'All's Fair' ile dibi görmüştü — nadir görülen sıfır yıldızlı eleştiriler toplayan, varoluşsal anlamda kötü bir hukuk draması. Ardından kaotik ama eğlenceli 'The Beauty', sonra da JFK Jr. ile Carolyn Bessette'in kısa hayatını anlatan, tam ayarında "iyi çöp" olan 'Love Story' geldi.
-
-Ve şimdi 'The Shards' var: Bret Easton Ellis'in 80'lerde geçen metakurmaca/otobiyografik romanının Murphy uyarlaması. Kitabı okumamış bir izleyici için bile bu evlilik pop kültür cennetinde kıyılmış gibi duruyor. 1980'lerde, anlatıcımız Bret'in (Igby Rigney — yer yer hamlığına rağmen, parlak koruyucu kabuğun altındaki kaynayan duyguya tam ölçüsünde göz kırpan iyi bir iş çıkarıyor) tembel dış sesiyle açılıyoruz. Seçkin, yaldızlı lise arkadaş grubunun yakın geleceğini çiziyor: "Hepimizi yok edecek bir korku ve cinayet mevsimi." Quaalude'lu bir Gatsby düşünün, koltuğa yayılıp keyfini çıkarın.
-
-Metakurmaca meta-yorum ister; Murphy de kadroyu 80'ler ikonlarının çocuklarıyla doldurmuş. En dikkat çekenleri, annesi Cindy Crawford'un birebir sureti Kaia Gerber ve Richard Gere ile Carey Lowell'ın oğlu Homer Gere; ikisi de altından fazlasıyla kalkıyor. Gerber, Bret'in çocukluk arkadaşı, pekiyi öğrenci ve sınıf başkanı Susan'ı canlandırıyor.
-
-Görüntü yönetiminden müzik seçkisine, prodüksiyon tasarımından kostüme kadar her şey özenle kürate edilmiş; dizinin dokusu, dönemin hem parıltısını hem çürümesini aynı karede tutuyor. Murphy'nin maksimalizmi burada bir kez daha malzemesine yakışıyor: 'The Shards', son yıllarda ondan izlediğimiz en kendinden emin iş.`,
-  },
 
 
 
