@@ -204,6 +204,32 @@ Kaynak: The Guardian`,
   },
 
   {
+    slug: "project-hail-mary-boston-globe-inceleme",
+    origTitle: "Project Hail Mary",
+    title: "\"Project Hail Mary\" İncelemesi: Ryan Gosling ile Bir Uzaylının Şaşırtıcı Dostluğu",
+    excerpt: "Boston Globe eleştirmeni Odie Henderson'a göre Lord & Miller imzalı film, hem görkemli bir uzay macerası hem de beklenmedik biçimde duygusal bir karakter çalışması: \"HAL 9000 ile Dave'in en yakın arkadaş olduğunu düşünün.\"",
+    rating: "4/5",
+    imdbRating: "7,9",
+    image: "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/7XW7LJ3CG6TULA2IGSCQPXBUE4.jpg?auth=dc954688d124ef91ca0af2c7035d69a12b56fa08bbc3e8e4ea2f923a3b1d3b3c&width=1440",
+    body: `'2001: A Space Odyssey'de HAL 9000'in Dave ile en yakın arkadaş olduğunu düşünün; 'Project Hail Mary'nin nasıl bir film olduğu hakkında fikir edinirsiniz. Büyük ölçüde uzayda geçen ve Ryland Grace (Ryan Gosling) ile onun "Rocky" adını verdiği bir uzaylı arasındaki ikili oyuna dayanan film, Andy Weir'in bir romanından yapılan son uyarlama. 2015'te Weir'in 'The Martian'ında olduğu gibi senaryoyu yine Drew Goddard yazmış — zekice ve iyi kurgulanmış bir metin. Christopher Miller ve Phil Lord ise 2014'teki '22 Jump Street'ten bu yana ilk kez yönetmen koltuğunda.
+
+Weir'in 2021 tarihli bilimkurgu romanı hayranları tarafından çok seviliyor. Ama kitabı okumuş olsam bile, IMAX 70mm'de perdeye yayılan bu görkemli görüntüleri ya da Daniel Pemberton'ın etkileyici müziğini zihnimde canlandırabileceğimi sanmıyorum. Rocky'nin neye benzediğini de kestiremezdim: CGI'ın her yeri kapladığı bu dönemde onun kısmen bir kuklayla canlandırıldığını hiç tahmin etmezdim.
+
+Film, çok tatmin edici bir "plaj kitabı" gibi akıyor; kahramanımız kendisine Dünya'da — daha doğrusu Dünya'nın dışında — ne olduğunu çözmeye çalışırken tempo bilinçli biçimde sakin tutulmuş. Stratejik geri dönüşler, lise fen öğretmeni Grace'in insanlığı kurtarma göreviyle uzaya nasıl çıktığını anlatıyor. Grace bir gemide uyanır, baktığı yıldızın bizim güneş sistemimizde olmadığını fark eder; gemi bilgisayarına göre pilot ve diğer yolcular ölmüştür.
+
+Görev, Güneş'i yiyen bir tür uzaylı virüsün çaresini bulmak için insanları derin uzaya tek yön bir yolculuğa göndermek. Venüs'ten Güneş'e uzanan bir "Petrova hattı" oluşmuş, "uzay noktaları" Güneş'i kemiriyor. Aynı kader başka galaksileri de bekliyor; ama bağışık görünen tek bir yıldız var ve Grace'in gemisi oraya gidiyor. Rocky de kendi gezegenini kurtarmak için benzer bir görevde. İkilinin karşılaşması "meet cute" değil, olsa olsa "meet curious": Önce birbirlerini gözleyip korkuyla geri çekiliyorlar. Grace bir iletişim yolu bulup çeviri kütüphanesi kurduğunda film başarılı bir dostluk komedisine, Grace'in Felix, Rocky'nin Oscar olduğu bir 'Çılgın İkili' varyasyonuna dönüşüyor. Gosling insan olmayan bir partnerin karşısında müthiş: Bu ilişkinin hem sağlam hem de sevinç ve hüzün duyacak kadar karmaşık olduğuna bizi o inandırıyor.
+
+Dünya'daki geri dönüş sahnelerinde ise soğukkanlı devlet ajanı Eva Stratt (kusursuz bir Sandra Hüller) ve bilim insanlarından oluşan ekibi var. Grace başta gönülsüz bir katılımcı; Stratt ise onu eski işinden kovulmasına yol açan teorilerinde haklı bulan tek kişi. Uzaydaki sahneler gibi bu bölümler de sürece odaklanıyor: Bir kısmı yanıtlanan, bir kısmı yanıtsız kalan deneyler ve sorular dizisi. Film, seyircinin zekâsına ve dikkat süresine güvenen bir dönemin sinemasını hatırlatıyor.
+
+Bu, Lord ve Miller'ın ağır bir film çektiği anlamına gelmiyor. Yer çekimi sorunlarından gerilimli uzay yürüyüşlerine ve patlamalara kadar bir uzay filminden beklenen her şey burada; efektler birinci sınıf, büyük perdede (özellikle 70mm'de) çok iyi görünüyor. Ama tüm o gösterişin ötesinde 'Project Hail Mary', jenerik akarken beklenmedik ölçüde duygu uyandıran, tatlı-buruk bir karakter çalışması: İnsanla uzaylı arasında bir pas de deux.
+
+Yönetmen: Christopher Miller, Phil Lord. Senaryo: Drew Goddard (Andy Weir'in romanından). Oyuncular: Ryan Gosling, Sandra Hüller, James Ortiz. 156 dakika. PG-13.
+
+Kaynak: The Boston Globe`,
+  },
+
+
+  {
     slug: "they-fight-boxing-drama-holland",
     origTitle: "They Fight",
     title: "\"They Fight\" — André Holland'ın Boks Draması Duygusal Bir \"Mideye Yumruk\"",
