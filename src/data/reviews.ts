@@ -15,6 +15,9 @@ import animalFarmAsset from "@/assets/animalfarm.jpg.asset.json";
 import theDayShereturnsAsset from "@/assets/thedayshereturns.jpg.asset.json";
 import theyFightAsset from "@/assets/theyfight.jpg.asset.json";
 import deepWaterAsset from "@/assets/deepwater.jpg.asset.json";
+import theShardsAsset from "@/assets/theshards.jpg.asset.json";
+import possessionAsset from "@/assets/posession.jpg.asset.json";
+import sterlingPointAsset from "@/assets/sterlingpoint.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -52,8 +55,8 @@ Wilde'ın Erika'sı, film boyunca hem itici hem karşı konulamaz olmayı başar
     title: "\"The Shards\" İncelemesi: Cinayet, 80'ler Kaosu ve Beklediğimiz Ryan Murphy Dönüşü",
     excerpt: "The Guardian eleştirmeni Lucy Mangan'a göre Murphy, Bret Easton Ellis uyarlamasıyla formuna dönüyor: ayrıcalıklı Los Angeles gençlerinin peşine düşen bir seri katil, kusursuz kürasyonla görüntüye ve müziğe dökülüyor.",
     rating: "4/5",
-    imdbRating: "5,8",
-    image: "https://i.guim.co.uk/img/media/d70eed4454c1ca843a88428451084b9f17ebc5a5/102_32_1274_1019/master/1274.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
+    imdbRating: "5,9",
+    image: theShardsAsset.url,
     body: `Dünya yeniden umut etmeye başlayabilir: Ryan Murphy dalıştan çıkmış, o eski görkemli ritmini yeniden buluyor gibi görünüyor. Süper showrunner, geçen yıl 'All's Fair' ile dibi görmüştü — nadir görülen sıfır yıldızlı eleştiriler toplayan, varoluşsal anlamda kötü bir hukuk draması. Ardından kaotik ama eğlenceli 'The Beauty', sonra da JFK Jr. ile Carolyn Bessette'in kısa hayatını anlatan, tam ayarında "iyi çöp" olan 'Love Story' geldi.
 
 Ve şimdi 'The Shards' var: Bret Easton Ellis'in 80'lerde geçen metakurmaca/otobiyografik romanının Murphy uyarlaması. Kitabı okumamış bir izleyici için bile bu evlilik pop kültür cennetinde kıyılmış gibi duruyor. 1980'lerde, anlatıcımız Bret'in (Igby Rigney — yer yer hamlığına rağmen, parlak koruyucu kabuğun altındaki kaynayan duyguya tam ölçüsünde göz kırpan iyi bir iş çıkarıyor) tembel dış sesiyle açılıyoruz. Seçkin, yaldızlı lise arkadaş grubunun yakın geleceğini çiziyor: "Hepimizi yok edecek bir korku ve cinayet mevsimi." Quaalude'lu bir Gatsby düşünün, koltuğa yayılıp keyfini çıkarın.
@@ -63,37 +66,7 @@ Metakurmaca meta-yorum ister; Murphy de kadroyu 80'ler ikonlarının çocukları
 Görüntü yönetiminden müzik seçkisine, prodüksiyon tasarımından kostüme kadar her şey özenle kürate edilmiş; dizinin dokusu, dönemin hem parıltısını hem çürümesini aynı karede tutuyor. Murphy'nin maksimalizmi burada bir kez daha malzemesine yakışıyor: 'The Shards', son yıllarda ondan izlediğimiz en kendinden emin iş.`,
   },
 
-  {
-    slug: "possession-inceleme-plantasyon-korku-drami-sky-atlantic",
-    origTitle: "Possession",
-    title: "\"Possession\" İncelemesi: Bölücü Bir Paranormal Kıvrımla Kâbus Gibi Bir Plantasyon Draması",
-    excerpt: "Gugu Mbatha-Raw, bir miras gizemini çözmek için Jamaika'ya gönderilen avukatı oynuyor. Ortaya çıkan şey; korkularla, geçmişin adaletsizlikleriyle ve seveceğiniz ya da nefret edeceğiniz bir doğaüstü unsurla dolu.",
-    rating: "3/5",
-    image: "https://i.guim.co.uk/img/media/5a9167e6d3ffc0aa16c3870ae748923c51f3a8be/347_0_2500_2000/master/2500.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
-    body: `Jamaika'daki bir şeker plantasyonuna dayanan 50 milyon sterlinlik servetin sahibi müvekkiliniz ölür ve vasiyetinde tek çocuğunu devre dışı bırakıp her şeyi Cudjoe East adında, kimsenin tanımadığı birine bıraktığı ortaya çıkarsa ne yaparsınız? Firmanızın büyük olasılıkla tek melez avukatı Claudia'yı (Gugu Mbatha-Raw) Kingston'a yollayıp bu adamı bulmasını ve bir an önce itibarsızlaştırmasını istersiniz. "Kulağa daha çok bir ortağın işi gibi geliyor," diyor Claudia — ve terfisini böylece güvenceye alıp annesinin memleketine gidiyor.
 
-Plantasyon evi, son zamanlarda kâbuslarında beliren evin aynısı: yangınlar, dehşete düşmüş figürler, tuhaf simgeler. Ama o hukukun kadını, hurafenin değil; Afro-gotik uyarıları bir kenara bırakıp vasiyeti geçersiz kılabilecek her şeyi aramaya koyuluyor. Kısa süre sonra mirastan mahrum kalan oğul Oliver (Jonny Lee Miller, kibar ve tedirgin modda) da ona katılıyor — hem soruşturmak hem cinsel gerilim inşa etmek için.
-
-Ardından çift zaman çizgili bir gizem geliyor: biri bugünde, diğeri 300 yıl önce, arazinin köleleştirilmiş insanlarla işletildiği, Oliver'ın atalarının giderek zalimleştiği ve Tacky Savaşı olarak bilinen isyanlar zincirinin yaşandığı dönemde. Doğaüstü bir ton, iki çizgiyi giderek iç içe geçiriyor: rüya dünyasında görünen imgeler ve nesneler evde ortaya çıkıyor, sömürgeciliğin soyut dehşetini somutlaştıran belgelerle birlikte.
-
-Dizinin en güçlü yanı atmosferi ve Mbatha-Raw'ın ölçülü, gerilimi taşıyan performansı. En tartışmalı yanı ise paranormal unsuru: kimileri için geçmişin bastırılmış hafızasını konuşturan güçlü bir metafor, kimileri için ise gerçek tarihsel dehşetin gerilim türü içinde eritilmesi. Sonuç, kusursuz olmasa da unutulması zor bir dizi.`,
-  },
-
-  {
-    slug: "sterling-point-inceleme-genc-draması-prime-video",
-    origTitle: "Sterling Point",
-    title: "\"Sterling Point\" İncelemesi: Gossip Girl Ekibinden Kusursuz Bir Kaçış Dizisi",
-    excerpt: "İdilik bir Kanada adasında geçen bu büyüme hikâyesi epey sulu: son dönem gençlik dizilerinin karanlığını sıcaklık, mizah ve şaşırtıcı derecede sürükleyici bir gizemle değiştiriyor.",
-    rating: "4/5",
-    image: "https://i.guim.co.uk/img/media/8b3f238da89daba34a110f8759c93f24a9458677/491_0_2500_2000/master/2500.jpg?width=1200&quality=85&auto=format&fit=max&s=none",
-    body: `Dürüst olmak gerekirse: Prime Video'nun yeni büyüme hikâyesi 'Sterling Point'i, sıradan bir lise draması sayıp dişimi sıkarak izlemeye hazırlanmıştım. Dizi, New York'tan çıkıp pitoresk bir Kanada adasında güneşle yıkanmış bir kendini keşif yolculuğuna atılan A tipi bir genci izliyor. Görünüşte iddiasız, yaz kampı tadında bir anlatı; ama geçen yılın mevsimsel fenomeni 'The Summer I Turned Pretty'nin üçüncü sezonu gibi, gençlik dizisi nişinin sınırlarını aşıp epey sulu bir şeye dönüşüyor.
-
-Başkarakter Annie (Ella Rubin), bir yaz işletme programından aldığı ret cevabını hâlâ atlatamamış, fazlasıyla gergin 17 yaşında bir genç. Tam o sırada, uzun süredir görüşmediği anne tarafından dedesinin ona gizemli bir miras bıraktığı haberi geliyor. Annesini yıllar önce kaybeden Annie ve ikizi Connor (Keen Ruffalo), babalarının (Jay Duplass) rahatsızlığına rağmen aile sırlarını kazmaya başlıyor. Kanada'da bir ev miras aldıklarını öğrenen Annie, annesinin hayatına dair cevaplar aramak için gizli bir yolculuğa çıkıyor.
-
-Sterling Point'te Annie hızla özgür ruhlu bir arkadaş grubu buluyor: grubun kaygısız ve cinsellikte cesur mihenk taşı Oona (Bo Bragason), Annie'yi adaya derme çatma bir deniz uçağıyla getiren şakacı yerli Ellis (Jacob Whiteduck-Lavoie), Timothée Chalamet'e benzetilen hassas New Yorklu Rory (Daniel Quinn-Toye) ve Ramona (Amélie Elisabeth Hoefe).
-
-Gossip Girl'ün yaratıcılarının elinden çıkan dizi, o ekibin en iyi bildiği şeyi yapıyor: keskin diyalog, hızlı tempo ve tam yerinde bırakılmış sır kırıntıları. Ama bu kez karanlık ve acımasızlık yerine sıcaklık ve mizah var. Sonuç, yazın en rahatlatıcı, en sürükleyici kaçış televizyonu.`,
-  },
 
 
 
@@ -177,6 +150,22 @@ Hikâyenin merkezinde, ölen karısının ruhunun bir ev tipi elektrik süpürge
 
 Kaynak: The Guardian`,
   },
+  {
+    slug: "possession-inceleme-plantasyon-korku-drami-sky-atlantic",
+    origTitle: "Possession",
+    title: "\"Possession\" İncelemesi: Bölücü Bir Paranormal Kıvrımla Kâbus Gibi Bir Plantasyon Draması",
+    excerpt: "Gugu Mbatha-Raw, bir miras gizemini çözmek için Jamaika'ya gönderilen avukatı oynuyor. Ortaya çıkan şey; korkularla, geçmişin adaletsizlikleriyle ve seveceğiniz ya da nefret edeceğiniz bir doğaüstü unsurla dolu.",
+    rating: "3/5",
+    imdbRating: "6,2",
+    image: possessionAsset.url,
+    body: `Jamaika'daki bir şeker plantasyonuna dayanan 50 milyon sterlinlik servetin sahibi müvekkiliniz ölür ve vasiyetinde tek çocuğunu devre dışı bırakıp her şeyi Cudjoe East adında, kimsenin tanımadığı birine bıraktığı ortaya çıkarsa ne yaparsınız? Firmanızın büyük olasılıkla tek melez avukatı Claudia'yı (Gugu Mbatha-Raw) Kingston'a yollayıp bu adamı bulmasını ve bir an önce itibarsızlaştırmasını istersiniz. "Kulağa daha çok bir ortağın işi gibi geliyor," diyor Claudia — ve terfisini böylece güvenceye alıp annesinin memleketine gidiyor.
+
+Plantasyon evi, son zamanlarda kâbuslarında beliren evin aynısı: yangınlar, dehşete düşmüş figürler, tuhaf simgeler. Ama o hukukun kadını, hurafenin değil; Afro-gotik uyarıları bir kenara bırakıp vasiyeti geçersiz kılabilecek her şeyi aramaya koyuluyor. Kısa süre sonra mirastan mahrum kalan oğul Oliver (Jonny Lee Miller, kibar ve tedirgin modda) da ona katılıyor — hem soruşturmak hem cinsel gerilim inşa etmek için.
+
+Ardından çift zaman çizgili bir gizem geliyor: biri bugünde, diğeri 300 yıl önce, arazinin köleleştirilmiş insanlarla işletildiği, Oliver'ın atalarının giderek zalimleştiği ve Tacky Savaşı olarak bilinen isyanlar zincirinin yaşandığı dönemde. Doğaüstü bir ton, iki çizgiyi giderek iç içe geçiriyor: rüya dünyasında görünen imgeler ve nesneler evde ortaya çıkıyor, sömürgeciliğin soyut dehşetini somutlaştıran belgelerle birlikte.
+
+Dizinin en güçlü yanı atmosferi ve Mbatha-Raw'ın ölçülü, gerilimi taşıyan performansı. En tartışmalı yanı ise paranormal unsuru: kimileri için geçmişin bastırılmış hafızasını konuşturan güçlü bir metafor, kimileri için ise gerçek tarihsel dehşetin gerilim türü içinde eritilmesi. Sonuç, kusursuz olmasa da unutulması zor bir dizi.`,
+  },
 
   {
     slug: "spider-man-brand-new-day-sf-chronicle-inceleme",
@@ -246,6 +235,22 @@ Bir zamanlar Washington DC boks sahnesinin parlayan yıldızlarından olan Walt,
 **Sonuç.** 'They Fight', tür kalıplarını yeniden icat etmiyor — ama içinde çalıştığı türü büyük bir ustalıkla, şefkatle ve sertlikle kullanıyor. Holland için ödül sezonu konuşmalarını başlatacak bir performans; Andscape yapımının şimdiye kadarki en olgun işi.
 
 Kaynak: The Guardian`,
+  },
+  {
+    slug: "sterling-point-inceleme-genc-draması-prime-video",
+    origTitle: "Sterling Point",
+    title: "\"Sterling Point\" İncelemesi: Gossip Girl Ekibinden Kusursuz Bir Kaçış Dizisi",
+    excerpt: "İdilik bir Kanada adasında geçen bu büyüme hikâyesi epey sulu: son dönem gençlik dizilerinin karanlığını sıcaklık, mizah ve şaşırtıcı derecede sürükleyici bir gizemle değiştiriyor.",
+    rating: "4/5",
+    imdbRating: "7,0",
+    image: sterlingPointAsset.url,
+    body: `Dürüst olmak gerekirse: Prime Video'nun yeni büyüme hikâyesi 'Sterling Point'i, sıradan bir lise draması sayıp dişimi sıkarak izlemeye hazırlanmıştım. Dizi, New York'tan çıkıp pitoresk bir Kanada adasında güneşle yıkanmış bir kendini keşif yolculuğuna atılan A tipi bir genci izliyor. Görünüşte iddiasız, yaz kampı tadında bir anlatı; ama geçen yılın mevsimsel fenomeni 'The Summer I Turned Pretty'nin üçüncü sezonu gibi, gençlik dizisi nişinin sınırlarını aşıp epey sulu bir şeye dönüşüyor.
+
+Başkarakter Annie (Ella Rubin), bir yaz işletme programından aldığı ret cevabını hâlâ atlatamamış, fazlasıyla gergin 17 yaşında bir genç. Tam o sırada, uzun süredir görüşmediği anne tarafından dedesinin ona gizemli bir miras bıraktığı haberi geliyor. Annesini yıllar önce kaybeden Annie ve ikizi Connor (Keen Ruffalo), babalarının (Jay Duplass) rahatsızlığına rağmen aile sırlarını kazmaya başlıyor. Kanada'da bir ev miras aldıklarını öğrenen Annie, annesinin hayatına dair cevaplar aramak için gizli bir yolculuğa çıkıyor.
+
+Sterling Point'te Annie hızla özgür ruhlu bir arkadaş grubu buluyor: grubun kaygısız ve cinsellikte cesur mihenk taşı Oona (Bo Bragason), Annie'yi adaya derme çatma bir deniz uçağıyla getiren şakacı yerli Ellis (Jacob Whiteduck-Lavoie), Timothée Chalamet'e benzetilen hassas New Yorklu Rory (Daniel Quinn-Toye) ve Ramona (Amélie Elisabeth Hoefe).
+
+Gossip Girl'ün yaratıcılarının elinden çıkan dizi, o ekibin en iyi bildiği şeyi yapıyor: keskin diyalog, hızlı tempo ve tam yerinde bırakılmış sır kırıntıları. Ama bu kez karanlık ve acımasızlık yerine sıcaklık ve mizah var. Sonuç, yazın en rahatlatıcı, en sürükleyici kaçış televizyonu.`,
   },
 
   {
