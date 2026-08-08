@@ -109,6 +109,26 @@ function NewsPage() {
               </div>
             ))}
           </div>
+        ) : isPrimetime ? (
+          <div className={articleProse}>
+            {n.body.split("\n\n").map((para, i) => (
+              <div key={i}>
+                <ReactMarkdown>{para}</ReactMarkdown>
+                {para.trim().endsWith("Sunucu ise Chris Hansen'dı.") ? (
+                  <figure className="my-10 flex justify-center not-prose">
+                    <div className="w-full max-w-[420px] bg-[#ffbd3f] p-3">
+                      <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+                        <img src={toCatchAsset.url} alt="Chris Hansen'ın 'To Catch a Predator' kitabının kapağı" className="w-full h-full object-cover" />
+                      </div>
+                      <figcaption className="mt-3 text-center font-display text-sm font-black uppercase tracking-wider text-black">
+                        Chris Hansen — "To Catch a Predator" (2007)
+                      </figcaption>
+                    </div>
+                  </figure>
+                ) : null}
+              </div>
+            ))}
+          </div>
         ) : (
           <div className={articleProse}>
             <ReactMarkdown>{n.body}</ReactMarkdown>
