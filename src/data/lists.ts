@@ -1593,6 +1593,7 @@ Grace (Samara Weaving) Le Domas ailesinden kurtulduktan hemen sonra oyunun bir �
 Kaynak: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
     image: "https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=",
     source: "Rotten Tomatoes",
+    countdownBadge: "10 → 1 geri sayım",
   },
   {
     slug: "2026nin-en-iyi-yeni-komedi-filmleri",
