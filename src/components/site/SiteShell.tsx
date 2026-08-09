@@ -259,6 +259,7 @@ export function FeaturedArticleCard({
           </span>
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
           <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+          <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
         <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
           {linkTo ? (
@@ -393,6 +394,32 @@ export function CustomBadge({ label, className = "" }: { label?: string; classNa
 }
 
 
+/**
+ * Geri sayım rozeti — sıralama (ranking) içeriklerinde kullanılır.
+ * Siyah zemin, neon yeşil sayaç ve kırmızı tik çizgileriyle site diline uyar.
+ */
+export function CountdownBadge({ label, className = "" }: { label?: string; className?: string }) {
+  if (!label) return null;
+  return (
+    <span
+      className={`inline-flex items-center gap-1.5 bg-black pl-1.5 pr-2 py-1 rounded-sm shadow-md ${className}`}
+    >
+      <span className="flex items-end gap-[2px]" aria-hidden>
+        <span className="w-[2px] h-2 bg-red-600" />
+        <span className="w-[2px] h-3 bg-red-600" />
+        <span className="w-[2px] h-[18px] bg-[#00EAA1]" />
+      </span>
+      <span
+        className="font-display font-black text-[11px] tracking-[0.14em] uppercase leading-none"
+        style={{ color: "#00EAA1" }}
+      >
+        {label}
+      </span>
+    </span>
+  );
+}
+
+
 function getArticleLink(article: Article) {
   return article.reviewSlug
     ? { to: "/inceleme/$slug" as const, params: { slug: article.reviewSlug } }
@@ -455,6 +482,7 @@ export function SmallArticleCard({
           ) : null}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
           <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+          <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
       </div>
       {/* Alt yarı — bembeyaz metin bloğu */}
@@ -526,6 +554,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
           )}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
           <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+          <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
       </div>
       <div className="p-4 flex-1 flex flex-col">
         <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
