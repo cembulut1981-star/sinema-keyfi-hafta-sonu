@@ -258,7 +258,7 @@ export function FeaturedArticleCard({
             {badgeLabel}
           </span>
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+<CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
         <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
@@ -494,7 +494,7 @@ export function SmallArticleCard({
             </span>
           ) : null}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+<CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
       </div>
@@ -566,7 +566,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             />
           )}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+          <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
       </div>
       <div className="p-4 flex-1 flex flex-col">
