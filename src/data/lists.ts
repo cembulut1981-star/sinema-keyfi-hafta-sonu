@@ -1806,7 +1806,7 @@ Kaynak: Empire — "The 25 Best Zombie Movies Of All Time".`,
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [34, 32, 31, 29, 28, 23, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
 
 
 
