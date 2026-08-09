@@ -1695,11 +1695,118 @@ Kaynak: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
     image: "https://cdn.nerdist.com/wp-content/uploads/2026/08/07012546/Spider-Man-2.webp",
     source: "Nerdist",
   },
+  {
+    slug: "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi",
+    title: "Mutantlar MCU'ya Gelmeden Önce İzlemeniz Gereken 3 Muhteşem X-Men Filmi",
+    excerpt: "Emma Frost rolüne Samara Weaving'in kastlanmasıyla mutantların MCU yolculuğu hızlanırken, Empire ekibi seriye dönmek için en iyi üç durağı seçti: X2, Days Of Future Past ve Logan.",
+    body: `Marvel Sinematik Evreni'nin mutantlara giderek yaklaştığını bir süredir biliyoruz. *X-Men '97* ile MCU çatısı altında bir X-Men anlatısı hâlihazırda sürüyor; üstüne telepat Emma Frost rolü için Samara Weaving'in kastlandığı haberi geldi. Yani türü başlatan seriye dönüp bakmak için bundan iyi zaman yok. Ama bütün X-filmleri eşit doğmadı — Empire'ın uzmanları yeniden izlemeye en çok değen üçünü seçti.
+
+## X2 (2003) — Bryan Singer
+![X2](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
+**Süre:** 2sa 15dk · **Platform:** Disney+ · **Kadro:** Patrick Stewart, Hugh Jackman, Ian McKellen, Halle Berry, Famke Janssen, James Marsden
+
+İlk *X-Men* kendi başına iyi bir film, ama ikinci halkanın yaptığı sıçrama tartışmasız. Aksiyon daha büyük, ölçek daha geniş ve film karakterlerinin içine çok daha derin giriyor: Wolverine 'Weapon X' projesiyle örtülmüş geçmişini kazıyor, Jean Grey'in telekinetik güçleri yaklaşan felaketi fısıldıyor. Beyaz Saray'a sızma açılışından (merhaba Nightcrawler!) X-Malikânesi saldırısına, Alkali Lake'teki Lady Deathstrike hesaplaşmasına kadar tam bir çizgi roman filmi klasiği. Üstüne Brian Cox'un William Stryker'ı ve Professor X ile Magneto'nun operatik satranç oyunu var. Sinematik şah mat.
+
+## X-Men: Days Of Future Past (2014) — Bryan Singer
+![X-Men: Days Of Future Past](https://images.bauerhosting.com/empire/2024/08/X-Men-Days-Of-Future-Past.jpg?auto=format&w=1440&q=80)
+**Süre:** 2sa 13dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, James McAvoy, Michael Fassbender, Jennifer Lawrence, Halle Berry, Nicholas Hoult
+
+MCU çoklu evrenlerle oynamaya başlamadan çok önce, iki mutant kuşağı devasa bir zaman yolculuğu hikâyesinde bir araya geldi. Chris Claremont ve John Byrne'ün iki parçalık çizgi roman hattından serbestçe uyarlanan film, adamantium pençeli Kanadalıyı Mystique'in bir senatörü öldürmesini — ve robot kıyametini — engellemek için 1973'e yolluyor. Açılıştaki acımasız Sentinel dövüşünden ağır çekim Quicksilver hapishane kaçışına kadar seride hayran isteyeceği her şey var. Logan'ın 1973 şaşkınlığı ("biri sana çok kötü asit vermiş") kadar, X-Men'in bilinen çetrefil politik alanlarına pençe atmaktan da çekinmiyor.
+
+## Logan (2017) — James Mangold
+![Logan](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
+**Süre:** 2sa 20dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, Patrick Stewart, Dafne Keen, Stephen Merchant
+
+Hugh Jackman teknik olarak *Deadpool & Wolverine* ile geri döndü, ama James Mangold'un hüzünlü şaheseri *Logan* hâlâ sinemanın en tanımlayıcı çizgi roman karakterlerinden birine mükemmel bir final sunuyor: *Shane* usulü bir Western vedası. Yetişkinler için X-Men; küfürden, aşırı şiddetten ve yoğun duygudan kaçınmıyor. Alzheimer'ı telepatik güçleriyle birleşip onu bir kitle imha silahına çeviren Charles Xavier, ölümlülüğün nihayet peşine düştüğünü kabul eden Logan ve 'X-23' olarak Dafne Keen'in vahşi performansı, seriye yirmi yıl sonra bile yeni bir damar açıyor. Tek kelimeyle: X-traordinary.
+
+Kaynak: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arrive In The MCU".`,
+    image: "https://images.bauerhosting.com/empire/2026/07/xmen-2.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    source: "Empire",
+  },
+  {
+    slug: "brand-new-day-oncesi-3-spider-man-disi-tom-holland-filmi",
+    title: "Brand New Day'den Önce İzlenmesi Gereken 3 Spider-Man Dışı Tom Holland Filmi",
+    excerpt: "On yıldır MCU'nun tek Spider-Man'i olan Tom Holland, örümcek ağının çok ötesinde bir oyuncu. Empire ekibi onun en iyi üç Spidey dışı filmini seçti.",
+    body: `Adı Tom Holland ve son on yıldır Marvel Sinematik Evreni'nin tek Spider-Man'i — yakında *Spider-Man: Brand New Day* ile geri dönüyor. Ama dünya onu en çok mahalleden süper kahraman olarak tanısa da, İngiliz yıldızda Peter Parker'dan çok daha fazlası var. *The Odyssey*'deki işine hayran kalmaya devam ederken, Empire'ın uzmanları arşivi kazıp en iyi üç Spidey dışı filmini çıkardı.
+
+## The Impossible (2012) — J.A. Bayona
+![The Impossible](https://images.bauerhosting.com/empire/2026/07/The-Impossible.jpg?auto=format&w=1440&q=80)
+**Süre:** 1sa 54dk · **Kadro:** Ewan McGregor, Naomi Watts, Tom Holland
+
+*Billy Elliot* günlerine daha yakın, genç bir Tom Holland; 2004'te Tayland'ı vuran Boxing Day tsunamisine yakalanan bir İngiliz ailenin gerçek hikâyesinde başrolde. Bayona'nın elinde film hem nefes kesici hem de yorucu derecede sarsıcı: felaketin fiziksel dehşetiyle bir ailenin birbirini bulma çabası aynı sahnede yaşıyor. Holland'ın buradaki olgunluğu, onun yıllar sonra taşıyacağı dramatik yükün ilk kanıtı.
+
+## The Lost City Of Z (2016) — James Gray
+![The Lost City Of Z](https://images.bauerhosting.com/empire/2026/07/The-Lost-City-Of-Z.jpg?auto=format&w=1440&q=80)
+**Kadro:** Charlie Hunnam, Robert Pattinson, Sienna Miller, Tom Holland
+
+Amazon'da kayıp bir uygarlığın peşine düşen kâşif Percy Fawcett'in hikâyesi; Holland, babasının takıntısına derin bir kırgınlıkla bakan, sonra yavaş yavaş dünyayı onun gözünden görmeye başlayan oğlu oynuyor. Keşfin güzelliği kadar hastalığı, açlığı ve acımasız iklimi de kadraja alan, artık pek çekilmeyen türden eski usul bir epik. Hunnam ile Holland ikilisi inandırıcı; ayrıca Holland ile Robert Pattinson'ın ilk kez aynı karede olduğu film.
+
+## The Devil All The Time (2020) — Antonio Campos
+![The Devil All The Time](https://images.bauerhosting.com/legacy/media/5f2a/93d9/d6ff/5e31/dc1f/3126/devil-all-the-time-excl-crop.jpg?auto=format&w=1440&q=80)
+**Süre:** 2sa 18dk · **Platform:** Netflix · **Kadro:** Bill Skarsgård, Robert Pattinson, Tom Holland, Sebastian Stan, Riley Keough, Jason Clarke
+
+Bir felaket filmiyle açılış yapmış, yarım düzine MCU filminde oynamış ve bir James Gray filminde dramatik kaslarını göstermiş olmasına rağmen, izleyicinin "sonsuza dek genç" Tom Holland algısını kıran film Campos'un zifiri karanlık Southern Gothic mücevheri oldu. Holland'ın Arvin Russell'ında şiddet, yoğunluk ve kuşatıcı karanlık aynı anda duruyor: sahte inanç önderleri ve seri katillerin insafına kalmış kanunsuz bir kasabada, tarifsizin intikamını almak için tarifsizi yapmaya razı bir genç adam. Üstüne yırtıcı bir vaiz olarak fena hâlde ipini koparmış bir Robert Pattinson var.
+
+Kaynak: Empire — "Three Non-Spider-Man Tom Holland Movies To Watch Before Brand New Day".`,
+    image: "https://images.bauerhosting.com/empire/2026/07/Tom-Holland-Non-Spidey-Movies.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    source: "Empire",
+  },
+  {
+    slug: "tum-zamanlarin-en-iyi-zombi-filmleri",
+    title: "Tüm Zamanların En İyi Zombi Filmleri: Empire'ın İlk 10'u",
+    excerpt: "Night Of The Living Dead'den 28 Years Later'a, Empire'ın 25'lik zombi listesinin zirvesindeki 10 film — Romero klasiklerinden Train To Busan'a türün en iyileri.",
+    countdownBadge: "10 → 1 geri sayım",
+    body: `Zombi filmi, sinemanın en esnek türlerinden biri: aynı canavarla hem toplumsal hiciv hem saf komedi hem de saf dehşet yapılabiliyor. Empire, *Night Of The Living Dead*'den *28 Years Later*'a uzanan 25'lik bir sıralama hazırladı. İşte o listenin zirvesindeki 10 film.
+
+## 10. Re-Animator (1985) — Stuart Gordon
+![Re-Animator](https://images.bauerhosting.com/legacy/media/5eea/4621/d165/1354/a1d4/9ffb/9-reanimator.jpg?auto=format&w=1440&q=80)
+H.P. Lovecraft öyküsünden uyarlanan film, ölülere bambaşka bir açıdan bakıyor: Jeffrey Combs'un çıldırmış profesörü Herbert West, ölü dokuyu canlandıran limon yeşili bir sıvı icat ediyor ve kısa süre sonra bunu cesetlere uygulamaya başlıyor. Korku ile komedinin pulp kıvamında karışımı; 80'lerin kanlı standartlarına göre bile fazlasıyla kanlı, sıkı senaryosuyla mide bulandırıcı derecede eğlenceli.
+
+## 9. 28 Years Later (2025) — Danny Boyle
+![28 Years Later](https://images.bauerhosting.com/empire/2025/06/28-years-later-1.jpg?auto=format&w=1440&q=80)
+Boyle ve Alex Garland'ın kendi başlattıkları salgına dönüşü, beklenen nostalji turu değil: karantinaya alınmış bir adada büyüyen bir çocuğun gözünden şiddetin, inancın ve yasın hikâyesi. Görsel cesareti ve final hamlesiyle serinin en tartışılan halkası.
+
+## 8. [REC] (2007) — Jaume Balagueró, Paco Plaza
+![REC](https://images.bauerhosting.com/empire/2020/06/8-rec.jpg?auto=format&w=1440&q=80)
+Found-footage korkusunun en verimli örneği: Barselona'da karantinaya alınmış bir apartman, tek bir kamera ve giderek daralan koridorlar. Finaldeki tavan arası sekansı, türün en çok kopyalanan dehşet anlarından biri.
+
+## 7. Braindead (1992) — Peter Jackson
+![Braindead](https://images.bauerhosting.com/legacy/media/5eea/465f/f973/9f39/e0a2/c1b5/7-braindead.jpg?auto=format&w=1440&q=80)
+Peter Jackson'ın Orta Dünya'dan önceki hâli: sinema tarihinin en kanlı filmlerinden biri, üstüne bir de çim biçme makinesi. Splatter komedisini absürtlüğün sınırına kadar götüren, mutlu bir çılgınlık.
+
+## 6. Night Of The Living Dead (1968) — George A. Romero
+![Night Of The Living Dead](https://images.bauerhosting.com/legacy/media/5eea/4675/f973/9fcb/f5a2/c1b6/6-night-of-the-living-dead.jpg?auto=format&w=1440&q=80)
+Türü icat eden film. Siyah-beyaz, düşük bütçeli ve hâlâ acımasız; kuşatılmış bir çiftlik evini 60'lar Amerika'sının ırk ve otorite gerilimlerine dair bir laboratuvara çeviriyor. Finali sinemanın en soğuk son sahnelerinden.
+
+## 5. Train To Busan (2016) — Yeon Sang-ho
+![Train To Busan](https://images.bauerhosting.com/legacy/media/5eea/4768/d165/137a/f8d4/a004/train-to-busan-main.jpg?auto=format&w=1440&q=80)
+Hızlı trende geçen bir salgın filmi olarak kusursuz kurgulanmış bir gerilim; ama gerçek gücü, karakterlerine harcadığı zamanda. Sınıf eleştirisiyle babalık melodramını aynı vagona bindiren, finalinde seyirciyi dağıtan modern klasik.
+
+## 4. Shaun Of The Dead (2004) — Edgar Wright
+![Shaun Of The Dead](https://images.bauerhosting.com/empire/2024/04/shaun-of-the-dead-doppelgangers-1.jpg?auto=format&w=1440&q=80)
+Zombi komedisinin ölçütü: Romero'ya duyulan sevgi kadar keskin bir Britanya taşra hicvi. Wright'ın kurgu ritmi, plak fırlatma sahnesi ve "hepsi bittiğinde Winchester'da buluşalım" fikri türü kalıcı biçimde değiştirdi.
+
+## 3. 28 Days Later (2002) — Danny Boyle
+![28 Days Later](https://images.bauerhosting.com/empire/2025/01/28-days-later-cillian-murphy.jpg?auto=format&w=1440&q=80)
+Boş Londra sahneleriyle açılan, dijital videonun pürüzünü estetiğe çeviren film, koşan ölüleri ana akıma taşıdı. Ama gerçek dehşet, salgının değil hayatta kalanların — özellikle askerî üsteki insanların — getirdiği bölümde.
+
+## 2. Day Of The Dead (1985) — George A. Romero
+![Day Of The Dead](https://images.bauerhosting.com/legacy/media/5eea/46cb/740f/850a/8cbd/456e/2-day-of-the-dead.jpg?auto=format&w=1440&q=80)
+Romero'nun en karamsar ve en radikal filmi: bir yeraltı sığınağında bilim ile ordu birbirini yiyor, Bub adında bir zombi ise filmin en insani karakteri oluyor. Tom Savini'nin makyaj işleri hâlâ efsane.
+
+## 1. Dawn Of The Dead (1978) — George A. Romero
+![Dawn Of The Dead](https://images.bauerhosting.com/legacy/media/5eea/4719/740f/859d/40bd/4572/1-dawn-of-the-dead.jpg?auto=format&w=1440&q=80)
+Zirvede tüketim toplumunun mezar taşı var: bir alışveriş merkezine sığınan hayatta kalanlar, cennet sandıkları yerin kendi tuzağı olduğunu keşfediyor. Hem tür sineması hem keskin bir hiciv; zombi filmini bir metafor makinesine dönüştüren film.
+
+Kaynak: Empire — "The 25 Best Zombie Movies Of All Time".`,
+    image: "https://images.bauerhosting.com/empire/2020/06/Best-Zombie-Movies.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    source: "Empire",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [34, 32, 31, 29, 28, 23, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
 
 
 
