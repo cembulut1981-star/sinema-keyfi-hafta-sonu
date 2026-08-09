@@ -1643,11 +1643,62 @@ Kaynak: Rotten Tomatoes — "Best New Comedies of 2026".`,
     image: "https://resizing.flixster.com/vu3WNu2gCk5JheviBy5KMw07wyc=/800x1200/v2/https://resizing.flixster.com/oQP7j5g3mdXhrPzuVM1Kt5yKNbo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMyM2E1MzNiLWJjYzgtNDQ1MC05M2Q0LTY2NWJmM2IyYjk4ZC5qcGc=",
     source: "Rotten Tomatoes",
   },
+  {
+    slug: "tum-9-live-action-spider-man-filmi-siralamasi",
+    title: "Tüm 9 Live-Action Spider-Man Filmi: En Kötüden En İyiye Sıralama",
+    excerpt: "Nerdist, yaklaşık 25 yıllık Spider-Man sinemasını baştan sona sıraladı: Raimi üçlemesinden Amazing ikilisine, Tom Holland dönemine ve gişe rekorları kıran Brand New Day'e.",
+    body: `Yaklaşık 25 yıl boyunca *Spider-Man* serisi sinema tarihinin en başarılı markalarından biri oldu. Dokuzuncu halka *Spider-Man: Brand New Day* dünya genelinde gişe rekorları kırarken, seride hem çok yüksek zirveler hem de epey düşük çukurlar birikti. Nerdist, Spidey'nin konuk olduğu MCU filmlerini saymadan, dokuz live-action filmi en kötüden en iyiye sıraladı.
+
+## 9. The Amazing Spider-Man 2 (2014) — Marc Webb
+![The Amazing Spider-Man 2](https://cdn.nerdist.com/wp-content/uploads/2026/08/07010713/The-Amazing-Spider-Man-2.webp)
+Bir stüdyonun MCU'dan yanlış dersler çıkarmasının ders kitabı örneği: karakter, hikâye ve mantıktan önce evren kurma hevesi. Jamie Foxx'un Electro'su neredeyse Joel Schumacher'in 90'lar Batman'inden fırlamış gibi; Andrew Garfield'ın oynadığı filmle taban tabana zıt bir ton. Serinin en iyi Spider-Man kostümünü vermesi dışında dibi temsil ediyor.
+
+## 8. Spider-Man 3 (2007) — Sam Raimi
+![Spider-Man 3](https://cdn.nerdist.com/wp-content/uploads/2026/08/07010912/Spider-Man-3.webp)
+Raimi, sevmediği Venom'u stüdyo baskısıyla filme soktu; elinde zaten iki kötü varken üçüncüsü dengeyi tamamen bozdu. Thomas Haden Church'ün Sandman'i, özellikle "doğuş" sahnesi muhteşem; amnezi hattı ve çığlık atan MJ ise yorucu. Dağınık ama hiç sıkmayan, izlenebilir bir karmaşa.
+
+## 7. The Amazing Spider-Man (2012) — Marc Webb
+![The Amazing Spider-Man](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011203/The-Amazing-Spider-Man.webp)
+Raimi üçlemesinden sadece beş yıl sonra gelen, esasen maliyet kesmek için yapılmış bir reboot. Garfield'ın kastingi doğruydu, film ise "fena değil"in ötesine geçemedi. Daha gerçekçi yaklaşım serinin çekiciliğini alıp götürdü; üstüne serinin en kötü kostümü.
+
+## 6. Spider-Man: Far From Home (2019) — Jon Watts
+![Spider-Man: Far From Home](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011403/Spider-Man-Far-From-Home.webp)
+MCU'nun zirvedeki hâline iyi bir örnek: Avrupa gezisi Peter, Ned ve Midtown ekibine bol bol hafiflik alanı açıyor. Tom Holland ile Zendaya'nın kimyası inandırıcı, Jake Gyllenhaal'ın Mysterio'su Peter'ın hayatına gerçek hasar veren bir kötü. Hologram kâbus sekansı MCU'nun en iyi görsel anlarından biri.
+
+## 5. Spider-Man: No Way Home (2021) — Jon Watts
+![Spider-Man: No Way Home](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011556/Spider-Man-No-Way-Home.webp)
+Kâğıt üstünde çökmesi gereken bir film: kimlik cliffhanger'ını çözmek, Doctor Strange'le ekip kurmak, iki eski Spider-Man'i ve kötülerini geri getirmek. Yine de işliyor, çünkü mesele sadece nostalji değil; üç Peter Parker'ı da gerçekten önemsiyoruz. Holland'ın Peter'ı nihayet Tony Stark'ın gölgesinden çıkıyor.
+
+## 4. Spider-Man (2002) — Sam Raimi
+![Spider-Man (2002)](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011801/Spider-Man-2002.webp)
+Neredeyse kusursuz bir origin hikâyesi. Tobey Maguire dâhi bir kasting; David Koepp'in senaryosu Gümüş Devir çizgi romanlarının yıllarını tek filme sığdırıyor ve hiç acele etmiş gibi durmuyor. Willem Dafoe'nun Norman Osborn'u ve J.K. Simmons'ın J. Jonah Jameson'ı ikonik. Eksileri: yüzeysel kalan MJ ve o berbat Goblin kostümü.
+![Tobey Maguire — Spider-Man (2002)](https://cdn.nerdist.com/wp-content/uploads/2026/02/02111237/Tobey-Maguire-Spider-Man.webp)
+
+## 3. Spider-Man: Homecoming (2017) — Jon Watts
+![Spider-Man: Homecoming](https://cdn.nerdist.com/wp-content/uploads/2026/08/07012129/Spider-Man-Homecoming.webp)
+On beş yıl sonra nihayet gerçekten lise çağında görünen bir Spidey. İki origin filminin ardından örümcek ısırığını atlamak akıllıca bir karardı. Bendis'in *Ultimate Spider-Man* çizgi romanlarına yakın bu versiyon, Michael Keaton'ın Vulture'ı ile MCU'nun en iyi kötülerinden birini de getiriyor.
+![Spider-Man: Homecoming — Peter Parker](https://cdn.nerdist.com/wp-content/uploads/2019/12/13065336/spiderman_homecoming_image_5.0.jpg)
+
+## 2. Spider-Man: Brand New Day (2026) — Destin Daniel Cretton
+![Spider-Man: Brand New Day](https://cdn.nerdist.com/wp-content/uploads/2026/08/07103253/Spider-Man-Brand-New-Day-banner.webp)
+Serinin dokuzuncu filmi hem gişede hem eleştirmen nezdinde patladı. Cretton, Holland'ın Peter'ını sıfırdan kuran, daha sokak seviyesinde ve duygusal bir Spider-Man hikâyesi anlatıyor; kostüm tasarımı da serinin en iyisi.
+![Spider-Man: Brand New Day](https://cdn.nerdist.com/wp-content/uploads/2026/08/03145104/Spider-Man-Brand-New-Day-Mask-Off.webp)
+
+## 1. Spider-Man 2 (2004) — Sam Raimi
+![Spider-Man 2](https://cdn.nerdist.com/wp-content/uploads/2026/08/07012546/Spider-Man-2.webp)
+Zirvede sürpriz yok. Raimi'nin ikinci filmi hâlâ sadece en iyi Spider-Man filmi değil, aynı zamanda tüm zamanların en iyi süper kahraman filmlerinden biri. Alfred Molina'nın Doc Ock'u trajik ve korkutucu, tren sahnesi türün ölçüt sahnelerinden, kahramanlık ile kişisel fedakârlık arasındaki gerilim ise filmi bir arada tutan asıl güç.
+![Spider-Man 2 — pizza sahnesi](https://cdn.nerdist.com/wp-content/uploads/2019/07/13093728/spider-man-pizza.jpg)
+
+Kaynak: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
+    image: "https://cdn.nerdist.com/wp-content/uploads/2026/08/07012546/Spider-Man-2.webp",
+    source: "Nerdist",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [32, 31, 29, 28, 23, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [34, 32, 31, 29, 28, 23, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+
 
 
 
