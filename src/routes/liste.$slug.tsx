@@ -66,7 +66,10 @@ function ListPage() {
               slug === "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi"
                 ? {
                     h2: ({ children }) => (
-                      <h2 className="font-serif-display font-bold" style={{ color: "#00EAA1" }}>
+                      <h2
+                        className="font-serif-display text-2xl font-bold underline underline-offset-4 mb-6"
+                        style={{ color: "#00EAA1" }}
+                      >
                         {children}
                       </h2>
                     ),
