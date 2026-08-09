@@ -10,6 +10,8 @@ export type SeriesItem = {
   image: string;
   source: string;
   imdbRating?: string;
+  customBadge?: string;
+  customBadgeStyle?: "default" | "light";
 };
 
 export const SERIES: SeriesItem[] = [
@@ -33,6 +35,8 @@ export const SERIES: SeriesItem[] = [
     slug: "rings-of-power-3-sezon-nazgnagol-ringwraith",
     title: "\"The Rings Of Power\" 3. Sezon Yüzük Hayaletlerinin Atalarını Tanıtıyor: Nazgnagôl",
     excerpt: "Charlie Vickers'ın Sauron'u yükselirken dizi, Nazgûl'un henüz insan olan hâlini gösteriyor. Showrunner'lar Tolkien'in dilbilimine dalıp bu ara aşamaya \"Nazgnagôl\" adını verdi.",
+    customBadge: "The Rings of Power",
+    customBadgeStyle: "light",
     body: "Orta Dünya'nın karanlık köşelerinde her türden yaratık geziniyor: mağara trolleri, Balroglar, Orklar. Peter Jackson'ın filmlerinde gördüğümüz Sauron'un Yüzük Hayaletleri de var — dokuz yüzüğün korkunç birer hayalete çevirdiği, eskiden insan olan varlıklar. The Rings Of Power'ın 3. sezonu Charlie Vickers'ın Sauron'unun İkinci Çağ'da yükselişini anlattığı için, Nazgûl'un kökenlerini de göreceğiz.\n\nYa da dizideki adlarıyla: Nazgnagôl. Burada hâlâ insanlar; Sauron'un hizmetinde çalışıyor ve güç arzusuyla yanıyorlar. Showrunner'lar J.D. Payne ve Patrick McKay bu ara aşamanın ne olacağını bulmak için Tolkien dilbilimine daldı. \"Tolkien'e ilham veren şeylere bakmayı seviyoruz,\" diyor Payne. \"O dille yola çıktı; dil, mitin üzerine asıldığı bir iskeleye dönüştü. 'Nazgûl' Mordor'un Karanlık Dil'inde 'Yüzük Hayaleti' anlamına geliyor. Ama Yüzük Hayaleti olmadan önce sadece insan olduklarını biliyoruz. Böylece Karanlık Dil'de 'nagôl'ün 'hizmetkâr' anlamına gelebileceğini türetebildik.\"\n\nBu yüzük hizmetkârlarından biri, Zubin Varla'nın canlandırdığı Doğulu Khamûl; kaderinde insanlıktan çıkmak olduğunu bildiğimiz bir karakter. \"Bir anlamda Gollum'la aynı yolculuğa çıkıyorlar,\" diyor Varla. \"Kötülük kötülüğü, şiddet şiddeti doğuruyor. Ruhları ve bedenleri, neredeyse fiziksel bir biçimden yoksun kalana dek içleri boşaltılarak yozlaşıyor.\"\n\nGerçi Nazgnagôl kendini kötü adam olarak görmüyor. \"Her karakter kendi hikâyesinin kahramanı olarak kalır,\" diyor Payne. \"Khamûl'un bakışından o, kral olmayı hak eden, gücü karanlık bir büyücü tarafından gasp edilmiş bir savaş lordu. Sauron ona zirveye dönmenin yolunu sunuyor.\" Unutmayın: Bazı 'armağanlara' hayır demek gerekir.\n\nThe Lord Of The Rings: The Rings Of Power'ın 3. sezonu 11 Kasım'da Prime Video'da yayına giriyor.",
     image: "https://images.bauerhosting.com/empire/2026/07/rings-of-power-s3-nazgnagol-excl.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",

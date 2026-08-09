@@ -1,7 +1,7 @@
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
-import { SiteShell, ImdbBadge } from "@/components/site/SiteShell";
+import { SiteShell, ImdbBadge, CustomBadge } from "@/components/site/SiteShell";
 import { articleProse } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
@@ -64,6 +64,7 @@ function SeriesPage() {
           <div className="relative aspect-[16/9] overflow-hidden bg-muted">
               <img src={s.image} alt={s.title} className="w-full h-full object-cover" />
               <ImdbBadge rating={s.imdbRating} className="absolute left-2 top-2 z-20" />
+              <CustomBadge label={s.customBadge} variant={s.customBadgeStyle} className="absolute right-2 top-2 z-20" />
             </div>
           </div>
         </div>

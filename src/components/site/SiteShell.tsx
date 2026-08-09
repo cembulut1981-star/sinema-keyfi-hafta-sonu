@@ -258,7 +258,7 @@ export function FeaturedArticleCard({
             {badgeLabel}
           </span>
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+<CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
         <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
@@ -378,15 +378,28 @@ export function ImdbBadge({ rating, className = "" }: { rating?: string; classNa
 /**
  * Özel metin rozeti — IMDb etiketiyle aynı görsel dili kullanır ama içeriği
  * serbest metindir (ör. "monsters of god"). customBadge tanımlı kartlarda gösterilir.
+ * variant: "default" (siyah zemin, beyaz yazı) | "light" (beyaz zemin, siyah yazı).
  */
-export function CustomBadge({ label, className = "" }: { label?: string; className?: string }) {
+export function CustomBadge({
+  label,
+  variant = "default",
+  className = "",
+}: {
+  label?: string;
+  variant?: "default" | "light";
+  className?: string;
+}) {
   if (!label) return null;
+  const isLight = variant === "light";
   return (
     <span
-      className={`inline-flex items-center bg-black px-2 py-1 rounded-sm shadow-md ${className}`}
-      style={{ fontFamily: "'Arial', sans-serif" }}
+      className={`inline-flex items-center px-2 py-1 rounded-sm shadow-md border ${className}`}
+      style={{ fontFamily: "'Arial', sans-serif", background: isLight ? "#fff" : "#000", borderColor: isLight ? "#000" : "transparent" }}
     >
-      <span className="text-white font-black text-[11px] tracking-tight uppercase leading-none">
+      <span
+        className="font-black text-[11px] tracking-tight uppercase leading-none"
+        style={{ color: isLight ? "#000" : "#fff" }}
+      >
         {label}
       </span>
     </span>
@@ -481,7 +494,7 @@ export function SmallArticleCard({
             </span>
           ) : null}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+<CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
       </div>
@@ -553,7 +566,7 @@ export function ArticleCard({ article, compact = false }: { article: Article; co
             />
           )}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          <CustomBadge label={article.customBadge} className="absolute right-2 top-2 z-20" />
+          <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
       </div>
       <div className="p-4 flex-1 flex flex-col">
