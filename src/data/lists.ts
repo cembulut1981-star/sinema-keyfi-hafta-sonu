@@ -1707,17 +1707,23 @@ Kaynak: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
 
 İlk *X-Men* kendi başına iyi bir film, ama ikinci halkanın yaptığı sıçrama tartışmasız. Aksiyon daha büyük, ölçek daha geniş ve film karakterlerinin içine çok daha derin giriyor: Wolverine 'Weapon X' projesiyle örtülmüş geçmişini kazıyor, Jean Grey'in telekinetik güçleri yaklaşan felaketi fısıldıyor. Beyaz Saray'a sızma açılışından (merhaba Nightcrawler!) X-Malikânesi saldırısına, Alkali Lake'teki Lady Deathstrike hesaplaşmasına kadar tam bir çizgi roman filmi klasiği. Üstüne Brian Cox'un William Stryker'ı ve Professor X ile Magneto'nun operatik satranç oyunu var. Sinematik şah mat.
 
+&nbsp;
+
 ## X-Men: Days Of Future Past (2014) — Bryan Singer
 ![X-Men: Days Of Future Past](https://images.bauerhosting.com/empire/2024/08/X-Men-Days-Of-Future-Past.jpg?auto=format&w=1440&q=80)
 **Süre:** 2sa 13dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, James McAvoy, Michael Fassbender, Jennifer Lawrence, Halle Berry, Nicholas Hoult
 
 MCU çoklu evrenlerle oynamaya başlamadan çok önce, iki mutant kuşağı devasa bir zaman yolculuğu hikâyesinde bir araya geldi. Chris Claremont ve John Byrne'ün iki parçalık çizgi roman hattından serbestçe uyarlanan film, adamantium pençeli Kanadalıyı Mystique'in bir senatörü öldürmesini — ve robot kıyametini — engellemek için 1973'e yolluyor. Açılıştaki acımasız Sentinel dövüşünden ağır çekim Quicksilver hapishane kaçışına kadar seride hayran isteyeceği her şey var. Logan'ın 1973 şaşkınlığı ("biri sana çok kötü asit vermiş") kadar, X-Men'in bilinen çetrefil politik alanlarına pençe atmaktan da çekinmiyor.
 
+&nbsp;
+
 ## Logan (2017) — James Mangold
 ![Logan](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
 **Süre:** 2sa 20dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, Patrick Stewart, Dafne Keen, Stephen Merchant
 
 Hugh Jackman teknik olarak *Deadpool & Wolverine* ile geri döndü, ama James Mangold'un hüzünlü şaheseri *Logan* hâlâ sinemanın en tanımlayıcı çizgi roman karakterlerinden birine mükemmel bir final sunuyor: *Shane* usulü bir Western vedası. Yetişkinler için X-Men; küfürden, aşırı şiddetten ve yoğun duygudan kaçınmıyor. Alzheimer'ı telepatik güçleriyle birleşip onu bir kitle imha silahına çeviren Charles Xavier, ölümlülüğün nihayet peşine düştüğünü kabul eden Logan ve 'X-23' olarak Dafne Keen'in vahşi performansı, seriye yirmi yıl sonra bile yeni bir damar açıyor. Tek kelimeyle: X-traordinary.
+
+&nbsp;
 
 Kaynak: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arrive In The MCU".`,
     image: "https://images.bauerhosting.com/empire/2026/07/xmen-2.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",

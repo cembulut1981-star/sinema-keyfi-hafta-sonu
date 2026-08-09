@@ -61,7 +61,21 @@ function ListPage() {
         </div>
 
         <div className={articleProse}>
-          <ReactMarkdown>{l.body}</ReactMarkdown>
+          <ReactMarkdown
+            components={
+              slug === "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi"
+                ? {
+                    h2: ({ children }) => (
+                      <h2 className="font-serif-display font-bold" style={{ color: "#00EAA1" }}>
+                        {children}
+                      </h2>
+                    ),
+                  }
+                : undefined
+            }
+          >
+            {l.body}
+          </ReactMarkdown>
         </div>
 
         <ShareButtons title={l.title} path={`/liste/${slug}`} />
