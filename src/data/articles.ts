@@ -29,6 +29,7 @@ export type Article = {
   videoUrl?: string;
   imdbRating?: string;
   customBadge?: string;
+  customBadgeStyle?: "default" | "light";
   countdownBadge?: string;
 };
 
@@ -82,6 +83,8 @@ const SERIES_ARTICLES: Article[] = SERIES.map((s, i) => ({
   image: s.image,
   seriesSlug: s.slug,
   imdbRating: s.imdbRating,
+  customBadge: s.customBadge,
+  customBadgeStyle: s.customBadgeStyle,
 }));
 
 // Interleave arrays so categories are mixed in the feed.
