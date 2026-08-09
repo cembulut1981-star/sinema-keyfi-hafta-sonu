@@ -10,6 +10,8 @@ export type SeriesItem = {
   image: string;
   source: string;
   imdbRating?: string;
+  customBadge?: string;
+  customBadgeStyle?: "default" | "light";
 };
 
 export const SERIES: SeriesItem[] = [
