@@ -91,6 +91,22 @@ function MusicPage() {
           </figure>
         )}
 
+        {m.bottomVideoUrl && (
+          <div className="mt-10 flex justify-center">
+            <div className="w-full max-w-[720px] p-3" style={{ background: "#00EAA1" }}>
+              <div className="relative aspect-video overflow-hidden bg-muted">
+                <iframe
+                  src={m.bottomVideoUrl}
+                  title={m.title}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        )}
+
         <ShareButtons title={m.title} path={`/muzik/${slug}`} />
         </article>
 
