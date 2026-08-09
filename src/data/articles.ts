@@ -29,6 +29,7 @@ export type Article = {
   videoUrl?: string;
   imdbRating?: string;
   customBadge?: string;
+  countdownBadge?: string;
 };
 
 const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
@@ -60,6 +61,7 @@ const LIST_ARTICLES: Article[] = LISTS.map((l, i) => ({
   excerpt: l.excerpt,
   image: l.image,
   listSlug: l.slug,
+  countdownBadge: l.countdownBadge,
 }));
 
 const MUSIC_ARTICLES: Article[] = MUSIC.map((m, i) => ({

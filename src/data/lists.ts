@@ -19,6 +19,7 @@ export type ListItem = {
   body: string;
   image: string;
   source: string;
+  countdownBadge?: string;
 };
 
 const _LISTS_RAW: ListItem[] = [
@@ -1645,6 +1646,7 @@ Kaynak: Rotten Tomatoes — "Best New Comedies of 2026".`,
   },
   {
     slug: "tum-9-live-action-spider-man-filmi-siralamasi",
+    countdownBadge: "9 → 1 geri sayım",
     title: "Tüm 9 Live-Action Spider-Man Filmi: En Kötüden En İyiye Sıralama",
     excerpt: "Nerdist, yaklaşık 25 yıllık Spider-Man sinemasını baştan sona sıraladı: Raimi üçlemesinden Amazing ikilisine, Tom Holland dönemine ve gişe rekorları kıran Brand New Day'e.",
     body: `Yaklaşık 25 yıl boyunca *Spider-Man* serisi sinema tarihinin en başarılı markalarından biri oldu. Dokuzuncu halka *Spider-Man: Brand New Day* dünya genelinde gişe rekorları kırarken, seride hem çok yüksek zirveler hem de epey düşük çukurlar birikti. Nerdist, Spidey'nin konuk olduğu MCU filmlerini saymadan, dokuz live-action filmi en kötüden en iyiye sıraladı.
