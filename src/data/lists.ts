@@ -1707,6 +1707,8 @@ Kaynak: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
 
 İlk *X-Men* kendi başına iyi bir film, ama ikinci halkanın yaptığı sıçrama tartışmasız. Aksiyon daha büyük, ölçek daha geniş ve film karakterlerinin içine çok daha derin giriyor: Wolverine 'Weapon X' projesiyle örtülmüş geçmişini kazıyor, Jean Grey'in telekinetik güçleri yaklaşan felaketi fısıldıyor. Beyaz Saray'a sızma açılışından (merhaba Nightcrawler!) X-Malikânesi saldırısına, Alkali Lake'teki Lady Deathstrike hesaplaşmasına kadar tam bir çizgi roman filmi klasiği. Üstüne Brian Cox'un William Stryker'ı ve Professor X ile Magneto'nun operatik satranç oyunu var. Sinematik şah mat.
 
+&nbsp;
+
 ## X-Men: Days Of Future Past (2014) — Bryan Singer
 ![X-Men: Days Of Future Past](https://images.bauerhosting.com/empire/2024/08/X-Men-Days-Of-Future-Past.jpg?auto=format&w=1440&q=80)
 **Süre:** 2sa 13dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, James McAvoy, Michael Fassbender, Jennifer Lawrence, Halle Berry, Nicholas Hoult
