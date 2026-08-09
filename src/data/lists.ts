@@ -1715,6 +1715,8 @@ Kaynak: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
 
 MCU çoklu evrenlerle oynamaya başlamadan çok önce, iki mutant kuşağı devasa bir zaman yolculuğu hikâyesinde bir araya geldi. Chris Claremont ve John Byrne'ün iki parçalık çizgi roman hattından serbestçe uyarlanan film, adamantium pençeli Kanadalıyı Mystique'in bir senatörü öldürmesini — ve robot kıyametini — engellemek için 1973'e yolluyor. Açılıştaki acımasız Sentinel dövüşünden ağır çekim Quicksilver hapishane kaçışına kadar seride hayran isteyeceği her şey var. Logan'ın 1973 şaşkınlığı ("biri sana çok kötü asit vermiş") kadar, X-Men'in bilinen çetrefil politik alanlarına pençe atmaktan da çekinmiyor.
 
+&nbsp;
+
 ## Logan (2017) — James Mangold
 ![Logan](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
 **Süre:** 2sa 20dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, Patrick Stewart, Dafne Keen, Stephen Merchant
