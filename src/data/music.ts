@@ -135,6 +135,7 @@ export const MUSIC: MusicItem[] = [
     body: "Avenged Sevenfold'un gitaristi Zacky Vengeance, modern metalin en ikonik şarkılarından bazılarında parmağı olan bir isim. Ancak gitarist yalnızca ağır müzik dinlemiyor — hem de hiç.\n\nVengeance kısa süre önce, gerçek adı Zachary Baker ile ilk solo albümü 'Dark Horse'u yayımladı. Albüm, sanatçının eski usul country, rockabilly ve daha fazlasına duyduğu sevgiyi gözler önüne seriyor.\n\nRevolver için hazırladığı bu seçkide Baker, Weezer'dan Lana Del Rey'e uzanan ve her metalcinin mutlaka dinlemesi gerektiğini düşündüğü 11 metal dışı albümü tek tek seçip anlatıyor. Liste, ağır müzik dinleyicisinin damak tadını genişletmeyi amaçlayan bir tür geçiş rehberi niteliğinde: melodinin, prodüksiyonun ve şarkı yazımının türden bağımsız olarak nasıl işlediğini gösteren kayıtlar.\n\nSeçkinin tamamını Revolver'ın video serisinde izleyebilirsiniz.",
     image: "https://img.youtube.com/vi/Ryz6fek6nRc/maxresdefault.jpg",
     source: "Revolver",
+    bottomVideoUrl: "https://www.youtube.com/embed/Ryz6fek6nRc",
   },
   {
     slug: "karol-g-tropitour-acilis-gecesi-setlist",
