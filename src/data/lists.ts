@@ -1723,6 +1723,8 @@ MCU çoklu evrenlerle oynamaya başlamadan çok önce, iki mutant kuşağı deva
 
 Hugh Jackman teknik olarak *Deadpool & Wolverine* ile geri döndü, ama James Mangold'un hüzünlü şaheseri *Logan* hâlâ sinemanın en tanımlayıcı çizgi roman karakterlerinden birine mükemmel bir final sunuyor: *Shane* usulü bir Western vedası. Yetişkinler için X-Men; küfürden, aşırı şiddetten ve yoğun duygudan kaçınmıyor. Alzheimer'ı telepatik güçleriyle birleşip onu bir kitle imha silahına çeviren Charles Xavier, ölümlülüğün nihayet peşine düştüğünü kabul eden Logan ve 'X-23' olarak Dafne Keen'in vahşi performansı, seriye yirmi yıl sonra bile yeni bir damar açıyor. Tek kelimeyle: X-traordinary.
 
+&nbsp;
+
 Kaynak: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arrive In The MCU".`,
     image: "https://images.bauerhosting.com/empire/2026/07/xmen-2.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
