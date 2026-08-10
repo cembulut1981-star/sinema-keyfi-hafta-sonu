@@ -11,6 +11,7 @@ import img_obsession_400m from "@/assets/news-variety-obsession-400m.jpg";
 import img_minions_monsters from "@/assets/news-variety-minions-monsters.jpg";
 import rdjDoomAsset from "@/assets/rdj-doom.webp.asset.json";
 import primetimeAsset from "@/assets/primetime-robert-pattinson.jpg.asset.json";
+import spideyBoxOfficeAsset from "@/assets/spiderman-bnd-box-office.webp.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -24,6 +25,16 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "spider-man-brand-new-day-ikinci-hafta-gise-rekoru",
+    title: "Gişe: \"Spider-Man: Brand New Day\" 145 Milyon Dolarla Tüm Zamanların Üçüncü En Büyük İkinci Haftasını Yaptı",
+    excerpt: "Sony ve Marvel'ın filmi Kuzey Amerika'da 655 milyon, küresel çapta 1,67 milyar dolara ulaştı. 2 milyar dolar sınırı çok yakın; 3 milyar ihtimali bile konuşuluyor.",
+    customBadge: "gişe raporu",
+    body: "\"Spider-Man: Brand New Day\", eşine az rastlanır gişe koşusunu sürdürüyor: film ikinci haftasında Kuzey Amerika'da 145 milyon dolar daha topladı.\n\nBu rakamı bağlama oturtmak gerekirse: bu yıl yalnızca tek bir film — \"Toy Story 5\" — açılış haftasında bu civarda (159 milyon dolar) hasılat yapabildi. \"Brand New Day\" böylece tüm zamanların üçüncü en büyük ikinci haftasına imza attı; önünde sadece 2015'in \"Star Wars: The Force Awakens\"ı (149 milyon) ve 2019'un \"Avengers: Endgame\"i (147 milyon) var. Tarih boyunca ikinci haftasında 100 milyon doları geçebilen film sayısı sekiz.\n\nYurt içinde 355 milyon dolarlık rekor bir açılış ve küresel 932 milyon dolarla başlayan film, şu ana dek Kuzey Amerika'da 655 milyon, dünya genelinde 1,67 milyar dolara ulaştı. Tom Holland'ın başrolündeki yapım milyar dolar sınırını yalnızca altı günde geçti ve hızla 2 milyara ilerliyor. Bu tempoda gişe takipçileri, \"Spidey\"nin yurt içinde 1 milyar doları aşan ilk film ve küresel çapta 3 milyarı gören tek yapım olup olamayacağını tartışıyor. Hâlihazırda yurt içi rekor 936,6 milyon dolarla \"The Force Awakens\"ta; dünya genelinde ise 2009'un \"Avatar\"ı (2,9 milyar) ve \"Avengers: Endgame\" (2,7 milyar) zirvede.\n\nYurt içi listenin ikinci basamağında \"The Odyssey\" gücünü koruyor: dördüncü haftasında yüzde 38 düşüşle 31,5 milyon dolar. 461 milyon dolar yurt içi ve 1,1 milyar dolar dünya hasılatıyla film, \"The Dark Knight Rises\" (1,08 milyar) ve \"The Dark Knight\" (1,008 milyar) rekorlarını geride bırakarak Christopher Nolan'ın tüm zamanların en çok hasılat yapan filmi oldu. Imax seansları eylül ortasına kadar tükendi; format tek başına 289 milyon dolar getirerek \"Avatar\"ın 271 milyon dolarlık Imax rekorunu da devirdi. Film Çin'de daha gösterime bile girmedi.\n\nİki devin gölgesinde vizyona giren üç yeni filmse hayal kırıklığı yarattı. Universal'ın romantik komedisi \"One Night Only\" 3.012 salonda 5,7 milyon dolarla üçüncü oldu; \"Super Troopers 3\" 2.760 salonda 4 milyon dolarla serinin en zayıf açılışını yaptı; Eli Roth'un slasher'ı \"Ice Cream Man\" ise 1.671 perdede 2 milyon dolarda kaldı.\n\nBağımsız cephede tablo daha parlak: A24'ün Anthony Bourdain biyografisi \"Tony\" altı salonda 348.955 dolarla (salon başı 58.159 dolar) yılın en iyi ortalamalarından birini yakaladı. Jane Schoenbrun'un \"Teenage Sex and Death and Camp Miasma\" filmi beş salonda 251.000 dolar, Willem Dafoe'lu \"Late Fame\" ise iki salonda 38.000 dolar topladı.",
+    image: spideyBoxOfficeAsset.url,
+    source: "Variety",
+  },
+
   {
     slug: "primetime-fragman-robert-pattinson-chris-hansen",
     title: "\"Primetime\" Fragmanı: Robert Pattinson, Chris Hansen Rolünde",
