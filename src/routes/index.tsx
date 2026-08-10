@@ -168,7 +168,7 @@ function Index() {
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = FEED.slice(0, count);
+    const visibleArticles = FEED_AFTER_HEADLINE.slice(0, count);
     const smallCandidates = visibleArticles.filter(
       (a) => a.category === "haberler" || a.category === "diziler",
     );
@@ -180,18 +180,18 @@ function Index() {
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
   // always fills all 4 columns instead of leaving a gap on the right.
-  let effectiveCount = Math.min(visibleCount, FEED.length);
+  let effectiveCount = Math.min(visibleCount, FEED_AFTER_HEADLINE.length);
   let built = build(effectiveCount);
   for (let extra = 1; extra <= 3; extra++) {
     if (built.leftovers.length % 4 === 0) break;
-    const next = Math.min(visibleCount + extra, FEED.length);
+    const next = Math.min(visibleCount + extra, FEED_AFTER_HEADLINE.length);
     if (next === effectiveCount) break;
     effectiveCount = next;
     built = build(next);
   }
 
   const { duo, rows, leftovers } = built;
-  const hasMore = effectiveCount < FEED.length;
+  const hasMore = effectiveCount < FEED_AFTER_HEADLINE.length;
 
 
   const duoSection =
