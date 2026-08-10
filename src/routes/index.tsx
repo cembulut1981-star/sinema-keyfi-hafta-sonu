@@ -221,19 +221,26 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Sinema Haberleri, İncelemeler ve Listeler</h1>
         {HEADLINE ? (
-          <section className="mb-12">
-            <FeaturedArticleCard
-              article={HEADLINE}
-              badgeLabel="Manşet"
-              kicker="Sine-Meta · Gişe"
-              meta="Box Office"
-              stats={[
-                { label: "2. hafta", value: "$145M" },
-                { label: "Küresel", value: "$1.67B" },
-                { label: "Kuzey Amerika", value: "$655M" },
-              ]}
-              ribbon="Manşet"
-            />
+          <section className="mb-12 grid grid-cols-1 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-6 items-stretch md:h-[560px]">
+            <div className="min-h-0 h-full">
+              <FeaturedArticleCard
+                article={HEADLINE}
+                badgeLabel="Manşet"
+                kicker="Sine-Meta · Gişe"
+                meta="Box Office"
+                stats={[
+                  { label: "2. hafta", value: "$145M" },
+                  { label: "Küresel", value: "$1.67B" },
+                  { label: "Kuzey Amerika", value: "$655M" },
+                ]}
+                ribbon="Manşet"
+              />
+            </div>
+            <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+              {HEADLINE_SIDES.map((a) => (
+                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              ))}
+            </div>
           </section>
         ) : null}
         {rows.map((r, i) => (
