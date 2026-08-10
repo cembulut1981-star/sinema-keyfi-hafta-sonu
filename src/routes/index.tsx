@@ -236,7 +236,7 @@ function Index() {
                 ribbon="Manşet"
               />
             </div>
-            <div className="grid grid-cols-2 gap-6 auto-rows-fr min-h-0 h-full">
+            <div className="grid grid-cols-1 gap-6 auto-rows-fr min-h-0 h-full">
               {HEADLINE_SIDES.map((a) => (
                 <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
               ))}
