@@ -264,7 +264,7 @@ function Index() {
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED.length))}
+              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED_AFTER_HEADLINE.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
               Daha Fazla Göster
