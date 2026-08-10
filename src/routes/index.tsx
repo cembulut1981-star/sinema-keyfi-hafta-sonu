@@ -243,6 +243,7 @@ function Index() {
             </div>
           </section>
         ) : null}
+        <div className="h-10 md:h-14" aria-hidden />
         {rows.map((r, i) => (
           <div key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
