@@ -1,3 +1,8 @@
+import cluelessG1 from "@/assets/clueless-c1.webp.asset.json";
+import cluelessG2 from "@/assets/clueless-c2.webp.asset.json";
+import cluelessG3 from "@/assets/clueless-c3.jpg.asset.json";
+import cluelessG4 from "@/assets/clueless-c4.jpg.asset.json";
+import cluelessG5 from "@/assets/clueless-c5.jpg.asset.json";
 import duttonAsset from "@/assets/dutton.jpg.asset.json";
 import spiderNoirAsset from "@/assets/spider_noir.jpg.asset.json";
 import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
@@ -12,6 +17,7 @@ export type SeriesItem = {
   imdbRating?: string;
   customBadge?: string;
   customBadgeStyle?: "default" | "light";
+  gallery?: string[];
 };
 
 export const SERIES: SeriesItem[] = [
@@ -30,6 +36,13 @@ export const SERIES: SeriesItem[] = [
     body: "Cher Horowitz resmen geri dönüyor. Amy Heckerling'in tüm zamanların en iyi gençlik filmlerinden biri sayılan 'Clueless'ını çekmesinden 31 yıl sonra, uzun süredir konuşulan devam dizisi Deadline'ın haberine göre Paramount+'ta yuva ve yeşil ışık buldu. Dahası, Alicia Silverstone herkesin en sevdiği işgüzar ama iyi niyetli Beverly Hills kızı rolüne geri dönüyor.\n\nProjenin arkasında The O.C.'nin yaratıcısı Josh Schwartz, O.C. ortak yazarı ve Gossip Girl'ün ortak yaratıcısı Stephanie Savage ile Jordan Weiss var. 2019'dan beri farklı biçimlerde geliştirilen yapım, olay niteliğinde bir mini dizi formatında olacak ve merkezde yine Silverstone'un Cher'i yer alacak.\n\nDeadline'a verilen tanıma göre dizi, orijinal filmden 30 yıl sonrasını anlatıyor: İş hayatında başarılı olmuş ve anneliği çözmüş bir Cher'e yeniden katılıyoruz — ta ki kızının lise yıllarına kadar. Bir ergeni büyütmek Cher'e kendisini yeniden \"clueless\" hissettiriyor.\n\nDaha önce Stacey Dash'in Dionne'ı merkeze alan bir devam dizisi planı da vardı; Dash'in ya da orijinal kadrodan Paul Rudd'ın bu projede görünüp görünmeyeceği ise henüz belirsiz.\n\nBu proje, milenyum kuşağının sevdiği markaların yayın çağında diriltilmesi eğiliminin son halkası: Prime Video'nun Legally Blonde ön hikâyesi Elle, Disney+'ın Malcolm In The Middle canlandırması ve talihsiz biçimde erken sonlanan Chloé Zhao imzalı Buffy dizisi de aynı akımın parçası. Çekimlerin Los Angeles'ta gelecek yıl kadar erken bir tarihte başlaması bekleniyor.",
     image: "https://images.bauerhosting.com/empire/2026/07/Clueless.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
+    gallery: [
+      cluelessG1.url,
+      cluelessG2.url,
+      cluelessG3.url,
+      cluelessG4.url,
+      cluelessG5.url,
+    ],
   },
   {
     slug: "rings-of-power-3-sezon-nazgnagol-ringwraith",
