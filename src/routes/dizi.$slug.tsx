@@ -73,7 +73,10 @@ function SeriesPage() {
           <ReactMarkdown>{s.body}</ReactMarkdown>
         </div>
 
+        {s.gallery?.length ? <PhotoGallery images={s.gallery} heading="Galeri" /> : null}
+
         <ShareButtons title={s.title} path={`/dizi/${slug}`} />
+
         </article>
 
         <OtherArticlesSidebar heading="Diğer diziler" items={others} to="/dizi/$slug" />
