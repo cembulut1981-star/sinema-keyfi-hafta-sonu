@@ -8,22 +8,13 @@ const PAGE_SIZE = 20;
 
 const HEADLINE_SLUG = "spider-man-brand-new-day-ikinci-hafta-gise-rekoru";
 const HEADLINE = ARTICLES.find((a) => a.newsSlug === HEADLINE_SLUG);
-// Manşetin yanına yerleştirilecek küçük kartlar — akıştan çıkarılır.
-const HEADLINE_SIDE_SLUGS = new Set([
-  "the-bear-7-sezon-finali-yaklasiyor",
-  "enola-holmes-3-fragmani-paylasildi",
-  "house-of-the-dragon-3-sezon-tanitildi",
-  "matt-smith-house-of-the-dragon-vedasi",
-]);
 const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG);
-const HEADLINE_SIDES = FEED.filter((a) => {
-  const slug = a.newsSlug ?? a.seriesSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? "";
-  return HEADLINE_SIDE_SLUGS.has(slug);
-});
-const FEED_AFTER_HEADLINE = FEED.filter((a) => {
-  const slug = a.newsSlug ?? a.seriesSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? "";
-  return !HEADLINE_SIDE_SLUGS.has(slug);
-});
+// Manşetin yanına yerleştirilecek ilk küçük kartlar — akıştan çıkarılır.
+const HEADLINE_SIDES = FEED.filter(
+  (a) => a.category === "haberler" || a.category === "diziler",
+).slice(0, 4);
+const HEADLINE_SIDE_IDS = new Set(HEADLINE_SIDES.map((a) => a.id));
+const FEED_AFTER_HEADLINE = FEED.filter((a) => !HEADLINE_SIDE_IDS.has(a.id));
 
 export const Route = createFileRoute("/")({
   head: () => ({
