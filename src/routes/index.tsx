@@ -12,7 +12,7 @@ const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG);
 // Manşetin yanına yerleştirilecek ilk küçük kartlar — akıştan çıkarılır.
 const HEADLINE_SIDES = FEED.filter(
   (a) => a.category === "haberler" || a.category === "diziler",
-).slice(0, 4);
+).slice(0, 2);
 const HEADLINE_SIDE_IDS = new Set(HEADLINE_SIDES.map((a) => a.id));
 const FEED_AFTER_HEADLINE = FEED.filter((a) => !HEADLINE_SIDE_IDS.has(a.id));
 
