@@ -12,7 +12,7 @@ const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG);
 // Manşetin yanına yerleştirilecek ilk küçük kartlar — akıştan çıkarılır.
 const HEADLINE_SIDES = FEED.filter(
   (a) => a.category === "haberler" || a.category === "diziler",
-).slice(0, 4);
+).slice(0, 2);
 const HEADLINE_SIDE_IDS = new Set(HEADLINE_SIDES.map((a) => a.id));
 const FEED_AFTER_HEADLINE = FEED.filter((a) => !HEADLINE_SIDE_IDS.has(a.id));
 
@@ -236,7 +236,7 @@ function Index() {
                 ribbon="Manşet"
               />
             </div>
-            <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+            <div className="grid grid-cols-2 gap-6 auto-rows-fr min-h-0 h-full">
               {HEADLINE_SIDES.map((a) => (
                 <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
               ))}
