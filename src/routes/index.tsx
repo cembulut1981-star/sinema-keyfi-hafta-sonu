@@ -9,6 +9,12 @@ const PAGE_SIZE = 20;
 const HEADLINE_SLUG = "spider-man-brand-new-day-ikinci-hafta-gise-rekoru";
 const HEADLINE = ARTICLES.find((a) => a.newsSlug === HEADLINE_SLUG);
 const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG);
+// Manşetin yanına yerleştirilecek ilk küçük kartlar — akıştan çıkarılır.
+const HEADLINE_SIDES = FEED.filter(
+  (a) => a.category === "haberler" || a.category === "diziler",
+).slice(0, 4);
+const HEADLINE_SIDE_IDS = new Set(HEADLINE_SIDES.map((a) => a.id));
+const FEED_AFTER_HEADLINE = FEED.filter((a) => !HEADLINE_SIDE_IDS.has(a.id));
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -162,7 +168,7 @@ function Index() {
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = FEED.slice(0, count);
+    const visibleArticles = FEED_AFTER_HEADLINE.slice(0, count);
     const smallCandidates = visibleArticles.filter(
       (a) => a.category === "haberler" || a.category === "diziler",
     );
@@ -174,18 +180,18 @@ function Index() {
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
   // always fills all 4 columns instead of leaving a gap on the right.
-  let effectiveCount = Math.min(visibleCount, FEED.length);
+  let effectiveCount = Math.min(visibleCount, FEED_AFTER_HEADLINE.length);
   let built = build(effectiveCount);
   for (let extra = 1; extra <= 3; extra++) {
     if (built.leftovers.length % 4 === 0) break;
-    const next = Math.min(visibleCount + extra, FEED.length);
+    const next = Math.min(visibleCount + extra, FEED_AFTER_HEADLINE.length);
     if (next === effectiveCount) break;
     effectiveCount = next;
     built = build(next);
   }
 
   const { duo, rows, leftovers } = built;
-  const hasMore = effectiveCount < FEED.length;
+  const hasMore = effectiveCount < FEED_AFTER_HEADLINE.length;
 
 
   const duoSection =
@@ -215,19 +221,26 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Sinema Haberleri, İncelemeler ve Listeler</h1>
         {HEADLINE ? (
-          <section className="mb-12">
-            <FeaturedArticleCard
-              article={HEADLINE}
-              badgeLabel="Manşet"
-              kicker="Sine-Meta · Gişe"
-              meta="Box Office"
-              stats={[
-                { label: "2. hafta", value: "$145M" },
-                { label: "Küresel", value: "$1.67B" },
-                { label: "Kuzey Amerika", value: "$655M" },
-              ]}
-              ribbon="Manşet"
-            />
+          <section className="mb-12 grid grid-cols-1 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-6 items-stretch md:h-[560px]">
+            <div className="min-h-0 h-full">
+              <FeaturedArticleCard
+                article={HEADLINE}
+                badgeLabel="Manşet"
+                kicker="Sine-Meta · Gişe"
+                meta="Box Office"
+                stats={[
+                  { label: "2. hafta", value: "$145M" },
+                  { label: "Küresel", value: "$1.67B" },
+                  { label: "Kuzey Amerika", value: "$655M" },
+                ]}
+                ribbon="Manşet"
+              />
+            </div>
+            <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+              {HEADLINE_SIDES.map((a) => (
+                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              ))}
+            </div>
           </section>
         ) : null}
         {rows.map((r, i) => (
@@ -251,7 +264,7 @@ function Index() {
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED.length))}
+              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED_AFTER_HEADLINE.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
               Daha Fazla Göster
