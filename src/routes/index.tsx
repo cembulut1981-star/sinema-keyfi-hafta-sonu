@@ -6,6 +6,10 @@ import { ARTICLES, type Article } from "@/data/articles";
 
 const PAGE_SIZE = 20;
 
+const HEADLINE_SLUG = "spider-man-brand-new-day-ikinci-hafta-gise-rekoru";
+const HEADLINE = ARTICLES.find((a) => a.newsSlug === HEADLINE_SLUG);
+const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG);
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -158,7 +162,7 @@ function Index() {
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = ARTICLES.slice(0, count);
+    const visibleArticles = FEED.slice(0, count);
     const smallCandidates = visibleArticles.filter(
       (a) => a.category === "haberler" || a.category === "diziler",
     );
@@ -170,18 +174,18 @@ function Index() {
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
   // always fills all 4 columns instead of leaving a gap on the right.
-  let effectiveCount = Math.min(visibleCount, ARTICLES.length);
+  let effectiveCount = Math.min(visibleCount, FEED.length);
   let built = build(effectiveCount);
   for (let extra = 1; extra <= 3; extra++) {
     if (built.leftovers.length % 4 === 0) break;
-    const next = Math.min(visibleCount + extra, ARTICLES.length);
+    const next = Math.min(visibleCount + extra, FEED.length);
     if (next === effectiveCount) break;
     effectiveCount = next;
     built = build(next);
   }
 
   const { duo, rows, leftovers } = built;
-  const hasMore = effectiveCount < ARTICLES.length;
+  const hasMore = effectiveCount < FEED.length;
 
 
   const duoSection =
@@ -210,6 +214,22 @@ function Index() {
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Sinema Haberleri, İncelemeler ve Listeler</h1>
+        {HEADLINE ? (
+          <section className="mb-12">
+            <FeaturedArticleCard
+              article={HEADLINE}
+              badgeLabel="Manşet"
+              kicker="Sine-Meta · Gişe"
+              meta="Box Office"
+              stats={[
+                { label: "2. hafta", value: "$145M" },
+                { label: "Küresel", value: "$1.67B" },
+                { label: "Kuzey Amerika", value: "$655M" },
+              ]}
+              ribbon="Manşet"
+            />
+          </section>
+        ) : null}
         {rows.map((r, i) => (
           <div key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
@@ -231,7 +251,7 @@ function Index() {
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, ARTICLES.length))}
+              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
               Daha Fazla Göster
