@@ -5,6 +5,8 @@ import { SiteShell, ImdbBadge, CustomBadge } from "@/components/site/SiteShell";
 import { articleProse } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
+import { PhotoGallery } from "@/components/site/PhotoGallery";
+
 import { getSeries, SERIES } from "@/data/series";
 
 export const Route = createFileRoute("/dizi/$slug")({
