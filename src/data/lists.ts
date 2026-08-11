@@ -24,6 +24,92 @@ export type ListItem = {
 
 const _LISTS_RAW: ListItem[] = [
   {
+    slug: "orijinalinden-iyi-12-spin-off-dizi",
+    title: "Orijinalinden Daha İyi 12 Spin-Off Dizi",
+    excerpt: "\"Frasier\"dan \"Star Trek: The Next Generation\"a, doğduğu diziyi gölgede bırakan 12 spin-off. SlashFilm'in listesi, kalite ya da popülerlik bakımından ana yapımı aşan dizileri bir araya getiriyor.",
+    countdownBadge: "12 dizi seçkisi",
+    body: `Televizyonda spin-off yapmak ince bir iştir. Planlı ya da tesadüfi olsun, yazarların izleyicinin gönlünü kaptıracağı bir karakter yaratması, oyuncunun da o rolü taşıyacak karizmayı bulması gerekir. Yayına girdikten sonraysa asıl sınav başlar: dizinin en azından doğduğu yapım kadar iyi olması. Çoğu spin-off tam burada tökezler. Ama bir avuç dizi, ana yapımın seviyesine ulaşmakla kalmayıp bir adım öteye geçti.
+
+Bu listede "Better Call Saul", "Batman Beyond" ya da "House of the Dragon" gibi "en az öncülü kadar iyi" sayılabilecek diziler yok; burada gerçekten öncüsünü aşanlar var.
+
+## Frasier
+
+![Frasier](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/frasier-1786452681.jpg)
+
+Tüm zamanların en başarılı spin-off'larından biri: "Frasier", doğduğu dizi "Cheers"ın kalitesini geride bıraktı. Dr. Frasier Crane başta yalnızca birkaç bölüm için düşünülmüştü ama Kelsey Grammer'ın performansı onu dizinin merkezine taşıdı, ardından Seattle'da kurulu kendi dizisi geldi. Frasier ve kardeşi Niles'ın psikiyatr kimlikleri sayesinde yazarlar entelektüel esprilerle oynayabildi; diğer karakterlerse bu ince zekâya komik bir karşıtlık oluşturdu.
+
+## Happy Days
+
+![Happy Days](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/happy-days-1786452681.jpg)
+
+Bugünün ölçütleriyle alışılmadık bir spin-off: dizi, ABC'nin "Love, American Style" antolojisinde satılamayan bir pilot olarak başladı. George Lucas, pilottaki Ron Howard'ı beğenip onu "American Graffiti"ye aldı; filmin başarısı pilota olan ilgiyi yeniden canlandırdı. Zamanla dizinin imza karakteri Fonzie oldu. "Happy Days" ayrıca literatüre "jumping the shark" deyimini kazandırdı ve "Laverne & Shirley" ile "Mork & Mindy" gibi kendi spin-off'larını doğurdu.
+
+## Xena: Warrior Princess
+
+![Xena: Warrior Princess](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/xena-warrior-princess-1786452682.jpg)
+
+"Hercules: The Legendary Journeys"de üç bölümlük bir yay için görünen Xena, izleyicide öyle bir iz bıraktı ki kendi dizisini kazandı. Aksiyon, duygu ve karmaşık ilişkileriyle hem kadın hem erkek izleyiciyi buluşturan dizi, Xena ile Gabrielle arasındaki bağ sayesinde queer izleyicinin de kült yapımı oldu; Lucy Lawless bu okumayı yıllar içinde açıkça sahiplendi.
+
+## A Different World
+
+![A Different World](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/a-different-world-1786452682.jpg)
+
+"The Cosby Show"un Denise Huxtable karakterini üniversiteye taşımak için kurulan dizi, Lisa Bonet'in ayrılmasının ardından Debbie Allen'ın yönetiminde kimliğini buldu. Toplumsal cinsiyet rollerinden ırkçılığa, sınıf meselesinden siyah kimliğine uzanan tartışmalarla üniversite komedisinin şablonunu kurdu ve içerik derinliğiyle ana dizisini aştı.
+
+## Family Matters
+
+![Family Matters](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/family-matters-1786452682.jpg)
+
+Harriette Winslow başlangıçta "Perfect Strangers"ta bir asansör görevlisiydi; kocası Carl'la yakaladıkları komik uyum onlara kendi dizisini getirdi. 90'ların tamamına yayılan dizi, Steve Urkel'ın "Did I do that?" repliğiyle "inek" kavramını neredeyse tek başına tanımladı — ve siyah orta sınıf bir ailenin olumlu portresini yıllarca ekranda tuttu.
+
+## Law & Order: SVU
+
+![Law & Order: SVU](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/law-order-svu-1786452683.jpg)
+
+"Law & Order" evreninin en güçlü halkası. 1999'da başlayan dizi, çeyrek asırdır Hollywood'un neredeyse her oyuncusunu konuk ettiği bir okul gibi çalışıyor. Suç prosedürelini mükemmelleştirmesinin yanında, Mariska Hargitay'in hem sertlik hem şefkat taşıyan Olivia Benson'ı diziyi soğuk bir vaka anlatısı olmaktan kurtarıyor.
+
+## NCIS
+
+![NCIS](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/ncis-1786452683.jpg)
+
+Bugün kimsenin hatırlamadığı CBS dizisi "JAG"in sekizinci sezonunda görünen Leroy Gibbs ve ekibi, iki bölümlük bir yayla "NCIS"in pilotunu oluşturdu. Suç prosedürelini askeriyeyle birleştiren dizi 20 yılı aşkın süredir ayakta; Mark Harmon bayrak dizisinden çekilse de "NCIS: Origins"in anlatıcısı olarak evrende kalmaya devam ediyor.
+
+## Good Times
+
+![Good Times](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/good-times-1786452683.jpg)
+
+Florida Evans ilk olarak Norman Lear'ın "Maude" dizisinde görünmüştü; "Good Times" için karakterin geçmişi baştan yazıldı ve aile Chicago'daki toplu konutlara taşındı. Çete şiddeti, hırsızlık, çocuk istismarı ve tahliye gibi meselelere eğilen dizi, ekranda evinde bulunan ilk siyah babayı sunmasıyla da tarihe geçti.
+
+## The Flash
+
+![The Flash](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/the-flash-1786452684.jpg)
+
+The CW'nin altın döneminde Arrowverse'ün taç mücevheri oldu ve evrenin adını taşıyan "Arrow"u bile gölgede bıraktı. Ciddiyetle hafifliği dengeleyen tonu, kadronun sıcaklığı ve Grant Gustin ile Candice Patton arasındaki kimya, diziyi süper kahraman aksiyonunun ötesine taşıdı.
+
+## The Jeffersons
+
+![The Jeffersons](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/the-jeffersons-1786452684.jpg)
+
+Yine bir Norman Lear yapımı. "All in the Family"den hatırladığınız tek karakter büyük olasılıkla Archie Bunker'dır; "The Jeffersons"ta ise George ve Weezie'nin komik uyumu ile Florence'ın keskin dili akılda kalır. Irkçılık, silah şiddeti ve madde bağımlılığı gibi konulara aynı cesaretle ama daha güçlü bir kadroyla eğildi.
+
+## Daria
+
+![Daria](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/daria-1786452685.jpg)
+
+"Beavis and Butt-Head"in yan karakteri Daria Morgendorffer, kendi dizisinde MTV animasyonunun en zeki toplum eleştirisine dönüştü. Ergenlik, sınıf ve popülerlik üzerine söyledikleri onlarca yıl sonra bile geçerli; dizinin gücü, "aptal" karakterlere bile katmanlı bir geçmiş vermesinde.
+
+## Star Trek: The Next Generation
+
+![Star Trek: The Next Generation](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/star-trek-the-next-generation-1786452685.jpg)
+
+90'ların en iyi dizilerinden biri olmakla kalmıyor, tüm zamanların en iyi spin-off'larından biri de sayılıyor. Hikâyeleri daha karmaşık, oyunculuğu daha az teatral; bugün izlendiğinde orijinal diziden daha kolay hazmediliyor. Picard ve ekibi bilimkurguyu popüler kültürde saygın bir yere taşıdı ve "Deep Space Nine" gibi devam dizilerine sağlam bir zemin kurdu.
+
+Kısacası: bir spin-off her zaman soluk bir kopya olmak zorunda değil. Bazen ana diziyi hatırlamamızın tek nedeni bile olabiliyor.`,
+    image: "https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/intro-1786452680.jpg",
+    source: "SlashFilm",
+  },
+
+  {
     slug: "christopher-nolan-en-iyi-oyunculuk-performanslari",
     title: "Christopher Nolan Filmlerinden 13 En İyi Oyunculuk Performansı: Matt Damon'dan Heath Ledger'a",
     excerpt: "Variety'nin ödül editörü Clayton Davis, Nolan'ın kariyerindeki en unutulmaz 13 oyunculuk performansını sıraladı — Heath Ledger'ın Joker'inden Matt Damon'ın Odysseus'una uzanan bir liste.",
