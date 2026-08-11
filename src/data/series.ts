@@ -22,6 +22,16 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "furious-hulu-kadin-ofkesi-neden-herkes-bu-diziye-kilitlendi",
+    title: "Herkes Neden Hulu'nun Yeni Dizisi \"Furious\"a Kilitlendi?",
+    excerpt: "Sekiz bölümlük suç gerilimi şimdiden yılın en iyi yeni dramalarından sayılıyor. TV eleştirmenleri Roxana Hadadi ve Alison Herman, dizinin kadın öfkesi üzerine ne söylediğini tartışıyor.",
+    body: "Yeni suç draması _Furious_, eleştirmenler arasında dalga yaratmayı sürdürüyor. Kanada'da Disney+ üzerinden yayınlanan dizi, yasanın iki ayrı ucundaki iki kadını izliyor: güçlü erkekleri hedef alan bir seri katil ve onu bulmakla görevlendirilen FBI ajanı.\n\nCBC'nin kültür programı _Commotion_'da, Vulture TV eleştirmeni Roxana Hadadi ile Variety TV eleştirmeni Alison Herman, konuk sunucu Amil Niazi'nin sorularını yanıtladı: İzleyiciler bu diziye neden bu kadar bağlandı ve dizi kadın öfkesi üzerine tam olarak ne söylüyor?\n\nTartışmanın merkezinde, Epstein sonrası dönemin televizyonu nasıl değiştirdiği vardı. Eleştirmenlere göre _Furious_, güç sahibi erkeklerin dokunulmazlığına dair kolektif bir hayal kırıklığını doğrudan bir intikam fantezisine çeviriyor; ama bunu ne ahlak dersi vererek ne de şiddeti tümüyle aklayarak yapıyor. Dizi, katilin motivasyonunu anlaşılır kılarken, onu kovalayan ajanın da benzer bir öfkeyi içinde taşıdığını gizlemiyor — asıl gerilim bu iki kadının birbirine ne kadar benzediğinden doğuyor.\n\nSekiz bölümlük yapı da işe yarıyor: dizi, olay örgüsünü uzatmak yerine sıkı bir tempo tutuyor ve karakter anlarına yer açıyor. Riley Vinson ile Lola Petticrew'in performansları, \"My Life Had Stood - A Loaded Gun\" başlıklı bölümde olduğu gibi, gerilimi ev içi sahnelerin sessizliğinde bile diri tutuyor.\n\nEleştirmenlerin ortak kanısı şu: _Furious_ yalnızca iyi kurulmuş bir kovalamaca değil; öfkenin kadınlar için ne zaman meşru, ne zaman \"fazla\" sayıldığına dair güncel bir tartışmayı da beraberinde getiriyor. Yılın en iyi yeni dramaları arasında anılmasının nedeni de büyük ölçüde bu.\n\n_Panel yapımcısı: Nikky Manfredi. Tartışmanın tamamı CBC Listen'da ve Commotion with Elamin Abdelmahmoud podcast'inde._",
+    image: "https://i.cbc.ca/ais/1920d957-0324-4ed9-8350-9de63a4343ee,1786374844359/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C46%2C3000%2C1687%29%3B",
+    source: "CBC Arts",
+    customBadge: "Furious",
+    customBadgeStyle: "light",
+  },
+  {
     slug: "sugar-2-sezon-colin-farrell-sir-ortaya-cikti",
     title: "Sır Ortaya Çıktı: \"Sugar\" 2. Sezonda Nihayet İyi Oldu",
     excerpt: "Colin Farrell'in insan bulan sinefil dedektifi, çok şeyi çok uzun süre saklayan bir ilk sezonla yanlış ayakla başlamıştı. 2. sezon ise doğru sırları saklamanın ötesinde kritik değişiklikler yapıyor.",
