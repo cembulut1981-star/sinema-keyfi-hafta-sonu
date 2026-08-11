@@ -6,6 +6,11 @@ import cluelessG5 from "@/assets/clueless-c5.jpg.asset.json";
 import duttonAsset from "@/assets/dutton.jpg.asset.json";
 import spiderNoirAsset from "@/assets/spider_noir.jpg.asset.json";
 import capeFearAsset from "@/assets/cape_fear.jpg.asset.json";
+import furiousG1 from "@/assets/furious-g1.png.asset.json";
+import furiousG2 from "@/assets/furious-g2.png.asset.json";
+import furiousG3 from "@/assets/furious-g3.png.asset.json";
+import furiousG4 from "@/assets/furious-g4.png.asset.json";
+import furiousG5 from "@/assets/furious-g5.png.asset.json";
 
 export type SeriesItem = {
   slug: string;
@@ -30,6 +35,7 @@ export const SERIES: SeriesItem[] = [
     source: "CBC Arts",
     customBadge: "Furious",
     customBadgeStyle: "light",
+    gallery: [furiousG1.url, furiousG2.url, furiousG3.url, furiousG4.url, furiousG5.url],
   },
   {
     slug: "sugar-2-sezon-colin-farrell-sir-ortaya-cikti",
