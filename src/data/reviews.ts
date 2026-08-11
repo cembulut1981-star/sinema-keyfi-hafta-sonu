@@ -33,6 +33,21 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "late-fame-inceleme-willem-dafoe",
+    origTitle: "Late Fame",
+    title: "\"Late Fame\" İncelemesi: Willem Dafoe'nun Sonbahar Mevsimindeki Şairi",
+    excerpt: "Wall Street Journal eleştirmeni Kyle Smith'e göre Kent Jones'un Arthur Schnitzler uyarlaması, bir zamanlar el üstünde tutulan ve şimdi postanede çalışan bir yazara hayran olan entelektüellerin öyküsünü küçük ve zarif bir şiir gibi anlatıyor.",
+    rating: "4/5",
+    image: "https://opinion-images.wsj.net/im-04588139?width=1280&size=1.499",
+    body: `Ed Saxberger bir kalem erbabı: Postanede çalışıyor. Aynı zamanda edebi bir dahi. Yoksa "dahiydi" mi demek gerek? 1979'da, çok küçük ama çok sadık çevrelerde hâlâ saygı gören bir şiir kitabı yayımladı. "Late Fame"de artık yaşlı ve Willem Dafoe tarafından sakin bir denge duygusuyla canlandırılıyor.
+
+Hayatı, New York'un West Village'ındaki dairesinin önünde sinsice dolaşırken keşfettiği tuhaf bir genç adamın ziyaretiyle alt üst oluyor. Greta Lee ve Edmund Donovan'ın da rol aldığı film, bir zamanların gözden düşmüş yazarını yeniden keşfeden bir entelektüel çevrenin ona duyduğu hayranlığı izliyor.
+
+Arthur Schnitzler'in 1895'te yazdığı ancak bu yüzyıla kadar yayımlanmamış novellasından uyarlanan "Late Fame", imalarıyla birkaç yöne birden uzanan bir karakter çalışması ve aynı zamanda bir kıssa. Bir bakıma Kent Jones'un yönettiği film, harikulade küçük bir şiir gibi.
+
+Aynı zamanda geçmişe dokunaklı bir selam: "Metropolitan" ve "Dead Poets Society"nin yönlerini zarif biçimde birbirine dolayarak, şöhretin gecikmiş gelişinin bir insanı hem onarabileceğini hem de yeniden yaralayabileceğini hatırlatıyor.`,
+  },
+  {
     slug: "i-want-your-sex-gregg-araki-inceleme",
     origTitle: "I Want Your Sex",
     title: "\"I Want Your Sex\" İncelemesi: Gregg Araki, Z Kuşağının Sofuluğunu Çılgın Bir Komediyle İğneliyor",
