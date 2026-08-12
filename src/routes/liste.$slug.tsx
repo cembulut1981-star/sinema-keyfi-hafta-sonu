@@ -74,11 +74,20 @@ function ListPage() {
                       </h2>
                     ),
                   }
-                : undefined
+                : slug === "2026nin-en-iyi-yeni-komedi-filmleri"
+                  ? {
+                      h2: ({ children }) => (
+                        <h2 className="font-serif-display text-3xl font-black leading-snug mt-12 mb-8">
+                          {children}
+                        </h2>
+                      ),
+                    }
+                  : undefined
             }
           >
             {l.body}
           </ReactMarkdown>
+
         </div>
 
         <ShareButtons title={l.title} path={`/liste/${slug}`} />
