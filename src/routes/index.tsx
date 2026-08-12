@@ -8,7 +8,10 @@ const PAGE_SIZE = 20;
 
 const HEADLINE_SLUG = "spider-man-brand-new-day-ikinci-hafta-gise-rekoru";
 const HEADLINE = ARTICLES.find((a) => a.newsSlug === HEADLINE_SLUG);
-const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG);
+// Manşetin altında çerçeveli büyük kart olarak öne çıkarılan içerik.
+const FRAMED_SLUG = "jenna-ortega-sabrina-carpenter-taste-klip-kamera-arkasi";
+const FRAMED = ARTICLES.find((a) => a.newsSlug === FRAMED_SLUG);
+const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG && a.id !== FRAMED?.id);
 // Manşetin yanına yerleştirilecek ilk küçük kartlar — akıştan çıkarılır.
 const HEADLINE_SIDES = FEED.filter(
   (a) => a.category === "haberler" || a.category === "diziler",
@@ -244,6 +247,13 @@ function Index() {
           </section>
         ) : null}
         <div className="h-10 md:h-14" aria-hidden />
+        {FRAMED ? (
+          <section className="mb-14 md:px-2">
+            <div className="md:max-w-[720px] md:mx-auto">
+              <ArticleCard article={FRAMED} framed />
+            </div>
+          </section>
+        ) : null}
         {rows.map((r, i) => (
           <div key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
