@@ -26,6 +26,15 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "jenna-ortega-sabrina-carpenter-taste-klip-kamera-arkasi",
+    title: "Jenna Ortega, Sabrina Carpenter'ın \"Taste\" Klibini Anlattı: \"Hiçbir Şey Koreografi Değildi\"",
+    excerpt: "Ortega, kanlı ve fazlasıyla kamp bir klasik olan \"Taste\" klibine çekimlerden yalnızca birkaç gün önce dâhil olduğunu açıkladı: \"Yemin ederim hiçbir şey planlanmamıştı, sadece ortalıkta koşuyorduk.\"",
+    body: "Sabrina Carpenter'ın _Short n' Sweet_ albümünden çıkan \"Taste\" teklisinin klibi, büyük ölçüde başrol partneri Jenna Ortega sayesinde şarkıcının sinematik evreninde ayrı bir yere sahip. Öldürülmesi imkânsız bu ikili, _Death Becomes Her_ gibi klasiklere selam duran fazlasıyla kamp filmde birbirini palayla, tüfekle ve testereyle kovalıyor.\n\nÜç dakikalık klipte birbirlerini kaç kez öldürdükleri düşünülünce, hayranların bu kanlı şölenin haftalarca planlandığını varsayması anlaşılır. Oysa Ortega, çekime katılacağını çekimden yalnızca birkaç gün önce öğrendiğini anlattı.\n\n_Esquire_'a konuşan Ortega, \"Yemin ederim, o klipte hiçbir şey koreografi değildi. Sadece ortalıkta koşuyorduk. Hazırlanmaya ya da konuşmaya vaktimiz olmadı,\" dedi. Oyuncu, sevgilisini öptüğü ve adamın ardından Carpenter'a dönüştüğü sahneyi örnek gösterdi; Ortega bu sahnede pembe testereyle Carpenter'ı biçiyor.\n\n\"Öpüşme sekansı şöyleydi: Orada duruyordum, bir adamı öpüyordum. Pozisyonu bozmamamı söylüyorlardı. Sabrina geliyor, beni öpüyordu ve bunu birkaç kez tekrarladık,\" diye anlattı Ortega. \"Yani bir tür sevgililer atlıkarıncasıydı.\"\n\nCarpenter'la çektiği en sevdiği sahne sorulduğunda _Wednesday_ yıldızının yanıtı netti: \"Testere sekansı. Gerçekten çok kamp ve eğlenceli geldi, üstelik üstümüzde şirin kıyafetler vardı.\" Ortega, testerenin bile Carpenter'a gönderme yapan çılgın bir ismi olduğunu ekledi.",
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/08/jenna-ortega-sabrina-carpenter-taste-video.jpg?w=1581&h=1054&crop=1",
+    source: "Rolling Stone",
+    videoUrl: "https://www.youtube.com/embed/KEG7b851Ric",
+  },
+  {
     slug: "my-chemical-romance-danger-days-yeniden-bir-numara",
     title: "My Chemical Romance, 15 Yıllık Albümüyle Yeniden Zirvede",
     excerpt: "\"Danger Days: The True Lives of the Fabulous Killjoys\", İngiltere'nin Official Rock & Metal Albums listesinde ikinci kez bir numaraya çıktı; grup listenin ilk iki sırasını da elinde tutuyor.",
