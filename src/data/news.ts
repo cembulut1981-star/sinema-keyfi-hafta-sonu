@@ -45,9 +45,9 @@ export const NEWS: NewsItem[] = [
 
 Gerçi "Borderlands" oyunları ESRB tarafından kanlı animasyonlar ve kaba şakalar nedeniyle M (17+) olarak derecelendiriliyor, ama esasen bununla tanınmıyorlar. Şiddet ve kan daha çok çizgi filmsi; cel-shaded çizim tarzı, çizgi roman kesmelerine olanak tanıyıp en dehşetli kısımları hayal gücüne bırakıyor.
 
-Roth, son komedi-slasher filmi "Ice Cream Man" için bağımsız yolu seçti. Başta filmde üretken yapay zekâ kullanılmadığını söylemiş, sonra "yanlış konuştuğunu" ileri sürmüştü. En azından o film kötü olursa kendinden başka suçlayacağı kimse olmayacak.
+![Ariana Greenblatt, Tiny Tina rolünde](${bl3})
 
-![Ariana Greenblatt, Tiny Tina rolünde](${bl3})`,
+Roth, son komedi-slasher filmi "Ice Cream Man" için bağımsız yolu seçti. Başta filmde üretken yapay zekâ kullanılmadığını söylemiş, sonra "yanlış konuştuğunu" ileri sürmüştü. En azından o film kötü olursa kendinden başka suçlayacağı kimse olmayacak.`,
     image: "https://kotaku.com/app/uploads/2024/07/52679d64edfaf923a8b5d0b618a0deb6.jpg",
     source: "Kotaku",
   },
