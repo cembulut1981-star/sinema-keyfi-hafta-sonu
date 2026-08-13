@@ -12,6 +12,9 @@ import img_minions_monsters from "@/assets/news-variety-minions-monsters.jpg";
 import rdjDoomAsset from "@/assets/rdj-doom.webp.asset.json";
 import primetimeAsset from "@/assets/primetime-robert-pattinson.jpg.asset.json";
 import spideyBoxOfficeAsset from "@/assets/spiderman-bnd-box-office.webp.asset.json";
+import bl1 from "@/assets/borderlands-1.jpg";
+import bl2 from "@/assets/borderlands-2.jpg";
+import bl3 from "@/assets/borderlands-3.jpg";
 
 export type NewsItem = {
   slug: string;
@@ -30,7 +33,21 @@ export const NEWS: NewsItem[] = [
     title: "Eli Roth: \"Borderlands\" 33 Milyon Dolarlık Fiyaskosunun Ardından \"Kimseye Ait Olmayan Bir Şey\" Oldu",
     excerpt: "120 milyon dolar bütçeli oyun uyarlamasının yönetmeni suçu stüdyoya atıyor: PG-13 hedefi filmi \"ne et ne balık\" hâline getirdi.",
     customBadge: "gişe fiyaskosu",
-    body: "\"Borderlands\" filminin bütçesi, 2024 yazındaki vizyonunu çevreleyen pahalı pazarlama masrafları hariç 120 milyon dolardı. Cate Blanchett ve Kevin Hart'ın da yer aldığı yıldız kadroya rağmen film gişede anında çöktü ve yapım maliyetinin ancak çeyreğini geri kazandı. Oyun uyarlaması, mevcut hayranlar için hayal kırıklığı, ortalama sinema izleyicisi için ise fazlasıyla kaotik bir dağınıklıktı. Yönetmen Eli Roth ise suçun stüdyoda olduğunu ima ediyor.\n\n\"İşler büyüdükçe stüdyolar doğal olarak riskten daha çok kaçınmaya başlıyor,\" dedi Roth Variety'e verdiği son röportajda. \"Bir film yapımcısı olarak doğam, merkezin solunda kalan şeyi yapmak; çünkü benim için işleyen bu oldu.\" \"Cabin Fever\" ve \"Hostel\" gibi 2000'lerin başındaki korku filmlerinin yazarı ve yönetmeni, vizyonunun hangi kısımlarının Hollywood tarafından budandığını detaylandırmadı; ancak \"Borderlands\"in PG-13 hedeflemesinin ölümcül olduğunu söyledi.\n\n\"Ortaya kimseye ait olmayan bir şey çıktı,\" dedi Roth. \"Çocuk filmi değil, ama herkese hitap etmeye çalışıyor. Oyuncular için ama oyuncuların istediği şiddeti içermiyor, çünkü o kadar aşırı olamıyor — maliyeti çok yüksek. Sonunda ne et ne balık olan bir filmle kalıyorsunuz.\"\n\nGerçi \"Borderlands\" oyunları ESRB tarafından kanlı animasyonlar ve kaba şakalar nedeniyle M (17+) olarak derecelendiriliyor, ama esasen bununla tanınmıyorlar. Şiddet ve kan daha çok çizgi filmsi; cel-shaded çizim tarzı, çizgi roman kesmelerine olanak tanıyıp en dehşetli kısımları hayal gücüne bırakıyor.\n\nRoth, son komedi-slasher filmi \"Ice Cream Man\" için bağımsız yolu seçti. Başta filmde üretken yapay zekâ kullanılmadığını söylemiş, sonra \"yanlış konuştuğunu\" ileri sürmüştü. En azından o film kötü olursa kendinden başka suçlayacağı kimse olmayacak.",
+    body: `"Borderlands" filminin bütçesi, 2024 yazındaki vizyonunu çevreleyen pahalı pazarlama masrafları hariç 120 milyon dolardı. Cate Blanchett ve Kevin Hart'ın da yer aldığı yıldız kadroya rağmen film gişede anında çöktü ve yapım maliyetinin ancak çeyreğini geri kazandı. Oyun uyarlaması, mevcut hayranlar için hayal kırıklığı, ortalama sinema izleyicisi için ise fazlasıyla kaotik bir dağınıklıktı. Yönetmen Eli Roth ise suçun stüdyoda olduğunu ima ediyor.
+
+![Borderlands (2024) kadrosu](${bl1})
+
+"İşler büyüdükçe stüdyolar doğal olarak riskten daha çok kaçınmaya başlıyor," dedi Roth Variety'e verdiği son röportajda. "Bir film yapımcısı olarak doğam, merkezin solunda kalan şeyi yapmak; çünkü benim için işleyen bu oldu." "Cabin Fever" ve "Hostel" gibi 2000'lerin başındaki korku filmlerinin yazarı ve yönetmeni, vizyonunun hangi kısımlarının Hollywood tarafından budandığını detaylandırmadı; ancak "Borderlands"in PG-13 hedeflemesinin ölümcül olduğunu söyledi.
+
+"Ortaya kimseye ait olmayan bir şey çıktı," dedi Roth. "Çocuk filmi değil, ama herkese hitap etmeye çalışıyor. Oyuncular için ama oyuncuların istediği şiddeti içermiyor, çünkü o kadar aşırı olamıyor — maliyeti çok yüksek. Sonunda ne et ne balık olan bir filmle kalıyorsunuz."
+
+![Cate Blanchett, Lilith rolünde](${bl2})
+
+Gerçi "Borderlands" oyunları ESRB tarafından kanlı animasyonlar ve kaba şakalar nedeniyle M (17+) olarak derecelendiriliyor, ama esasen bununla tanınmıyorlar. Şiddet ve kan daha çok çizgi filmsi; cel-shaded çizim tarzı, çizgi roman kesmelerine olanak tanıyıp en dehşetli kısımları hayal gücüne bırakıyor.
+
+Roth, son komedi-slasher filmi "Ice Cream Man" için bağımsız yolu seçti. Başta filmde üretken yapay zekâ kullanılmadığını söylemiş, sonra "yanlış konuştuğunu" ileri sürmüştü. En azından o film kötü olursa kendinden başka suçlayacağı kimse olmayacak.
+
+![Ariana Greenblatt, Tiny Tina rolünde](${bl3})`,
     image: "https://kotaku.com/app/uploads/2024/07/52679d64edfaf923a8b5d0b618a0deb6.jpg",
     source: "Kotaku",
   },
