@@ -1,3 +1,8 @@
+import miasma1 from "@/assets/miasma-1.jpg";
+import miasma2 from "@/assets/miasma-2.jpg";
+import miasma3 from "@/assets/miasma-3.jpg";
+import miasma4 from "@/assets/miasma-4.jpg";
+import miasma5 from "@/assets/miasma-5.jpg";
 import lastOneRoadAsset from "@/assets/last-one-road.jpg.asset.json";
 import glastonburyImg from "@/assets/review-glastonbury.jpg";
 import strungImg from "@/assets/review-strung.jpg";
@@ -33,6 +38,40 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "camp-miasma-inceleme-cannes",
+    origTitle: "Teenage Sex and Death at Camp Miasma",
+    title: "\"Teenage Sex and Death at Camp Miasma\" İncelemesi: Jane Schoenbrun'un Cannes'daki Kanlı Portalı",
+    excerpt: "TheWrap'e göre Jane Schoenbrun'un yeni filmi, slasher türünün transfobisinden Hollywood'un ikiyüzlü \"woke\" tavrına kadar her şeyi deşiyor; Gillian Anderson ve Hannah Einbinder ikilisi ise büyüleyici bir çekim alanı kuruyor.",
+    rating: "4.5/5",
+    image: miasma1,
+    body: `Jane Schoenbrun'un "Teenage Sex and Death at Camp Miasma" filminde öyle görüntüler ve planlar var ki, onları anlatacak kelimeler henüz icat edilmedi. Bazı filmler seyrettiğiniz bir medya olarak değil, sizi ele geçiren bir vizyon olarak gelir; Schoenbrun ve ekibinin özenle kurduğu dünya tam olarak buna yakın. Slasher katillerinin ölü kampçıları patlayana kadar tetherball direğine çarptığı, cesetlerin bir video dükkânının duvarlarını cam yünü gibi kapladığı, Gillian Anderson'ın baştan çıkarıcı bir edayla KFC bolluğu taşıdığı bir sahnenin tutuşmuş bir şömineye eridiği bir dünya.
+
+![Camp Miasma](${miasma2})
+
+Slasher filmlerindeki transfobiden Hollywood'un "woke" hikâyeleri yalnızca işine geldiğinde desteklemesine kadar her şeyi şişe geçiren Schoenbrun, kendisini bir portal ustası olarak kanıtlıyor. Dijital dünyaları — "I Saw the TV Glow"daki televizyon programları ya da "We're All Going to the World's Fair"deki internetin kuytuları — birer "özel alternatif evren" olarak kurmakta her zaman ustaydı. Bu sanal dünyalar, dış dünyanın vermediği güvenliği ve görülme imkânını sunuyor.
+
+Bu filmde Schoenbrun bu mekânlarla ilişkisini daha da derinden sorguluyor: Onların gerekliliğinin trajedisi ile gerçekliklerinin güzelliği arasındaki gerilim. Bedenimizde yeniden rahat ettiğimizde bu mekânlara ne olur? Diriliş her zaman önce bir tür ölüm gerektirir mi? Hayatımızda dönüşmek için artık çok geç olduğu bir an var mıdır?
+
+![Camp Miasma](${miasma3})
+
+Açılış sekansı bu dünyayı bir çırpıda "yaşanmış" kılıyor. Yükselen yönetmen Kris (Hannah Einbinder), uzun soluklu slasher serisi "Camp Miasma"nın yeniden çevrimini yönetmek üzere işe alınır. Kris'in kurnazca belirttiği gibi, bu işe alım bir mızrakla iki kuş vurur: Hollywood eski IP'lere doymaz, ve LGBTQ+ bir yönetmenle çalışarak stüdyo, tanınmış ölçüde trans karşıtı bir seriyi yeniden diriltmenin eleştirisini savuşturabilir.
+
+Okay Kaya'nın "Nightswimming" parçası jenerikte çalarken, "Camp Miasma"nın öyküsünü ürünler ve gazete kupürleri üzerinden izliyoruz: Sürpriz bir kült hitin birkaç filmde aşırı doymuş bir seriye dönüşmesi. Kutu oyunları ve seriyle alay eden bir dergi karikatürü, hikâyelerin Hollywood makinesinde ne kadar hızlı vasatlığa öğütülebildiğini gösteriyor.
+
+![Camp Miasma](${miasma4})
+
+Kris, yeniden çevrimde ilk "Camp Miasma" filminde hayatta kalan son kızı oynamış olan Billy Presley'e (Gillian Anderson) bir rol vermek ister. Emekli oyuncu, evini filmlerin çekildiği terk edilmiş kampa kurmuştur. Konuşmaları tuhaf biçimde başlar, ama aralarında meraktan öte bir bağ olduğu bellidir: Sadece arzu değil, gözlerinin altında kaynayan bir açlık.
+
+Gerçek ziyafet ise şu: Bu, tek filmde birkaç film. Counting Crows'un "A Long December" parçasına koreografi edilmiş kahkaha dolu uzun bir katliam sekansı da dahil olmak üzere, geçmiş "Camp Miasma" filmlerinden kendi başına birer sanat eseri olan uzun bölümler izliyoruz. Bu yeniden yaratımlar, Schoenbrun'un eşiklere duyduğu saygının kanıtı.
+
+![Camp Miasma](${miasma5})
+
+Yapım tasarımcıları Matt Hyland ve Brandon Tonner-Connolly, sanat yönetmeni Courtney Stockstad ve set dekoratörü Hana Cook arasındaki neşeli iş birliğini, kana bulanmış "Camp Miasma" dünyasında ya da Billy'nin Narnia'nın Lynch'çi bir versiyonunu andıran kamp evinde hissediyorsunuz. Film esasen Anderson ile Einbinder arasında geçen ikili bir oyun olsa da, kamp sekansları Schoenbrun'un yeni ve eski iş arkadaşlarına unutulmaz izler bırakma alanı açıyor; özellikle DJ Ella Giastic rolündeki Eva Victor.
+
+Fazlasıyla yoğun gelebilecek sekanslar ve motifler elbette var — ama bu, filmin bir hatası değil, özelliği. Filmi izledikten sonra tutarlı düşünceler kuramamak, onun tuhaf gücünün ve kalıcılığının işareti. Yeni bir müjdeyi ilk karşılaşmada kabul etmek zordur; Schoenbrun'un işinin armağanı ise her şeyden önce cömert bir davet ruhu taşıması. Onun kendinden emin ve çılgın dalga boyuna yerleşin ve gözlerinizdeki perdenin düşüşünü izleyin. Yanınıza bol bol jelibon alın; Kris'in dediği gibi, ne de olsa altın çağındayız.`,
+  },
+  {
+
     slug: "late-fame-inceleme-willem-dafoe",
     origTitle: "Late Fame",
     title: "\"Late Fame\" İncelemesi: Willem Dafoe'nun Sonbahar Mevsimindeki Şairi",
