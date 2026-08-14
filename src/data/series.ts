@@ -11,6 +11,10 @@ import furiousG2 from "@/assets/furious-g2.png.asset.json";
 import furiousG3 from "@/assets/furious-g3.png.asset.json";
 import furiousG4 from "@/assets/furious-g4.png.asset.json";
 import furiousG5 from "@/assets/furious-g5.png.asset.json";
+import hotd1 from "@/assets/hotd3-1.jpg.asset.json";
+import hotd2 from "@/assets/hotd3-2.jpg.asset.json";
+import hotd3 from "@/assets/hotd3-3.jpg.asset.json";
+import hotd4 from "@/assets/hotd3-4.jpg.asset.json";
 
 export type SeriesItem = {
   slug: string;
