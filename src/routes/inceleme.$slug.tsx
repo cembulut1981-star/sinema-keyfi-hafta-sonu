@@ -2,7 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell, ImdbBadge } from "@/components/site/SiteShell";
-import { articleProse } from "@/lib/prose";
+import { articleProse, toParagraphs } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getReview, REVIEWS } from "@/data/reviews";
@@ -73,7 +73,9 @@ function ReviewPage() {
         </div>
 
         <div className={articleProse}>
-          <ReactMarkdown>{r.body}</ReactMarkdown>
+          {toParagraphs(r.body).map((para, i) => (
+            <ReactMarkdown key={i}>{para}</ReactMarkdown>
+          ))}
         </div>
 
         <ShareButtons title={r.title} path={`/inceleme/${slug}`} />
