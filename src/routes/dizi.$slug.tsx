@@ -2,7 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell, ImdbBadge, CustomBadge } from "@/components/site/SiteShell";
-import { articleProse } from "@/lib/prose";
+import { articleProse, toParagraphs } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { PhotoGallery } from "@/components/site/PhotoGallery";
@@ -72,7 +72,9 @@ function SeriesPage() {
         </div>
 
         <div className={articleProse}>
-          <ReactMarkdown>{s.body}</ReactMarkdown>
+          {toParagraphs(s.body).map((para, i) => (
+            <ReactMarkdown key={i}>{para}</ReactMarkdown>
+          ))}
         </div>
 
         {s.gallery?.length ? <PhotoGallery images={s.gallery} heading="Galeri" /> : null}
