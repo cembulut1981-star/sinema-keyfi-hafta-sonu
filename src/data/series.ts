@@ -31,6 +31,35 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "house-of-the-dragon-3-sezon-finali-21-milyon-izleyici",
+    title: "\"House of the Dragon\" 3. Sezon Finali Üç Günde 21 Milyon İzleyiciye Ulaştı",
+    excerpt: "HBO'nun ejderha destanı sezonu güçlü kapattı: Finalin ilk üç günündeki toplam izleyici 21 milyon, bunun 11 milyonu ABD'den. Sezon ortalaması ise bölüm başına 34 milyon.",
+    body: `"House of the Dragon" üçüncü sezonunu pazar gecesi HBO'da tamamladı ve final bölümü yayına girdiği ilk üç gün içinde 21 milyon izleyiciye ulaştı. Bu izleyicilerin 11 milyondan fazlası ABD'deydi.
+
+![House of the Dragon 3. sezon finali](${hotd1.url})
+
+Bu toplam, Nielsen'in HBO kablolu kanalındaki lineer izleyici ölçümü ile Warner Bros. Discovery'nin HBO Max üzerindeki kendi izlenme sayımının birleşiminden geliyor. Tablo, sezon boyunca büyük ölçüde istikrarlı bir seyre işaret ediyor: 3. sezon açılışının 21,5 milyon izleyicisine göre yalnızca yüzde 2'lik bir düşüş var.
+
+WBD, 2 ile 7 arasındaki bölümlerin izlenme rakamlarını açıklamadı; 2024'teki 2. sezon finali için de üç günlük bir toplam paylaşmamıştı. Yine de not etmek gerekir ki 3. sezon açılışı, 2. sezon açılışının seyircisini yüzde 2'lik farkla neredeyse yakalamıştı.
+
+![Ejderhalar ve taht kavgası](${hotd3.url})
+
+Genel tabloda, "Game of Thrones"un devam dizisi bu sezon bölüm başına ortalama 34 milyon izleyiciye ulaşıyor; bu, 2. sezonun 35 milyonluk ortalamasının hemen altında. HBO'ya göre bu performans, diziyi HBO Max'in tüm zamanların en çok izlenen üç dönen sezonu arasına sokuyor.
+
+![Emma D'Arcy — Rhaenyra Targaryen](${hotd2.url})
+
+Pazar gecesi aynı zamanda "Life, Larry and the Pursuit of Unhappiness"ın yedinci ve son bölümüne sahne oldu. Larry David'in yaratıp başrolünde oynadığı skeç dizisi, ABD'de bölüm başına yaklaşık 4 milyon izleyici ortalamasıyla HBO Max tarihinin en çok izlenen ikinci HBO komedi lansmanı oldu. İlk sırada Steve Carell'li "Rooster" var; o da bu yılın başında, "Hung" (2009) ve "Sex and the City" (1998) dışında 15 yılın en çok izlenen HBO komedisi olarak yayına girmişti.
+
+![Westeros'a dönüş](${hotd4.url})
+
+Rakamlar, HBO'nun Westeros evrenini merkeze alan yayın stratejisinin hâlâ işlediğini gösteriyor: Sezon boyunca izleyici kaybının yüzde 2 seviyesinde kalması, dizinin sadık bir kitleyi elinde tuttuğu anlamına geliyor.`,
+    image: hotd1.url,
+    source: "Variety",
+    customBadge: "HBO",
+    customBadgeStyle: "light",
+    gallery: [hotd1.url, hotd3.url, hotd2.url, hotd4.url],
+  },
+  {
     slug: "furious-hulu-kadin-ofkesi-neden-herkes-bu-diziye-kilitlendi",
     title: "Herkes Neden Hulu'nun Yeni Dizisi \"Furious\"a Kilitlendi?",
     excerpt: "Sekiz bölümlük suç gerilimi şimdiden yılın en iyi yeni dramalarından sayılıyor. TV eleştirmenleri Roxana Hadadi ve Alison Herman, dizinin kadın öfkesi üzerine ne söylediğini tartışıyor.",
