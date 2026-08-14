@@ -1413,34 +1413,6 @@ Kaynak: Entertainment Weekly — "The 20 best family movies on Netflix".`,
     source: "Entertainment Weekly",
   },
   {
-    slug: "ew-2023-sonbahar-en-iyi-yeni-diziler",
-    title: "Sonbaharın Kaçırılmayacak 6 Yeni Dizisi",
-    excerpt: "EW TV eleştirmeni Kristen Baldwin, karanlık mizahlı Kore hayatta kalma dramasından tatlı-hüzünlü bir dönem romansına, 2023 sonbaharının izlenmesi gereken altı yeni dizisini derledi.",
-    body: `Entertainment Weekly'nin TV eleştirmeni Kristen Baldwin, 2023 sonbahar sezonuna girerken ekranlara gelen en dikkat çekici altı yeni diziyi seçti. Her biri farklı bir tondan konuşuyor, ancak ortak paydaları: Sezonun ilk bölümünde izleyiciyi çekmeyi başarıyorlar.
-
-## 1. Gyeongseong Creature (Netflix)
-1945'te işgal altındaki Kore'de geçen karanlık fantezi. Park Seo-jun ve Han So-hee, savaş, hayatta kalma ve doğaüstü tehditlerin kesiştiği bir hikâyede buluşuyor.
-
-## 2. All the Light We Cannot See (Netflix)
-Anthony Doerr'in Pulitzer ödüllü romanından Shawn Levy tarafından uyarlanan sınırlı dizi. Aria Mia Loberti ve Louis Hofmann, II. Dünya Savaşı Fransası'nda birbirlerine radyo dalgaları üzerinden bağlanıyor.
-
-## 3. Fellow Travelers (Showtime)
-Matt Bomer ve Jonathan Bailey'nin başrolde olduğu, 1950'lerden 1980'lere uzanan bir gay aşk hikâyesi. McCarthy dönemi, AIDS krizi ve siyasi baskı arka planda.
-
-## 4. Lessons in Chemistry (Apple TV+)
-Brie Larson'un başrolde olduğu, Bonnie Garmus'un çok satan romanından uyarlanan 1960'lar hikâyesi. Erkek egemen bilim dünyasında yer bulmaya çalışan bir kimyagerin, tesadüfen televizyon aşçısına dönüşme öyküsü.
-
-## 5. The Curse (Showtime)
-Nathan Fielder ve Emma Stone'un başrolde olduğu, sahte HGTV dekorasyon dizisi arka planında geçen kara komedi. Baldwin'in "sezonun en tuhaf ve en cesur dizisi" olarak nitelediği yapım.
-
-## 6. Bookie (Max)
-Chuck Lorre imzalı, Sebastian Maniscalco'lu Los Angeles bahis komedisi. Yasadışı bir bookmaker'ın hayatını 30 dakikalık bölümlere sığdıran nadir bir tür denemesi.
-
-Kaynak: Entertainment Weekly — "The 6 must-watch new TV shows this fall (2023)".`,
-    image: "/__l5e/assets-v1/4ce09149-f650-4088-a78c-06d2403033be/fall2023.webp",
-    source: "Entertainment Weekly",
-  },
-  {
     slug: "agustos-ayinin-en-iyi-10-dizisi-bbc",
     title: "Ted Lasso'dan The Shards'a: Ağustos'un İzlenmesi Gereken 10 Dizisi",
     excerpt: "Apple TV'nin futbol komedisinin dönüşünden Ryan Murphy imzalı karanlık bir gençlik gerilimine, DC'nin yeni süper kahraman dizisi Lanterns'ten Conan O'Brien'ın yol hikâyelerine — BBC Culture'dan Caryn James'in ağustos seçkisi.",
