@@ -29,6 +29,29 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "jenna-ortega-kardesi-goruntusu-tartismasi",
+    title: "Jenna Ortega'nın Kardeşi, Oyuncunun Görüntüsü Üzerine Kopan Tartışmaya Tepki Gösterdi",
+    excerpt: "Sosyal medyada Ortega'nın sağlığı ve bedeni üzerine büyüyen spekülasyonların ardından küçük kardeşi Aliyah Ortega, oyuncuyu savunan bir hayran paylaşımına destek verdi.",
+    customBadge: "wednesday",
+    body: `Jenna Ortega'nın sağlığı ve bedeni üzerine internette büyüyen yorum dalgasının ardından oyuncunun küçük kardeşi de onu savunanlar arasına katıldı.
+
+Çarşamba günü Emmy adayı oyuncunun bir hayranı Instagram'da paylaşım yaparak insanlara "kendi işlerine bakmalarını ve @jennaortega'yı rahat bırakmalarını, özellikle son röportajı sağlığıyla ilgili bu kadar çok soru ve varsayım yarattıktan sonra" söyledi.
+
+Hayranın sözleri, Ortega'nın _Esquire_ için verdiği video röportajdaki görüntüsü üzerine sosyal medyada kopan tartışmaya yanıt niteliğindeydi; pek çok hayran görüntülerde oyuncunun belirgin biçimde zayıfladığını öne sürerek eski video ve fotoğraflarıyla karşılaştırma yapmıştı.
+
+"Kimseye bir açıklama borcu yok; hayatı onun hayatı ve bedeni ona ait," diye yazdı Amrita Singh adlı hayran uzun paylaşımında. "Yargılanmadan, ayrımcılığa uğramadan ve gereksiz spekülasyonlara maruz kalmadan kendisi için en iyi olduğunu düşündüğü kararları alma hakkı var. Neler yaşadığını bilmiyoruz ve görüntüsüne ya da bir röportajdaki birkaç cümleye dayanarak varsayımlarda bulunmamalıyız. Bazen yapabileceğimiz en saygılı şey, birine mahremiyet tanımak, onu desteklemek ve rahat bırakmaktır."
+
+"Tanrı aşkına, o bir ünlü olmadan önce bir insan; insanların unuttuğu da tam olarak bu. Mahremiyeti, huzuru ve sürekli sorgulanmadan yaşama özgürlüğünü hak ediyor. Onun özel hayatıyla ilgilenmeyi bırakın ve kendi koşullarıyla yaşamasına izin verin," diye ekledi.
+
+Ortega'nın kardeşi Aliyah Ortega ise paylaşımın altına "!!!" yorumunu bırakarak hayranın bakış açısına katıldığını ima etti; başka bir açıklama eklemedi.
+
+_Wednesday_ yıldızı, bedeni üzerine yapılan çevrimiçi yorumlarla mücadele eden tek ünlü değil. Ariana Grande da özellikle "Petal" klibinin çıkışının ardından benzer bir tartışmanın merkezinde yer aldı. Bu ay Grande'nin Eternal Sunshine Tour'u tamamladıktan sonra "görünürlükten bir adım geri çekileceği" ve "bitmek bilmeyen kamusal incelemeye yol açan halka açık işlerden hak ettiği bir mola vereceği" duyurulmuştu. Şarkıcı daha sonra bu kararın "tepkisel ya da ani bir şey olmadığını, uzun zaman önce sessizce yaptığı bir plan olduğunu" belirtti.
+
+Ortega şu sıralar Netflix için _Wednesday_'in üçüncü sezonunu çekiyor; ardından 23 Ekim'de vizyona girecek distopik bilimkurgu uyarlaması _Klara and the Sun_ için basın turuna çıkacak.`,
+    image: "https://www.hollywoodreporter.com/wp-content/uploads/2026/08/Jenna-Ortega-getty-H-2026.png?w=1296&h=730&crop=1",
+    source: "The Hollywood Reporter",
+  },
+  {
     slug: "eli-roth-borderlands-kimseye-ait-olmayan-film",
     title: "Eli Roth: \"Borderlands\" 33 Milyon Dolarlık Fiyaskosunun Ardından \"Kimseye Ait Olmayan Bir Şey\" Oldu",
     excerpt: "120 milyon dolar bütçeli oyun uyarlamasının yönetmeni suçu stüdyoya atıyor: PG-13 hedefi filmi \"ne et ne balık\" hâline getirdi.",
