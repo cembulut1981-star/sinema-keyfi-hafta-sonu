@@ -5,6 +5,7 @@ import { SiteShell, ImdbBadge } from "@/components/site/SiteShell";
 import { articleProse, toParagraphs } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
+import { PhotoGallery } from "@/components/site/PhotoGallery";
 import { getReview, REVIEWS } from "@/data/reviews";
 
 export const Route = createFileRoute("/inceleme/$slug")({
@@ -77,6 +78,8 @@ function ReviewPage() {
             <ReactMarkdown key={i}>{para}</ReactMarkdown>
           ))}
         </div>
+
+        {r.gallery?.length ? <PhotoGallery images={r.gallery} heading="Galeri" /> : null}
 
         <ShareButtons title={r.title} path={`/inceleme/${slug}`} />
         </article>
