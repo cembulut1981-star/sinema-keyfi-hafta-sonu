@@ -12,6 +12,8 @@ import img_minions_monsters from "@/assets/news-variety-minions-monsters.jpg";
 import rdjDoomAsset from "@/assets/rdj-doom.webp.asset.json";
 import primetimeAsset from "@/assets/primetime-robert-pattinson.jpg.asset.json";
 import spideyBoxOfficeAsset from "@/assets/spiderman-bnd-box-office.webp.asset.json";
+import jennaWednesdayAsset from "@/assets/jenna-wednesday.jpg.asset.json";
+import jennaEsquireAsset from "@/assets/jenna-esquire.webp.asset.json";
 import bl1 from "@/assets/borderlands-1.jpg";
 import bl2 from "@/assets/borderlands-2.jpg";
 import bl3 from "@/assets/borderlands-3.jpg";
@@ -57,11 +59,15 @@ MCU'nun Çok Evren Saga'sının sonunun başlangıcı için fazla vakit kalmadı
 
 Hayranın sözleri, Ortega'nın _Esquire_ için verdiği video röportajdaki görüntüsü üzerine sosyal medyada kopan tartışmaya yanıt niteliğindeydi; pek çok hayran görüntülerde oyuncunun belirgin biçimde zayıfladığını öne sürerek eski video ve fotoğraflarıyla karşılaştırma yapmıştı.
 
+![Jenna Ortega'nın Esquire röportajındaki görüntüsü ile kırmızı halı fotoğrafının karşılaştırması](${jennaEsquireAsset.url})
+
 "Kimseye bir açıklama borcu yok; hayatı onun hayatı ve bedeni ona ait," diye yazdı Amrita Singh adlı hayran uzun paylaşımında. "Yargılanmadan, ayrımcılığa uğramadan ve gereksiz spekülasyonlara maruz kalmadan kendisi için en iyi olduğunu düşündüğü kararları alma hakkı var. Neler yaşadığını bilmiyoruz ve görüntüsüne ya da bir röportajdaki birkaç cümleye dayanarak varsayımlarda bulunmamalıyız. Bazen yapabileceğimiz en saygılı şey, birine mahremiyet tanımak, onu desteklemek ve rahat bırakmaktır."
 
 "Tanrı aşkına, o bir ünlü olmadan önce bir insan; insanların unuttuğu da tam olarak bu. Mahremiyeti, huzuru ve sürekli sorgulanmadan yaşama özgürlüğünü hak ediyor. Onun özel hayatıyla ilgilenmeyi bırakın ve kendi koşullarıyla yaşamasına izin verin," diye ekledi.
 
 Ortega'nın kardeşi Aliyah Ortega ise paylaşımın altına "!!!" yorumunu bırakarak hayranın bakış açısına katıldığını ima etti; başka bir açıklama eklemedi.
+
+![Jenna Ortega, Wednesday Addams rolünde ve günlük görünümüyle](${jennaWednesdayAsset.url})
 
 _Wednesday_ yıldızı, bedeni üzerine yapılan çevrimiçi yorumlarla mücadele eden tek ünlü değil. Ariana Grande da özellikle "Petal" klibinin çıkışının ardından benzer bir tartışmanın merkezinde yer aldı. Bu ay Grande'nin Eternal Sunshine Tour'u tamamladıktan sonra "görünürlükten bir adım geri çekileceği" ve "bitmek bilmeyen kamusal incelemeye yol açan halka açık işlerden hak ettiği bir mola vereceği" duyurulmuştu. Şarkıcı daha sonra bu kararın "tepkisel ya da ani bir şey olmadığını, uzun zaman önce sessizce yaptığı bir plan olduğunu" belirtti.
 
