@@ -254,9 +254,11 @@ export function FeaturedArticleCard({
               {ribbon}
             </span>
           ) : null}
-          <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
-            {badgeLabel}
-          </span>
+          {badgeLabel ? (
+            <span className="absolute left-1/2 -translate-x-1/2 -bottom-3 bg-background border-[3px] border-primary px-3 py-1 font-display uppercase tracking-widest text-[11px] font-black text-foreground">
+              {badgeLabel}
+            </span>
+          ) : null}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
 <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
