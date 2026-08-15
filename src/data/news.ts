@@ -29,6 +29,24 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "avengers-doomsday-fragman-fantastic-four-victor-von-doom",
+    title: "\"Avengers: Doomsday\" Fragmanında Fantastik Dörtlü, Victor Von Doom'a Öfke Kusuyor",
+    excerpt: "Comic-Con'da Hall H'i ayağa kaldıran görüntüler D23'ün ardından çevrimiçi yayınlandı: X-Men evreni, MCU ve Fantastik Dörtlü'nün dünyası çarpışıyor.",
+    customBadge: "fragman",
+    videoUrl: "https://www.youtube.com/embed/X1aFkAkFASk",
+    body: `Birkaç hafta önce _Avengers: Doomsday_'den gelen yeni görüntüler San Diego'daki Comic-Con'un Hall H salonunu ayağa kaldırmıştı; ancak o görüntüleri yalnızca şanslı bir azınlık görebilmişti. İyi şeyler bekleyeni bulur: Anaheim'daki D23 Expo'da da gösterilen fragman artık herkesin izlemesi için çevrimiçi yayınlandı.
+
+Uzun zamandır beklenen beşinci _Avengers_ filminden gelen bu yeni bakış, Russo Kardeşler'in geri dönüş hikâyesinin çok evrenli ölçeğini yeniden vurguluyor: Fox'un orijinal X-Men evreni, ana MCU hattı ve Fantastik Dörtlü'nün yaşadığı dünya aynı potada eriyor.
+
+Fragman bu kez özellikle Pedro Pascal'ın ekibine odaklanıyor. Reed Richards ve Sue Storm, bir zamanlar tanıdıkları Victor Von Doom ile kahramanlarımızın üzerine her türden yıkımı salacak gibi görünen Doktor Doom arasındaki uçurumla yüzleşiyor.
+
+İlk teaser'ın üzerine inşa edilen bu görüntüler, omuzlarında ciddi bir yük taşıyan bir MCU filmi için kendinden emin ve aksiyon dolu bir tanıtım sunuyor.
+
+MCU'nun Çok Evren Saga'sının sonunun başlangıcı için fazla vakit kalmadı: _Doomsday_ 18 Aralık'ta sinemalarda.`,
+    image: "https://images.bauerhosting.com/empire/2026/08/avengers-doomsday-trailer.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    source: "Empire",
+  },
+  {
     slug: "jenna-ortega-kardesi-goruntusu-tartismasi",
     title: "Jenna Ortega'nın Kardeşi, Oyuncunun Görüntüsü Üzerine Kopan Tartışmaya Tepki Gösterdi",
     excerpt: "Sosyal medyada Ortega'nın sağlığı ve bedeni üzerine büyüyen spekülasyonların ardından küçük kardeşi Aliyah Ortega, oyuncuyu savunan bir hayran paylaşımına destek verdi.",
