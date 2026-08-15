@@ -1867,11 +1867,65 @@ Kaynak: Empire — "The 25 Best Zombie Movies Of All Time".`,
     image: "https://images.bauerhosting.com/empire/2020/06/Best-Zombie-Movies.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
   },
+  {
+    slug: "2026-nin-en-iyi-10-oyunu",
+    title: "2026'nın En İyi 10 Oyunu (Şimdilik)",
+    excerpt: "\"Cairn\"den \"007 First Light\"a, \"Resident Evil Requiem\"den \"Saros\"a: Empire'ın yılın ilk yarısında öne çıkan 10 oyunu. 2026, sinema ile oyunun en çok kesiştiği yıl olmaya aday.",
+    countdownBadge: "10 → 1 geri sayım",
+    body: `2026 oyun dünyasında sinemanın yılı mı olacak? Yılın henüz yarısındayız ama James Bond yıllar sonra ilk kez tamamen yeni bir maceraya çıktı — "007 First Light" dünyanın en meşhur ajanının nasıl doğduğunu anlatıyor. "Resident Evil Requiem" beyazperdeye yakışır bir korku sunuyor, "Lego Batman" bile Tim Burton estetiğiyle yeniden doğuyor. Diğer adaylar ise John Hughes filmografisinden ya da "2001"in yapay zekâ paranoyasından besleniyor.
+
+Yanı sıra "klasik zihniyetli" oyunlar da sahnede: Metroidvania'lar, bullet-hell roguelike'lar ve elbette "Pokémon". İşte Empire'ın sıralaması.
+
+## 10. MIO: Memories In Orbit
+![MIO: Memories In Orbit](https://images.bauerhosting.com/empire/2026/02/MIO-Memories-In-Orbit-Review.png?auto=format&w=1440&q=80)
+Metroidvania takıntılılarının dışında kimse "MIO"dan bu kadarını beklemiyordu; oyun yılların en sürükleyici aksiyon platformcusu çıktı. Adını taşıyan robot olarak, yalnızca "Gemi" diye bilinen kolosal ve çürümeye terk edilmiş bir yapıda uyanıyor, keşfe bırakılıyorsunuz. Ortaya çıkan şey, hayatta kalmak için atılmış son bir kumar ve tek bir insan olmamasına rağmen fazlasıyla insani bir hikâye. 3B modellerin üzerine boyanmış suluboya görselleri, keskin dövüşü ve zorlu boss'larıyla türün yeni referans noktası.
+
+## 9. Lego Batman: Legacy Of The Dark Knight
+![Lego Batman: Legacy Of The Dark Knight](https://images.bauerhosting.com/empire/2026/06/LEGO-Batman-Legacy-Of-The-Dark-Knight.webp?auto=format&w=1440&q=80)
+Bir Lego oyunu ne zaman Lego oyunu olmaktan çıkar? Gizliden gizliye "Arkham" serisinin altın günlerinden bu yana en iyi Batman oyunu olduğunda. TT Games, binlerce açılabilir eşya ve yüzlerce karakter yığını yerine iyi anlatılmış bir hikâyeyi, dar bir kadroyu ve gerçek mekanikleri seçiyor. Dövüşün nüansı var, yetenekler RPG mantığıyla açılıyor, Batmobil'le Gotham'ın şaşırtıcı ayrıntıdaki sokaklarında dolaşmak ise saf keyif.
+
+## 8. Pokémon Pokopia
+![Pokémon Pokopia](https://images.bauerhosting.com/empire/2026/03/Pokopia-Review.webp?auto=format&w=1440&q=80)
+"Animal Crossing"in yaşam simülasyonunu alın, "Minecraft"ın baştan inşa edilebilir dünyalarıyla karıştırın, "Pokémon" kalıbına dökün. Sonuç: herkesin favori mor jölesi Ditto olarak, insanlığın terk etmek zorunda kaldığı gezegeni yeniden kurduğunuz sevimli bir kum havuzu oyunu. Keşfetmek, yüzlerce terk edilmiş Pokémon'u toplumun içine çekmek ve tüm biyomları tek başınıza şekillendirmek günler boyu geri getiriyor. Tek kusuru: hayatınızı çalacak.
+
+## 7. Pragmata
+![Pragmata](https://images.bauerhosting.com/empire/2026/04/pragmata-1.jpg?auto=format&w=1440&q=80)
+Hem çılgın bir yapay zekânın ele geçirdiği ay üssünde geçen bilimkurgu destanı, hem de hırçın uzay tamircisi Hugh ile evlat edindiği robot kızı Diana arasındaki dokunaklı bir hikâye. Capcom'un gerçek dehası dövüşte: dünyanın ilk birinci şahıs nişancı–gerçek zamanlı bulmaca melezi. Hugh'la ateş ederken Diana'yla aynı anda düşmanları panel çevirme bulmacasıyla hack'leyip açık yaratıyorsunuz. Başka hiçbir şeye benzemiyor, üstelik yapay zekâ üzerine beklenmedik ölçüde düşündürücü.
+
+## 6. Cairn
+![Cairn](https://images.bauerhosting.com/empire/2026/07/Cairn.jpg?auto=format&w=1440&q=80)
+"127 Hours" ya da "Touching the Void" sizi kaya yüzüne bakmaktan bile caydırdıysa, "Cairn" nelerden mahrum kaldığınıza ikna edebilir. Aava olarak 9.000 metrelik Kami Dağı'nı fethetmeye çalışıyor, Aava'nın uzuvlarını ayrı ayrı kontrol ederek kendi rotanızı çiziyorsunuz. The Game Bakers, tırmanışın teknik becerisini açlık, susuzluk ve yorgunluk yönetimiyle titizlikle dengeliyor. Gergin ve talepkâr ama tuhaf biçimde zen; cel-shading estetiğiyle eşsiz.
+
+## 5. Mixtape
+![Mixtape](https://images.bauerhosting.com/empire/2026/05/Mixtape.png?auto=format&w=1440&q=80)
+Beethoven & Dinosaur'un müziğe, 90'lar gençliğine ve güzelce harcanmış bir ergenliğe yazdığı ağıt çok tartışıldı: kimileri "oyun değil" dedi, kimileri fazla doğrusal buldu. Haksız da değiller — ama unutulmaz. Müzik takıntılı Stacey Rockford olarak, lise bitmeden en yakın iki arkadaşıyla geçirdiği son günleri yaşıyorsunuz. Sihri tam burada: duygular, anılar, pişmanlıklar ve her ana özenle seçilmiş bir şarkı. Oynanabilir bir John Hughes filmi.
+
+## 4. 007 First Light
+![007 First Light](https://images.bauerhosting.com/empire/2026/06/007-first-light-1-1920x1080-1bcef6df295e.jpg?auto=format&w=1440&q=80)
+Yeni bir sinema Bond'unu beklerken IO Interactive boşluğu takdire değer biçimde dolduruyor. Ian Fleming'in öykülerinden ilhamla, 26 yaşındaki James'in (Patrick Gibson) MI6'ya alınışını, eğitimini ve o ikonik 00 kodunu kazanışını anlatan bir "Bond Begins". Moneypenny, Q ve M ile ilk karşılaşmalar, "Hitman" yapımcılarından beklenen kusursuz nişancılık–sürüş–gizlilik dengesi ve Lana Del Rey imzalı bir açılış şarkısı.
+
+## 3. Forza Horizon 6
+![Forza Horizon 6](https://images.bauerhosting.com/empire/2026/05/Forza-Horizon-6-Review.png?auto=format&w=1440&q=80)
+"Forza Horizon" uzun zamandır yarış oyunu sevmeyenler için de bir yarış oyunu. Altıncı halka bu kez Japonya'da: Tokyo'nun sokakları, kırsal huzur ve doğa harikaları yan yana. Japon otomobil kültürüne saygıyla yaklaşıyor — "Tokyo Drift"e ve "Initial D"ye göndermeler bol. 500'ün üzerinde detaylı araç ve yüzlerce yarışla motor tutkunları için türün zirvesi, diğerleri için ise bu geniş dünyada amaçsızca dolaşmanın meditatif keyfi.
+
+## 2. Saros
+![Saros](https://images.bauerhosting.com/empire/2026/05/Saros-Review.png?auto=format&w=1440&q=80)
+Housemarque'ın "Returnal"ının teknik olarak devamı değil ama açıkça onun suretinde: zaman döngüsü ve roguelike mekanikleri korunuyor, gerisi neredeyse her açıdan iyileştiriliyor. Kurumsal uzay askeri Arjun Devraj (Rahul Kohli) olarak Carcosa'da kayıp "kolonicileri" araştırıyor, her seferinde ölüp gizemli biçimde diriliyorsunuz. Her denemede güçlenip biraz daha ileri gitmek bağımlılık yapan bir deneme-yanılma döngüsü kuruyor. Selefinden ayıran şey ise cilası: kusursuz hassasiyette dövüş.
+
+## 1. Resident Evil Requiem
+![Resident Evil Requiem](https://images.bauerhosting.com/empire/2026/02/Resident-Evil-Requiem-Review.jpg?auto=format&w=1440&q=80)
+Capcom için bayrak yılı. "Pragmata" ve "Monster Hunter Stories 3"e rağmen hiçbir şey "Resident Evil Requiem"i tahtından indiremiyor. Dönen aksiyon kahramanı Leon S. Kennedy ile yeni gelen Grace Ashcroft arasında bölünen çift kollu bir korku hikâyesi: Grace annesinin yıllar önce öldürüldüğü otelde başlayan bir ölüm zincirini araştırıyor, Leon ise Umbrella yaratıklarının peşinde. Leon'u üçüncü şahıs, Grace'i birinci şahıs oynamanız öneriliyor; her iki halde de seri yıllardır bu kadar korkutmamıştı. Yer yer fotogerçekçi görselleriyle her köşeden korkmanıza neden oluyor — ve yılın şimdiye kadarki en iyi oyunu.
+
+Kaynak: Empire — "The Best Games Of 2026… So Far".`,
+    image: "https://images.bauerhosting.com/empire/2026/07/Games-Of-The-Year-2026.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    source: "Empire",
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [38, 34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+
 
 
 
