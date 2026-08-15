@@ -24,6 +24,12 @@ import deepWaterAsset from "@/assets/deepwater.jpg.asset.json";
 import possessionAsset from "@/assets/posession.jpg.asset.json";
 import sterlingPointAsset from "@/assets/sterlingpoint.jpg.asset.json";
 
+import lanternsCover from "@/assets/lanterns-cover.jpg.asset.json";
+import lanternsG1 from "@/assets/lanterns-g1.jpg.asset.json";
+import lanternsG2 from "@/assets/lanterns-g2.jpg.asset.json";
+import lanternsG3 from "@/assets/lanterns-g3.jpg.asset.json";
+import lanternsG4 from "@/assets/lanterns-g4.jpg.asset.json";
+
 export type Review = {
   slug: string;
   origTitle: string;
@@ -34,10 +40,56 @@ export type Review = {
   image: string;
   videoUrl?: string;
   imdbRating?: string;
+  gallery?: string[];
 };
 
 export const REVIEWS: Review[] = [
   {
+    slug: "lanterns-inceleme-hbo-green-lantern",
+    origTitle: "Lanterns",
+    title: "\"Lanterns\" İncelemesi: HBO'nun Green Lantern Dizisi Işıl Işıl Parlıyor",
+    excerpt: "IndieWire'a göre Chris Mundy, Damon Lindelof ve Tom King'in imzasını taşıyan dizi, Aaron Pierre ile Kyle Chandler arasındaki dikenli kimyayı Nebraska'da geçen bir cinayet soruşturmasına bağlıyor; sonuç, çizgi roman gösterisinden çok cesur bir anti-buddy-cop draması.",
+    rating: "A-",
+    image: lanternsCover.url,
+    gallery: [lanternsG1.url, lanternsG2.url, lanternsG3.url, lanternsG4.url],
+    body: `John Stewart — gezegende yürümüş en kusursuz fizikli insanlardan biri ve Aaron Pierre tarafından son derece inandırıcı biçimde canlandırılıyor — bir türlü hak ettiği saygıyı göremiyor. Adam neredeyse iki metre; bir defans oyuncusu gibi inşa edilmiş ve Tom Cruise gibi koşuyor. Askeri eğitimli bir keskin nişancı olarak kilometreler öteden hedefi on ikiden vuruyor. Sadık, tetikte ve doğaüstü bir sabra sahip.
+
+Kısacası eksiksiz bir paket. Doğal olarak da emekli olmayı reddeden yaşlı bir beyaz adamın gölgesinde ikinci kemanı çalıyor.
+
+"Lanterns" başladığında John, görevdeki Green Lantern'ın kendisini almasını yol kenarında bekliyor. Dünya'nın ilk ve tek galaksiler arası kolluk görevlisi Hal Jordan (Kyle Chandler), John'u yedeği olarak eğitmesi gerekiyor: evrenin en güçlü silahına emanet edilen adamın başına bir şey gelirse devreye girecek "acil durum" süper kahramanı.
+
+Ve bir şeyin geleceğine inanmak için sebep var. Galakside 20 yıl mekik dokuduktan, gezegeni göktaşlarından ve uzaylı istilalarından kurtardıktan sonra Hal defne yapraklarının üzerinde dinleniyor. Artık üniformasını giymiyor, çünkü kot pantolon "tuvalete gitmeyi kolaylaştırıyor". Havadan tıraş makinesi yaratamayan bir adamın müzmin sakalıyla dolaşıyor. Gri telleri, çocuksu şakalarının reddetmeye çalıştığı bir yaşı ele veriyor; John'u almaya geldiğinde ise iki hafta gecikmiş ve gururla akşamdan kalmış durumda.
+
+Usta ile çırak arasında hiç sevgi yok demek tam doğru olmaz. Ama saygı yalnızca tek yöne akıyor ve kusursuz bir özgeçmişe rağmen alan taraf John değil. İki aylık "dersten" sonra yüzüğü takmak bir yana, onunla uzaya bile çıkamamış. Patronuna kahve getirmekten öte anlamı olmayan işlere koşmadığı zamanlarda bekliyor: Hal'in hayranlarıyla fotoğraf çektirmesini, saçmalamayı bırakmasını, bir kez daha seçilmeyi bekliyor.
+
+Hal yüzüğü bırakmadan öleceğini söylüyor; işte o hak görme duygusu, o üstünlük hissi, eski usullere duyulan o bağlılık — parlak yeni fırsatlar tam karşınıza dikilmişken — HBO'nun bu anti-buddy-cop dramasının gerilimini besliyor. Dizi, tekinsiz ikili polisiyelerine olduğu kadar bu türü sistematik olarak hafife alınan kahramanının gözünden anlatmaya da niyetli.
+
+John genç bir siyah adam, Hal ise yaşlı bir beyaz. John her şeyi doğru yapıyor; Hal her şeyi doğru yaptığını sanıyor. John hayatı boyunca Green Lantern birliğine layık görülmek için çalıştı; Hal ise tek bir evet-hayır sorusunu doğru yanıtladığı için yüzüğü kucağında buldu. Griler var elbette, ama "Lanterns" bu iki adamın kim olduğu ve kültürel, kuşaksal olarak neyi temsil ettiği konusunda net.
+
+Dava ise tam bir baş belası. Eğitime geç kalmış dönüşün ardından ikili, bir lise futbol maçındaki silahlı saldırıda dört yabancının öldüğü Nebraska'nın küçük kasabası Rushville'e çağrılıyor. Hal'in içgüdüsü işin içinde uzaylılar olduğunu söylüyor; bu da yerel şerifin iyi niyetli uyarılarının onları başından savamayacağı anlamına geliyor.
+
+Şerif Kerry Kane (harikulade bir Kelly Macdonald) zeki ve laf dinlemez biri. Şüphelileri, Hal'in flörtlerini reddettiği hızda tespit ediyor; dürüstlük ve güven yayıyor… ama kasabanın en zengin adamı William Macon'ın (Garret Dillahunt) oğlu Billy (Jason Ritter) ile evli olması bir yana, Macon'ın bir şeye karşı savaşa hazırlanan, tepeden tırnağa silahlı özel bir milis beslediği de ortada.
+
+Macon, kaynaklarının bir "gizemli hayırsever"den geldiğini ve gizlilik anlaşması yüzünden konuşamadığını söylüyor. Karısı Zoe (Poorna Jagannathan) da yardımcı olmuyor; kasabanın kalanı ise fiilî liderlerini yankılıyor: Hal ve çırağını orada görmek istemiyorlar.
+
+Her şey biraz şüpheli ve ilk bölümlerde sorular hızla birikiyor. Kimin kim olduğunu, ne zaman ne olduğunu ve yeşil bir yüzüğün taşıyıcısının iradesiyle nasıl nesneler yarattığını takip etmek DC doktorası olmayanlar için bunaltıcı olabiliyor. Karakterlerin tez cümleleriyle konuştuğu hantal anlar var ve büyük mesele kimi zaman bireysel dinamiklerin arasında kaybolabiliyor.
+
+Ama showrunner Chris Mundy ile Tom King ve Damon Lindelof, neyin önemli olduğunu unutturmuyor; temiz kurgu, duygusal mantık ve karizmatik oyuncularla seyirciyi hikâyenin çekirdeğine taşıyorlar.
+
+Karizma listesinin başında Chandler var; iyi adam cazibesi sizi kazanmak için kurnazca silaha dönüştürülmüş. Hal, iyilerden olduğuna inandığınız sürece küçümsemeleri "sert sevgi" sayılabilecek huysuz bir eski tüfek. "Lanterns"in bu varsayımı hem sarsıp hem sahiplenmesi, dizinin en güzel becerilerinden biri ve Emmy ödüllü oyuncunun en iyi işlerinden.
+
+Pierre ise Hal'in tabiriyle "keyif veren hiçbir şeye inanmayan" bir vegan olarak John'a bol bol zekâ, tutku ve gizem katıyor. Aslında "Lanterns" onun köken hikâyesi ve Pierre'in soğukkanlı manyetizması, geçmişine dair damla damla akan bilgiyle kusursuz uyuyor.
+
+Lindelof'un en iyi işleri kadar fikir taşmasa da, "Lanterns" yaratıcılarının güçlü yanlarının heyecan verici bir sentezi. "Watchmen" gibi Amerika'nın kalbinde geçen ve sistemik ırk ayrımcılığını merkeze alan bir polisiye; "True Detective" gibi uyumsuz ortakları tek bir davada birleştiriyor.
+
+En iyisi de şu: "Lanterns", incelediği ahlakı bizzat yaşıyor. Green Lantern olmak için layık görülmeniz ve tehlike anında tek bir soruyu yanıtlamanız gerekir: Korkuyor musun? "Lanterns" korkmuyor — çelişkiye düştüğü o talihsiz Ryan Reynolds filminden bile riskli bir girişim — ama taşıdığımız korkuların ne anlama geldiğiyle de fazlasıyla ilgili.
+
+Görünüşe göre "Lanterns" mükemmel ekibi kurmuş. Yakın şu ışıkları.
+
+**Not:** "Lanterns", 16 Ağustos Pazar 21.00'de HBO'da başlıyor; sekiz bölümlük ilk sezonun finali 4 Ekim'de.`,
+  },
+  {
+
     slug: "camp-miasma-inceleme-cannes",
     origTitle: "Teenage Sex and Death at Camp Miasma",
     title: "\"Teenage Sex and Death at Camp Miasma\" İncelemesi: Jane Schoenbrun'un Cannes'daki Kanlı Portalı",
