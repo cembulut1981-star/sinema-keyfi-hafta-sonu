@@ -228,8 +228,7 @@ function Index() {
             <div className="min-h-0 h-full">
               <FeaturedArticleCard
                 article={HEADLINE}
-                badgeLabel="Manşet"
-                kicker="Sine-Meta · Gişe"
+                badgeLabel=""
                 meta="Box Office"
                 stats={[
                   { label: "2. hafta", value: "$145M" },
