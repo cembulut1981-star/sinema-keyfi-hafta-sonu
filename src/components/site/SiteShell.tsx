@@ -464,16 +464,14 @@ export function PosterListCard({ article, className = "" }: { article: Article; 
   const body = (
     <div className="relative h-full w-full overflow-hidden bg-red-600 group-hover:bg-black transition-colors duration-300 flex flex-col items-center justify-center text-center px-6 py-8">
       <h3
-        className="font-display font-black uppercase text-white leading-[0.9] tracking-tight text-[clamp(1.7rem,4.4vw,3.4rem)] [text-shadow:3px_3px_0_#000,-1px_-1px_0_#000,1px_-1px_0_#000,-1px_1px_0_#000] group-hover:[text-shadow:none] transition-all duration-300"
+        className="font-vintage uppercase text-white leading-[1] tracking-tight text-[clamp(1.5rem,3.9vw,3rem)] [text-shadow:3px_3px_0_#000,-1px_-1px_0_#000,1px_-1px_0_#000,-1px_1px_0_#000] group-hover:[text-shadow:none] transition-all duration-300"
       >
         {article.title}
       </h3>
-      <p className="mt-4 text-white/95 text-[clamp(0.8rem,1.4vw,1.05rem)] leading-snug max-w-[36ch]">
+      <p className="mt-4 text-white/95 text-[clamp(0.95rem,1.75vw,1.3rem)] leading-snug max-w-[36ch]">
         {article.excerpt}
       </p>
-      <span className="mt-4 font-display font-black uppercase tracking-wide text-white text-[11px] sm:text-[13px]">
-        By Empire
-      </span>
+
       <span
         aria-hidden
         className="absolute -right-2 -bottom-1 bg-black group-hover:bg-red-600 transition-colors duration-300 px-4 pt-2 pb-3 text-white font-display font-black uppercase leading-[0.85] text-right text-[clamp(1.2rem,2.6vw,2.1rem)]"
