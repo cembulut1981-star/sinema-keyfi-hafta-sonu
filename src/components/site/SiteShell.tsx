@@ -576,7 +576,7 @@ export function SmallArticleCard({
 
 export function ArticleCard({ article, compact = false, framed = false }: { article: Article; compact?: boolean; framed?: boolean }) {
   const linkTo = getArticleLink(article);
-  if (isPosterArticle(article)) return <PosterListCard article={article} className={framed ? "border-[3px] border-black" : ""} />;
+  if (isPosterArticle(article)) return <PosterListCard article={article} compact={compact} className={framed ? "border-[3px] border-black" : ""} />;
 
   const TitleLink = linkTo ? (
     <Link to={linkTo.to} params={linkTo.params} className="block">
