@@ -459,25 +459,26 @@ function isPosterArticle(article: Article) {
   return !!article.listSlug && POSTER_SLUGS.has(article.listSlug);
 }
 
-export function PosterListCard({ article, className = "" }: { article: Article; className?: string }) {
+export function PosterListCard({ article, className = "", compact = false }: { article: Article; className?: string; compact?: boolean }) {
   const linkTo = getArticleLink(article);
   const body = (
-    <div className="relative h-full w-full overflow-hidden bg-red-600 group-hover:bg-black transition-colors duration-300 flex flex-col items-center justify-center text-center px-6 py-8">
+    <div className={`relative h-full w-full overflow-hidden bg-red-600 group-hover:bg-black transition-colors duration-300 flex flex-col items-center justify-center text-center ${compact ? "px-4 py-6" : "px-6 py-8"}`}>
       <h3
-        className="font-vintage uppercase text-white leading-[1] tracking-tight text-[clamp(1.5rem,3.9vw,3rem)] [text-shadow:3px_3px_0_#000,-1px_-1px_0_#000,1px_-1px_0_#000,-1px_1px_0_#000] group-hover:[text-shadow:none] transition-all duration-300"
+        className={`font-vintage uppercase text-white leading-[1] tracking-tight ${compact ? "text-[clamp(1.1rem,2.4vw,1.7rem)]" : "text-[clamp(1.5rem,3.9vw,3rem)]"} [text-shadow:3px_3px_0_#000,-1px_-1px_0_#000,1px_-1px_0_#000,-1px_1px_0_#000] group-hover:[text-shadow:none] transition-all duration-300`}
       >
         {article.title}
       </h3>
-      <p className="mt-4 text-white/95 text-[clamp(0.95rem,1.75vw,1.3rem)] leading-snug max-w-[36ch]">
+      <p className={`mt-3 text-white/95 leading-snug max-w-[36ch] ${compact ? "text-[0.8rem]" : "mt-4 text-[clamp(0.95rem,1.75vw,1.3rem)]"}`}>
         {article.excerpt}
       </p>
 
       <span
         aria-hidden
-        className="absolute -right-2 -bottom-1 bg-black group-hover:bg-red-600 transition-colors duration-300 px-4 pt-2 pb-3 text-white font-display font-black uppercase leading-[0.85] text-right text-[clamp(1.2rem,2.6vw,2.1rem)]"
+        className={`absolute -right-2 -bottom-1 bg-black group-hover:bg-red-600 transition-colors duration-300 text-white font-display font-black uppercase leading-[0.85] text-right ${compact ? "px-2 pt-1 pb-1.5 text-[0.7rem]" : "px-4 pt-2 pb-3 text-[clamp(1.2rem,2.6vw,2.1rem)]"}`}
       >
         LİSTELER
       </span>
+
 
     </div>
   );
@@ -575,7 +576,7 @@ export function SmallArticleCard({
 
 export function ArticleCard({ article, compact = false, framed = false }: { article: Article; compact?: boolean; framed?: boolean }) {
   const linkTo = getArticleLink(article);
-  if (isPosterArticle(article)) return <PosterListCard article={article} className={framed ? "border-[3px] border-black" : ""} />;
+  if (isPosterArticle(article)) return <PosterListCard article={article} compact={compact} className={framed ? "border-[3px] border-black" : ""} />;
 
   const TitleLink = linkTo ? (
     <Link to={linkTo.to} params={linkTo.params} className="block">
