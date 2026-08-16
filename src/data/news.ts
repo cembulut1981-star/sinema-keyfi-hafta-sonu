@@ -31,6 +31,34 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "they-follow-david-robert-mitchell-disasterpeace-muzik",
+    title: "\"They Follow\": David Robert Mitchell, \"It Follows\" Devamında Hayati Bir İş Ortağının Döndüğünü Doğruladı",
+    excerpt: "Maika Monroe'nun geri döndüğü devam filminin müziklerini yine Disasterpeace yapacak; görüntü yönetmeni Mike Gioulakis ve kurgucu Julio C. Perez IV de ekipte.",
+    customBadge: "korku",
+    body: `David Robert Mitchell'ın _It Follows_ filmini dünyaya salmasının üzerinden on yıldan fazla zaman geçti. Ve tam da filme yakışır biçimde, o günden beri peşimizi bırakmayan bir korku filmi oldu: cinsel yolla bulaşan bir ölüm laneti ve insanın peşini asla bırakmayan bir varlık fikri, yönetmenin tekinsiz anlatımıyla birleşiyordu.
+
+Devam filminin _They Follow_ adıyla yolda olduğunu ve Maika Monroe'nun Jay rolüne geri döneceğini bir süredir biliyoruz. Mitchell, bu yaz vizyona girecek dinozor blockbuster'ı _The End Of Oak Street_ için hazırlanırken, merakla beklenen yeni bölüme dair heyecan verici ayrıntılar paylaştı.
+
+![It Follows'ta Maika Monroe](https://images.bauerhosting.com/legacy/empire-tmdb/films/270303/images/7hlZ9WJQ3syUyJNSReZt7uch12X.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80)
+
+_Empire_'a konuşan yönetmen, kilit iş ortaklarının birçoğunun döndüğünü doğruladı: "Maika bu filmde geri dönüyor, görüntü yönetmeni Mike Gioulakis ve kurgucu Julio C. Perez IV de."
+
+Heyecanlanılacak bir dönüş daha var: "Müzikleri Disasterpeace yapacak," diyor Mitchell. _It Follows_'un synth ağırlıklı müziği, filmin atmosferinin çok önemli bir parçasıydı ve 70'ler ile 80'lerin John Carpenter klasiklerini çağırıyordu.
+
+![Maika Monroe](https://images.bauerhosting.com/legacy/empire-images/articles/57326bcf2d6ae3e52d8abaf4/maika-monroe-ed-skrein.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80)
+
+"Onun olmadığı bir devam filmi yapmak istemezdim," diyor Mitchell, Disasterpeace hakkında. "O ilk film, onun harika müziğiyle çok şey borçlu; bu kez ne yapacağını görmek için heyecanlıyım." Richard Vreeland adıyla da bilinen besteci, Mitchell'ın akıl bükücü filmi _Under The Silver Lake_'in de müziklerini yazmıştı; hem de _It Follows_'tan bambaşka bir sesle. Yani bu kez neyi pişireceğini kimse bilemez.
+
+![Yönetmen David Robert Mitchell](https://images.bauerhosting.com/legacy/empire-images/articles/5b720e42fc5c87381c473db3/david-robert-mitchell.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80)
+
+_They Follow_'un konusuna gelince, yönetmen kartlarını göstermiyor; ancak filmin çok da uzak olmayan bir tarihte çekimlere başlaması bekleniyor. "Senaryodan çok memnunum," diyor Mitchell. "İlk filme fazlasıyla bağlı olmakla birlikte kendine özgü bir şey. Gerçekten eğlenceli olacak, havalı bir şey yapıyor."
+
+Varoluşsal korku yeniden başlasın.`,
+    image: "https://images.bauerhosting.com/empire/2026/06/it-follows.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    source: "Empire",
+  },
+
+  {
     slug: "avengers-doomsday-fragman-fantastic-four-victor-von-doom",
     title: "\"Avengers: Doomsday\" Fragmanında Fantastik Dörtlü, Victor Von Doom'a Öfke Kusuyor",
     excerpt: "Comic-Con'da Hall H'i ayağa kaldıran görüntüler D23'ün ardından çevrimiçi yayınlandı: X-Men evreni, MCU ve Fantastik Dörtlü'nün dünyası çarpışıyor.",
