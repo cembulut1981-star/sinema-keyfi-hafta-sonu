@@ -449,6 +449,55 @@ function getArticleLink(article: Article) {
     : null;
 }
 
+/**
+ * Rolling Stone "THE LISTS" kapak tarzı poster kart.
+ * Normal hali kırmızı zemin + gölgeli beyaz başlık, hover'da zemin siyaha döner.
+ */
+const POSTER_SLUGS = new Set(["2026-nin-en-iyi-10-oyunu"]);
+
+function isPosterArticle(article: Article) {
+  return !!article.listSlug && POSTER_SLUGS.has(article.listSlug);
+}
+
+export function PosterListCard({ article, className = "" }: { article: Article; className?: string }) {
+  const linkTo = getArticleLink(article);
+  const body = (
+    <div className="relative h-full w-full overflow-hidden bg-red-600 group-hover:bg-black transition-colors duration-300 flex flex-col items-center justify-center text-center px-6 py-8">
+      <h3
+        className="font-display font-black uppercase text-white leading-[0.9] tracking-tight text-[clamp(1.7rem,4.4vw,3.4rem)] [text-shadow:3px_3px_0_#000,-1px_-1px_0_#000,1px_-1px_0_#000,-1px_1px_0_#000] group-hover:[text-shadow:none] transition-all duration-300"
+      >
+        {article.title}
+      </h3>
+      <p className="mt-4 text-white/95 text-[clamp(0.8rem,1.4vw,1.05rem)] leading-snug max-w-[36ch]">
+        {article.excerpt}
+      </p>
+      <span className="mt-4 font-display font-black uppercase tracking-wide text-white text-[11px] sm:text-[13px]">
+        By Empire
+      </span>
+      <span
+        aria-hidden
+        className="absolute -right-2 -bottom-1 bg-black group-hover:bg-red-600 transition-colors duration-300 px-4 pt-2 pb-3 text-white font-display font-black uppercase leading-[0.85] text-right text-[clamp(1.2rem,2.6vw,2.1rem)]"
+      >
+        THE
+        <br />
+        LISTS
+      </span>
+    </div>
+  );
+
+  return (
+    <article className={`group h-full transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.45)] ${className}`}>
+      {linkTo ? (
+        <Link to={linkTo.to} params={linkTo.params} className="block h-full">
+          {body}
+        </Link>
+      ) : (
+        body
+      )}
+    </article>
+  );
+}
+
 export function SmallArticleCard({
   article,
   className,
@@ -459,6 +508,8 @@ export function SmallArticleCard({
   badgeInImage?: boolean;
 }) {
   const linkTo = getArticleLink(article);
+  if (isPosterArticle(article)) return <PosterListCard article={article} className={className} />;
+
 
   return (
     <article className={`relative flex flex-col rounded-lg overflow-hidden h-full transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] group ${className || ""}`}>
