@@ -476,10 +476,9 @@ export function PosterListCard({ article, className = "" }: { article: Article; 
         aria-hidden
         className="absolute -right-2 -bottom-1 bg-black group-hover:bg-red-600 transition-colors duration-300 px-4 pt-2 pb-3 text-white font-display font-black uppercase leading-[0.85] text-right text-[clamp(1.2rem,2.6vw,2.1rem)]"
       >
-        THE
-        <br />
-        LISTS
+        LİSTELER
       </span>
+
     </div>
   );
 
