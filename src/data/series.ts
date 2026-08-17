@@ -31,6 +31,44 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "lanterns-1-bolum-final-surprizi-dcu-sorulari",
+    title: "\"Lanterns\" 1. Bölümün Final Sürprizi DC Evreni Hakkında Bir Yığın Soru Doğuruyor",
+    excerpt: "HBO'nun yeni dizisi ilk bölümün sonunda bombayı patlattı: John Stewart, akıl hocası Hal Jordan'ı ölü buluyor — hem de yüzük parmağında Güç Yüzüğü olmadan.",
+    body: `_"Lanterns" dizi başlangıcı için **spoiler** içerir._
+
+"Lanterns" sürprizini vermek için hiç zaman kaybetmedi. Dizinin ilk bölümü, John Stewart'ın (Aaron Pierre) eski akıl hocası Hal Jordan'ı (Kyle Chandler) ölü bulmasıyla kapandı. Bu, yalnızca Chandler'ın kahramanı dizinin başrollerinden biri olduğu için değil, DC Evreni'nin bütününe dair büyük sorular doğurduğu için de izleyiciyi sarsıyor.
+
+DCU asıl ivmesini James Gunn'ın kalabalıkları memnun eden "Superman"iyle kazanmıştı. Ama sagadaki son halka "Lanterns", son on yılın prestij dramalarından — özellikle "True Detective" ve "Slow Horses"tan — beslenen çok daha ağırbaşlı bir iş. Her iki dizinin ruhuna uygun biçimde, "Lanterns" merkezî gizemini bir cinayetle kuruyor; ancak bu kez kurban dizinin yıldızlarından biri.
+
+HBO dizisi üç ayrı zaman çizgisinde ilerliyor: 1996, 2016 ve 2026. 2016 hattında Chandler'ın canlandırdığı Jordan, Pierre'in Stewart'ını eğitirken ikisini Nebraska'nın Rushville kasabasındaki tuhaf olayları araştırmaya gönderiyor. Dizinin ağırlığı bu hatta kurulacak gibi görünüyor; fakat birinci bölümün sonunda "True Detective: Night Country"den çıkmış gibi duran bir sahneyle 2026'ya atlıyoruz. Stewart, karla kaplı Rushville'e bu kez tek başına geliyor ve Şerif Kerry Kane (Kelly Macdonald) ile lise futbol sahasının önünde buluşuyor. İçeri girdiklerinde nedenini anlıyoruz: Hal Jordan ölmüş.
+
+## Jordan'ın ölümü John Stewart ve Guy Gardner için ne anlama geliyor?
+
+Stewart'ın "Başka kimse biliyor mu?" sorusuna şerifin yanıtı net: "Sadece saha görevlisi." Tribünde Jordan'ı, on yıl önce Stewart'la yan yana oturdukları yerde bulurlar. Ama bu kez alnında bir kurşun deliği var ve bedeni buz kesmiş. Dahası, Stewart elinin üstündeki karı silkelediğinde Güç Yüzüğü'nün yerinde olmadığı görülüyor.
+
+Buradan ne çıkarmalıyız? İlk soru şu: 2026'da Stewart neden bir Fener değil? Sahne boyunca elleri çoğunlukla cebinde olsa da her iki elini kısa süre görüyoruz; hiçbirinde yüzük yok. 2025'te geçen "Superman" sayesinde, Nathan Fillion'ın Guy Gardner'ıyla birlikte 2026'da Dünya'da birden fazla Fener bulunduğunu biliyoruz. Öyleyse Stewart neden onlardan biri değil? 2016'daki eğitim başarısız mı oldu?
+
+Ve en büyük soru: Jordan'ı kim öldürdü, yüzüğü kim aldı? Belki Guy Gardner, Dünya'daki Fenerlerden biri değil de doğrudan bu ölümle ilgili biri; belki Jordan'ın yüzüğünü taşıyor. DC'nin en öfkeli süper kahramanı bu dizinin kötüsü olabilir mi? Mümkün, ama başka açıklamalar da var.
+
+## DCU açısından büyük sonuçlar
+
+"Lanterns", DC'nin şimdiye kadarki en riskli bahsi ve ilk bölüm bunun tam örneği. Bölüm, Dünya'nın yalnızca tek bir Green Lantern'ı olduğunu ima ediyor. 2016 hattında Jordan, Stewart'a yüzüğü nasıl edindiğini anlatıyor: Hava Kuvvetleri'nde test pilotluğunun ilk yıllarında yatağından kaldırılıp Rushville'e gönderilmiş; orada Abin Sur adlı bir uzaylı düşmüş. Jordan'ın aktardığına göre Sur, Dünya'nın da içinde olduğu "2814. sektörün barışını ve egemenliğini korumakla sorumlu" Fener'di. Tek başına.
+
+Sur, yüzüğü ona verdiğinde gerekçe basitti: Yüzük onu ardıl olarak "seçmişti." Yani bir Fener ölür, yerini bir başkası alır. 2026'da ise Gardner'ın "Superman"de Justice Gang'in lideri olduğunu biliyoruz. Yüzüğünü Jordan'ın ölümünden önce mi aldı? Nasıl? Yoksa Jordan başka bir sektörü korumak için Dünya'dan ayrıldı da yer Gardner'a mı kaldı? Peki neden Stewart devralmadı?
+
+Cesedin bulunduğu yer de ayrı bir mesele. Rushville hem Jordan'ın Fener seçildiği hem de 2016 hattında ikilinin uzaylıları keşfettiği kasaba; yani tesadüf sayılamayacak kadar merkezî bir mekân. Jordan'ın bardaki sohbette söylediği gibi: "İçim bana o düşüşün kaza olmadığını söylerdi hep. Bir fırtınanın yolda olduğunu söylüyorsa, geldiğinde haber verecek bir gözcü bulundurmaya bakarım." Cesedin aynı bölgede bulunması, fırtınanın gerçekten yola çıktığını gösteriyor.
+
+"Lanterns" HBO Max'te yayında.`,
+    image: "https://www.slashfilm.com/img/gallery/lanterns-episode-1s-ending-twist-raises-all-sorts-of-questions-about-the-dc-universe-episode-1/intro-1786735863.jpg",
+    source: "SlashFilm",
+    customBadge: "HBO",
+    customBadgeStyle: "light",
+    gallery: [
+      "https://www.slashfilm.com/img/gallery/lanterns-episode-1s-ending-twist-raises-all-sorts-of-questions-about-the-dc-universe-episode-1/hal-jordans-death-raises-serious-questions-about-john-stewart-and-guy-gardner-1786735864.jpg",
+      "https://www.slashfilm.com/img/gallery/lanterns-episode-1s-ending-twist-raises-all-sorts-of-questions-about-the-dc-universe-episode-1/hal-jordans-death-has-major-implications-for-the-dcu-1786735865.jpg",
+    ],
+  },
+  {
     slug: "house-of-the-dragon-3-sezon-finali-21-milyon-izleyici",
     title: "\"House of the Dragon\" 3. Sezon Finali Üç Günde 21 Milyon İzleyiciye Ulaştı",
     excerpt: "HBO'nun ejderha destanı sezonu güçlü kapattı: Finalin ilk üç günündeki toplam izleyici 21 milyon, bunun 11 milyonu ABD'den. Sezon ortalaması ise bölüm başına 34 milyon.",
