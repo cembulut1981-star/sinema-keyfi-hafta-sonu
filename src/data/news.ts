@@ -31,6 +31,46 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "the-end-of-oak-street-gise-dinozor-filmleri",
+    title: "\"The End of Oak Street\"in Gişesi Dinozor Filmleri Hakkında Tek Bir Şeyi Kanıtlıyor",
+    excerpt: "David Robert Mitchell'ın orijinal dinozor filmi yurt içinde 21 milyon dolarla üçüncü sırada açtı: \"Jurassic\" dışındaki dinozor filmleri gişede hâlâ imkânsıza yakın bir savaş veriyor.",
+    customBadge: "gişe",
+    body: `Warner Bros. 2025'te "Sinners" ve "Weapons" gibi orijinal filmlere şans tanıyarak hem eleştirmen hem gişe cephesinde parlak bir yıl geçirdi. Stüdyo 2026'da da benzer büyük kumarlar oynadı; bunların en yenisi "The End of Oak Street" oldu. "Jurassic Park" evrenine bağlı olmayan, sinemalara giren o çok nadir orijinal dinozor filmiydi ve kâğıt üzerinde doğru parçaların çoğuna sahipti. Ne yazık ki plan tam olarak işlemedi.
+
+"It Follows"un yönetmeni David Robert Mitchell'ın imzasını taşıyan film, yurt içinde 21 milyon dolar açılış yaptı ve "Spider-Man: Brand New Day" (71 milyon dolar) ile "The Odyssey" (23,2 milyon dolar) arkasında üçüncü sıraya yerleşti. Beklentilerin altında kalan açılış, "Paw Patrol: The Dino Movie" (20,5 milyon dolar) ile yaşanan bir dinozor gişe savaşının parçasıydı. Uluslararası pazarda 26 milyon dolar toplayan filmin küresel açılışı 47 milyon dolarda kaldı; bütçesi ise en az 80 milyon dolar.
+
+![The End of Oak Street'te gece çimenlikte dev dinozor ayak izleri](https://www.slashfilm.com/img/gallery/the-end-of-oak-streets-box-office-proves-one-thing-about-dinosaur-movies/the-end-of-oak-street-is-the-latest-dinosaur-movie-to-disappoint-in-theaters-1786997566.jpg)
+
+Film, gizemli bir kozmik olayın Oak Street'i banliyöden koparıp dinozorlarla dolu uzak bir geçmişe taşımasının ardından geçiyor. Hikâyenin merkezindeki Platt ailesi, bu tehlikeli çevrede hayatta kalmalarının ancak birbirlerine tutunmalarıyla mümkün olduğunu keşfediyor. Kadronun başında Anne Hathaway ve Ewan McGregor var.
+
+İyi eleştiriler alan ve yapımcıları arasında J.J. Abrams'ın bulunduğu filmin elinde epey koz vardı; yine de anlamlı bir bilet satışına dönüşmedi ve büyük bir finansal hayal kırıklığı olarak kayda geçmesi bekleniyor. Bu da "Jurassic" serisine bağlı olmayan dinozor filmlerinin gişede neredeyse imkânsız bir işe giriştiğini bir kez daha doğruluyor.
+
+## Türün son hayal kırıklığı
+
+"Jurassic Park" filmleri, geçen yılın sürpriz devi "Jurassic World Rebirth" (869 milyon dolar) öncesinde bile toplamda 6 milyar dolar hasılat yapmıştı. Steven Spielberg'in 1993'teki çığır açan filminden bu yana dinozor sineması denince akla gelen tek isim bu seri oldu.
+
+Oysa dinozorlar kimsenin sahip olduğu bir fikrî mülkiyet değil; stüdyoların tarih öncesi yaratıklara daha sık yönelmemesi bu yüzden şaşırtıcı. Tubi'de her gün onlarca ucuz bütçeli dinozor filmi bulabilirsiniz, ama stüdyo yapımı örnekler oldukça seyrek ve olduğunda da genellikle iyi sonuçlanmıyor.
+
+![Ewan McGregor, The End of Oak Street'te çekiçle bir allosaura karşı](https://www.slashfilm.com/img/gallery/the-end-of-oak-streets-box-office-proves-one-thing-about-dinosaur-movies/why-cant-non-jurassic-park-dinosaur-movies-have-success-at-the-box-office-1786997567.jpg)
+
+2020'lerde sinemalara giren "Jurassic" dışı, canlı aksiyon dinozor filmi sayısı bir elin parmaklarını geçmiyor. Adam Driver'ın "65" filmi 2023'te 45 milyon dolarlık bütçesine karşılık dünya genelinde 61 milyon doların biraz altında kaldı. "The End of Oak Street" de iyi bir ayak direme performansı gösterse bile başabaş noktasını zorlanarak görecek.
+
+Türün yarı anlamlı tek başarı öyküsü, geçen yılın "Primitive War"ıydı. Luke Sparke'ın yönettiği, Vietnam Savaşı'nda geçen düşük bütçeli film viral bir fenomene dönüştü; sinemada para kazandı ama daha çok kulaktan kulağa yayılan bir dijital hit oldu. Birden fazla devam filmi yolda olsa da bu, büyük Hollywood stüdyolarının peşine düşeceği türden bir başarı değil.
+
+## Neden "Jurassic" dışı dinozor filmleri tutmuyor?
+
+"Jurassic Park"/"Jurassic World" dışında başarılı olan dinozor filmleri ağırlıkla animasyon ve çocuk dostu yapımlar. Düşük bütçesi sayesinde Paramount'a para kazandıracak "Paw Patrol: The Dino Movie" ya da koca bir seriye dönüşen "The Land Before Time" bunun örnekleri.
+
+Peki seri dışındaki filmler neden bu kadar zorlanıyor? Açık konuşmak gerekirse "Jurassic" pazarı köşeye sıkıştırmış durumda. Geri kalan her şey onun gölgesinde yaşıyor ve iyi ya da kötü onunla kıyaslanıyor. Alt türde daha fazla alan varmış gibi duruyor, ama stüdyolar şifreyi çözmekte hâlâ çok zorlanıyor.
+
+"Jurassic World Rebirth" devam filmi kısa süre önce yönetmen Gareth Edwards'ı kaybetti. Koltuğa kimin oturacağı belli değil ama Universal bu para trenini durdurmaya niyetli değil. Yani birkaç yıl içinde serinin elinde büyük olasılıkla yeni bir hit olacak; ya da en kötü senaryoda seriyi bir süre uykuya yatıran yeni bir "Jurassic Park III" doğacak.
+
+O pek olası olmayan durumda, arenaya başka bir dinozor filminin girmesine yer açılabilir. Ancak ortalama seyirciyi "Jurassic" etiketi olmayan bir dinozor macerası için koltuğundan kaldırmanın eşiği açıkça çok yüksek. Bu eşiği aşmak için ne gerekecek? Zaman gösterecek.
+
+"The End of Oak Street" şu anda sinemalarda.`,
+    image: "https://www.slashfilm.com/img/gallery/the-end-of-oak-streets-box-office-proves-one-thing-about-dinosaur-movies/intro-1786997565.jpg",
+    source: "SlashFilm",
+  },
     slug: "they-follow-david-robert-mitchell-disasterpeace-muzik",
     title: "\"They Follow\": David Robert Mitchell, \"It Follows\" Devamında Hayati Bir İş Ortağının Döndüğünü Doğruladı",
     excerpt: "Maika Monroe'nun geri döndüğü devam filminin müziklerini yine Disasterpeace yapacak; görüntü yönetmeni Mike Gioulakis ve kurgucu Julio C. Perez IV de ekipte.",
