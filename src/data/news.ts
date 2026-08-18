@@ -71,6 +71,7 @@ O pek olası olmayan durumda, arenaya başka bir dinozor filminin girmesine yer 
     image: "https://www.slashfilm.com/img/gallery/the-end-of-oak-streets-box-office-proves-one-thing-about-dinosaur-movies/intro-1786997565.jpg",
     source: "SlashFilm",
   },
+  {
     slug: "they-follow-david-robert-mitchell-disasterpeace-muzik",
     title: "\"They Follow\": David Robert Mitchell, \"It Follows\" Devamında Hayati Bir İş Ortağının Döndüğünü Doğruladı",
     excerpt: "Maika Monroe'nun geri döndüğü devam filminin müziklerini yine Disasterpeace yapacak; görüntü yönetmeni Mike Gioulakis ve kurgucu Julio C. Perez IV de ekipte.",
