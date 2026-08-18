@@ -24,6 +24,65 @@ export type ListItem = {
 
 const _LISTS_RAW: ListItem[] = [
   {
+    slug: "hayden-panettiere-kacirilmamasi-gereken-6-rolu",
+    title: "Hayden Panettiere'nin Kaçırılmaması Gereken 6 Rolü",
+    excerpt: "Beş yaşında başlayan bir kariyer, yaklaşık 60 iş ve 36 yaşında gelen ani bir veda. \"Remember the Titans\"tan \"Nashville\"e, Hayden Panettiere'nin ekranda bıraktığı izi anlatan altı performans.",
+    countdownBadge: "6 rol seçkisi",
+    body: `Beş yaşında gündüz kuşağı dizisi _One Life to Live_ ile başlayan kariyeri, Hayden Panettiere'nin ekran için doğduğunu kanıtlamıştı. Erken olgunlaşan bir çocuk yıldızdan hem büyük hem küçük ekranda manyetik bir oyuncuya dönüştü: Disney yapımlarından cesur genç kraliçe rollerine, oradan dramatik performanslara uzandı. _A Bug's Life_ gibi animasyon hitlerinde, _Ally McBeal_ gibi sitcom devlerinde yer aldı.
+
+Panettiere o kadar uzun süre, o kadar çok çalıştı ki pazar günü 36 yaşında hayatını kaybettiğinde ardında yaklaşık 60 künyeden oluşan çarpıcı bir özgeçmiş bıraktı. İşte kaçırılmaması gereken altı performans.
+
+## 'Remember the Titans' (2000)
+
+![Remember the Titans'ta Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/remember-the-titans.jpg)
+
+Disney'in _Remember the Titans_ filmi, aralarında Ryan Gosling ve Donald Faison'ın da bulunduğu geleceğin yıldızlarını bir araya getiriyordu. Panettiere ise futbol tutkunu, erkek Fatma Sheryl Yoast rolünü kaptığında henüz 10 yaşındaydı: T.C. Williams Lisesi'nin yardımcı koçu Bill Yoast'ın (Will Patton) kızı. 1971 Virginia'sında ırk ayrımının kaldırıldığı bir lise futbol takımının gerçek hikâyesine dayanan film, Güney'deki gerilimi yöneten iki koç olarak Patton ile Denzel Washington'u karşı karşıya getiriyordu; Sheryl de babasının rütbesi düşürülüp yerine Washington getirilince onun adına öfkeliydi.
+
+Kalın Güney aksanı, karmakarışık sarı örgüleri ve beyzbol tişörtleriyle filmin komedi anlarının çoğu Panettiere'ye aitti. Anı kitabı _This Is Me: A Reckoning_'de rolü, "güzel JonBenét Ramsey tipi" bulunduğu için neredeyse kaçırdığını, bunun da onu seçmelerde daha hırslı yaptığını anlatıyordu. Aynı işi hayatının "en büyük rolü" olarak tanımlıyordu: "Bir oyuncu olarak kendimi hiç o kadar mutlu hissetmemiştim."
+
+## 'Ice Princess' (2005)
+
+![Ice Princess'te Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/ice-princess-list.jpg)
+
+2005'e gelindiğinde dünya, _Remember the Titans_ ve _Tiger Cruise_ sonrası Panettiere'nin bir Disney sevgilisi olduğunu biliyordu. Ama son Disney Channel filmi olan buz pateni hikâyesi _Ice Princess_, genç oyuncunun daha büyük işlere hazır olduğunu gösterdi. Filmde, Michelle Trachtenberg'in canlandırdığı Casey Carlyle'ın isteksiz rakibi Gennifer "Gen" Harwood'u oynuyor; hem de sert annesi ve daha da sert antrenörü Tina (Kim Cattrall) ile boy ölçüşerek.
+
+Neredeyse hiç deneyimi olmadan girdiği rol için, "Bize altı hafta antrenman verdiklerinde ilk gün buz üstünde Bambi gibiydim," diyordu 2024'te. "Sonunda gerçekten iyi oldum."
+
+## 'Bring It On: All or Nothing' (2006)
+
+![Bring It On: All or Nothing'te Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-bring-it-on.jpg)
+
+Her gençlik komedisi devamı _American Pie 2_ olamaz. _Bring It On: All or Nothing_ doğrudan DVD'ye çıkmış bir yapımın tüm izlerini taşısa da, orijinalin gerçek devamı sayılan tek _Bring It On_ spin-off'u. Panettiere, zengin arkadaşlarını ve mahallesini bırakıp Crenshaw Heights'ın yoksul tarafına taşınmak zorunda kalan Pacific Vista amigosu Britney Allen olarak zeki ve elektrik yüklü.
+
+İlk filmde olduğu gibi burada da gerilim burnu havada zenginlerle akrobatik, dişini sıkan ezikler arasında. Ama Panettiere "Hip-Hop Barbie" karakterini kendine güvenin ve duygusal kırılganlığın merkezine dönüştürüyor; Solange ve Rihanna'nın da yer aldığı bir filmde sahneyi çalıyor.
+
+## 'Heroes' (2006-2010)
+
+![Heroes'ta Claire Bennet rolünde Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-heroes.jpg)
+
+_Heroes_'un ilk 15 dakikası izleyiciye ne seyredeceğini anlatır: binadan atlamak üzere bir adam, babasının gizemli araştırmasının peşindeki bir profesör, oğluyla mafyadan kaçan bir kamera kızı ve zamanı geri çevirebileceğine inanan kaiju tutkunu bir ofis çalışanı. Ama Claire Bennet'i oynayan Panettiere'nin bir yabancıyı kurtarmak için alev duvarına dalışını kim unutabilir?
+
+NBC dizisi, dünyanın dört bir yanındaki yabancıların kendi güçleriyle yüzleşmesini izlerken Panettiere hikâyenin merkezinde kaldı; ölçülü ve kararlı performansıyla sihirli güçler ve kötücül devlet ajanslarıyla dolu o kafa karıştırıcı dünyada izleyiciyi yere bastırdı. "Save the cheerleader, save the world" yalnızca güçlü bir slogan değil; bir miras.
+
+## 'Scream 4' (2011)
+
+![Scream 4'te Kirby Reed rolünde Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-scream-4-list.jpg)
+
+Bazen insanlar her şeyi bilenlere gerçekten bayılır. _Scream 4_'te Panettiere'nin Kirby Reed'i bir bilgi yarışması manyağı ve korku sineması konusunda alaycı bir ansiklopedi. Wes Craven'ın ölümünden önce yönettiği son _Scream_ filminin 1996 hitine milenyum boyası çalma çabaları zaman zaman tırmalıyor; ama Panettiere'nin çekiciliği Kirby'den gözünüzü alamamanızı sağlıyor.
+
+Çöpe gidebilecek replikleri anında klasiğe çevirdi ve Kirby'ye öyle bir teslimiyetle yaklaştı ki hayranların yeniden görmek için ısrar ettiği bir "final girl"e dönüştü. (Rolü 2023'te _Scream VI_'da yeniden canlandırdı.) Ghostface onu bilgi düellosuna davet ettikten sonra tükürdüğü o cümle unutulmaz: "Doğru bildim. Lanet olsun, haklıydım!"
+
+## 'Nashville' (2012-2018)
+
+![Nashville'de Juliette Barnes rolünde Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-nashville.jpg)
+
+ABC dizisi _Nashville_, Hayden Panettiere olmadan var olamazdı. Komik entrikayla yürek burkan dram arasında gidip gelme yeteneği bir yana, dizinin hikâyesi doğrudan Panettiere'nin hayatından ve mücadelelerinden alınmıştı. Anı kitabında diziyi, kendi hayat hikâyesini sürekli kazıyan "travmatik" bir deneyim olarak anlatıyordu: "Çok belliydi… Ödevlerini yapmıyorlardı. Yeni hikâyeler kurmuyorlardı. Sadece hayatıma bakıp 'Şu an yaşadığı şeyi alıp üstüne kendi yorumumuzu koyalım' diyorlardı."
+
+Yine de Panettiere seviyeyi yükseltti. Country yıldızı Juliette Barnes olarak tipik bir gece kuşağı pembe dizi rolünü dramatik bir ustalık dersine çevirdi; Juliette'in gözlerinin arkasında kaynayan acıyı gösterdi. Zarifçe yapılmıştı ve dürüst olalım: dizinin yıldızından hak ettiğinden fazlasıydı.`,
+    image: "https://www.rollingstone.com/wp-content/uploads/2026/08/Hayden-Panettiere-Best-Roles.jpg",
+    source: "Rolling Stone",
+  },
+  {
     slug: "orijinalinden-iyi-12-spin-off-dizi",
     title: "Orijinalinden Daha İyi 12 Spin-Off Dizi",
     excerpt: "\"Frasier\"dan \"Star Trek: The Next Generation\"a, doğduğu diziyi gölgede bırakan 12 spin-off. SlashFilm'in listesi, kalite ya da popülerlik bakımından ana yapımı aşan dizileri bir araya getiriyor.",
