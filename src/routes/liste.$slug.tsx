@@ -62,10 +62,21 @@ function ListPage() {
 
         <div className={articleProse}>
           <ReactMarkdown
-            components={
-              slug === "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi"
+            components={{
+              // Rolling Stone galerisindeki gibi kalın siyah çerçeveli görseller
+              img: ({ src, alt }) => (
+                <figure className="my-10 not-prose">
+                  <div className="mx-auto w-full max-w-[760px] border-4 border-black bg-black">
+                    <img src={typeof src === "string" ? src : ""} alt={alt ?? ""} loading="lazy" className="w-full h-auto block" />
+                  </div>
+                  {alt ? (
+                    <figcaption className="mt-3 text-center text-sm text-muted-foreground">{alt}</figcaption>
+                  ) : null}
+                </figure>
+              ),
+              ...(slug === "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi"
                 ? {
-                    h2: ({ children }) => (
+                    h2: ({ children }: { children?: React.ReactNode }) => (
                       <h2
                         className="font-serif-display text-2xl font-bold underline underline-offset-4 mb-6"
                         style={{ color: "#00EAA1" }}
@@ -75,16 +86,17 @@ function ListPage() {
                     ),
                   }
                 : {
-                    h2: ({ children }) => (
+                    h2: ({ children }: { children?: React.ReactNode }) => (
                       <h2 className="font-serif-display text-3xl font-black leading-snug mt-12 mb-8">
                         {children}
                       </h2>
                     ),
-                  }
-            }
+                  }),
+            }}
           >
             {l.body}
           </ReactMarkdown>
+
 
 
         </div>
