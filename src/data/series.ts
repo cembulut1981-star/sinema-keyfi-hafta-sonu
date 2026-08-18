@@ -31,6 +31,30 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "it-welcome-to-derry-2-sezon-1935-buyuk-buhran",
+    title: "\"It: Welcome to Derry\" 2. Sezon 1935'te Geçecek ve \"Dönemin Korkunç Olaylarını\" Görmezden Gelmeyecek",
+    excerpt: "Showrunner Andy Muschietti'ye göre yeni sezon, Büyük Buhran'ın yıkımıyla çökmüş bir Derry'de geçecek: yoksul, işsiz, umutsuz bir kasaba ve hayatta kalmak için çılgın şeyler yapan karakterler.",
+    body: `"It: Welcome to Derry" ikinci sezonuyla 1935'e gidiyor — Pennywise'ın Derry'ye her 27 yılda bir dönmesi gerektiği için bunu zaten biliyorduk. Ama Stephen King'in zaman çizgisi bakımından farklılaşan orijinal romanının aksine, dizinin ikinci sezonu doğrudan Büyük Buhran'ın enkazıyla yüzleşmek zorunda kalacak.
+
+"Karakterlerimizin havasında bir hayli Buhran dönemi telaşı olacak," diyor Muschietti Variety'ye. "Herkes idare etmeye, koşullardan sağ çıkmaya çalışıyor. Çılgın şeyler yapacaklar."
+
+"Bu durumda, yüzeyde Derry neredeyse bir mezarlık. Bir leş gibi; çünkü insanlar tükenmiş, yoksul, yorgun, işsiz, evsiz. Çocukların banliyö konforunda bir hayatı yok. Çok farklı bir durumun içindeler," diye ekliyor Muschietti. Bazıları yetim, bazıları evden kaçmış; yani ortam epey karanlık. "Ama her zaman yanıp duran bir umut da var ve yeni grubumuzu ayakta tutan şey tam olarak bu."
+
+## 27 yıllık geri sayım tersine işliyor
+
+"It: Welcome to Derry"nin birinci sezonu 1962'de geçiyor ve varlığın, 2017 tarihli "It" filmindeki asıl Ezikler Kulübü üyelerinin bazı ebeveynlerini hedef almasını anlatıyor. İlk film birinci sezondan 27 yıl sonra, ikinci film ise ilk filmden 27 yıl sonra kuruluydu. İkinci film palyaçonun sonunu işaretlediği için hikâyeyi anlatmanın tek yolu geriye doğru gitmek. İkinci sezonun ardından üçüncü sezon 27 yıl daha geriye, It'in ilk kez palyaço biçimine büründüğü 1908'e atlayacak.
+
+King'in eserlerinde çizildiği gibi, It her döndüğünde yıkıcı bir olay yaşanıyor. İlk filmde Bill'in kardeşi Georgie vahşice öldürülmüştü; ikinci film bir turiste yönelik korkunç bir nefret suçuyla açılıyordu. Birinci sezonda ise sahne, yıkıcı Black Spot yangınıydı.
+
+İkinci sezon, Bradley Çetesi Katliamı'na odaklanacak: Derry'ye çöküp kasabayı kana bulayan bir haydut grubunun hikâyesi.
+
+"It: Welcome to Derry" 2. sezonun henüz bir yayın tarihi yok.`,
+    image: "https://cdn.mos.cms.futurecdn.net/YjH4XiUxCLbVMCmgivQjQ8-1920-80.jpg",
+    source: "GamesRadar+",
+    customBadge: "HBO",
+    customBadgeStyle: "light",
+  },
+  {
     slug: "lanterns-1-bolum-final-surprizi-dcu-sorulari",
     title: "\"Lanterns\" 1. Bölümün Final Sürprizi DC Evreni Hakkında Bir Yığın Soru Doğuruyor",
     excerpt: "HBO'nun yeni dizisi ilk bölümün sonunda bombayı patlattı: John Stewart, akıl hocası Hal Jordan'ı ölü buluyor — hem de yüzük parmağında Güç Yüzüğü olmadan.",
