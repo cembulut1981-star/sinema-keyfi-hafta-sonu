@@ -15,7 +15,7 @@ export const Route = createFileRoute("/dizi/$slug")({
   },
   head: ({ params }) => {
     const s = getSeries(params.slug);
-    if (!s) return { meta: [{ title: "Dizi yazısı bulunamadı — Sine-Meta" }] };
+    if (!s) return { meta: [{ title: "Article not found — Sine-Meta" }] };
     return {
       meta: [
         { title: `${s.title} — Sine-Meta` },
@@ -30,15 +30,15 @@ export const Route = createFileRoute("/dizi/$slug")({
   notFoundComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[820px] px-4 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Dizi yazısı bulunamadı</h1>
-        <Link to="/kategori/$slug" params={{ slug: "diziler" }} className="text-primary mt-4 inline-block">Tüm diziler</Link>
+        <h1 className="font-display text-3xl font-black">Article not found</h1>
+        <Link to="/kategori/$slug" params={{ slug: "diziler" }} className="text-primary mt-4 inline-block">All TV shows</Link>
       </main>
     </SiteShell>
   ),
   errorComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[820px] px-4 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Bir şeyler ters gitti</h1>
+        <h1 className="font-display text-3xl font-black">Something went wrong</h1>
       </main>
     </SiteShell>
   ),
@@ -58,7 +58,7 @@ function SeriesPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{s.excerpt}</p>
         <div className="mt-5 text-sm text-muted-foreground">
-          Kaynak: <em>{s.source}</em>
+          Source: <em>{s.source}</em>
         </div>
 
         <div className="my-10 flex justify-center">
@@ -77,13 +77,13 @@ function SeriesPage() {
           ))}
         </div>
 
-        {s.gallery?.length ? <PhotoGallery images={s.gallery} heading="Galeri" /> : null}
+        {s.gallery?.length ? <PhotoGallery images={s.gallery} heading="Gallery" /> : null}
 
         <ShareButtons title={s.title} path={`/dizi/${slug}`} />
 
         </article>
 
-        <OtherArticlesSidebar heading="Diğer diziler" items={others} to="/dizi/$slug" />
+        <OtherArticlesSidebar heading="More TV shows" items={others} to="/dizi/$slug" />
       </div>
     </SiteShell>
   );

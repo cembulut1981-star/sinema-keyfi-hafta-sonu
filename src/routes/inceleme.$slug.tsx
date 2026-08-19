@@ -14,7 +14,7 @@ export const Route = createFileRoute("/inceleme/$slug")({
   },
   head: ({ params }) => {
     const r = getReview(params.slug);
-    if (!r) return { meta: [{ title: "İnceleme bulunamadı — Sine-Meta" }] };
+    if (!r) return { meta: [{ title: "Review not found — Sine-Meta" }] };
     return {
       meta: [
         { title: `${r.title} — Sine-Meta` },
@@ -29,8 +29,8 @@ export const Route = createFileRoute("/inceleme/$slug")({
   notFoundComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[820px] px-4 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">İnceleme bulunamadı</h1>
-        <Link to="/kategori/$slug" params={{ slug: "incelemeler" }} className="text-primary mt-4 inline-block">Tüm incelemeler</Link>
+        <h1 className="font-display text-3xl font-black">Review not found</h1>
+        <Link to="/kategori/$slug" params={{ slug: "incelemeler" }} className="text-primary mt-4 inline-block">All reviews</Link>
       </main>
     </SiteShell>
   ),
@@ -51,7 +51,7 @@ function ReviewPage() {
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{r.excerpt}</p>
         <div className="mt-5 flex items-center gap-4 text-sm">
           <span className="font-display font-black text-primary text-xl">{r.rating}</span>
-          <span className="text-muted-foreground">Orijinal ad: <em>{r.origTitle}</em></span>
+          <span className="text-muted-foreground">Original title: <em>{r.origTitle}</em></span>
         </div>
 
         <div className="my-10 flex justify-center">
@@ -79,12 +79,12 @@ function ReviewPage() {
           ))}
         </div>
 
-        {r.gallery?.length ? <PhotoGallery images={r.gallery} heading="Galeri" /> : null}
+        {r.gallery?.length ? <PhotoGallery images={r.gallery} heading="Gallery" /> : null}
 
         <ShareButtons title={r.title} path={`/inceleme/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="Diğer incelemeler" items={others} to="/inceleme/$slug" />
+        <OtherArticlesSidebar heading="More reviews" items={others} to="/inceleme/$slug" />
       </div>
     </SiteShell>
   );

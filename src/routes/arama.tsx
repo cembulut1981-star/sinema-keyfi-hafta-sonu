@@ -12,8 +12,8 @@ export const Route = createFileRoute("/arama")({
   validateSearch: searchSchema,
   head: () => ({
     meta: [
-      { title: "Arama — Sine-Meta" },
-      { name: "description", content: "Sine-Meta içinde arama yapın." },
+      { title: "Search — Sine-Meta" },
+      { name: "description", content: "Search across Sine-Meta." },
     ],
   }),
   component: SearchPage,
@@ -34,15 +34,15 @@ function SearchPage() {
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="font-serif-display text-3xl sm:text-4xl font-bold text-center mb-2">
-          Arama
+          Search
         </h1>
         <p className="text-center text-muted-foreground mb-8">
           {query ? (
             <>
-              &ldquo;<em>{q}</em>&rdquo; için {results.length} sonuç
+              &ldquo;<em>{q}</em>&rdquo; — {results.length} results
             </>
           ) : (
-            "Yukarıdaki arama kutusundan bir şey aratın."
+            "Use the search box above to find something."
           )}
         </p>
         {results.length > 0 ? (
@@ -50,9 +50,9 @@ function SearchPage() {
         ) : query ? (
           <div className="text-center py-16">
             <p className="text-muted-foreground">
-              Sonuç bulunamadı.{" "}
+              No results found.{" "}
               <Link to="/" className="text-primary underline">
-                Anasayfaya dön
+                Back to home
               </Link>
             </p>
           </div>

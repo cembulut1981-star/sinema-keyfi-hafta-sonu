@@ -20,11 +20,11 @@ export const Route = createFileRoute("/kategori/$slug")({
     if (!VALID.includes(params.slug as CategorySlug)) throw notFound();
   },
   head: ({ params }) => {
-    const label = CATEGORY_LABELS[params.slug as CategorySlug] ?? "Kategori";
+    const label = CATEGORY_LABELS[params.slug as CategorySlug] ?? "Category";
     return {
       meta: [
         { title: `${label} — Sine-Meta` },
-        { name: "description", content: `${label} kategorisindeki en güncel sinema haberleri ve yazıları.` },
+        { name: "description", content: `The latest film and TV news, reviews and features in ${label}.` },
       ],
     };
   },
@@ -32,14 +32,14 @@ export const Route = createFileRoute("/kategori/$slug")({
   notFoundComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Kategori bulunamadı</h1>
+        <h1 className="font-display text-3xl font-black">Category not found</h1>
       </main>
     </SiteShell>
   ),
   errorComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Bir şeyler ters gitti</h1>
+        <h1 className="font-display text-3xl font-black">Something went wrong</h1>
       </main>
     </SiteShell>
   ),
@@ -101,7 +101,7 @@ function CategoryPage() {
             <div className="lg:col-span-2 h-full">
               <FeaturedArticleCard
                 article={featured}
-                badgeLabel={isSpiderFeatured ? "Eleştiri" : isBbcListFeatured ? "Ayın Listesi" : "Manşet"}
+                badgeLabel={isSpiderFeatured ? "Critic's Take" : isBbcListFeatured ? "List of the Month" : "Top Story"}
                 kicker={
                   isSpiderFeatured
                     ? "TIME · Stephanie Zacharek"
@@ -109,8 +109,8 @@ function CategoryPage() {
                     ? "BBC Culture · Caryn James"
                     : undefined
                 }
-                meta={isSpiderFeatured ? "★★★½  3.5/5" : isBbcListFeatured ? "10 DİZİ" : undefined}
-                counter={isBbcListFeatured ? "Ağustos" : undefined}
+                meta={isSpiderFeatured ? "★★★½  3.5/5" : isBbcListFeatured ? "10 SHOWS" : undefined}
+                counter={isBbcListFeatured ? "August" : undefined}
                 tags={
                   isBbcListFeatured
                     ? ["Ted Lasso", "The Shards", "Lanterns", "Reacher", "Dark Matter"]
@@ -138,13 +138,13 @@ function CategoryPage() {
               <div className="lg:col-span-2 h-full">
                 <FeaturedArticleCard
                   article={secondFeatured}
-                  badgeLabel="Dizi Manşeti"
+                  badgeLabel="TV Headline"
                   kicker="The Hollywood Reporter · Chris Gardner"
-                  ribbon="Sezon 5"
+                  ribbon="Season 5"
                   stats={[
                     { label: "Platform", value: "Prime Video" },
-                    { label: "Kaynak Roman", value: "Make Me" },
-                    { label: "Yeni Kadro", value: "4 Oyuncu" },
+                    { label: "Source Novel", value: "Make Me" },
+                    { label: "New Cast", value: "4 Actors" },
                     { label: "Showrunner", value: "Nick Santora" },
                   ]}
                   tags={["Amanda Ip", "Jay Baruchel", "Ciara Bravo", "Kevin Durand"]}
@@ -163,12 +163,12 @@ function CategoryPage() {
         {gridArticles.length > 0 ? (
           <ArticleGrid articles={gridArticles} compact />
         ) : featured || secondFeatured ? null : (
-          <p className="text-center text-muted-foreground py-20">Bu kategoride henüz yazı yok.</p>
+          <p className="text-center text-muted-foreground py-20">No articles in this category yet.</p>
         )}
 
 
         {totalPages > 1 ? (
-          <nav className="mt-10 flex justify-center items-center gap-2 flex-wrap" aria-label="Sayfalama">
+          <nav className="mt-10 flex justify-center items-center gap-2 flex-wrap" aria-label="Pagination">
             {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => {
               const active = p === safePage;
               return (
