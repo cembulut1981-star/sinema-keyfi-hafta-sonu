@@ -32,6 +32,35 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "heroes-yaraticisi-tim-kring-hayden-panettiere-anma-yazisi",
+    title: "\"Heroes\" Yaratıcısı Tim Kring'den Hayden Panettiere'ye Veda: \"Eşsiz Yetenekli Bir Oyuncuydu\"",
+    excerpt: "36 yaşında hayatını kaybeden Hayden Panettiere için \"Heroes\"un yaratıcısı Tim Kring, Variety'de kaleme aldığı yazıda oyuncunun \"insan doğasına dair derin kavrayışını\" anlatıyor.",
+    customBadge: "anma",
+    image: img_heroes_kring_tribute,
+    source: "Variety — Tim Kring",
+    body: `Hayden Panettiere, 16 yaşında "Heroes"un seçmelerine geldiğinde çoktan deneyimli bir profesyoneldi.
+
+Çocuk yaşta çalışmaya başlayan pek çok oyuncunun aksine, Hayden'da o yorgun "çocuk oyuncu" havası hiç yoktu. Yeteneklerine güveniyordu ama saf, tatlı ve her öneriye açık biriydi. Onunla tanıştığımız ilk andan itibaren Claire Bennet'ı, yani "Amigo Kız"ı canlandıracağı kesinleşmişti.
+
+Hayden gerçek bir takım oyuncusuydu; geniş bir topluluk kadrosuna sahip bir dizi için bu çok önemliydi. Bir insan olarak yaşının çok ötesinde soğukkanlı, bir oyuncu olarak ise eşsiz derecede yetenekliydi; işinde neredeyse dahi çocuk denebilecek bir hâli vardı. Replikleri kolayca öğrenmesi değil asıl mesele — girdiği her sahnede dramın, komedinin ve hüznün nüanslarını bulup keşfetme becerisiydi.
+
+Geriye dönüp baktığımda "Heroes"taki performansı hayret verici. Kendi gerçek yaşını oynuyordu; bu da role meta bir katman kazandırıyordu, çünkü o duygulara ulaşmak için kendi ergenlik duygularını anlamak zorundaydı.
+
+16 yaşındakilerin çoğu bu duyguları yorumlamayı ya da ifade etmeyi bilmez, bedenlemeyi bir yana bırakın. Ama onun yaşını yalanlayan, insan doğasına dair derin bir kavrayışı vardı. Bu yüzden bir sahnenin içinde kâğıtta yazılandan daha derin, daha komik ya da daha güçlü anlar bulabiliyordu. Bir yazar olarak, yazdığın her şeyi yükselten ve orada olduğunu fark etmediğin nüansları bulan bir oyuncuyla çalışmayı arzularsın. Onunla bu, çok ama çok sık yaşandı.
+
+Bir sahne ağlamayı gerektirdiğinde, üst üste 12 çekimde aynı yoğunlukla ağlayabilmesine hepimizin nasıl hayret ettiğini net biçimde hatırlıyorum. Yönetmen "Kestik" dediğinde arkadaşlarına mesaj atmaya ya da kadro arkadaşlarıyla gülmeye dönerdi — ta ki yönetmen bir sonraki çekim için "Motor" diyene kadar. Sonra gözyaşları yeniden gelirdi.
+
+Çalışmak keyifliydi: profesyonel, neşeli ve bir sahneyle risk alıp deneme yapmaya hazır. İçinde bir "kırıp döken" kararlılık vardı ve bu, karakterini nasıl yazdığımızı gerçekten etkiledi. En iyi karakterler seni oyuncuyla sayfa arasında bir yerde karşılar. "Heroes"ta Claire Bennet'ın bittiği, Hayden'ın başladığı yer bulanık bir çizgiye dönüşmüştü. Claire olmak için bir şeyi söyleme biçimini değiştirmek zorunda kalmadı hiç; alışıp yazmaya başladığımız o tonlama Hayden'ın kendi tonlamasıydı.
+
+"Heroes" ilk günden itibaren bir başarıydı ve Hayden'ın yıldızının parladığı tartışmasızdı. Yine de dizinin topluluk ruhunu her zaman anladı ve herkese karşı içten bir minnet duydu. Sanırım sadece bu topluluğun bir parçası olmayı seviyordu. Ani başarısından keyif aldı ama ona hiç kapılmış görünmedi. Dizinin kendisini temsil etmek istiyordu. Kadro da onu çok korurdu. Onun eşsiz bir yetenek olduğunu hepimiz biliyor ve dizide bizimle olduğu o kısa süre boyunca bu yeteneği kollamayı bir sorumluluk sayıyorduk.
+
+Dizi 2010'da bittikten sonra Hayden'la pek irtibatımız olmadı. Ama birkaç yıl sonra başka bir proje için menajerine müsaitliğini sorduğumda hemen aradı ve beni şakayla azarladı: "Menajerimi aramana gerek yok. Bu konuda Hollywood'culuk yapma. Telefonu al ve beni ara," dedi.
+
+Bir showrunner olarak, Hayden'ınki gibi bir yetenekle yolların kesişmesinin ne kadar ender olduğunu artık daha iyi anlıyorum. Ama daha önemlisi, onu birlikte çalışması her zaman keyif ve ilham veren, iyi kalpli ve nazik bir insan olarak hatırlayacağım.
+
+*Yazar-yapımcı Tim Kring, NBC dizisi "Heroes"un yaratıcısı ve 2006-2010 arasında showrunner'ı ile yönetici yapımcısıydı. Görselde: Hayden Panettiere, "Heroes"un 3. sezonunda (2009).*`,
+  },
+  {
     slug: "the-end-of-oak-street-gise-dinozor-filmleri",
     title: "\"The End of Oak Street\"in Gişesi Dinozor Filmleri Hakkında Tek Bir Şeyi Kanıtlıyor",
     excerpt: "David Robert Mitchell'ın orijinal dinozor filmi yurt içinde 21 milyon dolarla üçüncü sırada açtı: \"Jurassic\" dışındaki dinozor filmleri gişede hâlâ imkânsıza yakın bir savaş veriyor.",
