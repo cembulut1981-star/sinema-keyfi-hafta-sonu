@@ -17,6 +17,7 @@ import jennaEsquireAsset from "@/assets/jenna-esquire.webp.asset.json";
 import bl1 from "@/assets/borderlands-1.jpg";
 import bl2 from "@/assets/borderlands-2.jpg";
 import bl3 from "@/assets/borderlands-3.jpg";
+import img_heroes_kring_tribute from "@/assets/news-variety-heroes-kring-tribute.jpg";
 
 export type NewsItem = {
   slug: string;
