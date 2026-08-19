@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "google-site-verification", content: "MhlHOZfPXLvdEIwCCqfJWpImRir1G31zjHRvvXJi-0s" },
-      { title: "Sine-meta.com 2026 Güncel sinema ve Holywood haberleri için takipte kalın. Düzenli güncellenmektedir." },
-      { name: "description", content: "Türkiye'nin sinema gündemi: vizyon haberleri, eleştiriler, listeler ve özel dosyalar." },
-      { property: "og:title", content: "Sine-meta.com 2026 Güncel sinema ve Holywood haberleri için takipte kalın. Düzenli güncellenmektedir." },
-      { property: "og:description", content: "Türkiye'nin sinema gündemi: vizyon haberleri, eleştiriler, listeler ve özel dosyalar." },
+      { title: "Sine-meta.com — 2026 Movie & Hollywood News, Updated Daily" },
+      { name: "description", content: "Film and TV coverage: release news, reviews, lists and special features." },
+      { property: "og:title", content: "Sine-meta.com — 2026 Movie & Hollywood News, Updated Daily" },
+      { property: "og:description", content: "Film and TV coverage: release news, reviews, lists and special features." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:title", content: "Sine-meta.com 2026 Güncel sinema ve Holywood haberleri için takipte kalın. Düzenli güncellenmektedir." },
-      { name: "twitter:description", content: "Türkiye'nin sinema gündemi: vizyon haberleri, eleştiriler, listeler ve özel dosyalar." },
+      { name: "twitter:title", content: "Sine-meta.com — 2026 Movie & Hollywood News, Updated Daily" },
+      { name: "twitter:description", content: "Film and TV coverage: release news, reviews, lists and special features." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5005df73-78cd-4a49-a9da-a98673873760/id-preview-d96b8cf4--2b8a03a9-6428-48b4-977c-ab6fafdb046d.lovable.app-1782160748011.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5005df73-78cd-4a49-a9da-a98673873760/id-preview-d96b8cf4--2b8a03a9-6428-48b4-977c-ab6fafdb046d.lovable.app-1782160748011.png" },
     ],
@@ -105,7 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="tr">
+    <html lang="en">
       <head>
         <HeadContent />
       </head>

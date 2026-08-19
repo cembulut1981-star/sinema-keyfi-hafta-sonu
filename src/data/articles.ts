@@ -7,12 +7,12 @@ import { SERIES } from "./series";
 export type CategorySlug = "haberler" | "incelemeler" | "listeler" | "diziler" | "muzik" | "roportajlar";
 
 export const CATEGORY_LABELS: Record<CategorySlug, string> = {
-  haberler: "Haberler",
-  incelemeler: "İncelemeler",
-  listeler: "Listeler",
-  diziler: "Diziler",
-  muzik: "Müzik",
-  roportajlar: "Röportajlar",
+  haberler: "News",
+  incelemeler: "Reviews",
+  listeler: "Lists",
+  diziler: "TV Shows",
+  muzik: "Music",
+  roportajlar: "Interviews",
 };
 
 export type Article = {

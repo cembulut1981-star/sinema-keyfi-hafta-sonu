@@ -22,10 +22,10 @@ const FEED_AFTER_HEADLINE = FEED.filter((a) => !HEADLINE_SIDE_IDS.has(a.id));
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Sine-Meta — Sinema Haberleri, İncelemeler, Listeler" },
-      { name: "description", content: "Türkiye'nin sinema gündemi: vizyon haberleri, eleştiriler, listeler ve özel dosyalar." },
-      { property: "og:title", content: "Sine-Meta — Sinema" },
-      { property: "og:description", content: "Türkiye'nin sinema gündemi." },
+      { title: "Sine-Meta — Movie News, Reviews and Lists" },
+      { name: "description", content: "Film and TV coverage: release news, reviews, lists and special features." },
+      { property: "og:title", content: "Sine-Meta — Movies" },
+      { property: "og:description", content: "Film and TV coverage, updated daily." },
     ],
   }),
   component: Index,
@@ -203,17 +203,17 @@ function Index() {
         <div className="h-full">
           <FeaturedArticleCard
             article={duo[0]}
-            badgeLabel="Gündem"
-            kicker="Sine-Meta · Öne Çıkan"
-            counter="Seçki"
+            badgeLabel="Agenda"
+            kicker="Sine-Meta · Featured"
+            counter="Picks"
           />
         </div>
         <div className="h-full">
           <FeaturedArticleCard
             article={duo[1]}
-            badgeLabel="Odak"
-            kicker="Sine-Meta · Editör Notu"
-            ribbon="Özel"
+            badgeLabel="Focus"
+            kicker="Sine-Meta · Editor's Note"
+            ribbon="Special"
           />
         </div>
       </section>
@@ -222,7 +222,7 @@ function Index() {
   return (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
-        <h1 className="sr-only">Sine-Meta — Sinema Haberleri, İncelemeler ve Listeler</h1>
+        <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         {HEADLINE ? (
           <section className="mb-12 grid grid-cols-1 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-6 items-stretch md:h-[560px]">
             <div className="min-h-0 h-full">
@@ -231,11 +231,11 @@ function Index() {
                 badgeLabel=""
                 meta="Box Office"
                 stats={[
-                  { label: "2. hafta", value: "$145M" },
-                  { label: "Küresel", value: "$1.67B" },
-                  { label: "Kuzey Amerika", value: "$655M" },
+                  { label: "2nd weekend", value: "$145M" },
+                  { label: "Global", value: "$1.67B" },
+                  { label: "North America", value: "$655M" },
                 ]}
-                ribbon="Manşet"
+                ribbon="Top Story"
               />
             </div>
             <div className="grid grid-cols-1 gap-6 auto-rows-fr min-h-0 h-full">
@@ -277,7 +277,7 @@ function Index() {
               onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED_AFTER_HEADLINE.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
-              Daha Fazla Göster
+              Load More
             </button>
           </div>
         ) : null}

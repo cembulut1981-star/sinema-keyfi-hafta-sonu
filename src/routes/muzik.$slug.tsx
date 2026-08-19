@@ -14,7 +14,7 @@ export const Route = createFileRoute("/muzik/$slug")({
   },
   head: ({ params }) => {
     const m = getMusic(params.slug);
-    if (!m) return { meta: [{ title: "Haber bulunamadı — Sine-Meta" }] };
+    if (!m) return { meta: [{ title: "Story not found — Sine-Meta" }] };
     return {
       meta: [
         { title: `${m.title} — Sine-Meta` },
@@ -29,8 +29,8 @@ export const Route = createFileRoute("/muzik/$slug")({
   notFoundComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[820px] px-4 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Haber bulunamadı</h1>
-        <Link to="/kategori/$slug" params={{ slug: "muzik" }} className="text-primary mt-4 inline-block">Tüm müzik haberleri</Link>
+        <h1 className="font-display text-3xl font-black">Story not found</h1>
+        <Link to="/kategori/$slug" params={{ slug: "muzik" }} className="text-primary mt-4 inline-block">All music news</Link>
       </main>
     </SiteShell>
   ),
@@ -50,7 +50,7 @@ function MusicPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{m.excerpt}</p>
         <div className="mt-5 text-sm text-muted-foreground">
-          Kaynak: <em>{m.source}</em>
+          Source: <em>{m.source}</em>
         </div>
 
         <div className="my-10 flex justify-center">
@@ -83,12 +83,12 @@ function MusicPage() {
             <div className="p-3" style={{ background: "#ffbd3f" }}>
               <img
                 src={addisonFortniteAsset.url}
-                alt="Addison Rae Fortnite Icon Series kostümleri"
+                alt="Addison Rae Fortnite Icon Series outfits"
                 className="w-full h-auto block"
               />
             </div>
             <figcaption className="mt-2 text-sm text-muted-foreground text-center italic">
-              Fortnite Icon Series — Addison Rae kostümleri (Fortnite)
+              Fortnite Icon Series — Addison Rae outfits (Fortnite)
             </figcaption>
           </figure>
         )}
@@ -112,7 +112,7 @@ function MusicPage() {
         <ShareButtons title={m.title} path={`/muzik/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="Diğer müzik haberleri" items={others} to="/muzik/$slug" />
+        <OtherArticlesSidebar heading="More music news" items={others} to="/muzik/$slug" />
       </div>
     </SiteShell>
   );

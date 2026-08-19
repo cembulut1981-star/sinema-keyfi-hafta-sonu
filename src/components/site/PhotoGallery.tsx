@@ -8,7 +8,7 @@ import {
 
 export function PhotoGallery({
   images,
-  heading = "Galeri",
+  heading = "Gallery",
 }: {
   images: string[];
   heading?: string;
@@ -26,7 +26,7 @@ export function PhotoGallery({
                 <div className="relative aspect-[16/9] overflow-hidden bg-muted">
                   <img
                     src={src}
-                    alt={`${heading} — görsel ${i + 1}`}
+                    alt={`${heading} — image ${i + 1}`}
                     loading="lazy"
                     className="w-full h-full object-cover object-top"
                   />

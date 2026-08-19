@@ -15,7 +15,7 @@ export const Route = createFileRoute("/haber/$slug")({
   },
   head: ({ params }) => {
     const n = getNews(params.slug);
-    if (!n) return { meta: [{ title: "Haber bulunamadı — Sine-Meta" }] };
+    if (!n) return { meta: [{ title: "Story not found — Sine-Meta" }] };
     return {
       meta: [
         { title: `${n.title} — Sine-Meta` },
@@ -30,8 +30,8 @@ export const Route = createFileRoute("/haber/$slug")({
   notFoundComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[820px] px-4 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Haber bulunamadı</h1>
-        <Link to="/kategori/$slug" params={{ slug: "haberler" }} className="text-primary mt-4 inline-block">Tüm haberler</Link>
+        <h1 className="font-display text-3xl font-black">Story not found</h1>
+        <Link to="/kategori/$slug" params={{ slug: "haberler" }} className="text-primary mt-4 inline-block">All news</Link>
       </main>
     </SiteShell>
   ),
@@ -55,7 +55,7 @@ function NewsPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{n.excerpt}</p>
         <div className="mt-5 text-sm text-muted-foreground">
-          Kaynak: <em>{n.source}</em>
+          Source: <em>{n.source}</em>
         </div>
 
         {isNapalm ? (
@@ -99,7 +99,7 @@ function NewsPage() {
                 <figure className="my-10 flex justify-center not-prose">
                   <div className="w-full max-w-[560px] bg-[#ffbd3f] p-3">
                     <div className="relative aspect-[3/2] overflow-hidden bg-muted">
-                      <img src={nickUtAsset.url} alt="Fotoğrafçı Nick Ut, kamerasıyla" className="w-full h-full object-cover" />
+                      <img src={nickUtAsset.url} alt="Photographer Nick Ut with his camera" className="w-full h-full object-cover" />
                     </div>
                     <figcaption className="mt-3 text-center font-display text-sm font-black uppercase tracking-wider text-black">
                       Nick Ut (1951)
@@ -107,11 +107,11 @@ function NewsPage() {
                   </div>
                 </figure>
               ) : null}
-              {isPrimetime && para.endsWith("Sunucu ise Chris Hansen'dı.") ? (
+              {isPrimetime && para.includes("Chris Hansen") ? (
                 <figure className="my-10 flex justify-center not-prose">
                   <div className="w-full max-w-[420px] bg-[#ffbd3f] p-3">
                     <div className="relative aspect-[4/5] overflow-hidden bg-muted">
-                      <img src={toCatchAsset.url} alt="Chris Hansen'ın 'To Catch a Predator' kitabının kapağı" className="w-full h-full object-cover" />
+                      <img src={toCatchAsset.url} alt="Cover of Chris Hansen's book 'To Catch a Predator'" className="w-full h-full object-cover" />
                     </div>
                     <figcaption className="mt-3 text-center font-display text-sm font-black uppercase tracking-wider text-black">
                       Chris Hansen — "To Catch a Predator" (2007)
@@ -127,7 +127,7 @@ function NewsPage() {
         <ShareButtons title={n.title} path={`/haber/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="Diğer haberler" items={others} to="/haber/$slug" />
+        <OtherArticlesSidebar heading="More news" items={others} to="/haber/$slug" />
       </div>
     </SiteShell>
   );

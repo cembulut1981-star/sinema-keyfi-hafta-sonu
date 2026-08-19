@@ -13,7 +13,7 @@ export const Route = createFileRoute("/liste/$slug")({
   },
   head: ({ params }) => {
     const l = getList(params.slug);
-    if (!l) return { meta: [{ title: "Liste bulunamadı — Sine-Meta" }] };
+    if (!l) return { meta: [{ title: "List not found — Sine-Meta" }] };
     return {
       meta: [
         { title: `${l.title} — Sine-Meta` },
@@ -28,8 +28,8 @@ export const Route = createFileRoute("/liste/$slug")({
   notFoundComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[820px] px-4 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Liste bulunamadı</h1>
-        <Link to="/kategori/$slug" params={{ slug: "listeler" }} className="text-primary mt-4 inline-block">Tüm listeler</Link>
+        <h1 className="font-display text-3xl font-black">List not found</h1>
+        <Link to="/kategori/$slug" params={{ slug: "listeler" }} className="text-primary mt-4 inline-block">All lists</Link>
       </main>
     </SiteShell>
   ),
@@ -49,7 +49,7 @@ function ListPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{l.excerpt}</p>
         <div className="mt-5 text-sm text-muted-foreground">
-          Kaynak: <em>{l.source}</em>
+          Source: <em>{l.source}</em>
         </div>
 
         <div className="my-10 flex justify-center">
@@ -104,7 +104,7 @@ function ListPage() {
         <ShareButtons title={l.title} path={`/liste/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="Diğer listeler" items={others} to="/liste/$slug" />
+        <OtherArticlesSidebar heading="More lists" items={others} to="/liste/$slug" />
       </div>
     </SiteShell>
   );

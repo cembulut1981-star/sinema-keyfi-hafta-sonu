@@ -7,12 +7,12 @@ import kissIconAsset from "@/assets/rock-kiss-icon.png.asset.json";
 import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
-  { label: "Anasayfa", to: "/" },
-  { label: "Haberler", to: "/kategori/$slug", params: { slug: "haberler" } },
-  { label: "İncelemeler", to: "/kategori/$slug", params: { slug: "incelemeler" } },
-  { label: "Listeler", to: "/kategori/$slug", params: { slug: "listeler" } },
-  { label: "Diziler", to: "/kategori/$slug", params: { slug: "diziler" } },
-  { label: "Müzik", to: "/kategori/$slug", params: { slug: "muzik" } },
+  { label: "Home", to: "/" },
+  { label: "News", to: "/kategori/$slug", params: { slug: "haberler" } },
+  { label: "Reviews", to: "/kategori/$slug", params: { slug: "incelemeler" } },
+  { label: "Lists", to: "/kategori/$slug", params: { slug: "listeler" } },
+  { label: "TV Shows", to: "/kategori/$slug", params: { slug: "diziler" } },
+  { label: "Music", to: "/kategori/$slug", params: { slug: "muzik" } },
 ];
 
 export function SiteShell({ children }: { children: ReactNode }) {
@@ -91,14 +91,14 @@ function Nav() {
             role="search"
             className="shrink-0 flex items-center"
           >
-            <label htmlFor="site-search" className="sr-only">Ara</label>
+            <label htmlFor="site-search" className="sr-only">Search</label>
             <input
               id="site-search"
               type="search"
               value={q}
               onChange={(e) => setQ(e.target.value)}
               onBlur={() => { if (!q) setOpen(false); }}
-              placeholder="Ara"
+              placeholder="Search"
               aria-hidden={!open}
               tabIndex={open ? 0 : -1}
               className={`bg-transparent text-sm text-foreground placeholder:text-muted-foreground focus:outline-none border-b border-black/70 focus:border-primary transition-all duration-200 ${
@@ -113,7 +113,7 @@ function Nav() {
                   setTimeout(() => document.getElementById("site-search")?.focus(), 0);
                 }
               }}
-              aria-label="Ara"
+              aria-label="Search"
               className="pl-2 pr-1 py-1 border-l border-black/70 ml-2 text-foreground/70 hover:text-primary transition-colors"
             >
               <Search className="h-4 w-4" />
@@ -138,7 +138,7 @@ function Footer() {
           SM
         </span>
         <span className="flex-1 text-center italic text-neutral-600 text-[11px] tracking-wide">
-          Sine-Meta media. Bağımsız sinema dergisi, tüm hakları saklıdır.
+          Sine-Meta media. Independent film magazine, all rights reserved.
         </span>
 
         <div className="ml-auto relative">
@@ -150,7 +150,7 @@ function Footer() {
             aria-expanded={open}
             className="inline-flex items-center justify-between gap-4 min-w-[240px] text-xs font-display uppercase tracking-widest text-neutral-700 hover:text-primary transition-colors border border-black/15 px-5 py-3 bg-white"
           >
-            <span>Keşfet — Kategoriler</span>
+            <span>Explore — Categories</span>
             <span className={`transition-transform text-[10px] ${open ? "rotate-180" : ""}`}>▾</span>
           </button>
           {open ? (
@@ -182,7 +182,7 @@ function Footer() {
 
 export function FeaturedArticleCard({
   article,
-  badgeLabel = "Manşet",
+  badgeLabel = "Top Story",
   kicker,
   meta,
   tags,
@@ -336,12 +336,12 @@ const CATEGORY_TO_SLUG: Record<CategorySlug, string> = {
 };
 
 const CATEGORY_LABEL: Record<CategorySlug, string> = {
-  haberler: "Haber",
-  incelemeler: "İnceleme",
-  listeler: "Liste",
-  diziler: "Dizi",
-  muzik: "Müzik",
-  roportajlar: "Röportaj",
+  haberler: "News",
+  incelemeler: "Review",
+  listeler: "List",
+  diziler: "TV",
+  muzik: "Music",
+  roportajlar: "Interview",
 };
 
 // Bazı portre görsellerde yüz, varsayılan "object-top" kırpmasıyla yarım kalıyor.
@@ -476,7 +476,7 @@ export function PosterListCard({ article, className = "", compact = false }: { a
         aria-hidden
         className={`absolute -right-2 -bottom-1 bg-black group-hover:bg-red-600 transition-colors duration-300 text-white font-display font-black uppercase leading-[0.85] text-right ${compact ? "px-2 pt-1 pb-1.5 text-[0.7rem]" : "px-4 pt-2 pb-3 text-[clamp(1.2rem,2.6vw,2.1rem)]"}`}
       >
-        LİSTELER
+        THE LISTS
       </span>
 
 
@@ -640,12 +640,12 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
         </p>
         {compact ? null : linkTo ? (
           <Link to={linkTo.to} params={linkTo.params} className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
-            <span>Devamını Oku</span>
+            <span>Read More</span>
             <span>→</span>
           </Link>
         ) : (
           <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
-            <span>Devamını Oku</span>
+            <span>Read More</span>
             <span>→</span>
           </div>
         )}
