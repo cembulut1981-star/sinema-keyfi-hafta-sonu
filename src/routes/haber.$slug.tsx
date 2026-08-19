@@ -107,7 +107,7 @@ function NewsPage() {
                   </div>
                 </figure>
               ) : null}
-              {isPrimetime && para.endsWith("Sunucu ise Chris Hansen'dı.") ? (
+              {isPrimetime && para.includes("Chris Hansen") ? (
                 <figure className="my-10 flex justify-center not-prose">
                   <div className="w-full max-w-[420px] bg-[#ffbd3f] p-3">
                     <div className="relative aspect-[4/5] overflow-hidden bg-muted">
