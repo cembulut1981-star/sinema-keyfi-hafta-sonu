@@ -16,7 +16,7 @@ export type ListItem = {
   slug: string;
   title: string;
   excerpt: string;
-  body: string;
+  body: `string;
   image: string;
   source: string;
   countdownBadge?: string;
@@ -333,7 +333,7 @@ Disney's effort to remake its classic animations as live-action films perhaps hi
     slug: "2020lerin-en-uc-korku-filmleri",
     title: "10 Most Unusual Horror Films of the 2020s",
     excerpt: "The boldest, most controversial, and most unusual horror productions of the 2020s so far. Ten films that push the boundaries of the genre and are not afraid to disturb the audience.",
-    body: The first half of the 2020s has been an unexpected renaissance for horror cinema. The popularization of independent productions with studios like Blumhouse and A24 has allowed genre cinema to pursue the "unusual." Here are the ten most extreme, most memorable horror productions of this decade so far.,
+    body: `The first half of the 2020s has been an unexpected renaissance for horror cinema. The popularization of independent productions with studios like Blumhouse and A24 has allowed genre cinema to pursue the "unusual." Here are the ten most extreme, most memorable horror productions of this decade so far.,
 
 ## 1. Titane (2021)
 
@@ -381,7 +381,7 @@ A production starring Sydney Sweeney, which tackles the theme of religious horro
     slug: "2026-en-cok-beklenen-filmler",
     title: "10 Most Anticipated Movies for the Rest of 2026",
     excerpt: "The most exciting productions coming to cinemas in the second half of the year. From big studio sequels to auteur works, ten films poised to make their mark on the rest of 2026.",
-    body: 2026 is shaping up to be one of the busiest periods for the cinema calendar in recent years. The calendar is packed with long-delayed major studio productions finally hitting theaters, new works from great auteurs, and surprises from festival seasons. Here are the ten most talked-about films for the rest of the year.,
+    body: `2026 is shaping up to be one of the busiest periods for the cinema calendar in recent years. The calendar is packed with long-delayed major studio productions finally hitting theaters, new works from great auteurs, and surprises from festival seasons. Here are the ten most talked-about films for the rest of the year.,
 
 ## 1. Avatar: Fire and Ash
 
@@ -429,7 +429,7 @@ Luca Guadagnino's academic thriller bringing together Julia Roberts and Ayo Edeb
     slug: "2026-nin-simdiye-kadar-en-iyi-tv-dizileri",
     title: "The Best TV Shows of 2026 So Far",
     excerpt: "The most powerful TV series that stood out in the first six months of 2026, blending genres and addressing anxieties with humor and original stories.",
-    body: This list was inspired by Rolling Stone's "The Best TV Shows of 2026 So Far" article. The standout series from the first half of 2026, while mostly dealing with anxiety, identity, and the tensions of the business world, also offer surprising humor and original narratives.
+    body: `This list was inspired by Rolling Stone's "The Best TV Shows of 2026 So Far" article. The standout series from the first half of 2026, while mostly dealing with anxiety, identity, and the tensions of the business world, also offer surprising humor and original narratives.
 
 ## 1. ‘A Knight of the Seven Kingdoms’ (HBO)
 
@@ -488,7 +488,7 @@ Source: Rolling Stone – "The Best TV Shows of 2026 So Far".
     slug: "2026-yilinin-en-iyi-10-filmi",
     title: "The 10 Best Films of 2026 (So Far)",
     excerpt: "From horror to animation, space adventure to documentary: Entertainment Weekly's selection of ten films highlighted in the first half of 2026.",
-    body: 2026 has been a year full of surprises for cinema. *Sinners* snatched the Best Picture Oscar, *Obsession* became a phenomenon despite its low budget, *Toy Story 5* broke franchise records. We've translated Entertainment Weekly's editors' selection of ten films for the first half of the year.
+    body: `2026 has been a year full of surprises for cinema. *Sinners* snatched the Best Picture Oscar, *Obsession* became a phenomenon despite its low budget, *Toy Story 5* broke franchise records. We've translated Entertainment Weekly's editors' selection of ten films for the first half of the year.
 
 ## 1. 28 Years Later: The Bone Temple
 
@@ -898,7 +898,7 @@ Bonnie Tyler's voice is gone; but Jim Steinman's melodramatic notes have earned 
     slug: "paste-en-iyi-yeni-albumler-10-temmuz-2026",
     title: "12 New Albums to Listen to This Week (July 10, 2026)",
     excerpt: "From Finn Wolfhard's indie-rock debut to Jack White's blues-punk roar, from Kelela's R&B laboratory to Xiu Xiu's Eraserhead ode: Paste's New Music Friday picks for this week.",
-    body: Paste continues to be the heart of New Music Friday every Friday. This album compilation, released after the Best New Songs lists, brings together the twelve most striking records of the week of July 10. A cross-section ranging from rock, folk, electronic, and experimental.,
+    body: `Paste continues to be the heart of New Music Friday every Friday. This album compilation, released after the Best New Songs lists, brings together the twelve most striking records of the week of July 10. A cross-section ranging from rock, folk, electronic, and experimental.,
 
 ## Finn Wolfhard — Fire From The Hip
 
