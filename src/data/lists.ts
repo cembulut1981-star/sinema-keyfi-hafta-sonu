@@ -16,7 +16,7 @@ export type ListItem = {
   slug: string;
   title: string;
   excerpt: string;
-  body: `string;
+  body: string;`,
   image: string;
   source: string;
   countdownBadge?: string;
@@ -373,7 +373,7 @@ This Filipino-made fairytale horror is an original fairytale set against the bac
 
 ## 10. Immaculate (2024)
 
-A production starring Sydney Sweeney, which tackles the theme of religious horror with a modern perspective.
+A production starring Sydney Sweeney, which tackles the theme of religious horror with a modern perspective.`,
     image: img4,
     source: "WhatCulture",
   },
@@ -421,7 +421,7 @@ Antoine Fuqua's Michael Jackson biopic. The project, delayed due to legal hurdle
 
 ## 10. After the Hunt
 
-Luca Guadagnino's academic thriller bringing together Julia Roberts and Ayo Edebiri. A strong contender in the Oscar season after Venice.
+Luca Guadagnino's academic thriller bringing together Julia Roberts and Ayo Edebiri. A strong contender in the Oscar season after Venice.`,
     image: img5,
     source: "WhatCulture",
   },
@@ -480,7 +480,7 @@ This mystery series, revolving around new widow characters settling in a siniste
 This series, which offers a meta-perspective on the superhero format, cleverly explores identity crises within Hollywood and the production industry. It's both an entertaining and thought-provoking option for Disney+.
 
 Source: Rolling Stone – "The Best TV Shows of 2026 So Far".
-,
+`,
     image: "https://www.rollingstone.com/wp-content/uploads/2026/06/Best-TV-so-far-2026.jpg?w=1581&h=1054&crop=1",
     source: "Rolling Stone",
   },
