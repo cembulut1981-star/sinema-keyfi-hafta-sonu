@@ -16,7 +16,7 @@ export type ListItem = {
   slug: string;
   title: string;
   excerpt: string;
-  body: string;`,
+  body: string;
   image: string;
   source: string;
   countdownBadge?: string;
