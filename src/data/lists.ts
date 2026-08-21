@@ -25,810 +25,810 @@ export type ListItem = {
 const _LISTS_RAW: ListItem[] = [
   {
     slug: "hayden-panettiere-kacirilmamasi-gereken-6-rolu",
-    title: "Hayden Panettiere'nin Kaçırılmaması Gereken 6 Rolü",
-    excerpt: "Beş yaşında başlayan bir kariyer, yaklaşık 60 iş ve 36 yaşında gelen ani bir veda. \"Remember the Titans\"tan \"Nashville\"e, Hayden Panettiere'nin ekranda bıraktığı izi anlatan altı performans.",
-    countdownBadge: "6 rol seçkisi",
-    body: `Beş yaşında gündüz kuşağı dizisi _One Life to Live_ ile başlayan kariyeri, Hayden Panettiere'nin ekran için doğduğunu kanıtlamıştı. Erken olgunlaşan bir çocuk yıldızdan hem büyük hem küçük ekranda manyetik bir oyuncuya dönüştü: Disney yapımlarından cesur genç kraliçe rollerine, oradan dramatik performanslara uzandı. _A Bug's Life_ gibi animasyon hitlerinde, _Ally McBeal_ gibi sitcom devlerinde yer aldı.
+    title: "6 Must-See Roles of Hayden Panettiere",
+    excerpt: "A career that began at five, approximately 60 jobs, and a sudden farewell at 36. From \"Remember the Titans\" to \"Nashville,\" six performances that tell the story of Hayden Panettiere's mark on screen.",
+    countdownBadge: "6 role selection",
+    body: `Her career, which began at the age of five with the daytime soap opera _One Life to Live_, proved that Hayden Panettiere was born for the screen. She transformed from a precocious child star into a magnetic actress on both the big and small screen: from Disney productions to brave young queen roles, and from there to dramatic performances. She appeared in animated hits like _A Bug's Life_ and sitcom giants like _Ally McBeal_.
 
-Panettiere o kadar uzun süre, o kadar çok çalıştı ki pazar günü 36 yaşında hayatını kaybettiğinde ardında yaklaşık 60 künyeden oluşan çarpıcı bir özgeçmiş bıraktı. İşte kaçırılmaması gereken altı performans.
+Panettiere worked for so long and so much that when she passed away on Sunday at the age of 36, she left behind a striking resume of approximately 60 credits. Here are six must-see performances.
 
 ## 'Remember the Titans' (2000)
 
-![Remember the Titans'ta Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/remember-the-titans.jpg)
+![Hayden Panettiere in Remember the Titans](https://www.rollingstone.com/wp-content/uploads/2026/08/remember-the-titans.jpg)
 
-Disney'in _Remember the Titans_ filmi, aralarında Ryan Gosling ve Donald Faison'ın da bulunduğu geleceğin yıldızlarını bir araya getiriyordu. Panettiere ise futbol tutkunu, erkek Fatma Sheryl Yoast rolünü kaptığında henüz 10 yaşındaydı: T.C. Williams Lisesi'nin yardımcı koçu Bill Yoast'ın (Will Patton) kızı. 1971 Virginia'sında ırk ayrımının kaldırıldığı bir lise futbol takımının gerçek hikâyesine dayanan film, Güney'deki gerilimi yöneten iki koç olarak Patton ile Denzel Washington'u karşı karşıya getiriyordu; Sheryl de babasının rütbesi düşürülüp yerine Washington getirilince onun adına öfkeliydi.
+Disney's _Remember the Titans_ brought together future stars, including Ryan Gosling and Donald Faison. Panettiere was just 10 years old when she landed the role of the football-obsessed tomboy Sheryl Yoast: the daughter of T.C. Williams High School's assistant coach Bill Yoast (Will Patton). Based on the true story of a desegregated high school football team in 1971 Virginia, the film pitted Patton against Denzel Washington as two coaches navigating racial tensions in the South; Sheryl was angry on her father's behalf when he was demoted and replaced by Washington.
 
-Kalın Güney aksanı, karmakarışık sarı örgüleri ve beyzbol tişörtleriyle filmin komedi anlarının çoğu Panettiere'ye aitti. Anı kitabı _This Is Me: A Reckoning_'de rolü, "güzel JonBenét Ramsey tipi" bulunduğu için neredeyse kaçırdığını, bunun da onu seçmelerde daha hırslı yaptığını anlatıyordu. Aynı işi hayatının "en büyük rolü" olarak tanımlıyordu: "Bir oyuncu olarak kendimi hiç o kadar mutlu hissetmemiştim."
+With her thick Southern accent, messy blonde braids, and baseball T-shirts, many of the film's comedic moments belonged to Panettiere. In her memoir _This Is Me: A Reckoning_, she recounted almost missing the role because she was considered the "pretty JonBenét Ramsey type," which made her more ambitious in auditions. She described the same job as the "biggest role" of her life: "I had never felt so happy as an actor."
 
 ## 'Ice Princess' (2005)
 
-![Ice Princess'te Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/ice-princess-list.jpg)
+![Hayden Panettiere in Ice Princess](https://www.rollingstone.com/wp-content/uploads/2026/08/ice-princess-list.jpg)
 
-2005'e gelindiğinde dünya, _Remember the Titans_ ve _Tiger Cruise_ sonrası Panettiere'nin bir Disney sevgilisi olduğunu biliyordu. Ama son Disney Channel filmi olan buz pateni hikâyesi _Ice Princess_, genç oyuncunun daha büyük işlere hazır olduğunu gösterdi. Filmde, Michelle Trachtenberg'in canlandırdığı Casey Carlyle'ın isteksiz rakibi Gennifer "Gen" Harwood'u oynuyor; hem de sert annesi ve daha da sert antrenörü Tina (Kim Cattrall) ile boy ölçüşerek.
+By 2005, the world knew Panettiere was a Disney darling after _Remember the Titans_ and _Tiger Cruise_. But the ice skating story _Ice Princess_, her last Disney Channel movie, showed that the young actress was ready for bigger things. In the film, she plays Gennifer "Gen" Harwood, the reluctant rival of Michelle Trachtenberg's Casey Carlyle; all while contending with her strict mother and even stricter coach Tina (Kim Cattrall).
 
-Neredeyse hiç deneyimi olmadan girdiği rol için, "Bize altı hafta antrenman verdiklerinde ilk gün buz üstünde Bambi gibiydim," diyordu 2024'te. "Sonunda gerçekten iyi oldum."
+For the role, which she entered with almost no experience, she said in 2024, "When they gave us six weeks of training, I was like Bambi on ice the first day." "By the end, I was really good."
 
 ## 'Bring It On: All or Nothing' (2006)
 
-![Bring It On: All or Nothing'te Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-bring-it-on.jpg)
+![Hayden Panettiere in Bring It On: All or Nothing](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-bring-it-on.jpg)
 
-Her gençlik komedisi devamı _American Pie 2_ olamaz. _Bring It On: All or Nothing_ doğrudan DVD'ye çıkmış bir yapımın tüm izlerini taşısa da, orijinalin gerçek devamı sayılan tek _Bring It On_ spin-off'u. Panettiere, zengin arkadaşlarını ve mahallesini bırakıp Crenshaw Heights'ın yoksul tarafına taşınmak zorunda kalan Pacific Vista amigosu Britney Allen olarak zeki ve elektrik yüklü.
+Not every teen comedy sequel can be _American Pie 2_. While _Bring It On: All or Nothing_ bears all the hallmarks of a direct-to-DVD production, it's the only _Bring It On_ spin-off considered a true sequel to the original. Panettiere is smart and electric as Britney Allen, a Pacific Vista cheerleader forced to leave her rich friends and neighborhood to move to the poorer side of Crenshaw Heights.
 
-İlk filmde olduğu gibi burada da gerilim burnu havada zenginlerle akrobatik, dişini sıkan ezikler arasında. Ama Panettiere "Hip-Hop Barbie" karakterini kendine güvenin ve duygusal kırılganlığın merkezine dönüştürüyor; Solange ve Rihanna'nın da yer aldığı bir filmde sahneyi çalıyor.
+As in the first film, the tension here is between the snooty rich kids and the acrobatic, gritty underdogs. But Panettiere transforms her "Hip-Hop Barbie" character into a core of self-confidence and emotional vulnerability; stealing the show in a film that also features Solange and Rihanna.
 
 ## 'Heroes' (2006-2010)
 
-![Heroes'ta Claire Bennet rolünde Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-heroes.jpg)
+![Hayden Panettiere as Claire Bennet in Heroes](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-heroes.jpg)
 
-_Heroes_'un ilk 15 dakikası izleyiciye ne seyredeceğini anlatır: binadan atlamak üzere bir adam, babasının gizemli araştırmasının peşindeki bir profesör, oğluyla mafyadan kaçan bir kamera kızı ve zamanı geri çevirebileceğine inanan kaiju tutkunu bir ofis çalışanı. Ama Claire Bennet'i oynayan Panettiere'nin bir yabancıyı kurtarmak için alev duvarına dalışını kim unutabilir?
+The first 15 minutes of _Heroes_ tell the viewer what they're in for: a man about to jump from a building, a professor pursuing his father's mysterious research, a camera girl fleeing the mafia with her son, and an office worker obsessed with kaiju who believes he can turn back time. But who can forget Panettiere's Claire Bennet diving into a wall of flames to save a stranger?
 
-NBC dizisi, dünyanın dört bir yanındaki yabancıların kendi güçleriyle yüzleşmesini izlerken Panettiere hikâyenin merkezinde kaldı; ölçülü ve kararlı performansıyla sihirli güçler ve kötücül devlet ajanslarıyla dolu o kafa karıştırıcı dünyada izleyiciyi yere bastırdı. "Save the cheerleader, save the world" yalnızca güçlü bir slogan değil; bir miras.
+As the NBC series watched strangers around the world confront their powers, Panettiere remained at the heart of the story; her measured and determined performance grounded the viewer in that confusing world full of magical powers and malevolent government agencies. "Save the cheerleader, save the world" is not just a powerful slogan; it's a legacy.
 
 ## 'Scream 4' (2011)
 
-![Scream 4'te Kirby Reed rolünde Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-scream-4-list.jpg)
+![Hayden Panettiere as Kirby Reed in Scream 4](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-scream-4-list.jpg)
 
-Bazen insanlar her şeyi bilenlere gerçekten bayılır. _Scream 4_'te Panettiere'nin Kirby Reed'i bir bilgi yarışması manyağı ve korku sineması konusunda alaycı bir ansiklopedi. Wes Craven'ın ölümünden önce yönettiği son _Scream_ filminin 1996 hitine milenyum boyası çalma çabaları zaman zaman tırmalıyor; ama Panettiere'nin çekiciliği Kirby'den gözünüzü alamamanızı sağlıyor.
+Sometimes people really love know-it-alls. In _Scream 4_, Panettiere's Kirby Reed is a trivia maniac and a cynical encyclopedia of horror cinema. Wes Craven's attempts to give his last _Scream_ film before his death a millennial coat of paint sometimes grate; but Panettiere's charm makes it impossible to take your eyes off Kirby.
 
-Çöpe gidebilecek replikleri anında klasiğe çevirdi ve Kirby'ye öyle bir teslimiyetle yaklaştı ki hayranların yeniden görmek için ısrar ettiği bir "final girl"e dönüştü. (Rolü 2023'te _Scream VI_'da yeniden canlandırdı.) Ghostface onu bilgi düellosuna davet ettikten sonra tükürdüğü o cümle unutulmaz: "Doğru bildim. Lanet olsun, haklıydım!"
+She instantly turned throwaway lines into classics and approached Kirby with such dedication that she became a "final girl" that fans insisted on seeing again. (She reprised the role in _Scream VI_ in 2023.) That unforgettable line she spat after Ghostface challenged her to a trivia duel: "I got it right. Damn it, I was right!"
 
 ## 'Nashville' (2012-2018)
 
-![Nashville'de Juliette Barnes rolünde Hayden Panettiere](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-nashville.jpg)
+![Hayden Panettiere as Juliette Barnes in Nashville](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-nashville.jpg)
 
-ABC dizisi _Nashville_, Hayden Panettiere olmadan var olamazdı. Komik entrikayla yürek burkan dram arasında gidip gelme yeteneği bir yana, dizinin hikâyesi doğrudan Panettiere'nin hayatından ve mücadelelerinden alınmıştı. Anı kitabında diziyi, kendi hayat hikâyesini sürekli kazıyan "travmatik" bir deneyim olarak anlatıyordu: "Çok belliydi… Ödevlerini yapmıyorlardı. Yeni hikâyeler kurmuyorlardı. Sadece hayatıma bakıp 'Şu an yaşadığı şeyi alıp üstüne kendi yorumumuzu koyalım' diyorlardı."
+The ABC series _Nashville_ could not have existed without Hayden Panettiere. Aside from her ability to oscillate between comedic intrigue and heartbreaking drama, the show's story was directly drawn from Panettiere's own life and struggles. In her memoir, she described the series as a "traumatic" experience that constantly dug into her life story: "It was so obvious… They weren't doing their homework. They weren't creating new storylines. They were just looking at my life and saying, 'Let's take what she's going through right now and put our own spin on it.'"
 
-Yine de Panettiere seviyeyi yükseltti. Country yıldızı Juliette Barnes olarak tipik bir gece kuşağı pembe dizi rolünü dramatik bir ustalık dersine çevirdi; Juliette'in gözlerinin arkasında kaynayan acıyı gösterdi. Zarifçe yapılmıştı ve dürüst olalım: dizinin yıldızından hak ettiğinden fazlasıydı.`,
+Still, Panettiere elevated the material. As country star Juliette Barnes, she transformed a typical prime-time soap opera role into a masterclass in dramatic acting; showing the simmering pain behind Juliette's eyes. It was gracefully done and, let's be honest: it was more than the show deserved from its star.`,
     image: "https://www.rollingstone.com/wp-content/uploads/2026/08/Hayden-Panettiere-Best-Roles.jpg",
     source: "Rolling Stone",
   },
   {
     slug: "orijinalinden-iyi-12-spin-off-dizi",
-    title: "Orijinalinden Daha İyi 12 Spin-Off Dizi",
-    excerpt: "\"Frasier\"dan \"Star Trek: The Next Generation\"a, doğduğu diziyi gölgede bırakan 12 spin-off. SlashFilm'in listesi, kalite ya da popülerlik bakımından ana yapımı aşan dizileri bir araya getiriyor.",
-    countdownBadge: "12 dizi seçkisi",
-    body: `Televizyonda spin-off yapmak ince bir iştir. Planlı ya da tesadüfi olsun, yazarların izleyicinin gönlünü kaptıracağı bir karakter yaratması, oyuncunun da o rolü taşıyacak karizmayı bulması gerekir. Yayına girdikten sonraysa asıl sınav başlar: dizinin en azından doğduğu yapım kadar iyi olması. Çoğu spin-off tam burada tökezler. Ama bir avuç dizi, ana yapımın seviyesine ulaşmakla kalmayıp bir adım öteye geçti.
+    title: "12 Spin-Off Series Better Than the Original",
+    excerpt: "From \"Frasier\" to \"Star Trek: The Next Generation,\" 12 spin-offs that overshadowed the series they originated from. SlashFilm's list brings together shows that surpassed their main counterparts in quality or popularity.",
+    countdownBadge: "12 series selection",
+    body: `Making a spin-off on television is a delicate art. Whether planned or accidental, writers need to create a character that captures the audience's heart, and the actor needs to find the charisma to carry that role. After it airs, the real test begins: for the show to be at least as good as the production it originated from. Most spin-offs stumble right here. But a handful of shows not only reached the level of the main production but went a step further.
 
-Bu listede "Better Call Saul", "Batman Beyond" ya da "House of the Dragon" gibi "en az öncülü kadar iyi" sayılabilecek diziler yok; burada gerçekten öncüsünü aşanlar var.
+This list does not include shows like "Better Call Saul," "Batman Beyond," or "House of the Dragon," which could be considered "at least as good as their predecessor"; here, there are truly those that surpassed their predecessor.
 
 ## Frasier
 
 ![Frasier](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/frasier-1786452681.jpg)
 
-Tüm zamanların en başarılı spin-off'larından biri: "Frasier", doğduğu dizi "Cheers"ın kalitesini geride bıraktı. Dr. Frasier Crane başta yalnızca birkaç bölüm için düşünülmüştü ama Kelsey Grammer'ın performansı onu dizinin merkezine taşıdı, ardından Seattle'da kurulu kendi dizisi geldi. Frasier ve kardeşi Niles'ın psikiyatr kimlikleri sayesinde yazarlar entelektüel esprilerle oynayabildi; diğer karakterlerse bu ince zekâya komik bir karşıtlık oluşturdu.
+One of the most successful spin-offs of all time: "Frasier" surpassed the quality of its parent series "Cheers." Dr. Frasier Crane was initially intended for only a few episodes, but Kelsey Grammer's performance propelled him to the center of the show, followed by his own series set in Seattle. Thanks to Frasier and his brother Niles's psychiatrist identities, the writers could play with intellectual humor; the other characters provided a comedic contrast to this subtle wit.
 
 ## Happy Days
 
 ![Happy Days](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/happy-days-1786452681.jpg)
 
-Bugünün ölçütleriyle alışılmadık bir spin-off: dizi, ABC'nin "Love, American Style" antolojisinde satılamayan bir pilot olarak başladı. George Lucas, pilottaki Ron Howard'ı beğenip onu "American Graffiti"ye aldı; filmin başarısı pilota olan ilgiyi yeniden canlandırdı. Zamanla dizinin imza karakteri Fonzie oldu. "Happy Days" ayrıca literatüre "jumping the shark" deyimini kazandırdı ve "Laverne & Shirley" ile "Mork & Mindy" gibi kendi spin-off'larını doğurdu.
+An unusual spin-off by today's standards: the show began as an unsold pilot in ABC's "Love, American Style" anthology. George Lucas liked Ron Howard in the pilot and cast him in "American Graffiti"; the film's success rekindled interest in the pilot. Over time, Fonzie became the show's signature character. "Happy Days" also coined the phrase "jumping the shark" and spawned its own spin-offs like "Laverne & Shirley" and "Mork & Mindy."
 
 ## Xena: Warrior Princess
 
 ![Xena: Warrior Princess](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/xena-warrior-princess-1786452682.jpg)
 
-"Hercules: The Legendary Journeys"de üç bölümlük bir yay için görünen Xena, izleyicide öyle bir iz bıraktı ki kendi dizisini kazandı. Aksiyon, duygu ve karmaşık ilişkileriyle hem kadın hem erkek izleyiciyi buluşturan dizi, Xena ile Gabrielle arasındaki bağ sayesinde queer izleyicinin de kült yapımı oldu; Lucy Lawless bu okumayı yıllar içinde açıkça sahiplendi.
+Xena, who appeared for a three-episode arc in "Hercules: The Legendary Journeys," left such an impression on viewers that she earned her own series. With its action, emotion, and complex relationships, the show brought together both male and female audiences, and thanks to the bond between Xena and Gabrielle, it also became a cult favorite for queer viewers; Lucy Lawless openly embraced this interpretation over the years.
 
 ## A Different World
 
 ![A Different World](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/a-different-world-1786452682.jpg)
 
-"The Cosby Show"un Denise Huxtable karakterini üniversiteye taşımak için kurulan dizi, Lisa Bonet'in ayrılmasının ardından Debbie Allen'ın yönetiminde kimliğini buldu. Toplumsal cinsiyet rollerinden ırkçılığa, sınıf meselesinden siyah kimliğine uzanan tartışmalarla üniversite komedisinin şablonunu kurdu ve içerik derinliğiyle ana dizisini aştı.
+Created to move Denise Huxtable from "The Cosby Show" to college, the series found its identity under Debbie Allen's direction after Lisa Bonet's departure. With discussions ranging from gender roles to racism, class issues to Black identity, it established the template for college comedies and surpassed its parent series in depth of content.
 
 ## Family Matters
 
 ![Family Matters](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/family-matters-1786452682.jpg)
 
-Harriette Winslow başlangıçta "Perfect Strangers"ta bir asansör görevlisiydi; kocası Carl'la yakaladıkları komik uyum onlara kendi dizisini getirdi. 90'ların tamamına yayılan dizi, Steve Urkel'ın "Did I do that?" repliğiyle "inek" kavramını neredeyse tek başına tanımladı — ve siyah orta sınıf bir ailenin olumlu portresini yıllarca ekranda tuttu.
+Harriette Winslow was initially an elevator operator in "Perfect Strangers"; her comedic chemistry with her husband Carl earned them their own show. Spanning the entire 90s, the series almost single-handedly defined the concept of a "nerd" with Steve Urkel's "Did I do that?" catchphrase — and maintained a positive portrayal of a Black middle-class family on screen for years.
 
 ## Law & Order: SVU
 
 ![Law & Order: SVU](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/law-order-svu-1786452683.jpg)
 
-"Law & Order" evreninin en güçlü halkası. 1999'da başlayan dizi, çeyrek asırdır Hollywood'un neredeyse her oyuncusunu konuk ettiği bir okul gibi çalışıyor. Suç prosedürelini mükemmelleştirmesinin yanında, Mariska Hargitay'in hem sertlik hem şefkat taşıyan Olivia Benson'ı diziyi soğuk bir vaka anlatısı olmaktan kurtarıyor.
+The strongest link in the "Law & Order" universe. The series, which began in 1999, has served as a school for almost every Hollywood actor for a quarter-century. In addition to perfecting the crime procedural, Mariska Hargitay's Olivia Benson, who embodies both toughness and compassion, saves the show from being a cold case narrative.
 
 ## NCIS
 
 ![NCIS](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/ncis-1786452683.jpg)
 
-Bugün kimsenin hatırlamadığı CBS dizisi "JAG"in sekizinci sezonunda görünen Leroy Gibbs ve ekibi, iki bölümlük bir yayla "NCIS"in pilotunu oluşturdu. Suç prosedürelini askeriyeyle birleştiren dizi 20 yılı aşkın süredir ayakta; Mark Harmon bayrak dizisinden çekilse de "NCIS: Origins"in anlatıcısı olarak evrende kalmaya devam ediyor.
+Leroy Gibbs and his team, who appeared in the eighth season of the now-forgotten CBS series "JAG," formed the pilot for "NCIS" with a two-episode arc. The crime procedural, which combines military themes, has been running for over 20 years; even though Mark Harmon has retired from the flagship series, he continues to be part of the universe as the narrator of "NCIS: Origins."
 
 ## Good Times
 
 ![Good Times](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/good-times-1786452683.jpg)
 
-Florida Evans ilk olarak Norman Lear'ın "Maude" dizisinde görünmüştü; "Good Times" için karakterin geçmişi baştan yazıldı ve aile Chicago'daki toplu konutlara taşındı. Çete şiddeti, hırsızlık, çocuk istismarı ve tahliye gibi meselelere eğilen dizi, ekranda evinde bulunan ilk siyah babayı sunmasıyla da tarihe geçti.
+Florida Evans first appeared in Norman Lear's "Maude"; for "Good Times," the character's backstory was rewritten, and the family moved to public housing in Chicago. Addressing issues like gang violence, theft, child abuse, and eviction, the series also made history by presenting the first Black father to be found at home on screen.
 
 ## The Flash
 
 ![The Flash](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/the-flash-1786452684.jpg)
 
-The CW'nin altın döneminde Arrowverse'ün taç mücevheri oldu ve evrenin adını taşıyan "Arrow"u bile gölgede bıraktı. Ciddiyetle hafifliği dengeleyen tonu, kadronun sıcaklığı ve Grant Gustin ile Candice Patton arasındaki kimya, diziyi süper kahraman aksiyonunun ötesine taşıdı.
+During The CW's golden age, it became the crown jewel of the Arrowverse, even overshadowing "Arrow," which lent its name to the universe. Its tone, balancing seriousness with lightness, the warmth of its cast, and the chemistry between Grant Gustin and Candice Patton, elevated the series beyond superhero action.
 
 ## The Jeffersons
 
 ![The Jeffersons](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/the-jeffersons-1786452684.jpg)
 
-Yine bir Norman Lear yapımı. "All in the Family"den hatırladığınız tek karakter büyük olasılıkla Archie Bunker'dır; "The Jeffersons"ta ise George ve Weezie'nin komik uyumu ile Florence'ın keskin dili akılda kalır. Irkçılık, silah şiddeti ve madde bağımlılığı gibi konulara aynı cesaretle ama daha güçlü bir kadroyla eğildi.
+Another Norman Lear production. The only character you likely remember from "All in the Family" is Archie Bunker; in "The Jeffersons," it's the comedic chemistry of George and Weezie and Florence's sharp tongue that stick in your mind. It tackled topics like racism, gun violence, and substance abuse with the same courage but with a stronger cast.
 
 ## Daria
 
 ![Daria](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/daria-1786452685.jpg)
 
-"Beavis and Butt-Head"in yan karakteri Daria Morgendorffer, kendi dizisinde MTV animasyonunun en zeki toplum eleştirisine dönüştü. Ergenlik, sınıf ve popülerlik üzerine söyledikleri onlarca yıl sonra bile geçerli; dizinin gücü, "aptal" karakterlere bile katmanlı bir geçmiş vermesinde.
+Daria Morgendorffer, a side character from "Beavis and Butt-Head," transformed into MTV animation's smartest social commentary in her own series. What she said about adolescence, class, and popularity is still relevant decades later; the show's strength lies in giving even "stupid" characters a layered past.
 
 ## Star Trek: The Next Generation
 
 ![Star Trek: The Next Generation](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/star-trek-the-next-generation-1786452685.jpg)
 
-90'ların en iyi dizilerinden biri olmakla kalmıyor, tüm zamanların en iyi spin-off'larından biri de sayılıyor. Hikâyeleri daha karmaşık, oyunculuğu daha az teatral; bugün izlendiğinde orijinal diziden daha kolay hazmediliyor. Picard ve ekibi bilimkurguyu popüler kültürde saygın bir yere taşıdı ve "Deep Space Nine" gibi devam dizilerine sağlam bir zemin kurdu.
+It's not only one of the best shows of the 90s but also considered one of the best spin-offs of all time. Its stories are more complex, the acting less theatrical; when watched today, it's more digestible than the original series. Picard and his crew elevated science fiction to a respected place in popular culture and laid a solid foundation for subsequent series like "Deep Space Nine."
 
-Kısacası: bir spin-off her zaman soluk bir kopya olmak zorunda değil. Bazen ana diziyi hatırlamamızın tek nedeni bile olabiliyor.`,
+In short: a spin-off doesn't always have to be a pale copy. Sometimes, it can even be the only reason we remember the original series.`,
     image: "https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/intro-1786452680.jpg",
     source: "SlashFilm",
   },
 
   {
     slug: "christopher-nolan-en-iyi-oyunculuk-performanslari",
-    title: "Christopher Nolan Filmlerinden 13 En İyi Oyunculuk Performansı: Matt Damon'dan Heath Ledger'a",
-    excerpt: "Variety'nin ödül editörü Clayton Davis, Nolan'ın kariyerindeki en unutulmaz 13 oyunculuk performansını sıraladı — Heath Ledger'ın Joker'inden Matt Damon'ın Odysseus'una uzanan bir liste.",
-    body: "Zaman Christopher Nolan'a iyi davrandı. Yönetmenin filmografisi, sadece görsel tasarımı ve zamansal deneyleriyle değil, çıkardığı oyunculuk performanslarıyla da bir referans noktası hâline geldi. Variety'nin ödül editörü Clayton Davis, Nolan'ın kariyerindeki en iyi 13 oyunculuk performansını sıraladı.\n\n**1. Heath Ledger — Joker (The Dark Knight, 2008):** Listede tartışmasız zirve. Ledger'ın kaotik, hesaplanamaz Joker'i, bir süper kahraman filminin oyuncuya Oscar kazandırabileceğini kanıtladı.\n\n**2. Cillian Murphy — J. Robert Oppenheimer (Oppenheimer, 2023):** Nolan-Murphy işbirliğinin doruğu; Murphy'ye ilk Oscar'ını getirdi. Tarihsel bir figürü içeriden dışarıya doğru inşa eden nadir bir performans.\n\n**3. Matt Damon — Dr. Mann / Odysseus (Interstellar, 2014 & The Odyssey, 2026):** Davis, Damon'ın iki farklı Nolan projesindeki performansını birlikte değerlendiriyor. 'The Odyssey'de Damon, kariyerinin en katmanlı işlerinden birini veriyor.\n\n**4. Marion Cotillard — Mal (Inception, 2010):** Cobb'un zihnindeki hayaletin sadece bir tehdit değil, bir yas figürü olduğunu unutturmayan performans.\n\n**5. Matthew McConaughey — Cooper (Interstellar):** 'McConaissance' döneminin en duygusal işi; kitaplık sahnesindeki gözyaşları hâlâ tartışılıyor.\n\nListe ayrıca Christian Bale (Batman üçlemesi ve The Prestige), Guy Pearce (Memento), Robert Pattinson (Tenet), Anne Hathaway (Interstellar & The Dark Knight Rises), Tom Hardy (Dunkirk, The Dark Knight Rises), Florence Pugh (Oppenheimer), Ken Watanabe (Batman Begins, Inception) ve Michael Caine (kariyer boyu Nolan işbirliği) ile devam ediyor.\n\nDavis'in sonucu net: Nolan bir 'oyuncu yönetmeni' olarak anılmasa da, filmografisi son yirmi yılın en zengin performans arşivlerinden birini oluşturuyor.",
+    title: "13 Best Acting Performances from Christopher Nolan Films: From Matt Damon to Heath Ledger",
+    excerpt: "Variety's awards editor Clayton Davis ranked the 13 most memorable acting performances in Nolan's career — a list ranging from Heath Ledger's Joker to Matt Damon's Odysseus.",
+    body: "Time has been kind to Christopher Nolan. The director's filmography has become a benchmark, not only for its visual design and temporal experiments but also for the acting performances it has produced. Variety's awards editor Clayton Davis ranked the 13 best acting performances in Nolan's career.\n\n**1. Heath Ledger — Joker (The Dark Knight, 2008):** Undisputedly at the top of the list. Ledger's chaotic, unpredictable Joker proved that a superhero film could win an Oscar for an actor.\n\n**2. Cillian Murphy — J. Robert Oppenheimer (Oppenheimer, 2023):** The pinnacle of the Nolan-Murphy collaboration; it brought Murphy his first Oscar. A rare performance that built a historical figure from the inside out.\n\n**3. Matt Damon — Dr. Mann / Odysseus (Interstellar, 2014 & The Odyssey, 2026):** Davis evaluates Damon's performances in two different Nolan projects together. In 'The Odyssey,' Damon delivers one of the most layered works of his career.\n\n**4. Marion Cotillard — Mal (Inception, 2010):** A performance that reminds us that the ghost in Cobb's mind is not just a threat, but a figure of grief.\n\n**5. Matthew McConaughey — Cooper (Interstellar):** The most emotional work of the 'McConaissance' era; the tears in the bookshelf scene are still debated.\n\nThe list also continues with Christian Bale (Batman trilogy and The Prestige), Guy Pearce (Memento), Robert Pattinson (Tenet), Anne Hathaway (Interstellar & The Dark Knight Rises), Tom Hardy (Dunkirk, The Dark Knight Rises), Florence Pugh (Oppenheimer), Ken Watanabe (Batman Begins, Inception), and Michael Caine (career-long Nolan collaboration).\n\nDavis's conclusion is clear: although Nolan may not be known as an 'actor's director,' his filmography constitutes one of the richest archives of performances of the last two decades.",
     image: "https://variety.com/wp-content/uploads/2026/07/Christopher-Nolan-Movie-Performances.jpg?w=1200&h=800&crop=1",
     source: "Variety",
   },
   {
     slug: "guardian-okurlarinin-2026-favori-filmleri",
-    title: "\"Sinemada Yedi Kez İzledim\": Guardian Okurlarının 2026 Favori Filmleri",
-    excerpt: "Guardian editörlerinin 2026'nın en iyilerini seçmesinin ardından okurlar da söz aldı. 'Backrooms'tan 'The Secret Agent'a, yılın ilk yarısına damga vuran sihirli sinema anları.",
-    body: "Guardian editörlerinin 2026'nın ilk yarısının en iyi filmlerini seçmesinin ardından, okurlardan da yılın ilk altı ayına ait sihirli sinema anlarını paylaşmalarını istediler. Gelen mesajlarda tekrar tekrar öne çıkan başlıklar ve şaşırtıcı seçimler dikkat çekici bir kolektif portre çiziyor.\n\n**The Secret Agent** — Kleber Mendonça Filho'nun filmi, Brezilya kırsalında bir benzin istasyonunda geçen tuhaf açılış sahnesiyle Londra'dan yazan Liz'i daha ilk kareden yakalamış. Kaçak akademisyen Armando'yu köşeye sıkıştırmaya çalışan yozlaşmış bir şirket yetkilisi Ghirotti, izleyicinin tüylerini diken diken eden bir kötü.\n\n**Backrooms** — Sonsuz sarı koridorlar ve floresan aydınlatmayla çekilen bu düşük bütçeli deneme, yılın ilk yarısının en çok konuşulan indie'lerinden biri. Bir okurun ifadesiyle \"sinemada yedi kez izledim\" — YouTube kısa filminden çıkıp uzun metraj olmayı başaran ender işlerden.\n\n**The Ballad of Wallis Island** — Küçük ölçekli, sıcak ve müzik dolu bir ada hikâyesi; birçok okur için yılın 'küçük mucize' filmi. Sinemadan çıkarken bir yabancıya sarılmak istedim diyenler var.\n\n**Sinners** — Ryan Coogler'ın vampir-müzik hibrid filmi, IMAX salonlarında yaşayan bir deneyime dönüşmüş. Okurlar özellikle blues sekansını yılın en cesur set-piece'i olarak anıyor.\n\n**Bring Her Back** — Danny ve Michael Philippou kardeşlerin 'Talk to Me' sonrası ikinci filmi, korkuseverler için beklentiyi karşıladığı gibi aştı da. \"Sinemada bu kadar suskun kalmış bir salonu son ne zaman gördüm hatırlamıyorum\" yazmış Manchester'dan bir okur.\n\nListe; 'Anora' cesaretiyle Cannes'da yankı bulan 'Sentimental Value', Werner Herzog'un yeni belgeseli, Payal Kapadia'nın yeni işi ve okurların sürpriz favorisi 'Friendship' gibi başlıklarla uzayıp gidiyor. Sinema salonuna dönüş her yıl kutlanan bir söylem olmaktan çıkıp somut bir alışkanlığa evriliyor gibi — en azından Guardian okurları için 2026'nın ilk yarısı bunun kanıtı.",
+    title: "\"I Watched It Seven Times in the Cinema\": Guardian Readers' Favorite Films of 2026",
+    excerpt: "After Guardian editors picked their best of 2026, readers also had their say. From 'Backrooms' to 'The Secret Agent,' magical cinematic moments that marked the first half of the year.",
+    body: "After Guardian editors selected the best films of the first half of 2026, they asked readers to share their magical cinematic moments from the first six months of the year. The recurring themes and surprising choices in the messages received paint a striking collective portrait.\n\n**The Secret Agent** — Kleber Mendonça Filho's film captivated Liz, writing from London, from the very first frame with its strange opening scene set at a gas station in rural Brazil. Ghirotti, a corrupt corporate executive trying to corner the fugitive academic Armando, is a villain who sends shivers down the audience's spine.\n\n**Backrooms** — This low-budget experiment, shot with endless yellow corridors and fluorescent lighting, is one of the most talked-about indies of the first half of the year. In one reader's words, \"I watched it seven times in the cinema\" — one of the rare works that successfully transitioned from a YouTube short film to a feature.\n\n**The Ballad of Wallis Island** — A small-scale, warm, and music-filled island story; for many readers, the 'little miracle' film of the year. Some said they wanted to hug a stranger after leaving the cinema.\n\n**Sinners** — Ryan Coogler's vampire-music hybrid film transformed into a living experience in IMAX theaters. Readers particularly cite the blues sequence as the year's boldest set-piece.\n\n**Bring Her Back** — Danny and Michael Philippou brothers' second film after 'Talk to Me' not only met but exceeded expectations for horror fans. \"I don't remember the last time I saw a cinema so silent,\" wrote a reader from Manchester.\n\nThe list goes on with titles such as 'Sentimental Value,' which resonated at Cannes with its 'Anora' courage, Werner Herzog's new documentary, Payal Kapadia's new work, and readers' surprise favorite 'Friendship.' Returning to the cinema seems to be evolving from a celebrated discourse into a concrete habit each year — at least for Guardian readers, the first half of 2026 is proof of this.",
     image: "https://i.guim.co.uk/img/media/e245923817e6c5241c330a7af2bc71a910020417/0_0_1547_1031/master/1547.jpg?width=1200&dpr=1&s=none&crop=none",
     source: "The Guardian",
   },
 
   {
     slug: "az-bilinen-korku-filmleri",
-    title: "Kimsenin Konuşmadığı 10 Muhteşem Korku Filmi",
-    excerpt: "Gişe başarılarının ve klasiklerin gölgesinde kalan, ancak türün en cesur, en atmosferik ve en unutulmaz örnekleri arasında yer alan on korku filmi.",
-    body: `Korku sineması denildiğinde akla hep aynı isimler gelir: *The Exorcist*, *Halloween*, *Hereditary*. Oysa türün geniş arşivi, gişe rekorlarının gölgesinde kalmış ama en az onlar kadar cesur, sinematografik ve rahatsız edici yapımlarla dolu. Bu listede, dijital platformların algoritmalarının bile pek önermediği, ancak izlediğinizde günlerce zihninizde dolaşacak on filmi bir araya getirdik.
+    title: "10 Great Horror Movies Nobody's Talking About",
+    excerpt: "Ten horror films that remain in the shadow of box office hits and classics, but are among the genre's boldest, most atmospheric, and most unforgettable examples.",
+    body: `When horror cinema is mentioned, the same names always come to mind: *The Exorcist*, *Halloween*, *Hereditary*. Yet, the genre's vast archive is full of productions that have remained in the shadow of box office hits but are just as bold, cinematographic, and disturbing. In this list, we have brought together ten films that even digital platform algorithms rarely recommend, but which will linger in your mind for days after you watch them.
 
 ## 1. The Hunger (1983)
 
-Tony Scott'un yönetmenlik kariyerinin başlangıcı olan bu vampir filmi, David Bowie ve Catherine Deneuve'ün ikonik performanslarıyla, korkuyu bir moda çekimi estetiğine dönüştürüyor.
+This vampire film, marking the beginning of Tony Scott's directorial career, transforms horror into a fashion shoot aesthetic with iconic performances from David Bowie and Catherine Deneuve.
 
 ## 2. Session 9 (2001)
 
-Terk edilmiş bir akıl hastanesinde çekilen bu film, atmosferi ana karakter haline getiriyor. Ses tasarımı ve mekân kullanımı, "yavaş yanan korku" türünün en iyi örneklerinden.
+Shot in an abandoned asylum, this film makes atmosphere its main character. Sound design and use of space are among the best examples of the "slow burn horror" genre.
 
 ## 3. Afflicted (2013)
 
-Found-footage türünün en yaratıcı örneklerinden biri. Vampirizmi hastalık metaforu olarak ele alan bağımsız bir Kanada yapımı.
+One of the most creative examples of the found-footage genre. An independent Canadian production that treats vampirism as a metaphor for illness.
 
 ## 4. Lake Mungo (2008)
 
-Avustralya yapımı bu sahte belgesel, keder ve kayıp temalarını doğaüstü bir çerçeveye oturtuyor. Finali, izledikten günler sonra bile yakanızı bırakmıyor.
+This Australian mockumentary frames themes of grief and loss within a supernatural setting. Its ending stays with you for days after watching.
 
 ## 5. The Endless (2017)
 
-Justin Benson ve Aaron Moorhead'in kozmik korku başyapıtı. Küçük bütçesine rağmen büyük fikirler üretmeyi başarıyor.
+Justin Benson and Aaron Moorhead's cosmic horror masterpiece. Despite its small budget, it manages to produce big ideas.
 
 ## 6. Kill List (2011)
 
-Ben Wheatley'in imzasını taşıyan bu İngiliz yapımı, aile draması olarak başlayıp folk-horror kâbusuna dönüşüyor.
+This British production, bearing Ben Wheatley's signature, starts as a family drama and transforms into a folk-horror nightmare.
 
 ## 7. Noroi: The Curse (2005)
 
-Japon found-footage geleneğinin zirvesi. Karmaşık mitolojisi ve tedirgin edici temposuyla ayrıca bir kült.
+The pinnacle of Japanese found-footage tradition. Also a cult classic with its complex mythology and unsettling pace.
 
 ## 8. Pontypool (2008)
 
-Küçük bir radyo istasyonunda geçen, dilin kendisinin virüs haline geldiği bir minimalist dehşet.
+A minimalist horror set in a small radio station, where language itself becomes a virus.
 
 ## 9. The Beyond (1981)
 
-Lucio Fulci'nin gotik-sürreal başyapıtı. Mantıktan çok ruh haline yaslanan bir kâbus koleksiyonu.
+Lucio Fulci's gothic-surreal masterpiece. A collection of nightmares that relies more on mood than logic.
 
 ## 10. Possum (2018)
 
-Matthew Holness'un yönetmenliğindeki bu yapım, çocukluk travmasını korkunç bir kukla üzerinden anlatıyor. Hem sanat filmi hem korku.`,
+This production, directed by Matthew Holness, tells of childhood trauma through a terrifying puppet. Both an art film and horror.`,
     image: img1,
     source: "WhatCulture",
   },
   {
     slug: "degeri-bilinmemis-korku-filmleri",
-    title: "Tüm Zamanların En Değeri Bilinmemiş 10 Korku Filmi",
-    excerpt: "Vizyona girdiği dönemde hak ettiği ilgiyi görmemiş, ancak yıllar içinde kült statüsüne yükselen ya da hâlâ yeniden keşfedilmeyi bekleyen on korku klasiği.",
-    body: `Korku türü, "değeri bilinmedi" hikâyeleriyle dolu. Bazen zamanının önündedir bir film, bazen yanlış zamanda vizyona girer, bazen de büyük stüdyolar tarafından pazarlama açısından ölüme terk edilir. Aşağıdaki on yapım, hem eleştirmenlerden hem de gişeden hak ettiği karşılığı alamamış, ancak zaman içinde yeniden değerlendirilmesi gereken kült yapımlar.
+    title: "10 Most Underrated Horror Movies of All Time",
+    excerpt: "Ten horror classics that didn't get the attention they deserved when they were released, but have risen to cult status over the years or are still waiting to be rediscovered.",
+    body: `The horror genre is full of "underrated" stories. Sometimes a film is ahead of its time, sometimes it's released at the wrong time, and sometimes it's left to die by major studios in terms of marketing. The following ten productions are cult classics that didn't get the recognition they deserved from critics or at the box office, but should be re-evaluated over time.
 
 ## 1. The Exorcist III (1990)
 
-William Peter Blatty'nin bizzat yönettiği bu devam filmi, orijinali kadar teolojik derinliğe sahip. Ünlü koridor sahnesi, tür tarihinin en iyi jump-scare'i olarak kabul edilir.
+This sequel, personally directed by William Peter Blatty, has as much theological depth as the original. The famous corridor scene is considered the best jump-scare in the history of the genre.
 
 ## 2. Event Horizon (1997)
 
-"Uzayda Cehennem" temasını en cesur şekilde ele alan yapım. Vizyonda anlaşılamadı, DVD döneminde kült oldu.
+"A production that tackles the theme of "Hell in Space" in the boldest way. It was misunderstood upon release, but became a cult classic in the DVD era."
 
 ## 3. In the Mouth of Madness (1994)
 
-John Carpenter'ın Lovecraftvari başyapıtı. Kariyerinin geç dönem hazinelerinden biri olmasına rağmen hâlâ gerektiği kadar konuşulmuyor.
+John Carpenter's Lovecraftian masterpiece. Despite being one of the late-career treasures, it's still not talked about enough.
 
 ## 4. Trick 'r Treat (2007)
 
-Cadılar Bayramı temalı antoloji filmi. Stüdyo tarafından üç yıl raftan indirilmedi ama artık her Ekim ayında yeniden keşfediliyor.
+Halloween-themed anthology film. It was shelved by the studio for three years but is now rediscovered every October.
 
 ## 5. The Descent (2005)
 
-Neil Marshall'ın klostrofobik mağara kâbusu. Türün 2000'ler için tanımlayıcı yapımlarından biri olmasına rağmen ana akım tartışmalarda hâlâ hafife alınıyor.
+Neil Marshall's claustrophobic cave nightmare. Despite being one of the defining productions of the genre for the 2000s, it is still underestimated in mainstream discussions.
 
 ## 6. Frailty (2001)
 
-Bill Paxton'ın yönetmen olarak başyapıtı. Din, aile ve seri katillik temalarını sarsıcı bir denge içinde sunuyor.
+Bill Paxton's directorial masterpiece. It presents themes of religion, family, and serial killing in a shocking balance.
 
 ## 7. Cure (1997)
 
-Kiyoshi Kurosawa'nın psikolojik gerilim şaheseri. Batı seyircisinden çok Doğu sinemasının merkezinde konumlanan bir eser.
+Kiyoshi Kurosawa's psychological thriller masterpiece. A work positioned at the heart of Eastern cinema rather than for Western audiences.
 
 ## 8. Prince of Darkness (1987)
 
-Carpenter'ın "kıyamet üçlemesi"nin ortadaki halkası. Kuantum fiziği ve kadim şeytan mitolojisini birleştiren cesur bir metin.
+The middle link in Carpenter's "Apocalypse Trilogy." A bold text combining quantum physics and ancient demon mythology.
 
 ## 9. The Reflecting Skin (1990)
 
-Philip Ridley'in gotik ve şiirsel korku denemesi. Rüya gibi görüntüleri ve rahatsız edici temasıyla eşsiz.
+Philip Ridley's gothic and poetic horror experiment. Unique with its dreamlike imagery and disturbing theme.
 
 ## 10. Angel Heart (1987)
 
-Alan Parker'ın neo-noir ve okült korkuyu buluşturduğu yapım. Robert De Niro ve Mickey Rourke'un unutulmaz performanslarıyla.`,
+Alan Parker's production that brings together neo-noir and occult horror. With unforgettable performances by Robert De Niro and Mickey Rourke.`,
     image: img2,
     source: "WhatCulture",
   },
   {
     slug: "kotu-olacagi-belli-son-donem-filmleri",
-    title: "Kötü Olacağı Herkes Tarafından Bilinen 10 Yeni Film",
-    excerpt: "Fragmanı yayınlandığı andan itibaren felaket sinyalleri veren, sinemaseverlerin ve eleştirmenlerin daha vizyona girmeden yerden yere vurduğu son dönemin en tartışmalı yapımları.",
-    body: `Bazı filmler daha ilk fragmanları düştüğü an, herkes tarafından "bu iş olmayacak" damgası yer. Ne yazık ki bazen tahminler doğru çıkar, bazen ise stüdyolar bu erken sinyalleri görmezden gelir. İşte 2025-2026 döneminin en çok tartışılan, çoğunun kaderi baştan yazılmış on yapımı.
+    title: "10 New Movies Everyone Knows Will Be Bad",
+    excerpt: "One of the most controversial productions of recent times, which gave disaster signals from the moment its trailer was released, and was slammed by moviegoers and critics even before its release.",
+    body: `Some films are branded "this won't work" by everyone the moment their first trailers drop. Unfortunately, sometimes predictions come true, and sometimes studios ignore these early signals. Here are ten productions from the 2025-2026 period that have been most debated, many of which had their fates rewritten from the start.
 
 ## 1. Scream 7
 
-Serinin baş oyuncularının ayrılması sonrası çekilen film, senaryo sızıntılarıyla hayranları çoktan hayal kırıklığına uğrattı.
+The film, shot after the departure of the series' main actors, has already disappointed fans with script leaks.
 
 ## 2. Madame Web
 
-Sony'nin Spider-Man evreninin bir başka çıkmaz sokağı. Dakota Johnson bile filmden röportajlarda uzaklaştı.
+Another dead end for Sony's Spider-Man universe. Even Dakota Johnson distanced herself from the film in interviews.
 
 ## 3. Argylle
 
-Matthew Vaughn'un "büyük twist" vaadi, boş bir dumana dönüştü. Fragmanının kendisi bile karışıklık yaydı.
+Matthew Vaughn's "big twist" promise turned into empty smoke. Even its trailer spread confusion.
 
 ## 4. Borderlands
 
-Eli Roth'un video oyunu uyarlaması, oyun hayranlarını ve sinema izleyicisini aynı anda kırdı.
+Eli Roth's video game adaptation simultaneously broke game fans and moviegoers.
 
 ## 5. The Marvels
 
-MCU yorgunluğunun en somut örneği. Vizyona girmeden önce bile pazarlama ekibinin sessizliği kötü işaretti.
+The most concrete example of MCU fatigue. Even before its release, the marketing team's silence was a bad sign.
 
 ## 6. Rebel Moon: Part Two
 
-Zack Snyder'ın Netflix için hazırladığı sci-fi devamı, birinci filmden bile zayıf eleştiriler aldı.
+Zack Snyder's sci-fi sequel for Netflix received even weaker reviews than the first film.
 
 ## 7. Kraven the Hunter
 
-Sony'nin kötü adam filmleri serisinin devamı. R sertifikası bile filmi kurtarmaya yetmedi.
+Sony's villain movie series continues. Even an R rating wasn't enough to save the film.
 
 ## 8. Trap
 
-M. Night Shyamalan'ın son çıkışı. Konsept iddialıydı ama uygulama seyirciyi yorucu bir gecikmeye mahkûm etti.
+M. Night Shyamalan's latest outing. The concept was ambitious, but the execution condemned the audience to a tiresome delay.
 
 ## 9. Bad Boys: Ride or Die
 
-Serinin nostaljik enerjisi tükenmiş görünüyor. Fragmanın kötü CGI'ı bir uyarıydı.
+The series' nostalgic energy seems to have run out. The trailer's bad CGI was a warning.
 
 ## 10. Snow White (Live Action)
 
-Disney'in klasik animasyonlarını canlı çekim olarak yeniden çevirme çabası, bu yapımla belki de en dibi gördü.`,
+Disney's effort to remake its classic animations as live-action films perhaps hit rock bottom with this production.`,
     image: img3,
     source: "WhatCulture",
   },
   {
     slug: "2020lerin-en-uc-korku-filmleri",
-    title: "2020'lerin En Sıra Dışı 10 Korku Filmi",
-    excerpt: "Şimdiye kadar 2020'lerin en cesur, en tartışmalı ve en sıra dışı korku yapımları. Türün sınırlarını zorlayan, seyirciyi rahatsız etmekten çekinmeyen on film.",
-    body: `2020'lerin ilk yarısı, korku sineması için beklenmedik bir rönesans dönemi oldu. Bağımsız yapımların Blumhouse ve A24 gibi stüdyolarla popülerleşmesi, tür sinemasının "sıra dışı"nın peşine düşmesini sağladı. İşte bu on yılın şu ana kadarki en uç, en akılda kalan on korku yapımı.
+    title: "10 Most Unusual Horror Films of the 2020s",
+    excerpt: "The boldest, most controversial, and most unusual horror productions of the 2020s so far. Ten films that push the boundaries of the genre and are not afraid to disturb the audience.",
+    body: `The first half of the 2020s has been an unexpected renaissance for horror cinema. The popularization of independent productions with studios like Blumhouse and A24 has allowed genre cinema to pursue the "unusual." Here are the ten most extreme, most memorable horror productions of this decade so far.,
 
 ## 1. Titane (2021)
 
-Julia Ducournau'nun Cannes Altın Palmiye ödüllü yapımı. Beden korkusunu, cinsiyet kimliğini ve aileyi yeniden tanımlayan sarsıcı bir film.
+Julia Ducournau's Cannes Palme d'Or-winning production. A shocking film that redefines body horror, gender identity, and family.
 
 ## 2. Lamb (2021)
 
-İzlanda yapımı bu folk-horror, yavaş yanan atmosferi ve şok edici finaliyle akıllardan çıkmıyor.
+This Icelandic folk-horror is unforgettable with its slow-burn atmosphere and shocking finale.
 
 ## 3. Longlegs (2024)
 
-Nicolas Cage'in ürkütücü performansıyla dolu, 90'lar polisiye estetiğini okült korkusuyla harmanlayan gişe sürprizi.
+Box office surprise full of Nicolas Cage's terrifying performance, blending 90s detective aesthetic with occult horror.
 
 ## 4. Terrifier 3 (2024)
 
-Palyaço Art'ın Noel temalı katliamı. Efekt sinemasının fiziksel yapımlarına dair güçlü bir manifesto.
+Art the Clown's Christmas-themed massacre. A powerful manifesto for practical effects cinema.
 
 ## 5. The Substance (2024)
 
-Coralie Fargeat'nın beden korkusu şaheseri. Hollywood'un yaşlanma korkusunu grotesk bir alegoriye dönüştürüyor.
+Coralie Fargeat's body horror masterpiece. It turns Hollywood's fear of aging into a grotesque allegory.
 
 ## 6. Skinamarink (2022)
 
-Küçük bütçesine rağmen tarz denemesiyle tartışma yaratan, çocukluk kâbuslarına dair minimalist bir deneyim.
+Despite its small budget, a minimalist experience about childhood nightmares that sparked debate with its stylistic experimentation.
 
 ## 7. Men (2022)
 
-Alex Garland'ın feminist folk-horror yorumu. Finali türün en tartışılan sekanslarından biri.
+Alex Garland's feminist folk-horror interpretation. Its ending is one of the genre's most debated sequences.
 
 ## 8. Infinity Pool (2023)
 
-Brandon Cronenberg'in babasının izinden yürüdüğü psikedelik ve sınırları zorlayan bir tatil kâbusu.
+Brandon Cronenberg's psychedelic and boundary-pushing vacation nightmare, following in his father's footsteps.
 
 ## 9. In My Mother's Skin (2023)
 
-Filipin yapımı bu masalsı korku, II. Dünya Savaşı arka planında geçen özgün bir peri masalı.
+This Filipino-made fairytale horror is an original fairytale set against the backdrop of World War II.
 
 ## 10. Immaculate (2024)
 
-Sydney Sweeney'in başrolde olduğu, dinî korku temasını modern bir bakışla ele alan yapım.`,
+A production starring Sydney Sweeney, which tackles the theme of religious horror with a modern perspective.`,
     image: img4,
     source: "WhatCulture",
   },
   {
     slug: "2026-en-cok-beklenen-filmler",
-    title: "2026'nın Geri Kalanında En Çok Beklenen 10 Film",
-    excerpt: "Yılın ikinci yarısında sinemalara gelecek en heyecan verici yapımlar. Büyük stüdyo devam filmlerinden auteur işlerine, 2026'nın kalanına damga vurmaya aday on film.",
-    body: `2026, sinema takvimi açısından son yılların en dolu dönemlerinden biri olmaya aday. Ertelenen büyük stüdyo yapımlarının nihayet vizyona girmesi, büyük auteurlerin yeni işleri ve festival dönemlerinden gelen sürprizlerle takvim taşıyor. İşte yılın kalanında en çok konuşulacak on film.
+    title: "10 Most Anticipated Movies for the Rest of 2026",
+    excerpt: "The most exciting productions coming to cinemas in the second half of the year. From big studio sequels to auteur works, ten films poised to make their mark on the rest of 2026.",
+    body: `2026 is shaping up to be one of the busiest periods for the cinema calendar in recent years. The calendar is packed with long-delayed major studio productions finally hitting theaters, new works from great auteurs, and surprises from festival seasons. Here are the ten most talked-about films for the rest of the year.,
 
 ## 1. Avatar: Fire and Ash
 
-James Cameron'un serinin üçüncü halkası. Pandora'nın "kül klanı"nı tanıtacak olan yapım, yılın kesin gişe fenomeni.
+James Cameron's third installment in the series. The production, which will introduce Pandora's "ash clan," is definitely the box office phenomenon of the year.
 
 ## 2. Dune: Part Three
 
-Denis Villeneuve, Frank Herbert'in *Dune Messiah*'ını beyaz perdeye taşıyor. Timothée Chalamet'nin Paul'ü artık bambaşka bir yerde.
+Denis Villeneuve brings Frank Herbert's *Dune Messiah* to the big screen. Timothée Chalamet's Paul is now in a completely different place.
 
 ## 3. The Odyssey
 
-Christopher Nolan'ın Homeros uyarlaması. IMAX kamerayla çekilen ilk mitolojik destan olma iddiasında.
+Christopher Nolan's adaptation of Homer. Claims to be the first mythological epic shot with an IMAX camera.
 
 ## 4. Bugonia
 
-Yorgos Lanthimos'un Emma Stone ile üçüncü iş birliği. Güney Kore filmi *Save the Green Planet* yeniden yorumu.
+Yorgos Lanthimos's third collaboration with Emma Stone. A reinterpretation of the South Korean film *Save the Green Planet*.
 
 ## 5. Zootopia 2
 
-Disney animasyon stüdyosunun en başarılı orijinal serisinin devamı. Yıl sonu aile filmi tahtı için güçlü aday.
+Sequel to Disney animation studio's most successful original series. A strong contender for the year-end family film throne.
 
 ## 6. Wicked: For Good
 
-Müzikalin ikinci bölümü. Cynthia Erivo ve Ariana Grande'nin performansları Oscar tartışmalarında yeniden gündemde olacak.
+The second part of the musical. Cynthia Erivo and Ariana Grande's performances will be back on the agenda in Oscar discussions.
 
 ## 7. The Bride!
 
-Maggie Gyllenhaal'ın Frankenstein'ın Gelini yeniden yorumu. Christian Bale ve Jessie Buckley başrollerde.
+Maggie Gyllenhaal's reinterpretation of Bride of Frankenstein. Christian Bale and Jessie Buckley in the lead roles.
 
 ## 8. Frankenstein
 
-Guillermo del Toro'nun uzun yıllardır beklenen tutku projesi. Netflix aracılığıyla sinemalara ve platforma gelecek.
+Guillermo del Toro's long-awaited passion project. Coming to theaters and the platform via Netflix.
 
 ## 9. Michael
 
-Antoine Fuqua imzalı Michael Jackson biyografi filmi. Yasal engeller nedeniyle ertelenen projenin nihayet vizyon tarihi belli.
+Antoine Fuqua's Michael Jackson biopic. The project, delayed due to legal hurdles, finally has a release date.
 
 ## 10. After the Hunt
 
-Luca Guadagnino'nun Julia Roberts ve Ayo Edebiri'yi buluşturan akademik gerilimi. Venedik'ten sonra Oscar sezonunda güçlü bir kart.`,
+Luca Guadagnino's academic thriller bringing together Julia Roberts and Ayo Edebiri. A strong contender in the Oscar season after Venice.`,
     image: img5,
     source: "WhatCulture",
   },
   {
     slug: "2026-nin-simdiye-kadar-en-iyi-tv-dizileri",
-    title: "2026'nın Şimdiye Kadar En İyi TV Dizileri",
-    excerpt: "2026'nın ilk altı ayında öne çıkan ve türleri harmanlayan, kaygıları mizahla ve özgün hikâyelerle işleyen en güçlü TV dizileri.",
-    body: `Bu liste Rolling Stone'un "The Best TV Shows of 2026 So Far" yazısından esinlenerek hazırlandı. 2026'nın ilk yarısında dikkat çeken diziler, çoğunlukla endişe, kimlik ve iş dünyasının gerginliğini işlerken aynı zamanda sürprizli mizah ve orijinal anlatılar sunuyor.
+    title: "The Best TV Shows of 2026 So Far",
+    excerpt: "The most powerful TV series that stood out in the first six months of 2026, blending genres and addressing anxieties with humor and original stories.",
+    body: `This list was inspired by Rolling Stone's "The Best TV Shows of 2026 So Far" article. The standout series from the first half of 2026, while mostly dealing with anxiety, identity, and the tensions of the business world, also offer surprising humor and original narratives.
 
 ## 1. ‘A Knight of the Seven Kingdoms’ (HBO)
 
-*Game of Thrones* evrenine geçen bu spin-off, epik ihtişamdan çok Dunk ve Egg'in aynı zamanda komik, samimi maceralarına odaklanıyor. Hikâye, resmi destanın kenarında özgürce dolaşırken HBO'nun fantastik dünyasında yeni bir nefes gibi geliyor.
+This spin-off, set in the *Game of Thrones* universe, focuses less on epic grandeur and more on the simultaneously humorous and heartfelt adventures of Dunk and Egg. The story feels like a breath of fresh air in HBO's fantasy world, freely roaming on the periphery of the official saga.
 
 ## 2. ‘Bait’ (Prime)
 
-Riz Ahmed'in başrolündeki bu yapım, James Bond rolüne aday bir aktörün kimlik, utanç ve kişisel değerlerle boğuşmasını incelikle işliyor. Britanya sinemasına özgün bir kara mizah havası katıyor.
+This Riz Ahmed-led production subtly explores an actor's struggle with identity, shame, and personal values as he vies for the role of James Bond. It adds a unique dark humor to British cinema.
 
 ## 3. ‘Beef’ Sezon 2 (Netflix)
 
-İlk sezonun karanlık ve keskin mizahını sürdüren bu devam, beklenmedik çatışmaların ve modern öfkenin toplumdaki yankılarını daha da güçlü yansıtıyor. Karakterlerin iç dünya kırılmaları izleyiciye yüksek tansiyonlu bir deneyim sunuyor.
+This continuation, maintaining the dark and sharp humor of the first season, reflects the echoes of unexpected conflicts and modern rage in society even more powerfully. The characters' internal breakdowns offer viewers a high-tension experience.
 
 ## 4. ‘Big Mistakes’ (Netflix)
 
-Güç, medya ve ceza adaleti üzerinden ilerleyen bu iş, hataların nasıl büyük bir sarmala dönüşebileceğini anlatıyor. Ağır tonu yanlış anlaşılmadan uzak, mizahı ve gerilimi dengeli tutan bir yapım.
+This work, progressing through power, media, and criminal justice, tells how mistakes can turn into a large spiral. Its serious tone is far from being misunderstood, and it maintains a balanced humor and tension.
 
 ## 5. ‘The Comeback’ Sezon 3 (HBO)
 
-Dizi dünyasının acımasızlığına ve yeniden doğma çabasına bir gönderme olarak geri dönen bu sezon, karakterin kamera karşısındaki düşüşünü ve aynı zamanda yeniden yükselişini trajikomik bir dille sunuyor.
+Returning as a reference to the ruthlessness of the series world and the effort to be reborn, this season presents the character's fall in front of the camera and their subsequent rise in a tragicomic tone.
 
 ## 6. ‘The Fall and Rise of Reggie Dinkins’ (NBC)
 
-Kamu hizmeti, medya ve siyasi kariyer arasında sıkışan bir karakterin hikâyesi. NBC formatına rağmen yapım cesur bir siyasi hiciv ve kimlik sorgulaması sunuyor.
+The story of a character caught between public service, media, and a political career. Despite its NBC format, the production offers bold political satire and an exploration of identity.
 
 ## 7. ‘Hacks’ Sezon 5 (Max)
 
-Komedi yazarlığının acımasız dünyasına giren bu sezon, kuşak çatışmalarını ve yaratıcılık baskısını hicivsel ama yumuşak bir tonla işliyor. Max için klasik bir hit olmaya devam ediyor.
+"Entering the cutthroat world of comedy writing, this season tackles generational clashes and the pressure of creativity with a satirical yet gentle tone. It remains a classic hit for Max."
 
 ## 8. ‘Industry’ Sezon 4 (HBO)
 
-Finans dünyasının acımasız rekabetini gösteren bu sezon, genç profesyonellerin ahlaki sınırları zorlamasını ve başarı uğruna nasıl değiştiğini gözler önüne seriyor.
+This season, showcasing the ruthless competition of the financial world, reveals how young professionals push moral boundaries and change in pursuit of success.
 
 ## 9. ‘Margo’s Got Money Troubles’ (Apple TV)
 
-Apple TV'nin genç yetişkin komedisi, borç ve yetişkinlik kaygısını renkli ve akıcı bir dille anlatıyor. Margo'nun maddi sorunları, beklenmedik mizah ve samimiyetle birleştiriliyor.
+Apple TV's young adult comedy tells the story of debt and adult anxiety in a colorful and fluid language. Margo's financial problems are combined with unexpected humor and sincerity.
 
 ## 10. ‘The Pitt’ Sezon 2 (HBO Max)
 
-Hastane draması ile kurumsal çatışmayı harmanlayan bu sezon, sağlık sektörünün kaosu ve insanî öykülerini güçlü karakterler üzerinden anlatıyor.
+This season, blending hospital drama with corporate conflict, tells the chaotic and human stories of the healthcare sector through strong characters.
 
 ## 11. ‘Widow’s Bay’ (Apple TV)
 
-Sinister bir kıyı kasabasına yerleşen yeni dul karakterlerin etrafında dönen bu gizem dizisi, gerilimi yavaş yavaş yükselten atmosferiyle etkileyici bir gerilim sunuyor.
+This mystery series, revolving around new widow characters settling in a sinister coastal town, offers a compelling thriller with an atmosphere that slowly builds tension.
 
 ## 12. ‘Wonder Man’ (Disney+)
 
-Süper kahraman formatına meta bir bakış getiren bu dizi, Hollywood ve üretim endüstrisi içindeki kimlik bunalımlarını zekice işliyor. Disney+ için hem eğlenceli hem düşündürücü bir seçenek.
+This series, which offers a meta-perspective on the superhero format, cleverly explores identity crises within Hollywood and the production industry. It's both an entertaining and thought-provoking option for Disney+.
 
-Kaynak: Rolling Stone – "The Best TV Shows of 2026 So Far".
+Source: Rolling Stone – "The Best TV Shows of 2026 So Far".
 `,
     image: "https://www.rollingstone.com/wp-content/uploads/2026/06/Best-TV-so-far-2026.jpg?w=1581&h=1054&crop=1",
     source: "Rolling Stone",
   },
   {
     slug: "2026-yilinin-en-iyi-10-filmi",
-    title: "2026'nın (Şimdiye Kadar) En İyi 10 Filmi",
-    excerpt: "Korkudan animasyona, uzay macerasından belgesele: Entertainment Weekly'nin 2026'nın ilk yarısında öne çıkardığı on filmlik seçki.",
-    body: `2026, sinema için sürprizlerle dolu bir yıl oldu. *Sinners* Oscar'da En İyi Film ödülünü kaptı, *Obsession* düşük bütçesine rağmen fenomen haline geldi, *Toy Story 5* franchise rekorunu kırdı. Entertainment Weekly'nin editörlerinin yılın ilk yarısı için seçtiği on filmi Türkçeye çevirdik.
+    title: "The 10 Best Films of 2026 (So Far)",
+    excerpt: "From horror to animation, space adventure to documentary: Entertainment Weekly's selection of ten films highlighted in the first half of 2026.",
+    body: `2026 has been a year full of surprises for cinema. *Sinners* snatched the Best Picture Oscar, *Obsession* became a phenomenon despite its low budget, *Toy Story 5* broke franchise records. We've translated Entertainment Weekly's editors' selection of ten films for the first half of the year.
 
 ## 1. 28 Years Later: The Bone Temple
 
-Nia DaCosta, Danny Boyle'un vizyoner devam filmini kendi karanlık ve gotik estetiğiyle sürdürüyor. Ralph Fiennes'in Dr. Kelson'ı yılın en unutulmaz karakterlerinden.
+Nia DaCosta continues Danny Boyle's visionary sequel with her own dark and gothic aesthetic. Ralph Fiennes' Dr. Kelson is one of the year's most unforgettable characters.
 
 ## 2. The Drama
 
-Kristoffer Borgli'nin yönettiği, Zendaya ve Robert Pattinson'ı buluşturan bu A24 yapımı, sarsıcı twist'iyle ve düğün öncesi tempoyla akıllardan çıkmıyor.
+Directed by Kristoffer Borgli, this A24 production, bringing together Zendaya and Robert Pattinson, remains unforgettable with its shocking twist and pre-wedding tempo.
 
 ## 3. EPiC: Elvis Presley in Concert
 
-Baz Luhrmann, Elvis'in Vegas rezidansını daha önce görülmemiş görüntüler ve ses kayıtlarıyla yeniden inşa ediyor. Kralın kendi ağzından bir belgesel.
+Baz Luhrmann reconstructs Elvis's Vegas residency with never-before-seen footage and audio recordings. A documentary from the King's own mouth.
 
 ## 4. The Invite
 
-Olivia Wilde'ın Seth Rogen, Penélope Cruz ve Edward Norton'la çektiği bu oda tiyatrosu; komşuluk, evlilik ve arzu üzerine cesur bir sohbet.
+This chamber play by Olivia Wilde, starring Seth Rogen, Penélope Cruz, and Edward Norton; is a bold conversation about neighborhood, marriage, and desire.
 
 ## 5. Obsession
 
-Curry Barker'ın YouTube kökenli yönetmenliği, düşük bütçeli korku filmlerine olan iştahı yeniden alevlendirdi. Inde Navarrette'in bakışı yılın en tedirgin edici performansı.
+Curry Barker's YouTube-rooted direction reignited the appetite for low-budget horror films. Inde Navarrette's gaze is the year's most unsettling performance.
 
 ## 6. Omaha
 
-John Magaro'nun oynadığı, eşini kaybetmiş bir babanın iki çocuğuyla yaptığı yol hikâyesi. *Past Lives*'tan sonra Magaro kariyerinin en yıkıcı performanslarından birini veriyor.
+Starring John Magaro, this is a road trip story of a father who lost his wife, with his two children. After *Past Lives*, Magaro delivers one of the most devastating performances of his career.
 
 ## 7. Project Hail Mary
 
-Ryan Gosling, Andy Weir uyarlamasında bir öğretmenin galaksinin kaderini kurtarma yolculuğunu üstleniyor. Merak ve umut dolu bir uzay macerası.
+Ryan Gosling takes on the journey of a teacher saving the galaxy's fate in this Andy Weir adaptation. A space adventure full of wonder and hope.
 
 ## 8. Send Help
 
-Yaz aylarının en ilgi çekici bağımsız korku çıkışlarından biri. Türe minimalist bir tazelik getiriyor.
+One of the most intriguing independent horror releases of the summer. It brings a minimalist freshness to the genre.
 
 ## 9. Sinners
 
-Ryan Coogler'ın vampir filmi, Oscar'ı kazandıktan sonra hâlâ konuşulmaya devam ediyor. Michael B. Jordan'ın çift rolü performansların zirvesinde.
+Ryan Coogler's vampire film is still being talked about after winning the Oscar. Michael B. Jordan's dual role is at the peak of performances.
 
 ## 10. Toy Story 5
 
-Pixar'ın franchise tarihinin en büyük açılışını yapan filmi. Jessie'nin öne çıktığı bu bölüm, oyuncakların dijital çağla imtihanını anlatıyor.
+Pixar's film made the biggest opening in franchise history. This installment, featuring Jessie prominently, tells the story of toys' struggle with the digital age.
 
-Kaynak: Entertainment Weekly – "The 10 Best Movies of 2026 (So Far)".`,
+Source: Entertainment Weekly – "The 10 Best Movies of 2026 (So Far)".`,
     image: ewMovies.url,
     source: "Entertainment Weekly",
   },
   {
     slug: "en-gerilimli-suc-thrillerlari",
-    title: "Tüm Zamanların En Gerilimli 30 Suç Thriller'ı",
-    excerpt: "Klasik noir'lardan çağdaş şoklara: Hitchcock, Fincher ve Bong Joon Ho gibi ustaların imzasını taşıyan, gerilimin doruğunda dolaşan otuz film.",
-    body: `İyi bir suç thriller'ı bizi tehlikeli, yüksek riskli bir durumun tam ortasına yerleştirir; ama yasayı çiğnemenin bedeliyle yüzleşmek zorunda bırakmaz. Karmaşık kurgular, ahlaki ikilemler ve gri karakterlerle inşa edilen bu filmler, toplumun karanlık yüzüne bir bakış sunar. İşte Entertainment Weekly'nin derlediği, türün doruklarında dolaşan 30 filmden öne çıkan başlıklar.
+    title: "The 30 Most Tense Crime Thrillers of All Time",
+    excerpt: "From classic noirs to contemporary shocks: Thirty films signed by masters like Hitchcock, Fincher, and Bong Joon Ho, navigating the peak of suspense.",
+    body: `A good crime thriller places us right in the middle of a dangerous, high-stakes situation; but it doesn't force us to face the consequences of breaking the law. Built with complex plots, moral dilemmas, and gray characters, these films offer a glimpse into the dark side of society. Here are prominent titles from 30 films compiled by Entertainment Weekly, navigating the heights of the genre.
 
 ## 1. Memories of Murder (2003)
 
-Bong Joon Ho'nun gerçek bir seri katil vakasını anlattığı bu Kore klasiği; yetersizlik, öfke ve umutsuzluğu bir polisiye çerçevesine oturtuyor.
+This Korean classic by Bong Joon Ho, which tells the true story of a serial killer, frames inadequacy, anger, and despair within a detective story.
 
 ## 2. Chinatown (1974)
 
-Roman Polanski'nin yönettiği bu neo-noir başyapıtı, Jack Nicholson'un ikonik performansıyla Los Angeles'ın su ihalelerinin ardındaki çürümüşlüğü ifşa ediyor.
+Roman Polanski's neo-noir masterpiece, with Jack Nicholson's iconic performance, exposes the corruption behind Los Angeles' water deals.
 
 ## 3. Seven (1995)
 
-David Fincher'ın yedi ölümcül günahı yılın en karanlık polisiye kâbusuna dönüştüren yapımı. Morgan Freeman ve Brad Pitt'in kimyası tartışılmaz.
+David Fincher's production that turns the seven deadly sins into the darkest detective nightmare of the year. The chemistry between Morgan Freeman and Brad Pitt is undeniable.
 
 ## 4. Zodiac (2007)
 
-Yine Fincher'dan, obsesyonun bir gazeteciyi ve polisleri nasıl tükettiğini anlatan sabırlı, titiz ve rahatsız edici bir başyapıt.
+Another Fincher masterpiece, a patient, meticulous, and disturbing work that shows how obsession consumes a journalist and the police.
 
 ## 5. Elevator to the Gallows (1958)
 
-Louis Malle'in ilk uzun metrajı, Miles Davis'in doğaçlama saksafonu eşliğinde bir cinayet planının çözülüşünü izliyor.
+Louis Malle's debut feature follows the unraveling of a murder plot, accompanied by Miles Davis's improvised saxophone.
 
 ## 6. The Silence of the Lambs (1991)
 
-Anthony Hopkins ve Jodie Foster'ın buluşması, Oscar'ın en büyük beşlisini kazanan tek korku-thriller karışımını ortaya çıkardı.
+The meeting of Anthony Hopkins and Jodie Foster created the only horror-thriller blend to win the big five Oscars.
 
 ## 7. Rear Window (1954)
 
-Hitchcock'un komşusunun cinayetine tanık olduğunu düşünen bir fotoğrafçıyı anlattığı, tek mekân gerilimin ders kitabı örneği.
+Hitchcock's textbook example of single-location suspense, about a photographer who believes he witnessed his neighbor's murder.
 
 ## 8. No Country for Old Men (2007)
 
-Coen Kardeşler'in Cormac McCarthy uyarlaması; Anton Chigurh'un varlığı türe yeni bir kötü adam arketipi kazandırdı.
+The Coen Brothers' adaptation of Cormac McCarthy; Anton Chigurh's presence brought a new villain archetype to the genre.
 
 ## 9. Prisoners (2013)
 
-Denis Villeneuve'ün Hugh Jackman ve Jake Gyllenhaal'ı buluşturan uzun, ıslak, karanlık gerilimi. Ahlaki sınırların nerede biteceğini sorgulatıyor.
+Denis Villeneuve's long, wet, dark thriller starring Hugh Jackman and Jake Gyllenhaal. It makes us question where moral boundaries end.
 
-## 10. Listenin geri kalanı
+## 10. The rest of the list
 
 *The Departed*, *Nightcrawler*, *Gone Girl*, *Mystic River*, *L.A. Confidential*, *Heat*, *The French Connection*, *Blue Ruin*, *Drive*, *A Simple Plan*, *Fargo*, *Blood Simple*, *The Long Goodbye*, *Klute*, *Vertigo*, *Strangers on a Train*, *Insomnia*, *The Vanishing*, *Cure*, *Memento* ve *The Third Man*.
 
-Kaynak: Entertainment Weekly – "The 30 Most Suspenseful Crime Thrillers of All Time, Ranked".`,
+Source: Entertainment Weekly – "The 30 Most Suspenseful Crime Thrillers of All Time, Ranked".`,
     image: ewThrillers.url,
     source: "Entertainment Weekly",
   },
   {
     slug: "2026-en-iyi-tv-dizileri-ew",
-    title: "2026'nın (Şimdiye Kadar) En İyi 10 TV Dizisi",
-    excerpt: "The Pitt'ten Widow's Bay'e, Hacks'ten Industry'ye: Entertainment Weekly'nin 2026'nın ilk yarısı için seçtiği on TV dizisi.",
-    body: `Küçük ekran 2026'nın ilk yarısında hem yeni yapımlarla hem de güçlü devam sezonlarıyla doldu. Sterling K. Brown'ın *Paradise*'ı, Jean Smart'ın *Hacks*'i, Myha'la'nın *Industry*'si ve Sam Reid'in *Interview with the Vampire*'ı sezonun konuşulanları arasında.
+    title: "The 10 Best TV Shows of 2026 (So Far)",
+    excerpt: "From The Pitt to Widow's Bay, Hacks to Industry: Entertainment Weekly's top ten TV shows for the first half of 2026.",
+    body: `The small screen was packed with both new productions and strong returning seasons in the first half of 2026. Sterling K. Brown's *Paradise*, Jean Smart's *Hacks*, Myha'la's *Industry*, and Sam Reid's *Interview with the Vampire* are among the season's most talked-about shows.
 
 ## 1. The Pitt (Max)
 
-Hastane draması formatını gerçek zamanlı, tek mekân gerilimiyle yeniden icat eden dizi. Noah Wyle kariyerinin en olgun performansını sergiliyor.
+This series reinvents the hospital drama format with real-time, single-location suspense. Noah Wyle delivers the most mature performance of his career.
 
 ## 2. Paradise (Hulu)
 
-Sterling K. Brown'ın başrolde olduğu bu politik thriller, ilk bölümdeki twist'iyle yılın en çok tartışılan pilot bölümünü verdi.
+Starring Sterling K. Brown, this political thriller delivered the year's most debated pilot episode with its first-episode twist.
 
 ## 3. Hacks (Max)
 
-Deborah Vance ve Ava'nın ilişkisi bu sezon en karanlık yerine ulaşıyor. Jean Smart'ın Emmy zaferi kesin görünüyor.
+Deborah Vance and Ava's relationship reaches its darkest point this season. Jean Smart's Emmy win seems certain.
 
 ## 4. Industry (HBO)
 
-Finansın acımasız dünyası, dördüncü sezonda yeni bir odaklamayla karakterlerin ahlaki çöküşünü daha da derinleştiriyor.
+The ruthless world of finance, with a new focus in its fourth season, further deepens the moral decay of its characters.
 
 ## 5. Interview with the Vampire (AMC)
 
-Sam Reid'in Lestat'ı, Anne Rice uyarlamasının şimdiye kadarki en iyi ekran versiyonu olarak selamlanıyor.
+Sam Reid's Lestat is hailed as the best screen adaptation of Anne Rice's work to date.
 
 ## 6. The Studio (Apple TV+)
 
-Seth Rogen'in yönettiği ve başrolde olduğu bu Hollywood hiciv dizisi, endüstrinin absürtlüğünü acımasızca kanıtlıyor.
+Directed by and starring Seth Rogen, this Hollywood satire brutally proves the absurdity of the industry.
 
 ## 7. Severance (Apple TV+)
 
-İkinci sezon uzun beklemeye değdi. Ben Stiller'ın estetiği ve Dan Erickson'ın senaryosu türü yeniden şekillendirmeye devam ediyor.
+The second season was worth the long wait. Ben Stiller's aesthetic and Dan Erickson's script continue to reshape the genre.
 
 ## 8. The White Lotus (HBO)
 
-Mike White'ın üçüncü sezonu Tayland'a taşındı. Ensemble kadrosu ve sosyal keskinliği yine yerinde.
+Mike White's third season moved to Thailand. Its ensemble cast and social sharpness are once again spot on.
 
 ## 9. Widow's Bay (Apple TV+)
 
-Yılın en büyük sürprizi. Kıyı kasabasında geçen mistik gerilim, atmosferi kadar karakterleriyle de bağlılık kuruyor.
+The biggest surprise of the year. This mystical thriller set in a coastal town connects with its characters as much as its atmosphere.
 
 ## 10. Andor (Disney+)
 
-İkinci ve son sezon, *Star Wars* evreninin bugüne kadarki en yetişkin yapımı olarak tarihe geçiyor.
+The second and final season goes down in history as the most adult production in the *Star Wars* universe to date.
 
-Kaynak: Entertainment Weekly – "The 10 Best TV Shows of 2026 (So Far)".`,
+Source: Entertainment Weekly – "The 10 Best TV Shows of 2026 (So Far)".`,
     image: ewTv.url,
     source: "Entertainment Weekly",
   },
   {
     slug: "tum-zamanlarin-en-iyi-25-rock-sarkisi",
-    title: "Tüm Zamanların En İyi 25 Rock Şarkısı",
-    excerpt: "Prince'ten Led Zeppelin'e, The Beatles'tan Nirvana'ya: türün kalbini oluşturan, isyanı ve gürültüyü hiç kaybetmemiş 25 rock klasiği.",
-    body: `Rock & roll özünde statükoya bir başkaldırıdır — gürültü çıkarmaktan, kaos yaratmaktan çekinmeyen bir isyan hali. Bu yüzden "tüm zamanların en iyi rock şarkıları" listesi hazırlamak biraz çelişkili bir iş. Ama Entertainment Weekly bu göreve girişti ve tür tarihine damga vurmuş 25 şarkıyı seçti.
+    title: "The 25 Best Rock Songs of All Time",
+    excerpt: "From Prince to Led Zeppelin, The Beatles to Nirvana: 25 rock classics that form the heart of the genre, never losing their rebellion and noise.",
+    body: `Rock & roll is, at its core, a rebellion against the status quo — a state of defiance that isn't afraid to make noise and create chaos. That's why compiling a list of "the best rock songs of all time" is a somewhat contradictory task. But Entertainment Weekly took on this challenge and selected 25 songs that have left their mark on the genre's history.
 
 ## 1. "Let's Go Crazy" — Prince
 
-*Purple Rain* açılışı; funk, rock ve gospel'in mükemmel buluşması. Prince'in dizüstü çıkışı hâlâ tüylerinizi diken diken ediyor.
+The *Purple Rain* opener; a perfect fusion of funk, rock, and gospel. Prince's knee-slide entrance still gives you goosebumps.
 
 ## 2. "Smells Like Teen Spirit" — Nirvana
 
-90'ların bir kuşağın manifestosu. Butch Vig'in produksiyonu ve Kurt Cobain'in ses kırılmaları hâlâ taze.
+The manifesto of a generation in the 90s. Butch Vig's production and Kurt Cobain's vocal breaks still sound fresh.
 
 ## 3. "Stairway to Heaven" — Led Zeppelin
 
-Rock'ın belki de en tartışmalı "en iyi"si. Sekiz dakika boyunca akustik başlangıçtan elektrik zirveye tırmanıyor.
+Perhaps rock's most controversial "best." It climbs from an acoustic beginning to an electric peak over eight minutes.
 
 ## 4. "Bohemian Rhapsody" — Queen
 
-Kurallara meydan okuyan yapısı; opera, rock ve balad karışımıyla türün sınırlarını yeniden çizdi.
+Its rule-defying structure, a mix of opera, rock, and ballad, redefined the boundaries of the genre.
 
 ## 5. "Like a Rolling Stone" — Bob Dylan
 
-Folk'tan rock'a geçişini ilan ettiği şarkı. Newport 1965 seyircisi bunu unutamadı.
+The song where he declared his transition from folk to rock. The Newport 1965 audience couldn't forget it.
 
 ## 6. "Born to Run" — Bruce Springsteen
 
-New Jersey'nin sokakları rock'a şiir gibi işleniyor. "The Boss" lakabının başlangıcı.
+The streets of New Jersey are woven into rock like poetry. The beginning of "The Boss" moniker.
 
 ## 7. "London Calling" — The Clash
 
-Punk'ın en politik anı. 1979'da yayınlandığından beri her krizde yeniden dinleniyor.
+Punk's most political moment. It has been re-listened to during every crisis since its release in 1979.
 
 ## 8. "Respect" — Aretha Franklin
 
-Otis Redding'in orijinali Aretha'nın elinde bir feminist himne dönüştü.
+Otis Redding's original transformed into a feminist anthem in Aretha's hands.
 
 ## 9. "Hey Jude" — The Beatles
 
-Paul McCartney'nin Julian Lennon için yazdığı şarkı, yedi dakikalık koro finaliyle stadyum rock formatını başlattı.
+Paul McCartney's song for Julian Lennon, with its seven-minute choral finale, started the stadium rock format.
 
 ## 10. "Purple Haze" — Jimi Hendrix
 
-Gitarın elektrikli olarak ne yapabileceğini gösteren manifesto.
+A manifesto demonstrating what the electric guitar could do.
 
-Listenin geri kalanı: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine", "November Rain", "Comfortably Numb", "Won't Get Fooled Again", "Baba O'Riley", "Layla", "Free Bird", "Thunderstruck", "Enter Sandman", "One", "Black", "Everlong", "Somebody to Love" ve "Immigrant Song".
+The rest of the list: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine", "November Rain", "Comfortably Numb", "Won't Get Fooled Again", "Baba O'Riley", "Layla", "Free Bird", "Thunderstruck", "Enter Sandman", "One", "Black", "Everlong", "Somebody to Love" and "Immigrant Song".
 
-Kaynak: Entertainment Weekly – "The 25 Greatest Rock Songs of All Time".`,
+Source: Entertainment Weekly – "The 25 Greatest Rock Songs of All Time".`,
     image: ewRock.url,
     source: "Entertainment Weekly",
   },
   {
     slug: "genc-yasta-hayatini-kaybeden-tv-yildizlari",
-    title: "Genç Yaşta Hayatını Kaybeden 8 TV Yıldızı",
-    excerpt: "Heather O'Rourke'tan Cameron Boyce'a, Jonathan Brandis'ten Brittany Murphy'ye: ekrana damga vurup çok erken aramızdan ayrılan sekiz oyuncu.",
-    body: `Bazı yıldızlar erken parlar, erken söner. Film ve müzik endüstrisinin James Dean, Jayne Mansfield, Jimi Hendrix ve Jim Morrison gibi kayıpları çoktur. Televizyon da benzer trajedilere sahne oldu: 12 yaşındaki Heather O'Rourke'tan *Descendants* yıldızı Cameron Boyce'a, bir kuşağın çocukluğunun kahramanları çok erken kayboldu.
+    title: "8 TV Stars Who Died Young",
+    excerpt: "From Heather O'Rourke to Cameron Boyce, Jonathan Brandis to Brittany Murphy: eight actors who left their mark on the screen and left us too soon.",
+    body: `Some stars shine early, and fade early. The film and music industries have many losses like James Dean, Jayne Mansfield, Jimi Hendrix, and Jim Morrison. Television has also witnessed similar tragedies: from 12-year-old Heather O'Rourke to *Descendants* star Cameron Boyce, the heroes of a generation's childhood disappeared too soon.
 
 ## 1. Heather O'Rourke (12)
 
-*Poltergeist* üçlemesinin unutulmaz "Carol Anne"i, tanı konamayan bağırsak rahatsızlığı yüzünden 1988'de hayatını kaybetti.
+The unforgettable "Carol Anne" from the *Poltergeist* trilogy, she passed away in 1988 due to an undiagnosed intestinal illness.
 
 ## 2. Cameron Boyce (20)
 
-Disney Channel'ın parlayan yüzü, 2019'da uykusunda geçirdiği epilepsi nöbeti sonucu ailesini, hayranlarını ve endüstriyi yıktı.
+Disney Channel's shining star, in 2019, an epileptic seizure in his sleep devastated his family, fans, and the industry.
 
 ## 3. Jonathan Brandis (27)
 
-*SeaQuest DSV* yıldızı, kariyerinin durgunlaşması sonrası 2003'te intihar etti. Ölümü sonrası çocuk yıldızlarının psikolojik desteği tartışıldı.
+The *SeaQuest DSV* star committed suicide in 2003 after his career stagnated. His death sparked discussions about psychological support for child stars.
 
 ## 4. Brittany Murphy (32)
 
-*Clueless* ve *8 Mile* ile hafızalara kazınan Murphy, 2009'da beklenmedik biçimde hayatını kaybetti. Ölümüyle ilgili şüpheler yıllarca sürdü.
+Murphy, remembered for *Clueless* and *8 Mile*, passed away unexpectedly in 2009. Suspicions about her death lingered for years.
 
 ## 5. Anton Yelchin (27)
 
-*Star Trek* yeniden başlatmasının Chekov'u. 2016'da kendi Jeep'i tarafından ezildiği trajik kaza, otomotiv geri çağırmalarını gündeme getirdi.
+Chekov from the *Star Trek* reboot. His tragic accident in 2016, where he was crushed by his own Jeep, brought automotive recalls to the agenda.
 
 ## 6. Naya Rivera (33)
 
-*Glee*'nin Santana Lopez'i, 2020'de oğlunu tekneye bıraktıktan sonra göldeki bir kazada boğuldu.
+*Glee*'s Santana Lopez, drowned in a lake accident in 2020 after leaving her son on the boat.
 
 ## 7. Cory Monteith (31)
 
-*Glee*'nin Finn Hudson'ı, 2013'te bağımlılık mücadelesinin sonunda hayatını kaybetti.
+*Glee*'s Finn Hudson, passed away in 2013 at the end of his struggle with addiction.
 
 ## 8. Angus Cloud (25)
 
-*Euphoria*'nın Fezco'su. 2023'te babasının ölümünden hemen sonra kaza sonucu aşırı doz yüzünden vefat etti.
+*Euphoria*'s Fezco. He died in 2023 from an accidental overdose shortly after his father's death.
 
-Kaynak: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
+Source: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
     image: ewYoung.url,
     source: "Entertainment Weekly",
   },
   {
     slug: "en-iyi-mitolojik-filmler",
-    title: "Yunan Destanlarından İncil Blockbuster'larına: Sıralanmış En İyi 20 Mitolojik Film",
-    excerpt: "Christopher Nolan'ın The Odyssey'i gişeleri altüst etmeye hazırlanırken, Guardian sinemanın en görkemli, en tuhaf ve en unutulmaz mitolojik filmlerini sıraladı.",
-    body: `Christopher Nolan'ın The Odyssey'i Aralık'ta beyaz perdeye taşımaya hazırlanırken, Guardian mitolojik sinemanın büyük dosyalarını yeniden açtı. Yunan destanlarından İncil blockbuster'larına, Kore folkloruna ve Marvel öncesinin dev süperkahraman yapımlarına uzanan bu 20 film, mitolojinin sinemayla nasıl \"eve döndüğünü\" gösteriyor.
+    title: "From Greek Epics to Biblical Blockbusters: The 20 Best Mythological Films, Ranked",
+    excerpt: "As Christopher Nolan's The Odyssey prepares to hit the box office, the Guardian has ranked cinema's most magnificent, bizarre, and memorable mythological films.",
+    body: `As Christopher Nolan prepares to bring The Odyssey to the big screen in December, the Guardian has reopened the great files of mythological cinema. From Greek epics to biblical blockbusters, Korean folklore, and the giant superhero productions of the pre-Marvel era, these 20 films show how mythology has "come home" to cinema.
 
 ## 20. Percy Jackson & the Olympians: The Lightning Thief (2010)
 
-Chris Columbus'un yönettiği Rick Riordan uyarlaması, seri hayranlarını hayal kırıklığına uğratsa da Uma Thurman'ın Medusa'sı ve Steve Coogan'ın Hades'iyle unutulmaz bir çocuk-mitolojisi karışımı.
+Chris Columbus's adaptation of Rick Riordan, though disappointing to series fans, is an unforgettable child-mythology blend with Uma Thurman's Medusa and Steve Coogan's Hades.
 
 ## 19. Immortals (2011)
 
-Tarsem Singh'in görsel şölene dönüşen Theseus filmi, tarihsel doğrulukla değil, resimsel etkiyle ilgilenir. Henry Cavill'in ilk büyük rolü.
+Tarsem Singh's Theseus film, a visual feast, is concerned not with historical accuracy but with pictorial effect. Henry Cavill's first major role.
 
 ## 18. Wonder Woman (2017)
 
-Patty Jenkins'in filmi, Amazon mitolojisini I. Dünya Savaşı melodramına ustaca yerleştirir. Gal Gadot'un Diana'sı süperkahraman filmlerinin en mitolojik olanlarından biri.
+Patty Jenkins's film skillfully places Amazon mythology into a World War I melodrama. Gal Gadot's Diana is one of the most mythological of superhero films.
 
 ## 17. Troy (2004)
 
-Wolfgang Petersen'in Homeros uyarlaması, tanrıları çıkarıp yerine Brad Pitt'in kasları ile insan trajedisini koyar. Peter O'Toole'un Priam'ı sarsıcı.
+Wolfgang Petersen's Homeric adaptation removes the gods and replaces them with Brad Pitt's muscles and human tragedy. Peter O'Toole's Priam is shattering.
 
 ## 16. The Prince of Egypt (1998)
 
-DreamWorks'ün animasyon başyapıtı. Musa'nın hikâyesini Yeşilköy-Broadway şarkılarıyla yeniden anlatır.
+DreamWorks' animated masterpiece. It retells the story of Moses with Hollywood-Broadway songs.
 
 ## 15. Excalibur (1981)
 
-John Boorman'ın gotik Arthur uyarlaması, mitolojik sinemayı sisli, çamurlu ve mistik bir çukura sürükleyerek türü yeniden tanımladı.
+John Boorman's gothic Arthurian adaptation redefined the genre by dragging mythological cinema into a misty, muddy, and mystical pit.
 
 ## 14. Noah (2014)
 
-Darren Aronofsky'nin İncil epigi, taş devi meleklerden dünyanın sonuna uzanan sanatsal bir sanrı. Russell Crowe'un Noah'ı monolitik.
+Darren Aronofsky's biblical epic, an artistic hallucination ranging from rock giant angels to the end of the world. Russell Crowe's Noah is monolithic.
 
 ## 13. The Odyssey (1997)
 
-Andrei Konchalovsky'nin Emmy'li mini dizisi, Nolan'dan önceki büyük Odyssey uyarlaması. Armand Assante'nin sabırlı Odysseus'u.
+Andrei Konchalovsky's Emmy-winning mini-series, the great Odyssey adaptation before Nolan. Armand Assante's patient Odysseus.
 
 ## 12. Jason and the Argonauts (1963)
 
-Ray Harryhausen'in iskelet savaşçıları ve Talos figürü, mitolojik sinemanın stop-motion altın çağını temsil eder.
+Ray Harryhausen's skeleton warriors and Talos figure represent the stop-motion golden age of mythological cinema.
 
 ## 11. Clash of the Titans (1981)
 
-Yine Harryhausen; Perseus'un Medusa ile karşılaşması ve Kraken'in yükselişi kuşakların rüyalarına girdi.
+Again Harryhausen; Perseus's encounter with Medusa and the rise of the Kraken entered the dreams of generations.
 
 ## 10. The Passion of the Christ (2004)
 
-Mel Gibson'ın Aramice-Latince çektiği, kanlı ve kesintisiz haçlanma anlatısı. Din sinemasının en tartışmalı örneklerinden.
+Mel Gibson's bloody and uninterrupted crucifixion narrative, filmed in Aramaic-Latin. One of the most controversial examples of religious cinema.
 
 ## 9. Ben-Hur (1959)
 
-William Wyler'ın 11 Oscar'lı epiği. At arabası yarışı hâlâ sinema tarihinin en etkileyici aksiyon sahnelerinden biri.
+William Wyler's 11-Oscar epic. The chariot race is still one of the most impressive action scenes in cinema history.
 
 ## 8. Black Orpheus (1959)
 
-Marcel Camus'nün Rio karnavalında geçen Orpheus uyarlaması. Bossa nova müziği ve tropikal renkleriyle bir başyapıt.
+Marcel Camus's Orpheus adaptation set in the Rio carnival. A masterpiece with bossa nova music and tropical colors.
 
 ## 7. Ulysses (1954)
 
-Kirk Douglas'ın Odysseus'u. Mario Camerini'nin bu İtalyan yapımı, destanı 100 dakikaya sığdırma cüretiyle bugün bile şaşırtıcı.
+Kirk Douglas as Odysseus. Mario Camerini's Italian production is still surprising today with its audacity to fit the epic into 100 minutes.
 
 ## 6. Kagemusha (1980)
 
-Akira Kurosawa'nın samuray filmleri, Japon feodal mitolojisinin destansı sinemadaki en güçlü ifadeleridir.
+Akira Kurosawa's samurai films are the most powerful expressions of Japanese feudal mythology in epic cinema.
 
 ## 5. The Ten Commandments (1956)
 
-Cecil B. DeMille'in Musa'sı. Charlton Heston, denizi ikiye ayırırken sinema mitolojisinin de sınırlarını genişletti.
+Cecil B. DeMille's Moses. Charlton Heston, parting the sea, also expanded the boundaries of cinema mythology.
 
 ## 4. Spirited Away (2001)
 
-Hayao Miyazaki'nin Shinto ve Japon folkloruna yaptığı en büyük armağan. Mitolojik sinemanın animasyondaki zirvesi.
+Hayao Miyazaki's greatest gift to Shinto and Japanese folklore. The pinnacle of mythological cinema in animation.
 
 ## 3. Medea (1969)
 
-Pier Paolo Pasolini'nin Maria Callas ile çektiği bu film, Euripides'i modern bir arkeoloji dersine dönüştürür.
+Pier Paolo Pasolini's film with Maria Callas transforms Euripides into a modern archaeological lesson.
 
 ## 2. Orphée (1950)
 
-Jean Cocteau'nun büyülü Orpheus modernizasyonu. Aynadan geçen ölüm figürüyle sinema tarihine gömüldü.
+Jean Cocteau's magical Orpheus modernization. It was embedded in cinema history with the figure of death passing through the mirror.
 
 ## 1. Andrei Rublev (1966)
 
-Tarkovsky'nin Rus Ortodoks ikon ressamı üzerine çektiği bu film, kutsalın ve mitolojik olanın sinemadaki en soylu ifadesi olarak zirvede.
+Tarkovsky's film about the Russian Orthodox icon painter stands at the pinnacle as the noblest expression of the sacred and the mythological in cinema.
 
-Kaynak: The Guardian – \"From Greek epics to biblical blockbusters: the 20 best mythological movies – ranked!\"`,
+Source: The Guardian – \"From Greek epics to biblical blockbusters: the 20 best mythological movies – ranked!\"`,
     image: mythologicalAsset.url,
     source: "The Guardian",
   },
   {
     slug: "evil-dead-tum-filmler-nerede",
-    title: "Tüm 'Evil Dead' Filmleri Nerede İzlenir? Franchise'ın Tek Adres Rehberi",
-    excerpt: "'Evil Dead Burn'un vizyonuyla birlikte Sam Raimi'nin başlattığı serinin tamamı tek bir yayın platformunda toplandı. Ash'in Deadite'larla savaşını baştan sona izlemek için pratik bir rehber.",
-    body: `'Evil Dead Burn'un vizyona girmesinden önce sadece 2023 yapımı 'Evil Dead Rise'ı değil, tüm franchise'ı gözden geçirmeye değer. Ash'in Deadite'larla mücadelesini izlemekten şikâyet etmek zor, ama önce onları bulmanız gerek. Şanslıyız ki serinin tamamı tek bir uygun yerde ve devam dizisini de aynı adreste bulabilirsiniz.
+    title: "Where to Watch All 'Evil Dead' Movies? The Franchise's One-Stop Guide",
+    excerpt: "With the release of 'Evil Dead Burn,' the entire series started by Sam Raimi has been gathered on a single streaming platform. A practical guide to watching Ash's fight against the Deadites from start to finish.",
+    body: `'Before the release of 'Evil Dead Burn,' it's worth revisiting not just the 2023 'Evil Dead Rise,' but the entire franchise. It's hard to complain about watching Ash fight Deadites, but first, you need to find them. Luckily, the entire series is in one convenient place, and you can find the sequel series at the same address.
 
-## Tüm 'Evil Dead' filmleri nerede izlenir?
+## Where to watch all 'Evil Dead' movies?
 
-'Evil Dead Burn' nihayet vizyona girerken franchise'ı tazelemek için mükemmel bir zaman — çünkü serinin son halkasının ötesinde bir dizi bağlantı olduğu söyleniyor.
+With 'Evil Dead Burn' finally released, it's the perfect time to refresh the franchise — because there are said to be a number of connections beyond the latest installment of the series.
 
-Önceki tüm filmlerin bulunabileceği yerler şöyle:
+Here's where all previous films can be found:
 
 - **The Evil Dead** (1981) – HBO Max
 - **Evil Dead II** (1987) – HBO Max
@@ -836,207 +836,207 @@ Kaynak: The Guardian – \"From Greek epics to biblical blockbusters: the 20 bes
 - **Evil Dead** (2013) – HBO Max
 - **Evil Dead Rise** (2023) – HBO Max
 
-Görüldüğü gibi HBO Max, franchise'ın tümü için tek durak alışveriş noktası hâline gelmiş durumda. Devam dizisi 'Ash vs. Evil Dead' de aynı platformda bulunuyor. Bu, yeni Sébastien Vaniček filmine hazırlanırken tüm seriyi ardışık olarak izlemek isteyen 'completionist' izleyiciler için ideal bir konfigürasyon.
+As can be seen, HBO Max has become a one-stop shop for the entire franchise. The sequel series 'Ash vs. Evil Dead' is also available on the same platform. This is an ideal configuration for 'completionist' viewers who want to watch the entire series sequentially while preparing for the new Sébastien Vaniček film.
 
-Kaynak: TheWrap – "Where to Stream Every 'Evil Dead' Movie"`,
+Source: TheWrap – "Where to Stream Every 'Evil Dead' Movie"`,
     image: "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2023/04/Evil-Dead-2.jpeg?fit=1200%2C675&quality=89&ssl=1",
     source: "TheWrap",
   },
   {
     slug: "hbo-max-bu-haftanin-en-iyi-3-filmi",
-    title: "HBO Max'te Bu Haftanın En İyi 3 Filmi: 'Mask of the Phantasm', 'Evil Dead II' ve 'Legally Blonde'",
-    excerpt: "Emmy adaylıklarıyla dolu bir TV haftasında HBO Max, sinema tutkunları için de bir Batman animasyon başyapıtı, bir korku klasiği ve 2000'lerin en iyi komedilerinden biriyle iddialı.",
-    body: `Emmy adaylıklarının yeni açıklandığı büyük bir TV haftası. Ama HBO Max, sinema severleri de mutlu edecek başlıklarla dolu. Bu hafta gelmiş geçmiş en iyi DC filmlerinden birine, bir korku klasiğine ve 2000'lerin başından mükemmel bir komediye göz atabilirsiniz.
+    title: "The 3 Best Movies on HBO Max This Week: 'Mask of the Phantasm', 'Evil Dead II', and 'Legally Blonde'",
+    excerpt: "In a TV week full of Emmy nominations, HBO Max also makes a strong case for movie buffs with a Batman animated masterpiece, a horror classic, and one of the best comedies of the 2000s.",
+    body: `It's a big TV week with Emmy nominations just announced. But HBO Max is also full of titles that will make movie lovers happy. This week, you can check out one of the best DC films of all time, a horror classic, and an excellent comedy from the early 2000s.
 
 ## "Batman: Mask of the Phantasm"
 
-Kendini pasif bir Batman hayranı bile sayan herkes, 'Batman: The Animated Series' evreninde geçen uzun metrajlı bu maceraya bir şans vermeli. Kevin Conroy ve Mark Hamill'in ikonik Batman/Joker ikilisinin yer aldığı film, geçmişten bir figürle yüzleşen Bruce Wayne'in bir zamanlar pelerini bırakmayı düşünecek kadar sevdiği Andrea Beaumont (Dana Delany) hikâyesine odaklanıyor. Bruce'un anne-babasının mezarını ziyaret ettiği sahne, karakterin ekrandaki en duygusal anlarından biri.
+Anyone who even considers themselves a passive Batman fan should give this feature-length adventure set in the 'Batman: The Animated Series' universe a chance. Featuring the iconic Batman/Joker duo of Kevin Conroy and Mark Hamill, the film focuses on Bruce Wayne confronting a figure from his past, Andrea Beaumont (Dana Delany), whom he once loved enough to consider giving up the cape. The scene where Bruce visits his parents' grave is one of the character's most emotional moments on screen.
 
 ## "Evil Dead II"
 
-Cuma günü Sébastien Vaniček'in imzasıyla yeni bir 'Evil Dead' filmi vizyona giriyor. Bu filmler başından beri güçlü kalmayı başardı, ama Sam Raimi'nin ilk iki yapımı hâlâ 'ormandaki kulübe' korkusunun en büyük örnekleri olmaya devam ediyor. İkinci filmde artan kara mizah öğesi (korkuyu hiç yumuşatmadan) pastanın üstündeki krema. Bruce Campbell'ın başrolde olduğu bu splatter şölen korkutucu, acımasız ve son derece eğlenceli.
+A new 'Evil Dead' film, directed by Sébastien Vaniček, is released on Friday. These films have managed to stay strong from the beginning, but Sam Raimi's first two productions remain the greatest examples of 'cabin in the woods' horror. The increased element of dark humor in the second film (without ever softening the horror) is the icing on the cake. This splatter feast starring Bruce Campbell is terrifying, brutal, and extremely entertaining.
 
 ## "Legally Blonde"
 
-Prime Video'nun prekuel dizisi 'Elle' hakkında ne düşünürseniz düşünün, 'Legally Blonde'a dönmek her zaman iyi fikirdir. Robert Luketic'in yönetmenliğinde, Karen McCullah Lutz ve Kirsten Smith tarafından yazılan film, Harvard'da hukuk merdivenlerini tırmanarak muhaliflerine yanıldıklarını kanıtlayan bir kadını (Reese Witherspoon) anlatan komik ve düşündürücü bir yapıt. Witherspoon'un en iyi performanslarından biri ve 2000'lerin en iyi komedilerinden.
+Whatever you think of Prime Video's prequel series 'Elle', returning to 'Legally Blonde' is always a good idea. Directed by Robert Luketic and written by Karen McCullah Lutz and Kirsten Smith, the film is a funny and thought-provoking work about a woman (Reese Witherspoon) who climbs the legal ladder at Harvard, proving her detractors wrong. One of Witherspoon's best performances and one of the best comedies of the 2000s.
 
-Kaynak: TheWrap – "The 3 Best Movies on HBO Max This Week"`,
+Source: TheWrap – "The 3 Best Movies on HBO Max This Week"`,
     image: "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2022/03/batman-mask-of-the-phantasm.jpg?resize=1024%2C576&quality=89&ssl=1",
     source: "TheWrap",
   },
   {
     slug: "bonnie-tyler-total-eclipse-en-iyi-5-film-sahnesi",
-    title: "Bonnie Tyler'ın 'Total Eclipse of the Heart' Şarkısının En İyi 5 Sinema Anı",
-    excerpt: "Bonnie Tyler'ın 75 yaşında hayatını kaybetmesinin ardından geriye kalan en güçlü mirası: 'Total Eclipse of the Heart'ın komedi, dram ve korku filmlerinde perdeyi patlatan beş anı.",
-    body: `Efsanevi kısık sesli şarkıcı Bonnie Tyler'ı 75 yaşında kaybettik. Ardında bıraktığı en büyük miraslardan biri, 1983 tarihli power ballad'ı 'Total Eclipse of the Heart' — ve bu şarkının onlarca yıldır sinema salonlarında yarattığı unutulmaz anlar. Britt Hayes'in Entertainment Weekly için derlediği listeyi paylaşıyoruz.
+    title: "Top 5 Cinematic Moments of Bonnie Tyler's 'Total Eclipse of the Heart'",
+    excerpt: "Bonnie Tyler's most powerful legacy after her death at 75: Five moments where 'Total Eclipse of the Heart' blew up the screen in comedy, drama, and horror films.",
+    body: `We lost legendary husky-voiced singer Bonnie Tyler at 75. One of the greatest legacies she left behind is her 1983 power ballad 'Total Eclipse of the Heart' — and the unforgettable moments this song has created in movie theaters for decades. We're sharing the list compiled by Britt Hayes for Entertainment Weekly.
 
 ## 1. "Old School" (2003) — The Dan Band Sahnesi
 
-Todd Phillips'in kült komedisi 'Old School'da The Dan Band'in Frank Sinatra'yı andıran Frank'in (Will Ferrell) düğününde şarkıyı seslendirmesi, filmin en meşhur sahnelerinden biri. Perrey Reeves ile Ferrell'ın dansıyla birlikte bu sahne, şarkının 2000'ler nostaljisiyle yeniden doğuşunun başlangıcı sayılıyor.
+The Dan Band's performance of the song at Frank's (Will Ferrell) wedding, reminiscent of Frank Sinatra, in Todd Phillips' cult comedy 'Old School' is one of the film's most famous scenes. This scene, along with Ferrell's dance with Perrey Reeves, is considered the beginning of the song's resurgence with 2000s nostalgia.
 
 ## 2. "Bandslam" (2009) — Karaoke Sahnesi
 
-Bir genç müzik draması olan 'Bandslam'de karakterlerin karaokede söylediği bu şarkı, filmin en samimi duygusal patlaması. Vanessa Hudgens ve Aly Michalka'nın yer aldığı sekans, şarkının kuşaklar arasında köprü kurma gücünü kanıtlıyor.
+This song, sung by the characters in the teen musical drama 'Bandslam' during karaoke, is the film's most intimate emotional outburst. The sequence featuring Vanessa Hudgens and Aly Michalka proves the song's power to bridge generations.
 
 ## 3. "It's Always Sunny in Philadelphia" — The Nightman Cometh
 
-Teknik olarak bir TV bölümü olsa da 'The Nightman Cometh' müzikal bölümündeki finalin 'Total Eclipse' esintileri, popüler kültürün bu şarkıyla olan takıntısının en absürt örneklerinden biri.
+Although technically a TV episode, the 'Total Eclipse' influences in the finale of 'The Nightman Cometh' musical episode are one of the most absurd examples of popular culture's obsession with this song.
 
-## 4. "Urban Cowboy" (1980) — Öncü Duygusal Kullanım
+## 4. "Urban Cowboy" (1980) — Pioneering Emotional Use
 
-Aslında Bonnie Tyler'ın hitinden önce, aynı yıl piyasaya çıkan bir başka aşk temalı şarkının kullanımıyla türün habercisi. Tyler'ın şarkısı daha sonra country ayrılık sahnelerinin şablonuna dönüştü.
+Actually, it's a precursor to the genre, with the use of another love-themed song released the same year, before Bonnie Tyler's hit. Tyler's song later became the template for country breakup scenes.
 
 ## 5. "The Perks of Being a Wallflower" (2012) — Kamyonet Sahnesinin Ruhu
 
-Şarkının doğrudan kullanıldığı bir film değil, ama duygusal DNA'sını devralıyor. Britt Hayes'in yazısında hatırlattığı gibi 'Total Eclipse of the Heart' aslında ergen romantizmi kanonunun kalbinde bir yerde duruyor — Emma Watson'ın "I feel infinite" sahnesi bu ruhun bir mirasçısı.
+It's not a film where the song is directly used, but it inherits its emotional DNA. As Britt Hayes reminds us in her writing, 'Total Eclipse of the Heart' actually stands at the heart of the canon of adolescent romance — Emma Watson's "I feel infinite" scene is an heir to this spirit.
 
-Bonnie Tyler'ın sesi gitti; ama Jim Steinman'ın melodramatik notaları sinema tarihinde kalıcı bir yer edindi.`,
+Bonnie Tyler's voice is gone; but Jim Steinman's melodramatic notes have earned a lasting place in cinema history.`,
     image: bonnieTylerAsset.url,
     source: "Entertainment Weekly",
   },
   {
     slug: "paste-en-iyi-yeni-albumler-10-temmuz-2026",
-    title: "Bu Hafta Dinlenmesi Gereken 12 Yeni Albüm (10 Temmuz 2026)",
-    excerpt: "Finn Wolfhard'ın indie-rock çıkışından Jack White'ın blues-punk kükreyişine, Kelela'nın R&B laboratuvarından Xiu Xiu'nun Eraserhead güzellemesine: Paste'in bu haftaki New Music Friday seçkisi.",
-    body: `Paste her Cuma New Music Friday'in kalbi olmaya devam ediyor. Best New Songs listelerinin ardından yayımlanan bu albüm derlemesi, 10 Temmuz haftasının en çarpıcı on iki plağını bir araya getiriyor. Rock, folk, elektronik ve deneysel arasında gidip gelen bir kesit.
+    title: "12 New Albums to Listen to This Week (July 10, 2026)",
+    excerpt: "From Finn Wolfhard's indie-rock debut to Jack White's blues-punk roar, from Kelela's R&B laboratory to Xiu Xiu's Eraserhead ode: Paste's New Music Friday picks for this week.",
+    body: `Paste continues to be the heart of New Music Friday every Friday. This album compilation, released after the Best New Songs lists, brings together the twelve most striking records of the week of July 10. A cross-section ranging from rock, folk, electronic, and experimental.,
 
 ## Finn Wolfhard — Fire From The Hip
 
-Finn Wolfhard'ın *Fire from the Hip*'i ilk dinleyişte tanıdık geliyor: Sharp Pins, Alex G, Elliott Smith ve Pavement kokusu bariz. Ama Wolfhard'ın kendinden emin, hınzır sunumu pastişten uzak duruyor. "Lights Go Down" Nicole Kidman'ın ikonikleşip aşırı kullanılan AMC konuşmasını, bir oyuncunun film izleme deneyimine dair hüzünlü bir yorumuna çeviriyor. "Common Side Effects"te George Clooney, "Maggie"de George W. Bush esprileri; ama arka planda country-folk yaylılar ve "Nice to Meet You Again"in jam band havası tüm plağa dolgun bir doku katıyor.
+Finn Wolfhard's *Fire from the Hip* feels familiar on first listen: the scent of Sharp Pins, Alex G, Elliott Smith, and Pavement is obvious. But Wolfhard's confident, mischievous delivery steers clear of pastiche. "Lights Go Down" transforms Nicole Kidman's iconic and overused AMC speech into a melancholic commentary on an actor's movie-watching experience. George Clooney jokes on "Common Side Effects," George W. Bush jokes on "Maggie"; but country-folk strings in the background and the jam-band vibe of "Nice to Meet You Again" add a rich texture to the entire record.
 
 ## Houndmouth — Lordy
 
-Beş yıllık sessizliğin ardından gelen *Lordy*, Matt Myers'ın yaratıcı krizinden doğan en samimi Houndmouth albümü. Kamp ateşi müziği gibi okunuyor: yetmişler etkili folk-rock parçaları, güneşe boğulmuş Güney yolları, muğlak bir fisheye anı defteri. "Never Gonna Die"da "yaptığımız bu ev / tahtası çürümesin diye dua edelim" diye titreyen bir sese kavuşuyoruz. "Holy Moses"ta Iron and Wine'dan Sam Beam eşlik ediyor.
+description: Arriving after five years of silence, *Lordy* is the most intimate Houndmouth album, born from Matt Myers' creative crisis. It reads like campfire music: seventies-influenced folk-rock tracks, sun-drenched Southern roads, a hazy fisheye scrapbook. In "Never Gonna Die," we get a trembling voice singing "this house we built / let's pray its boards don't rot." Sam Beam from Iron and Wine accompanies on "Holy Moses.",
 
 ## Hurry — Zoned Out
 
-Matt Scottoline'un power-pop projesi Hurry'nin altıncı LP'si, yaşlanmakla ilgili karışık hissiyatların özeti. "The Dumbest Person You've Ever Seen"in şeker gibi kancalarında "her şey değişiyor, tırsıyorum" itirafı var. Cars tarzı Moog riff'leriyle "Untitled" ara sesi ve Teenage Fanclub'dan Gerard Love'ın vokal katkısıyla "Moving After You" plağı yaz albümü tartışmalarına dahil ediyor.
+Matt Scottoline's power-pop project Hurry's sixth LP is a summary of mixed feelings about aging. "Everything's changing, I'm scared" is confessed in the sugary hooks of "The Dumbest Person You've Ever Seen." The interlude "Untitled" with its Cars-esque Moog riffs and "Moving After You" featuring vocals from Teenage Fanclub's Gerard Love bring the record into summer album discussions.
 
 ## Jack White — Frozen Charlotte
 
-Jack White, modern söz yazımını White Stripes bulaşıcılığından geçirmenin yolunu bulmuş. *Frozen Charlotte*, "Ball and Biscuit"i andıran dev gitar sololarıyla dolu blues-punk barn burner'ların yeni bir koleksiyonu. Kapanış "Neighbors Blues"un çok bölümlü solosu, White'ın hâlâ nasıl shred ettiğinin ispatı.
+Jack White has found a way to filter modern songwriting through White Stripes' infectiousness. *Frozen Charlotte* is a new collection of blues-punk barn burners filled with giant guitar solos reminiscent of "Ball and Biscuit." The multi-part solo on the closing "Neighbors Blues" is proof that White can still shred.
 
 ## Kelela — new avatar
 
-L.A. alt-pop sahnesinden çıkışının üzerinden on yılı aşkın süre geçen Kelela, *new avatar*'da geriye kısmen dönüp katalogunu yeniden yorumluyor. "point blank"in titreşen breakleri hem *Cut 4 Me*'nin grime ritmini hem *Raven*'ın en kulüp kısımlarını hatırlatıyor. Belki de kariyerinin en olgun plağı.
+More than a decade after her emergence from the L.A. alt-pop scene, Kelela partially looks back and reinterprets her catalog in *new avatar*. The pulsating breaks of "point blank" recall both the grime rhythm of *Cut 4 Me* and the most club-oriented parts of *Raven*. Perhaps the most mature record of her career.
 
 ## Panda Bear / Sonic Boom — A ? of When
 
-Panda Bear ile Sonic Boom'un yıllara yayılan iş birliğinde bile benzersiz duran bir plak. Rahatsız edici sözleri parıldayan psych-pop içine gömme geleneğinin en olgun örneği.
+A record that stands out even in Panda Bear and Sonic Boom's years-long collaboration. The most mature example of their tradition of embedding unsettling lyrics into shimmering psych-pop.
 
 ## Sad13 — 1331
 
-Speedy Ortiz'den Sadie Dupuis'in Sad13 rumuzuyla yayımladığı 15 dakikalık mixtape. On üç kısa parçada JRPG oda müziği, mağara orgları ve programlanmış davullar dolaşıyor.
+A 15-minute mixtape released by Sadie Dupuis of Speedy Ortiz under the moniker Sad13. JRPG dungeon music, cavernous organs, and programmed drums wander through thirteen short tracks.
 
 ## Show Me The Body — Alone Together
 
-Show Me The Body New York hardcore'unu her zaman sivil görev bilmişti. Dördüncü plakları *Alone Together*, "radikal sevgi" temelli bir eylem çağrısı. On üç parça, otuz yedi dakikaya sığan saf ses.
+Show Me The Body has always considered New York hardcore a civic duty. Their fourth record, *Alone Together*, is a call to action based on "radical love." Thirteen tracks, pure sound packed into thirty-seven minutes.
 
 ## The Temper Trap — Sungazer
 
-On yıl aradan sonra dönen The Temper Trap, 2009'daki çıkış plağından beri en meraklı hallerinde. "Giving Up Air" grubun bugüne kadarki en iyi işi.
+Returning after a decade, The Temper Trap are at their most inquisitive since their 2009 debut. "Giving Up Air" is the band's best work to date.
 
 ## Tracey Nelson — Hercules
 
-Perennial etiketinden çıkan bu ilk plak, country-rock mükemmelliği. Karly Hartman, Jack Kraus ve MJ Lenderman'ın konuk katkılarıyla, modern hayatın küçük kalp kırıklıklarını sakin bir umursamazlıkla dolaşıyor.
+This debut record from Perennial is country-rock perfection. With guest contributions from Karly Hartman, Jack Kraus, and MJ Lenderman, it navigates the minor heartbreaks of modern life with a calm nonchalance.
 
 ## Twisted Teens — Florida Water Blues
 
-Twisted Teens efekt kullanmıyor, Caspian'ın akordu bile yok. "Just plug in and go." Spaghetti-western gitar rulolarıyla dolu, sıkı ve dürüst bir plak.
+Twisted Teens don't use effects, Caspian isn't even in tune. "Just plug in and go." A tight and honest record full of spaghetti-western guitar rolls.
 
 ## Xiu Xiu — Eraserhead Xiu Xiu
 
-Xiu Xiu'nun David Lynch'in 1977 tarihli *Eraserhead*'ini yeniden yorumladığı yedi parçalık plak. Ev yapımı enstrümanlar, saha kayıtları, el fenerleri ve elektrik parazitiyle inşa edilmiş bir yeraltı.
+Xiu Xiu's seven-track reinterpretation of David Lynch's 1977 *Eraserhead*. An underground built with homemade instruments, field recordings, flashlights, and electrical interference.
 
-Kaynak: Paste Magazine — "Best New Albums: July 10, 2026".`,
+Source: Paste Magazine — "Best New Albums: July 10, 2026".`,
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/07/10130803/ECC4B89C-35CC-4BFA-AE87-7B1AB37DBDF5-scaled.jpeg",
     source: "Paste Magazine",
   },
   {
     slug: "paste-haziran-2026-en-iyi-10-sarki",
-    title: "Haziran 2026'nın En İyi 10 Şarkısı",
-    excerpt: "heavensouls'un yedi dakikalık kolajından Lily Seabird'ün Americana headbanger'ına, Kelela'nın broken beat'ından Mykki Blanco'nun queer flâneur teasine — Paste'in Haziran 2026 favorileri.",
-    body: `Paste'in her hafta yayımladığı Best New Songs sütununda öne çıkan yirmi parçadan onunu seçtik. Bunlar, aralık ayında yılın en iyileri konuşulmaya başlandığında masaya en güçlü aday olarak gelecek şarkılar. Mykki Blanco ile Kelela ayı brilliant dans müziğiyle açtı; The Tubs ile Sullivan kardeşler ise rock and roll ziyafetiyle kapadı.
+    title: "The 10 Best Songs of June 2026",
+    excerpt: "From heavensouls' seven-minute collage to Lily Seabird's Americana headbanger, Kelela's broken beat to Mykki Blanco's queer flâneur tease — Paste's June 2026 favorites.",
+    body: `We've selected ten tracks from the twenty featured in Paste's weekly Best New Songs column. These are the songs that will come to the table as the strongest contenders when discussions about the best of the year begin in December. Mykki Blanco and Kelela opened the month with brilliant dance music; The Tubs and the Sullivan siblings closed it with a rock and roll feast.
 
 ## heavensouls — "shipping times and quiet streets"
 
-Nijerya doğumlu, Houston merkezli rapçi-yapımcı Chidi Obialo'nun *westside trapped* plağı yıl ortası listemizde ilk beşe girdi. Yeni single'ı "shipping times and quiet streets", fairy therapy'nin çevik caz saksafonu ve Sidepeices ortağı Stickerbush'un Auto-Tune mırıltılarıyla renklenen törensel bir kolaj. Yedi dakika boyunca sarmalanan detaylar.
+Nigerian-born, Houston-based rapper-producer Chidi Obialo's *westside trapped* record made it into the top five of our mid-year list. His new single "shipping times and quiet streets" is a ceremonial collage, colored by the agile jazz saxophone of fairy therapy and the Auto-Tune murmurs of Sidepeices partner Stickerbush. Details wrapped up over seven minutes.
 
 ## Kelela — "point blank"
 
-*Cut 4 Me*'nin ruhu, "point blank"in Batı Londra broken beat'inde geziniyor. Kelela'nın feraheti gecikmelerde ve breakbeat'lerde geri dönüyor. Fade to Mind ve Night Slugs bağları tüm parçaya yayılıyor.
+The spirit of *Cut 4 Me* wanders through the West London broken beat of "point blank." Kelela's freshness returns in delays and breakbeats. Fade to Mind and Night Slugs ties permeate the entire track.
 
 ## L'Rain — "soulless cycle"
 
-L'Rain'in yaklaşan LP'si *Fata Morgana*, ülkenin "faşizm ve trad kültüre inişi" ile hesaplaşmaktan doğuyor. "soulless cycle" habersizce sinip patlıyor. Kriz rutine dönüştüğünde ne oluyor sorusunun ses-dokusal cevabı.
+L'Rain's upcoming LP *Fata Morgana* emerges from grappling with the nation's "descent into fascism and trad culture." "soulless cycle" creeps in and explodes unexpectedly. A sound-textural answer to the question of what happens when crisis becomes routine.
 
 ## Lily Seabird — "Election Day"
 
-Vermont'lu şarkı yazarının üç yılda üçüncü plağı *Lightspheres On Their Way* için yayımladığı bu single, isyancı distorsiyon, çığlık atan gitarlar ve düpedüz ulumalar barındırıyor. Bir Americana headbanger, folk için mosh giriş kapısı.
+This single, released for the Vermont songwriter's third record in three years, *Lightspheres On Their Way*, features rebellious distortion, screaming guitars, and outright wails. An Americana headbanger, a mosh pit gateway for folk.
 
 ## Mykki Blanco — "Little Feet"
 
-*CAFE PARADISO*'nun ilk teasi. Ian Isiah ve Breakaway'in yardımıyla iki dakikaya sığdırılmış tam kadro queer flâneur şarkısı. Sokak lambasının altında kaynaşan bedenler, dans ve adanmışlıkla döşenmiş bir oda.
+The first tease of *CAFE PARADISO*. A full-fledged queer flâneur song, condensed into two minutes with the help of Ian Isiah and Breakaway. Bodies mingling under the streetlamp, a room furnished with dance and devotion.
 
 ## Sam & Louise Sullivan — "Working Girl"
 
-Sullivan kardeşlerin folk-rock kimyası "Working Girl"de en olgun haline erişiyor. Yorgun bir mesai anlatısını yumuşak vokal harmonileriyle sarmalayan parça, ayın en insani anını sunuyor.
+The folk-rock chemistry of the Sullivan siblings reaches its most mature form in "Working Girl." The track, which wraps a narrative of a tired workday in soft vocal harmonies, offers the most human moment of the month.
 
 ## SML — "Spontaneous Live Music"
 
-Doğaçlama caz kuartetinin yeni single'ı, çevik bas hattı ve rüzgâr enstrümanlarının serbest diyalogu üzerinden ilerliyor. Live prodüksiyon estetiği plağa nefes veriyor.
+The improvisational jazz quartet's new single progresses through an agile bassline and the free dialogue of wind instruments. The live production aesthetic breathes life into the record.
 
 ## Tasha — "You Are Spring"
 
-Şair-şarkı yazarı Tasha'nın albüm başlığı parçası, akustik gitar ve fısıltılı vokallerle bir bahar imgesi kuruyor.
+Poet-songwriter Tasha's album title track creates an image of spring with acoustic guitar and whispered vocals.
 
 ## The Tubs — "Illusion Pt. II"
 
-İngiliz jangle-pop grubu The Tubs'ın devam parçası, twin-guitar örgüleriyle klasik R.E.M. anlarına selam çakıyor. Ayı rock için kapatan bir anthem.
+The follow-up track from British jangle-pop band The Tubs nods to classic R.E.M. moments with its twin-guitar weaving. An anthem closing the month for rock.
 
 ## Kelsey Lu — "So Help Me God"
 
-Çellist ve şarkıcı Kelsey Lu'nun yeni albüm parçası, koro düzenlemeleri ve elektronik doku arasında dolaşan bir dua.
+Cellist and singer Kelsey Lu's new album track is a prayer that moves between choral arrangements and electronic textures.
 
-Kaynak: Paste Magazine — "The 10 Best Songs of June 2026".`,
+Source: Paste Magazine — "The 10 Best Songs of June 2026".`,
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/07/06121515/B3800E2E-09F5-496B-88A2-CAF8743A2B5A-scaled.jpeg",
     source: "Paste Magazine",
   },
   {
     slug: "paste-bu-hafta-dinlenmesi-gereken-5-yeni-sarki-18-haziran-2026",
-    title: "Bu Hafta Dinlenmesi Gereken 5 Yeni Şarkı (18 Haziran 2026)",
-    excerpt: "Haftanın şarkısı Lily Seabird'ün 'Election Day'i. Julia Jacklin, No Joy & Fire-Toolz, Saul Williams ve daha fazlası: Paste'in 18 Haziran 2026 seçkisi.",
-    body: `Her perşembe Paste ekibi ve katkı sağlayanları haftanın en sevdikleri beş şarkısını seçiyor; bir tanesine "Haftanın Şarkısı" unvanını veriyor. İşte 18 Haziran 2026 haftasının beş favorisi.
+    title: "5 New Songs You Need to Hear This Week (June 18, 2026)",
+    excerpt: "This week's song is Lily Seabird's 'Election Day.' Julia Jacklin, No Joy & Fire-Toolz, Saul Williams, and more: Paste's June 18, 2026 picks.",
+    body: `Every Thursday, the Paste team and contributors select their five favorite songs of the week, giving one the title of "Song of the Week." Here are the five favorites for the week of June 18, 2026.
 
-## Haftanın Şarkısı: Lily Seabird — "Election Day"
+## Song of the Week: Lily Seabird — "Election Day"
 
-Vermont'lu şarkı yazarı Lily Seabird üç yılda üçüncü plağı *Lightspheres On Their Way*'i duyurdu. "Election Day", 2024'teki "Dirge"den bu yana Seabird'ün girmediği bir moda dönüşü işaret ediyor: isyancı distorsiyon, çığlık atan gitarlar, düpedüz ulumalar. Vokali hâlâ bir kanaryanın uyarısı gibi net, ama sözlerin duygusunda takılıyor ve kenarlarından yırtılıyor. Bir Americana headbanger, folk için mosh giriş kapısı.
+Vermont songwriter Lily Seabird has announced her third record in three years, *Lightspheres On Their Way*. "Election Day" marks a return to a mode Seabird hasn't entered since 2024's "Dirge": rebellious distortion, screaming guitars, outright wails. Her vocal is still clear as a canary's warning, but it snags and tears at the edges of the words' emotion. An Americana headbanger, a mosh pit gateway for folk.
 
 ## Julia Jacklin — "Get Away From Me (I Think I'll Love You Soon)"
 
-Julia Jacklin indie rock'ın en ayırt edici seslerinden biri olmaya devam ediyor. Yaklaşan LP'si *The Gem*'in ilk single'ı, saçını başını yolduğu, muhtemelen sonuçsuz bir aşk ilişkisi üzerine. Bulutsu gitarların ve marş ritminin arasında bir ara solo parlıyor.
+Julia Jacklin continues to be one of indie rock's most distinctive voices. The first single from her upcoming LP *The Gem* is about a hair-pulling, likely unrequited love affair. An interim solo shines between cloudy guitars and a marching rhythm.
 
 ## No Joy & Fire-Toolz — "Big Life, Big Leaf"
 
-Bir zamanlar Jasamine White-Gluz'un doom-shoegaze aracı olan No Joy, son on beş yıldır synth-pop ve techno karışımı garip bir tarafa savruluyor. Fire-Toolz'un Angel Marcloid yapımcılığındaki geçen yılın *Bugland*'inin ardından bu iş birliği, güneş ışığıyla ağartılmış bir dans müziği.
+No Joy, once Jasamine White-Gluz's doom-shoegaze vehicle, has been drifting into a strange blend of synth-pop and techno for the past fifteen years. Following Fire-Toolz's Angel Marcloid-produced *Bugland* last year, this collaboration is sun-bleached dance music.
 
 ## Saul Williams feat. Moor Mother & Gonjasufi — "Conspiracy"
 
-Saul Williams'ın yedi yıl aradan sonra çıkacak solo albümü *Leaf Life*, Massive Attack'ten Robert Del Naja, Kamasi Washington ve daha pek çok konuğa ev sahipliği yapacak. İlk single "Conspiracy"de Moor Mother ve Gonjasufi eşlik ediyor. Williams'ın "ses bir enstrümandır" felsefesinin bir dışa vurumu.
+Saul Williams' upcoming solo album *Leaf Life*, his first in seven years, will host guests including Robert Del Naja of Massive Attack, Kamasi Washington, and many more. The first single "Conspiracy" features Moor Mother and Gonjasufi. An outpouring of Williams' "voice is an instrument" philosophy.
 
 ## The Tubs — "Illusion Pt. II"
 
-İngiliz jangle-pop grubu The Tubs'ın *Cotton Crown* devamı. Twin-guitar örgüleriyle klasik R.E.M. anlarına selam çakan, haftanın en tazelenmiş anthem'ı.
+The follow-up to *Cotton Crown* by British jangle-pop band The Tubs. The week's most refreshed anthem, nodding to classic R.E.M. moments with twin-guitar weaving.,
 
-Kaynak: Paste Magazine — "Best New Songs: June 18, 2026".`,
+Source: Paste Magazine — "Best New Songs: June 18, 2026".`,
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/06/18122900/DDC18B8D-4083-4DCD-9F47-2A813B9B3EC2-scaled.jpeg",
     source: "Paste Magazine",
   },
   {
     slug: "paste-beach-boys-tum-zamanlarin-en-iyi-25-sarkisi",
-    title: "The Beach Boys'un Tüm Zamanların En İyi 25 Şarkısı",
-    excerpt: "'Surfin' U.S.A.'nın 63. yılında Paste, Brian Wilson ve arkadaşlarının kataloğunun zirvesini derliyor: 'Caroline, No'dan 'Heroes and Villains'a, 'God Only Knows'a uzanan bir dinleme rehberi.",
-    body: `Altmış üç yıl önce The Beach Boys "Surfin' U.S.A."yı yayımladı ve grup, ABD'de ilk 1 numaralarını böyle aldı. Sonraki yıllarda Brian Wilson liderliğindeki Hawthorne, California grubu rock and roll'un en büyük şarkılarını ve en etkileyici plaklarını üretti. 1966'daki *Pet Sounds*, Amerika'nın ürettiği en büyük kayıtlardan biri. İşte Paste'in seçtiği en iyi 25 Beach Boys şarkısı.
+    title: "The Beach Boys' 25 Best Songs of All Time",
+    excerpt: "On the 63rd anniversary of 'Surfin' U.S.A.', Paste compiles the peak of Brian Wilson and co.'s catalog: a listening guide from 'Caroline, No' to 'Heroes and Villains' to 'God Only Knows'.",
+    body: `Sixty-three years ago, The Beach Boys released "Surfin' U.S.A." and the band scored their first #1 in the US. In the years that followed, the Brian Wilson-led Hawthorne, California group produced some of rock and roll's greatest songs and most influential records. 1966's *Pet Sounds* is one of the greatest records America has ever produced. Here are Paste's picks for the 25 best Beach Boys songs.
 
 ## 25. "Busy Doin' Nothin" (1968)
 
@@ -1044,938 +1044,938 @@ Brian Wilson lounge pop'a giriyor. *Friends*'in lo-fi sinsi cevheri. Burt Bachar
 
 ## 24. "Big Sur" (1973)
 
-Mike Love'ın yazdığı bu şarkının 2021 *Feel Flows* box-set versiyonu grubun katalogundaki en büyülü kompozisyonlardan biri. Kaliforniya'nın Central Coast harikasına şiirsel bir saygı duruşu.
+The 2021 *Feel Flows* box-set version of this Mike Love-penned song is one of the most magical compositions in the band's catalog. A poetic tribute to the wonder of California's Central Coast.
 
 ## 23. "Please Let Me Wonder" (1965)
 
-*The Beach Boys Today!*'un B-tarafı. Doo-wop surf-rock ile Brian'ın *Pet Sounds*'a hazırlanan orkestral vizyonunu birleştiren, saf pop görkemi.
+The B-side to *The Beach Boys Today!*. Pure pop glory, combining doo-wop surf-rock with Brian's orchestral vision preparing for *Pet Sounds*.
 
 ## 22. "Cabin Essence" (1967)
 
-*20/20*'nin kapanış parçası. Brian ve Van Dyke Parks tarafından "Union Pacific Railroad'un donmuş bir karesi" olarak yazıldı.
+The closing track of *20/20*. Written by Brian and Van Dyke Parks as "a frozen frame of the Union Pacific Railroad."
 
 ## 21. "Feel Flows" (1971)
 
-Bu listedeki tek Carl Wilson kompozisyonu. Baldwin org, Moog synth ve bantlı tellerle piyanolar.
+The only Carl Wilson composition on this list. Baldwin organ, Moog synth, and pianos with taped strings.
 
 ## 20. "I'm Waiting For the Day" (1966)
 
-Al de Lory'nin snake gibi piyano riff'i ve Sid Sharp Strings'in yaylılarıyla dolu bir hüzün.
+A sadness filled with Al de Lory's snake-like piano riff and Sid Sharp Strings' strings.
 
 ## 19. "Disney Girls (1957)" (1971)
 
-Bruce Johnston'ın en büyük Beach Boys katkısı. Walt Disney film yıldızları, garaj şarabı ve "açık arabalar ile daha berrak yıldızlar" fantezisi.
+Bruce Johnston's greatest Beach Boys contribution. A fantasy of Walt Disney movie stars, garage wine, and "open cars and clearer stars."
 
 ## 18. "Surfer Girl" (1963)
 
-Brian'ın yazdığını iddia ettiği ilk şarkı. Dion and the Belmonts'un "When You Wish Upon a Star" yorumundan ilham.
+The first song Brian claimed to have written. Inspired by Dion and the Belmonts' rendition of "When You Wish Upon a Star."
 
 ## 17. "I Get Around" (1964)
 
-Amerika'nın British Invasion'a cevabı. Surf-rock, doo-wop enerjisi ve o Kaliforniya sesi.
+America's answer to the British Invasion. Surf-rock, doo-wop energy, and that California sound.
 
 ## 16. "Caroline, No" (1966)
 
-*Pet Sounds*'un kapanışı. Hal Blaine bir Sparklett su şişesi çalıyor; Brian'ın köpekleri Banana ve Louie de sesleniyor.
+The closing track of *Pet Sounds*. Hal Blaine plays a Sparklett water bottle; Brian's dogs Banana and Louie also make an appearance.
 
 ## 15. "Heroes and Villains" (1967)
 
-*Smile* için yazılan bu opera-benzeri parça, erken Kaliforniya tarihinin bir arşivi.
+This opera-like piece, written for *Smile*, is an archive of early California history.
 
 ## 14. "The Night Was So Young" (1977)
 
-*The Beach Boys Love You*'nun kalbi. Lester Bangs "grubun en iyi albümü" demişti.
+The heart of *The Beach Boys Love You*. Lester Bangs called it "the band's best album."
 
 ## 13. "Don't Talk (Put Your Head On My Shoulder)" (1966)
 
-Kromatik mükemmellik. Elvis Costello: "Yarın dünyadaki tüm plakçalarlar bozulursa, bu şarkılar yüz yıl sonra bile duyulabilir."
+Chromatic perfection. Elvis Costello: "If all the record players in the world broke tomorrow, these songs would still be audible a hundred years from now."
 
 ## 12. "'Til I Die" (1971)
 
-Brian'ın Santa Monica iskelesinden atlatma tehdidinin ardından yazdığı varoluşsal krizin sese dökülmüş hali.
+Brian's existential crisis put to sound, written after his threat to jump off the Santa Monica pier.
 
 ## 11. "I Just Wasn't Made For These Times" (1966)
 
-Tony Asher ile birlikte yazılan, Electro-Theremin solosu bulunan epik bir balad.
+An epic ballad co-written with Tony Asher, featuring an Electro-Theremin solo.
 
 ## 10. "All I Wanna Do" (1970)
 
-*Sunflower*'ın dream-pop cevheri. Yıllar sonra Panda Bear ve M83'e uzanan bir sesin habercisi.
+*Sunflower*'s dream-pop gem. A harbinger of a sound that would reach Panda Bear and M83 years later.
 
 ## 9. "Sail On, Sailor" (1973)
 
-*Holland*'ın açılışı. Blondie Chaplin'in vokali grubun en soul-etkili anlarından birini üretiyor.
+The opening track of *Holland*. Blondie Chaplin's vocal creates one of the band's most soul-influenced moments.
 
 ## 8. "Wouldn't It Be Nice" (1966)
 
-*Pet Sounds*'un açılışı. Pop müziğin en mükemmel giriş parçalarından biri.
+The opening track of *Pet Sounds*. One of pop music's most perfect introductory pieces.
 
 ## 7. "In My Room" (1963)
 
-Brian ve Gary Usher'ın yazdığı, yalnızlık ve odaya sığınma üzerine bir başyapıt.
+A masterpiece about loneliness and taking refuge in one's room, written by Brian and Gary Usher.
 
 ## 6. "Surf's Up" (1971)
 
-Brian ile Van Dyke Parks'ın *Smile* için yazdığı, 1971'de tamamlanmış uzun kompozisyon.
+A long composition written by Brian and Van Dyke Parks for *Smile*, completed in 1971.
 
 ## 5. "California Girls" (1965)
 
-Phil Spector'un "Wall of Sound" mirasını devralan bir güneşli manifesto.
+A sunny manifesto inheriting Phil Spector's "Wall of Sound" legacy.
 
 ## 4. "Sloop John B" (1966)
 
-*Pet Sounds*'un halk şarkısı uyarlaması. Grubun harmonik dehasının en berrak anlarından.
+*Pet Sounds*' folk song adaptation. One of the clearest moments of the band's harmonic genius.
 
 ## 3. "Good Vibrations" (1966)
 
-"Cep senfonisi." Elektro-Theremin, çello ve müzikal geçişlerle inşa edilen üç buçuk dakikalık bir pop mucizesi.
+"Pocket symphony." A three-and-a-half-minute pop miracle built with Electro-Theremin, cello, and musical transitions.
 
 ## 2. "God Only Knows" (1966)
 
-Paul McCartney'nin "yazılmış en iyi şarkı" dediği başyapıt. Carl Wilson'ın vokali ve Fransız kornosuyla açılan giriş.
+A masterpiece that Paul McCartney called "the best song ever written." Carl Wilson's vocal and a French horn-led intro.
 
-## 1. "Wouldn't It Be Nice / God Only Knows" — Pet Sounds Zirvesi
+## 1. "Wouldn't It Be Nice / God Only Knows" — Pet Sounds Peak
 
-*Pet Sounds*'un ortasındaki geçit, pop müziğin şimdiye kadar ürettiği en mükemmel süreklilik.
+The passage in the middle of *Pet Sounds*, the most perfect continuity pop music has ever produced.
 
-Kaynak: Paste Magazine — "The 25 Greatest Beach Boys Songs of All Time".`,
+Source: Paste Magazine — "The 25 Greatest Beach Boys Songs of All Time".`,
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/05/08232842/01C97D02-9176-4609-B2EC-B493F01665AB-scaled.jpeg",
     source: "Paste Magazine",
   },
   {
     slug: "paste-en-buyuk-en-iyi-orijinal-sarki-oscar-kazananlari",
-    title: "En Büyük 'En İyi Orijinal Şarkı' Oscar Kazananları, Sıralandı",
-    excerpt: "'My Heart Will Go On'dan 'Moon River'a, 'Flashdance…What a Feeling'den 'Arthur's Theme'e — Paste, Akademi'nin 90 yıllık Best Original Song tarihinden en iyi 15 kazananı derledi.",
-    body: `Her yıl Akademi; yönetmen, oyuncu, görüntü yönetmeni, yazar, makyaj sanatçısı ve bestecilerin en iyilerine ödül veriyor. 1935'ten beri Akademi En İyi Orijinal Şarkı Oscar'ını dağıtıyor. Con Conrad ve Herb Magidson *The Gay Divorcee*'nin "The Continental"ı için ilk ödülü kazandı; Johnny Mercer, Randy Newman, Giorgio Moroder, Henry Mancini, Burt Bacharach ve Elton John birden fazla kez ödül aldı. Paste, 90 yıllık tarihin en iyi 15 kazananını sıraladı.
+    title: "The Greatest 'Best Original Song' Oscar Winners, Ranked",
+    excerpt: "From 'My Heart Will Go On' to 'Moon River,' 'Flashdance…What a Feeling' to 'Arthur's Theme' — Paste compiled the 15 best winners from the Academy's 90-year history of Best Original Song.",
+    body: `Each year, the Academy awards the best directors, actors, cinematographers, writers, makeup artists, and composers. Since 1935, the Academy has been handing out the Best Original Song Oscar. Con Conrad and Herb Magidson won the first award for "The Continental" from *The Gay Divorcee*; Johnny Mercer, Randy Newman, Giorgio Moroder, Henry Mancini, Burt Bacharach, and Elton John have won multiple times. Paste ranked the 15 best winners from 90 years of history.
 
-## Onursal: "Man or Muppet" (*The Muppets*, 2011)
+## Honorable Mention: "Man or Muppet" (*The Muppets*, 2011)
 
-Jason Segel ve Peter Linz'in seslendirdiği Walter'ın piyano baladı. Bret McKenzie'nin yazımıyla, çocuk filmi olmasına rağmen tüm kuşaklarda karşılık bulan bir kalp taşıyor.
+Walter's piano ballad, voiced by Jason Segel and Peter Linz. Written by Bret McKenzie, it carries a heart that resonates across all generations, despite being a children's film.
 
 ## 15. "My Heart Will Go On" (*Titanic*, 1997)
 
-Dünya çapında 18 milyon satış, dört Grammy, 30 ülkede 1 numara. Celine Dion, *Titanic*'e ruhunu verdi. Kaynak filmini bile geride bırakan bir pop kültür hazinesi.
+18 million sales worldwide, four Grammys, #1 in 30 countries. Celine Dion gave *Titanic* its soul. A pop culture treasure that even surpassed its source film.
 
 ## 14. "Arthur's Theme (Best That You Can Do)" (*Arthur*, 1981)
 
-Christopher Cross'un piyano baladı. "when you get caught between the moon and New York City" dizesi, kuşaklara New York rüyası taşıyan bir cümle.
+Christopher Cross's piano ballad. The line "when you get caught between the moon and New York City" is a phrase that conveys the New York dream to generations.
 
 ## 13. "Moon River" (*Breakfast at Tiffany's*, 1961)
 
-Henry Mancini'nin bestelediği, Audrey Hepburn'ün Holly Golightly'nin yangın merdivenindeki performansı.
+Composed by Henry Mancini, Audrey Hepburn's performance as Holly Golightly on the fire escape.
 
 ## 12. "Flashdance…What a Feeling" (*Flashdance*, 1983)
 
-Giorgio Moroder ve Keith Forsey'in Irene Cara ile birlikte yazdığı, 1980'lerin pop hareketini tek başına özetleyen bir marş.
+An anthem written by Giorgio Moroder and Keith Forsey with Irene Cara, single-handedly summarizing the 1980s pop movement.
 
 ## 11. "The Way You Look Tonight" (*Swing Time*, 1936)
 
-Jerome Kern ve Dorothy Fields imzalı, Fred Astaire'in orijinal olarak seslendirdiği ölümsüz standart.
+An immortal standard by Jerome Kern and Dorothy Fields, originally performed by Fred Astaire.
 
 ## 10. "Streets of Philadelphia" (*Philadelphia*, 1993)
 
-Bruce Springsteen'in kısık bas synth'iyle söylediği ağıt. AIDS ve dışlanma üzerine yazılmış en insanca pop şarkılarından.
+Bruce Springsteen's lament, sung with a muted bass synth. One of the most humane pop songs written about AIDS and exclusion.
 
 ## 9. "Falling Slowly" (*Once*, 2007)
 
-Glen Hansard ve Markéta Irglová'nın seslendirdiği folk duet. Küçük bütçeli bir İrlanda filminin kazandığı en büyük ödül.
+A folk duet performed by Glen Hansard and Markéta Irglová. The biggest award won by a low-budget Irish film.
 
 ## 8. "Skyfall" (*Skyfall*, 2012)
 
-Adele'in James Bond marşı. Serinin en olgun tema şarkısı.
+Adele's James Bond anthem. The most mature theme song in the series.
 
 ## 7. "Lose Yourself" (*8 Mile*, 2002)
 
-Eminem'in rap için ilk Oscar. "One shot" temasının en çıplak, en dürüst hali.
+Eminem's first Oscar for rap. The rawest, most honest depiction of the "one shot" theme.
 
 ## 6. "Shallow" (*A Star Is Born*, 2018)
 
-Lady Gaga ve Bradley Cooper düeti. Geçtiğimiz on yılın en çok karşılık bulan aşk ilanı.
+Lady Gaga and Bradley Cooper's duet. The most resonant declaration of love of the past decade.
 
 ## 5. "Let It Go" (*Frozen*, 2013)
 
-Idina Menzel'in seslendirdiği, animasyon müziklerinin son on beş yılını tanımlayan güç şarkısı.
+Idina Menzel's power song, defining the last fifteen years of animated musicals.
 
 ## 4. "Over the Rainbow" (*The Wizard of Oz*, 1939)
 
-Judy Garland'ın icrası, Amerikan popüler müziğinin belki de en simgesel anı.
+Judy Garland's rendition, perhaps the most iconic moment in American popular music.
 
 ## 3. "The Windmills of Your Mind" (*The Thomas Crown Affair*, 1968)
 
-Michel Legrand ve Bergman'ların yazdığı, Noel Harrison'ın seslendirdiği sürreal düşünce döngüsü.
+A surreal thought cycle written by Michel Legrand and the Bergmans, performed by Noel Harrison.
 
 ## 2. "White Christmas" (*Holiday Inn*, 1942)
 
-Irving Berlin klasiği. Bing Crosby'nin yorumu, tüm zamanların en çok satan tekli olmaya devam ediyor.
+Irving Berlin classic. Bing Crosby's interpretation remains the best-selling single of all time.
 
 ## 1. "Days of Wine and Roses" (*Days of Wine and Roses*, 1962)
 
-Henry Mancini ve Johnny Mercer'ın kanonun zirvesi. Alkol ve kayıp üzerine yazılmış, jazz standardına dönüşmüş bir başyapıt.
+The pinnacle of the canon by Henry Mancini and Johnny Mercer. A masterpiece about alcohol and loss, transformed into a jazz standard.
 
-Kaynak: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranked".`,
+Source: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranked".`,
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/03/15142116/6E8F79E6-31B3-4F8F-B116-CCFBE3DE6587-scaled.jpeg",
     source: "Paste Magazine",
   },
   {
 
     slug: "bbc-temmuz-2026-izlenecek-10-film",
-    title: "Spider-Man'den The Odyssey'e: BBC'ye Göre Temmuz'da İzlenecek 10 Film",
-    excerpt: "Tom Holland ve Zendaya'nın yılın en büyük iki gişe filminde başrolde olduğu bir ayda BBC Culture eleştirmeni Nicholas Barber, Temmuz'un sinema ve ev ekranı için en iyi 10 filmini seçti.",
-    body: `BBC Culture eleştirmeni Nicholas Barber, Temmuz 2026'nın sinema ve evde izlenecek en iyi 10 filmini bir araya getirdi. Ay, Tom Holland ve Zendaya'nın başrolde olduğu iki dev yapıma sahne oluyor: Sony'nin 'Spider-Man: Brand New Day'i ve Christopher Nolan'ın 'The Odyssey'i. Ancak liste yalnızca tentpole'lardan ibaret değil.
+    title: "From Spider-Man to The Odyssey: 10 Films to Watch in July, According to BBC",
+    excerpt: "In a month where Tom Holland and Zendaya star in two of the year's biggest blockbusters, BBC Culture critic Nicholas Barber picks his top 10 films for cinema and home screens this July.",
+    body: `BBC Culture critic Nicholas Barber has compiled his top 10 films to watch in cinemas and at home for July 2026. The month features two massive productions starring Tom Holland and Zendaya: Sony's 'Spider-Man: Brand New Day' and Christopher Nolan's 'The Odyssey'. But the list isn't just about tentpoles.
 
 ## 1. Evil Dead Burn
-Sam Raimi evreninin yeni halkası — bu kez daha vahşi, daha kanlı, ve şaşırtıcı biçimde duygusal.
+The new installment in the Sam Raimi universe — this time wilder, bloodier, and surprisingly emotional.
 
 ## 2. Spider-Man: Brand New Day
-Tom Holland'ın Peter Parker olarak dördüncü çıkışı; MCU'nun sıfırlanma noktası olarak konumlanıyor.
+Tom Holland's fourth outing as Peter Parker; positioned as the MCU's reset point.
 
 ## 3. The Odyssey
-Christopher Nolan'ın Homeros uyarlaması. Matt Damon Odysseus rolünde; Zendaya Penelope. IMAX 70mm çekim.
+Christopher Nolan's adaptation of Homer. Matt Damon as Odysseus; Zendaya as Penelope. IMAX 70mm shot.
 
 ## 4. Superman: Man of Tomorrow
-James Gunn'ın yeni DCU evreninin devam filmi. David Corenswet, Superman rolünde yerini sağlamlaştırıyor.
+James Gunn's sequel to the new DCU universe. David Corenswet solidifies his role as Superman.
 
 ## 5. Bugonia
-Yorgos Lanthimos'un 'Save the Green Planet' yeniden yorumu. Emma Stone başrolde.
+Yorgos Lanthimos's reinterpretation of 'Save the Green Planet'. Emma Stone in the lead role.
 
 ## 6. Ella McCay
-James L. Brooks'un uzun aradan sonra çektiği yeni filmi; Emma Mackey ve Woody Harrelson kadroda.
+James L. Brooks's new film after a long hiatus; Emma Mackey and Woody Harrelson in the cast.
 
 ## 7. The Naked Gun
-Reboot. Liam Neeson, Leslie Nielsen'ın rolünde — ve şaşırtıcı biçimde çalışıyor.
+Reboot. Liam Neeson in Leslie Nielsen's role — and surprisingly, it works.
 
 ## 8. Splitsville
-Michael Angelo Covino'nun evlilik komedisi; Sundance'ten övgüyle çıktı.
+Michael Angelo Covino's marriage comedy; emerged with praise from Sundance.
 
 ## 9. Sorry, Baby
-Eva Victor'un ilk uzun metrajı; travma-sonrası komedi türüne yeni bir soluk.
+Eva Victor's feature debut; a fresh take on the post-trauma comedy genre.
 
 ## 10. Together
-Michael Shanks'in kara komedi-korku hibridi; Alison Brie ve Dave Franco başrolde.
+Michael Shanks's dark comedy-horror hybrid; Alison Brie and Dave Franco in the lead roles.
 
-Kaynak: BBC Culture — Nicholas Barber.`,
+Source: BBC Culture — Nicholas Barber.`,
     image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0ntx7jd.jpg.webp",
     source: "BBC Culture",
   },
   {
     slug: "ew-en-iyi-binge-dizileri",
-    title: "Tek Oturuşta Bitirmelik: EW'nun Binge-Watch İçin En İyi 45 Dizisi",
-    excerpt: "Noah Wyle'lı 'The Pitt'ten 'Fleabag'e, 'Over the Garden Wall'dan 'The Americans'a — Entertainment Weekly'nin bir hafta sonuna sığdırabileceğiniz 45 dizilik binge listesi.",
-    body: `Streaming çağı, tek seferde koca bir sezonu bitirme alışkanlığını neredeyse bir tür sinema deneyimine dönüştürdü. Entertainment Weekly'nin Robert English ve Kevin Jacobsen imzalı güncel listesi (3 Temmuz 2026), bir oturuşta izlemek için en uygun 45 diziyi bir araya getiriyor. Aşağıda EW'nun alfabetik sıradaki tam listesi ve her başlığın kısa bir Türkçe özeti yer alıyor.
+    title: "Binge-Worthy: EW's Top 45 Shows to Watch in One Sitting",
+    excerpt: "From Noah Wyle's 'The Pitt' to 'Fleabag', 'Over the Garden Wall' to 'The Americans' — Entertainment Weekly's binge list of 45 shows you can fit into a weekend.",
+    body: `The streaming era has transformed the habit of finishing an entire season in one go into almost a cinematic experience. Entertainment Weekly's updated list (July 3, 2026), by Robert English and Kevin Jacobsen, compiles the 45 most suitable shows for binge-watching. Below is EW's full list in alphabetical order, along with a brief English summary of each title.
 
 ## 1. Abbott Elementary (2021–)
-Quinta Brunson'ın yarattığı Philadelphia'daki bir devlet okulunda geçen mockumentary komedi. Sıcak, akıllı ve bölüm başı 22 dakika: klasik binge yakıtı.
+Quinta Brunson's mockumentary comedy set in a Philadelphia public school. Warm, smart, and 22 minutes per episode: classic binge fuel.
 
 ## 2. Adolescence (2025)
-Stephen Graham'lı, tek çekimde kaydedilen dört bölümlük Netflix draması. Bir cinayet soruşturması etrafında ergenlik, sosyal medya ve baba-oğul ilişkisini tarayan sarsıcı bir eser.
+A four-part Netflix drama starring Stephen Graham, filmed in a single shot. A harrowing work exploring adolescence, social media, and the father-son relationship around a murder investigation.
 
 ## 3. Baby Reindeer (2024)
-Richard Gadd'in kendi hikâyesinden uyarladığı taciz-travma draması. Jessica Gunning'in Emmy'li Martha performansıyla dikkat çeken 7 bölümlük Netflix şoku.
+Richard Gadd's harassment-trauma drama adapted from his own story. A 7-episode Netflix shocker, notable for Jessica Gunning's Emmy-winning performance as Martha.
 
 ## 4. Bait (2026)
-Riz Ahmed'in başrolde olduğu Prime Video draması. James Bond rolüne aday bir aktörün kimlik ve utançla hesaplaşmasını takip ediyor.
+A Prime Video drama starring Riz Ahmed. It follows an actor, a candidate for the James Bond role, as he grapples with identity and shame.
 
 ## 5. The Bear (2022–2026)
-Jeremy Allen White'ın Carmy'si; Chicago'da bir sandviççide geçen, mutfak stresini şiirsel bir kaygı dramına çeviren FX dizisi. 4 sezonda tamamlandı.
+Jeremy Allen White's Carmy; an FX series set in a Chicago sandwich shop, transforming kitchen stress into a poetic drama of anxiety. Completed in 4 seasons.
 
 ## 6. Black Doves (2024–)
-Keira Knightley ve Ben Whishaw'lı Netflix casus gerilimi. Yılbaşı temalı Londra sokaklarında hızlı tempolu bir suikast operası.
+A Netflix spy thriller starring Keira Knightley and Ben Whishaw. A fast-paced assassination opera set on Christmas-themed London streets.
 
 ## 7. Bodyguard (2018)
-Richard Madden'lı BBC gerilimi. 6 bölümde biten, dakika başına nabız yükselten "tek gecede biter" prototipi.
+A BBC thriller starring Richard Madden. A 6-episode prototype for "finishes in one night," raising heart rates by the minute.
 
 ## 8. Chernobyl (2019)
-Craig Mazin'in HBO mini dizisi. 1986 nükleer felaketinin arkasındaki bürokrasiyi ve insan hatasını dakik bir dehşetle anlatıyor.
+Craig Mazin's HBO miniseries. It meticulously recounts the bureaucracy and human error behind the 1986 nuclear disaster with precise horror.
 
 ## 9. The Comeback (2005; 2014; 2026)
-Lisa Kudrow'un Valerie Cherish'i geri döndü. HBO'nun kült cringe komedisinin yeni sezonu, üçlemeyi tamamlıyor.
+Lisa Kudrow's Valerie Cherish is back. The new season of HBO's cult cringe comedy completes the trilogy.
 
 ## 10. Death Note (2006–2007)
-Tsugumi Ohba ve Takeshi Obata mangasından uyarlanan anime klasiği. Light ve L arasındaki zekâ düellosu 37 bölümde tamamlanıyor.
+An anime classic adapted from Tsugumi Ohba and Takeshi Obata's manga. The duel of wits between Light and L concludes in 37 episodes.
 
 ## 11. Dying for Sex (2025)
-Michelle Williams'lı FX mini dizisi. Ölümcül kanser teşhisi alan bir kadının cinsel özgürleşmesini gerçek bir podcast'ten uyarlıyor.
+An FX miniseries starring Michelle Williams. It adapts a true podcast about a woman diagnosed with terminal cancer who embarks on sexual liberation.
 
 ## 12. Enlightened (2011–2013)
-Mike White'ın erken başyapıtı. Laura Dern'in Amy Jellicoe'su, "aydınlanmış" bir orta yaş krizi portresi çiziyor. 18 bölüm.
+Mike White's early masterpiece. Laura Dern's Amy Jellicoe paints a portrait of an "enlightened" midlife crisis. 18 episodes.
 
 ## 13. Firefly (2002–2003)
-Joss Whedon'un uzay-western'i. Tek sezonda kesilse de kült oldu; 14 bölüm + Serenity filmi ideal hafta sonu paketi.
+Joss Whedon's space-western. Though canceled after one season, it became a cult classic; 14 episodes + the Serenity movie make an ideal weekend package.
 
 ## 14. Fleabag (2016–2019)
-Phoebe Waller-Bridge'in kameraya bakışlarıyla televizyonu yeniden tanımladığı iki sezonluk mucize. 12 bölüm, tam bir cumartesi.
+Phoebe Waller-Bridge's two-season miracle that redefined television with her fourth-wall breaks. 12 episodes, a perfect Saturday.
 
 ## 15. Freaks and Geeks (1999–2000)
-Judd Apatow ve Paul Feig'in 1980 Michigan lisesinde geçen kısa ömürlü klasiği. Genç Seth Rogen, James Franco, Linda Cardellini kadrosu efsanesi.
+Judd Apatow and Paul Feig's short-lived classic set in a 1980 Michigan high school. A legendary cast featuring young Seth Rogen, James Franco, Linda Cardellini.
 
 ## 16. The Girlfriend (2025)
-Robin Wright'lı Prime Video psikolojik gerilimi. Bir anne ile oğlunun kız arkadaşı arasındaki güç savaşını iki bakış açısından anlatıyor.
+A Prime Video psychological thriller starring Robin Wright. It tells the power struggle between a mother and her son's girlfriend from two perspectives.
 
 ## 17. Hacks (2021–2026)
-Jean Smart ve Hannah Einbinder'in nesiller arası komedyen ikilisi. HBO Max'in Emmy avcısı, beşinci ve son sezonuyla tamamlandı.
+Jean Smart and Hannah Einbinder's intergenerational comedian duo. HBO Max's Emmy magnet, concluded with its fifth and final season.
 
 ## 18. The Haunting of Hill House (2018)
-Mike Flanagan'ın Shirley Jackson uyarlaması. Aile dramı ile korkuyu birleştiren 10 bölümlük Netflix ödevi.
+Mike Flanagan's Shirley Jackson adaptation. A 10-episode Netflix assignment combining family drama with horror.
 
 ## 19. Heartstopper (2022–2024)
-Alice Oseman'ın grafik romanından uyarlanan Netflix romantik gençlik dizisi. Üç kısa sezonda tamamlanan sıcak bir dünya.
+A Netflix romantic teen series adapted from Alice Oseman's graphic novel. A warm world completed in three short seasons.
 
 ## 20. Heated Rivalry (2025–)
-Rachel Reid'in queer buz hokeyi romanından Crave uyarlaması. Rakip iki NHL yıldızının yıllara yayılan gizli ilişkisi.
+A Crave adaptation of Rachel Reid's queer ice hockey novel. The secret, years-long relationship between two rival NHL stars.
 
 ## 21. I May Destroy You (2020)
-Michaela Coel'in yazdığı, yönettiği ve başrolünde olduğu HBO/BBC şaheseri. Rıza ve travmayı 12 bölümde parçalıyor.
+Michaela Coel's HBO/BBC masterpiece, which she wrote, directed, and starred in. It dissects consent and trauma in 12 episodes.
 
 ## 22. Jury Duty (2023–) 
-Freevee'nin doğaçlama sahte jüri deneyi. Ronald Gladden'ın hiçbir şeyden haberi olmadığı bir sosyal deney komedisi.
+Freevee's improvised fake jury experiment. A social experiment comedy where Ronald Gladden is completely unaware.
 
 ## 23. Love Story (2026–)
-Ryan Murphy imzalı FX dizisi. Sarah Pidgeon ve Paul Kelly, Carolyn Bessette ve JFK Jr. rollerinde.
+An FX series by Ryan Murphy. Sarah Pidgeon and Paul Kelly as Carolyn Bessette and JFK Jr.
 
 ## 24. Mare of Easttown (2021)
-Kate Winslet'in Emmy'li Delaware County dedektifi. 7 bölümlük HBO mini dizisi, "small-town noir" için ders kitabı.
+Kate Winslet's Emmy-winning Delaware County detective. A 7-episode HBO miniseries, a textbook example for "small-town noir."
 
 ## 25. Margo's Got Money Troubles (2026–)
-Rufi Thorpe romanından Apple TV+ uyarlaması. Elle Fanning ve Michelle Pfeiffer, güreşçi babalı genç anne hikâyesinde.
+An Apple TV+ adaptation of Rufi Thorpe's novel. Elle Fanning and Michelle Pfeiffer in a story about a young mother with a wrestler father.
 
 ## 26. The Night Of (2016)
-Riz Ahmed'in çıkışını yaptığı 8 bölümlük HBO polisiyesi. Amerikan adalet sisteminin klostrofobik bir röntgeni.
+Riz Ahmed's breakout 8-episode HBO crime drama. A claustrophobic X-ray of the American justice system.
 
 ## 27. Normal People (2020)
-Sally Rooney romanının Hulu/BBC uyarlaması. Paul Mescal ve Daisy Edgar-Jones ikilisi, yılın en özenli aşk hikâyesi.
+Hulu/BBC adaptation of Sally Rooney's novel. The duo of Paul Mescal and Daisy Edgar-Jones, the year's most meticulous love story.
 
 ## 28. Over the Garden Wall (2014)
-Patrick McHale'in 10 bölümlük Cartoon Network mini dizisi. Sonbahar atmosferi, Elijah Wood'un sesi ve zamansız bir masal tonu.
+Patrick McHale's 10-episode Cartoon Network miniseries. Autumn atmosphere, Elijah Wood's voice, and a timeless fairy tale tone.
 
 ## 29. Overcompensating (2025–)
-Benito Skinner'ın Prime Video komedi dizisi. Kolej ilk yılında dolaptan çıkma sürecini keskin bir mizahla anlatıyor.
+Benito Skinner's Prime Video comedy series. It tells the story of coming out in his freshman year of college with sharp humor.
 
 ## 30. Paradise (2025–)
-Dan Fogelman'ın Sterling K. Brown'lı Hulu gerilimi. Suikast sonrası politik komplo bilim-kurgu ile buluşuyor.
+Dan Fogelman's Hulu thriller starring Sterling K. Brown. A post-assassination political conspiracy meets science fiction.
 
 ## 31. The Pitt (2025–)
-Noah Wyle'ın Pittsburgh acil servisinde geçirdiği 15 saatlik vardiyayı gerçek zamanlı anlatan HBO Max dizisi. 2026'nın en güçlü yeni draması.
+Noah Wyle's HBO Max series, depicting a 15-hour shift in a Pittsburgh emergency room in real-time. The strongest new drama of 2026.
 
 ## 32. Pluribus (2025–)
-Vince Gilligan'ın Rhea Seehorn'lu yeni Apple TV+ bilim-kurgusu. Küresel bir mutluluk salgınına direnen tek insan.
+Vince Gilligan's new Apple TV+ sci-fi with Rhea Seehorn. The only person resisting a global happiness epidemic.
 
 ## 33. The Queen's Gambit (2020)
-Anya Taylor-Joy'lu Netflix mini dizisi. Soğuk Savaş dönemi kadın satranç dâhisinin 7 bölümlük yükselişi.
+A Netflix miniseries starring Anya Taylor-Joy. The 7-episode rise of a female chess prodigy during the Cold War era.
 
 ## 34. Schitt's Creek (2015–2020)
-Eugene ve Dan Levy'nin Kanada komedisi. Zenginlikten düşen bir ailenin altı sezonluk sıcak dönüşümü.
+Eugene and Dan Levy's Canadian comedy. The warm transformation of a family fallen from wealth over six seasons.
 
 ## 35. Sense8 (2015–2018)
-Wachowski kardeşlerin Netflix'te sekiz kıtaya yayılan psikolojik bağ epiği. Görsel şölen niteliğinde bir kült.
+The Wachowski sisters' psychological bond epic spanning eight continents on Netflix. A visual feast and a cult classic.
 
 ## 36. Severance (2022–present)
-Dan Erickson'ın Apple TV+ dizisi. Adam Scott'lı Lumon Industries'in "innie/outie" çalışanları, 2020'lerin en özgün konsepti.
+Dan Erickson's Apple TV+ series. Adam Scott's "innie/outie" employees at Lumon Industries, the most original concept of the 2020s.
 
 ## 37. Shōgun (2024–)
-James Clavell romanından FX uyarlaması. Anna Sawai, Hiroyuki Sanada ve Cosmo Jarvis'in 17. yüzyıl Japonya destanı Emmy'leri süpürdü.
+An FX adaptation of James Clavell's novel. Anna Sawai, Hiroyuki Sanada, and Cosmo Jarvis's 17th-century Japan epic swept the Emmys.
 
 ## 38. Shrinking (2023–)
-Bill Lawrence, Brett Goldstein ve Jason Segel'in Apple TV+ komedi dramı. Harrison Ford'un geç kariyer sürprizi.
+Bill Lawrence, Brett Goldstein, and Jason Segel's Apple TV+ comedy-drama. Harrison Ford's late-career surprise.
 
 ## 39. Squid Game (2021–2025)
-Hwang Dong-hyuk'un Netflix fenomeni. Üç sezonda tamamlanan sınıf mücadelesi alegorisi, dünya çapında bir olay oldu.
+Hwang Dong-hyuk's Netflix phenomenon. A class struggle allegory completed in three seasons, it became a global event.
 
 ## 40. The Studio (2025–)
-Seth Rogen'in Apple TV+ Hollywood hicvi. Bir stüdyo başkanının kaotik ilk yılını Kathryn Hahn ve büyük kamera kadrosuyla anlatıyor.
+Seth Rogen's Apple TV+ Hollywood satire. It tells the chaotic first year of a studio head with Kathryn Hahn and a large ensemble cast.
 
 ## 41. Survivor (2000–present)
-Jeff Probst'lu CBS reality klasiği. 45+ sezonuyla "binge etmeye zaman ayır" gerektiren tek programı listede.
+Jeff Probst's CBS reality classic. With 45+ seasons, it's the only show on the list that requires "making time to binge."
 
 ## 42. The Traitors (2023–)
-Alan Cumming sunumlu Peacock reality gerilimi. Sosyal aldatma oyunu, iki gecede bitirilecek tempoda.
+Alan Cumming-hosted Peacock reality thriller. A social deception game, paced to be finished in two nights.
 
 ## 43. Twin Peaks (1990–1991)
-David Lynch ve Mark Frost'un ABC'de televizyonun dilbilgisini değiştiren gizemli kasaba draması. Kim öldürdü Laura Palmer'ı?
+David Lynch and Mark Frost's mysterious town drama on ABC that changed the grammar of television. Who killed Laura Palmer?
 
 ## 44. The White Lotus (2021–)
-Mike White'ın HBO antolojisi. Her sezon farklı bir lüks tatil köyünde geçen sınıf hicvi; üç sezonda üç yıldız kadrosu.
+Mike White's HBO anthology. A class satire set in a different luxury resort each season; three star-studded casts in three seasons.
 
 ## 45. Widow's Bay (2026–)
-Matthew Rhys'lı Apple TV+ gizemi. Sahil kasabasında kaybolan bir kızın izini süren, sisli-noir estetikli yeni bir keşif.
+Matthew Rhys's Apple TV+ mystery. A new discovery with a foggy-noir aesthetic, tracking a missing girl in a coastal town.
 
-Kaynak: Entertainment Weekly — "The 45 best TV shows to binge-watch right now" (Robert English & Kevin Jacobsen, 3 Temmuz 2026).`,
+Source: Entertainment Weekly — "The 45 best TV shows to binge-watch right now" (Robert English & Kevin Jacobsen, 3 Temmuz 2026).`,
     image: "/__l5e/assets-v1/0533f2d0-cc82-4ff7-be8b-7217b8fec22b/ew-binge-45.webp",
     source: "Entertainment Weekly",
   },
   {
     slug: "ew-hulu-en-iyi-gerilim-dizileri",
     title: "Hulu'da Nefes Kesen 24 Gerilim Dizisi",
-    excerpt: "'Fargo'dan 'Only Murders in the Building'e, 'The Americans'tan 'The Handmaid's Tale'e — Entertainment Weekly'nin Hulu kataloğundan seçtiği koltuğa çivileyecek 24 gerilim dizisi.",
-    body: `Entertainment Weekly'nin Gwen Ihnat ve Kevin Jacobsen imzalı listesi, Hulu'nun geniş kataloğunda gizlenmiş 24 gerilim dizisini gün yüzüne çıkarıyor. Ortak paydaları: Bölüm sonunda bir sonrakini oynatmayı düşünmeden başlatmanız.
+    excerpt: "From 'Fargo' to 'Only Murders in the Building,' from 'The Americans' to 'The Handmaid's Tale' — Entertainment Weekly's 24 thrilling series from Hulu's catalog that will keep you glued to your seat.",
+    body: `Entertainment Weekly's list, penned by Gwen Ihnat and Kevin Jacobsen, unearths 24 thrilling series hidden within Hulu's extensive catalog. Their common denominator: At the end of each episode, you'll start the next one without even thinking about it.
 
-## Suç ve karanlık mizah
-Noah Hawley'in *Fargo*'su tüm sezonlarıyla listede — özellikle Chris Rock'lı 4. sezon. Steve Martin, Martin Short ve Selena Gomez üçlüsünün *Only Murders in the Building*'i, cinayet-komedi dozunu kaçırmayan modern klasik.
+## Crime and dark humor
+Noah Hawley's *Fargo* is on the list with all its seasons — especially season 4 with Chris Rock. The trio of Steve Martin, Martin Short, and Selena Gomez in *Only Murders in the Building* is a modern classic that doesn't skimp on the murder-comedy dose.
 
-## Casusluk ve paranoya
-Keri Russell'lı *The Americans*, Soğuk Savaş dönemi KGB casuslarının aile hayatını anlatarak türün son 20 yıldaki zirvelerinden biri olarak konumlanıyor. *Homeland*'in ilk sezonları ve *The Looming Tower* da bu kategoride.
+## Espionage and paranoia
+*The Americans*, starring Keri Russell, tells the story of KGB spies' family life during the Cold War, positioning itself as one of the genre's peaks in the last 20 years. The early seasons of *Homeland* and *The Looming Tower* are also in this category.
 
-## Distopya ve psikolojik gerilim
-Elisabeth Moss'lu *The Handmaid's Tale*, altı sezonluk yolculuğunu 2025'te tamamladı. Listede ayrıca Amy Adams'lı *Sharp Objects*, *The Bear*'in gerilim yönü öne çıkan bölümleri ve *Dopesick* var.
+## Dystopia and psychological thriller
+Elisabeth Moss's *The Handmaid's Tale* completed its six-season journey in 2025. The list also includes Amy Adams's *Sharp Objects*, episodes of *The Bear* that highlight its thriller aspect, and *Dopesick*.
 
-## Sürpriz seçimler
-*Under the Banner of Heaven*, *A Murder at the End of the World*, *The Patient* ve *Reservation Dogs*'un koyu bölümleri gibi az konuşulmuş yapımlar da EW ekibinin radarında.
+## Surprise picks
+Lesser-discussed productions like *Under the Banner of Heaven*, *A Murder at the End of the World*, *The Patient*, and the darker episodes of *Reservation Dogs* are also on the EW team's radar.
 
-Kaynak: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
+Source: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
     image: "/__l5e/assets-v1/c5933f01-6f8e-4e7c-88a4-a5ee1e94947a/hulu.webp",
     source: "Entertainment Weekly",
   },
   {
     slug: "ew-netflix-mart-2025-yenilikler",
-    title: "Netflix'te Mart: '50 First Dates', 'Ma', 'The Residence' ve Fazlası",
-    excerpt: "Adam Sandler-Drew Barrymore klasiği '50 First Dates'ten Meghan Markle'ın yeni realite dizisine, Millie Bobby Brown'ın filminden Chelsea Handler ve John Mulaney'nin stand-up özeline — Netflix'in Mart 2025 katalog güncellemesi.",
-    body: `Entertainment Weekly'den Ryan Coleman, Netflix'in Mart 2025 için hazırladığı geniş katalog güncellemesini derledi. Nostalji, orijinal drama ve stand-up karışımı bir ay bekliyor aboneleri.
+    title: "March on Netflix: '50 First Dates', 'Ma', 'The Residence' and More",
+    excerpt: "From the Adam Sandler-Drew Barrymore classic '50 First Dates' to Meghan Markle's new reality series, Millie Bobby Brown's film, and Chelsea Handler and John Mulaney's stand-up specials — Netflix's March 2025 catalog update.",
+    body: `Ryan Coleman from Entertainment Weekly has compiled Netflix's extensive catalog update for March 2025. Subscribers can expect a month that's a mix of nostalgia, original drama, and stand-up.
 
-## Nostaljik geri dönüşler
-*50 First Dates* (2004) — Adam Sandler ve Drew Barrymore'un modern rom-com klasiği yeniden Netflix'te. *Friday* (1995) ve *Next Friday* (2000), Ice Cube ve Chris Tucker'lı kült komedi ikilisi de kütüphaneye ekleniyor. Ayrıca *The Karate Kid* üçlemesi, *Bruce Almighty* ve *Legally Blonde 2*.
+## Nostalgic returns
+*50 First Dates* (2004) — Adam Sandler and Drew Barrymore's modern rom-com classic is back on Netflix. *Friday* (1995) and *Next Friday* (2000), the cult comedy duo with Ice Cube and Chris Tucker, are also being added to the library. Also *The Karate Kid* trilogy, *Bruce Almighty*, and *Legally Blonde 2*.
 
-## Orijinal diziler
-*The Residence* — Shonda Rhimes'ın yeni Netflix dizisi. Uzo Aduba'nın başrolde olduğu Beyaz Saray içi cinayet-gizem yapımı. *With Love, Meghan* — Meghan Markle'ın yaşam tarzı realite dizisi. *Adolescence* — Stephen Graham'lı dört bölümlük İngiliz mini dizisi.
+## Original series
+*The Residence* — Shonda Rhimes' new Netflix series. A White House murder-mystery production starring Uzo Aduba. *With Love, Meghan* — Meghan Markle's lifestyle reality series. *Adolescence* — A four-part British mini-series starring Stephen Graham.
 
-## Filmler
-*The Electric State* — Anthony ve Joe Russo yönetiminde, Millie Bobby Brown ve Chris Pratt'in başrolde olduğu retro-fütürist macera. *Plankton: The Movie* — SpongeBob evreninden animasyon spin-off. *Ma* (2019) — Octavia Spencer'ın psikolojik gerilimi.
+## Films
+*The Electric State* — A retro-futuristic adventure directed by Anthony and Joe Russo, starring Millie Bobby Brown and Chris Pratt. *Plankton: The Movie* — An animated spin-off from the SpongeBob universe. *Ma* (2019) — Octavia Spencer's psychological thriller.
 
 ## Stand-up
-Chelsea Handler ve John Mulaney'nin yeni stand-up özelleri ay içinde platformda.
+New stand-up specials from Chelsea Handler and John Mulaney will be on the platform this month.
 
-Kaynak: Entertainment Weekly — "New on Netflix in March 2025".`,
+Source: Entertainment Weekly — "New on Netflix in March 2025".`,
     image: "/__l5e/assets-v1/0d45694a-9768-47d5-8f11-8366afddb87d/netflix-march.jpg",
     source: "Entertainment Weekly",
   },
   {
     slug: "ew-netflix-en-iyi-aile-filmleri",
-    title: "Netflix'in En İyi 20 Aile Filmi: 'Chicken Run'dan 'Matilda'ya",
-    excerpt: "Wesley Stenzel'in EW için hazırladığı liste, hem çocukların hem yetişkinlerin izleyebileceği 20 Netflix filmini bir araya getiriyor: 'Rango', 'Galaxy Quest', 'Nimona' ve daha fazlası.",
-    body: `Entertainment Weekly yazarı Wesley Stenzel, Netflix'in en iyi 20 aile filmini seçti. Aardman'ın kil animasyonlarından çağdaş animasyon hitlerine, klasik komedilere kadar uzanan çeşitli bir liste.
+    title: "Netflix's Top 20 Family Movies: From 'Chicken Run' to 'Matilda'",
+    excerpt: "Wesley Stenzel's list for EW brings together 20 Netflix movies that both children and adults can watch: 'Rango', 'Galaxy Quest', 'Nimona', and more.",
+    body: `Entertainment Weekly writer Wesley Stenzel has selected Netflix's top 20 family movies. A diverse list ranging from Aardman's clay animations to contemporary animated hits, and classic comedies.
 
-## Animasyon klasikleri
-*Chicken Run* (2000) — Aardman'ın kaçış temalı stop-motion başyapıtı. *Rango* (2011) — Gore Verbinski'nin Johnny Depp'li western animasyonu; Oscar ödüllü. *Klaus* (2019) — Netflix'in kendi orijinal animasyonu, elde çizilmiş bir Noel hikâyesi.
+## Animation classics
+*Chicken Run* (2000) — Aardman's escape-themed stop-motion masterpiece. *Rango* (2011) — Gore Verbinski's Oscar-winning western animation starring Johnny Depp. *Klaus* (2019) — Netflix's own original animation, a hand-drawn Christmas story.
 
-## Yeni nesil favoriler
-*Nimona* (2023) — ND Stevenson'ın grafik romanından uyarlanan, Netflix'in queer temalı orta çağ fantastik animasyonu. *The Sea Beast* (2022) — deniz canavarı avcıları hakkında Oscar adayı yapım.
+## Next-gen favorites
+*Nimona* (2023) — Adapted from ND Stevenson's graphic novel, Netflix's queer-themed medieval fantasy animation. *The Sea Beast* (2022) — Oscar-nominated production about sea monster hunters.
 
-## Canlı çekim klasikleri
-*Matilda* (1996) — Roald Dahl uyarlaması, Danny DeVito yönetiminde. *Galaxy Quest* (1999) — bilim kurgu parodisinin altın standardı; hem çocuklar hem yetişkinler için mükemmel giriş. *The Adventures of Sharkboy and Lavagirl* (2005) — Robert Rodriguez'in çocuk fantastik filmi, artık kült statüsünde.
+## Live-action classics
+*Matilda* (1996) — Roald Dahl adaptation, directed by Danny DeVito. *Galaxy Quest* (1999) — The gold standard of sci-fi parody; a perfect introduction for both kids and adults. *The Adventures of Sharkboy and Lavagirl* (2005) — Robert Rodriguez's children's fantasy film, now with cult status.
 
-## Dünya sineması
-*A Cat in Paris* (2010) — Fransız yapımı Oscar adayı animasyon. *The Boy, the Mole, the Fox and the Horse* (2022) — Charlie Mackesy'nin illüstre kitabından uyarlama, BAFTA ve Oscar sahibi.
+## World cinema
+*A Cat in Paris* (2010) — French-made Oscar-nominated animation. *The Boy, the Mole, the Fox and the Horse* (2022) — Adapted from Charlie Mackesy's illustrated book, BAFTA and Oscar winner.
 
-## Neden bu liste önemli?
-Stenzel'e göre "aile filmi" etiketi çocuk filmine indirgenmemeli; en iyi örnekleri, farklı yaş gruplarının aynı anda farklı katmanlar okuyabildiği çok yönlü yapımlar. Bu 20 film tam olarak bu formülü tutturuyor.
+## Why is this list important?
+According to Stenzel, the "family movie" label should not be reduced to a children's film; the best examples are multifaceted productions where different age groups can read different layers simultaneously. These 20 films perfectly hit this formula.
 
-Kaynak: Entertainment Weekly — "The 20 best family movies on Netflix".`,
+Source: Entertainment Weekly — "The 20 best family movies on Netflix".`,
     image: "/__l5e/assets-v1/f3677a5e-8d50-4a4b-909c-51c809f1a54e/family.jpg",
     source: "Entertainment Weekly",
   },
   {
     slug: "agustos-ayinin-en-iyi-10-dizisi-bbc",
-    title: "Ted Lasso'dan The Shards'a: Ağustos'un İzlenmesi Gereken 10 Dizisi",
-    excerpt: "Apple TV'nin futbol komedisinin dönüşünden Ryan Murphy imzalı karanlık bir gençlik gerilimine, DC'nin yeni süper kahraman dizisi Lanterns'ten Conan O'Brien'ın yol hikâyelerine — BBC Culture'dan Caryn James'in ağustos seçkisi.",
-    body: `Yaz sonu televizyonu bu yıl alışılmadık ölçüde kalabalık. BBC Culture'dan Caryn James, ağustos boyunca yayına girecek yapımlar arasından on tanesini seçti: geri dönüşler, uyarlamalar ve tür denemeleri.
+    title: "From Ted Lasso to The Shards: 10 Must-Watch Series in August",
+    excerpt: "From the return of Apple TV's football comedy to a dark teen thriller by Ryan Murphy, from DC's new superhero series Lanterns to Conan O'Brien's road stories — Caryn James's August picks from BBC Culture.",
+    body: `Late summer television is unusually crowded this year. Caryn James from BBC Culture has selected ten productions set to air throughout August: comebacks, adaptations, and genre experiments.
 
-## 1. Fightland (31 Temmuz — Starz / 27 Ağustos — Sky & NOW)
-Boks ve uyuşturucu kartelleri dünyasında geçen bir intikam draması. Yapımcılığını Curtis "50 Cent" Jackson üstleniyor. Ağır sıklet şampiyonu Duke Kilroy (Howard Charles), işlemediği bir cinayetten sekiz yıl hapis yattıktan sonra Londra'ya kendisini tuzağa düşüren uyuşturucu baronundan hesap sormaya dönüyor.
+## 1. Fightland (July 31 — Starz / August 27 — Sky & NOW)
+A revenge drama set in the world of boxing and drug cartels. Produced by Curtis "50 Cent" Jackson. Heavyweight champion Duke Kilroy (Howard Charles) returns to London to confront the drug lord who framed him, after serving eight years in prison for a murder he didn't commit.
 
-## 2. Ted Lasso (5 Ağustos — Apple TV)
-Bittiğini sandığımız dizi üç yıl sonra bir dönüşle geri geliyor. Ted (Jason Sudeikis), Rebecca'nın (Hannah Waddingham) yeni kurduğu Richmond kadın takımını çalıştırmak üzere Kansas City'den Londra'ya dönüyor. Kadroda Brett Goldstein, Juno Temple, Jeremy Swift ve yeni katılan Tanya Reynolds var.
+## 2. Ted Lasso (August 5 — Apple TV)
+The series we thought was over returns after three years. Ted (Jason Sudeikis) returns to London from Kansas City to coach Rebecca's (Hannah Waddingham) newly formed Richmond women's team. The cast includes Brett Goldstein, Juno Temple, Jeremy Swift, and newcomer Tanya Reynolds.
 
-## 3. The Shards (5 Ağustos — Hulu / 6 Ağustos — Disney+)
-Ryan Murphy yapımı, Bret Easton Ellis'in 2023 tarihli yarı otobiyografik romanından uyarlanan dizi 1981 Los Angeles'ında geçiyor. Lise son sınıftaki Bret (Igby Rigney), yeni öğrenci Robert (Homer Gere) okula geldiğinde "The Traveler" adlı bir seri katilin gölgesinde bir kimlik hikâyesine sürükleniyor. Kaia Gerber de kadroda.
+## 3. The Shards (August 5 — Hulu / August 6 — Disney+)
+A Ryan Murphy production, adapted from Bret Easton Ellis's 2023 semi-autobiographical novel, the series is set in 1981 Los Angeles. High school senior Bret (Igby Rigney) is drawn into a coming-of-age story under the shadow of a serial killer named "The Traveler" when new student Robert (Homer Gere) arrives at school. Kaia Gerber is also in the cast.
 
-## 4. Sterling Point (5 Ağustos — Prime Video)
-"My Old Ass" ile tanınan Megan Park'ın yarattığı aile sırlarıyla dolu gençlik melodramı. İkiz kardeşler Annie (Ella Rubin) ve Connor (Keen Ruffalo), tanımadıkları dedelerinden Kanada'da bir ada miras alıyor.
+## 4. Sterling Point (August 5 — Prime Video)
+A teen melodrama full of family secrets, created by Megan Park, known for "My Old Ass." Twin siblings Annie (Ella Rubin) and Connor (Keen Ruffalo) inherit an island in Canada from grandparents they never knew.
 
-## 5. Alley Cats (7 Ağustos — Netflix)
-Ricky Gervais'in yarattığı ve seslendirdiği yetişkinlere yönelik İngiliz animasyon komedisi. Sokak kedilerinden oluşan çete varoluşsal sorular soruyor ve bolca küfrediyor. Gervais'in tanımı net: "Umarım kedileri ve küfrü seversiniz."
+## 5. Alley Cats (August 7 — Netflix)
+An adult animated British comedy created and voiced by Ricky Gervais. A gang of street cats asks existential questions and swears a lot. Gervais's description is clear: "I hope you like cats and swearing."
 
-## 6. Reacher (12 Ağustos — Prime Video)
-Alan Ritchson'ın Jack Reacher'ı yeni sezonuyla dönüyor; Lee Child uyarlaması aksiyon severler için ağustosun en garantili işi.
+## 6. Reacher (August 12 — Prime Video)
+Alan Ritchson's Jack Reacher returns for a new season; the Lee Child adaptation is August's most guaranteed hit for action lovers.
 
-## 7. My Brilliant Career (13 Ağustos — Netflix)
-Miles Franklin'in klasik Avustralya romanının yeni uyarlaması; 19. yüzyıl sonunda yazar olmak isteyen genç bir kadının hikâyesi.
+## 7. My Brilliant Career (August 13 — Netflix)
+A new adaptation of Miles Franklin's classic Australian novel; the story of a young woman who wants to become a writer at the end of the 19th century.
 
-## 8. Lanterns (16 Ağustos — HBO Max)
-DC'nin yeni süper kahraman dizisi; Kyle Chandler ve Aaron Pierre'in Green Lantern'ları, süper kahraman formatını bir taşra polisiyesine dönüştürüyor.
+## 8. Lanterns (August 16 — HBO Max)
+DC's new superhero series; Kyle Chandler and Aaron Pierre's Green Lanterns transform the superhero format into a rural detective story.
 
-## 9. Conan O'Brien Must Go (21 Ağustos — HBO Max)
-Conan O'Brien'ın dünyayı dolaşıp internet üzerinden tanıştığı hayranlarını evlerinde ziyaret ettiği seyahat komedisi yeni bölümleriyle geri döndü.
+## 9. Conan O'Brien Must Go (August 21 — HBO Max)
+Conan O'Brien's travel comedy, where he travels the world to visit fans he met online in their homes, returns with new episodes.
 
-## 10. Dark Matter (28 Ağustos — Apple TV)
-Blake Crouch'un çok satan romanından uyarlanan paralel evren gerilimi ikinci sezonuyla devam ediyor; Joel Edgerton yeniden başrolde.
+## 10. Dark Matter (August 28 — Apple TV)
+The parallel universe thriller adapted from Blake Crouch's bestselling novel continues with its second season; Joel Edgerton reprises his lead role.
 
-Kaynak: BBC Culture — Caryn James, "10 of the best TV shows to watch this August".`,
+Source: BBC Culture — Caryn James, "10 of the best TV shows to watch this August".`,
     image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0p13955.jpg.webp",
     source: "BBC Culture",
   },
   {
     slug: "agustos-ayinin-en-iyi-10-filmi-bbc",
-    title: "The Dog Stars'tan One Night Only'ye: Ağustos'un İzlenmesi Gereken 10 Filmi",
-    excerpt: "Ridley Scott'ın Jacob Elordi'li kıyamet sonrası gerilimi, Eli Roth'un dondurmacı katili, Anthony Bourdain'in gençlik yılları ve rafa kaldırılmış Coyote vs Acme — BBC Culture'dan Nicholas Barber'ın ağustos seçkisi.",
-    body: `Ağustos, salonlarda da evde de alışılmadık ölçüde kalabalık bir ay. BBC Culture'dan Nicholas Barber, aya damga vuracak on filmi seçti: absürt bir romcom'dan Ridley Scott'ın yeni distopyasına, Cannes'ın en iyi eleştiri alan filminden yıllarca rafta bekletilmiş bir Looney Tunes uyarlamasına.
+    title: "From The Dog Stars to One Night Only: 10 Must-See Films in August",
+    excerpt: "Ridley Scott's post-apocalyptic thriller with Jacob Elordi, Eli Roth's ice cream killer, Anthony Bourdain's youth, and the shelved Coyote vs Acme — Nicholas Barber's August picks for BBC Culture.",
+    body: `August is an unusually busy month, both in cinemas and at home. Nicholas Barber from BBC Culture has selected ten films that will make their mark this month: from an absurd rom-com to Ridley Scott's new dystopia, from Cannes' most critically acclaimed film to a Looney Tunes adaptation shelved for years.
 
-## 1. One Night Only (7 Ağustos ABD/Kanada — 28 Ağustos İngiltere)
-Görünürde tipik bir romantik komedi: Monica Barbaro ve Callum Turner'ın canlandırdığı iki çekici New Yorklu, "Friends with Benefits" ve "Anyone but You"nun yönetmeni Will Gluck. Ama Travis Braun'ın senaryosunda tuhaf bir çengel var: bekârların cinsel ilişkiye girmesinin yılda tek bir gece dışında yasak olduğu alternatif bir gerçeklik. İnternette "seks için Purge" diye anılan fikir, filmi çıkmadan tartışma konusu yaptı. Turner'ın The Hollywood Reporter'a tavsiyesi net: "Absürtlüğe kendinizi bırakırsanız iyi vakit geçirirsiniz. Kurallara takılacaksanız gidip belgesel izleyin."
+## 1. One Night Only (August 7 US/Canada — August 28 UK)
+Ostensibly a typical romantic comedy: two attractive New Yorkers played by Monica Barbaro and Callum Turner, directed by Will Gluck, who also directed "Friends with Benefits" and "Anyone but You." But Travis Braun's script has a strange hook: an alternate reality where singles are forbidden from having sex except for one night a year. The idea, dubbed "Purge for sex" online, made the film a topic of discussion before its release. Turner's advice to The Hollywood Reporter is clear: "If you lean into the absurdity, you'll have a good time. If you're going to get hung up on the rules, go watch a documentary."
 
-## 2. Ice Cream Man (12–14 Ağustos, uluslararası)
-"Cabin Fever" ve "Hostel"ın yönetmeni Eli Roth, düşük bütçeli ve kanlı korkuya dönüyor. Ari Millen, Amerikan taşrasında dolaşıp sattığı dondurmayla çocukları cinayet makinesine çeviren gizemli dondurmacıyı oynuyor. Roth'un hedefi mütevazı değil: "Şimdiye kadar yaptığım en çılgın film olsun istiyorum. Kuşlar gibi ama çocuklarla… Yani tamamen delilik."
+## 2. Ice Cream Man (August 12–14, international)
+Eli Roth, director of "Cabin Fever" and "Hostel," returns to low-budget, bloody horror. Ari Millen plays a mysterious ice cream man who travels through rural America, turning children into killing machines with the ice cream he sells. Roth's goal is not modest: "I want it to be the craziest movie I've ever made. Like The Birds, but with kids… So, completely insane."
 
-## 3. The Dog Stars (7 Ağustos ABD/Kanada — 21 Ağustos İngiltere)
-Ridley Scott 88 yaşında ama hiç bu kadar üretken olmamıştı. Peter Heller'ın romanından uyarlanan bu kıyamet sonrası gerilimde, yakın gelecekteki bir grip salgınından sağ çıkanlar arasında bir pilot (Jacob Elordi), bir sağlık görevlisi (Margaret Qualley) ve eski bir denizci (Josh Brolin) var. Elordi'nin Scott hakkındaki yorumu: "Hayatı boyunca sinemaya bağlı kaldı — kanında dolaşıyor. Sinemanın bir hayatı ayakta tuttuğunu izliyorum."
+## 3. The Dog Stars (August 7 US/Canada — August 21 UK)
+Ridley Scott is 88, but he's never been more prolific. In this post-apocalyptic thriller adapted from Peter Heller's novel, survivors of a near-future flu pandemic include a pilot (Jacob Elordi), a medic (Margaret Qualley), and a former marine (Josh Brolin). Elordi's comment on Scott: "He's been connected to cinema his whole life — it's in his blood. I'm watching cinema sustain a life."
 
-## 4. Tony (6–7 Ağustos, uluslararası)
-2018'de hayatını kaybeden Anthony Bourdain, yemek ve seyahat yazarlığının rock yıldızıydı; dolayısıyla bir rock yıldızı köken hikâyesi hak ediyor. "Kitchen Confidential"dan esinlenen film 1970'lerin ortasında, Bourdain'in Provincetown'da bir restoranda çalıştığı üniversiteyi bırakma yıllarında geçiyor. Yönetmen Matt Johnson; 19 yaşındaki Bourdain'i Dominic Sessa ("The Holdovers"), ona akıl hocalığı yapan şefi Antonio Banderas oynuyor. Leo Woodall ve Emilia Jones da kadroda.
+## 4. Tony (August 6–7, international)
+Anthony Bourdain, who passed away in 2018, was a rock star of food and travel writing; he therefore deserves a rock star origin story. Inspired by "Kitchen Confidential," the film is set in the mid-1970s, during Bourdain's college dropout years when he worked in a restaurant in Provincetown. Director Matt Johnson; 19-year-old Bourdain is played by Dominic Sessa ("The Holdovers"), and the chef who mentored him is played by Antonio Banderas. Leo Woodall and Emilia Jones are also in the cast.
 
-## 5. Teenage Sex and Death at Camp Miasma (14 Ağustos, ABD)
-Bu yılın Cannes'ında en iyi eleştirileri alan film. "I Saw the TV Glow"un yönetmeni Jane Schoenbrun'un gerçeküstü postmodern komedisinde Hannah Einbinder ("Hacks"), Cuma 13 benzeri bir slasher serisini diriltmek ve genç liberal seyirci için "kabul edilebilir" hale getirmekle görevlendirilen queer bir yönetmeni oynuyor. Fikri, ilk filmin yıldızı olan oyuncuyu (Gillian Anderson) geri getirmek — ama o oyuncu artık filmin çekildiği yaz kampında münzevi yaşıyor. Variety'den Jessica Kiang: "Seks, ölüm, VHS ve abur cuburdan oluşan buharlı bir güveç; Schoenbrun'un en olgun ve en oyunbaz filmi."
+## 5. Teenage Sex and Death at Camp Miasma (August 14, US)
+The most critically acclaimed film at Cannes this year. In Jane Schoenbrun's ("I Saw the TV Glow") surreal postmodern comedy, Hannah Einbinder ("Hacks") plays a queer director tasked with reviving a Friday the 13th-like slasher series and making it "acceptable" for young liberal audiences. Her idea is to bring back the actress who starred in the first film (Gillian Anderson) — but that actress now lives as a recluse at the summer camp where the film was shot. Jessica Kiang from Variety: "A steamy stew of sex, death, VHS, and junk food; Schoenbrun's most mature and playful film."
 
-## 6. The End of Oak Street (20–28 Ağustos, uluslararası)
-"It Follows"un yönetmeni David Robert Mitchell'ın yazıp yönettiği, JJ Abrams'ın yapımcılığını üstlendiği dinozor filmi. Anne Hathaway ve Ewan McGregor sıradan bir banliyöde sıradan ebeveynler — tek sorun, mahallenin bir şekilde ilkel bir vahşi doğaya ışınlanmış olması. Abrams: "Jurassic filmlerini herkes kadar severim ama onlar güzel ormanlarda, uzak adalarda geçer. David'in yaklaşımı sıradan banliyö hayatıyla dinozorları yan yana koymaktı."
+## 6. The End of Oak Street (August 20–28, international)
+A dinosaur film written and directed by David Robert Mitchell, director of "It Follows," and produced by JJ Abrams. Anne Hathaway and Ewan McGregor are ordinary parents in an ordinary suburb — the only problem is that the neighborhood has somehow been teleported into a primeval wilderness. Abrams: "I love the Jurassic movies as much as anyone, but they take place in beautiful forests, on remote islands. David's approach was to juxtapose ordinary suburban life with dinosaurs."
 
-## 7. The Wrong Girls (7 Ağustos ABD — 14 Ağustos İngiltere)
-İki arkadaş fazla esrar içer ve tehlikeli bir suç dünyasına yuvarlanır: "Up in Smoke"tan "Pineapple Express"e uzanan türün istisnasız erkek kadrolu geleneğini bozan nadir örneklerden. Kristen Stewart ve Alia Shawkat, deneysel bir mucize ilaç sevkiyatına denk gelen tembel ikiliyi oynuyor; halüsinasyon anlarında konuşan kedileri Seth Rogen ve Kumail Nanjiani seslendiriyor. Yazar-yönetmen Dylan Meyer: "Çekimler boyunca bunun anılarım olduğu şakasını yaptım — filmde dev mürekkep balıkları ve telepati olduğu için epey komik."
+## 7. The Wrong Girls (August 7 US — August 14 UK)
+Two friends smoke too much weed and tumble into a dangerous criminal underworld: one of the rare examples that breaks the exclusively male cast tradition of the genre, from "Up in Smoke" to "Pineapple Express." Kristen Stewart and Alia Shawkat play the lazy duo who stumble upon a shipment of experimental miracle drugs; Seth Rogen and Kumail Nanjiani voice the talking cats during their hallucinations. Writer-director Dylan Meyer: "I joked throughout the shoot that these were my memories — which is pretty funny since there are giant squids and telepathy in the movie."
 
-## 8. Union County (21 Ağustos, ABD/Kanada)
-Will Poulter ve Noah Centineo, Ohio kırsalında hapisten uzak durmak için ayık kalmaya ve iş tutmaya çalışan iki opioid bağımlısı kardeşi oynuyor. İlk filmini çeken yazar-yönetmen Adam Meeks Ohio'da büyümüş; iyileşme programındaki neredeyse tüm diğer kişiler kendi hikâyelerini anlatan profesyonel olmayan oyuncular. The Wrap'ten Chase Hutchinson: "Film her duygusal gelişimi hak ediyor; o kadar sessiz bir insanlıkla dolu ki masalarda onlarla birlikte oturuyormuş gibi oluyorsunuz."
+## 8. Union County (August 21, US/Canada)
+Will Poulter and Noah Centineo play two opioid-addicted brothers in rural Ohio trying to stay sober and hold down jobs to avoid prison. First-time writer-director Adam Meeks grew up in Ohio; almost all the other people in the recovery program are non-professional actors telling their own stories. Chase Hutchinson from The Wrap: "The film earns every emotional beat; it's filled with such quiet humanity that you feel like you're sitting at the tables with them."
 
-## 9. Coyote vs Acme (26–28 Ağustos, uluslararası)
-Göreceğimizi hiç sanmadığımız film. Roger Rabbit tarzı canlı çekim–2D animasyon karışımı yapım, Wile E Coyote ile Roadrunner'a odaklanıyor: klasik çizgi filmlerde sürekli arızalı alet satın alan Coyote, bu kez onları satan şirkete dava açıyor; avukatını Will Forte oynuyor. Warner Bros filmi üç yıl önce vergi indirimi uğruna rafa kaldırmıştı ("Batgirl"de olduğu gibi); şimdi bağımsız bir şirket tarafından gösterime giriyor. Senarist Samy Burch: "Yüz kez başarısız olduktan sonra bile denemekte bir güzellik var."
+## 9. Coyote vs Acme (August 26–28, international)
+A film we never thought we'd see. This Roger Rabbit-style live-action–2D animation hybrid focuses on Wile E. Coyote and the Roadrunner: in the classic cartoons, Coyote constantly buys faulty gadgets, and this time he sues the company that sells them; Will Forte plays his lawyer. Warner Bros shelved the film three years ago for a tax write-off (as with "Batgirl"); now it's being released by an independent company. Screenwriter Samy Burch: "There's a beauty in trying even after failing a hundred times."
 
-## 10. The Magic Faraway Tree (21 Ağustos, ABD/Kanada)
-"Paddington 2" ve "Wonka"nın ortak yazarı Simon Farnaby, Enid Blyton'ın klasik çocuk romanlarını modernize ediyor. Claire Foy ve Andrew Garfield'ın oynadığı mucit-eş çifti, üç çocuğunu internetten uzaklaştırmak için kırsalda ıssız bir kulübeye taşınıyor; çocuklar dallarında başka dünyalara açılan portaller olan bir ağaç keşfediyor. Silky (Nicola Coughlan), Moonface (Nonso Anozie), Dame Washalot (Jessica Gunning) ve kötü kalpli Dame Snap (Rebecca Ferguson) da kadroda. Time Out'tan Phil de Semlyen: "Blyton hikâyelerinin akıllı telefon dönemine akıllı bir güncellemesi."
+## 10. The Magic Faraway Tree (August 21, US/Canada)
+Simon Farnaby, co-writer of "Paddington 2" and "Wonka," modernizes Enid Blyton's classic children's novels. An inventor couple (Claire Foy and Andrew Garfield) move their three children to a remote cottage in the countryside to get them away from the internet; the children discover a tree whose branches are portals to other worlds. Silky (Nicola Coughlan), Moonface (Nonso Anozie), Dame Washalot (Jessica Gunning), and the wicked Dame Snap (Rebecca Ferguson) are also in the cast. Phil de Semlyen from Time Out: "A smart update of Blyton's stories for the smartphone age."
 
-Kaynak: BBC Culture — Nicholas Barber, "10 of the best films to watch this August".`,
+Source: BBC Culture — Nicholas Barber, "10 of the best films to watch this August".`,
     image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0p0cq6q.jpg.webp",
     source: "BBC Culture",
   },
   {
     slug: "game-of-thrones-en-iyi-10-ani",
-    title: "Game of Thrones'un En İyi 10 Anı: Büyük Savaşlar Değil, Fırtına Öncesi Sessizlikler",
-    excerpt: "Giddy Up America'nın seçkisi, dizinin dev set parçalarını bir kenara bırakıp gerilimin patlamadan önceki o küçük anlarına odaklanıyor — havlayan köpeklerden Roose Bolton'ın zırhına, Littlefinger'ın yüzündeki o ifadeye.",
-    body: `Game of Thrones'un mirasını konuşmak kolay değil: bir yanda dev savaşlar, şoke edici ölümler ve nefes kesen bölümler, öbür yanda kendinden önceki her şeye ters düşen aceleci final. Ama listeyi yapanın önerisi şu: dizinin gerçek gücü, fırtına öncesi o küçük anlarda. Havai fişekler akılda kalan şeydi, fakat asıl vuran genellikle patlamadan hemen önceki sessizlikti.
+    title: "Game of Thrones' Top 10 Moments: Not the Grand Battles, But the Silences Before the Storm",
+    excerpt: "Giddy Up America's selection sets aside the show's massive set pieces and focuses on those small moments of tension before the explosion — from barking dogs to Roose Bolton's armor, to that look on Littlefinger's face.",
+    body: `It's not easy to talk about the legacy of Game of Thrones: on one hand, epic battles, shocking deaths, and breathtaking episodes; on the other, a rushed finale that contradicted everything that came before it. But the list maker's suggestion is this: the show's true power lies in those small moments before the storm. The fireworks were what stuck in memory, but what truly hit home was often the silence just before the explosion.
 
-## 10. Mountain'ın Oberyn'in bacağını çelmesi — "The Mountain and the Viper" (S4, B8)
-Kızıl Düğün sonrası Westeros'a gelen Dorne prensi, Tyrion'un şampiyonu olarak neredeyse bir sürprize imza atıyordu. Ama adamımız beş metre kala kutlamaya başladı — çaylak hatası. Bakmadığı anda Mountain önce gözlerini, sonra kafatasını ödetti. Yeni, taze bir karakterin ve Lannisterlara karşı olası bir gücün bir anda yok oluşu izlemesi zor bir sahneydi.
+## 10. The Mountain trips Oberyn's leg — "The Mountain and the Viper" (S4, E8)
+The Prince of Dorne, who arrived in Westeros after the Red Wedding, almost pulled off a surprise as Tyrion's champion. But our man started celebrating five meters too early — a rookie mistake. When he wasn't looking, the Mountain took his eyes, then his skull. Watching the sudden demise of a fresh, new character and a potential force against the Lannisters was a difficult scene.
 
-## 9. Jon'un Rickon'un ölümünü izlemesi — "Battle of the Bastards" (S6, B9)
-İkinci ders: bir psikopattan düz çizgide kaçmayacaksın. Rickon sırtından oku aldı, Jon da özenle kurduğu planı pencereden atıp Ramsay'in ordusuna tek başına saldırdı. Diriltilişinden beri soğukkanlı görünen Jon'un duygularına kapılması hem şaşırtıcı hem de tam ona yakışan bir hamleydi.
+## 9. Jon watches Rickon die — "Battle of the Bastards" (S6, E9)
+Second lesson: don't run in a straight line from a psychopath. Rickon took the arrow in his back, and Jon threw his carefully laid plan out the window, attacking Ramsay's army alone. Jon, who had seemed cold-blooded since his resurrection, giving in to his emotions was both surprising and a move perfectly fitting for him.
 
-## 8. Littlefinger'ın sıranın kendisine geldiğini anlaması — "The Dragon and the Wolf" (S7, B7)
-Yedinci sezonda Stark kardeşlerin buluşması bekleneni vermedi; Sansa ile Arya'nın gerilimi izleyiciyi yordu. Sonra ikisi de bizi, Littlefinger'ı da kandırdı. Yedi sezon boyunca gölgede entrika kuran adamın, yargılananın Arya değil kendisi olduğunu fark ettiği andaki yüz ifadesi dizinin en tatmin edici karelerinden biri.
+## 8. Littlefinger realizes his turn has come — "The Dragon and the Wolf" (S7, E7)
+The reunion of the Stark siblings in the seventh season didn't deliver as expected; the tension between Sansa and Arya exhausted the audience. Then both of them fooled us, and Littlefinger too. The expression on the face of the man who had been scheming in the shadows for seven seasons, when he realized that it was he, not Arya, who was being judged, is one of the most satisfying frames of the series.
 
-## 7. Margaery'nin Cersei'nin duruşmaya gelmemesinden şüphelenmesi — "The Winds of Winter" (S6, B10)
-Serçeler Westeros'un aklını ele geçirmişti ve Cersei'nin duruşmasına herkes gelmişti — Cersei hariç. Yüksek Serçe'nin görmediği tehlikeyi Margaery gördü ve herkesi oradan çıkarmaya çalıştı. Dinlenmedi. Sonra hepsi öldü. Cersei hariç.
+## 7. Margaery suspects Cersei won't come to her trial — "The Winds of Winter" (S6, E10)
+The Sparrows had taken over Westeros's mind, and everyone had come to Cersei's trial — everyone except Cersei. Margaery saw the danger that the High Sparrow didn't and tried to get everyone out of there. She wasn't listened to. Then they all died. Except Cersei.
 
-## 6. Tormund'un Brienne'in şövalye olmadığını öğrenmesi — "A Knight of the Seven Kingdoms" (S8, B2)
-Bir sistemin çarpıklığını en iyi, o sistemin dışında yaşayanlar görür. Jaime'nin Brienne'i şövalye ilan etmesi kusurlu sekizinci sezonun en dokunaklı anıydı; ama Tormund'un "Brienne neden şövalye değil ki?" tepkisi asıl can alıcı olandı.
+## 6. Tormund learns Brienne isn't a knight — "A Knight of the Seven Kingdoms" (S8, E2)
+Those who live outside a system are best at seeing its flaws. Jaime knighting Brienne was the most poignant moment of the flawed eighth season; but Tormund's "Why isn't Brienne a knight?" reaction was the real clincher.
 
-## 5. Gece Nöbeti kolcularının Ak Gezenlerin bıraktığı cesetleri bulması — "Winter is Coming" (S1, B1)
-Dizi Starklarla, Lannisterlarla ya da ejderhalarla değil, Duvar'ın kuzeyinde titizlikle dizilmiş cesetlerle ve bir Wight'la açıldı. Yapımcıların diziye başlamak için seçtiği yol buydu — sonrasında hikâye başka yere gitse de, bir diziyi açmanın en iyi yollarından biri.
+## 5. Night's Watch rangers find the bodies left by the White Walkers — "Winter is Coming" (S1, E1)
+The series didn't open with the Starks, the Lannisters, or dragons, but with meticulously arranged bodies north of the Wall and a Wight. This was the path the producers chose to start the show — even if the story went elsewhere afterward, it's one of the best ways to open a series.
 
-## 4. Daenerys'in Lekesizleri satın alırken köle tacirini oyuna getirmesi — "And Now His Watch Has Ended" (S3, B4)
-Daenerys'in hafife alınacak biri olmadığını ilk iki sezonda öğrenmiştik: ateşe girip üç ejderha yavrusuyla çıkan biriydi. Ama Lekesizler karşılığında bir ejderha vermeye razı göründüğü an ve ardından tacire çevirdiği oyun, ününü kalıcı olarak çivileyen sahne oldu.
+## 4. Daenerys tricks the slave trader while buying the Unsullied — "And Now His Watch Has Ended" (S3, E4)
+We had learned in the first two seasons that Daenerys was not to be underestimated: she was someone who walked into fire and emerged with three dragon hatchlings. But the moment she seemed willing to give a dragon in exchange for the Unsullied, and then the trick she played on the trader, became the scene that permanently cemented her reputation.
 
-## 3. Catelyn Stark'ın Roose Bolton'ın zırhını görüp Twins'te ne olduğunu anlaması — "The Rains of Castamere" (S3, B9)
-Kızıl Düğün'de hepimiz şoktaydık; Catelyn değil. Roose'la göz teması kurup ihanetin geldiğini onayladığı an, ikinci izleyişte iyice belirginleşen bir detay: her şey o kadar hızlı ve karanlık akıyor ki ilk seferde gözden kaçıyor. Ders: annenizi dinleyin.
+## 3. Catelyn Stark sees Roose Bolton's armor and understands what happened at the Twins — "The Rains of Castamere" (S3, E9)
+We were all in shock at the Red Wedding; Catelyn wasn't. The moment she made eye contact with Roose and confirmed the betrayal was a detail that becomes much clearer on a second viewing: everything happens so fast and darkly that it's missed the first time. Lesson: listen to your mother.
 
-## 2. Hardhome'da köpeklerin havlamaya başlaması — "Hardhome" (S5, B8)
-Listeyi yapanın favori savaşı. Son yirmi dakika bir korku-aksiyon filmi gibi: her şey plana uygun görünürken köpekler havlamaya başlıyor, rüzgâr dönüyor, "Kapatın kapıları!" komutu geliyor ve her seferinde biri kapıya yetişemiyor. Ardından Gece Kralı'nın Jon'a bakıp ölüleri ayağa kaldırması: dizinin "biz şaka yapmıyoruz" dediği an.
+## 2. Dogs start barking at Hardhome — "Hardhome" (S5, E8)
+The list maker's favorite battle. The last twenty minutes are like a horror-action movie: everything seems to be going to plan when the dogs start barking, the wind turns, the command "Close the gates!" comes, and each time someone doesn't make it to the gate. Then the Night King looks at Jon and raises the dead: the moment the show said, "we're not kidding."
 
-## 1. Daenerys'in Westeros'a yelken açması — "The Winds of Winter" (S6, B10)
-Nihayet. Altı sezon boyunca çölleri aşan, esir alınan, ölümden kaçan, ejderha büyüten Daenerys sonunda Westeros'a doğru yola çıkıyordu. Ölçeği hep dev olan dizi bu andan itibaren daralmaya, hikâyeler nihayet birbirine bağlanmaya başlıyordu — ve o kadro gemilerle birlikte akıp giden müzik, dizinin en görkemli finali oldu.
+## 1. Daenerys sails for Westeros — "The Winds of Winter" (S6, E10)
+Finally. After six seasons of crossing deserts, being captured, escaping death, and raising dragons, Daenerys was finally setting sail for Westeros. The show, always grand in scale, began to narrow from this moment on, stories finally started to connect — and that flowing music accompanying the fleet of ships became the series' most magnificent finale.
 
-Kaynak: Giddy Up America — "The Ten Best Moments From 'Game of Thrones'".`,
+Source: Giddy Up America — "The Ten Best Moments From 'Game of Thrones'".`,
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Game_of_Thrones_throne_model.jpg/1920px-Game_of_Thrones_throne_model.jpg",
     source: "Giddy Up America",
   },
   {
     slug: "mark-ruffalo-en-iyi-15-filmi",
-    title: "Mark Ruffalo'nun En İyi 15 Filmi: Spotlight'tan Zodiac'a",
-    excerpt: "Metacritic, Mark Ruffalo'nun kariyerini eleştirmen puanlarına göre sıraladı. Bağımsız dramalardan Marvel gişesine, adalet arayan gazetecilerden Viktorya dönemi komedisine uzanan 15 film.",
-    body: `Mark Ruffalo, hem bağımsız sinemanın hem de dünyanın en büyük film serisinin içinde eşit rahatlıkla var olabilen ender oyunculardan biri. Metacritic, eleştirmen puanlarını esas alarak Ruffalo'nun en iyi 15 filmini sıraladı — geriye doğru sayıyoruz.
+    title: "Mark Ruffalo's Top 15 Films: From Spotlight to Zodiac",
+    excerpt: "Metacritic ranked Mark Ruffalo's career based on critic scores. 15 films ranging from independent dramas to Marvel blockbusters, from justice-seeking journalists to Victorian-era comedies.",
+    body: `Mark Ruffalo is one of those rare actors who can exist with equal ease in both independent cinema and the world's biggest film franchise. Metacritic has ranked Ruffalo's top 15 films based on critic scores — we're counting down.
 
 ## 15. Collateral (2004)
 ![Collateral](https://www.metacritic.com/a/img/resize/6c073f12f85ce6c3740431b1532e2675ab77ed76/hub/2026/07/29/3be3852e-f0c4-4a3d-b637-bbf32e258901/collateral.jpg?auto=webp&quality=70&width=1024)
-Ruffalo, Michael Mann'in gergin suç gerilimlerinde LAPD dedektifi Ray Fanning'i oynuyor. Tom Cruise ve Jamie Foxx'un taşıdığı filmde Ruffalo'nun rolü küçük ama Mann'in gece Los Angeles'ında iz bırakan bir varlık.
+Ruffalo plays LAPD detective Ray Fanning in Michael Mann's tense crime thriller. While his role is small in a film carried by Tom Cruise and Jamie Foxx, Ruffalo leaves a memorable presence in Mann's nocturnal Los Angeles.
 
 ## 14. Where the Wild Things Are (2009)
 ![Where the Wild Things Are](https://www.metacritic.com/a/img/resize/6ec741bda77ec2ddd9d1a1681481b0d5b9384dd3/hub/2026/07/29/5fe5d79d-5d28-431d-8ea4-8aa042dffae3/wherethewildthingsare.jpg?auto=webp&quality=70&width=1024)
-Spike Jonze'un Maurice Sendak klasiğinden yaptığı melankolik uyarlama. Hayal gücü büyük, duyguları daha da büyük sekiz yaşındaki Max'in adasına giden yolda Ruffalo, çocukluğun kırılganlığını çerçeveleyen yetişkin dünyasını temsil ediyor.
+Spike Jonze's melancholic adaptation of Maurice Sendak's classic. On the way to the island of eight-year-old Max, whose imagination is big and emotions even bigger, Ruffalo represents the adult world framing the fragility of childhood.
 
 ## 13. What Doesn't Kill You (2008)
 ![What Doesn't Kill You](https://www.metacritic.com/a/img/resize/a38737035466c4cf08a2d588c167f9d5cfdf3a24/hub/2026/07/29/a42bb4c5-77fb-44e6-b27c-6704e0e01a8b/whatdoesntkillyou.jpg?auto=webp&quality=70&width=1024)
-Az izlenmiş ama eleştirmenlerin övdüğü bir suç draması. Ruffalo ve Ethan Hawke, South Boston'ın sert sokaklarından çıkmaya çalışan küçük çaplı suçluları oynuyor; hayatlarını düzeltme çabaları beklenen yöne gitmiyor.
+An underseen but critically acclaimed crime drama. Ruffalo and Ethan Hawke play small-time criminals trying to escape the tough streets of South Boston; their attempts to straighten out their lives don't go as expected.
 
 ## 12. Arco (2025)
 ![Arco](https://www.metacritic.com/a/img/resize/acd670f3dac345b198f6b41c1cecc1c10b341d8a/hub/2026/07/29/89ea9470-8db8-49dc-8958-a3cdf210ac69/arco.jpg?auto=webp&quality=70&width=1024)
-Fransız animasyonu, 2932 yılının ütopik dünyasından dinozorları görmek için zamanda yolculuğa çıkan 10 yaşındaki Arco'yu anlatıyor. Çocuk, hedefini ıskalayıp 2075'e düşüyor. Ruffalo İngilizce seslendirme kadrosunda.
+The French animation tells the story of 10-year-old Arco, who travels back in time from the utopian world of 2932 to see dinosaurs. The child misses his target and lands in 2075. Ruffalo is in the English voice cast.
 
 ## 11. Mickey 17 (2025)
 ![Mickey 17](https://www.metacritic.com/a/img/resize/93bfbe9f14252f3b22c5c293e1885dea695cc5a8/hub/2026/07/29/b1401d9e-a48d-4adb-9827-f906cc784eb0/mickey17.jpg?auto=webp&quality=70&width=1024)
-Bong Joon-ho'nun post-apokaliptik bilimkurgu komedisinde Ruffalo, buz gezegenini kolonileştirme misyonunun başındaki Kenneth Marshall'ı oynuyor: açıkça Trump'a göndermeler yapan, kibirli ve komik bir kötü.
+In Bong Joon-ho's post-apocalyptic sci-fi comedy, Ruffalo plays Kenneth Marshall, the head of a mission to colonize an ice planet: an arrogant and comical villain, clearly referencing Trump.
 
 ## 10. Dark Waters (2019)
 ![Dark Waters](https://www.metacritic.com/a/img/resize/86f89ab7c77130a3ce85c9b6aab2e213b97b0b4d/hub/2026/07/29/4ca42598-7106-423a-be56-84c2c52ecb85/darkwaters.jpg?auto=webp&quality=70&width=1024)
-Todd Haynes'in gerçek olaylara dayanan hukuk gerilimi. Ruffalo, DuPont şirketini kimyasal kirlilik nedeniyle yıllar süren bir mücadeleyle mahkemeye taşıyan çevre avukatı Robert Bilott'u canlandırıyor — aynı zamanda filmin yapımcısı.
+Todd Haynes' legal thriller based on true events. Ruffalo portrays environmental lawyer Robert Bilott, who takes on DuPont for chemical pollution in a years-long battle — he also produced the film.
 
 ## 9. Thor: Ragnarok (2017)
 ![Thor: Ragnarok](https://www.metacritic.com/a/img/resize/a3c747cfae2e4004355559b8ccb3d45f14dfcd68/hub/2026/07/29/1ca4ab56-35cd-4845-aaed-43db2368a3dc/thorragnarok.jpg?auto=webp&quality=70&width=1024)
-Taika Waititi'nin yönettiği üçüncü Thor filmi, serinin tonunu tamamen komediye çeviriyor. Ruffalo'nun Hulk'u burada ilk kez tam anlamıyla konuşan, huysuz ve komik bir karakter hâline geliyor.
+Taika Waititi's third Thor film completely shifts the series' tone to comedy. Ruffalo's Hulk here becomes a fully speaking, grumpy, and comical character for the first time.
 
 ## 8. Avengers: Endgame (2019)
 ![Avengers: Endgame](https://www.metacritic.com/a/img/resize/8aaede0a77a1efbd901c86446f07726cd9599efd/hub/2026/07/29/8d0f93d8-6a4b-4266-830c-38d8c470d080/avengersendgame.jpg?auto=webp&quality=70&width=1024)
-MCU'nun ilk on yılının epik finali ve bir dönem tüm zamanların en çok gişe yapan filmi. Ruffalo'nun "Profesör Hulk"u, karakterin uzun yolculuğunun mantıklı ve şaşırtıcı derecede duygusal varış noktası.
+The epic finale of the MCU's first decade and, for a time, the highest-grossing film of all time. Ruffalo's "Professor Hulk" is the logical and surprisingly emotional culmination of the character's long journey.
 
 ## 7. Zodiac (2007)
 ![Zodiac](https://www.metacritic.com/a/img/resize/9a8602d2023c3839c09b90e8a48b336999c71582/hub/2026/07/29/71fe075d-e8e7-45b3-860a-28bef1c807fc/zodiac.jpg?auto=webp&quality=70&width=1024)
-David Fincher'ın takıntılı bakışını Zodiac cinayetlerine çevirdiği film. Ruffalo, davanın peşini bırakmayan dedektif Dave Toschi'yi oynuyor; kariyerinin "adalet arayan adam" rollerinin en soğukkanlısı.
+David Fincher's film turns his obsessive gaze to the Zodiac murders. Ruffalo plays detective Dave Toschi, who relentlessly pursues the case; one of the most stoic of his "man seeking justice" roles.
 
 ## 6. Foxcatcher (2014)
 ![Foxcatcher](https://www.metacritic.com/a/img/resize/e80e65c05fbbce4ad34aea96908fdf612abe1314/hub/2026/07/29/0a49ca09-10f0-4ef6-a7f2-a655df2dcad7/foxcatcher.jpg?auto=webp&quality=70&width=1024)
-Ruffalo'nun du Pont ailesiyle ilgili iki filminden ikincisi. Olimpiyat şampiyonu güreşçi Dave Schultz rolüyle En İyi Yardımcı Erkek Oyuncu dalında Oscar'a aday oldu; bedensel dönüşümü kadar sessiz şefkati de konuşuldu.
+The second of Ruffalo's two films related to the du Pont family. He was nominated for an Oscar for Best Supporting Actor for his role as Olympic champion wrestler Dave Schultz; his quiet compassion was as much discussed as his physical transformation.
 
 ## 5. You Can Count on Me (2000)
 ![You Can Count on Me](https://www.metacritic.com/a/img/resize/0d61cce1132de93149a61c8b214a08ac8b2ed037/hub/2026/07/29/45cbc388-6ba4-489c-88c8-17ce852be38e/youcancountonme.jpg?auto=webp&quality=70&width=1024)
-Ruffalo'nun çıkış rolü, Kenneth Lonergan'ın bağımsız dramasında geldi. Laura Linney'nin oynadığı yalnız anne Sammy'nin savruk kardeşi Terry olarak, oyunculuğunun bütün ileriki damarlarını burada gösteriyor.
+Ruffalo's breakout role came in Kenneth Lonergan's independent drama. As Terry, the wayward brother of lonely mother Sammy (played by Laura Linney), he showcases all the future veins of his acting here.
 
 ## 4. The Kids Are All Right (2010)
 ![The Kids Are All Right](https://www.metacritic.com/a/img/resize/7300b1eeb9f180e9ae50f3588e9e0661bcd88bb1/hub/2026/07/29/28690a3b-85aa-46ad-962a-3973919cea81/kidsareallright.jpg?auto=webp&quality=70&width=1024)
-Annette Bening ve Julianne Moore'un iki ergen çocuklu bir çifti oynadığı Lisa Cholodenko filmi. Çocukların biyolojik babası Paul'ü arayıp bulmasıyla aile dengesi bozuluyor; Ruffalo bu rolle ilk Oscar adaylığını aldı.
+Lisa Cholodenko's film starring Annette Bening and Julianne Moore as a couple with two teenage children. The family balance is disrupted when the children seek out and find their biological father, Paul; Ruffalo received his first Oscar nomination for this role.
 
 ## 3. Poor Things (2023)
 ![Poor Things](https://www.metacritic.com/a/img/resize/0431474592af7a939c8c0c79f141210add8d7820/hub/2023/09/11/5213317d-b568-4859-9076-f106f44f6c5a/poorthings.jpg?auto=webp&quality=70&width=1024)
-Yorgos Lanthimos'un Viktorya dönemi komedisinde Ruffalo, Bella Baxter'ı (Emma Stone) kaçıran züppe avukat Duncan Wedderburn'ü oynuyor. Kariyerinin en abartılı, en açıkça komik performansı — ve bir Oscar adaylığı daha.
+In Yorgos Lanthimos' Victorian-era comedy, Ruffalo plays the foppish lawyer Duncan Wedderburn, who abducts Bella Baxter (Emma Stone). His most exaggerated, most overtly comedic performance of his career — and another Oscar nomination.
 
 ## 2. Eternal Sunshine of the Spotless Mind (2004)
 ![Eternal Sunshine of the Spotless Mind](https://www.metacritic.com/a/img/resize/ee5ce8b3041e17fbd2fdd401170fdebfb1df7503/hub/2026/07/29/8afc5bcc-9d33-4cee-bbd9-3afcdfb17138/eternalsunshineofthespotlessmind.jpg?auto=webp&quality=70&width=1024)
-Michel Gondry ve Charlie Kaufman'ın hafıza silme hikâyesinde Jim Carrey, Clementine'e (Kate Winslet) dair tüm anılarını sildirmeye karar veriyor. Ruffalo, işlemi yürüten klinikteki teknisyen Stan olarak filmin dağınık insani tarafını taşıyor.
+In Michel Gondry and Charlie Kaufman's memory-erasing story, Jim Carrey decides to erase all memories of Clementine (Kate Winslet). Ruffalo, as Stan, a technician at the clinic performing the procedure, carries the film's messy human side.
 
 ## 1. Spotlight (2015)
 ![Spotlight](https://www.metacritic.com/a/img/resize/1272a237592d94346cdf4fe8ab40336281932c0e/hub/2026/07/29/5ced3abc-89c2-4c34-a535-0f5ac56a7ffd/spotlight.jpg?auto=webp&quality=70&width=1024)
-Ruffalo'nun "adalet arayan" rollerinin en büyüğü. Boston Globe'un Spotlight ekibinde Katolik Kilisesi'nin istismar örtbasını ortaya çıkaran araştırmacı gazeteci Michael Rezendes'i oynuyor. Film En İyi Film Oscar'ını kazandı, Ruffalo yine adaylar arasındaydı.
+Ruffalo's greatest "justice-seeking" role. He plays investigative journalist Michael Rezendes, who, as part of the Boston Globe's Spotlight team, uncovers the Catholic Church's abuse cover-up. The film won the Best Picture Oscar, and Ruffalo was among the nominees again.
 
-Kaynak: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
+Source: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
     image: "https://www.metacritic.com/a/img/resize/a38737035466c4cf08a2d588c167f9d5cfdf3a24/hub/2026/07/29/a42bb4c5-77fb-44e6-b27c-6704e0e01a8b/whatdoesntkillyou.jpg?auto=webp&quality=70&width=1024",
     source: "Metacritic",
   },
   {
     slug: "2026nin-en-iyi-yeni-korku-filmleri",
-    title: "2026'nın En İyi 10 Yeni Korku Filmi",
-    excerpt: "Rotten Tomatoes, yılın en yüksek Tomatometer puanlı korku filmlerini sıraladı. Slasher parodisinden Nia DaCosta'nın '28 Years Later' devamına, 2026'nın en iyi 10 korku filmi.",
-    body: `2026 korku sineması için bereketli bir yıl oldu: kamp slasher'ları, dijital efsaneler, zombi devam filmleri ve klasik hayaletli ev hikâyeleri aynı sezonu paylaştı. Rotten Tomatoes'un Tomatometer sıralamasına göre yılın en iyi 10 yeni korku filmi:
+    title: "Top 10 New Horror Movies of 2026",
+    excerpt: "Rotten Tomatoes ranked the year's highest-rated horror films by Tomatometer score. From a slasher parody to Nia DaCosta's '28 Years Later' sequel, the 10 best horror films of 2026.",
+    body: `2026 was a fruitful year for horror cinema: camp slashers, digital legends, zombie sequels, and classic haunted house stories shared the same season. According to Rotten Tomatoes' Tomatometer rankings, here are the 10 best new horror movies of the year:
 
 ## 1. Teenage Sex and Death at Camp Miasma (2026) — %98
 ![Teenage Sex and Death at Camp Miasma](https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=)
-Jane Schoenbrun'un yönettiği film, yorgun düşmüş bir slasher serisinin genç bir yönetmene (Hannah Einbinder) devredilmesini anlatıyor. Eleştirmenler filmi "slasher türüne yazılmış kanlı bir sevgi mektubu" olarak tanımlıyor. Kadroda Gillian Anderson ve Jasmin Savoy Brown da var.
+The film, directed by Jane Schoenbrun, follows a jaded slasher franchise being handed over to a young director (Hannah Einbinder). Critics describe the film as "a bloody love letter to the slasher genre." The cast also includes Gillian Anderson and Jasmin Savoy Brown.
 
 ## 2. Obsession (2025) — %94
 ![Obsession](https://resizing.flixster.com/5BlfhxiWUygGuQ_wr755BlVGVlw=/800x1200/v2/https://resizing.flixster.com/wciPMzUm5zbBhWKN24eGdoRfK8I=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzBlZDNhZmI5LTM3N2EtNGIyZC1iZTA5LTU0NzUyY2M2ZGYyYi5qcGc=)
-Curry Barker'ın filmi, gizemli "One Wish Willow"u kırıp aşkını kazanmak isteyen bir romantiğin dileğinin tam olarak gerçekleşmesiyle başlıyor. Rahatsız edici olduğu kadar eğlenceli de olmayı başaran nadir bir yapım.
+Curry Barker's film begins with a romantic's wish to break the mysterious "One Wish Willow" and win his love coming true exactly as he wished. It's a rare production that manages to be as entertaining as it is disturbing.
 
 ## 3. Send Help (2026) — %92
 ![Send Help](https://resizing.flixster.com/m_3j1GhxYtAwK6L-U31pfjMtrXw=/800x1200/v2/https://resizing.flixster.com/WEelDTQoFz53v0hGRRC1rZ-3uxY=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2NkMzdhM2Y3LWYzMmEtNGNmYS04YzBjLTc1ZGNhN2JkZGFjOS5qcGc=)
-Sam Raimi'nin uçak kazasından sağ kurtulan iki iş arkadaşını ıssız bir adaya hapseden filmi. Rachel McAdams ve Dylan O'Brien, Raimi'nin şeytani mizah anlayışına birebir uyuyor.
+Sam Raimi's film about two co-workers who survive a plane crash and are stranded on a deserted island. Rachel McAdams and Dylan O'Brien are a perfect fit for Raimi's devilish sense of humor.
 
 ## 4. Leviticus (2026) — %92
 ![Leviticus](https://resizing.flixster.com/Ie45ZUWu67iP1micNmKazANJGiY=/800x1200/v2/https://resizing.flixster.com/AQQe8xVq4v1wD42l1mFji4ZGm7s=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzVkNTI5YTVmLWNkYjgtNDBiNy1hNzcwLTVjMjgyNmNkMWI4Ny5qcGc=)
-Adrian Chiarella'nın filminde iki genç, en çok arzuladıkları kişinin — yani birbirlerinin — suretine bürünen bir varlıktan kaçmak zorunda. Duygusal bir aşk hikâyesiyle zekice bir canavar fikrini birleştiriyor.
+In Adrian Chiarella's film, two young people must escape a creature that takes the form of the person they most desire — each other. It combines an emotional love story with a clever monster concept.
 
 ## 5. 28 Years Later: The Bone Temple (2026) — %91
 ![28 Years Later: The Bone Temple](https://resizing.flixster.com/wzWUyaYeWCvCjpH-nMxdojatc_Q=/800x1200/v2/https://resizing.flixster.com/KhvweFDt8lqqSgqfVdOUZVXZzow=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFmNjI1OGU2LTY2MDEtNDMyNi04NGFiLTY3NjZhNDA3ODA2MS5qcGc=)
-Nia DaCosta, Danny Boyle ve Alex Garland'ın kurduğu dünyayı devralıp baş aşağı çeviriyor. Ralph Fiennes ve Jack O'Connell'ın performansları filmin dehşetini derinleştiriyor.
+Nia DaCosta takes over the world established by Danny Boyle and Alex Garland and turns it upside down. Ralph Fiennes and Jack O'Connell's performances deepen the film's horror.
 
 ## 6. Hokum (2026) — %90
 ![Hokum](https://resizing.flixster.com/CsdnPMckJ4MRD64GQgwTM0n3oeU=/800x1200/v2/https://resizing.flixster.com/jRvqYBpvhPAKUPk2mY9cUsGwuRA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FhMzRlOTkxLWI4MmUtNDcxOS1hYWI2LWU3OGQ4NGNhYjdkMS5qcGc=)
-Damian McCarthy'nin filminde romancı Ohm Bauman (Adam Scott), ailesinin küllerini savurmak için gittiği ıssız handa bir cadı efsanesine saplanıyor. Atmosferik folklorla beslenmiş klasik bir perili ev hikâyesi.
+In Damian McCarthy's film, novelist Ohm Bauman (Adam Scott) becomes entangled in a witch legend at a desolate inn where he's gone to scatter his family's ashes. A classic haunted house story fueled by atmospheric folklore.
 
 ## 7. Backrooms (2026) — %87
 ![Backrooms](https://resizing.flixster.com/vNXC0QV1iooJ0p7jei-lQJmjqNc=/800x1200/v2/https://resizing.flixster.com/rhgxSrAD0DJLjAa7CXGBQU5h81E=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U3YzFlM2U0LWM1NzctNDg5Yy05M2Y4LTVmYWYxOTQyMDEyMy5qcGc=)
-Kane Parsons'ın YouTube'dan doğan liminal koridor efsanesini uzun metraja taşıyan ilk filmi. Chiwetel Ejiofor ve Renate Reinsve'nin yer aldığı yapım, hipnotik olduğu kadar dehşet verici.
+Kane Parsons's debut feature film, bringing his YouTube-born liminal corridor legend to the big screen. Starring Chiwetel Ejiofor and Renate Reinsve, the production is as hypnotic as it is terrifying.
 
 ## 8. We Bury the Dead (2024) — %87
 ![We Bury the Dead](https://resizing.flixster.com/s_tZm2eyH-KstknuuyeKSqBvHuY=/800x1200/v2/https://resizing.flixster.com/h3jkbQNfvS-0g3ADQTmnH6-2cJE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzZlNmFmZTlkLTZmYjAtNDRhNi04ZjE5LTY1ZjhhZGQ5MTk1NS5qcGc=)
-Daisy Ridley'nin taşıdığı film, zombi klişelerini yas ve kayıp üzerine bir meditasyona dönüştürüyor. Askeri bir felaketin ardından ölüler yalnızca dirilmiyor, avlanıyor.
+The film, starring Daisy Ridley, turns zombie tropes into a meditation on grief and loss. After a military disaster, the dead don't just rise, they hunt.
 
 ## 9. Primate (2025) — %77
 ![Primate](https://resizing.flixster.com/smtVXh-Oyl8DXPD4-rFqfvpGcK0=/800x1200/v2/https://resizing.flixster.com/hRGJ1nHXf3xkpX4qyQisxuSZyE0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzE1OWQ2MzdmLWU5OTMtNGM3Yi05NDQxLWYwMjIzOTJjZWFhNy5qcGc=)
-Johannes Roberts'ın yılın başında vizyona giren filmi, tropikal bir tatili ilkel bir hayatta kalma kâbusuna çeviriyor. Kısa, yalın ve etkili.
+Johannes Roberts's film, released at the beginning of the year, turns a tropical vacation into a primal survival nightmare. Short, lean, and effective.
 
 ## 10. Ready or Not 2: Here I Come (2026) — %75
 ![Ready or Not 2](https://resizing.flixster.com/jf21tFzvWtc6lc1ezusO4yn6ZHM=/800x1200/v2/https://resizing.flixster.com/mb7jKn6kPjbfdG_ec1yxUpObtic=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RhYTI3MWU2LTJiMDctNDU3OC1hYTRmLTQ1NWZjNWExZGEyMi5qcGc=)
-Grace (Samara Weaving) Le Domas ailesinden kurtulduktan hemen sonra oyunun bir üst seviyesine geçiyor. Devam filmi lanetini büyük ölçüde Weaving'in vahşi enerjisi sayesinde kırıyor.
+Grace (Samara Weaving) immediately levels up after escaping the Le Domas family. The sequel largely breaks the curse of sequels thanks to Weaving's wild energy.
 
-Kaynak: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
+Source: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
     image: "https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=",
     source: "Rotten Tomatoes",
-    countdownBadge: "10 → 1 geri sayım",
+    countdownBadge: "10 → 1 countdown",
   },
   {
     slug: "2026nin-en-iyi-yeni-komedi-filmleri",
-    title: "2026'nın En İyi 10 Yeni Komedi Filmi",
-    excerpt: "Olivia Wilde'ın 'The Invite'ından Pixar'ın 'Hoppers'ına, Rotten Tomatoes'un Tomatometer sıralamasına göre yılın en çok güldüren 10 filmi.",
-    body: `Boots Riley'den Olivia Wilde'a, Pixar'dan Minions'a: 2026 komedi sineması hem yazar sinemasının hem de büyük stüdyo animasyonlarının aynı anda güçlü olduğu bir yıl. Rotten Tomatoes'un Tomatometer sıralamasına göre yılın en iyi 10 yeni komedisi:
+    title: "Top 10 New Comedy Movies of 2026",
+    excerpt: "From Olivia Wilde's 'The Invite' to Pixar's 'Hoppers', the 10 funniest films of the year according to Rotten Tomatoes' Tomatometer rankings.",
+    body: `From Boots Riley to Olivia Wilde, from Pixar to Minions: 2026 comedy cinema is a year where both auteur cinema and big studio animations are strong at the same time. The 10 best new comedies of the year, according to Rotten Tomatoes' Tomatometer rankings:
 
 ## 1. The Invite (2026) — %97
 ![The Invite](https://resizing.flixster.com/vu3WNu2gCk5JheviBy5KMw07wyc=/800x1200/v2/https://resizing.flixster.com/oQP7j5g3mdXhrPzuVM1Kt5yKNbo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMyM2E1MzNiLWJjYzgtNDQ1MC05M2Q0LTY2NWJmM2IyYjk4ZC5qcGc=)
-Olivia Wilde'ın yönettiği filmde evliliği çatırdayan Joe ve Angela, üst kattaki gizemli komşularını yemeğe davet ediyor. Seth Rogen, Penélope Cruz ve Edward Norton'lı kadrosuyla yılın en sofistike farsı.
+In the film directed by Olivia Wilde, Joe and Angela, whose marriage is falling apart, invite their mysterious upstairs neighbors to dinner. With a cast including Seth Rogen, Penélope Cruz, and Edward Norton, it's the year's most sophisticated farce.
 
 ## 2. The Sheep Detectives (2026) — %95
 ![The Sheep Detectives](https://resizing.flixster.com/mQRp4QAya4hb3SShwOckjngwLIA=/800x1200/v2/https://resizing.flixster.com/LviGdc9-5BykrMyhX1oGyU-HhXE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzYzNjA4ZWQ1LTE1M2UtNGI2Mi05NTJlLWM0ZTg2NWM5ODJhNC5qcGc=)
-Hugh Jackman, koyunlarına her gece dedektif romanı okuyan bir çobanı oynuyor. Emma Thompson ve Nicholas Braun'un da yer aldığı film, sıcak bir aile eğlencesi ambalajına şaşırtıcı derinlikte temalar sarıyor.
+Hugh Jackman plays a shepherd who reads detective novels to his sheep every night. The film, also starring Emma Thompson and Nicholas Braun, wraps surprising depth of themes into a warm family entertainment package.
 
 ## 3. Hoppers (2026) — %94
 ![Hoppers](https://resizing.flixster.com/PLxuRQLKTav6wOOrBIvqw736EBE=/800x1200/v2/https://resizing.flixster.com/bwWq8XLRwb_i2OuzPIq0JwPPyw8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzkzNjM1M2U4LWVmODYtNGM4Mi1iYzJmLTNkZWU0MjkxZTU0Yi5qcGc=)
-Pixar'ın yeni filmi, hayvanlarla konuşabilmeyi mümkün kılan bir bilim kurgu fikrinden yola çıkıyor. Eleştirmenlere göre stüdyonun bugüne kadarki en komik işi.
+Pixar's new film is based on a sci-fi idea that makes it possible to talk to animals. According to critics, it's the studio's funniest work to date.
 
 ## 4. Toy Story 5 (2026) — %92
 ![Toy Story 5](https://resizing.flixster.com/_qrGu1iWuHN_tDhkSw22ZvHl1B8=/800x1200/v2/https://resizing.flixster.com/mA3D_vy893aAyLJ9qFLLW4U6LIU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2YxNjlmZDVkLWU1YjEtNGU5Mi1hMDQwLWE0ZjNhYmNiMGFkZS5qcGc=)
-Bu kez oyuncaklar ekranlarla yarışıyor. Woody ve Buzz'ın dönüşü, seri yorgunluğuna rağmen çocukların bu karakterlere hâlâ ihtiyacı olduğunu hatırlatıyor.
+This time, toys are competing with screens. The return of Woody and Buzz reminds us that children still need these characters despite franchise fatigue.
 
 ## 5. I Love Boosters (2026) — %92
 ![I Love Boosters](https://resizing.flixster.com/xsf25W7RBZbGmis3mCgVcDfiqMY=/800x1200/v2/https://resizing.flixster.com/buDvWJ5KfAV4_4MVcFG_-nZBqLQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzNiZGNiNDA2LTY0NDItNGJlNy04NmRlLTM0OTllZjk0ZGQ2MS5qcGc=)
-Boots Riley'nin Keke Palmer, Naomi Ackie ve Taylour Paige'li yeni filmi; yönetmenin keskin toplumsal hicvini yine kaotik bir mizahla birleştiriyor.
+Boots Riley's new film, starring Keke Palmer, Naomi Ackie, and Taylour Paige, once again combines the director's sharp social satire with chaotic humor.
 
 ## 6. I Want Your Sex (2026) — %90
 ![I Want Your Sex](https://resizing.flixster.com/_XzDHRpLdtIfwZBI0ssBt96kSsk=/800x1200/v2/https://resizing.flixster.com/fArozlChMxf5nY6-Ey0bvc32ig0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JlYjVjMmQ1LTc2YTQtNDBhNC04NzJhLWE2OWEwOTYyYWVkZi5qcGc=)
-Gregg Araki'nin en ulaşılabilir işlerinden biri. Cooper Hoffman'ın canlandırdığı Elliot, provokatif sanatçı Erika Tracy'nin (Olivia Wilde) yanında işe girince fantezileri gerçeğe dönüşüyor.
+One of Gregg Araki's most accessible works. Elliot, played by Cooper Hoffman, finds his fantasies becoming reality when he gets a job working for provocative artist Erika Tracy (Olivia Wilde).
 
 ## 7. Minions & Monsters (2026) — %89
 ![Minions & Monsters](https://resizing.flixster.com/LeSi5fpSggaQ4EayHfYv_dCv_0c=/800x1200/v2/https://resizing.flixster.com/1gyu0k41JOFVHiGEh8aA1Pw7X14=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzY0ZTNhMGQwLWEwN2QtNDIxNS05ZTNmLTEzMGM1YmM0ZmYyNC5qcGc=)
-Minion'lar bu kez Hollywood tarihini fethediyor: yıldız oluyorlar, her şeylerini kaybediyorlar ve dünyaya canavarlar salıyorlar. Serinin en keyifli halkası.
+Minions conquer Hollywood history this time: they become stars, lose everything, and unleash monsters upon the world. The most enjoyable installment of the series.
 
 ## 8. Power Ballad (2026) — %88
 ![Power Ballad](https://resizing.flixster.com/48xFRdscTddL_6EpBxYa6QDLY0k=/800x1200/v2/https://resizing.flixster.com/D6ZNf6XfT_f-L-2iIpnUFpG21rA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzM3MTdjMjYzLTE4MzItNGU1MC1hZTYzLWI3NzUwMThjODI4OC5qcGc=)
-John Carney'nin filminde eski günlerini arayan düğün şarkıcısı Rick (Paul Rudd), sönmekte olan boyband yıldızı Danny (Nick Jonas) ile tanışıyor. Şöhretin cazibesini de bedelini de sakin bir zarafetle anlatıyor.
+In John Carney's film, wedding singer Rick (Paul Rudd), longing for his old days, meets fading boyband star Danny (Nick Jonas). It tells the allure and cost of fame with quiet grace.
 
 ## 9. GOAT (2026) — %82
 ![GOAT](https://resizing.flixster.com/brDsSDz6YaqMD1PUxm6VepaVaEw=/800x1200/v2/https://resizing.flixster.com/E4RWTXg58eK-yeETfMDBjOKjfGI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzk1YWYwNTYzLWNjYjMtNGYyNi1iMGE4LWM2NWM5NmVhMWZkYi5qcGc=)
-Sony Pictures Animation'ın tamamen hayvanlardan oluşan dünyasında geçen aksiyon-komedisi. Steph Curry ve Gabrielle Union'ın da yer aldığı seslendirme kadrosu işi kotarıyor.
+An action-comedy set in Sony Pictures Animation's all-animal world. The voice cast, including Steph Curry and Gabrielle Union, gets the job done.
 
 ## 10. Cold Storage (2026) — %81
 ![Cold Storage](https://resizing.flixster.com/kytUurP27KN3R5E4ikzZDvVwUig=/800x1200/v2/https://resizing.flixster.com/ou6aGKAZo60oUaTDVfNmdc6wZcA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2UxZDY1YzRlLTZlMTYtNDUwOS05Mjc0LThkOGJmM2UzOWRhNS5qcGc=)
-Joe Keery ve Georgina Campbell'ın oynadığı film, eski bir askeri üssün üzerine kurulmuş depo tesisinde geçen bir B-film güzellemesi. Liam Neeson'lı kadrosuyla yapış yapış ve esprili bir bilim kurgu.
+The film starring Joe Keery and Georgina Campbell is a B-movie homage set in a storage facility built on an old military base. It's a sticky and witty sci-fi with a Liam Neeson-esque cast.
 
-Kaynak: Rotten Tomatoes — "Best New Comedies of 2026".`,
+Source: Rotten Tomatoes — "Best New Comedies of 2026".`,
     image: "https://resizing.flixster.com/vu3WNu2gCk5JheviBy5KMw07wyc=/800x1200/v2/https://resizing.flixster.com/oQP7j5g3mdXhrPzuVM1Kt5yKNbo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMyM2E1MzNiLWJjYzgtNDQ1MC05M2Q0LTY2NWJmM2IyYjk4ZC5qcGc=",
     source: "Rotten Tomatoes",
   },
   {
     slug: "tum-9-live-action-spider-man-filmi-siralamasi",
-    countdownBadge: "9 → 1 geri sayım",
-    title: "Tüm 9 Live-Action Spider-Man Filmi: En Kötüden En İyiye Sıralama",
-    excerpt: "Nerdist, yaklaşık 25 yıllık Spider-Man sinemasını baştan sona sıraladı: Raimi üçlemesinden Amazing ikilisine, Tom Holland dönemine ve gişe rekorları kıran Brand New Day'e.",
-    body: `Yaklaşık 25 yıl boyunca *Spider-Man* serisi sinema tarihinin en başarılı markalarından biri oldu. Dokuzuncu halka *Spider-Man: Brand New Day* dünya genelinde gişe rekorları kırarken, seride hem çok yüksek zirveler hem de epey düşük çukurlar birikti. Nerdist, Spidey'nin konuk olduğu MCU filmlerini saymadan, dokuz live-action filmi en kötüden en iyiye sıraladı.
+    countdownBadge: "9 → 1 countdown",
+    title: "All 9 Live-Action Spider-Man Movies: Ranked From Worst to Best",
+    excerpt: "Nerdist ranked nearly 25 years of Spider-Man cinema from top to bottom: from the Raimi trilogy to the Amazing duo, the Tom Holland era, and the blockbuster Brand New Day.",
+    body: `For nearly 25 years, the *Spider-Man* franchise has been one of the most successful brands in cinematic history. While the ninth installment, *Spider-Man: Brand New Day*, broke box office records worldwide, the series has accumulated both very high peaks and quite low troughs. Nerdist ranked the nine live-action films from worst to best, not counting the MCU films where Spidey made guest appearances.
 
 ## 9. The Amazing Spider-Man 2 (2014) — Marc Webb
 ![The Amazing Spider-Man 2](https://cdn.nerdist.com/wp-content/uploads/2026/08/07010713/The-Amazing-Spider-Man-2.webp)
-Bir stüdyonun MCU'dan yanlış dersler çıkarmasının ders kitabı örneği: karakter, hikâye ve mantıktan önce evren kurma hevesi. Jamie Foxx'un Electro'su neredeyse Joel Schumacher'in 90'lar Batman'inden fırlamış gibi; Andrew Garfield'ın oynadığı filmle taban tabana zıt bir ton. Serinin en iyi Spider-Man kostümünü vermesi dışında dibi temsil ediyor.
+A textbook example of a studio drawing the wrong lessons from the MCU: an eagerness to build a universe before character, story, and logic. Jamie Foxx's Electro is almost straight out of Joel Schumacher's 90s Batman; a tone diametrically opposed to Andrew Garfield's performance. It represents the bottom, except for giving us the best Spider-Man suit in the series.
 
 ## 8. Spider-Man 3 (2007) — Sam Raimi
 ![Spider-Man 3](https://cdn.nerdist.com/wp-content/uploads/2026/08/07010912/Spider-Man-3.webp)
-Raimi, sevmediği Venom'u stüdyo baskısıyla filme soktu; elinde zaten iki kötü varken üçüncüsü dengeyi tamamen bozdu. Thomas Haden Church'ün Sandman'i, özellikle "doğuş" sahnesi muhteşem; amnezi hattı ve çığlık atan MJ ise yorucu. Dağınık ama hiç sıkmayan, izlenebilir bir karmaşa.
+Raimi was pressured by the studio to include Venom, whom he disliked; with two villains already, a third completely upset the balance. Thomas Haden Church's Sandman, especially his "birth" scene, is magnificent; the amnesia subplot and screaming MJ are tiresome. A messy but never boring, watchable chaos.
 
 ## 7. The Amazing Spider-Man (2012) — Marc Webb
 ![The Amazing Spider-Man](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011203/The-Amazing-Spider-Man.webp)
-Raimi üçlemesinden sadece beş yıl sonra gelen, esasen maliyet kesmek için yapılmış bir reboot. Garfield'ın kastingi doğruydu, film ise "fena değil"in ötesine geçemedi. Daha gerçekçi yaklaşım serinin çekiciliğini alıp götürdü; üstüne serinin en kötü kostümü.
+A reboot that came just five years after the Raimi trilogy, essentially made to cut costs. Garfield's casting was right, but the film couldn't go beyond "not bad." The more realistic approach stripped the series of its charm; on top of that, it had the worst suit in the series.
 
 ## 6. Spider-Man: Far From Home (2019) — Jon Watts
 ![Spider-Man: Far From Home](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011403/Spider-Man-Far-From-Home.webp)
-MCU'nun zirvedeki hâline iyi bir örnek: Avrupa gezisi Peter, Ned ve Midtown ekibine bol bol hafiflik alanı açıyor. Tom Holland ile Zendaya'nın kimyası inandırıcı, Jake Gyllenhaal'ın Mysterio'su Peter'ın hayatına gerçek hasar veren bir kötü. Hologram kâbus sekansı MCU'nun en iyi görsel anlarından biri.
+A good example of the MCU at its peak: the European trip opens up plenty of lighthearted space for Peter, Ned, and the Midtown crew. Tom Holland and Zendaya's chemistry is convincing, Jake Gyllenhaal's Mysterio is a villain who causes real damage to Peter's life. The hologram nightmare sequence is one of the MCU's best visual moments.
 
 ## 5. Spider-Man: No Way Home (2021) — Jon Watts
 ![Spider-Man: No Way Home](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011556/Spider-Man-No-Way-Home.webp)
-Kâğıt üstünde çökmesi gereken bir film: kimlik cliffhanger'ını çözmek, Doctor Strange'le ekip kurmak, iki eski Spider-Man'i ve kötülerini geri getirmek. Yine de işliyor, çünkü mesele sadece nostalji değil; üç Peter Parker'ı da gerçekten önemsiyoruz. Holland'ın Peter'ı nihayet Tony Stark'ın gölgesinden çıkıyor.
+A film that should have collapsed on paper: resolving the identity cliffhanger, teaming up with Doctor Strange, bringing back two old Spider-Men and their villains. Yet it works, because it's not just about nostalgia; we genuinely care about all three Peter Parkers. Holland's Peter finally steps out of Tony Stark's shadow.
 
 ## 4. Spider-Man (2002) — Sam Raimi
 ![Spider-Man (2002)](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011801/Spider-Man-2002.webp)
-Neredeyse kusursuz bir origin hikâyesi. Tobey Maguire dâhi bir kasting; David Koepp'in senaryosu Gümüş Devir çizgi romanlarının yıllarını tek filme sığdırıyor ve hiç acele etmiş gibi durmuyor. Willem Dafoe'nun Norman Osborn'u ve J.K. Simmons'ın J. Jonah Jameson'ı ikonik. Eksileri: yüzeysel kalan MJ ve o berbat Goblin kostümü.
+A nearly flawless origin story. Tobey Maguire is brilliant casting; David Koepp's script condenses years of Silver Age comics into a single film and never feels rushed. Willem Dafoe's Norman Osborn and J.K. Simmons' J. Jonah Jameson are iconic. Downsides: a superficial MJ and that terrible Goblin suit.
 ![Tobey Maguire — Spider-Man (2002)](https://cdn.nerdist.com/wp-content/uploads/2026/02/02111237/Tobey-Maguire-Spider-Man.webp)
 
 ## 3. Spider-Man: Homecoming (2017) — Jon Watts
 ![Spider-Man: Homecoming](https://cdn.nerdist.com/wp-content/uploads/2026/08/07012129/Spider-Man-Homecoming.webp)
-On beş yıl sonra nihayet gerçekten lise çağında görünen bir Spidey. İki origin filminin ardından örümcek ısırığını atlamak akıllıca bir karardı. Bendis'in *Ultimate Spider-Man* çizgi romanlarına yakın bu versiyon, Michael Keaton'ın Vulture'ı ile MCU'nun en iyi kötülerinden birini de getiriyor.
+Fifteen years later, a Spidey who finally looks genuinely high school-aged. Skipping the spider bite after two origin films was a smart decision. This version, close to Bendis's *Ultimate Spider-Man* comics, also brings one of the MCU's best villains in Michael Keaton's Vulture.
 ![Spider-Man: Homecoming — Peter Parker](https://cdn.nerdist.com/wp-content/uploads/2019/12/13065336/spiderman_homecoming_image_5.0.jpg)
 
 ## 2. Spider-Man: Brand New Day (2026) — Destin Daniel Cretton
 ![Spider-Man: Brand New Day](https://cdn.nerdist.com/wp-content/uploads/2026/08/07103253/Spider-Man-Brand-New-Day-banner.webp)
-Serinin dokuzuncu filmi hem gişede hem eleştirmen nezdinde patladı. Cretton, Holland'ın Peter'ını sıfırdan kuran, daha sokak seviyesinde ve duygusal bir Spider-Man hikâyesi anlatıyor; kostüm tasarımı da serinin en iyisi.
+The ninth film in the series exploded both at the box office and with critics. Cretton tells a more street-level and emotional Spider-Man story, building Holland's Peter from the ground up; the costume design is also the best in the series.
 ![Spider-Man: Brand New Day](https://cdn.nerdist.com/wp-content/uploads/2026/08/03145104/Spider-Man-Brand-New-Day-Mask-Off.webp)
 
 ## 1. Spider-Man 2 (2004) — Sam Raimi
 ![Spider-Man 2](https://cdn.nerdist.com/wp-content/uploads/2026/08/07012546/Spider-Man-2.webp)
-Zirvede sürpriz yok. Raimi'nin ikinci filmi hâlâ sadece en iyi Spider-Man filmi değil, aynı zamanda tüm zamanların en iyi süper kahraman filmlerinden biri. Alfred Molina'nın Doc Ock'u trajik ve korkutucu, tren sahnesi türün ölçüt sahnelerinden, kahramanlık ile kişisel fedakârlık arasındaki gerilim ise filmi bir arada tutan asıl güç.
+No surprises at the top. Raimi's second film is still not only the best Spider-Man movie but also one of the best superhero films of all time. Alfred Molina's Doc Ock is tragic and terrifying, the train scene is one of the genre's benchmark scenes, and the tension between heroism and personal sacrifice is the real force holding the film together.
 ![Spider-Man 2 — pizza sahnesi](https://cdn.nerdist.com/wp-content/uploads/2019/07/13093728/spider-man-pizza.jpg)
 
-Kaynak: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
+Source: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
     image: "https://cdn.nerdist.com/wp-content/uploads/2026/08/07012546/Spider-Man-2.webp",
     source: "Nerdist",
   },
   {
     slug: "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi",
-    title: "Mutantlar MCU'ya Gelmeden Önce İzlemeniz Gereken 3 Muhteşem X-Men Filmi",
-    excerpt: "Emma Frost rolüne Samara Weaving'in kastlanmasıyla mutantların MCU yolculuğu hızlanırken, Empire ekibi seriye dönmek için en iyi üç durağı seçti: X2, Days Of Future Past ve Logan.",
-    body: `Marvel Sinematik Evreni'nin mutantlara giderek yaklaştığını bir süredir biliyoruz. *X-Men '97* ile MCU çatısı altında bir X-Men anlatısı hâlihazırda sürüyor; üstüne telepat Emma Frost rolü için Samara Weaving'in kastlandığı haberi geldi. Yani türü başlatan seriye dönüp bakmak için bundan iyi zaman yok. Ama bütün X-filmleri eşit doğmadı — Empire'ın uzmanları yeniden izlemeye en çok değen üçünü seçti.
+    title: "3 Great X-Men Movies You Need To Watch Before Mutants Arrive In The MCU",
+    excerpt: "As the mutants' MCU journey accelerates with Samara Weaving cast as Emma Frost, the Empire team picks the three best stops to revisit the series: X2, Days Of Future Past, and Logan.",
+    body: `We've known for a while that the Marvel Cinematic Universe is getting closer to mutants. With *X-Men '97* an X-Men narrative is already underway under the MCU umbrella; on top of that came the news of Samara Weaving being cast for the role of telepath Emma Frost. So there's no better time to look back at the series that started the genre. But not all X-films were created equal — Empire's experts picked the three most worth rewatching.
 
 ## X2 (2003) — Bryan Singer
 ![X2](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
-**Süre:** 2sa 15dk · **Platform:** Disney+ · **Kadro:** Patrick Stewart, Hugh Jackman, Ian McKellen, Halle Berry, Famke Janssen, James Marsden
+**Duration:** 2h 15m · **Platform:** Disney+ · **Cast:** Patrick Stewart, Hugh Jackman, Ian McKellen, Halle Berry, Famke Janssen, James Marsden
 
-İlk *X-Men* kendi başına iyi bir film, ama ikinci halkanın yaptığı sıçrama tartışmasız. Aksiyon daha büyük, ölçek daha geniş ve film karakterlerinin içine çok daha derin giriyor: Wolverine 'Weapon X' projesiyle örtülmüş geçmişini kazıyor, Jean Grey'in telekinetik güçleri yaklaşan felaketi fısıldıyor. Beyaz Saray'a sızma açılışından (merhaba Nightcrawler!) X-Malikânesi saldırısına, Alkali Lake'teki Lady Deathstrike hesaplaşmasına kadar tam bir çizgi roman filmi klasiği. Üstüne Brian Cox'un William Stryker'ı ve Professor X ile Magneto'nun operatik satranç oyunu var. Sinematik şah mat.
+The first *X-Men* is a good film in its own right, but the leap made by the second installment is undeniable. The action is bigger, the scale is wider, and the film delves much deeper into its characters: Wolverine unearths his past shrouded by the 'Weapon X' project, Jean Grey's telekinetic powers whisper of impending doom. From the opening infiltration of the White House (hello Nightcrawler!) to the attack on the X-Mansion, to the Lady Deathstrike showdown at Alkali Lake, it's a classic comic book movie through and through. On top of that, there's Brian Cox's William Stryker and the operatic chess game between Professor X and Magneto. Cinematic checkmate.
 
 &nbsp;
 
 ## X-Men: Days Of Future Past (2014) — Bryan Singer
 ![X-Men: Days Of Future Past](https://images.bauerhosting.com/empire/2024/08/X-Men-Days-Of-Future-Past.jpg?auto=format&w=1440&q=80)
-**Süre:** 2sa 13dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, James McAvoy, Michael Fassbender, Jennifer Lawrence, Halle Berry, Nicholas Hoult
+**Duration:** 2h 13m · **Platform:** Disney+ · **Cast:** Hugh Jackman, James McAvoy, Michael Fassbender, Jennifer Lawrence, Halle Berry, Nicholas Hoult
 
-MCU çoklu evrenlerle oynamaya başlamadan çok önce, iki mutant kuşağı devasa bir zaman yolculuğu hikâyesinde bir araya geldi. Chris Claremont ve John Byrne'ün iki parçalık çizgi roman hattından serbestçe uyarlanan film, adamantium pençeli Kanadalıyı Mystique'in bir senatörü öldürmesini — ve robot kıyametini — engellemek için 1973'e yolluyor. Açılıştaki acımasız Sentinel dövüşünden ağır çekim Quicksilver hapishane kaçışına kadar seride hayran isteyeceği her şey var. Logan'ın 1973 şaşkınlığı ("biri sana çok kötü asit vermiş") kadar, X-Men'in bilinen çetrefil politik alanlarına pençe atmaktan da çekinmiyor.
+Long before the MCU started playing with multiverses, two generations of mutants came together in a massive time-travel story. Loosely adapted from Chris Claremont and John Byrne's two-part comic book arc, the film sends the adamantium-clawed Canadian back to 1973 to prevent Mystique from assassinating a senator — and robot apocalypse. From the brutal opening Sentinel fight to the slow-motion Quicksilver prison break, the series has everything a fan could want. As much as Logan's 1973 bewilderment ("someone gave you some really bad acid"), it doesn't shy away from clawing at the known intricate political landscapes of the X-Men.
 
 &nbsp;
 
 ## Logan (2017) — James Mangold
 ![Logan](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
-**Süre:** 2sa 20dk · **Platform:** Disney+ · **Kadro:** Hugh Jackman, Patrick Stewart, Dafne Keen, Stephen Merchant
+**Duration:** 2h 20m · **Platform:** Disney+ · **Cast:** Hugh Jackman, Patrick Stewart, Dafne Keen, Stephen Merchant
 
-Hugh Jackman teknik olarak *Deadpool & Wolverine* ile geri döndü, ama James Mangold'un hüzünlü şaheseri *Logan* hâlâ sinemanın en tanımlayıcı çizgi roman karakterlerinden birine mükemmel bir final sunuyor: *Shane* usulü bir Western vedası. Yetişkinler için X-Men; küfürden, aşırı şiddetten ve yoğun duygudan kaçınmıyor. Alzheimer'ı telepatik güçleriyle birleşip onu bir kitle imha silahına çeviren Charles Xavier, ölümlülüğün nihayet peşine düştüğünü kabul eden Logan ve 'X-23' olarak Dafne Keen'in vahşi performansı, seriye yirmi yıl sonra bile yeni bir damar açıyor. Tek kelimeyle: X-traordinary.
+Hugh Jackman technically returned with *Deadpool & Wolverine*, but James Mangold's melancholic masterpiece *Logan* still offers a perfect finale to one of cinema's most defining comic book characters: a *Shane*-esque Western farewell. X-Men for adults; it doesn't shy away from profanity, extreme violence, and intense emotion. Charles Xavier, whose Alzheimer's combines with his telepathic powers turning him into a weapon of mass destruction, Logan, who finally accepts that mortality has caught up with him, and Dafne Keen's savage performance as 'X-23' open up a new vein for the series even twenty years later. In a word: X-traordinary.
 
 &nbsp;
 
-Kaynak: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arrive In The MCU".`,
+Source: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arrive In The MCU".`,
     image: "https://images.bauerhosting.com/empire/2026/07/xmen-2.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
   },
   {
     slug: "brand-new-day-oncesi-3-spider-man-disi-tom-holland-filmi",
-    title: "Brand New Day'den Önce İzlenmesi Gereken 3 Spider-Man Dışı Tom Holland Filmi",
-    excerpt: "On yıldır MCU'nun tek Spider-Man'i olan Tom Holland, örümcek ağının çok ötesinde bir oyuncu. Empire ekibi onun en iyi üç Spidey dışı filmini seçti.",
-    body: `Adı Tom Holland ve son on yıldır Marvel Sinematik Evreni'nin tek Spider-Man'i — yakında *Spider-Man: Brand New Day* ile geri dönüyor. Ama dünya onu en çok mahalleden süper kahraman olarak tanısa da, İngiliz yıldızda Peter Parker'dan çok daha fazlası var. *The Odyssey*'deki işine hayran kalmaya devam ederken, Empire'ın uzmanları arşivi kazıp en iyi üç Spidey dışı filmini çıkardı.
+    title: "3 Non-Spider-Man Tom Holland Movies to Watch Before Brand New Day",
+    excerpt: "Tom Holland, the MCU's sole Spider-Man for a decade, is an actor far beyond the web-slinger. The Empire team picked his top three non-Spidey films.",
+    body: `His name is Tom Holland, and for the past decade, he's been the Marvel Cinematic Universe's sole Spider-Man — soon to return with *Spider-Man: Brand New Day*. But while the world knows him best as the friendly neighborhood superhero, there's much more to the British star than Peter Parker. While we continue to admire his work in *The Odyssey*, Empire's experts dug through the archives to pick his top three non-Spidey films.
 
 ## The Impossible (2012) — J.A. Bayona
 ![The Impossible](https://images.bauerhosting.com/empire/2026/07/The-Impossible.jpg?auto=format&w=1440&q=80)
-**Süre:** 1sa 54dk · **Kadro:** Ewan McGregor, Naomi Watts, Tom Holland
+**Runtime:** 1h 54m · **Cast:** Ewan McGregor, Naomi Watts, Tom Holland
 
-*Billy Elliot* günlerine daha yakın, genç bir Tom Holland; 2004'te Tayland'ı vuran Boxing Day tsunamisine yakalanan bir İngiliz ailenin gerçek hikâyesinde başrolde. Bayona'nın elinde film hem nefes kesici hem de yorucu derecede sarsıcı: felaketin fiziksel dehşetiyle bir ailenin birbirini bulma çabası aynı sahnede yaşıyor. Holland'ın buradaki olgunluğu, onun yıllar sonra taşıyacağı dramatik yükün ilk kanıtı.
+A younger Tom Holland, closer to his *Billy Elliot* days, stars in the true story of a British family caught in the Boxing Day tsunami that hit Thailand in 2004. In Bayona's hands, the film is both breathtaking and exhaustingly harrowing: the physical horror of the disaster and a family's struggle to find each other coexist in the same scene. Holland's maturity here is the first evidence of the dramatic weight he would carry years later.
 
 ## The Lost City Of Z (2016) — James Gray
 ![The Lost City Of Z](https://images.bauerhosting.com/empire/2026/07/The-Lost-City-Of-Z.jpg?auto=format&w=1440&q=80)
-**Kadro:** Charlie Hunnam, Robert Pattinson, Sienna Miller, Tom Holland
+**Cast:** Charlie Hunnam, Robert Pattinson, Sienna Miller, Tom Holland
 
-Amazon'da kayıp bir uygarlığın peşine düşen kâşif Percy Fawcett'in hikâyesi; Holland, babasının takıntısına derin bir kırgınlıkla bakan, sonra yavaş yavaş dünyayı onun gözünden görmeye başlayan oğlu oynuyor. Keşfin güzelliği kadar hastalığı, açlığı ve acımasız iklimi de kadraja alan, artık pek çekilmeyen türden eski usul bir epik. Hunnam ile Holland ikilisi inandırıcı; ayrıca Holland ile Robert Pattinson'ın ilk kez aynı karede olduğu film.
+The story of explorer Percy Fawcett, who pursues a lost civilization in the Amazon; Holland plays his son, who views his father's obsession with deep resentment, then slowly begins to see the world through his eyes. It's an old-fashioned epic of a kind rarely made anymore, capturing the beauty of discovery as much as the disease, starvation, and brutal climate. The duo of Hunnam and Holland is convincing; it's also the first film where Holland and Robert Pattinson are in the same frame.
 
 ## The Devil All The Time (2020) — Antonio Campos
 ![The Devil All The Time](https://images.bauerhosting.com/legacy/media/5f2a/93d9/d6ff/5e31/dc1f/3126/devil-all-the-time-excl-crop.jpg?auto=format&w=1440&q=80)
-**Süre:** 2sa 18dk · **Platform:** Netflix · **Kadro:** Bill Skarsgård, Robert Pattinson, Tom Holland, Sebastian Stan, Riley Keough, Jason Clarke
+**Runtime:** 2h 18m · **Platform:** Netflix · **Cast:** Bill Skarsgård, Robert Pattinson, Tom Holland, Sebastian Stan, Riley Keough, Jason Clarke
 
-Bir felaket filmiyle açılış yapmış, yarım düzine MCU filminde oynamış ve bir James Gray filminde dramatik kaslarını göstermiş olmasına rağmen, izleyicinin "sonsuza dek genç" Tom Holland algısını kıran film Campos'un zifiri karanlık Southern Gothic mücevheri oldu. Holland'ın Arvin Russell'ında şiddet, yoğunluk ve kuşatıcı karanlık aynı anda duruyor: sahte inanç önderleri ve seri katillerin insafına kalmış kanunsuz bir kasabada, tarifsizin intikamını almak için tarifsizi yapmaya razı bir genç adam. Üstüne yırtıcı bir vaiz olarak fena hâlde ipini koparmış bir Robert Pattinson var.
+Despite opening with a disaster movie, starring in half a dozen MCU films, and flexing his dramatic muscles in a James Gray film, it was Campos's pitch-black Southern Gothic gem that shattered the audience's perception of "forever young" Tom Holland. In Holland's Arvin Russell, violence, intensity, and pervasive darkness coexist: a young man willing to do the unspeakable to avenge the unspeakable in a lawless town at the mercy of false faith leaders and serial killers. On top of that, there's a wildly unhinged Robert Pattinson as a predatory preacher.
 
-Kaynak: Empire — "Three Non-Spider-Man Tom Holland Movies To Watch Before Brand New Day".`,
+Source: Empire — "Three Non-Spider-Man Tom Holland Movies To Watch Before Brand New Day".`,
     image: "https://images.bauerhosting.com/empire/2026/07/Tom-Holland-Non-Spidey-Movies.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
   },
   {
     slug: "tum-zamanlarin-en-iyi-zombi-filmleri",
-    title: "Tüm Zamanların En İyi Zombi Filmleri: Empire'ın İlk 10'u",
-    excerpt: "Night Of The Living Dead'den 28 Years Later'a, Empire'ın 25'lik zombi listesinin zirvesindeki 10 film — Romero klasiklerinden Train To Busan'a türün en iyileri.",
-    countdownBadge: "10 → 1 geri sayım",
-    body: `Zombi filmi, sinemanın en esnek türlerinden biri: aynı canavarla hem toplumsal hiciv hem saf komedi hem de saf dehşet yapılabiliyor. Empire, *Night Of The Living Dead*'den *28 Years Later*'a uzanan 25'lik bir sıralama hazırladı. İşte o listenin zirvesindeki 10 film.
+    title: "The Best Zombie Movies Of All Time: Empire's Top 10",
+    excerpt: "From Night Of The Living Dead to 28 Years Later, the top 10 films from Empire's 25-strong zombie list — the best of the genre, from Romero classics to Train To Busan.",
+    countdownBadge: "10 → 1 countdown",
+    body: `The zombie film is one of cinema's most flexible genres: the same monster can be used for social satire, pure comedy, and pure horror. Empire has compiled a list of 25, ranging from *Night Of The Living Dead* to *28 Years Later*. Here are the top 10 films from that list.
 
 ## 10. Re-Animator (1985) — Stuart Gordon
 ![Re-Animator](https://images.bauerhosting.com/legacy/media/5eea/4621/d165/1354/a1d4/9ffb/9-reanimator.jpg?auto=format&w=1440&q=80)
-H.P. Lovecraft öyküsünden uyarlanan film, ölülere bambaşka bir açıdan bakıyor: Jeffrey Combs'un çıldırmış profesörü Herbert West, ölü dokuyu canlandıran limon yeşili bir sıvı icat ediyor ve kısa süre sonra bunu cesetlere uygulamaya başlıyor. Korku ile komedinin pulp kıvamında karışımı; 80'lerin kanlı standartlarına göre bile fazlasıyla kanlı, sıkı senaryosuyla mide bulandırıcı derecede eğlenceli.
+Adapted from an H.P. Lovecraft story, the film looks at the dead from a completely different angle: Jeffrey Combs' mad professor Herbert West invents a lime-green fluid that reanimates dead tissue, and soon begins applying it to corpses. A pulp-level mix of horror and comedy; even by the gory standards of the 80s, it's excessively bloody, with a tight script that makes it nauseatingly entertaining.
 
 ## 9. 28 Years Later (2025) — Danny Boyle
 ![28 Years Later](https://images.bauerhosting.com/empire/2025/06/28-years-later-1.jpg?auto=format&w=1440&q=80)
-Boyle ve Alex Garland'ın kendi başlattıkları salgına dönüşü, beklenen nostalji turu değil: karantinaya alınmış bir adada büyüyen bir çocuğun gözünden şiddetin, inancın ve yasın hikâyesi. Görsel cesareti ve final hamlesiyle serinin en tartışılan halkası.
+Boyle and Alex Garland's return to the pandemic they started is not the expected nostalgia trip: it's a story of violence, faith, and grief through the eyes of a child growing up on a quarantined island. With its visual audacity and final move, it's the most debated installment in the series.
 
 ## 8. [REC] (2007) — Jaume Balagueró, Paco Plaza
 ![REC](https://images.bauerhosting.com/empire/2020/06/8-rec.jpg?auto=format&w=1440&q=80)
-Found-footage korkusunun en verimli örneği: Barselona'da karantinaya alınmış bir apartman, tek bir kamera ve giderek daralan koridorlar. Finaldeki tavan arası sekansı, türün en çok kopyalanan dehşet anlarından biri.
+The most prolific example of found-footage horror: a quarantined apartment building in Barcelona, a single camera, and increasingly narrowing corridors. The attic sequence at the end is one of the most copied horror moments in the genre.
 
 ## 7. Braindead (1992) — Peter Jackson
 ![Braindead](https://images.bauerhosting.com/legacy/media/5eea/465f/f973/9f39/e0a2/c1b5/7-braindead.jpg?auto=format&w=1440&q=80)
-Peter Jackson'ın Orta Dünya'dan önceki hâli: sinema tarihinin en kanlı filmlerinden biri, üstüne bir de çim biçme makinesi. Splatter komedisini absürtlüğün sınırına kadar götüren, mutlu bir çılgınlık.
+Peter Jackson before Middle-earth: one of the goriest films in cinema history, with a lawnmower to boot. A happy madness that pushes splatter comedy to the limits of absurdity.
 
 ## 6. Night Of The Living Dead (1968) — George A. Romero
 ![Night Of The Living Dead](https://images.bauerhosting.com/legacy/media/5eea/4675/f973/9fcb/f5a2/c1b6/6-night-of-the-living-dead.jpg?auto=format&w=1440&q=80)
-Türü icat eden film. Siyah-beyaz, düşük bütçeli ve hâlâ acımasız; kuşatılmış bir çiftlik evini 60'lar Amerika'sının ırk ve otorite gerilimlerine dair bir laboratuvara çeviriyor. Finali sinemanın en soğuk son sahnelerinden.
+The film that invented the genre. Black-and-white, low-budget, and still brutal; it turns a besieged farmhouse into a laboratory for the racial and authority tensions of 60s America. Its ending is one of cinema's coldest final scenes.
 
 ## 5. Train To Busan (2016) — Yeon Sang-ho
 ![Train To Busan](https://images.bauerhosting.com/legacy/media/5eea/4768/d165/137a/f8d4/a004/train-to-busan-main.jpg?auto=format&w=1440&q=80)
-Hızlı trende geçen bir salgın filmi olarak kusursuz kurgulanmış bir gerilim; ama gerçek gücü, karakterlerine harcadığı zamanda. Sınıf eleştirisiyle babalık melodramını aynı vagona bindiren, finalinde seyirciyi dağıtan modern klasik.
+A perfectly crafted thriller as a pandemic film set on a high-speed train; but its real power lies in the time it spends on its characters. A modern classic that brings class criticism and fatherhood melodrama into the same carriage, leaving the audience devastated at the end.
 
 ## 4. Shaun Of The Dead (2004) — Edgar Wright
 ![Shaun Of The Dead](https://images.bauerhosting.com/empire/2024/04/shaun-of-the-dead-doppelgangers-1.jpg?auto=format&w=1440&q=80)
-Zombi komedisinin ölçütü: Romero'ya duyulan sevgi kadar keskin bir Britanya taşra hicvi. Wright'ın kurgu ritmi, plak fırlatma sahnesi ve "hepsi bittiğinde Winchester'da buluşalım" fikri türü kalıcı biçimde değiştirdi.
+The benchmark for zombie comedy: a sharp British provincial satire as much as a love letter to Romero. Wright's editing rhythm, the record-throwing scene, and the "let's meet at the Winchester when all this blows over" idea permanently changed the genre.
 
 ## 3. 28 Days Later (2002) — Danny Boyle
 ![28 Days Later](https://images.bauerhosting.com/empire/2025/01/28-days-later-cillian-murphy.jpg?auto=format&w=1440&q=80)
-Boş Londra sahneleriyle açılan, dijital videonun pürüzünü estetiğe çeviren film, koşan ölüleri ana akıma taşıdı. Ama gerçek dehşet, salgının değil hayatta kalanların — özellikle askerî üsteki insanların — getirdiği bölümde.
+Opening with empty London scenes, the film, which turned the grit of digital video into an aesthetic, brought running zombies into the mainstream. But the real horror comes not from the pandemic, but from the survivors — especially the people at the military base.
 
 ## 2. Day Of The Dead (1985) — George A. Romero
 ![Day Of The Dead](https://images.bauerhosting.com/legacy/media/5eea/46cb/740f/850a/8cbd/456e/2-day-of-the-dead.jpg?auto=format&w=1440&q=80)
-Romero'nun en karamsar ve en radikal filmi: bir yeraltı sığınağında bilim ile ordu birbirini yiyor, Bub adında bir zombi ise filmin en insani karakteri oluyor. Tom Savini'nin makyaj işleri hâlâ efsane.
+Romero's most pessimistic and radical film: in an underground bunker, science and the military devour each other, while a zombie named Bub becomes the most human character in the film. Tom Savini's makeup work is still legendary.
 
 ## 1. Dawn Of The Dead (1978) — George A. Romero
 ![Dawn Of The Dead](https://images.bauerhosting.com/legacy/media/5eea/4719/740f/859d/40bd/4572/1-dawn-of-the-dead.jpg?auto=format&w=1440&q=80)
-Zirvede tüketim toplumunun mezar taşı var: bir alışveriş merkezine sığınan hayatta kalanlar, cennet sandıkları yerin kendi tuzağı olduğunu keşfediyor. Hem tür sineması hem keskin bir hiciv; zombi filmini bir metafor makinesine dönüştüren film.
+At the top is the tombstone of consumer society: survivors taking refuge in a shopping mall discover that the place they thought was heaven is their own trap. Both genre cinema and sharp satire; the film that turned the zombie movie into a metaphor machine.
 
-Kaynak: Empire — "The 25 Best Zombie Movies Of All Time".`,
+Source: Empire — "The 25 Best Zombie Movies Of All Time".`,
     image: "https://images.bauerhosting.com/empire/2020/06/Best-Zombie-Movies.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
   },
   {
     slug: "2026-nin-en-iyi-10-oyunu",
-    title: "2026'nın En İyi 10 Oyunu (Şimdilik)",
-    excerpt: "\"Cairn\"den \"007 First Light\"a, \"Resident Evil Requiem\"den \"Saros\"a: Empire'ın yılın ilk yarısında öne çıkan 10 oyunu. 2026, sinema ile oyunun en çok kesiştiği yıl olmaya aday.",
-    countdownBadge: "10 → 1 geri sayım",
-    body: `2026 oyun dünyasında sinemanın yılı mı olacak? Yılın henüz yarısındayız ama James Bond yıllar sonra ilk kez tamamen yeni bir maceraya çıktı — "007 First Light" dünyanın en meşhur ajanının nasıl doğduğunu anlatıyor. "Resident Evil Requiem" beyazperdeye yakışır bir korku sunuyor, "Lego Batman" bile Tim Burton estetiğiyle yeniden doğuyor. Diğer adaylar ise John Hughes filmografisinden ya da "2001"in yapay zekâ paranoyasından besleniyor.
+    title: "The 10 Best Games of 2026 (So Far)",
+    excerpt: "From \"Cairn\" to \"007 First Light\", from \"Resident Evil Requiem\" to \"Saros\": Empire's top 10 games of the first half of the year. 2026 is shaping up to be the year where cinema and gaming intersect the most.",
+    countdownBadge: "10 → 1 countdown",
+    body: `Will 2026 be the year of cinema in the gaming world? We're only halfway through the year, but James Bond has embarked on an entirely new adventure for the first time in years — "007 First Light" tells the story of how the world's most famous agent was born. "Resident Evil Requiem" offers a horror worthy of the silver screen, and even "Lego Batman" is reborn with a Tim Burton aesthetic. Other contenders draw inspiration from John Hughes' filmography or the AI paranoia of "2001".
 
-Yanı sıra "klasik zihniyetli" oyunlar da sahnede: Metroidvania'lar, bullet-hell roguelike'lar ve elbette "Pokémon". İşte Empire'ın sıralaması.
+Alongside these, "classically minded" games are also on stage: Metroidvanias, bullet-hell roguelikes, and of course, "Pokémon". Here's Empire's ranking.
 
 ## 10. MIO: Memories In Orbit
 ![MIO: Memories In Orbit](https://images.bauerhosting.com/empire/2026/02/MIO-Memories-In-Orbit-Review.png?auto=format&w=1440&q=80)
-Metroidvania takıntılılarının dışında kimse "MIO"dan bu kadarını beklemiyordu; oyun yılların en sürükleyici aksiyon platformcusu çıktı. Adını taşıyan robot olarak, yalnızca "Gemi" diye bilinen kolosal ve çürümeye terk edilmiş bir yapıda uyanıyor, keşfe bırakılıyorsunuz. Ortaya çıkan şey, hayatta kalmak için atılmış son bir kumar ve tek bir insan olmamasına rağmen fazlasıyla insani bir hikâye. 3B modellerin üzerine boyanmış suluboya görselleri, keskin dövüşü ve zorlu boss'larıyla türün yeni referans noktası.
+No one outside of Metroidvania obsessives expected so much from "MIO"; the game turned out to be the most immersive action platformer in years. As the titular robot, you awaken in a colossal, decaying structure known only as "The Ship" and are left to explore. What emerges is a last-ditch gamble for survival and a story that is profoundly human despite the absence of a single human. With watercolor visuals painted over 3D models, sharp combat, and challenging bosses, it's the new benchmark for the genre.
 
 ## 9. Lego Batman: Legacy Of The Dark Knight
 ![Lego Batman: Legacy Of The Dark Knight](https://images.bauerhosting.com/empire/2026/06/LEGO-Batman-Legacy-Of-The-Dark-Knight.webp?auto=format&w=1440&q=80)
-Bir Lego oyunu ne zaman Lego oyunu olmaktan çıkar? Gizliden gizliye "Arkham" serisinin altın günlerinden bu yana en iyi Batman oyunu olduğunda. TT Games, binlerce açılabilir eşya ve yüzlerce karakter yığını yerine iyi anlatılmış bir hikâyeyi, dar bir kadroyu ve gerçek mekanikleri seçiyor. Dövüşün nüansı var, yetenekler RPG mantığıyla açılıyor, Batmobil'le Gotham'ın şaşırtıcı ayrıntıdaki sokaklarında dolaşmak ise saf keyif.
+When does a Lego game stop being a Lego game? When it's secretly the best Batman game since the golden days of the "Arkham" series. TT Games opts for a well-told story, a tight cast, and real mechanics instead of thousands of unlockables and hundreds of character piles. The combat has nuance, abilities unlock with RPG logic, and cruising through Gotham's surprisingly detailed streets in the Batmobile is pure joy.
 
 ## 8. Pokémon Pokopia
 ![Pokémon Pokopia](https://images.bauerhosting.com/empire/2026/03/Pokopia-Review.webp?auto=format&w=1440&q=80)
-"Animal Crossing"in yaşam simülasyonunu alın, "Minecraft"ın baştan inşa edilebilir dünyalarıyla karıştırın, "Pokémon" kalıbına dökün. Sonuç: herkesin favori mor jölesi Ditto olarak, insanlığın terk etmek zorunda kaldığı gezegeni yeniden kurduğunuz sevimli bir kum havuzu oyunu. Keşfetmek, yüzlerce terk edilmiş Pokémon'u toplumun içine çekmek ve tüm biyomları tek başınıza şekillendirmek günler boyu geri getiriyor. Tek kusuru: hayatınızı çalacak.
+Take the life simulation of "Animal Crossing", mix it with the rebuildable worlds of "Minecraft", and cast it in the mold of "Pokémon". The result: a charming sandbox game where you, as everyone's favorite purple blob Ditto, rebuild a planet humanity was forced to abandon. Exploring, bringing hundreds of abandoned Pokémon back into society, and shaping all the biomes by yourself keeps you coming back for days. Its only flaw: it will steal your life.
 
 ## 7. Pragmata
 ![Pragmata](https://images.bauerhosting.com/empire/2026/04/pragmata-1.jpg?auto=format&w=1440&q=80)
-Hem çılgın bir yapay zekânın ele geçirdiği ay üssünde geçen bilimkurgu destanı, hem de hırçın uzay tamircisi Hugh ile evlat edindiği robot kızı Diana arasındaki dokunaklı bir hikâye. Capcom'un gerçek dehası dövüşte: dünyanın ilk birinci şahıs nişancı–gerçek zamanlı bulmaca melezi. Hugh'la ateş ederken Diana'yla aynı anda düşmanları panel çevirme bulmacasıyla hack'leyip açık yaratıyorsunuz. Başka hiçbir şeye benzemiyor, üstelik yapay zekâ üzerine beklenmedik ölçüde düşündürücü.
+Both a sci-fi epic set on a moon base overrun by a rogue AI, and a touching story between the gruff space mechanic Hugh and his adopted robot daughter Diana. Capcom's true genius lies in the combat: the world's first first-person shooter–real-time puzzle hybrid. While Hugh shoots, you simultaneously hack enemies with Diana using a panel-flipping puzzle, creating openings. It's unlike anything else, and surprisingly thought-provoking on artificial intelligence.
 
 ## 6. Cairn
 ![Cairn](https://images.bauerhosting.com/empire/2026/07/Cairn.jpg?auto=format&w=1440&q=80)
-"127 Hours" ya da "Touching the Void" sizi kaya yüzüne bakmaktan bile caydırdıysa, "Cairn" nelerden mahrum kaldığınıza ikna edebilir. Aava olarak 9.000 metrelik Kami Dağı'nı fethetmeye çalışıyor, Aava'nın uzuvlarını ayrı ayrı kontrol ederek kendi rotanızı çiziyorsunuz. The Game Bakers, tırmanışın teknik becerisini açlık, susuzluk ve yorgunluk yönetimiyle titizlikle dengeliyor. Gergin ve talepkâr ama tuhaf biçimde zen; cel-shading estetiğiyle eşsiz.
+If "127 Hours" or "Touching the Void" deterred you from even looking at a rock face, "Cairn" might convince you what you've been missing. As Aava, you attempt to conquer the 9,000-meter Mount Kami, charting your own route by individually controlling Aava's limbs. The Game Bakers meticulously balances the technical skill of climbing with the management of hunger, thirst, and fatigue. Tense and demanding yet strangely zen; unique with its cel-shaded aesthetic.
 
 ## 5. Mixtape
 ![Mixtape](https://images.bauerhosting.com/empire/2026/05/Mixtape.png?auto=format&w=1440&q=80)
-Beethoven & Dinosaur'un müziğe, 90'lar gençliğine ve güzelce harcanmış bir ergenliğe yazdığı ağıt çok tartışıldı: kimileri "oyun değil" dedi, kimileri fazla doğrusal buldu. Haksız da değiller — ama unutulmaz. Müzik takıntılı Stacey Rockford olarak, lise bitmeden en yakın iki arkadaşıyla geçirdiği son günleri yaşıyorsunuz. Sihri tam burada: duygular, anılar, pişmanlıklar ve her ana özenle seçilmiş bir şarkı. Oynanabilir bir John Hughes filmi.
+Beethoven & Dinosaur's elegy to music, 90s youth, and a beautifully wasted adolescence was much debated: some called it "not a game," others found it too linear. They're not wrong — but it's unforgettable. As music-obsessed Stacey Rockford, you live out the last days with her two closest friends before high school ends. The magic is right here: emotions, memories, regrets, and a carefully chosen song for every moment. A playable John Hughes movie.
 
 ## 4. 007 First Light
 ![007 First Light](https://images.bauerhosting.com/empire/2026/06/007-first-light-1-1920x1080-1bcef6df295e.jpg?auto=format&w=1440&q=80)
-Yeni bir sinema Bond'unu beklerken IO Interactive boşluğu takdire değer biçimde dolduruyor. Ian Fleming'in öykülerinden ilhamla, 26 yaşındaki James'in (Patrick Gibson) MI6'ya alınışını, eğitimini ve o ikonik 00 kodunu kazanışını anlatan bir "Bond Begins". Moneypenny, Q ve M ile ilk karşılaşmalar, "Hitman" yapımcılarından beklenen kusursuz nişancılık–sürüş–gizlilik dengesi ve Lana Del Rey imzalı bir açılış şarkısı.
+While waiting for a new cinematic Bond, IO Interactive admirably fills the void. Inspired by Ian Fleming's stories, it's a "Bond Begins" tale chronicling 26-year-old James' (Patrick Gibson) recruitment into MI6, his training, and how he earned that iconic 00 code. First encounters with Moneypenny, Q, and M, the flawless shooting–driving–stealth balance expected from the "Hitman" creators, and an opening song by Lana Del Rey.
 
 ## 3. Forza Horizon 6
 ![Forza Horizon 6](https://images.bauerhosting.com/empire/2026/05/Forza-Horizon-6-Review.png?auto=format&w=1440&q=80)
-"Forza Horizon" uzun zamandır yarış oyunu sevmeyenler için de bir yarış oyunu. Altıncı halka bu kez Japonya'da: Tokyo'nun sokakları, kırsal huzur ve doğa harikaları yan yana. Japon otomobil kültürüne saygıyla yaklaşıyor — "Tokyo Drift"e ve "Initial D"ye göndermeler bol. 500'ün üzerinde detaylı araç ve yüzlerce yarışla motor tutkunları için türün zirvesi, diğerleri için ise bu geniş dünyada amaçsızca dolaşmanın meditatif keyfi.
+"Forza Horizon" has long been a racing game even for those who don't love racing games. The sixth installment is set in Japan this time: Tokyo's streets, rural tranquility, and natural wonders side by side. It approaches Japanese car culture with respect — references to "Tokyo Drift" and "Initial D" are plentiful. With over 500 detailed vehicles and hundreds of races, it's the pinnacle of the genre for motor enthusiasts, and for others, the meditative joy of aimlessly wandering this vast world.
 
 ## 2. Saros
 ![Saros](https://images.bauerhosting.com/empire/2026/05/Saros-Review.png?auto=format&w=1440&q=80)
-Housemarque'ın "Returnal"ının teknik olarak devamı değil ama açıkça onun suretinde: zaman döngüsü ve roguelike mekanikleri korunuyor, gerisi neredeyse her açıdan iyileştiriliyor. Kurumsal uzay askeri Arjun Devraj (Rahul Kohli) olarak Carcosa'da kayıp "kolonicileri" araştırıyor, her seferinde ölüp gizemli biçimde diriliyorsunuz. Her denemede güçlenip biraz daha ileri gitmek bağımlılık yapan bir deneme-yanılma döngüsü kuruyor. Selefinden ayıran şey ise cilası: kusursuz hassasiyette dövüş.
+Not technically a sequel to Housemarque's "Returnal" but clearly in its image: time loop and roguelike mechanics are retained, the rest is improved in almost every aspect. As corporate space marine Arjun Devraj (Rahul Kohli), you investigate missing "colonists" on Carcosa, dying and mysteriously resurrecting each time. Getting stronger and progressing a little further with each attempt creates an addictive trial-and-error loop. What sets it apart from its predecessor is its polish: combat with flawless precision.
 
 ## 1. Resident Evil Requiem
 ![Resident Evil Requiem](https://images.bauerhosting.com/empire/2026/02/Resident-Evil-Requiem-Review.jpg?auto=format&w=1440&q=80)
-Capcom için bayrak yılı. "Pragmata" ve "Monster Hunter Stories 3"e rağmen hiçbir şey "Resident Evil Requiem"i tahtından indiremiyor. Dönen aksiyon kahramanı Leon S. Kennedy ile yeni gelen Grace Ashcroft arasında bölünen çift kollu bir korku hikâyesi: Grace annesinin yıllar önce öldürüldüğü otelde başlayan bir ölüm zincirini araştırıyor, Leon ise Umbrella yaratıklarının peşinde. Leon'u üçüncü şahıs, Grace'i birinci şahıs oynamanız öneriliyor; her iki halde de seri yıllardır bu kadar korkutmamıştı. Yer yer fotogerçekçi görselleriyle her köşeden korkmanıza neden oluyor — ve yılın şimdiye kadarki en iyi oyunu.
+A banner year for Capcom. Despite "Pragmata" and "Monster Hunter Stories 3," nothing can dethrone "Resident Evil Requiem." A dual-pronged horror story split between returning action hero Leon S. Kennedy and newcomer Grace Ashcroft: Grace investigates a chain of deaths starting at the hotel where her mother was murdered years ago, while Leon hunts Umbrella creatures. You're encouraged to play Leon in third-person and Grace in first-person; in either case, the series hasn't been this terrifying in years. With its at times photorealistic visuals, it makes you fear every corner — and it's the best game of the year so far.
 
-Kaynak: Empire — "The Best Games Of 2026… So Far".`,
+Source: Empire — "The Best Games Of 2026… So Far".`,
     image: "https://images.bauerhosting.com/empire/2026/07/Games-Of-The-Year-2026.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
   },
