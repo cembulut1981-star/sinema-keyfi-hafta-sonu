@@ -1707,7 +1707,7 @@ Johannes Roberts's film, released at the beginning of the year, turns a tropical
 ![Ready or Not 2](https://resizing.flixster.com/jf21tFzvWtc6lc1ezusO4yn6ZHM=/800x1200/v2/https://resizing.flixster.com/mb7jKn6kPjbfdG_ec1yxUpObtic=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RhYTI3MWU2LTJiMDctNDU3OC1hYTRmLTQ1NWZjNWExZGEyMi5qcGc=)
 Grace (Samara Weaving) immediately levels up after escaping the Le Domas family. The sequel largely breaks the curse of sequels thanks to Weaving's wild energy.
 
-Source: Rotten Tomatoes — "Best New Horror Movies of 2026".``,
+Source: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
     image: "https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=",
     source: "Rotten Tomatoes",
     countdownBadge: "10 → 1 countdown",
