@@ -867,7 +867,7 @@ Source: TheWrap – "The 3 Best Movies on HBO Max This Week"`,
   {
     slug: "bonnie-tyler-total-eclipse-en-iyi-5-film-sahnesi",
     title: "Top 5 Cinematic Moments of Bonnie Tyler's 'Total Eclipse of the Heart'",
-    excerpt: "Bonnie Tyler's most powerful legacy after her death at 75: Five moments where 'Total Eclipse of the Heart' blew up the screen in comedy, drama, and horror films."
+    excerpt: "Bonnie Tyler's most powerful legacy after her death at 75: Five moments where 'Total Eclipse of the Heart' blew up the screen in comedy, drama, and horror films.",
     body: `We lost legendary husky-voiced singer Bonnie Tyler at 75. One of the greatest legacies she left behind is her 1983 power ballad 'Total Eclipse of the Heart' — and the unforgettable moments this song has created in movie theaters for decades. We're sharing the list compiled by Britt Hayes for Entertainment Weekly.
 
 ## 1. "Old School" (2003) — The Dan Band Sahnesi
