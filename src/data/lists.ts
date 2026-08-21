@@ -325,7 +325,7 @@ The series' nostalgic energy seems to have run out. The trailer's bad CGI was a 
 
 ## 10. Snow White (Live Action)
 
-Disney's effort to remake its classic animations as live-action films perhaps hit rock bottom with this production.
+Disney's effort to remake its classic animations as live-action films perhaps hit rock bottom with this production.`,
     image: img3,
     source: "WhatCulture",
   },
@@ -890,7 +890,7 @@ Actually, it's a precursor to the genre, with the use of another love-themed son
 
 It's not a film where the song is directly used, but it inherits its emotional DNA. As Britt Hayes reminds us in her writing, 'Total Eclipse of the Heart' actually stands at the heart of the canon of adolescent romance — Emma Watson's "I feel infinite" scene is an heir to this spirit.
 
-Bonnie Tyler's voice is gone; but Jim Steinman's melodramatic notes have earned a lasting place in cinema history.
+Bonnie Tyler's voice is gone; but Jim Steinman's melodramatic notes have earned a lasting place in cinema history.`,
     image: bonnieTylerAsset.url,
     source: "Entertainment Weekly",
   },
@@ -1026,7 +1026,7 @@ Saul Williams' upcoming solo album *Leaf Life*, his first in seven years, will h
 
 ## The Tubs — "Illusion Pt. II"
 
-The follow-up to *Cotton Crown* by British jangle-pop band The Tubs. The week's most refreshed anthem, nodding to classic R.E.M. moments with twin-guitar weaving.`,
+The follow-up to *Cotton Crown* by British jangle-pop band The Tubs. The week's most refreshed anthem, nodding to classic R.E.M. moments with twin-guitar weaving.,
 
 Source: Paste Magazine — "Best New Songs: June 18, 2026".`,
     image: "https://img.pastemagazine.com/wp-content/uploads/2026/06/18122900/DDC18B8D-4083-4DCD-9F47-2A813B9B3EC2-scaled.jpeg",
