@@ -34,6 +34,44 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "avengers-doomsday-disney-plus-watchlist",
+    title: "Avengers: Doomsday's Disney+ Watchlist Has Arrived — Here's Everything You Need To Watch",
+    excerpt: "Disney+ has published the official catch-up list before Doom arrives: 15 films and one series, from Fox's X-Men to The Fantastic Four: First Steps.",
+    customBadge: "Marvel",
+    image: img_doomsday_watchlist,
+    source: "Empire — Harry Stainer",
+    videoUrl: "https://www.youtube.com/embed/videoseries?list=PL",
+    body: `Avengers: Doomsday isn't far off, and fresh off D23 we've had a closer look at Victor von Doom raising Sentinels and giving the Avengers, the X-Men and company what looks to be a very hard time.
+
+Needless to say, the MCU has expanded somewhat over the last few years. With TV shows, films and a whole host of new characters to juggle, it can be a struggle to know what is actually a must-watch before a new entry hits cinemas. Thankfully, Disney+ has put together an official watchlist to make sure your Marvel knowledge is up to scratch by the time Doom arrives.
+
+**The full list:**
+
+- X-Men
+- X2
+- Captain America: The First Avenger
+- The Avengers
+- Avengers: Infinity War
+- Avengers: Endgame
+- Loki
+- Shang-Chi and the Legend of the Ten Rings
+- Spider-Man: No Way Home
+- Black Panther: Wakanda Forever
+- Captain America: Brave New World
+- Deadpool & Wolverine
+- Doctor Strange in the Multiverse of Madness
+- Thunderbolts
+- The Fantastic Four: First Steps
+
+![X2](${img_doomsday_x2})
+
+Notably, Fox's first two X-Men films are on the list, so there's no need to get lost in the incredibly complex X-Men lore if you're new to the mutant series. You'll also need to take a trip all the way back to Cap's first outing, as well as the Avengers films — bar Age of Ultron, though that one does look to be essential viewing before VisionQuest.
+
+Black Panther: Wakanda Forever also makes the cut, and given that the trailer suggests Shuri, M'Baku and Namor could be a big part of the team-up film, it's probably worth brushing up on what went down last time we visited Wakanda. The list leans towards the more recent entries too, with Loki the only TV show you'll need to lock into. You'll also be diving back into multiverse nonsense with Doctor Strange in the Multiverse of Madness — and frankly, it won't take much to convince us to watch Shang-Chi again.
+
+So there you have it. Anyone stressing that they'll have to watch every MCU film and show to make sense of Doomsday can rest easy: you've got a full four months to get up to speed. Given Reed Richards' dramatic words to Victor in the latest trailer, it's probably best to revisit The Fantastic Four: First Steps. Until then, get started on your Doomsday watchlist before the man himself arrives on 18 December.`,
+  },
+  {
     slug: "heroes-yaraticisi-tim-kring-hayden-panettiere-anma-yazisi",
     title: "\"Heroes\" Creator Tim Kring Bids Farewell to Hayden Panettiere: \"She Was a Uniquely Talented Performer\"",
     excerpt: "For Hayden Panettiere, who passed away at 36, \"Heroes\" creator Tim Kring writes in Variety about the actress's \"profound grasp of human nature.\"",
