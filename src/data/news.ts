@@ -18,6 +18,8 @@ import bl1 from "@/assets/borderlands-1.jpg";
 import bl2 from "@/assets/borderlands-2.jpg";
 import bl3 from "@/assets/borderlands-3.jpg";
 import img_heroes_kring_tribute from "@/assets/news-variety-heroes-kring-tribute.jpg";
+import img_doomsday_watchlist from "@/assets/news-empire-doomsday-watchlist.jpg";
+import img_doomsday_x2 from "@/assets/news-empire-doomsday-x2.jpg";
 
 export type NewsItem = {
   slug: string;
