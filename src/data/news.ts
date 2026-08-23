@@ -60,7 +60,7 @@ In the "Spider-Verse" films, he wrestles with identity questions that make Batma
     image: img_doomsday_watchlist,
     source: "Empire — Harry Stainer",
 
-Needless to say, the MCU has expanded somewhat over the last few years. With TV shows, films and a whole host of new characters to juggle, it can be a struggle to know what is actually a must-watch before a new entry hits cinemas. Thankfully, Disney+ has put together an official watchlist to make sure your Marvel knowledge is up to scratch by the time Doom arrives.
+    body: `Avengers: Doomsday isn't far off, and fresh off D23 we've had a closer look at Victor von Doom raising Sentinels and giving the Avengers, the X-Men and company what looks to be a very hard time.
 
 **The full list:**
 
