@@ -20,6 +20,7 @@ import bl3 from "@/assets/borderlands-3.jpg";
 import img_heroes_kring_tribute from "@/assets/news-variety-heroes-kring-tribute.jpg";
 import img_doomsday_watchlist from "@/assets/news-empire-doomsday-watchlist.jpg";
 import img_doomsday_x2 from "@/assets/news-empire-doomsday-x2.jpg";
+import img_spiderman_why_we_love from "@/assets/news-variety-spiderman-why-we-love.jpg";
 
 export type NewsItem = {
   slug: string;
