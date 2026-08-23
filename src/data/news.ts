@@ -54,8 +54,11 @@ In the "Spider-Verse" films, he wrestles with identity questions that make Batma
   },
   {
     slug: "avengers-doomsday-disney-plus-watchlist",
-    
-    body: `Avengers: Doomsday isn't far off, and fresh off D23 we've had a closer look at Victor von Doom raising Sentinels and giving the Avengers, the X-Men and company what looks to be a very hard time.
+    title: "Avengers: Doomsday's Disney+ Watchlist Has Arrived — Here's Everything You Need To Watch",
+    excerpt: "Disney+ has published the official catch-up list before Doom arrives: 15 films and one series, from Fox's X-Men to The Fantastic Four: First Steps.",
+    customBadge: "Marvel",
+    image: img_doomsday_watchlist,
+    source: "Empire — Harry Stainer",
 
 Needless to say, the MCU has expanded somewhat over the last few years. With TV shows, films and a whole host of new characters to juggle, it can be a struggle to know what is actually a must-watch before a new entry hits cinemas. Thankfully, Disney+ has put together an official watchlist to make sure your Marvel knowledge is up to scratch by the time Doom arrives.
 
