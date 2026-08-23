@@ -35,12 +35,25 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "why-do-we-love-spider-man-so-much-tom-holland",
+    title: "Why Do We Love Spider-Man So Much?",
+    excerpt: "Variety's Owen Gleiberman argues Tom Holland's friendly neighborhood hero has become the superhero for our anxious age — a perfect fusion of Superman and Batman.",
+    customBadge: "Spider-Man",
+    image: img_spiderman_why_we_love,
+    source: "Variety — Owen Gleiberman",
+
+    body: `When "Spider-Man: No Way Home" landed in late 2021, it earned an astonishing $814 million in the U.S. alone. The obvious reason? It brought together three generations of wall-crawlers — Tom Holland, Andrew Garfield and Tobey Maguire — for a once-in-a-lifetime reunion. Many critics treated it as a one-shot gimmick. Then "Spider-Man: Brand New Day" arrived and rewrote the playbook again.
+
+"Brand New Day" is a solid, well-executed adventure, not a masterpiece on the level of "Spider-Man 2." Yet it is now poised to become the top-grossing movie of all time, at least until the next Spider-Man swings in. So why does Spider-Man dominate the culture right now?
+
+Ever since his 1962 debut, Spider-Man has stood out because of one word: *relatability*. Peter Parker starts as an ordinary teenager dealing with a spider bite the way most kids deal with puberty — awkwardly. He has bullies, crushes, money troubles and the secret-identity burden that keeps him from ever feeling fully known. In Tom Holland's performance, that awkwardness has become a kind of shy charisma; audiences want to root for him, not just watch him win.
+
+Superman defined the superhero as mythic and indestructible. Batman made the hero noir, wealthy and tormented. Spider-Man, somehow, is both: he wears patriotic red-and-blue and soars through New York with exhilarating grace, but he is also masked, furtive and wounded. In "Brand New Day," when his powers misfire, he literally does not know which end is up — a mirror of how many people feel in turbulent times.
+
+In the "Spider-Verse" films, he wrestles with identity questions that make Batman's brooding look simple. Who is Spider-Man? He is the light and dark of comic-book culture poured into one body: a romantic teen idol who keeps having to figure out who he is. That is why audiences keep swinging back to him. He makes us feel like we are all hanging, thrillingly, by a thread.`,
+  },
+  {
     slug: "avengers-doomsday-disney-plus-watchlist",
-    title: "Avengers: Doomsday's Disney+ Watchlist Has Arrived — Here's Everything You Need To Watch",
-    excerpt: "Disney+ has published the official catch-up list before Doom arrives: 15 films and one series, from Fox's X-Men to The Fantastic Four: First Steps.",
-    customBadge: "Marvel",
-    image: img_doomsday_watchlist,
-    source: "Empire — Harry Stainer",
     
     body: `Avengers: Doomsday isn't far off, and fresh off D23 we've had a closer look at Victor von Doom raising Sentinels and giving the Avengers, the X-Men and company what looks to be a very hard time.
 
