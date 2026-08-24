@@ -6,18 +6,10 @@ import { ARTICLES, type Article } from "@/data/articles";
 
 const PAGE_SIZE = 20;
 
-const HEADLINE_SLUG = "spider-man-brand-new-day-ikinci-hafta-gise-rekoru";
-const HEADLINE = ARTICLES.find((a) => a.newsSlug === HEADLINE_SLUG);
 // Manşetin altında çerçeveli büyük kart olarak öne çıkarılan içerik.
 const FRAMED_SLUG = "jenna-ortega-sabrina-carpenter-taste-klip-kamera-arkasi";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG);
-const FEED = ARTICLES.filter((a) => a.newsSlug !== HEADLINE_SLUG && a.id !== FRAMED?.id);
-// Manşetin yanına yerleştirilecek ilk küçük kartlar — akıştan çıkarılır.
-const HEADLINE_SIDES = FEED.filter(
-  (a) => a.category === "haberler" || a.category === "diziler",
-).slice(0, 2);
-const HEADLINE_SIDE_IDS = new Set(HEADLINE_SIDES.map((a) => a.id));
-const FEED_AFTER_HEADLINE = FEED.filter((a) => !HEADLINE_SIDE_IDS.has(a.id));
+const FEED_AFTER_HEADLINE = ARTICLES.filter((a) => a.id !== FRAMED?.id);
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -223,28 +215,6 @@ function Index() {
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
-        {HEADLINE ? (
-          <section className="mb-12 grid grid-cols-1 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-6 items-stretch md:h-[560px]">
-            <div className="min-h-0 h-full">
-              <FeaturedArticleCard
-                article={HEADLINE}
-                badgeLabel=""
-                meta="Box Office"
-                stats={[
-                  { label: "2nd weekend", value: "$145M" },
-                  { label: "Global", value: "$1.67B" },
-                  { label: "North America", value: "$655M" },
-                ]}
-                ribbon="Top Story"
-              />
-            </div>
-            <div className="grid grid-cols-1 gap-6 auto-rows-fr min-h-0 h-full">
-              {HEADLINE_SIDES.map((a) => (
-                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
-              ))}
-            </div>
-          </section>
-        ) : null}
         <div className="h-10 md:h-14" aria-hidden />
         {FRAMED ? (
           <section className="mb-14 md:px-2">
