@@ -15,6 +15,7 @@ import hotd1 from "@/assets/hotd3-1.jpg.asset.json";
 import hotd2 from "@/assets/hotd3-2.jpg.asset.json";
 import hotd3 from "@/assets/hotd3-3.jpg.asset.json";
 import hotd4 from "@/assets/hotd3-4.jpg.asset.json";
+import img_visionquest from "@/assets/news-empire-visionquest.jpg";
 
 export type SeriesItem = {
   slug: string;
@@ -30,6 +31,23 @@ export type SeriesItem = {
 };
 
 export const SERIES: SeriesItem[] = [
+  {
+    slug: "visionquest-paul-bettany-identity-crisis",
+    title: "VisionQuest Sees Paul Bettany's Marvel Hero \"Go Through an Identity Crisis\"",
+    excerpt: "Showrunner Terry Matalas on the series that closes the WandaVision trilogy: for the first time, Vision drives the narrative himself and confronts the question of who he really is.",
+    customBadge: "Marvel",
+    image: img_visionquest,
+    source: "Empire — Ben Travis",
+    body: `Who is Vision? It's a good question. Paul Bettany's Marvel character has a long and storied history in the MCU, predating even his official Vision debut in "Avengers: Age of Ultron," right back to voicing Tony Stark's JARVIS operating system in "Iron Man." Since then, he's been melded with Ultron and the Mind Stone, become an automaton, been killed by Thanos, revived in a fake reality by his lover Wanda, and re-emerged as White Vision back in his original body. No wonder his new series, "VisionQuest," finds him questioning who he is.
+
+For showrunner Terry Matalas, the series — ending a trilogy that began with "WandaVision" and "Agatha All Along" — is the perfect way for Vision to get existential. "This is the first time where we get to watch Vision drive the narrative, and understand who he is, who he thinks he was," he tells Empire. "We watch this character go through an identity crisis. It's kind of the Vision movie, if you will."
+
+Part of that exploration involves Vision reverting into an internal virtual reality, where Ultron, EDITH, DUM-E and U are given human-avatar form. "They're there to help him," Bettany explains. "He is attempting to move about in the world in a small way, and then at night download this data and discuss the things that have happened to him with these different AIs, who have different characteristics and help him understand different qualities and skills. But he is also very much using it as an excuse to keep the world and himself at arm's length. And of course, events conspire to drag him actually into the world."
+
+For Matalas, the show is — like "WandaVision" and "Agatha" before it — all about what it means to be a human being. "I think ultimately, what Vision is going through are things that we all go through, and deal with," he says. "Trauma, dealing with relationships, dealing with how we react to experiencing love or not experiencing that. It's strange that a show about an AI is the most human of them all."
+
+"VisionQuest" streams on Disney+ from October 14.`,
+  },
   {
     slug: "it-welcome-to-derry-2-sezon-1935-buyuk-buhran",
     title: "\"It: Welcome to Derry\" Season 2 Will Be Set in 1935 and Won't Ignore \"the Terrible Events of the Era\"",
