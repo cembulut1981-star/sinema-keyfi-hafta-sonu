@@ -21,6 +21,7 @@ import img_heroes_kring_tribute from "@/assets/news-variety-heroes-kring-tribute
 import img_doomsday_watchlist from "@/assets/news-empire-doomsday-watchlist.jpg";
 import img_doomsday_x2 from "@/assets/news-empire-doomsday-x2.jpg";
 import img_spiderman_why_we_love from "@/assets/news-variety-spiderman-why-we-love.jpg";
+import img_kotaku_doomsday_homework from "@/assets/kotaku-doomsday-homework.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -34,6 +35,60 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "avengers-doomsday-41-hours-of-mcu-homework",
+    title: "Avengers: Doomsday Moviegoers Are Being Told To Watch Over 41 Hours Of MCU Movies And TV Shows",
+    excerpt: "Disney+'s new \"Countdown to Avengers: Doomsday\" collection hands fans a 15-title homework assignment — from the original X-Men to The Fantastic Four: First Steps.",
+    customBadge: "Marvel",
+    image: img_kotaku_doomsday_homework.url,
+    source: "Kotaku — John Walker",
+
+    body: `And to think people suggest the MCU requires homework! December 18 sees the release of *Avengers: Doomsday*, the latest tentpole in the Marvel Cinematic Universe — a once-ailing franchise given new life by *Spider-Man: Brand New Day* making $2 billion in its first two weeks. Given that *Doomsday* is built on almost 20 years of media, Disney+ is suggesting a list of 15 movies and TV shows to watch (or rewatch) over the coming four months.
+
+Added to Disney+ (in the U.S. at least) under the Marvel section, you'll find a new collection called "Countdown to Avengers: Doomsday" — a chronological selection of 15 MCU entries Disney reckons you'll want to brush up on before heading to the movies this holiday season. Honestly, it's all pretty disastrously delivered: use the web app and it'll only show you nine entries, and only if you're logged out, while the mobile app will show all 15 if you're in the right country.
+
+Things start a long, long time ago on an Earth far, far away, with the original 26-year-old *X-Men*, which will introduce entire generations to characters reappearing (often with the original actors) in *Doomsday*. Next up is 2003's follow-up, *X2*. We then leap forward to 2011's *Captain America: The First Avenger*, followed by a run of three tentpole *Avengers* movies, before getting to three slightly less obvious inclusions: the *Loki* TV series, *Shang-Chi and the Legend of the Ten Rings*, and *Spider-Man: No Way Home*.
+
+We're then onto 2022's *Black Panther: Wakanda Forever*, followed by *Captain America: Brave New World*, and then *Deadpool & Wolverine*, presumably because of its X-Men inclusions. Then you finish up with the truly excellent *Doctor Strange in the Multiverse of Madness*, *Thunderbolts*, and finally the rather lovely *The Fantastic Four: First Steps*.
+
+## Your assignment
+
+*Doomsday* and 2027's *Avengers: Secret Wars* are about wrapping up the painfully drawn-out "Multiverse Saga" — the events that have allowed characters from outside the MCU's core timeline to show up and get involved. That includes the Fantastic Four and all the olde-worlde X-Men now rocking up, but crucially, much of the framework and rules were laid out in season two of Disney+'s *Loki*. Given Loki's new role at the timeline-maintaining TVA and how that season ends, having a handle on those events will be pretty crucial to fathoming what's coming. *Shang-Chi* is perhaps the real surprise entry here, given the movie didn't seem all that pivotal to the MCU's arc.
+
+A whole bunch of movies technically included in the Multiverse Saga are missing — like *Eternals* (are they just hoping to forget all that?) and the wildly underrated and delightful *The Marvels*, although that one's likely missing because it really only interwove into the wider MCU via Nick Fury.
+
+So there you go. You've got your homework assignment, so get to work. The real chore on the list that does feel obligatory is *Loki* season 2 — astonishingly boring, but seemingly too important to skip. Here's the full list so you can print it out and cross them off as you watch:
+
+• *X-Men*
+
+• *X2*
+
+• *Captain America: The First Avenger*
+
+• *The Avengers*
+
+• *Avengers: Infinity War*
+
+• *Avengers: Endgame*
+
+• *Loki*
+
+• *Shang-Chi and the Legend of the Ten Rings*
+
+• *Spider-Man: No Way Home*
+
+• *Black Panther: Wakanda Forever*
+
+• *Captain America: Brave New World*
+
+• *Deadpool & Wolverine*
+
+• *Doctor Strange in the Multiverse of Madness*
+
+• *Thunderbolts*
+
+• *The Fantastic Four: First Steps*`,
+  },
   {
     slug: "why-do-we-love-spider-man-so-much-tom-holland",
     title: "Why Do We Love Spider-Man So Much?",
