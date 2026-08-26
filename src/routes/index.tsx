@@ -7,8 +7,8 @@ import { ARTICLES, type Article } from "@/data/articles";
 const PAGE_SIZE = 20;
 
 // Manşetin altında çerçeveli büyük kart olarak öne çıkarılan içerik.
-const FRAMED_SLUG = "jenna-ortega-sabrina-carpenter-taste-klip-kamera-arkasi";
-const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG);
+const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
+const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
 const FEED_AFTER_HEADLINE = ARTICLES.filter((a) => a.id !== FRAMED?.id);
 
 export const Route = createFileRoute("/")({

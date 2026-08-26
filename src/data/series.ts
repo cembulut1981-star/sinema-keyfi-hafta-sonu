@@ -16,6 +16,7 @@ import hotd2 from "@/assets/hotd3-2.jpg.asset.json";
 import hotd3 from "@/assets/hotd3-3.jpg.asset.json";
 import hotd4 from "@/assets/hotd3-4.jpg.asset.json";
 import img_visionquest from "@/assets/news-empire-visionquest.jpg";
+import robocopAsset from "@/assets/robocop-stevens.jpg.asset.json";
 
 export type SeriesItem = {
   slug: string;
@@ -31,6 +32,24 @@ export type SeriesItem = {
 };
 
 export const SERIES: SeriesItem[] = [
+  {
+    slug: "dan-stevens-robocop-prime-video-series",
+    title: "Dan Stevens Will Play RoboCop in Prime Video's RoboCop Series",
+    excerpt: "The most unpredictable actor working today is stepping into Peter Weller's mechanical boots: Dan Stevens will lead James Wan and Blumhouse Atomic Monster's eight-episode RoboCop series.",
+    customBadge: "Prime Video",
+    customBadgeStyle: "light",
+    image: robocopAsset.url,
+    source: "Empire — Jordan King",
+    body: `In recent times, we've seen Dan Stevens play a Titan veterinarian in "Godzilla x Kong: The New Empire," the head of a crew who unwittingly kidnap a vampire ballerina in "Abigail," and a sinister resort owner in "Cuckoo." Now, in his ongoing effort to affirm his status as the most unpredictable actor working today, Stevens has lined up his next major project: per Deadline's reporting, the in-demand actor is set to play RoboCop in Prime Video and Blumhouse Atomic Monster's upcoming James Wan-produced series.
+
+Hailing from showrunner Peter Ocko and based on Paul Verhoeven's legendary 1987 satire — a sharp-edged cyberpunk sci-fi charting the literal dehumanisation of Peter Weller's law enforcer Murphy as he's brought back from the dead and turned into a crime-exploding cyborg — Prime Video's "RoboCop" is set to give the source material a contemporary, eight-episode update. Stevens will be stepping into Weller's mechanical boots as the fallen officer whose consciousness powers a nefarious tech conglomerate's mission to bring metal men in uniforms to a near-future Detroit.
+
+When "RoboCop" first got the greenlight, producer Wan shared his excitement about returning to Verhoeven's cult classic universe. "I've been a massive fan of RoboCop forever, so getting to help bring this world to television is a dream," he said in a press release. "What Paul Verhoeven created in 1987 was decades ahead of its time, and its questions about technology, identity, and who corporations really serve have only grown more urgent."
+
+Wan also celebrated "Peter's distinctive vision and bold approach to storytelling," promising Ocko's self-penned take on the material would "honour what made the original iconic and highlight its relevancy in this modern, tech-driven world, while building something unmistakably new for a global audience."
+
+Over the years, "RoboCop" has remained in the public consciousness thanks to its sequels, TV adaptations, kids' cartoons, and that 2014 Joel Kinnaman reboot — but nothing has quite measured up to Paul Verhoeven's original darkly satirical genre masterclass. With Stevens on board, TV veteran Ocko showrunning, and the might of Amazon and Blumhouse Atomic Monster powering this new series, perhaps now is the right time to have RoboCop back on the beat: serving the public trust, protecting the innocent, and upholding the law.`,
+  },
   {
     slug: "visionquest-paul-bettany-identity-crisis",
     title: "VisionQuest Sees Paul Bettany's Marvel Hero \"Go Through an Identity Crisis\"",
