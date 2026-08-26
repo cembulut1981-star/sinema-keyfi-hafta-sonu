@@ -16,6 +16,7 @@ import hotd2 from "@/assets/hotd3-2.jpg.asset.json";
 import hotd3 from "@/assets/hotd3-3.jpg.asset.json";
 import hotd4 from "@/assets/hotd3-4.jpg.asset.json";
 import img_visionquest from "@/assets/news-empire-visionquest.jpg";
+import robocopAsset from "@/assets/robocop-stevens.jpg.asset.json";
 
 export type SeriesItem = {
   slug: string;
