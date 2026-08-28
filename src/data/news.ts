@@ -22,6 +22,9 @@ import img_doomsday_watchlist from "@/assets/news-empire-doomsday-watchlist.jpg"
 import img_doomsday_x2 from "@/assets/news-empire-doomsday-x2.jpg";
 import img_spiderman_why_we_love from "@/assets/news-variety-spiderman-why-we-love.jpg";
 import img_kotaku_doomsday_homework from "@/assets/kotaku-doomsday-homework.jpg.asset.json";
+import img_tim_curry from "@/assets/news-empire-tim-curry.jpg";
+import img_rupert_grint from "@/assets/news-empire-rupert-grint.jpg";
+import img_cliff_booth from "@/assets/news-empire-cliff-booth.jpg";
 
 export type NewsItem = {
   slug: string;
