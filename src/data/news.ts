@@ -22,6 +22,9 @@ import img_doomsday_watchlist from "@/assets/news-empire-doomsday-watchlist.jpg"
 import img_doomsday_x2 from "@/assets/news-empire-doomsday-x2.jpg";
 import img_spiderman_why_we_love from "@/assets/news-variety-spiderman-why-we-love.jpg";
 import img_kotaku_doomsday_homework from "@/assets/kotaku-doomsday-homework.jpg.asset.json";
+import img_tim_curry from "@/assets/news-empire-tim-curry.jpg";
+import img_rupert_grint from "@/assets/news-empire-rupert-grint.jpg";
+import img_cliff_booth from "@/assets/news-empire-cliff-booth.jpg";
 
 export type NewsItem = {
   slug: string;
@@ -35,6 +38,60 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "tim-curry-rocky-horror-clue-it-dies-aged-80",
+    title: "Tim Curry, Star Of The Rocky Horror Picture Show, Clue And It, Dies Aged 80",
+    excerpt:
+      "The singular stage and screen performer behind Dr Frank-N-Furter, Wadsworth and the original Pennywise has died at his Toluca Lake home at the age of 80.",
+    customBadge: "Obituary",
+    image: img_tim_curry,
+    source: "Empire — Jordan King",
+    body: `It is with great sadness that we bring you the news that Tim Curry, the iconic star of *The Rocky Horror Picture Show*, *Stephen King's It*, *Clue* and much more, has died at the age of 80. The multitalented stage and screen actor and singer, who suffered a major stroke in 2012 from which he never fully recovered, passed away at his Toluca Lake home in Los Angeles, as confirmed by his longtime manager and friend Marcia Hurwitz.
+
+The son of a Royal Navy chaplain and a school secretary, Timothy James Curry was born on 19 April 1946 in the English village of Grappenhall, Cheshire. He was never destined to follow in his parents' footsteps. Having sampled the travelling life as a boy — Cheshire to Hong Kong to Plymouth to Bath, all before the age of 12 — he caught the acting bug in school plays, and went on to study Drama and English at Birmingham University, mostly by ditching classes for extracurricular productions.
+
+A talented soprano with undeniable acting ability, Curry's breakthrough came in the original 1968 production of *Hair*. It was there that he first met Richard O'Brien, who five years later would write — and invite Curry to audition for — an experimental new musical: *The Rocky Horror Picture Show*. With his insatiable, provocative, fearless turn as Dr Frank-N-Furter, first in London, then Los Angeles, and eventually in Jim Sharman's cult classic 1975 movie, Curry announced his arrival as a bona fide star.
+
+Through the 1980s and 90s he became a household name with a wild variety of roles: the moustachioed con man Rooster Hannigan in *Annie*; operatic malevolence as the literally devilish Darkness in Ridley Scott's *Legend*; breathless, bumbling brilliance as butler Wadsworth in *Clue*; the pompous Concierge of *Home Alone 2: Lost In New York*; and, in one of his most out-of-left-field turns, killer clown Pennywise in the original miniseries adaptation of Stephen King's *It*.
+
+The thing about a performer like Tim Curry is that once you start listing his roles — the movies, TV shows, and even video games (his delivery of the word "Space!" in *Command And Conquer: Red Alert 3* will always be famous) — you realise he always gave 100 per cent, no matter the assignment. Long John Silver surrounded by Muppets? Tim Curry. An animated Emperor Palpatine? Tim Curry. Nigel Thornberry, or the audiobooks of *A Series Of Unfortunate Events*? Tim Curry.
+
+Tributes have poured in from friends, family and collaborators. Luke Evans, who has just wrapped an acclaimed run as Broadway's latest Frank-N-Furter, paid tribute to "a force, a bright fierce flame, an exquisite charm". His *Annie* co-star Carol Burnett remembered "a dear friend", attesting that "nobody could play a lovable villain like he could." *Clue* co-star Lesley Ann Warren called him her "companion in crime", writing: "The brilliant, hilarious, hysterically funny magician of artistry has left us."
+
+Whether a sweet transvestite, a breathless butler, a West Country pirate or a horned Lord of Darkness, Tim Curry was a singular performer who loved what he did his whole life through. He will be remembered for his immense talent, magnetic charisma, and a body of work destined to bring joy to viewers of all ages for generations to come.`,
+  },
+  {
+    slug: "rupert-grint-ron-weasley-cursed-child-broadway",
+    title: "Rupert Grint Is Returning To Harry Potter As Ron Weasley In The Cursed Child",
+    excerpt:
+      "Grint will play a grown-up, dad-era Ron on Broadway from February 2027 for a 17-week engagement — following Tom Felton's return as Draco Malfoy.",
+    customBadge: "Broadway",
+    image: img_rupert_grint,
+    source: "Empire — Ben Travis",
+    body: `It's nearly September, which means school's back — and that's true for Rupert Grint, too, who has confirmed he'll be heading back to Hogwarts. From 2001 onwards, Grint spent a decade of his life playing young wizard Ron Weasley in the *Harry Potter* movies. Now, like Tom Felton (aka Draco Malfoy) before him, Grint has announced that he'll reprise his childhood role in adult form in the stage play *Harry Potter And The Cursed Child* on Broadway.
+
+The show, which originated in the West End where it is still performed, features a grown-up Harry, Ron and Hermione, with a plot that largely focuses on their children as they enrol at Hogwarts and face a time-twisting evil. Ron, now 38, is a dad ushering his daughter with Hermione, Rose, onto the Hogwarts Express.
+
+"Ron Weasley has been a part of me since I was 11 years old and I can't wait to meet him again in this stage of life," Grint said in a statement. "There is something so full-circle and so special about stepping back into Ron's shoes now when we are both fathers; it is somehow both very familiar and completely new. And the joy of being back on Broadway, this time in a role that defined so much of my life, is truly exciting."
+
+Grint will star as Ron from February 2027 for a 17-week engagement. Tom Felton is currently appearing on Broadway as Draco Malfoy, expected to play the role until January 3, 2027 — it remains to be seen whether his tenure will be extended to cross over with Grint's. Meanwhile, the role of Ron in HBO's *Harry Potter* series has been taken on by newcomer Alastair Stout.`,
+  },
+  {
+    slug: "further-mis-adventures-of-cliff-booth-title-confirmed",
+    title: "The Further Mis-Adventures Of Cliff Booth Confirmed As Title For Brad Pitt's OUATIH Sequel",
+    excerpt:
+      "David Fincher directs, Quentin Tarantino writes, and Brad Pitt returns as the Hollywood stuntman — this time in a very different 1977 Hollywood.",
+    customBadge: "Netflix",
+    image: img_cliff_booth,
+    source: "Empire — Ben Travis",
+    body: `Fare thee well, "Untitled Cliff Booth Movie". See also: "The Adventures Of Cliff Booth". Because we finally know what the unexpected sequel-of-sorts to *Once Upon A Time In Hollywood* is actually going to be called. The film is a fascinating combination of talents — with Brad Pitt returning, of course, as Cliff Booth, the Hollywood stuntman and counterpart to Leonardo DiCaprio's Rick Dalton, Quentin Tarantino penning the screenplay, and none other than David Fincher taking the directorial reins.
+
+Now it's official: the film is called *The Further Mis-Adventures Of Cliff Booth*. So the rumours weren't far off — but now we know these are "Mis-Adventures" (does Booth have any other kind?) and further to any we've seen before. There's little extra information on the film itself, but Netflix has confirmed it's set in 1977, eight years after the events of *OUATIH*, and that it finds Booth in "a very different Hollywood".
+
+What we do know is that *Cliff Booth* will get an IMAX release from November 25 this year, ahead of landing on Netflix just in time for Christmas on December 23.
+
+As for what mis-adventures await Booth this time, that remains to be seen. Pitt will be joined by the likes of Scott Caan, Carla Gugino, Yahya Abdul-Mateen II and Peter Weller. Will we get an appearance from Rick Dalton? Will it feel equal parts Tarantino and Fincher? And will Pitt win himself another Oscar for his return to the role that bagged him the gong in the first place? We'll find out later in 2026.`,
+  },
   {
     slug: "avengers-doomsday-41-hours-of-mcu-homework",
     title: "Avengers: Doomsday Moviegoers Are Being Told To Watch Over 41 Hours Of MCU Movies And TV Shows",
