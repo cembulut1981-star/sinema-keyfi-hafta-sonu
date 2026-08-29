@@ -41,6 +41,42 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "marvel-countdown-to-avengers-doomsday-podcast-iman-vellani",
+    title: "Marvel Launches Official Countdown To Avengers: Doomsday Podcast Hosted By Iman Vellani",
+    excerpt:
+      "Ms. Marvel herself teams with The Basement Yard's Frank Alvarez to rewatch the MCU's biggest moments in the run-up to Avengers: Doomsday.",
+    customBadge: "Marvel",
+    image: img_doomsday_podcast,
+    source: "Empire — Jordan King",
+    body: `MCU movies are dominating the Disney+ Top 10. *Avengers: Endgame* is coming back to cinemas. The streets are talking about X-Men, incursions, Secret Wars and Jonathan Hickman comics. All of which can only mean one thing: the countdown to *Avengers: Doomsday* is officially on.
+
+And, as of today, so is the *Countdown To Avengers: Doomsday* Official Podcast — hosted by Marvel Studios' own Ms. Marvel, the one and only Iman Vellani, alongside The Basement Yard podcaster Frank Alvarez.
+
+It would be easy to write this off as just another piece of marketing, but there is something genuinely appealing about two deeply knowledgeable MCU superfans — one of whom is literally a Young Avenger in waiting — joining forces to recap the franchise's major movies and moments ahead of *Doomsday*. The first episode, which revisits *Avengers Assemble*, is full of nerdy tangents, sharp observations and full-on fangirling, and it makes for ideal appointment viewing in the month leading up to the *Endgame Encore* cinema re-release on 25 September.
+
+It has also been a solid three years since we last saw Vellani in live-action in the MCU, in Nia DaCosta's *The Marvels*. Hearing one of the biggest Marvel fans on Marvel Studios' own roster geek out is a neat reminder of what her absence has cost us.
+
+With *Avengers: Age Of Ultron* next on Vellani and Alvarez's agenda, there is plenty more MCU chat to come. The show is available on Disney+, YouTube, Apple Podcasts, Spotify and effectively every other podcast platform.`,
+  },
+  {
+    slug: "ridley-scott-third-alien-prequel-michael-fassbender-david",
+    title: "Ridley Scott Confirms Plans For A Third Alien Prequel With Michael Fassbender's David",
+    excerpt:
+      "With The Dog Stars in cinemas, Scott says he wants Fassbender's rogue android back to build \"a brave new world for himself\" — capping off a David trilogy.",
+    customBadge: "Sci-Fi",
+    image: img_alien_prequel,
+    source: "Empire — Jordan King",
+    body: `With *The Dog Stars* hitting cinemas this week, Sir Ridley Scott is clearly back in his sci-fi bag after years spent mostly on historical epics — *Napoleon*, *Gladiator II*, *The Last Duel* and, er, *House Of Gucci*. So the question of whether he would ever return to arguably his most famous piece of speculative fiction, *Alien*, has reared its head again. Per a new interview with *The LA Times*, the answer is yes — and he already has big plans in mind.
+
+In a wide-ranging conversation that also revealed his Hugh Jackman-starring *Treasure Island* shoots in November, plus a Bee Gees biopic and WWI thriller *Covenant With Death* on the horizon, Scott confirmed that a long-awaited third *Alien* prequel — following 2012's *Prometheus* and 2017's *Alien: Covenant* — is in the works.
+
+The plan is to bring Michael Fassbender back as rogue AI android David, in a film that would see the soft-spoken but deeply sinister synthetic creating "a brave new world for himself." Scott, whose aversion to AI is well documented both in his movies and his public statements, is keen to push the idea of malfunctioning artificial intelligence further in a potential capper to the David trilogy. "AIs can go off," Scott told *The LA Times*. "And if they do, it's like a bomb."
+
+For now, Scott's *Alien* plans remain exactly that — plans. There is no timeline and no word on who else might be involved. But given *Alien: Covenant* ended with David in control of 2,000 sleeping colonists and a couple of facehugger embryos, there is no shortage of directions for bridging the gap between the prequels and the original film.
+
+Between this, *Alien: Earth* Season 2 and an *Alien: Romulus* sequel still on the way, there has never been a better time to be a xenomorph fan.`,
+  },
+  {
     slug: "tim-curry-rocky-horror-clue-it-dies-aged-80",
     title: "Tim Curry, Star Of The Rocky Horror Picture Show, Clue And It, Dies Aged 80",
     excerpt:
