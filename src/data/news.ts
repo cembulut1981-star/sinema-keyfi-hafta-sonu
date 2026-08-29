@@ -25,6 +25,8 @@ import img_kotaku_doomsday_homework from "@/assets/kotaku-doomsday-homework.jpg.
 import img_tim_curry from "@/assets/news-empire-tim-curry.jpg";
 import img_rupert_grint from "@/assets/news-empire-rupert-grint.jpg";
 import img_cliff_booth from "@/assets/news-empire-cliff-booth.jpg";
+import img_alien_prequel from "@/assets/news-empire-alien-prequel.jpg";
+import img_doomsday_podcast from "@/assets/news-empire-doomsday-podcast.jpg";
 
 export type NewsItem = {
   slug: string;
