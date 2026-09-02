@@ -27,6 +27,9 @@ import img_rupert_grint from "@/assets/news-empire-rupert-grint.jpg";
 import img_cliff_booth from "@/assets/news-empire-cliff-booth.jpg";
 import img_alien_prequel from "@/assets/news-empire-alien-prequel.jpg";
 import img_doomsday_podcast from "@/assets/news-empire-doomsday-podcast.jpg";
+import img_days_of_thunder_2 from "@/assets/news-empire-days-of-thunder-2.jpg";
+import img_noah_jupe_secret_wars from "@/assets/news-variety-noah-jupe-secret-wars.jpg";
+import img_cretton_spiderman from "@/assets/news-rs-cretton-spiderman.jpg";
 
 export type NewsItem = {
   slug: string;
