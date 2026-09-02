@@ -27,6 +27,9 @@ import img_rupert_grint from "@/assets/news-empire-rupert-grint.jpg";
 import img_cliff_booth from "@/assets/news-empire-cliff-booth.jpg";
 import img_alien_prequel from "@/assets/news-empire-alien-prequel.jpg";
 import img_doomsday_podcast from "@/assets/news-empire-doomsday-podcast.jpg";
+import img_days_of_thunder_2 from "@/assets/news-empire-days-of-thunder-2.jpg";
+import img_noah_jupe_secret_wars from "@/assets/news-variety-noah-jupe-secret-wars.jpg";
+import img_cretton_spiderman from "@/assets/news-rs-cretton-spiderman.jpg";
 
 export type NewsItem = {
   slug: string;
@@ -40,6 +43,63 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "days-of-thunder-2-tom-cruise-anne-hathaway-summer-2028",
+    title: "Tom Cruise And Anne Hathaway Revving Up For Days Of Thunder 2 — Coming To Cinemas Summer 2028",
+    excerpt:
+      "Cole Trickle is back on the asphalt: Cruise returns to NASCAR for a Days Of Thunder sequel, with Anne Hathaway joining as a team engineer and Jonathan Levine directing for IMAX.",
+    customBadge: "Exclusive",
+    image: img_days_of_thunder_2,
+    source: "Empire — Jordan King",
+    body: `Forget the wind and rain outside: there is a breaking weather alert that will quicken the heart of any movie buff. *Days Of Thunder 2*. Summer 2028. Tom Cruise is revving up to return as hotshot NASCAR driver Cole Trickle in a sequel to Tony Scott's 1990 rubber-burning racing classic — and he is bringing Anne Hathaway along for the ride.
+
+The announcement video says it all: Hathaway in a cowgirl hat, Cruise beaming a megawatt grin, Daytona's legendary track beneath their feet and a souped-up stock car carrying that iconic *Days Of Thunder* logo. You really can't stop the thunder.
+
+Hathaway has the small matter of impending childbirth to prepare for before she puts the pedal to the metal — *Deadline* reports the Oscar winner will play a team-leading engineer — but there is already an undeniable buzz that this could be another *Top Gun: Maverick* situation, even if nobody outside the production knows how the plot will shake out.
+
+Story specifics are under wraps, but some things are locked. *Long Shot* and *Warm Bodies* director Jonathan Levine — whose David Corenswet sports drama *Mr. Irrelevant* has been scoring raves with test audiences ahead of its Christmas Day release — is helming, and the film is being shot for IMAX. *Without Remorse* writer Will Staples is tackling the script, with Cruise producing alongside Jerry Bruckheimer and Tommy Harper.
+
+With Cruise and Hathaway front and centre, hitting the track with Trickle one more time already feels like an event. Vroom vroom.`,
+  },
+  {
+    slug: "avengers-secret-wars-noah-jupe-cast",
+    title: "'Avengers: Secret Wars' Adds Noah Jupe To Its Cast",
+    excerpt:
+      "The Hamnet and A Quiet Place star joins the Russo brothers' Doomsday follow-up in a top-secret role, with production starting later this year.",
+    customBadge: "Marvel",
+    image: img_noah_jupe_secret_wars,
+    source: "Variety — Angelique Jackson",
+    body: `Noah Jupe is the latest actor to join the Marvel Cinematic Universe, with the *Hamnet* and *A Quiet Place* star tapped to play a top-secret role in *Avengers: Secret Wars*.
+
+The superhero team-up is the follow-up to *Avengers: Doomsday*, which doesn't arrive in cinemas until December. Marvel had no comment on Jupe's casting.
+
+Production on *Secret Wars*, again directed by Anthony and Joe Russo, is set to begin later this year. Disney has the film slated for release on 17 December 2027.
+
+Deadline first reported Jupe's involvement. The actor is repped by WME and Brillstein Entertainment Partners.`,
+  },
+  {
+    slug: "spider-man-brand-new-day-destin-daniel-cretton-interview",
+    title: "'If People Get Mad I Can't Control That': Inside The Making Of Spider-Man: Brand New Day",
+    excerpt:
+      "Director Destin Daniel Cretton on Peter Parker's isolation, keeping Sadie Sink's character secret, why montages are miserable to shoot — and his Naruto movie.",
+    customBadge: "Interview",
+    image: img_cretton_spiderman,
+    source: "Rolling Stone — Brian Hiatt",
+    body: `The MCU has had its ups and downs since *Avengers: Endgame*, but *Shang-Chi and the Legend of the Ten Rings* was an undisputed high point. It seemed inevitable that its director, Destin Daniel Cretton, would return with another Marvel project — and after a year attached to the never-made *Avengers: Kang Dynasty*, he is back with two: the Disney+ series *Wonder Man* and *Spider-Man: Brand New Day*, the fourth Tom Holland Spidey film.
+
+*Brand New Day* picks up from *No Way Home*, which ended with all memory of Peter Parker erased by a magic spell. He is an isolated adult now, with no life beyond his crime-fighting, while MJ (Zendaya) and Ned (Jacob Batalon) get on with lives that no longer include him. "He's at a place where he feels like it's his duty to be alone and to work," Cretton says.
+
+The film brings in the Punisher (Jon Bernthal) and Bruce Banner (Mark Ruffalo), and stars Sadie Sink as a still-undisclosed character that many fans suspect is Jean Grey. Cretton stays coy, but he is effusive about the actor: he first worked with Sink on *The Glass Castle* when she was 14, and after seeing her in *John Proctor Is the Villain* on Broadway he was "bawling my eyes out at the end of that show." Her performance here, he promises, is "unbelievable."
+
+On Tramell Tillman's Damage Control chief — a character with comics ties to mutants — Cretton laughs off the spoiler question. "He is the perfect actor to play someone who is perhaps hiding levels."
+
+He is blunter about the film's opening villain montage, which shows Spider-Man cleaning up the city across the four years his friends spent at school. "Montages suck! Every shot is not just a new setup, it's a new location." The fun, he says, came from choosing comic covers that let the team imagine what happened just before or after the frames everyone knows.
+
+As for the title, Holland hinted it pays off in the final frame. Cretton agrees it reflects where Peter lands: "The journey of this movie is about searching for that feeling of a brand-new day. I don't think he really has that feeling in the beginning."
+
+Asked why some superhero movies work and others fail, his answer is thematic rather than tactical: the ones he connects with have something at their core that is clearly personal to the director. That is also his approach to the *Naruto* movie he is developing — a story about "having an ugliness or a monster or some part of you that you're ashamed of, and then coming to realize that's the part that makes you unique." And yes, *Shang-Chi 2* is still in development: "I also would love to see *Shang-Chi 2*!"`,
+  },
+
   {
     slug: "marvel-countdown-to-avengers-doomsday-podcast-iman-vellani",
     title: "Marvel Launches Official Countdown To Avengers: Doomsday Podcast Hosted By Iman Vellani",
