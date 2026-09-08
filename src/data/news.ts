@@ -30,6 +30,9 @@ import img_doomsday_podcast from "@/assets/news-empire-doomsday-podcast.jpg";
 import img_days_of_thunder_2 from "@/assets/news-empire-days-of-thunder-2.jpg";
 import img_noah_jupe_secret_wars from "@/assets/news-variety-noah-jupe-secret-wars.jpg";
 import img_cretton_spiderman from "@/assets/news-rs-cretton-spiderman.jpg";
+import img_netflix_box_office from "@/assets/news-variety-netflix-box-office.jpg";
+import img_practical_magic_2_review from "@/assets/news-variety-practical-magic-2-review.jpg";
+import img_remain_trailer from "@/assets/news-variety-remain-trailer.jpg";
 
 export type NewsItem = {
   slug: string;
@@ -44,6 +47,72 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "remain-trailer-jake-gyllenhaal-shyamalan",
+    title: "'Remain' Trailer: Jake Gyllenhaal and Phoebe Dynevor Are a Creepy Couple in M. Night Shyamalan's Latest Twisty Thriller",
+    excerpt:
+      "This Valentine's Day, be prepared to trust the unknown: the first teaser for Shyamalan's romantic thriller turns a sunny love story into something far stranger.",
+    customBadge: "Trailer",
+    image: img_remain_trailer,
+    videoUrl: "https://www.youtube.com/embed/h969bLwxgKc",
+    source: "Variety — Tanya Fedak",
+    body: `M. Night Shyamalan's romantic drama *Remain* has released its first trailer, showing Jake Gyllenhaal and Phoebe Dynevor in an unsettling relationship.
+
+The trailer opens with a montage of the happiest moments shared by young couple Wren (Dynevor) and Tate (Gyllenhaal), framing the film as a seemingly lighthearted romantic comedy. But the tone suddenly shifts when Wren starts to cry while asking, "Why can't we be together, Tate?" "I think you know," he whispers back. In the moments that follow, Wren seems to be preparing to slam her head against a bathroom wall — before disappearing right in front of Tate.
+
+Starring alongside Gyllenhaal and Dynevor are Ashley Walters, Julie Hagerty, Jay O. Sanders, Tracy Ifeachor, Hannah James, Caleb Ruminer, Kieran Mulcare and Maria Dizzia.
+
+*Remain*, which also inspired author Nicholas Sparks' novel of the same name, opens in theaters on Valentine's Day. Shyamalan produces with Ashwin Rajan through Blinding Edge Pictures, alongside Marc Bienstock and Sparks' producing partner Theresa Park, with Sparks executive producing.
+
+The film was originally slated for a Halloween 2026 release before finalizing its Valentine's Day premiere. Earlier this year, Shyamalan revealed that *Remain* was the highest-testing film of his entire career. He has directed 16 features, including *The Sixth Sense* and *The Visit*, and has written and produced several other thrillers. His most recent release was 2024's *Trap*, starring Josh Hartnett as a serial killer who attends a concert with his young daughter, only to discover the venue is on lockdown.`,
+  },
+  {
+    slug: "netflix-to-report-box-office-six-movies",
+    title: "Netflix to Report Box Office Numbers for 6 Upcoming Movies as Streamer Escalates Theatrical Plans",
+    excerpt:
+      "The great Hollywood disruptor is inching toward the 130-year tradition of theatrical exhibition — and, for the first time, it will show its hand by reporting grosses.",
+    customBadge: "Exclusive",
+    image: img_netflix_box_office,
+    source: "Variety — Matt Donnelly",
+    body: `"La Bola Negra" has mucho heat. The generational queer drama swept the Cannes Film Festival off its feet in May, nabbing a $5 million sale to Netflix and earning helmers Javier Ambrossi and Javier Calvo the jury prize for best director. After lighting up Telluride, the Penélope Cruz-starrer is on its way to Toronto for yet another grand premiere.
+
+There is one more bona fide that has raised eyebrows in the industry: *La Bola Negra* will receive the longest theatrical rollout Netflix has ever given one of its films — a 46-day release starting Oct. 16, before it lands on the platform Dec. 2.
+
+For years the streamer has staged splashy limited releases to hype awards contenders and appease filmmakers who still yearn for the magic of movie theaters. But this plan is hitting differently — to say nothing of Netflix's designs for 2027, when Greta Gerwig's *Narnia: The Magician's Nephew* will enjoy a wide release (including Imax) for almost 50 days, while the animated *Charlie and the Chocolate Factory* plays wide for 47 days at Christmas.
+
+"The real question is 'What does Netflix want to be now?'" posed one high-level executive at a legacy film studio. "Having almost bought Warner Bros. Discovery, you get the sense that they can't put some of that toothpaste back in the tube."
+
+Netflix showed its willingness to own and operate a theatrical distribution entity in its pursuit of Warner Bros. and HBO, until David Ellison's Paramount swooped in with a larger offer. Co-CEO Ted Sarandos later admitted he could "see us doing things that we haven't done before" with movie theaters, while insisting the company remains streaming first.
+
+Exhibitors have long resisted Netflix titles over the company's refusal to grant a standard window of exclusivity — 45 days on the big screen is the current industry standard. "The exhibitors would absolutely welcome this. Imagine if Netflix of all places threw its weight behind a real theatrical marketing campaign, and not some awards play," one veteran distributor said.
+
+The price of admission to that sandbox is reporting grosses, something the data-shy streamer has never done. Netflix will now report box office for six upcoming films, two company insiders said: *Narnia*, *Charlie*, *La Bola Negra*, David Fincher's *The Further Mis-Adventures of Cliff Booth*, *The Mosquito Bowl* and *Ink*.
+
+Theatrical distribution at Netflix has been led by Spencer Klein since 2019. The former 20th Century Fox executive guided the company to its first No. 1 box office weekend in August 2025, with a sing-along version of *KPop Demon Hunters*. Inside Netflix, the theatrical flirtation is being downplayed: extending big-screen runs, the company line goes, is a bespoke process where the film team decides "what's right" for each movie.`,
+  },
+  {
+    slug: "practical-magic-2-review-bullock-kidman",
+    title: "'Practical Magic 2' Review: Sandra Bullock and Nicole Kidman Don't Quite Cast a Spell in an Overlong, Predictable Sequel",
+    excerpt:
+      "Arriving nearly 30 years after its predecessor, Susanne Bier's film rehashes the elements that earned 'Practical Magic' an enduring fandom — but fails to correct its flaws.",
+    customBadge: "Review",
+    image: img_practical_magic_2_review,
+    source: "Variety — Todd Gilchrist",
+    body: `As cumbersome and overlong as the 28-year wait between the 1998 original and its sequel, *Practical Magic 2* is a next-generation reminder that sometimes the best way to let a beloved experience live on is by leaving it behind in one's memory.
+
+Led by Sandra Bullock and Nicole Kidman, the original gained a cult following for its unwieldy mix of romantic comedy, domestic abuse and, yes, magic, with female friendship as the glue. Returning as producers and reuniting with costars Dianne Wiest and Stockard Channing, the two leads play the hits under new director Susanne Bier — and in the process inadvertently expose why not everyone thought the original was that great in the first place.
+
+Bullock reprises Sally, the older and ever more cautious Owens sister. After two marriages that ended with her husband's death because of a generations-old curse, Sally swears off romance and casts a spell that makes her twentysomething daughters Kylie (Joey King) and Antonia (Maisie Williams) forget they come from a family of witches. When Kylie's boyfriend Gideon (Xolo Maridueña) is critically injured, Gillian (Kidman) forces her sister to reveal the truth, causing a rift between a lovestruck daughter and a mother who only wants to protect her.
+
+Hunting for a spell to save Gideon, Kylie finds the Book of Ravens and follows its clues to England, where she meets farmhand Thomas Lockland (Solly McLeod). Meanwhile Sally and Gillian drag oversized luggage across the U.K. with British academic Ian Wright (Lee Pace) in tow, hoping to stop Kylie from using powers that risk causing more problems than they solve.
+
+The film features one scene after another of women unblinkingly supporting one another, yet it oddly sidelines Jet, Franny and Antonia in favor of Ian, a hunky intellectual ripped straight from a romance novel cover. At 130 minutes, the sequel runs a full half-hour longer than its predecessor, and it dilly-dallies so long before unraveling a pretty obvious mystery that the climax feels like a dereliction of duty to the audience.
+
+Bullock's expression barely changes for the first half, while Kidman leans aggressively into Gillian as an overindulged younger sibling. Wiest and Channing take a welcome victory lap, mostly to pass the torch. Thankfully Joey King brings her A-game as Kylie, and Pace is magnetic, generating effortless chemistry with Bullock — you wish the movie made more of it, save for the fact that it's already too long. Poor Maisie Williams, meanwhile, is stranded in a hospital room watching Maridueña lie in a coma.
+
+Back in 1998, *Practical Magic* stood out by focusing as much on its female bonds as its romances. Nearly three decades later, the spell is a lot harder to feel.`,
+  },
+  {
+
     slug: "days-of-thunder-2-tom-cruise-anne-hathaway-summer-2028",
     title: "Tom Cruise And Anne Hathaway Revving Up For Days Of Thunder 2 — Coming To Cinemas Summer 2028",
     excerpt:
