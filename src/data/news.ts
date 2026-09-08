@@ -30,6 +30,9 @@ import img_doomsday_podcast from "@/assets/news-empire-doomsday-podcast.jpg";
 import img_days_of_thunder_2 from "@/assets/news-empire-days-of-thunder-2.jpg";
 import img_noah_jupe_secret_wars from "@/assets/news-variety-noah-jupe-secret-wars.jpg";
 import img_cretton_spiderman from "@/assets/news-rs-cretton-spiderman.jpg";
+import img_netflix_box_office from "@/assets/news-variety-netflix-box-office.jpg";
+import img_practical_magic_2_review from "@/assets/news-variety-practical-magic-2-review.jpg";
+import img_remain_trailer from "@/assets/news-variety-remain-trailer.jpg";
 
 export type NewsItem = {
   slug: string;
