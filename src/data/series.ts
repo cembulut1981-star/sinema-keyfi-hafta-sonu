@@ -43,6 +43,50 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "line-of-fire-peter-krause-hope-davis-cover-story",
+    title: "The Line of Fire Cast Serves Justice in Exclusive EW Cover Portraits",
+    excerpt: "Peter Krause calls it \"Parenthood packing heat.\" Creator Joshua Safran calls it \"Procedural Gossip Girl.\" Meet the Hollingsworths, one family spread across four federal agencies.",
+    customBadge: "NBC",
+    customBadgeStyle: "light",
+    image: lofCover,
+    source: "Entertainment Weekly — Cover Story",
+    gallery: [lofG1, lofG2, lofG3, lofG4, lofG5],
+    body: `Most families argue about who does the dishes. The Hollingsworths argue about jurisdiction. In NBC's new drama "Line of Fire," created by Joshua Safran, one family is scattered across the Secret Service, the Department of Justice, the FBI and the U.S. Marshals — which means every dinner table conversation is technically a multi-agency briefing, and every case has a way of coming home.
+
+At the center are Hope Davis as matriarch Jane Hollingsworth and Peter Krause as Mike, parents whose children followed them into law enforcement and now outrank, undercut and occasionally arrest each other's suspects. The ensemble also includes Kat Cunning as Clare, Tommy O'Brien as Micah and Taylor Bloom as Russell — siblings whose loyalties are constantly split between the badge and the last name.
+
+Krause has his own shorthand for the show's tone: "Parenthood packing heat." It's a joke, but it's also a thesis. The series wants the warmth and needling humor of a family drama, then drops it into shootouts, surveillance vans and conspiracies that stretch further up the chain of command than anyone in the house is comfortable admitting.
+
+Safran's pitch is a little more mischievous: "Procedural Gossip Girl." There are weekly cases to close, but the pleasure is in the whispers — who told whom, which sibling withheld a file, which parent quietly pulled a string. The conspiracy plot runs underneath the case-of-the-week structure, so the show can deliver a satisfying arrest and still leave the family more suspicious of one another than they were at the top of the hour.
+
+For EW's exclusive cover portraits, the cast leaned into that duality: sharp suits, easy smiles, and the sense that everyone in frame is keeping something from someone else in frame. Davis and Krause pose like a couple who have survived decades of secrets; the younger Hollingsworths look like they're already drafting their own.
+
+"Line of Fire" premieres September 21 on NBC.`,
+  },
+  {
+    slug: "furious-liz-meriwether-season-1-finale-interview",
+    title: "Furious Creator Breaks Down the Season 1 Finale and Teases What's Next for Alice",
+    excerpt: "Warning: spoilers ahead. Liz Meriwether unpacks \"Hart Island,\" the oxygen line, and the smile that turns Alice Black into the show's most dangerous character heading into season 2.",
+    customBadge: "Hulu",
+    customBadgeStyle: "light",
+    image: furFinaleCover,
+    source: "Entertainment Weekly — Interview",
+    gallery: [furFinaleG1, furFinaleG2, furFinaleG3],
+    body: `**Warning: this article contains spoilers for the season 1 finale of "Furious."**
+
+For most of its first season, "Furious" let you believe Alice Black was the one being hunted. The finale, "Hart Island," quietly flips that: Alice catches Catherine Grace, brings her to Jay Easton's home, and then — while the two women are in the same house — cuts Jay's oxygen supply. Catherine suspects immediately. Alice smiles. Cut to black.
+
+"I wanted the last image of the season to be the audience realizing they'd been rooting for someone they don't actually know," creator Liz Meriwether tells EW. "Everything Alice does in that house is a choice. She isn't cornered. She's deciding."
+
+Meriwether says the oxygen beat was in the plan early, but the smile arrived late. "There was a version where she looks horrified at herself, and it played as guilt. Guilt lets the audience off the hook. The smile doesn't." It also reframes Catherine, who spends the season being told she's paranoid: in the final minute she is the only person in the room who has read Alice correctly.
+
+That leaves season 2 with a very specific problem to solve, and Meriwether is happy about it. "Now Catherine knows something she can't prove, and Alice knows Catherine knows. That's not a mystery anymore, it's a standoff." She's careful not to promise a courtroom or a confession — the show, she notes, has never been interested in resolution as much as in pressure.
+
+Hulu renewed "Furious" for a second season days before the finale dropped, which means the cliffhanger was written with a runway. "We didn't have to be coy about whether we'd get to answer it," Meriwether says. "So we let the ending be as ugly as it wanted to be."
+
+Season 1 of "Furious" is streaming now on Hulu.`,
+  },
+  {
     slug: "dan-stevens-robocop-prime-video-series",
     title: "Dan Stevens Will Play RoboCop in Prime Video's RoboCop Series",
     excerpt: "The most unpredictable actor working today is stepping into Peter Weller's mechanical boots: Dan Stevens will lead James Wan and Blumhouse Atomic Monster's eight-episode RoboCop series.",
