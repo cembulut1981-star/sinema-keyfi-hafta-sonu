@@ -238,13 +238,6 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         <div className="h-10 md:h-14" aria-hidden />
-        {FRAMED ? (
-          <section className="mb-14 md:px-2">
-            <div className="md:max-w-[720px] md:mx-auto">
-              <ArticleCard article={FRAMED} framed />
-            </div>
-          </section>
-        ) : null}
         {rows.map((r, i) => (
           <div key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
