@@ -17,6 +17,16 @@ import hotd3 from "@/assets/hotd3-3.jpg.asset.json";
 import hotd4 from "@/assets/hotd3-4.jpg.asset.json";
 import img_visionquest from "@/assets/news-empire-visionquest.jpg";
 import robocopAsset from "@/assets/robocop-stevens.jpg.asset.json";
+import lofCover from "@/assets/ew-line-of-fire-cover.jpg";
+import lofG1 from "@/assets/ew-line-of-fire-g1.jpg";
+import lofG2 from "@/assets/ew-line-of-fire-g2.jpg";
+import lofG3 from "@/assets/ew-line-of-fire-g3.jpg";
+import lofG4 from "@/assets/ew-line-of-fire-g4.jpg";
+import lofG5 from "@/assets/ew-line-of-fire-g5.jpg";
+import furFinaleCover from "@/assets/ew-furious-finale-cover.jpg";
+import furFinaleG1 from "@/assets/ew-furious-finale-g1.jpg";
+import furFinaleG2 from "@/assets/ew-furious-finale-g2.jpg";
+import furFinaleG3 from "@/assets/ew-furious-finale-g3.jpg";
 
 export type SeriesItem = {
   slug: string;
