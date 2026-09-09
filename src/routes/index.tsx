@@ -6,10 +6,9 @@ import { ARTICLES, type Article } from "@/data/articles";
 
 const PAGE_SIZE = 20;
 
-// Manşetin altında çerçeveli büyük kart olarak öne çıkarılan içerik.
+// RoboCop kartı artık ilk satırın orta (büyük) kartı olarak gösterilecek.
 const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
-const FEED_AFTER_HEADLINE = ARTICLES.filter((a) => a.id !== FRAMED?.id);
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -113,16 +112,37 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
   );
 }
 
-// Build 1-big + 4-small rows from a slice of articles. Rows are laid out in
-// alternating orientation starting from `startIndex` so the pattern stays
-// consistent when a new page is appended.
-function buildRows(articles: Article[]) {
+// Build 1-big + 4-small rows from a slice of articles. If `featured` is
+// provided, it is forced as the center of the very first row so the latest
+// additions stay at the top while the featured card sits one row down.
+function buildRows(articles: Article[], featured?: Article) {
   const rows: { center: Article; sides: Article[] }[] = [];
   const used = new Set<number>();
   const bigPool = articles.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
   const smallPool = articles.filter((a) => a.category === "haberler" || a.category === "diziler");
 
   const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
+
+  // Place the featured card as the first row's center, then fill its sides
+  // from the remaining small-pool articles first, big-pool if needed.
+  if (featured) {
+    used.add(featured.id);
+    const sides: Article[] = [];
+    for (const a of smallPool) {
+      if (sides.length === 4) break;
+      if (!used.has(a.id)) sides.push(a);
+    }
+    if (sides.length < 4) {
+      for (const a of bigPool) {
+        if (sides.length === 4) break;
+        if (!used.has(a.id)) sides.push(a);
+      }
+    }
+    if (sides.length === 4) {
+      for (const s of sides) used.add(s.id);
+      rows.push({ center: featured, sides });
+    }
+  }
 
   while (true) {
     const remainingBigs = bigPool.filter((a) => !used.has(a.id)).length;
@@ -163,30 +183,32 @@ function Index() {
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = FEED_AFTER_HEADLINE.slice(0, count);
+    const visibleArticles = ARTICLES.slice(0, count);
     const smallCandidates = visibleArticles.filter(
-      (a) => a.category === "haberler" || a.category === "diziler",
+      (a) =>
+        (a.category === "haberler" || a.category === "diziler") &&
+        a.id !== FRAMED?.id,
     );
     const duo = smallCandidates.slice(2, 4);
     const duoIds = new Set(duo.map((a) => a.id));
     const feedArticles = visibleArticles.filter((a) => !duoIds.has(a.id));
-    return { duo, ...buildRows(feedArticles) };
+    return { duo, ...buildRows(feedArticles, FRAMED) };
   };
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
   // always fills all 4 columns instead of leaving a gap on the right.
-  let effectiveCount = Math.min(visibleCount, FEED_AFTER_HEADLINE.length);
+  let effectiveCount = Math.min(visibleCount, ARTICLES.length);
   let built = build(effectiveCount);
   for (let extra = 1; extra <= 3; extra++) {
     if (built.leftovers.length % 4 === 0) break;
-    const next = Math.min(visibleCount + extra, FEED_AFTER_HEADLINE.length);
+    const next = Math.min(visibleCount + extra, ARTICLES.length);
     if (next === effectiveCount) break;
     effectiveCount = next;
     built = build(next);
   }
 
   const { duo, rows, leftovers } = built;
-  const hasMore = effectiveCount < FEED_AFTER_HEADLINE.length;
+  const hasMore = effectiveCount < ARTICLES.length;
 
 
   const duoSection =
@@ -216,13 +238,6 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         <div className="h-10 md:h-14" aria-hidden />
-        {FRAMED ? (
-          <section className="mb-14 md:px-2">
-            <div className="md:max-w-[720px] md:mx-auto">
-              <ArticleCard article={FRAMED} framed />
-            </div>
-          </section>
-        ) : null}
         {rows.map((r, i) => (
           <div key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
@@ -244,7 +259,7 @@ function Index() {
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED_AFTER_HEADLINE.length))}
+              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, ARTICLES.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
               Load More
