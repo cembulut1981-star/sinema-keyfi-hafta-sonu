@@ -197,18 +197,18 @@ function Index() {
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
   // always fills all 4 columns instead of leaving a gap on the right.
-  let effectiveCount = Math.min(visibleCount, FEED_AFTER_HEADLINE.length);
+  let effectiveCount = Math.min(visibleCount, ARTICLES.length);
   let built = build(effectiveCount);
   for (let extra = 1; extra <= 3; extra++) {
     if (built.leftovers.length % 4 === 0) break;
-    const next = Math.min(visibleCount + extra, FEED_AFTER_HEADLINE.length);
+    const next = Math.min(visibleCount + extra, ARTICLES.length);
     if (next === effectiveCount) break;
     effectiveCount = next;
     built = build(next);
   }
 
   const { duo, rows, leftovers } = built;
-  const hasMore = effectiveCount < FEED_AFTER_HEADLINE.length;
+  const hasMore = effectiveCount < ARTICLES.length;
 
 
   const duoSection =
