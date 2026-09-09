@@ -32,6 +32,59 @@ export type ListItem = {
 
 const _LISTS_RAW: ListItem[] = [
   {
+    slug: "band-of-brothers-cast-then-and-now-25-years-later",
+    title: "The Band of Brothers Cast, Then and Now: The Stars of HBO's Emmy-Winning Miniseries 25 Years Later",
+    excerpt: "Twenty-five years after Easy Company jumped into Normandy, the ensemble that made HBO's 10-part epic has scattered across prestige TV, network hits and behind the camera. Here's where they landed.",
+    countdownBadge: "25 years later",
+    image: bobCover,
+    source: "Entertainment Weekly",
+    body: `When "Band of Brothers" premiered on HBO in 2001, it was the most expensive television production ever mounted: a 10-part epic produced by Tom Hanks and Steven Spielberg, following the real men of Easy Company, 506th Parachute Infantry Regiment, from training at Camp Toccoa through Normandy, Bastogne and the end of the war in Europe. It collected 20 Emmy nominations and won seven, including Outstanding Miniseries.
+
+It also functioned as one of the great casting sessions in modern television — a roster of then-unknown and semi-known actors, many of them British playing Americans, who would go on to headline series of their own. Twenty-five years later, here's where the ensemble stands.
+
+## Damian Lewis
+
+![Then and now](${bobG1})
+
+As Major Richard "Dick" Winters, Lewis carried the miniseries: the quiet, unshowy center that every other performance orbited. Almost nobody in America knew him at the time. In the years since he has become a fixture of prestige television, most famously as Nicholas Brody in "Homeland" — a role that won him an Emmy — and as hedge fund predator Bobby Axelrod in "Billions," alongside stage work and film roles that keep circling back to men whose composure is a form of armor.
+
+## Ron Livingston
+
+![Then and now](${bobG2})
+
+Livingston played Captain Lewis Nixon, Winters' hard-drinking, sharp-eyed intelligence officer and closest friend. He arrived at "Band of Brothers" already recognizable from "Office Space" and "Sex and the City," and has spent the decades since as one of television's most reliable leads and character actors, including a long run as Joel Graham on "A Million Little Things."
+
+## Scott Grimes
+
+![Then and now](${bobG3})
+
+As Technical Sergeant Donald Malarkey, Grimes gave the miniseries much of its warmth and much of its grief. A working actor since childhood, he went on to a long stretch on "ER" as Dr. Archie Morris, voice work as Steve Smith on "American Dad!," and a lead role as Gordon Malloy on "The Orville."
+
+## Donnie Wahlberg
+
+![Then and now](${bobG4})
+
+Wahlberg's Carwood Lipton was the noncom who held the line at Bastogne, and the performance helped complete his transition from New Kids on the Block to serious screen actor. He has since anchored network television for more than a decade as Danny Reagan on "Blue Bloods," while producing and hosting on the side.
+
+## Michael Cudlitz
+
+![Then and now](${bobG5})
+
+As Staff Sergeant Denver "Bull" Randleman, Cudlitz got one of the miniseries' most memorable solo sequences. He later became a familiar face across "Southland" and "The Walking Dead" as Abraham Ford, and has moved increasingly behind the camera as a director and producer on comic-book television.
+
+## David Schwimmer
+
+![Then and now](${bobG6})
+
+Schwimmer's Captain Herbert Sobel is the antagonist of the early episodes — the martinet whose cruelty at Toccoa is the reason Easy Company becomes Easy Company. He was, by far, the most famous member of the cast at the time thanks to "Friends," and has since split his time between American and British television, including "The People v. O. J. Simpson," "Feel Good" and "Intelligence," plus a return to Central Perk for the 2021 reunion.
+
+## The rest of Easy Company
+
+![Then and now](${bobG7})
+
+Part of the enduring pleasure of rewatching "Band of Brothers" is the parade of faces that would become stars later: future leading men and character actors who appear for an episode, a scene, or a single line before the war takes them out of the story. A quarter century on, the miniseries plays as both a monument to the men of the 506th and a snapshot of an entire generation of actors on the way up.`,
+  },
+  {
     slug: "hayden-panettiere-kacirilmamasi-gereken-6-rolu",
     title: "6 Must-See Roles of Hayden Panettiere",
     excerpt: "A career that began at five, approximately 60 jobs, and a sudden farewell at 36. From \"Remember the Titans\" to \"Nashville,\" six performances that tell the story of Hayden Panettiere's mark on screen.",
