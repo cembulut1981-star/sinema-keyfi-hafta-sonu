@@ -183,14 +183,16 @@ function Index() {
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = FEED_AFTER_HEADLINE.slice(0, count);
+    const visibleArticles = ARTICLES.slice(0, count);
     const smallCandidates = visibleArticles.filter(
-      (a) => a.category === "haberler" || a.category === "diziler",
+      (a) =>
+        (a.category === "haberler" || a.category === "diziler") &&
+        a.id !== FRAMED?.id,
     );
     const duo = smallCandidates.slice(2, 4);
     const duoIds = new Set(duo.map((a) => a.id));
     const feedArticles = visibleArticles.filter((a) => !duoIds.has(a.id));
-    return { duo, ...buildRows(feedArticles) };
+    return { duo, ...buildRows(feedArticles, FRAMED) };
   };
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
