@@ -112,16 +112,37 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
   );
 }
 
-// Build 1-big + 4-small rows from a slice of articles. Rows are laid out in
-// alternating orientation starting from `startIndex` so the pattern stays
-// consistent when a new page is appended.
-function buildRows(articles: Article[]) {
+// Build 1-big + 4-small rows from a slice of articles. If `featured` is
+// provided, it is forced as the center of the very first row so the latest
+// additions stay at the top while the featured card sits one row down.
+function buildRows(articles: Article[], featured?: Article) {
   const rows: { center: Article; sides: Article[] }[] = [];
   const used = new Set<number>();
   const bigPool = articles.filter((a) => a.category === "incelemeler" || a.category === "listeler" || a.category === "muzik");
   const smallPool = articles.filter((a) => a.category === "haberler" || a.category === "diziler");
 
   const pickUnused = (pool: Article[]) => pool.find((a) => !used.has(a.id));
+
+  // Place the featured card as the first row's center, then fill its sides
+  // from the remaining small-pool articles first, big-pool if needed.
+  if (featured) {
+    used.add(featured.id);
+    const sides: Article[] = [];
+    for (const a of smallPool) {
+      if (sides.length === 4) break;
+      if (!used.has(a.id)) sides.push(a);
+    }
+    if (sides.length < 4) {
+      for (const a of bigPool) {
+        if (sides.length === 4) break;
+        if (!used.has(a.id)) sides.push(a);
+      }
+    }
+    if (sides.length === 4) {
+      for (const s of sides) used.add(s.id);
+      rows.push({ center: featured, sides });
+    }
+  }
 
   while (true) {
     const remainingBigs = bigPool.filter((a) => !used.has(a.id)).length;
