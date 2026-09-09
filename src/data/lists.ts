@@ -11,6 +11,14 @@ import ewRock from "@/assets/ew-rock-songs.webp.asset.json";
 import ewYoung from "@/assets/ew-young-stars.jpg.asset.json";
 import mythologicalAsset from "@/assets/mythological.jpg.asset.json";
 import bonnieTylerAsset from "@/assets/bonnie-tyler.jpg.asset.json";
+import bobCover from "@/assets/ew-band-of-brothers-cover.jpg";
+import bobG1 from "@/assets/ew-band-of-brothers-g1.jpg";
+import bobG2 from "@/assets/ew-band-of-brothers-g2.jpg";
+import bobG3 from "@/assets/ew-band-of-brothers-g3.jpg";
+import bobG4 from "@/assets/ew-band-of-brothers-g4.jpg";
+import bobG5 from "@/assets/ew-band-of-brothers-g5.jpg";
+import bobG6 from "@/assets/ew-band-of-brothers-g6.jpg";
+import bobG7 from "@/assets/ew-band-of-brothers-g7.jpg";
 
 export type ListItem = {
   slug: string;
