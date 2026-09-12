@@ -33,6 +33,12 @@ import img_cretton_spiderman from "@/assets/news-rs-cretton-spiderman.jpg";
 import img_netflix_box_office from "@/assets/news-variety-netflix-box-office.jpg";
 import img_practical_magic_2_review from "@/assets/news-variety-practical-magic-2-review.jpg";
 import img_remain_trailer from "@/assets/news-variety-remain-trailer.jpg";
+import varMoblandPremiere from "@/assets/var-mobland-premiere.jpg.asset.json";
+import varMoblandHardy from "@/assets/var-mobland-tom-hardy.jpg.asset.json";
+import varKri8 from "@/assets/var-kri8-universe.jpg.asset.json";
+import varPattinson from "@/assets/var-robert-pattinson.jpg.asset.json";
+import varPrimetime from "@/assets/var-primetime.jpg.asset.json";
+import varOdysseyStill from "@/assets/var-mcdodys-uv011.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
