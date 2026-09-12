@@ -53,6 +53,108 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "kri8-universe-sci-fi-franchise-toronto-market",
+    title: "Sci-Fi Franchise 'Kri8 Universe' Launches at Toronto Market With Five Interconnected Worlds",
+    excerpt:
+      "After 14 years of independent development, production designer Uzair Merchant brings a five-world science-fiction ecosystem — 16 characters, three books, nine soundtracks — to TIFF: The Market.",
+    customBadge: "Exclusive",
+    image: varKri8.url,
+    source: "Variety — Naman Ramachandran",
+    body: `"Kri8 Universe," a five-world science-fiction IP ecosystem from production designer and filmmaker Uzair Merchant, will launch at TIFF: The Market, hunting global licensing, studio and strategic partnerships after 14 years of independent development.
+
+The universe consists of five interconnected worlds — Elixir of Life, Black Rose, the 8th Sin, Skye and Vault X — anchored by 16 original characters and a mythology built to expand across film, television, publishing, music, gaming, digital platforms, artificial intelligence, digital assets and immersive formats.
+
+![Key art for the science-fiction franchise Kri8 Universe](${varKri8.url})
+
+Merchant has spent nearly two decades working in film and television internationally, contributing to titles such as "Deadpool 2," "Fast & Furious 7," "Star Trek Beyond" and "Superman & Lois." His career has taken him through Hollywood, Bollywood, the Middle East and Asia, and he has picked up more than 40 international honors across film, television, music and emerging media.
+
+The existing "Kri8 Universe" output includes three published books, nine original soundtracks, films, screenplays, music videos and games, along with more than 1.1 million views and more than 30 international awards, according to the company.
+
+Merchant and Gayathiri Guliani co-founded K2 Media Capital, the entertainment platform now steering the commercial rollout by developing, packaging and financing original IP for markets worldwide. The company is holding discussions with studios, streamers, broadcasters, publishers, gaming and merchandising partners, distributors and technology and investment firms, with options open across licensing, co-productions, publishing, gaming adaptations, distribution and direct investment in the IP.
+
+"What makes 'Kri8 Universe' particularly compelling is that it is not an IP concept looking for a business model," said Guliani. "The world has already been built, the characters have been developed and the creative ecosystem has been tested across multiple mediums. Our role is to build the commercial pathway around that IP, connecting it with the right studios, platforms, investors, licensing partners and global markets."
+
+The mythology weaves together AI, genetics and cloning, questions about immortality and consciousness, spiritual and ancient mythic threads, and humanity's fraught relationship with fast-advancing technology, alongside water scarcity, destiny and identity. Cross-cultural collaboration runs through the project too, with music blending Arabic sounds, hip-hop and Bollywood influences and characters drawing on Arab, Indian and African cultures. The character Musa moves through fractured timelines as a messenger of remembrance, while "3001: A Nafs Odyssey" pairs futuristic Sufi hip-hop with science fiction to trace the seven stages of the soul.
+
+"We're not walking into the room with an idea for a universe. We're walking in with the universe," Merchant said. "The mythology exists. The books exist. The music exists. The characters exist. Fourteen years were spent building and proving these worlds. Now the question is how far they can travel. This is where facts meet myth to create fiction."
+
+Created through bKREATIV Prods. and the Kreativ Lab, "Kri8 Universe" was independently developed by Merchant.
+
+"For years I was told I was building too much. Now the world calls it an ecosystem," Merchant said. "We are now looking for the right partners to take these worlds to global audiences."`,
+  },
+  {
+    slug: "robert-pattinson-oscars-primetime-odyssey-dune-3",
+    title: "Robert Pattinson Is Having His Best Year Ever With 'Primetime,' 'The Drama,' 'The Odyssey' and 'Dune 3.' Will the Oscars Recognize Him?",
+    excerpt:
+      "Four movies, two possible categories and two very different campaigns to juggle. Nobody is asking anymore whether Pattinson belongs in the race — the question is how the studios play it.",
+    customBadge: "Awards",
+    image: varPattinson.url,
+    source: "Variety — Clayton Davis",
+    body: `Four Robert Pattinsons are better than one, and that makes his upcoming Oscar run a bit more complicated.
+
+In "Primetime," Pattinson sits alone in a dim Florida room, reading a stranger's chat logs aloud. He's playing Chris Hansen, host of the hidden-camera series "To Catch a Predator," the man who turned police stings into television events that battled for ratings against the likes of ABC's "Lost." It's the most uncomfortable thing Pattinson has ever done on screen — and it could be what finally gets him an Oscar nomination.
+
+![Robert Pattinson as Chris Hansen in A24's Primetime](${varPrimetime.url})
+
+At 40, he's yet to be recognized despite acclaimed turns in "Good Time," "The Lighthouse" and "The Rover." This year, Pattinson has stacked the deck: indies, franchises and, in the middle of it all, shooting the next "Batman" movie with Matt Reeves.
+
+**"Primetime" seems to be the obvious one**
+
+In Lance Oppenheim's film, which played in competition at Venice — earning a seven-minute standing ovation — and opens Sept. 25 through A24, Pattinson has what looks like his clearest awards vehicle. Oppenheim's Hansen is a showman, the connective tissue of an anti-hero origin story à la "Joker" and "American Psycho." The film isn't out to canonize him; it watches everything that made him larger than the premise of the show: the ratings, the crew, the wannabe actors playing decoys and the audience who gobbled it up at home.
+
+Pattinson doesn't ask anyone to root for Hansen, rather he asks them to sit with a man they've known from television and watch him squirm.
+
+And he isn't the only highlight. Skyler Gisondo is terrific as Dan Plumb, the hopeful actor hired to play the bait, while Emmy winner Merritt Wever gives the producer an edge as the operation's compromises pile up. And then there's the real Hansen, angling his way into the rollout with countless interviews — a sideshow, and sideshows keep a title in the conversation.
+
+**The vote-splitting problem**
+
+He's very good in Kristoffer Borgli's comedy "The Drama" as a museum curator whose wedding quietly comes apart. In another year, it might have been the campaign. But it came out in April, and "Primetime" is the more recent entrant in a brutal lead race that already includes his "Odyssey" co-star Matt Damon, Andrew Scott ("Elsinore"), John Malkovich ("Wild Horse Nine") and, still to come, Tom Cruise ("Digger").
+
+![Robert Pattinson as Antinous in Christopher Nolan's The Odyssey](${varOdysseyStill.url})
+
+**The supporting race could be the leaner pathway**
+
+In "The Odyssey," Pattinson plays Antinous, ringleader of the suitors circling Penelope, one piece of Nolan's huge ensemble in what became a billion-dollar phenomenon. Best picture contenders of that size can float a supporting player. The question for Universal is whether the part is big enough, and sticky enough, to be worth the political capital.
+
+"Dune: Part Three," arriving Dec. 18, is the other option and potentially the showier one. Scytale is a bigger swing, Villeneuve is in his corner and Warner Bros. has a prime December date. The first two "Dune" films drew 15 Oscar nominations between them — none of them for acting.
+
+Could he land more than one nod? Jamie Foxx pulled it off in 2004, Cate Blanchett in 2007 and Scarlett Johansson in 2019. And actors can now be double-nominated in the same category following an Academy rule update earlier this year.
+
+That's no guarantee. "Primetime" might play too harshly for a chunk of the Academy, while "The Odyssey" and "Dune: Part Three" could end up as technical players. Nonetheless, Pattinson stopped having us ask whether he was a great actor a while ago. What's left is for the Academy — and its four Pattinsons — to talk themselves into checking the right box.`,
+  },
+  {
+    slug: "mobland-season-2-premiere-tom-hardy-helen-mirren-guy-ritchie",
+    title: "Tom Hardy Reunites With Helen Mirren at 'MobLand' Premiere as Guy Ritchie Hails 'These Monsters of Creativity'",
+    excerpt:
+      "After the behind-the-scenes drama that nearly saw Hardy booted off the Paramount+ hit, the cast and creatives regrouped in Leicester Square for the Season 2 premiere.",
+    customBadge: "Premiere",
+    image: varMoblandPremiere.url,
+    source: "Variety — K.J. Yossman",
+    body: `After plenty of behind-the-scenes drama on Paramount+ hit "MobLand," which saw Tom Hardy almost booted off the series, the cast and creatives reunited for the premiere of Season 2 in London on Thursday night.
+
+Leading trio Pierce Brosnan and Helen Mirren — who play crime couple Conrad and Maeve Harrigan opposite Hardy's fixer Harry Da Souza — posed together with Hardy on the black carpet outside the Odeon Luxe theater in Leicester Square before heading inside to take the stage alongside co-creator Guy Ritchie and exec producer David Glasser.
+
+![Pierce Brosnan, Helen Mirren and Tom Hardy at the MobLand Season 2 premiere in London](${varMoblandPremiere.url})
+
+Introducing the director and cast to the audience, Glasser — who was believed to have lost patience with Hardy after the actor requested script changes and was late to set — heaped plenty of praise on the star, calling him "the captain of our ship."
+
+"Without further ado, the captain of our ship, and the man who really, really pushed the envelope for us to get this to where we want to do Season 1 and Season 2, and was with it from the beginning and stayed with it to the bitter end of us getting through this incredible season, ladies and gentlemen — Tom Hardy," Glasser announced as Hardy joined Ritchie, Brosnan and Mirren on stage.
+
+![Tom Hardy as fixer Harry Da Souza in MobLand](${varMoblandHardy.url})
+
+After the cast and audience sang "Happy Birthday" to Ritchie, who turned 58 that day, the director spoke movingly about his cast, saying they've been "magnificent, it's been nothing other than a pleasure to work with these monsters of creativity."
+
+"Lady Helen — Dame Helen, fantastic Helen, Queen Helen — has been nothing other than an inspiration and a force of creativity," Ritchie said. "Super positive all day long, super creative all day long. Pierce Brosnan, your lordship, I can say exactly the same about Pierce and my old brother Tom Hardy." He then darted across the stage to hug Hardy.
+
+Asked what she was most excited for the audience to see in Season 2, Mirren replied: "Madder, badder, better. Chaotic, cool, funny. Frightening, funny."
+
+Brosnan added: "Yeah, very mangled, very strange. And there's frailties within these characters as well, which makes them very human. But we get on like a great company of actors."
+
+Mirren also praised writer Jez Butterworth for "incredible material." "The beautiful poetry of Jez Butterworth, the poetic element in the script, is so incredible. It just heightens it out of the sort of the normal."
+
+Glasser gave some insight into how the show first got off the ground, saying he and the Paramount+ team flew to Ritchie's country house to pitch him. "He said yes on the spot," Glasser recalled. "Over a great bottle of wine while he was cooking some amazing lamb." Eight weeks out from shooting Season 1, he added, the team was still trying to "figure out what the show is" — which is when Butterworth was brought in.`,
+  },
+  {
     slug: "remain-trailer-jake-gyllenhaal-shyamalan",
     title: "'Remain' Trailer: Jake Gyllenhaal and Phoebe Dynevor Are a Creepy Couple in M. Night Shyamalan's Latest Twisty Thriller",
     excerpt:
