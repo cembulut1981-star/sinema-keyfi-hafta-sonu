@@ -307,6 +307,60 @@ export function FeaturedArticleCard({
   );
 }
 
+export function FullWidthFeatureCard({
+  article,
+  categoryLabel = "TV Series",
+  dateLabel,
+}: {
+  article: Article;
+  categoryLabel?: string;
+  dateLabel: string;
+}) {
+  const linkTo = getArticleLink(article);
+
+  return (
+    <article className="mb-14 border-b border-border pb-6 group">
+      <div className="relative aspect-video w-full overflow-hidden bg-muted after:absolute after:left-1/3 after:bottom-0 after:z-10 after:h-[3px] after:w-1/3 after:origin-center after:scale-x-0 after:bg-primary after:transition-transform after:duration-300 group-hover:after:scale-x-100">
+        {linkTo ? (
+          <Link to={linkTo.to} params={linkTo.params} className="block h-full w-full">
+            <img
+              src={article.image}
+              alt={article.title}
+              className={`h-full w-full object-cover ${imageFocusClass(article)}`}
+              width={1600}
+              height={900}
+              loading="eager"
+            />
+          </Link>
+        ) : (
+          <img
+            src={article.image}
+            alt={article.title}
+            className={`h-full w-full object-cover ${imageFocusClass(article)}`}
+            width={1600}
+            height={900}
+            loading="eager"
+          />
+        )}
+      </div>
+      <h2 className="mt-3 font-serif-display text-xl font-bold leading-snug sm:text-2xl">
+        {linkTo ? (
+          <Link to={linkTo.to} params={linkTo.params} className="transition-colors hover:text-primary">
+            {article.title}
+          </Link>
+        ) : (
+          article.title
+        )}
+      </h2>
+      <p className="mt-3 font-display text-xs font-bold uppercase text-muted-foreground">
+        <span className="text-primary">{categoryLabel}</span>
+        <span className="mx-2 text-border" aria-hidden="true">|</span>
+        <time>{dateLabel}</time>
+      </p>
+    </article>
+  );
+}
+
 export function ArticleGrid({ articles, compact = false }: { articles: Article[]; compact?: boolean }) {
   if (compact) {
     return (
