@@ -1,9 +1,12 @@
-Kullanıcı menüdeki Türkçe karakterlerin doğru render edilmediğini belirtiyor (örneğin "vızyon" yerine "vizyon"). Mevcut `src/routes/index.tsx` dosyasında kategori isimleri zaten doğru Türkçe karakterlerle yazılı, ancak iki olası teknik sorun var:
+# Crystal Lake Feature Card
 
-1. **HTML lang attribute** `src/routes/__root.tsx`'te `lang="en"` olarak ayarlı. Bu, tarayıcının font fallback ve karakter şekillendirme (shaping) davranışını etkileyerek Türkçe karakterlerin (özellikle İ/ı) yanlış render edilmesine yol açabilir.
-2. **Google Fonts subset** Mevcut font linkinde `subset=latin-ext` yok. Roboto Condensed fontunun Türkçe glifleri yüklenmeyebilir veya tarayıcı Latin-1 subset'iyle sınırlı kalabilir.
+## What will change
+- Add an English news article based on Empire’s Crystal Lake exclusive, with the original source credited.
+- Use the two original Empire photographs: one cover image and one image inside the article.
+- Add a homepage-only, full-width horizontal feature card matching the supplied reference: large 16:9 image, headline below, and red category/date metadata.
+- Keep the existing mixed-card feed below it, while ensuring the new article is not duplicated there.
 
-Plan:
-1. `src/routes/__root.tsx` içinde `<html lang="en">` → `<html lang="tr">` olarak değiştir.
-2. Google Fonts linkine `&subset=latin-ext` parametresi ekleyerek Türkçe karakter gliflerinin garanti yüklenmesini sağla.
-3. Build'i kontrol et ve preview'dan doğru render edildiğini teyit et.
+## Technical details
+- Extend article display metadata only as needed for the feature date.
+- Add a focused full-width card component using existing site typography and semantic colors.
+- Verify the homepage and article page at desktop and mobile sizes, plus current build diagnostics.
