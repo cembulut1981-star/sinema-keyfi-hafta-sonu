@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import { ArticleCard, FeaturedArticleCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
+import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES, type Article } from "@/data/articles";
 
 const PAGE_SIZE = 20;
@@ -9,6 +9,8 @@ const PAGE_SIZE = 20;
 // RoboCop kartı artık ilk satırın orta (büyük) kartı olarak gösterilecek.
 const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
+const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series";
+const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -183,7 +185,7 @@ function Index() {
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = ARTICLES.slice(0, count);
+    const visibleArticles = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG).slice(0, count);
     const smallCandidates = visibleArticles.filter(
       (a) =>
         (a.category === "haberler" || a.category === "diziler") &&
@@ -238,6 +240,9 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         <div className="h-10 md:h-14" aria-hidden />
+        {WIDE_FEATURE ? (
+          <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="TV Series" dateLabel="13 September 2026" />
+        ) : null}
         {rows.map((r, i) => (
           <div key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />

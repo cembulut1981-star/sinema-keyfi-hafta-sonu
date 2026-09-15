@@ -39,6 +39,8 @@ import varKri8 from "@/assets/var-kri8-universe.jpg.asset.json";
 import varPattinson from "@/assets/var-robert-pattinson.jpg.asset.json";
 import varPrimetime from "@/assets/var-primetime.jpg.asset.json";
 import varOdysseyStill from "@/assets/var-mcdodys-uv011.jpg.asset.json";
+import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
+import crystalLakeStill from "@/assets/crystal-lake-exclusive-2.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -52,6 +54,72 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "crystal-lake-13-killer-things-friday-the-13th-series",
+    title: "Crystal Lake: 13 Killer Things to Know About A24's New Friday the 13th Show",
+    excerpt:
+      "Linda Cardellini's Pamela Voorhees takes center stage in A24's bloody prequel, filmed at the original Crystal Lake and built with practical effects, deep-cut Easter eggs and a young Jason.",
+    customBadge: "Empire Exclusive",
+    image: crystalLakeCover.url,
+    source: "Empire — Becky Darke",
+    body: `After nearly two decades away from screens, Friday the 13th is returning with **Crystal Lake**, A24's prequel series built around Pamela Voorhees and the tragedy that transforms Camp Crystal Lake forever.
+
+Linda Cardellini plays Pamela before the events of the original 1980 film. Showrunner Brad Caleb Kane says she avoided imitating Betsy Palmer's famous performance, instead finding her own route into a woman pushed toward a full, blood-soaked breakdown.
+
+## 1. Linda Cardellini makes Pamela her own
+
+Cardellini was Kane's first choice. The production experimented with the character's familiar look, but ultimately decided that a direct recreation felt too much like cosplay. The result, Kane promises, is a distinct and fiercely committed Pamela.
+
+## 2. The production returned to the original Crystal Lake
+
+The crew shot in Blairstown, New Jersey, where key parts of the first Friday the 13th were filmed. Some scenes deliberately echo the 1980 movie while changing what viewers understand about familiar moments.
+
+## 3. The showrunner is a lifelong Friday the 13th fan
+
+Kane names Part III as his gateway into horror, The Final Chapter as the series' best entry and Jason Lives as its most purely entertaining chapter. That knowledge shapes a prequel intended to reward both newcomers and obsessive fans.
+
+## 4. The kills will be seriously bloody
+
+Crystal Lake is designed to deliver inventive deaths with enough impact to make viewers jump off the couch. Kane says the team wanted the violence to feel fresh, surprising and unmistakably part of Friday the 13th.
+
+![An exclusive scene from A24's Crystal Lake series](${crystalLakeStill.url})
+
+## 5. It begins eight years before the original film
+
+Pamela is working as a cook at Camp Crystal Lake while 11-year-old Jason joins the other campers. The series follows the twists that lead from their loving relationship to Jason's death and Pamela's murderous collapse.
+
+## 6. A practical “blood bag” sequence became an early highlight
+
+One episode uses a stunt performer wearing a literal bag filled with blood on his head. The difficult effect took three attempts and reflects the production's commitment to tactile, practical gore.
+
+## 7. The opening credits honor the movies
+
+The title sequence combines the grainy unease of 1970s television with a direct salute to the original Friday the 13th logo. Composer Harry Manfredini also returned to create new music for the sequence.
+
+## 8. Every death is meant to matter
+
+Rather than treating the victims as disposable bodies, the writers spend time building their stories. Kane's aim is to make each death land emotionally before the carnage arrives.
+
+## 9. Young Jason is presented as a tragic child
+
+The story emphasizes Jason's bond with his mother and the devastating effect of his loss. His emergence as the familiar slasher comes later in the season — but Kane says that when it happens, it hits hard.
+
+## 10. Callum Vinson was ready for the role
+
+The young horror fan embraced the physically demanding part, including heavy prosthetics and difficult lake work, bringing both vulnerability and an ominous presence to Jason.
+
+## 11. Crystal Lake becomes a living town
+
+The series expands beyond the camp to explore the surrounding community, its residents and the history that allowed the Voorhees legend to take root.
+
+## 12. Longtime fans can expect deep-cut references
+
+Locations, visual details and story echoes draw from across the franchise. The Easter eggs are designed to deepen the new story rather than simply repeat familiar iconography.
+
+## 13. The franchise drought is finally ending
+
+Crystal Lake marks the first major screen return for Friday the 13th in almost 20 years. By combining Pamela's origin, young Jason's tragedy and unapologetically practical gore, the series aims to restart the legend without losing what made it endure.`,
+  },
   {
     slug: "kri8-universe-sci-fi-franchise-toronto-market",
     title: "Sci-Fi Franchise 'Kri8 Universe' Launches at Toronto Market With Five Interconnected Worlds",
