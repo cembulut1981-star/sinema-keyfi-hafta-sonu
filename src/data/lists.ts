@@ -2183,16 +2183,20 @@ Source: Rolling Stone — “Ridley Scott's Movies, Ranked Worst to Best” by A
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
 // New EW entries (indices 23-27) are interleaved near the top of the feed.
-const _LIST_ORDER = [43, 38, 34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
+const _LIST_ORDER = [38, 34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 33, 16, 25, 18, 14, 26, 19, 15, 27, 1, 20, 13, 7, 21, 3, 11, 5, 9, 2, 12, 6, 4, 8, 10];
 
 
 
 
 
 
-export const LISTS: ListItem[] = _LIST_ORDER
-  .filter((i) => i < _LISTS_RAW.length)
-  .map((i) => _LISTS_RAW[i]);
+const newestList = _LISTS_RAW[_LISTS_RAW.length - 1];
+export const LISTS: ListItem[] = [
+  ...(newestList ? [newestList] : []),
+  ..._LIST_ORDER
+    .filter((i) => i < _LISTS_RAW.length - 1)
+    .map((i) => _LISTS_RAW[i]),
+];
 
 export function getList(slug: string) {
   return LISTS.find((l) => l.slug === slug);
