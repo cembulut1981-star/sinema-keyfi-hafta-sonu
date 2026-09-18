@@ -65,14 +65,14 @@ function ListPage() {
             components={{
               // Rolling Stone galerisindeki gibi kalın siyah çerçeveli görseller
               img: ({ src, alt }) => (
-                <figure className="my-10 not-prose">
-                  <div className="mx-auto w-full max-w-[760px] border-4 border-black bg-black">
+                <span className="my-10 block not-prose">
+                  <span className="mx-auto block w-full max-w-[760px] border-4 border-black bg-black">
                     <img src={typeof src === "string" ? src : ""} alt={alt ?? ""} loading="lazy" className="w-full h-auto block" />
-                  </div>
+                  </span>
                   {alt ? (
-                    <figcaption className="mt-3 text-center text-sm text-muted-foreground">{alt}</figcaption>
+                    <span className="mt-3 block text-center text-sm text-muted-foreground">{alt}</span>
                   ) : null}
-                </figure>
+                </span>
               ),
               ...(slug === "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi"
                 ? {
