@@ -29,6 +29,7 @@ import lanternsG1 from "@/assets/lanterns-g1.jpg.asset.json";
 import lanternsG2 from "@/assets/lanterns-g2.jpg.asset.json";
 import lanternsG3 from "@/assets/lanterns-g3.jpg.asset.json";
 import lanternsG4 from "@/assets/lanterns-g4.jpg.asset.json";
+import theUprisingAsset from "@/assets/the-uprising.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -44,6 +45,34 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "the-uprising-review-andrew-garfield",
+    origTitle: "The Uprising",
+    title: "‘The Uprising’ Review: Andrew Garfield Leads a Revolution That Feels Urgently Current",
+    excerpt: "Paul Greengrass turns England's 1381 Peasants' Revolt into a visceral historical drama, with Andrew Garfield embodying grief, fury and a working class pushed beyond its limit.",
+    rating: "4/5",
+    image: theUprisingAsset.url,
+    videoUrl: "https://www.youtube.com/embed/ZVkrhHebz1Q",
+    body: `Rebellions rarely begin with a single moment. They grow from years of pressure, humiliation and loss until one final act provides the spark. Paul Greengrass' "The Uprising" returns to England's Peasants' Revolt of 1381 and finds a story whose anger feels startlingly contemporary.
+
+The country is still reeling from the Black Death, a catastrophe that devastated poor communities. A young King Richard II sits above a government shaped by corrupt advisers, an unpopular foreign war and taxes designed to protect the aristocracy. When royal officials attempt to extract more money by force in Brentwood, resistance spreads from one village toward London.
+
+Andrew Garfield plays a grieving farmer known simply as Ploughman. He has lost his family to the plague and can barely survive on what remains. Garfield makes the character's silence feel loaded: sorrow hardens into resolve as he witnesses state violence and finally cries that enough is enough. When he strikes back at a guard, private pain becomes public rebellion.
+
+Ploughman joins the radical preacher John Ball, played by Jamie Bell, and Cosmo Jarvis' Wat Tyler, the movement's historical figurehead. Thomasin McKenzie's Alyce represents the women who also take up the cause. Together they march from Canterbury to London, hoping to confront the frightened boy king and the men governing in his name.
+
+At court, Katherine Waterston's Countess and the Lords Appellant debate how to suppress the movement. Tom Hollander brings oily menace to Treasurer Hales, Stephen Dillane plays Archbishop Sudbury, and Jonny Lee Miller turns the mayor into an intimidating political enforcer. The ruling class treats desperation as an inconvenience until it reaches the palace gates.
+
+Greengrass shoots the uprising in his familiar, restless style. Cameras move through crowds, between bodies and alongside charging troops, turning the historical reconstruction into something closer to eyewitness footage. The approach recalls "Bloody Sunday": action becomes disaster, and the audience is placed inside the confusion rather than safely above it.
+
+The film does not need modern speeches to make its point. Talk of immigrants "stealing your jobs," citizens driven past their limits and leaders searching for scapegoats create their own echoes. Greengrass sees populist rage as politically unstable — capable of carrying demands for justice, prejudice and violence in the same crowd.
+
+Its final coda flirts with the origin of a famous English folk hero, a choice that may feel more playful than the tragedy preceding it. Yet the film's central idea remains intact: history does not simply repeat, but its inequalities, fears and slogans continue to rhyme.
+
+"The Uprising" works best as an immersive chronicle of oppression becoming protest. Garfield gives that transformation a human center, while Greengrass makes a 600-year-old revolt feel less like a museum piece than a warning arriving in real time.
+
+Source: Rolling Stone — David Fear.`,
+  },
   {
     slug: "lanterns-inceleme-hbo-green-lantern",
     origTitle: "Lanterns",
