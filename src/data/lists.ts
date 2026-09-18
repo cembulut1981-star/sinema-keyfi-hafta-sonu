@@ -19,6 +19,10 @@ import bobG4 from "@/assets/ew-band-of-brothers-g4.jpg";
 import bobG5 from "@/assets/ew-band-of-brothers-g5.jpg";
 import bobG6 from "@/assets/ew-band-of-brothers-g6.jpg";
 import bobG7 from "@/assets/ew-band-of-brothers-g7.jpg";
+import ridleyScottCover from "@/assets/ridley-scott-ranked.jpg.asset.json";
+import ridleyGladiator from "@/assets/ridley-gladiator-2.jpg.asset.json";
+import ridleyBladeRunner from "@/assets/ridley-blade-runner.jpg.asset.json";
+import ridleyAlien from "@/assets/ridley-alien.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -2040,6 +2044,141 @@ Source: Empire — "The Best Games Of 2026… So Far".`,
     image: "https://images.bauerhosting.com/empire/2026/07/Games-Of-The-Year-2026.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
     source: "Empire",
   },
+  {
+    slug: "ridley-scott-movies-ranked-worst-to-best",
+    title: "Every Ridley Scott Movie, Ranked From Worst to Best",
+    excerpt: "From biblical misfires to science-fiction landmarks, Rolling Stone ranks 29 Ridley Scott films — with Alien, Blade Runner and Thelma & Louise leading a remarkably varied career.",
+    countdownBadge: "29 films ranked",
+    image: ridleyScottCover.url,
+    source: "Rolling Stone",
+    body: `Few filmmakers have moved as freely between genres as Ridley Scott. Across five decades, he has made science-fiction landmarks, historical epics, crime thrillers, war films, horror pictures and intimate character studies — often with an instantly recognizable command of scale and atmosphere.
+
+Rolling Stone critics A.A. Dowd, David Fear, Tim Grierson and Emily Zemler ranked 29 of Scott's features from the least successful to the essential. The result captures both sides of an unusually restless career: the visual craftsman capable of transforming almost any world into spectacle, and the prolific director whose experiments do not always land.
+
+## 29. Exodus: Gods and Kings (2014)
+
+An enormous biblical production whose committed cast and monumental imagery cannot overcome blunt dialogue and an emotionally remote retelling of Moses.
+
+## 28. Robin Hood (2010)
+
+Russell Crowe's grim origin story drains much of the adventure from the familiar legend, replacing swashbuckling fun with muddy political intrigue.
+
+## 27. 1492: Conquest of Paradise (1992)
+
+A lavish but dramatically disconnected historical epic, remembered as much for Vangelis' score as for its troubled portrait of Christopher Columbus.
+
+## 26. Legend (1985)
+
+Scott's fantasy world remains beautiful to look at, but its fairy-tale narrative never becomes as vivid as Tim Curry's extraordinary Lord of Darkness.
+
+## 25. Someone to Watch Over Me (1987)
+
+A polished romantic thriller that shows Scott's neo-noir instincts, even when its central relationship and class tensions feel underdeveloped.
+
+## 24. Body of Lies (2008)
+
+Leonardo DiCaprio and Russell Crowe anchor a muscular espionage thriller whose familiar politics keep it below Scott's strongest modern work.
+
+## 23. White Squall (1996)
+
+This seafaring coming-of-age drama has impressive storm sequences and earnest performances, though its lessons in masculinity arrive heavily underlined.
+
+## 22. Kingdom of Heaven (2005)
+
+The theatrical cut was compromised, while the director's cut reveals a richer Crusades epic built around faith, political power and fragile coexistence.
+
+## 21. A Good Year (2006)
+
+Scott and Crowe trade battlefields for Provence in a lightweight romantic comedy whose scenery is more persuasive than its transformation story.
+
+## 20. Hannibal (2001)
+
+An operatic, gruesome sequel that lacks The Silence of the Lambs' psychological precision but embraces decadent horror with unmistakable style.
+
+## 19. Black Rain (1989)
+
+Michael Douglas enters an Osaka underworld in a slick crime thriller powered by nocturnal imagery, industrial surfaces and hard-boiled momentum.
+
+## 18. House of Gucci (2021)
+
+Part family tragedy and part camp pageant, the fashion-house saga is wildly uneven but rarely dull, with Lady Gaga committing fully to its excesses.
+
+## 17. All the Money in the World (2017)
+
+A tense kidnapping drama sharpened by Christopher Plummer's late-arriving performance as oil magnate J. Paul Getty.
+
+## 16. Napoleon (2023)
+
+Joaquin Phoenix's emperor is rendered as warrior, lover and insecure spectacle inside a film whose battle scenes often outshine its compressed biography.
+
+## 15. Matchstick Men (2003)
+
+Nicolas Cage gives one of his most controlled performances in Scott's nimble con-artist story about fraud, fatherhood and the possibility of change.
+
+## 14. Alien: Covenant (2017)
+
+The prequel combines brutal creature horror with Michael Fassbender's eerie dual performance and Scott's increasingly bleak questions about creation.
+
+## 13. The Last Duel (2021)
+
+A medieval assault is revisited through conflicting perspectives in a formally ambitious drama featuring a fierce performance from Jodie Comer.
+
+## 12. Prometheus (2012)
+
+Scott returns to cosmic horror with grand ideas about faith and origins; the mysteries can frustrate, but the images and sense of dread linger.
+
+## 11. G.I. Jane (1997)
+
+Demi Moore's intensity drives a tough, direct military drama about institutional resistance and the physical cost of proving oneself.
+
+## 10. Gladiator II (2024)
+
+![Paul Mescal and Pedro Pascal in Gladiator II](${ridleyGladiator.url})
+
+Scott revisits Rome with fresh stars and unapologetically oversized action, creating a sequel energized by political intrigue and arena spectacle.
+
+## 9. Black Hawk Down (2001)
+
+An immersive, punishing account of urban warfare whose technical command captures the confusion and terror of soldiers trapped inside a collapsing mission.
+
+## 8. American Gangster (2007)
+
+Denzel Washington and Russell Crowe occupy opposite sides of a sprawling crime saga that patiently maps power, corruption and discipline.
+
+## 7. The Counselor (2013)
+
+Once dismissed, Scott and Cormac McCarthy's nihilistic thriller has grown into a cult object: severe, strange and merciless about consequence.
+
+## 6. The Duellists (1977)
+
+Scott's debut turns a decades-long feud into painterly cinema, already displaying the visual rigor that would define his career.
+
+## 5. The Martian (2015)
+
+Matt Damon's stranded astronaut survives through science, wit and cooperation in Scott's rare crowd-pleaser built on optimism rather than doom.
+
+## 4. Gladiator (2000)
+
+Russell Crowe's Maximus gave Scott a modern sword-and-sandal classic: emotionally direct, technically imposing and endlessly quotable.
+
+## 3. Thelma & Louise (1991)
+
+Two women take the road away from lives that have constrained them, and Scott turns their flight into a funny, furious and finally mythic act of freedom.
+
+## 2. Blade Runner (1982)
+
+![Harrison Ford on the set of Blade Runner](${ridleyBladeRunner.url})
+
+Its rain-soaked future changed science fiction forever. Beneath the production design lies a melancholy investigation of memory, mortality and what makes a life human.
+
+## 1. Alien (1979)
+
+![Harry Dean Stanton in Alien](${ridleyAlien.url})
+
+Scott's haunted-house movie in space remains a model of patient terror. Industrial design, class tension and the xenomorph converge in a horror film that still feels dangerous.
+
+Source: Rolling Stone — “Ridley Scott's Movies, Ranked Worst to Best” by A.A. Dowd, David Fear, Tim Grierson and Emily Zemler.`,
+  },
 ];
 
 // Deterministic shuffle so new lists spread across the interleaved homepage feed.
@@ -2051,9 +2190,13 @@ const _LIST_ORDER = [38, 34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 
 
 
 
-export const LISTS: ListItem[] = _LIST_ORDER
-  .filter((i) => i < _LISTS_RAW.length)
-  .map((i) => _LISTS_RAW[i]);
+const newestList = _LISTS_RAW[_LISTS_RAW.length - 1];
+export const LISTS: ListItem[] = [
+  ...(newestList ? [newestList] : []),
+  ..._LIST_ORDER
+    .filter((i) => i < _LISTS_RAW.length - 1)
+    .map((i) => _LISTS_RAW[i]),
+];
 
 export function getList(slug: string) {
   return LISTS.find((l) => l.slug === slug);
