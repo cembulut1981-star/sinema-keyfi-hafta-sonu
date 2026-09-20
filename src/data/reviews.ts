@@ -30,6 +30,12 @@ import lanternsG2 from "@/assets/lanterns-g2.jpg.asset.json";
 import lanternsG3 from "@/assets/lanterns-g3.jpg.asset.json";
 import lanternsG4 from "@/assets/lanterns-g4.jpg.asset.json";
 import theUprisingAsset from "@/assets/the-uprising.jpg.asset.json";
+import residentEvilCoverAsset from "@/assets/resident-evil-cover.jpg.asset.json";
+import residentEvilStill1Asset from "@/assets/resident-evil-still-1.jpg.asset.json";
+import residentEvilStill2Asset from "@/assets/resident-evil-still-2.jpg.asset.json";
+import residentEvilStill3Asset from "@/assets/resident-evil-still-3.jpg.asset.json";
+import residentEvilStill4Asset from "@/assets/resident-evil-still-4.jpg.asset.json";
+import residentEvilStill5Asset from "@/assets/resident-evil-still-5.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -45,6 +51,46 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "resident-evil-review-zach-cregger-austin-abrams",
+    origTitle: "Resident Evil",
+    title: "‘Resident Evil’ Review: Zach Cregger Gives a Fatigued Franchise an Exhilarating Shot in the Arm",
+    excerpt: "Austin Abrams carries Zach Cregger's ferocious, funny reinvention of the survival-horror franchise through one spectacularly disastrous night in Raccoon City.",
+    rating: "4/5",
+    image: residentEvilCoverAsset.url,
+    videoUrl: "https://www.youtube.com/embed/mNd1gb19A-c",
+    body: `Choosing *Resident Evil* as Zach Cregger's follow-up to *Barbarian* and *Weapons* initially sounded like a retreat into familiar intellectual property. The video-game adaptations have rarely matched the fear, tension or grotesque invention of their source material. Cregger's answer is not to imitate those earlier movies, but to leave them behind and build a lean, original survival story inside the same contaminated world.
+
+![Austin Abrams as medical courier Bryan in Resident Evil](${residentEvilStill1Asset.url})
+
+Austin Abrams plays Bryan, a medical courier whose personal life is already unraveling when he accepts one last urgent job on a snowy night. The package must reach a hospital in Raccoon City. Anyone who knows the franchise can see the trap closing, but Abrams makes Bryan's decision believable: he is ordinary, well-meaning and spectacularly unprepared for what waits beyond the city limits.
+
+![Bryan begins his nighttime run toward Raccoon City](${residentEvilStill2Asset.url})
+
+The first disaster arrives on an isolated road, where Bryan hits a woman who wanders into his path. He tries to help, even though her body is twisted at an impossible angle and her silence suggests something far worse than shock. A police officer offers an escort to the hospital, but this apparent rescue only opens the door to a chain of increasingly vicious encounters.
+
+![A tense scene from Zach Cregger's Resident Evil](${residentEvilStill3Asset.url})
+
+Cregger and co-writer Shay Hatten structure the journey like a run of escalating game levels. Bryan loses his vehicle, reaches a seemingly abandoned farmhouse, survives a guard dog and discovers creatures with tentacles and jaws where human anatomy should be. Each location introduces a new rule, threat or gruesome punchline before propelling him toward the next checkpoint.
+
+![The Raccoon City outbreak turns Bryan's delivery into a fight for survival](${residentEvilStill4Asset.url})
+
+The movie's best recurring joke is also its most human idea: Bryan cannot stop trying to help people. Every rescue attempt ends in catastrophe. Even a crying child in a motor home becomes another infected attacker, while his poor aim and inability to shoot through a padlock turn basic action-movie competence into deadpan comedy. The humor never drains the danger; it makes the violence feel more unpredictable.
+
+Paul Walter Hauser brings welcome comic energy as Carl, an Umbrella scientist who explains that Bryan's parcel contains an antidote desperately needed inside the city. Kali Reis is a fierce counterweight as Maxine, Carl's armed escort. Their arrival widens the story without stealing it from Abrams, whose anxious muttering and shaggy everyman appeal keep the audience anchored amid the chaos.
+
+![Kali Reis and the survivors face the infected](${residentEvilStill5Asset.url})
+
+At a breathless 90 minutes, the film wastes almost nothing. A sewer encounter delivers one of its nastiest biological surprises. A street becomes a gauntlet as infected bodies rain down from buildings. The hospital finale climbs toward a maternity ward vision that feels painted by Hieronymus Bosch before exploding into an operatic final act.
+
+Cregger occasionally shifts into first-person perspective, briefly placing the audience behind Bryan's eyes. It is an effective nod to the games because it grows naturally from the filmmaking rather than stopping the movie for fan service. Dariusz Wolski's images, Tom Hammock's production design and the creature work turn every new room into a threat worth inspecting.
+
+What makes this *Resident Evil* work is its confidence. It understands the games' survival-horror rhythm without becoming trapped by their characters or chronology, and it trusts a vulnerable protagonist instead of an invincible action hero. Baroque gore, sharp visual jokes and Abrams' frantic sincerity give a worn franchise precisely the jolt it needed.
+
+**Film details:** Directed by Zach Cregger; written by Zach Cregger and Shay Hatten; starring Austin Abrams, Zach Cherry, Kali Reis, Paul Walter Hauser and Will Merrick. Rated R. Running time: 90 minutes. Released September 18, 2026.
+
+Source: The Hollywood Reporter — Frank Scheck.`,
+  },
   {
     slug: "the-uprising-review-andrew-garfield",
     origTitle: "The Uprising",
