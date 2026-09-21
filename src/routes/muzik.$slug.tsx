@@ -21,7 +21,14 @@ export const Route = createFileRoute("/muzik/$slug")({
         { name: "description", content: m.excerpt },
         { property: "og:title", content: m.title },
         { property: "og:description", content: m.excerpt },
-        { property: "og:image", content: m.image },
+        { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
+        ...(m.image.startsWith("https://")
+          ? [
+              { property: "og:image", content: m.image },
+              { name: "twitter:image", content: m.image },
+            ]
+          : []),
       ],
     };
   },

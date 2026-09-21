@@ -14,6 +14,10 @@ export const Route = createFileRoute("/arama")({
     meta: [
       { title: "Search — Sine-Meta" },
       { name: "description", content: "Search across Sine-Meta." },
+      { property: "og:title", content: "Search — Sine-Meta" },
+      { property: "og:description", content: "Search across Sine-Meta." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
     ],
   }),
   component: SearchPage,

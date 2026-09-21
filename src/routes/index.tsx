@@ -19,6 +19,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Film and TV coverage: release news, reviews, lists and special features." },
       { property: "og:title", content: "Sine-Meta — Movies" },
       { property: "og:description", content: "Film and TV coverage, updated daily." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
     ],
   }),
   component: Index,

@@ -22,7 +22,14 @@ export const Route = createFileRoute("/dizi/$slug")({
         { name: "description", content: s.excerpt },
         { property: "og:title", content: s.title },
         { property: "og:description", content: s.excerpt },
-        { property: "og:image", content: s.image },
+        { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
+        ...(s.image.startsWith("https://")
+          ? [
+              { property: "og:image", content: s.image },
+              { name: "twitter:image", content: s.image },
+            ]
+          : []),
       ],
     };
   },
