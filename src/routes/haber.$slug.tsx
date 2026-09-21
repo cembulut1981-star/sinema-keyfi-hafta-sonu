@@ -22,7 +22,14 @@ export const Route = createFileRoute("/haber/$slug")({
         { name: "description", content: n.excerpt },
         { property: "og:title", content: n.title },
         { property: "og:description", content: n.excerpt },
-        { property: "og:image", content: n.image },
+        { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
+        ...(n.image.startsWith("https://")
+          ? [
+              { property: "og:image", content: n.image },
+              { name: "twitter:image", content: n.image },
+            ]
+          : []),
       ],
     };
   },

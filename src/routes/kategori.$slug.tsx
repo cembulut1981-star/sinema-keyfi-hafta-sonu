@@ -25,6 +25,10 @@ export const Route = createFileRoute("/kategori/$slug")({
       meta: [
         { title: `${label} — Sine-Meta` },
         { name: "description", content: `The latest film and TV news, reviews and features in ${label}.` },
+        { property: "og:title", content: `${label} — Sine-Meta` },
+        { property: "og:description", content: `The latest film and TV news, reviews and features in ${label}.` },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary" },
       ],
     };
   },

@@ -20,7 +20,14 @@ export const Route = createFileRoute("/liste/$slug")({
         { name: "description", content: l.excerpt },
         { property: "og:title", content: l.title },
         { property: "og:description", content: l.excerpt },
-        { property: "og:image", content: l.image },
+        { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
+        ...(l.image.startsWith("https://")
+          ? [
+              { property: "og:image", content: l.image },
+              { name: "twitter:image", content: l.image },
+            ]
+          : []),
       ],
     };
   },

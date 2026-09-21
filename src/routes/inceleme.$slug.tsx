@@ -21,7 +21,14 @@ export const Route = createFileRoute("/inceleme/$slug")({
         { name: "description", content: r.excerpt },
         { property: "og:title", content: r.title },
         { property: "og:description", content: r.excerpt },
-        { property: "og:image", content: r.image },
+        { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
+        ...(r.image.startsWith("https://")
+          ? [
+              { property: "og:image", content: r.image },
+              { name: "twitter:image", content: r.image },
+            ]
+          : []),
       ],
     };
   },

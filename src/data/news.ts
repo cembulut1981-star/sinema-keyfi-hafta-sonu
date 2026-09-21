@@ -41,6 +41,7 @@ import varPrimetime from "@/assets/var-primetime.jpg.asset.json";
 import varOdysseyStill from "@/assets/var-mcdodys-uv011.jpg.asset.json";
 import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
 import crystalLakeStill from "@/assets/crystal-lake-exclusive-2.jpg.asset.json";
+import alanRitchsonReacherAsset from "@/assets/alan-ritchson-reacher.png.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -54,6 +55,28 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "alan-ritchson-reacher-die-trying-trump",
+    title: "Alan Ritchson Says a 'Reacher' White Supremacist Storyline Was Dropped After Trump Was Re-Elected",
+    excerpt:
+      "The star says Prime Video once approved a season adapting Lee Child's Die Trying, the Reacher novel built around a violent white supremacist militia plot, before the political climate changed.",
+    customBadge: "EW",
+    image: alanRitchsonReacherAsset.url,
+    source: "Entertainment Weekly",
+    body: `Alan Ritchson says one of his favorite Jack Reacher stories came closer to the screen than fans realized — and then vanished from the plan.
+
+The exchange started when a fan on Threads lamented that Prime Video's *Reacher* still had not adapted Lee Child's 1998 novel *Die Trying*, the book in which Jack Reacher is pulled into a conspiracy involving a white supremacist militia. Ritchson replied that it was his favorite book and added, "Fun fact: I had it approved until someone got re-elected."
+
+![Alan Ritchson as Jack Reacher in Prime Video's Reacher](${alanRitchsonReacherAsset.url})
+
+Ritchson did not name the elected official in that post, but the comment was widely read as a reference to Donald Trump, whom the actor has criticized publicly in the past. That political context is what turned an ordinary adaptation note into a flashpoint: *Die Trying* is not just another Reacher adventure, but a story about the character tearing through an extremist compound built on white nationalist ideology.
+
+The novel follows Reacher and Holly Johnson, the daughter of a powerful military figure, after they are abducted by a radical Montana militia hoping to use her as leverage. For television, that setup would have given the action series a sharper political edge than some of its more self-contained seasons.
+
+The show has already moved ahead with other Lee Child books, with each season built around a separate case. Season 4 recently premiered on Prime Video, and the platform has already renewed the series for a fifth season, keeping Ritchson's version of the hulking ex-military investigator at the center of one of streaming's most reliable action franchises.
+
+For fans, the comment leaves *Die Trying* in a strange place: not officially canceled in public, but clearly no longer the approved route Ritchson says it once was. Whether the book returns to the table later may depend less on Reacher's fists than on how much political heat Prime Video is willing to let the series carry.`,
+  },
   {
     slug: "crystal-lake-13-killer-things-friday-the-13th-series",
     title: "Crystal Lake: 13 Killer Things to Know About A24's New Friday the 13th Show",
