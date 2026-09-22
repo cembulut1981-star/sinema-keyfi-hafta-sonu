@@ -36,6 +36,7 @@ import residentEvilStill2Asset from "@/assets/resident-evil-still-2.jpg.asset.js
 import residentEvilStill3Asset from "@/assets/resident-evil-still-3.jpg.asset.json";
 import residentEvilStill4Asset from "@/assets/resident-evil-still-4.jpg.asset.json";
 import residentEvilStill5Asset from "@/assets/resident-evil-still-5.jpg.asset.json";
+import hopeReviewAsset from "@/assets/hope-review.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -51,6 +52,31 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "hope-review-na-hong-jin",
+    origTitle: "Hope",
+    title: "‘Hope’ Review: Na Hong-jin’s Creature Feature Is a Guns-Blazing Riot of Action and Bawdy Humor",
+    excerpt: "Na Hong-jin returns with a huge, unruly Korean monster movie that pairs brilliant action craft with uneven creature effects and a baggy 160-minute shape.",
+    rating: "3.5/5",
+    image: hopeReviewAsset.url,
+    body: `For a decade after *The Wailing*, every new rumor about Na Hong-jin's next film carried the weight of an event. *Hope* finally arrives with that pressure fully visible: it is massive, messy, very funny and, for long stretches, thrillingly alive. The movie may not sustain its best ideas for all 160 minutes, but its strongest passages are the kind of action filmmaking that makes a theater lean forward at once.
+
+The setting is Hope Harbor, a shabby South Korean coastal town close enough to the North that old warnings about spies and landmines still sit in the landscape. The story begins with a mutilated cow in a flat field and Police Chief Bum-seok, played by an irreplaceably funny Hwang Jung-min, trying to make sense of the gore. Local hunters suggest a tiger has crossed down from the North, but the film quickly makes clear that the threat is stranger, bigger and much harder to contain.
+
+Na's first hour is the film at its best: a wild collision of Western, 1950s sci-fi B-movie and Korean small-town farce. Bum-seok tears through devastated streets, recognizes bodies because everyone is someone's cousin or neighbor, and tries to impose ordinary police logic on a catastrophe that keeps smashing through walls. Hoyeon, making a terrific big-screen impression as Officer Sung-ae, gives the chaos a perfect jolt of fury when she treats the monster less like a mystery than a moral offense.
+
+The pleasure comes from how carefully the silliness is staged. Hong Kyung-pyo's camera glides through panic with an elegance that turns slapstick, horror and mayhem into one elastic rhythm. Cars spin, hunters misfire, bystanders make terrible decisions, and every new disaster lands with the timing of a joke and the force of an action set piece. When the film stays close to the terrified, ridiculous humans of Hope Harbor, it is explosively entertaining.
+
+The creature itself is where the spell weakens. Once the movie fully reveals its alien menace, the design has a weightless, old-school videogame quality that clashes with the physical beauty of the live-action world. The middle section also loses momentum as the hunters push deeper into the forest, the mythology expands and Michael Fassbender, Alicia Vikander and Taylor Russell appear under heavy effects work as part of the alien clan. Their presence is intriguing, but the movie is far less interesting when explaining the invaders than when watching ordinary people fail spectacularly to survive them.
+
+Still, *Hope* finds its pulse again in a final third that barrels toward a highway chase built from vehicles, bodies, bad plans and absurd escalation. By then, the weaker visual effects matter less than the human stunt work, comic momentum and Na's refusal to sand down the film's oddness. It is too long, too uneven and sometimes too silly about its own mythology, yet its best sequences are so confident that the rough edges become part of the riot.
+
+What remains is an overstuffed monster movie with no great philosophical burden and no apology for its vulgar pleasures. That lightness makes it a strange Cannes competition entry, but also a refreshing one. The humans of Hope Harbor may be slower, weaker and less noble than whatever has arrived among them, but they are far more fun to watch.
+
+**Film details:** Directed and written by Na Hong-jin; starring Hwang Jung-min, Zo In-sung, Hoyeon, Taylor Russell, Cameron Britton, Alicia Vikander and Michael Fassbender. Reviewed at Cannes Film Festival. Running time: 160 minutes.
+
+Source: Variety — Jessica Kiang.`,
+  },
   {
     slug: "resident-evil-review-zach-cregger-austin-abrams",
     origTitle: "Resident Evil",
