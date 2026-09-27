@@ -175,7 +175,7 @@ Created through bKREATIV Prods. and the Kreativ Lab, "Kri8 Universe" was indepen
   },
   {
     slug: "robert-pattinson-oscars-primetime-odyssey-dune-3",
-    title: "Robert Pattinson Is Having His Best Year Ever With 'Primetime,' 'The Drama,' 'The Odyssey' and 'Dune 3.' Will the Oscars Recognize Him?",
+    title: "Robert Pattinson Is Having His Best Year Ever — Will the Oscars Notice?",
     excerpt:
       "Four movies, two possible categories and two very different campaigns to juggle. Nobody is asking anymore whether Pattinson belongs in the race — the question is how the studios play it.",
     customBadge: "Awards",
