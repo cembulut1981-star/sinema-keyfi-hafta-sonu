@@ -37,6 +37,13 @@ import residentEvilStill3Asset from "@/assets/resident-evil-still-3.jpg.asset.js
 import residentEvilStill4Asset from "@/assets/resident-evil-still-4.jpg.asset.json";
 import residentEvilStill5Asset from "@/assets/resident-evil-still-5.jpg.asset.json";
 import hopeReviewAsset from "@/assets/hope-review.jpg.asset.json";
+import godzillaCoverAsset from "@/assets/godzilla-minus-zero-43.jpg.asset.json";
+import godzillaAoyamaAsset from "@/assets/godzilla-minus-zero-45.jpg.asset.json";
+import godzillaAttackAsset from "@/assets/godzilla-minus-zero-46.jpg.asset.json";
+import godzillaMurakamiAsset from "@/assets/godzilla-minus-zero-11.jpg.asset.json";
+import godzillaNodaAsset from "@/assets/godzilla-minus-zero-12.jpg.asset.json";
+import godzillaReturnAsset from "@/assets/godzilla-minus-zero-17.jpg.asset.json";
+import godzillaMizushimaAsset from "@/assets/godzilla-minus-zero-13.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -52,6 +59,45 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "godzilla-minus-zero-review-takashi-yamazaki",
+    origTitle: "Godzilla Minus Zero",
+    title: "‘Godzilla Minus Zero’ Review: Godzilla and King Ghidorah Collide in Takashi Yamazaki’s Spectacular Sequel",
+    excerpt: "Takashi Yamazaki brings back the family at the heart of Godzilla Minus One for a grander, ferocious clash of movie monsters that still remembers the people beneath them.",
+    rating: "4.5/5",
+    image: godzillaCoverAsset.url,
+    body: `The achievement of *Godzilla Minus One* was not simply making an enormous creature frightening again. Takashi Yamazaki made the wreckage feel personal, tying every shattered street to people still trying to build a life after war. His follow-up, *Godzilla Minus Zero*, expands the canvas without forgetting that intimate scale. This time Godzilla is not alone: King Ghidorah enters the story, and their collision turns postwar Japan into the stage for an astonishing spectacle.
+
+Set in 1949, the film opens with Ghidorah attacking Matsumoto. At first the beast has only one head, but its arrival already throws the city into chaos. The devastation is seen not just from a distance but through the eyes of Professor Murakami, a survivor of Hiroshima studying these extraordinary creatures. Yamazaki understands that the monsters become more unsettling when the camera lets us feel how small a single person is beneath them.
+
+![Godzilla Minus Zero: a monster descends over the city](${godzillaAttackAsset.url})
+
+The apparent destruction of Godzilla at the end of the last film has offered little safety. As the threat grows, Kenji Noda takes charge of a desperate response: draw the two giants into the same place, let them fight, then attempt to finish off whichever one survives. It sounds simple on paper. On screen, the plan becomes a chain of spectacularly dangerous decisions made by people with almost no room for error.
+
+![Kenji Noda directs the response to the new monster threat](${godzillaNodaAsset.url})
+
+Ghidorah is a particularly vivid addition. Its dragon-like heads emit bursts of orange lightning, while its enormous wings transform every aerial confrontation into a frantic contest of scale and movement. A sequence involving planes sent against the creature plays like an entire climax in another film; here it is only the prelude to Godzilla's return. Yamazaki's visual-effects choreography gives both monsters weight and character rather than treating them as interchangeable digital opponents.
+
+![Professor Murakami in Godzilla Minus Zero](${godzillaMurakamiAsset.url})
+
+Just as important, the film returns to Kōichi Shikishima, Noriko and their adopted daughter Akiko. Their family survived the first movie's terror, but survival has not freed them from its consequences. Kōichi is drawn back toward the cockpit, while Noriko's connection to Godzilla's previous attack gives her a role in the unfolding crisis. Those human stakes prevent the spectacle from floating free of the world it is destroying.
+
+![Shiro Mizushima returns in the 1949-set sequel](${godzillaMizushimaAsset.url})
+
+The supporting cast widens that human perspective. Noda's anxious determination gives the operation its nervous energy. Murakami brings a sense of wartime memory to the scientific mystery, while meteorologist Makoto Aoyama sees patterns in the storms surrounding the creatures. Rather than interrupting the action, these characters give the film something at stake beyond the question of which monster wins.
+
+![Meteorologist Makoto Aoyama in Godzilla Minus Zero](${godzillaAoyamaAsset.url})
+
+When Godzilla finally meets Ghidorah, Yamazaki stages more than a contest of size. The battle has the awe of a myth and the immediacy of a disaster happening to an actual city. His knack for making destruction feel both beautifully composed and genuinely alarming is still the series' greatest asset. The final stretch occasionally tangles its more mysterious plot threads, but the momentum and emotional investment carry the movie through.
+
+![Godzilla returns amid the destruction in Takashi Yamazaki's sequel](${godzillaReturnAsset.url})
+
+The result is a sequel that thinks bigger without reducing its people to spectators. *Godzilla Minus Zero* gives audiences the titanic showdown they came for, and then makes that clash matter by reminding us who has to live in its shadow.
+
+**Film details:** Written and directed by Takashi Yamazaki; starring Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Min Tanaka and Masami Nagasawa. Premiered at the 2026 New York Film Festival. Set for North American release November 6, 2026.
+
+Source: [Variety — Owen Gleiberman](https://variety.com/2026/film/reviews/godzilla-minus-zero-review-takashi-yamazaki-nyff-1236876075/). Images: Toho / GKIDS.`,
+  },
   {
     slug: "hope-review-na-hong-jin",
     origTitle: "Hope",
