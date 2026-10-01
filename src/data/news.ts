@@ -42,6 +42,16 @@ import varOdysseyStill from "@/assets/var-mcdodys-uv011.jpg.asset.json";
 import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
 import crystalLakeStill from "@/assets/crystal-lake-exclusive-2.jpg.asset.json";
 import alanRitchsonReacherAsset from "@/assets/alan-ritchson-reacher.png.asset.json";
+import floodCover from "@/assets/flood-cover.jpg.asset.json";
+import floodJlaw from "@/assets/flood-jlaw.png.asset.json";
+import floodCregger1 from "@/assets/flood-cregger-1.jpg.asset.json";
+import floodCregger2 from "@/assets/flood-cregger-2.jpg.asset.json";
+import residentEvilStill1 from "@/assets/resident-evil-still-1.jpg.asset.json";
+import scpCover from "@/assets/scp-cover.jpg.asset.json";
+import scpConvention from "@/assets/scp-convention.jpg.asset.json";
+import scpTinad from "@/assets/scp-tinad.jpg.asset.json";
+import scpPoster from "@/assets/scp-poster.jpg.asset.json";
+import scpStillwater from "@/assets/scp-stillwater.png.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -55,6 +65,64 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "neon-scp-foundation-open-source-horror-movie",
+    title: "Neon Is Turning the SCP Foundation Into an Open-Source Horror Anthology",
+    excerpt: "The studio is building a 2027 theatrical anthology around the internet's vast collaborative nightmare archive — and promising to honor its Creative Commons roots.",
+    customBadge: "IndieWire",
+    image: scpCover.url,
+    source: "IndieWire — Brian Welk",
+    body: `Hollywood has finally entered the SCP Foundation — but the most interesting part of Neon's newly announced movie may be the rules it has chosen to follow. The distributor is developing a theatrical horror anthology based on the enormous, community-written universe, with emerging filmmakers invited to explore its impossible objects, creatures and containment failures.
+
+![Neon and the SCP Foundation announce their collaboration](${scpCover.url})
+
+The SCP Wiki began in 2008 and imagines a clandestine organization whose motto is **Secure, Contain, Protect**. Its clinical case files transform internet folklore into institutional horror: every anomaly receives a number, a containment procedure and just enough redacted history to suggest a disaster larger than the page can hold.
+
+![An SCP Foundation community installation at Seoul Comic World](${scpConvention.url})
+
+Neon's film is planned for 2027, but it is not being presented as an exclusive ownership claim. The studio says it consulted the wiki's licensing team and intends to release the project under **CC BY-SA 3.0**, the same Creative Commons license that governs the source material. That commitment preserves the universe's remixable DNA and lets future creators build from the adaptation under the same terms.
+
+![A fan-made SCP-inspired cover](${scpTinad.url})
+
+That approach sharply contrasts with the controversy around A24's separately announced *V/H/S: SCP*. Wiki representatives said they had not been contacted about that production and stressed that no company can hold exclusive rights to the shared mythology. Neon's announcement therefore lands as both a movie deal and an unusually public argument about how Hollywood should adapt communal internet culture.
+
+![A stark landscape from the SCP-inspired project Stillwater](${scpStillwater.url})
+
+The anthology format is a natural fit. SCP stories can move from a single cursed object to cosmic dread, bureaucratic satire or body horror without breaking the fiction's central conceit. A rotating group of directors can preserve that unpredictability instead of forcing thousands of entries into one conventional hero's journey.
+
+![SCP iconography reframed as fan-made horror art](${scpPoster.url})
+
+No directors, cast or individual anomalies have been revealed. For now, the decisive creative promise is structural: Neon's SCP movie aims to be a contribution to a living archive rather than the final, authorized version of it. [Read the original report at IndieWire](https://www.indiewire.com/news/breaking-news/neon-scp-foundation-movie-compliant-creative-commons-a24-1235219402/).`,
+  },
+  {
+    slug: "jennifer-lawrence-the-flood-zach-cregger",
+    title: "Jennifer Lawrence Will Lead Zach Cregger's Sci-Fi Thriller The Flood",
+    excerpt: "The Oscar winner is joining the Weapons filmmaker for a secretive original thriller produced by Amblin and set for an August 2028 theatrical release.",
+    customBadge: "Variety",
+    image: floodCover.url,
+    source: "Variety — Jack Dunn",
+    body: `Jennifer Lawrence is heading back into blockbuster-scale science fiction. The actor will lead *The Flood*, an original thriller written, directed and produced by Zach Cregger for New Line and Warner Bros., with Amblin Entertainment and Vertigo Entertainment also producing.
+
+![Jennifer Lawrence at a film premiere](${floodJlaw.url})
+
+Plot details remain deliberately sealed, but Cregger has described the idea as science fiction and hinted that its terror reaches into space. That mystery makes the casting especially intriguing: Lawrence can carry both intimate psychological unease and the physical pressure of an effects-heavy studio production.
+
+![Zach Cregger discusses his genre work at San Diego Comic-Con](${floodCregger1.url})
+
+The film reunites Cregger with New Line after *Weapons*, the follow-up that confirmed *Barbarian* was not a one-off genre breakthrough. His movies thrive on abrupt shifts in perspective and tone, so the title *The Flood* is less a plot summary than an invitation to speculate about what kind of pressure he intends to unleash.
+
+![Cregger returns to an original screenplay after his recent horror successes](${floodCregger2.url})
+
+Lawrence's recent choices have balanced filmmaker-led drama with recognizable genre worlds. Putting her at the center of a secretive original property gives the project star power without revealing the mechanism of its suspense — a rare luxury for a studio film announced years before release.
+
+![Cregger's recent work includes a new Resident Evil adaptation](${residentEvilStill1.url})
+
+Amblin's involvement adds another layer. Cregger reportedly developed the concept while considering what could be more frightening than being trapped in space, a premise that connects Spielbergian awe to the director's taste for destabilizing horror. Roy Lee and Miri Yoon of Vertigo Entertainment are producing alongside Amblin.
+
+![Jennifer Lawrence will anchor the still-secret science-fiction story](${floodCover.url})
+
+Warner Bros. has dated *The Flood* for **August 11, 2028**. Further casting and story information are still under wraps, leaving Lawrence and Cregger's pairing as the first clear signal of the movie's scale and ambition. [Read the original report at Variety](https://variety.com/2026/film/news/jennifer-lawrence-zach-creggers-the-flood-1236878570/).`,
+  },
   {
     slug: "alan-ritchson-reacher-die-trying-trump",
     title: "Alan Ritchson Says a 'Reacher' White Supremacist Storyline Was Dropped After Trump Was Re-Elected",

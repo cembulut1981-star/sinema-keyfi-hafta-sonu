@@ -27,6 +27,11 @@ import furFinaleCover from "@/assets/ew-furious-finale-cover.jpg";
 import furFinaleG1 from "@/assets/ew-furious-finale-g1.jpg";
 import furFinaleG2 from "@/assets/ew-furious-finale-g2.jpg";
 import furFinaleG3 from "@/assets/ew-furious-finale-g3.jpg";
+import wednesdayCover from "@/assets/wednesday-cover.jpg.asset.json";
+import wednesdayGala from "@/assets/wednesday-gala.jpg.asset.json";
+import wednesdayStill from "@/assets/wednesday-still.jpg.asset.json";
+import wednesdayPromo from "@/assets/wednesday-promo.jpg.asset.json";
+import jennaWednesdayPortrait from "@/assets/jenna-wednesday.jpg.asset.json";
 
 export type SeriesItem = {
   slug: string;
@@ -42,6 +47,37 @@ export type SeriesItem = {
 };
 
 export const SERIES: SeriesItem[] = [
+  {
+    slug: "wednesday-season-3-wraps-production",
+    title: "Wednesday Season 3 Wraps Production After Seven Months in Dublin",
+    excerpt: "Jenna Ortega is back at the typewriter as Netflix closes the coffin on filming, with Eva Green, Winona Ryder and Lena Headey joining Nevermore's expanding circle.",
+    customBadge: "Netflix",
+    customBadgeStyle: "light",
+    image: wednesdayCover.url,
+    source: "The Hollywood Reporter",
+    gallery: [wednesdayGala.url, wednesdayStill.url, wednesdayPromo.url, jennaWednesdayPortrait.url],
+    body: `Production on *Wednesday* Season 3 has officially wrapped after a seven-month shoot in Dublin. Netflix marked the milestone with a first-look image of Jenna Ortega's heroine seated at her typewriter, expressionless as ever, in a room drained to the show's signature black-and-white palette.
+
+![Jenna Ortega returns to the typewriter in the first Season 3 image](${wednesdayCover.url})
+
+The wrap moves the series into a demanding post-production phase packed with supernatural effects. Netflix has not announced a premiere date, though a return in 2027 is expected. The gap will still feel substantial for a show whose first season became the platform's most-watched English-language original series.
+
+![Jenna Ortega at a Wednesday Season 2 event](${wednesdayGala.url})
+
+Season 3 expands the Addams family mystery introduced at the end of the previous chapter. Eva Green joins as Ophelia Frump, Morticia's long-missing sister, giving Tim Burton another collaborator with an instinct for gothic worlds. Winona Ryder also enters as Tabitha, while Lena Headey, Chris Sarandon, Noah Taylor, Andrew McCarthy and James Lance are among the new faces.
+
+![Wednesday explores another mystery at Nevermore Academy](${wednesdayStill.url})
+
+The returning ensemble remains unusually deep: Emma Myers, Hunter Doohan, Joy Sunday, Moosa Mostafa, Georgie Farmer, Isaac Ordonez and Billie Piper are back alongside Luis Guzmán, Catherine Zeta-Jones, Joanna Lumley and Fred Armisen. Ortega continues not only as the title character but as an executive producer.
+
+![The series is widening its gothic ensemble for Season 3](${wednesdayPromo.url})
+
+Creators Alfred Gough and Miles Millar remain the showrunners, with Burton returning as director and executive producer. Filming began in February 2026 and continued in Ireland, where production relocated after the first season's Romanian shoot.
+
+![Jenna Ortega remains the center of Netflix's Addams Family phenomenon](${jennaWednesdayPortrait.url})
+
+Story details are still being guarded, but Ortega has said the new season confronts the unease of senior year: family pressure, adulthood and the alarming possibility that even Wednesday Addams may need a plan for her future. The cameras have stopped; now Nevermore's next mystery heads into the editing room. [Read the original report at The Hollywood Reporter](https://www.hollywoodreporter.com/tv/tv-news/netflix-wednesday-season-3-release-date-1236717047/).`,
+  },
   {
     slug: "line-of-fire-peter-krause-hope-davis-cover-story",
     title: "The Line of Fire Cast Serves Justice in Exclusive EW Cover Portraits",
