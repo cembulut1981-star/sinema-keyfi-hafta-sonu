@@ -9,19 +9,19 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as IndexRouteImport } from './routes/index'
-import { Route as AramaRouteImport } from './routes/arama'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
-import { Route as DiziSlugRouteImport } from './routes/dizi.$slug'
-import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
-import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
-import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
-import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
+import { Route as AramaRouteImport } from './routes/arama'
+import { Route as IndexRouteImport } from './routes/index'
 import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
+import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
+import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
+import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
+import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
+import { Route as DiziSlugRouteImport } from './routes/dizi.$slug'
 
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AramaRoute = AramaRouteImport.update({
@@ -29,29 +29,14 @@ const AramaRoute = AramaRouteImport.update({
   path: '/arama',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
-  id: '/sitemap.xml',
-  path: '/sitemap.xml',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const DiziSlugRoute = DiziSlugRouteImport.update({
-  id: '/dizi/$slug',
-  path: '/dizi/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const HaberSlugRoute = HaberSlugRouteImport.update({
-  id: '/haber/$slug',
-  path: '/haber/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const IncelemeSlugRoute = IncelemeSlugRouteImport.update({
-  id: '/inceleme/$slug',
-  path: '/inceleme/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KategoriSlugRoute = KategoriSlugRouteImport.update({
-  id: '/kategori/$slug',
-  path: '/kategori/$slug',
+const MuzikSlugRoute = MuzikSlugRouteImport.update({
+  id: '/muzik/$slug',
+  path: '/muzik/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ListeSlugRoute = ListeSlugRouteImport.update({
@@ -59,9 +44,24 @@ const ListeSlugRoute = ListeSlugRouteImport.update({
   path: '/liste/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const MuzikSlugRoute = MuzikSlugRouteImport.update({
-  id: '/muzik/$slug',
-  path: '/muzik/$slug',
+const KategoriSlugRoute = KategoriSlugRouteImport.update({
+  id: '/kategori/$slug',
+  path: '/kategori/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IncelemeSlugRoute = IncelemeSlugRouteImport.update({
+  id: '/inceleme/$slug',
+  path: '/inceleme/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HaberSlugRoute = HaberSlugRouteImport.update({
+  id: '/haber/$slug',
+  path: '/haber/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DiziSlugRoute = DiziSlugRouteImport.update({
+  id: '/dizi/$slug',
+  path: '/dizi/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -149,11 +149,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/arama': {
@@ -163,39 +163,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AramaRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/sitemap.xml': {
-      id: '/sitemap.xml'
-      path: '/sitemap.xml'
-      fullPath: '/sitemap.xml'
-      preLoaderRoute: typeof SitemapDotxmlRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/dizi/$slug': {
-      id: '/dizi/$slug'
-      path: '/dizi/$slug'
-      fullPath: '/dizi/$slug'
-      preLoaderRoute: typeof DiziSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/haber/$slug': {
-      id: '/haber/$slug'
-      path: '/haber/$slug'
-      fullPath: '/haber/$slug'
-      preLoaderRoute: typeof HaberSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/inceleme/$slug': {
-      id: '/inceleme/$slug'
-      path: '/inceleme/$slug'
-      fullPath: '/inceleme/$slug'
-      preLoaderRoute: typeof IncelemeSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/kategori/$slug': {
-      id: '/kategori/$slug'
-      path: '/kategori/$slug'
-      fullPath: '/kategori/$slug'
-      preLoaderRoute: typeof KategoriSlugRouteImport
+    '/muzik/$slug': {
+      id: '/muzik/$slug'
+      path: '/muzik/$slug'
+      fullPath: '/muzik/$slug'
+      preLoaderRoute: typeof MuzikSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/liste/$slug': {
@@ -205,11 +184,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ListeSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/muzik/$slug': {
-      id: '/muzik/$slug'
-      path: '/muzik/$slug'
-      fullPath: '/muzik/$slug'
-      preLoaderRoute: typeof MuzikSlugRouteImport
+    '/kategori/$slug': {
+      id: '/kategori/$slug'
+      path: '/kategori/$slug'
+      fullPath: '/kategori/$slug'
+      preLoaderRoute: typeof KategoriSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/inceleme/$slug': {
+      id: '/inceleme/$slug'
+      path: '/inceleme/$slug'
+      fullPath: '/inceleme/$slug'
+      preLoaderRoute: typeof IncelemeSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/haber/$slug': {
+      id: '/haber/$slug'
+      path: '/haber/$slug'
+      fullPath: '/haber/$slug'
+      preLoaderRoute: typeof HaberSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dizi/$slug': {
+      id: '/dizi/$slug'
+      path: '/dizi/$slug'
+      fullPath: '/dizi/$slug'
+      preLoaderRoute: typeof DiziSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
