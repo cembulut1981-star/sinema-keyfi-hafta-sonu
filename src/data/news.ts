@@ -50,6 +50,7 @@ import residentEvilStill1 from "@/assets/resident-evil-still-1.jpg.asset.json";
 import scpCover from "@/assets/scp-cover.jpg.asset.json";
 import scpConvention from "@/assets/scp-convention.jpg.asset.json";
 import scpTinad from "@/assets/scp-tinad.jpg.asset.json";
+import scpPoster from "@/assets/scp-poster.jpg.asset.json";
 import scpStillwater from "@/assets/scp-stillwater.png.asset.json";
 
 export type NewsItem = {
@@ -89,7 +90,7 @@ That approach sharply contrasts with the controversy around A24's separately ann
 
 The anthology format is a natural fit. SCP stories can move from a single cursed object to cosmic dread, bureaucratic satire or body horror without breaking the fiction's central conceit. A rotating group of directors can preserve that unpredictability instead of forcing thousands of entries into one conventional hero's journey.
 
-![The SCP community's visual language mixes field reports, symbols and found imagery](${scpConvention.url})
+![SCP iconography reframed as fan-made horror art](${scpPoster.url})
 
 No directors, cast or individual anomalies have been revealed. For now, the decisive creative promise is structural: Neon's SCP movie aims to be a contribution to a living archive rather than the final, authorized version of it. [Read the original report at IndieWire](https://www.indiewire.com/news/breaking-news/neon-scp-foundation-movie-compliant-creative-commons-a24-1235219402/).`,
   },
