@@ -44,6 +44,9 @@ import godzillaMurakamiAsset from "@/assets/godzilla-minus-zero-11.jpg.asset.jso
 import godzillaNodaAsset from "@/assets/godzilla-minus-zero-12.jpg.asset.json";
 import godzillaReturnAsset from "@/assets/godzilla-minus-zero-17.jpg.asset.json";
 import godzillaMizushimaAsset from "@/assets/godzilla-minus-zero-13.jpg.asset.json";
+import galacticRacerCover from "@/assets/galactic-racer-cover.jpg.asset.json";
+import galacticRacerTrack from "@/assets/galactic-racer-track.jpg.asset.json";
+import galacticRacerPodrace from "@/assets/galactic-racer-podrace.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -59,6 +62,33 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "star-wars-galactic-racer-review",
+    origTitle: "Star Wars: Galactic Racer",
+    title: "‘Star Wars: Galactic Racer’ Review: The Fastest Way Back to a Galaxy Far, Far Away",
+    excerpt: "Fuse Games turns the thrill of podracing into a terrific arcade racer, with risky boosts, varied vehicles and a campaign that makes every crash count.",
+    rating: "Recommended",
+    image: galacticRacerCover.url,
+    body: `*Star Wars: Galactic Racer* does not need a lightsaber to make its galaxy feel exciting. It takes the exhilarating idea behind the prequels' podracing sequence and builds an entire racing game around its speed, noise and precarious machinery. The result is at its best when the track is almost too fast to read and keeping a battered vehicle intact feels like a victory of its own.
+
+The story follows Shade, a racer entering a galactic league to challenge Kestar Bool, a champion whose wealthy family once seized Shade's homeworld. That rivalry gives the campaign a destination without turning every race into a lesson in franchise history. The action, not the mythology, is the point.
+
+Vehicle choice gives the competition its texture. Landspeeders reward confident drifting, skimmers take tight corners differently, and speeder bikes trade durability for sharp acceleration. Podracers push the speed much further, demanding a different kind of nerve. Learning when each machine can be pushed — and when to back off — is more satisfying than simply memorizing the quickest line through a bend.
+
+![A racing craft banks across a remote Galactic Racer course](${galacticRacerTrack.url})
+
+Boosting adds another layer of risk. A conventional turbo provides an immediate burst, while the more powerful Ramjet can destroy your vehicle if mishandled. On tracks strewn with hazards and aggressive opponents, that distinction keeps races from becoming routine. The best moments arrive when an ambitious shortcut, a narrow gap and a nearly spent engine all demand a decision at once.
+
+The main campaign frames that racing as a sequence of runs. Wins bring parts and upgrades; heavy damage can leave a machine pulling to one side, while too many failures force a fresh start. Sponsors and rival racers further shape a season. This structure makes a close finish matter because it affects more than a single leaderboard position, although its repeated on-foot interludes slow the momentum between races.
+
+There is more to do beyond Shade's campaign, including arcade events, time trials and shorter character scenarios. Podracing enthusiasts should know that much of the dedicated podracer action lives in those extra modes rather than the main story. Online competition offers another way to race, but its long-term appeal depends on the community that gathers after launch.
+
+![Podracers race across water in Star Wars: Galactic Racer](${galacticRacerPodrace.url})
+
+The game's grimy visual detail and forceful engine audio give its vehicles a tangible personality. More importantly, the high-speed action stays fluid. When *Galactic Racer* finds its rhythm, every scrape against a wall and every perfectly timed boost makes the next lap hard to resist. The stretches on foot are less compelling, but on the track this is an unusually confident and generous arcade racer.
+
+**Game details:** Developed by Fuse Games; published by Secret Mode. PlayStation 5, Xbox Series X|S and PC. Release date: October 6, 2026. Images: Fuse Games / Lucasfilm Games. [Original review](https://kotaku.com/star-wars-galactic-racer-the-kotaku-review-2000739105).`,
+  },
   {
     slug: "godzilla-minus-zero-review-takashi-yamazaki",
     origTitle: "Godzilla Minus Zero",

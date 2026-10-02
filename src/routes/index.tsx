@@ -11,6 +11,15 @@ const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
 const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series";
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
+const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === "star-wars-galactic-racer-review");
+const NEW_STORIES = [
+  ARTICLES.find((article) => article.newsSlug === "neon-scp-foundation-open-source-horror-movie"),
+  ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
+  ARTICLES.find((article) => article.seriesSlug === "wednesday-season-3-wraps-production"),
+  ARTICLES.find((article) => article.reviewSlug === "godzilla-minus-zero-review-takashi-yamazaki"),
+].filter((article): article is Article => Boolean(article));
+const TOP_IDS = new Set([NEW_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
+const FEED_ARTICLES = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id));
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,7 +35,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Article; sideCards: Article[]; reverse?: boolean }) {
+function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = false }: { centerCard: Article; sideCards: Article[]; reverse?: boolean; centerFirstMobile?: boolean }) {
   const half = Math.ceil(sideCards.length / 2);
   const left = sideCards.slice(0, half);
   const right = sideCards.slice(half);
@@ -97,15 +106,15 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
         </>
       ) : (
         <>
-          <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+          <div className={`grid gap-6 auto-rows-fr min-h-0 h-full ${centerFirstMobile ? "order-2 md:order-none" : ""}`}>
             {left.map((a) => (
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
           </div>
-          <div className="min-h-0 h-full">
+          <div className={`min-h-0 h-full ${centerFirstMobile ? "order-1 md:order-none" : ""}`}>
             <ArticleCard article={centerCard} />
           </div>
-          <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+          <div className={`grid gap-6 auto-rows-fr min-h-0 h-full ${centerFirstMobile ? "order-3 md:order-none" : ""}`}>
             {right.map((a) => (
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
@@ -187,7 +196,7 @@ function Index() {
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG).slice(0, count);
+    const visibleArticles = FEED_ARTICLES.slice(0, count);
     const smallCandidates = visibleArticles.filter(
       (a) =>
         (a.category === "haberler" || a.category === "diziler") &&
@@ -201,18 +210,18 @@ function Index() {
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
   // always fills all 4 columns instead of leaving a gap on the right.
-  let effectiveCount = Math.min(visibleCount, ARTICLES.length);
+  let effectiveCount = Math.min(visibleCount, FEED_ARTICLES.length);
   let built = build(effectiveCount);
   for (let extra = 1; extra <= 3; extra++) {
     if (built.leftovers.length % 4 === 0) break;
-    const next = Math.min(visibleCount + extra, ARTICLES.length);
+    const next = Math.min(visibleCount + extra, FEED_ARTICLES.length);
     if (next === effectiveCount) break;
     effectiveCount = next;
     built = build(next);
   }
 
   const { duo, rows, leftovers } = built;
-  const hasMore = effectiveCount < ARTICLES.length;
+  const hasMore = effectiveCount < FEED_ARTICLES.length;
 
 
   const duoSection =
@@ -242,6 +251,7 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         <div className="h-10 md:h-14" aria-hidden />
+        {NEW_REVIEW ? <MixedRow centerCard={NEW_REVIEW} sideCards={NEW_STORIES} centerFirstMobile /> : null}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="TV Series" dateLabel="13 September 2026" />
         ) : null}
@@ -266,7 +276,7 @@ function Index() {
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, ARTICLES.length))}
+              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED_ARTICLES.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
               Load More
