@@ -11,6 +11,14 @@ const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
 const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series";
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
+const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === "star-wars-galactic-racer-review");
+const NEW_STORIES = [
+  ARTICLES.find((article) => article.newsSlug === "neon-scp-foundation-open-source-horror-movie"),
+  ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
+  ARTICLES.find((article) => article.seriesSlug === "wednesday-season-3-wraps-production"),
+  ARTICLES.find((article) => article.reviewSlug === "godzilla-minus-zero-review-takashi-yamazaki"),
+].filter((article): article is Article => Boolean(article));
+const TOP_IDS = new Set([NEW_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -195,7 +203,7 @@ function Index() {
     );
     const duo = smallCandidates.slice(2, 4);
     const duoIds = new Set(duo.map((a) => a.id));
-    const feedArticles = visibleArticles.filter((a) => !duoIds.has(a.id));
+    const feedArticles = visibleArticles.filter((a) => !duoIds.has(a.id) && !TOP_IDS.has(a.id));
     return { duo, ...buildRows(feedArticles, FRAMED) };
   };
 
@@ -242,6 +250,7 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         <div className="h-10 md:h-14" aria-hidden />
+        {NEW_REVIEW ? <MixedRow centerCard={NEW_REVIEW} sideCards={NEW_STORIES} /> : null}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="TV Series" dateLabel="13 September 2026" />
         ) : null}
