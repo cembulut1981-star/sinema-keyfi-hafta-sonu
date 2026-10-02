@@ -98,7 +98,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
           </div>
-          <div className={`grid gap-6 auto-rows-fr min-h-0 h-full ${centerFirstMobile ? "order-3 md:order-none" : ""}`}>
+          <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
             {right.map((a) => (
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
@@ -114,7 +114,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
           <div className={`min-h-0 h-full ${centerFirstMobile ? "order-1 md:order-none" : ""}`}>
             <ArticleCard article={centerCard} />
           </div>
-          <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+          <div className={`grid gap-6 auto-rows-fr min-h-0 h-full ${centerFirstMobile ? "order-3 md:order-none" : ""}`}>
             {right.map((a) => (
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
