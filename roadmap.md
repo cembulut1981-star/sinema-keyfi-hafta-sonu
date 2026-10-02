@@ -1,0 +1,3 @@
+- [ ] Add an original Galactic Racer review without the publication name in visible review text.
+- [ ] Show the newest stories first on the homepage without duplicates.
+- [ ] Check review, homepage, and media rendering.
