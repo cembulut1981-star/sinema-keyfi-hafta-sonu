@@ -35,7 +35,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Article; sideCards: Article[]; reverse?: boolean }) {
+function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = false }: { centerCard: Article; sideCards: Article[]; reverse?: boolean; centerFirstMobile?: boolean }) {
   const half = Math.ceil(sideCards.length / 2);
   const left = sideCards.slice(0, half);
   const right = sideCards.slice(half);
@@ -106,12 +106,12 @@ function MixedRow({ centerCard, sideCards, reverse = false }: { centerCard: Arti
         </>
       ) : (
         <>
-          <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
+          <div className={`grid gap-6 auto-rows-fr min-h-0 h-full ${centerFirstMobile ? "order-2 md:order-none" : ""}`}>
             {left.map((a) => (
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
           </div>
-          <div className="min-h-0 h-full">
+          <div className={`min-h-0 h-full ${centerFirstMobile ? "order-1 md:order-none" : ""}`}>
             <ArticleCard article={centerCard} />
           </div>
           <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
@@ -251,7 +251,7 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         <div className="h-10 md:h-14" aria-hidden />
-        {NEW_REVIEW ? <MixedRow centerCard={NEW_REVIEW} sideCards={NEW_STORIES} /> : null}
+        {NEW_REVIEW ? <MixedRow centerCard={NEW_REVIEW} sideCards={NEW_STORIES} centerFirstMobile /> : null}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="TV Series" dateLabel="13 September 2026" />
         ) : null}
