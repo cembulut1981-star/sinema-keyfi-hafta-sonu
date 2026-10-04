@@ -17,7 +17,6 @@ const NEW_STORIES = [
   ARTICLES.find((article) => article.newsSlug === "neon-scp-foundation-open-source-horror-movie"),
   ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
   ARTICLES.find((article) => article.seriesSlug === "wednesday-season-3-wraps-production"),
-  ARTICLES.find((article) => article.reviewSlug === "godzilla-minus-zero-review-takashi-yamazaki"),
 ].filter((article): article is Article => Boolean(article));
 const TOP_IDS = new Set([NEW_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 const FEED_ARTICLES = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id));
