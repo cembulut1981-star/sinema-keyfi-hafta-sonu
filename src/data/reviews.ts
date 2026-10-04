@@ -47,6 +47,8 @@ import godzillaMizushimaAsset from "@/assets/godzilla-minus-zero-13.jpg.asset.js
 import galacticRacerCover from "@/assets/galactic-racer-cover.jpg.asset.json";
 import galacticRacerTrack from "@/assets/galactic-racer-track.jpg.asset.json";
 import galacticRacerPodrace from "@/assets/galactic-racer-podrace.jpg.asset.json";
+import heartOfTheBeastCover from "@/assets/heart-of-the-beast-cover.jpg.asset.json";
+import heartOfTheBeastStill from "@/assets/heart-of-the-beast-still.jpg.asset.json";
 
 export type Review = {
   slug: string;
@@ -62,6 +64,29 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "heart-of-the-beast-review",
+    origTitle: "Heart of the Beast",
+    title: "‘Heart of the Beast’ Review: Brad Pitt and His Dog Brave the Alaskan Wilderness",
+    excerpt: "David Ayer's survival drama finds its emotional center in the bond between an injured ex-soldier and his loyal military dog.",
+    rating: "Recommended",
+    image: heartOfTheBeastCover.url,
+    body: `A retired soldier, his dog and an expanse of unforgiving wilderness: *Heart of the Beast* keeps its premise simple, then finds a surprisingly affecting story in the trust between its two leads. Director David Ayer trades crowded action for a more intimate kind of peril, where surviving the next hour depends as much on companionship as on training.
+
+Brad Pitt plays James, a former US Army Special Forces officer who escapes into the Alaskan mountains with Odin, his retired military working dog. Both carry reminders of their service: James seeks solitude, while Odin lives with a prosthetic leg and lingering trauma. Their routine trip becomes a fight to get home after James suffers a heart attack at the controls of their plane and they crash far from help.
+
+The film begins by showing Odin alone on a remote road before returning to the events that brought him there. Knowing he reaches that point does not remove the tension. Instead, the question becomes what this pair must endure along the way — and whether they can keep one another alive.
+
+![James and Odin cross the Alaskan wilderness together](${heartOfTheBeastStill.url})
+
+Rivers, wildlife and rough terrain supply the expected survival-film obstacles, but the action works because neither James nor Odin is simply along for the ride. Odin tries to help when James collapses; after the crash, James cares for his wounded companion. Ayer repeatedly brings the focus back to that exchange of protection, giving even familiar hazards a personal cost.
+
+Pitt makes James's solitary struggle feel lived-in, while Uber, the German Shepherd playing Odin, anchors the film without being reduced to a gimmick. The movie occasionally leans too hard into imagining the dog's inner life, but more often it lets his movement and attention tell the story. J.K. Simmons appears in a small supporting role; the heart of the film remains the man and dog on their own.
+
+The route through the wilderness may be predictable, yet *Heart of the Beast* earns its sentiment through a convincingly shared ordeal. Its strongest moments are not about conquering nature. They are about two old partners refusing to leave each other behind.
+
+Source: [Empire — Olly Richards, September 22, 2026](https://www.empireonline.com/movies/reviews/heart-of-the-beast/). Images: Empire / film publicity.`,
+  },
   {
     slug: "star-wars-galactic-racer-review",
     origTitle: "Star Wars: Galactic Racer",
