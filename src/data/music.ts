@@ -11,6 +11,7 @@ import img_ramones from "@/assets/news-rs-music-ramones.jpg";
 import img_u2 from "@/assets/news-rs-music-u2-list.jpg";
 import img_rosalia from "@/assets/news-rs-music-rosalia.jpg";
 import img_bennett from "@/assets/news-rs-music-lauren-bennett.jpg";
+import metallicaSphereAsset from "@/assets/metallica-sphere.jpg.asset.json";
 
 
 export type MusicItem = {
@@ -25,6 +26,15 @@ export type MusicItem = {
 };
 
 export const MUSIC: MusicItem[] = [
+  {
+    slug: "metallica-life-burns-faster-sphere-review",
+    title: "Metallica's Sphere Residency Is Bigger Than Metallica",
+    excerpt: "The metal giants turn Las Vegas into Planet Metallica with two no-repeat set lists, overwhelming visuals, and the most ambitious production of their 45-year career.",
+    body: "For one weekend, Las Vegas felt less like Sin City than Planet Metallica. Black band shirts filled casinos, pool decks, and even the Venetian's gondolas as fans arrived for the opening nights of Metallica's sold-out _Life Burns Faster_ residency at the Sphere. The band extended the takeover beyond the concerts with fan bars, a huge pop-up shop, and a blood drive.\n\nJames Hetfield called the residency a dream come true, and the scale justified the sentiment. Metallica have spent decades chasing the biggest possible version of a heavy-metal show; the Sphere gives them a 160,000-square-foot canvas that wraps around the audience and makes even a stadium production feel intimate by comparison.\n\nThe most effective sequences fused familiar songs with images vast enough to change how the music felt. A virtual roller-coaster ride sent \"Wherever I May Roam\" through New York, Hollywood, Stonehenge, and Nashville. \"The Call of Ktulu\" summoned a sea monster onto the Las Vegas Strip, while \"One\" turned marching soldiers into skeletons after an explosion. During \"Enter Sandman,\" a moonlike Planet Metallica appeared to fall toward the band.\n\nAcross Thursday and Saturday, the group's \"No Repeat Weekend\" delivered 30 different songs. The sets leaned into _Master of Puppets_ and the Black Album, balancing \"Enter Sandman,\" \"One,\" and \"Master of Puppets\" with rarities including \"Devil's Dance\" and the ten-minute \"...And Justice for All.\" The band played with the precision demanded by a production in which every musical cue had to meet its visual counterpart.\n\nThat precision also exposed the show's central tension: the imagery could become the headliner. Fans in the highest seats sometimes had a better view than those standing near the stage, where following Lars Ulrich's moving drum setup meant missing the full sweep of the screen. Metallica remained forceful enough to fill the room, but they often sounded like the world's greatest live soundtrack for an astonishing digital spectacle.\n\nNot every idea reached the same height. \"Sad but True\" received comparatively literal images of hammers and walking figures, \"Orion\" was paired with conventional concert-rig visuals, and \"Fuel\" arrived without the fire its chorus seems to demand. Yet the misses only clarified how powerfully the best scenes transformed the songs.\n\nFor the roughly 17,000 people inside, the experience was still joyous and occasionally moving. Fans air-drummed through entire sets, watched Hetfield grin on the enormous screen, and treated the weekend like an early Christmas. After 45 years, Metallica have found a venue capable of making the world's biggest metal band look small — and turned that imbalance into the point of the show.\n\n[Original review](https://www.rollingstone.com/music/music-live-reviews/metallica-life-burns-faster-sphere-review-1235630290/)",
+    image: metallicaSphereAsset.url,
+    source: "Rolling Stone",
+    videoUrl: "https://www.youtube.com/embed/6f5SsjjrSp0",
+  },
   {
     slug: "jenna-ortega-sabrina-carpenter-taste-klip-kamera-arkasi",
     title: "Jenna Ortega Breaks Down Sabrina Carpenter's \"Taste\" Video: \"None of It Was Choreographed\"",
