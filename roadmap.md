@@ -1,3 +1,6 @@
 - [x] Add an original Galactic Racer review without the publication name in visible review text.
 - [x] Show the newest stories first on the homepage without duplicates.
 - [x] Check review, homepage, and media rendering.
+- [x] Add the Metallica Sphere live review as the newest music story.
+- [x] Surface the Metallica card in the homepage lead row.
+- [x] Verify the music page, card, image, and video.
