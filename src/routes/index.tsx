@@ -13,11 +13,12 @@ const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series"
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 const NEW_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const NEW_STORIES = [
+  ARTICLES.find((article) => article.newsSlug === "inde-navarrette-obsession-gap-style-interview"),
   ARTICLES.find((article) => article.reviewSlug === "heart-of-the-beast-review"),
   ARTICLES.find((article) => article.reviewSlug === "star-wars-galactic-racer-review"),
   ARTICLES.find((article) => article.newsSlug === "neon-scp-foundation-open-source-horror-movie"),
   ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
-].filter((article): article is Article => Boolean(article));
+].filter((article): article is Article => Boolean(article)).slice(0, 4);
 const TOP_IDS = new Set([NEW_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 const FEED_ARTICLES = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id));
 
