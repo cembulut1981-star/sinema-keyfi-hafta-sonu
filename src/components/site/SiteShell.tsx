@@ -462,6 +462,20 @@ export function CustomBadge({
   );
 }
 
+/**
+ * Rozet altına alındığında kullanılan sarı kapsül — siyah kalın çerçeve,
+ * yuvarlatılmış tam kenar ve siyah kalın büyük harf metin.
+ */
+export function BadgePill({ label, className = "" }: { label?: string; className?: string }) {
+  if (!label) return null;
+  return (
+    <span
+      className={`inline-block rounded-full border-[3px] border-black bg-[#ffe600] px-4 py-0.5 font-display uppercase font-black text-[11px] tracking-wide leading-tight text-black ${className}`}
+    >
+      {label}
+    </span>
+  );
+}
 
 /**
  * Geri sayım rozeti — sıralama (ranking) içeriklerinde kullanılır.
@@ -599,12 +613,17 @@ export function SmallArticleCard({
             </span>
           ) : null}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-<CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
+          {!article.customBadgeBelow ? (
+            <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
+          ) : null}
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
       </div>
       {/* Alt yarı — bembeyaz metin bloğu */}
       <div className="flex-[0.4] min-h-0 bg-background px-4 pt-2 pb-3 flex flex-col justify-center">
+        {article.customBadgeBelow && article.customBadge ? (
+          <BadgePill label={article.customBadge} className="mb-2 self-start" />
+        ) : null}
         {!badgeInImage ? (
           <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-1.5 py-0.5 self-start">
             {CATEGORY_LABEL[article.category]}
