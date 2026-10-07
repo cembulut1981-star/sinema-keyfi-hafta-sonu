@@ -698,10 +698,15 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
             />
           )}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
+          {!article.customBadgeBelow ? (
+            <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
+          ) : null}
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
       </div>
       <div className="p-4 flex-1 flex flex-col">
+        {article.customBadgeBelow && article.customBadge ? (
+          <BadgePill label={article.customBadge} className="mb-2 self-start" />
+        ) : null}
         <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
           {CATEGORY_LABEL[article.category]}
         </span>
