@@ -52,6 +52,7 @@ import scpConvention from "@/assets/scp-convention.jpg.asset.json";
 import scpTinad from "@/assets/scp-tinad.jpg.asset.json";
 import scpPoster from "@/assets/scp-poster.jpg.asset.json";
 import scpStillwater from "@/assets/scp-stillwater.png.asset.json";
+import indeNavarretteGap from "@/assets/inde-navarrette-gap.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -65,6 +66,37 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "inde-navarrette-obsession-gap-style-interview",
+    title: "Inde Navarrette on Obsession, Denim and Dressing for Herself",
+    excerpt: "The Obsession breakout talks Nikki's wardrobe, her love of Get Out and the freedom behind Gap's Fall 2026 denim campaign.",
+    image: indeNavarretteGap.url,
+    source: "Rolling Stone — Camila Quimper, August 11, 2026",
+    customBadge: "Interview",
+    body: `After making an impression as Nikki in *Obsession*, Inde Navarrette is bringing that same sense of individuality to fashion. In an interview with Rolling Stone, the actress discusses her work on the horror film and her appearance alongside musician Malcolm Todd in Gap's Fall 2026 **Denim on Your Own** campaign. The connection between the two, she explains, is creative freedom: finding room to make choices that feel genuinely her own.
+
+## A Wardrobe Built Around Personality
+
+Navarrette's everyday style starts with straightforward pieces rather than elaborate outfits. She describes pairing jeans with a white or black T-shirt, adding a light sweater and letting her shoes change the mood. Heels have become a particular favorite, while low-rise denim lets her show her hip tattoos. The point is not to follow a formula, but to choose clothes that make her feel comfortable and confident.
+
+Accessories bring a more playful streak. Asked about a trend she enjoys, Navarrette singles out bangles — especially the kind that make themselves heard when someone moves their hands. It is a lighthearted detail, but it fits the interview's larger picture of style as something expressive rather than carefully restrained.
+
+## Bringing Herself to Nikki — Without Playing Herself
+
+Some of Navarrette's own taste made its way into *Obsession*. Oversized denim jackets, shorts and boots were already part of her wardrobe around the film's release. She even brought her personal Steve Madden boots to a costume fitting, and they became part of Nikki's onscreen look.
+
+That overlap did not erase the difference between actor and character. Navarrette describes Nikki as someone she deeply understood, not simply a version of herself. Familiar clothes helped establish a connection, while the performance still required her to step into another person's experience.
+
+## Letting the Performance Be Bigger
+
+For Navarrette, playing Nikki meant setting aside the instinct to worry about how other people might perceive her. She wanted to stop holding back out of fear of being too loud or taking up too much space. In her account, that willingness to be less guarded helped make the character feel emotionally real — and offered audiences something they could recognize in themselves.
+
+Her favorite horror film is **Jordan Peele's Get Out**, which she praises for combining humor with fear. She remembers it as an early encounter with a kind of psychological horror that stayed with her, rather than a movie whose impact depended only on immediate scares.
+
+The same independence runs through her approach to dressing. Both acting and personal style, as she presents them, become more meaningful when the choices come from within instead of being shaped entirely by an audience's expectations. Her guiding advice is concise: “Dress for yourself and not anyone else.”
+
+*Campaign photography: Gap. This article summarizes Navarrette's interview rather than reproducing the original Q&A.* [Read Camila Quimper's full interview at Rolling Stone](https://www.rollingstone.com/product-recommendations/style/inde-navarrette-interview-obsession-style-gap-campaign-1235607056/).`,
+  },
   {
     slug: "neon-scp-foundation-open-source-horror-movie",
     title: "Neon Is Turning the SCP Foundation Into an Open-Source Horror Anthology",
