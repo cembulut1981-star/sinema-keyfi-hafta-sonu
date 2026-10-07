@@ -4,3 +4,4 @@
 - [x] Add the Metallica Sphere live review as the newest music story.
 - [x] Surface the Metallica card in the homepage lead row.
 - [x] Verify the music page, card, image, and video.
+- [ ] Add the Inde Navarrette interview card and article, place it in the homepage lead row, and verify both.
