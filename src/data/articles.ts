@@ -30,6 +30,7 @@ export type Article = {
   imdbRating?: string;
   customBadge?: string;
   customBadgeStyle?: "default" | "light";
+  customBadgeBelow?: boolean;
   countdownBadge?: string;
 };
 
@@ -53,6 +54,7 @@ const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
   newsSlug: n.slug,
   videoUrl: n.videoUrl,
   customBadge: n.customBadge,
+  customBadgeBelow: n.customBadgeBelow,
 }));
 
 const LIST_ARTICLES: Article[] = LISTS.map((l, i) => ({

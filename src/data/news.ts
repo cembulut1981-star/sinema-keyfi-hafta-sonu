@@ -63,6 +63,7 @@ export type NewsItem = {
   source: string;
   videoUrl?: string;
   customBadge?: string;
+  customBadgeBelow?: boolean;
 };
 
 export const NEWS: NewsItem[] = [
@@ -73,6 +74,7 @@ export const NEWS: NewsItem[] = [
     image: indeNavarretteGap.url,
     source: "Rolling Stone — Camila Quimper, August 11, 2026",
     customBadge: "Interview",
+    customBadgeBelow: true,
     body: `After making an impression as Nikki in *Obsession*, Inde Navarrette is bringing that same sense of individuality to fashion. In an interview with Rolling Stone, the actress discusses her work on the horror film and her appearance alongside musician Malcolm Todd in Gap's Fall 2026 **Denim on Your Own** campaign. The connection between the two, she explains, is creative freedom: finding room to make choices that feel genuinely her own.
 
 ## A Wardrobe Built Around Personality
