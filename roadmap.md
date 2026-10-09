@@ -5,3 +5,4 @@
 - [x] Surface the Metallica card in the homepage lead row.
 - [x] Verify the music page, card, image, and video.
 - [x] Add the Inde Navarrette interview card and article, place it in the homepage lead row, and verify both.
+- [ ] Add the Empire Zodiac news card to the homepage lead row and verify the article and cover.
