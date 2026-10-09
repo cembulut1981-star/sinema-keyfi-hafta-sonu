@@ -53,6 +53,7 @@ import scpTinad from "@/assets/scp-tinad.jpg.asset.json";
 import scpPoster from "@/assets/scp-poster.jpg.asset.json";
 import scpStillwater from "@/assets/scp-stillwater.png.asset.json";
 import indeNavarretteGap from "@/assets/inde-navarrette-gap.jpg.asset.json";
+import zodiacEmpire from "@/assets/zodiac-empire.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -67,6 +68,34 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "marvel-zodiac-spy-thriller-series-2027",
+    title: "Marvel Announces Zodiac, a New Spy Thriller for Disney+",
+    excerpt: "The live-action series will shoot in London in spring 2027 ahead of a planned 2028 debut — but a possible S.H.I.E.L.D. connection remains unconfirmed.",
+    image: zodiacEmpire.url,
+    source: "Empire — Jordan King, October 8, 2026",
+    body: `Marvel Television is preparing another trip into the world of espionage. At its New York Comic Con presentation, television chief **Brad Winderbaum** announced **Zodiac**, a live-action spy thriller intended for Disney+ in **2028**. Production is scheduled to begin in **London in spring 2027**.
+
+## A New Mission for Marvel Television
+
+For now, the announcement is deliberately spare. Marvel has confirmed the title, the genre and the production timetable, but has not revealed a cast or detailed storyline. That leaves the show's place within the wider Marvel Cinematic Universe open to interpretation.
+
+The project arrives amid a changing television slate. As Empire notes, the announcement follows news that *Daredevil: Born Again* will conclude with its third season and that *Wonder Man* has been cancelled. *Zodiac* points toward a new direction, although the studio has yet to explain how its espionage story will take shape.
+
+## Is S.H.I.E.L.D. Coming Back?
+
+The title reveal has given fans something specific to examine: the styling of its letter A, which Empire suggests resembles the emblem associated with *Agents of S.H.I.E.L.D.*. That ABC series ended its seven-season run in 2020, but the resemblance is not confirmation of a revival or returning characters.
+
+There is also a comics connection. Zodiac is the name of a criminal organisation that has clashed with S.H.I.E.L.D. in Marvel stories. It makes an espionage-focused adaptation an intriguing possibility — not an established plot synopsis. No involvement by the earlier show's cast has been announced in the report.
+
+## What Has Actually Been Confirmed?
+
+The clearest details are straightforward: **a live-action spy thriller, a spring 2027 London shoot and a planned 2028 Disney+ release**. A precise premiere date, creative team and casting details remain to be disclosed.
+
+Marvel has explored covert operations before, including in *Secret Invasion*. Whether *Zodiac* draws on familiar agents or introduces a different corner of its spy mythology is still unknown. Until further announcements arrive, the title treatment and comics history offer reasons for curiosity rather than answers.
+
+[Read Jordan King's original report at Empire](https://www.empireonline.com/tv/news/marvel-television-announces-spy-thriller-series-zodiac-set-to-shoot-in-spring-2027/).`,
+  },
   {
     slug: "inde-navarrette-obsession-gap-style-interview",
     title: "Inde Navarrette on Obsession, Denim and Dressing for Herself",
