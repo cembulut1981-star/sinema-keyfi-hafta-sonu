@@ -105,6 +105,7 @@ export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LI
 
 // Video-game stories collected under the "PC Games" menu tab.
 const GAME_SLUGS = new Set([
+  "phantom-blade-zero-15-years-in-the-making",
   "battlefield-6-xbox-game-pass-october-2026",
   "star-wars-galactic-racer-review",
   "2026-nin-en-iyi-10-oyunu",

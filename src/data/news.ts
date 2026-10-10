@@ -55,6 +55,10 @@ import scpStillwater from "@/assets/scp-stillwater.png.asset.json";
 import indeNavarretteGap from "@/assets/inde-navarrette-gap.jpg.asset.json";
 import zodiacEmpire from "@/assets/zodiac-empire.jpg.asset.json";
 import battlefield6Asset from "@/assets/battlefield-6-game-pass.jpg.asset.json";
+import pbHeader from "@/assets/phantom-blade-zero-header.jpg.asset.json";
+import pbCombat from "@/assets/phantom-blade-zero-combat.jpg.asset.json";
+import pbWorld from "@/assets/phantom-blade-zero-world.jpg.asset.json";
+import pbBoss from "@/assets/phantom-blade-zero-boss.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -69,6 +73,40 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "phantom-blade-zero-15-years-in-the-making",
+    title: "Phantom Blade Zero Took 15 Years and a Fortune to Get Here",
+    excerpt: "S-GAME's wuxia action game grew out of two obscure RPG-Maker titles from 2010 — its creator has been building toward it for over a decade.",
+    image: pbHeader.url,
+    source: "Lex Luddy, October 9, 2026",
+    body: `**Phantom Blade Zero** may feel like it appeared out of nowhere, but its roots run deep. The Chinese studio **S-GAME**, led by CEO Qiwei "Soulframe" Liang, first shipped two turn-based RPGs — **Rainblood** and **Rainblood: Town of Death** — back in 2010 and 2011, built in RPG-Maker and sold mostly through fan sites after the first one reached the West via an approved fan translation. The series is over 15 years old, and the new big-budget action game is its long-delayed descendant.
+
+![A wuxia duel in Phantom Blade Zero](${pbCombat.url})
+
+The journey continued through 2013's *Rain Blood Chronicles: Mirage*, a Unity-powered 2D hack-and-slash that did reach Steam and consoles, and a run of China-exclusive mobile games. In May 2023, the big-budget 3D *Phantom Blade Zero* was finally announced — a leap in scale from everything that came before, made with hundreds of millions of dollars and featuring martial arts superstar **Donnie Yen**.
+
+## Combat built for speed, not turtling
+
+After multiple demos and a multi-hour hands-on at Gamescom this year, the game's defining quality is clear: its free-flowing combat is purpose-built to capture the flow and speed of wuxia action rather than forcing the setting into a Souls-like mold. There are **30 primary weapons**, each with its own moveset, plus **25 secondary weapons** ranging from axes to slow-firing mini-cannons.
+
+You can equip two primaries at once, swapping on the D-pad or weaving the second weapon into a combo with the left trigger — a high-damage stagger move that runs on a cooldown, so a well-timed swap to dual-blades is not always the right call.
+
+![The dark, plague-stricken world of the Ming Dynasty](${pbWorld.url})
+
+## A world inspired by Soulslike design
+
+The combat feels distinctly un-Soulslike, but the world does not. S-GAME describes the interconnected map as "inspired by Soulslike map design," doubling back and reconnecting in ways reminiscent of the first *Dark Souls*. Instead of a detailed map screen, you navigate with hand-painted, ink-wash charts painted on Xuan paper and scanned into the game.
+
+The Ming Dynasty setting is a world of decay and plague, punctuated by flashes of steampunk industrialization — and monstrous enemies corrupted by ramshackle machinery rather than the usual mystic rot.
+
+## A ticking clock — sometimes
+
+The protagonist, **Soul**, has only a limited number of days to live, his heart pierced by a cursed blade. On most difficulties this countdown is purely narrative, but an extra-hard mode ties the plot into gameplay, counting down a day with every death. Story-wise, the game largely retells parts of the original *Rainblood* games, and the critic found the supporting cast thin — with one exception: **Mó Yuan**, portrayed by Donnie Yen, who also consulted on the game's action alongside stunt choreographer Kenji Tanigaki.
+
+![S-GAME's action showcases brutal, pattern-driven boss fights](${pbBoss.url})
+
+The verdict so far: *Phantom Blade Zero* is plenty promising — a striking escalation from its humble RPG-Maker origins — even if some of the original's soul may have been lost across the 15-year journey and the hundreds of millions of dollars it took to get here.`,
+  },
   {
     slug: "battlefield-6-xbox-game-pass-october-2026",
     title: "Battlefield 6, 2025's Best-Selling Game, Storms Onto Game Pass",
