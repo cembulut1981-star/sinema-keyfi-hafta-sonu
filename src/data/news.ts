@@ -55,6 +55,10 @@ import scpStillwater from "@/assets/scp-stillwater.png.asset.json";
 import indeNavarretteGap from "@/assets/inde-navarrette-gap.jpg.asset.json";
 import zodiacEmpire from "@/assets/zodiac-empire.jpg.asset.json";
 import battlefield6Asset from "@/assets/battlefield-6-game-pass.jpg.asset.json";
+import pbHeader from "@/assets/phantom-blade-zero-header.jpg.asset.json";
+import pbCombat from "@/assets/phantom-blade-zero-combat.jpg.asset.json";
+import pbWorld from "@/assets/phantom-blade-zero-world.jpg.asset.json";
+import pbBoss from "@/assets/phantom-blade-zero-boss.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
