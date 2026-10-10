@@ -102,3 +102,16 @@ function interleave<T>(...arrays: T[][]): T[] {
 }
 
 export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LIST_ARTICLES, MUSIC_ARTICLES, SERIES_ARTICLES);
+
+// Video-game stories collected under the "PC Games" menu tab.
+const GAME_SLUGS = new Set([
+  "battlefield-6-xbox-game-pass-october-2026",
+  "star-wars-galactic-racer-review",
+  "2026-nin-en-iyi-10-oyunu",
+  "addison-rae-fortnite-icon-series",
+  "netflix-video-oyunlari-duz-eglence-ekonomisi",
+  "eli-roth-borderlands-kimseye-ait-olmayan-film",
+]);
+export const GAME_ARTICLES: Article[] = ARTICLES.filter((a) =>
+  [a.newsSlug, a.reviewSlug, a.listSlug, a.musicSlug, a.seriesSlug].some((s) => s && GAME_SLUGS.has(s)),
+);

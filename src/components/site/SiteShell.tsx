@@ -13,6 +13,7 @@ const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
   { label: "Lists", to: "/kategori/$slug", params: { slug: "listeler" } },
   { label: "TV Shows", to: "/kategori/$slug", params: { slug: "diziler" } },
   { label: "Music", to: "/kategori/$slug", params: { slug: "muzik" } },
+  { label: "PC Games", to: "/kategori/$slug", params: { slug: "pc-games" } },
 ];
 
 export function SiteShell({ children }: { children: ReactNode }) {

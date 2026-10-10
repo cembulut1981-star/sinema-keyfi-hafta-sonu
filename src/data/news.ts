@@ -54,6 +54,7 @@ import scpPoster from "@/assets/scp-poster.jpg.asset.json";
 import scpStillwater from "@/assets/scp-stillwater.png.asset.json";
 import indeNavarretteGap from "@/assets/inde-navarrette-gap.jpg.asset.json";
 import zodiacEmpire from "@/assets/zodiac-empire.jpg.asset.json";
+import battlefield6Asset from "@/assets/battlefield-6-game-pass.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -68,6 +69,26 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "battlefield-6-xbox-game-pass-october-2026",
+    title: "Battlefield 6, 2025's Best-Selling Game, Storms Onto Game Pass",
+    excerpt: "One year after launch, EA's hit shooter joins Xbox Game Pass on October 13 — just in time for its Las Vegas–themed Season 5.",
+    image: battlefield6Asset.url,
+    source: "Ethan Gach, October 7, 2026",
+    body: `The first wave of **Xbox Game Pass** additions for October 2026 is here, and its headliner is a big one: **Battlefield 6** is joining the subscription service for the first time, exactly one year after launch. Last year's best-selling game arrives on **October 13**, just in time for the start of its Las Vegas–themed **Season 5**.
+
+The campaign was enjoyable if rough around the edges, but the core multiplayer — especially on the larger maps — remains stellar. It is also a curious moment to see the longtime rival of **Call of Duty** moving onto that franchise's home turf. **Call of Duty: Modern Warfare 4** launches this month too, promising a return to the series' roots, but due to Xbox's ongoing reset it will not arrive on Game Pass at launch.
+
+## Everything joining Game Pass in October, wave 1
+
+**Echo Weaver** (Cloud, Xbox Series X|S, PC) — October 8. **Forever Ago** (Cloud, Console, PC) — October 8. **Neon Abyss 2** (Cloud, Xbox Series X|S, PC) — October 8. **Battlefield 6** (Cloud, Xbox Series X|S, PC) — October 13. **Deep Dish Dungeon** (Cloud, Xbox Series X|S, PC) — October 13. **Valor Mortis** (Cloud, Xbox Series X|S, Handheld, PC) — October 13. **Bluey's Happy Snaps** (Cloud, Console, Handheld, PC) — October 15. **Chained Beasts** (Cloud, Xbox Series X|S, PC) — October 15. **Beyond These Stars** (PC) — October 16.
+
+## The indies worth watching
+
+Battlefield may be the headliner, but the month is stacked with intriguing indies. **Echo Weaver** is a time-loop metroidvania where knowledge from each run pushes you further on the next. **Neon Abyss 2** is a cyberpunk action roguelike with online co-op for up to four players, while **Chained Beasts** is a co-op gladiator roguelike in which players fight through arenas while literally chained together. **Forever Ago** is a narrative adventure about how life does not always turn out the way you hoped.
+
+Then there is **Valor Mortis**, a Napoleonic Wars Soulslike from the makers of **Ghostrunner** — a striking premise that will need its gameplay to stand apart from the long line of FromSoftware imitators.`,
+  },
   {
     slug: "marvel-zodiac-spy-thriller-series-2027",
     title: "Marvel Announces Zodiac, a New Spy Thriller for Disney+",
