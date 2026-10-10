@@ -13,6 +13,7 @@ const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series"
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 const NEW_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const NEW_STORIES = [
+  ARTICLES.find((article) => article.newsSlug === "phantom-blade-zero-15-years-in-the-making"),
   ARTICLES.find((article) => article.newsSlug === "battlefield-6-xbox-game-pass-october-2026"),
   ARTICLES.find((article) => article.newsSlug === "marvel-zodiac-spy-thriller-series-2027"),
   ARTICLES.find((article) => article.newsSlug === "inde-navarrette-obsession-gap-style-interview"),
