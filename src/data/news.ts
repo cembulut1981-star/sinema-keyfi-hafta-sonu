@@ -105,7 +105,7 @@ The protagonist, **Soul**, has only a limited number of days to live, his heart 
 
 ![S-GAME's action showcases brutal, pattern-driven boss fights](${pbBoss.url})
 
-The verdict so far: *Phantom Blade Zero* is plenty promising — a striking escalation from its humble RPG-Maker origins — even if some of the original's soul may have been lost across the 15-year journey. For the full hands-on impression, the reviewer's early take is worth your time.`,
+The verdict so far: *Phantom Blade Zero* is plenty promising — a striking escalation from its humble RPG-Maker origins — even if some of the original's soul may have been lost across the 15-year journey and the hundreds of millions of dollars it took to get here.`,
   },
   {
     slug: "battlefield-6-xbox-game-pass-october-2026",
