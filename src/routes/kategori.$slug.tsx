@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { z } from "zod";
 
 import { ArticleCard, ArticleGrid, FeaturedArticleCard, SiteShell } from "@/components/site/SiteShell";
-import { ARTICLES, CATEGORY_LABELS, type CategorySlug } from "@/data/articles";
+import { ARTICLES, CATEGORY_LABELS, GAME_ARTICLES, type CategorySlug } from "@/data/articles";
 
 const VALID: CategorySlug[] = ["haberler", "incelemeler", "listeler", "diziler", "muzik", "roportajlar"];
 
@@ -17,10 +17,10 @@ const searchSchema = z.object({
 export const Route = createFileRoute("/kategori/$slug")({
   validateSearch: zodValidator(searchSchema),
   beforeLoad: ({ params }) => {
-    if (!VALID.includes(params.slug as CategorySlug)) throw notFound();
+    if (params.slug !== "pc-games" && !VALID.includes(params.slug as CategorySlug)) throw notFound();
   },
   head: ({ params }) => {
-    const label = CATEGORY_LABELS[params.slug as CategorySlug] ?? "Category";
+    const label = params.slug === "pc-games" ? "PC Games" : CATEGORY_LABELS[params.slug as CategorySlug] ?? "Category";
     return {
       meta: [
         { title: `${label} — Sine-Meta` },
@@ -54,8 +54,9 @@ function CategoryPage() {
   const { page } = Route.useSearch();
   const navigate = Route.useNavigate();
   const category = slug as CategorySlug;
-  const articles = ARTICLES.filter((a) => a.category === category);
-  const label = CATEGORY_LABELS[category];
+  const isGames = slug === "pc-games";
+  const articles = isGames ? GAME_ARTICLES : ARTICLES.filter((a) => a.category === category);
+  const label = isGames ? "PC Games" : CATEGORY_LABELS[category];
 
   const totalPages = Math.max(1, Math.ceil(articles.length / PAGE_SIZE));
   const safePage = Math.min(Math.max(1, page), totalPages);

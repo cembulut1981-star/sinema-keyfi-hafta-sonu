@@ -22,6 +22,7 @@ export const Route = createFileRoute("/sitemap.xml")({
       GET: async () => {
         const entries: Entry[] = [
           { path: "/", changefreq: "daily", priority: "1.0" },
+          { path: "/kategori/pc-games", changefreq: "daily", priority: "0.8" },
           ...CATEGORIES.map((c) => ({
             path: `/kategori/${c}`,
             changefreq: "daily",
