@@ -32,6 +32,7 @@ export type Article = {
   customBadgeStyle?: "default" | "light";
   customBadgeBelow?: boolean;
   countdownBadge?: string;
+  homepagePlacement?: "lower";
 };
 
 const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
@@ -55,6 +56,7 @@ const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
   videoUrl: n.videoUrl,
   customBadge: n.customBadge,
   customBadgeBelow: n.customBadgeBelow,
+  homepagePlacement: n.homepagePlacement,
 }));
 
 const LIST_ARTICLES: Article[] = LISTS.map((l, i) => ({
@@ -105,6 +107,7 @@ export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LI
 
 // Video-game stories collected under the "PC Games" menu tab.
 const GAME_SLUGS = new Set([
+  "new-pc-games-2026-release-guide",
   "phantom-blade-zero-15-years-in-the-making",
   "battlefield-6-xbox-game-pass-october-2026",
   "star-wars-galactic-racer-review",
