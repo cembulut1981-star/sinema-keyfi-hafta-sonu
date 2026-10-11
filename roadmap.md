@@ -6,3 +6,4 @@
 - [x] Verify the music page, card, image, and video.
 - [x] Add the Inde Navarrette interview card and article, place it in the homepage lead row, and verify both.
 - [x] Add the Empire Zodiac news card to the homepage lead row and verify the article and cover.
+- [ ] Add a PC Gamer-based 2026 PC games guide to PC Games, below the homepage lead rows, and verify it.
