@@ -23,7 +23,8 @@ const NEW_STORIES = [
   ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
 ].filter((article): article is Article => Boolean(article)).slice(0, 4);
 const TOP_IDS = new Set([NEW_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
-const FEED_ARTICLES = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id));
+const LOWER_FEATURES = ARTICLES.filter((article) => article.homepagePlacement === "lower");
+const FEED_ARTICLES = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower");
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -226,6 +227,9 @@ function Index() {
 
   const { duo, rows, leftovers } = built;
   const hasMore = effectiveCount < FEED_ARTICLES.length;
+  const lowerFeatures = LOWER_FEATURES.map((article) => (
+    <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel="11 October 2026" />
+  ));
 
 
   const duoSection =
@@ -263,9 +267,11 @@ function Index() {
           <div key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
             {i === 1 ? duoSection : null}
+             {i === 1 ? lowerFeatures : null}
           </div>
         ))}
         {rows.length < 2 ? duoSection : null}
+        {rows.length < 2 ? lowerFeatures : null}
 
         {leftovers.length > 0 ? (
           <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 auto-rows-fr items-stretch">

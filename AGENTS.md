@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- News items can opt into a lower homepage placement; propagate it into articles and render them once after the second standard feed row, outside the lead and paginated pools, to preserve deliberate editorial placement.

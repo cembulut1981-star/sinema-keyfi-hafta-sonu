@@ -59,6 +59,8 @@ import pbHeader from "@/assets/phantom-blade-zero-header.jpg.asset.json";
 import pbCombat from "@/assets/phantom-blade-zero-combat.jpg.asset.json";
 import pbWorld from "@/assets/phantom-blade-zero-world.jpg.asset.json";
 import pbBoss from "@/assets/phantom-blade-zero-boss.jpg.asset.json";
+import pcGamesGuide from "@/assets/pc-games-2026-guide.jpg.asset.json";
+import pcGamesRacer from "@/assets/pc-games-2026-racer.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -70,9 +72,47 @@ export type NewsItem = {
   videoUrl?: string;
   customBadge?: string;
   customBadgeBelow?: boolean;
+  homepagePlacement?: "lower";
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "new-pc-games-2026-release-guide",
+    title: "New PC Games in 2026: The Releases Worth Watching",
+    excerpt: "From Galactic Racer and Gears of War: E-Day to Enshrouded's 1.0 update, a look at the busy PC release calendar and what comes next.",
+    image: pcGamesGuide.url,
+    source: "PC Gamer — Andrea Shearon, updated October 8, 2026",
+    homepagePlacement: "lower",
+    body: `The PC release calendar for **2026** stretches well beyond blockbuster sequels. New adventures sit alongside survival games graduating from early access, smaller horror projects and familiar worlds finding a new direction. PC Gamer's regularly updated calendar offers a useful snapshot of that variety; this selection draws on its **October 8 update**, rather than treating every date as a permanent promise.
+
+## October's Big Names
+
+The calendar lists **Star Wars: Galactic Racer** and **Gears of War: E-Day** for **October 6**. Galactic Racer brings racing to the New Republic era, with a single-player campaign and online competition across locations including Tatooine and Jakku. For players who would rather take cover than chase a finish line, E-Day returns to Marcus and Dom at the outbreak of the Locust invasion on Sera.
+
+![Star Wars: Galactic Racer brings high-speed racing to the 2026 PC calendar](${pcGamesRacer.url})
+
+The appeal of these two releases is very different: one builds on the speed and spectacle of Star Wars racing, while the other revisits the crisis at the heart of Gears of War. Together they show how much room there is for familiar franchises to explore different chapters of their worlds.
+
+## Survival Games Reach a New Milestone
+
+**Enshrouded 1.0** is listed for **October 15**. The co-op survival action RPG's move out of early access is a different kind of launch: a major milestone for a game that has already spent nearly three years evolving with its community. For returning players, the question is what the completed version adds; for newcomers, it is an opportunity to approach a more developed adventure.
+
+The calendar also lists **Neon Abyss 2's 1.0 release** for **October 8**. That distinction matters when scanning a release schedule. A new date can refer to a full launch, an early-access debut or an existing game's transition to 1.0, rather than a completely new title arriving for the first time.
+
+## An RPG Reinvention
+
+**Final Fantasy Resonance**, listed for **October 22**, is another of the month's highlighted games. PC Gamer describes it as an HD-2D reworking of the story from **Final Fantasy Brave Exvius**. It is a reminder that the year's RPG lineup is not simply a procession of numbered sequels: older stories can return in a new form, with a different presentation and a different audience in mind.
+
+## Smaller Games Deserve a Place on the Calendar
+
+October's schedule also makes room for **Forever Ago**, a narrative road-trip adventure, and **Silver Pines**, a noir-inspired survival horror game, both listed for **October 8**. **Clive Barker's Hellraiser: Revival**, also listed that day, offers a more overtly nightmarish alternative. Looking beyond the largest names is often where a release guide becomes most useful: it makes very different kinds of games visible alongside the blockbusters.
+
+## Read the Dates Carefully
+
+This is a selection from a changing release calendar, not a ranked best-games list or a set of reviews. Dates can move, and early-access launches should not be confused with finished releases. **Grand Theft Auto 6** is a particularly important distinction: the source discusses its November console launch, but a PC release date remains unannounced. It should not be treated as a confirmed 2026 PC arrival.
+
+For the complete month-by-month schedule and subsequent changes, [see PC Gamer's original 2026 release calendar](https://www.pcgamer.com/games/new-pc-games-2026/).`,
+  },
   {
     slug: "phantom-blade-zero-15-years-in-the-making",
     title: "Phantom Blade Zero Took 15 Years and a Fortune to Get Here",
