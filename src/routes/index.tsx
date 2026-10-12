@@ -36,7 +36,7 @@ const SCATTERED_GAME_SLUGS = [
 const SCATTERED_GAMES = SCATTERED_GAME_SLUGS.map((slug) => ARTICLES.find((a) => a.newsSlug === slug || a.reviewSlug === slug)).filter((a): a is Article => Boolean(a));
 const SCATTERED_IDS = new Set(SCATTERED_GAMES.map((a) => a.id));
 const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower" && !SCATTERED_IDS.has(article.id));
-export const FEED_ARTICLES = (() => {
+const FEED_ARTICLES = (() => {
   const out = [...BASE_FEED];
   SCATTERED_GAMES.forEach((a, i) => out.splice(Math.min(14 + i * 7, out.length), 0, a));
   return out;
