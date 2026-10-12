@@ -1,3 +1,9 @@
+import gameRe from "@/assets/game-re-requiem.jpg";
+import gameRe2 from "@/assets/game-re-requiem-2.jpg";
+import gameCrimson from "@/assets/game-crimson-desert.jpg";
+import gameCrimson2 from "@/assets/game-crimson-desert-2.jpg";
+import gameSpy from "@/assets/game-spy-first-light.jpg";
+import gameSpy2 from "@/assets/game-spy-first-light-2.jpg";
 import miasma1 from "@/assets/miasma-1.jpg";
 import miasma2 from "@/assets/miasma-2.jpg";
 import miasma3 from "@/assets/miasma-3.jpg";
@@ -64,6 +70,81 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "resident-evil-requiem-game-review",
+    origTitle: "Resident Evil Requiem",
+    title: "‘Resident Evil Requiem’ Review: Ten Tight Hours of the Series at Its Best",
+    excerpt: "Capcom combines puzzles, horror, action and Leon S. Kennedy into one remarkably disciplined survival horror game.",
+    rating: "92/100",
+    image: gameRe.url,
+    body: `After years of Resident Evil games that each excelled in one area, Capcom set itself the task of combining the best of all of them. **Resident Evil Requiem** — puzzles, horror, action and Leon S. Kennedy — not only pulls it off, it does so in about **10 hours**.
+
+Players alternate between Leon and newcomer **Grace Ashcroft**. Grace's sections are slow, tense and genuinely frightening; Leon's deliver the deeply satisfying gunplay of the recent remakes.
+
+![Leon faces the infected in Resident Evil Requiem](${gameRe2.url})
+
+## No wasted time
+
+Everything in those hours feels necessary: no redundant fetch quests, no dragged-out stealth sequences. Every puzzle, corridor and burst of action is tightly choreographed. Ten hours is actually typical for the series — Resident Evil 7 is about the same, Village and the RE2 remake about 12 — and at $70 the quality never dips.
+
+## Minor complaints
+
+Some boss battles are one-note and a few objectives repeat, but these are small blemishes on the most complete Resident Evil in years. It is a must-play for horror fans on PC.
+
+**Need to know:** Release date February 27, 2026 · Developer/Publisher Capcom · Price $70 / £60 · Single-player.
+
+Source: [PC Gamer — Elie Gould](https://www.pcgamer.com/games/resident-evil/resident-evil-requiem-review/).`,
+  },
+  {
+    slug: "crimson-desert-game-review",
+    origTitle: "Crimson Desert",
+    title: "‘Crimson Desert’ Review: An Overwhelming Fantasy Epic That Says Yes to Everything",
+    excerpt: "Pearl Abyss's vast open-world RPG is fascinating and frustrating in equal measure — a game made for players who love systems.",
+    rating: "80/100",
+    image: gameCrimson.url,
+    body: `**Crimson Desert** is the "Yes, and" of video games: stuffed with just about every mechanic and idea imaginable, an overwhelming ocean of things to discover. After 75 hours, it still feels like there is more to uncover.
+
+You play **Kliff**, a gruff Scottish mercenary of the Greymane faction, voiced by Alec Newman. After an ambush by the rival Black Bears leaves him with a slit throat and his comrades scattered across the continent of **Pywel**, he must rebuild — reuniting old allies and forging new ones.
+
+![Riding across Pywel in Crimson Desert](${gameCrimson2.url})
+
+## MMO DNA
+
+Pearl Abyss's 12 years running an MMO show everywhere: obtuse systems, huge build variety and middling questing. The combat keeps evolving, the puzzles are well crafted and the world is one of the grandest ever made for a single-player game.
+
+## Where it stumbles
+
+The story is not gripping as told, the pacing of cutscenes is choppy, and some archaic design choices will frustrate players. Gear storage and bugs also need work.
+
+Still, for the patient, it is a fascinating journey — even when the destination is underwhelming.
+
+**Need to know:** Release date March 19, 2026 · Developer/Publisher Pearl Abyss · Price $70 / £55 · PC, PS5, Xbox Series X|S.
+
+Source: [PC Gamer — Mollie Taylor](https://www.pcgamer.com/games/action/crimson-desert-review/).`,
+  },
+  {
+    slug: "007-first-light-game-review",
+    origTitle: "007 First Light",
+    title: "‘007 First Light’ Review: The Best James Bond Game Since GoldenEye",
+    excerpt: "IO Interactive brings Hitman's patient sandbox design to a young Bond — a confident, cinematic 25-hour spy thriller.",
+    rating: "9/10",
+    image: gameSpy.url,
+    body: `The Bond game drought is over. **007 First Light** is the most confident, cinematic and fully realised James Bond game since GoldenEye — a **25-hour** single-player spy thriller that respects its license, its players and the medium.
+
+**Patrick Gibson's** 26-year-old Bond is the most credible video game version of the character in decades, supported by strong turns from **Gemma Chan** and **Lenny Kravitz**. Lana Del Rey's title song and Hans Zimmer's score land the cinematic tone the series has always chased.
+
+![Bond on a Hong Kong rooftop in 007 First Light](${gameSpy2.url})
+
+## A Bond-flavoured sandbox
+
+IO Interactive's Glacier Engine stealth-and-disguise loop translates beautifully. Gunplay is rationed, cinematic and decisive, and the globe-trotting campaign — Iceland, Marrakesh, Vienna, Hong Kong, the Pyrenees and the South of France — gives every chapter its own texture. The Vienna opera house and Hong Kong tower missions are among the studio's best levels.
+
+## The trade-offs
+
+It is less freeform than Hitman: public spaces are mostly read-only, and breaking decorum can trigger hard mission failures. Enemy AI occasionally stumbles, and the mission structure is more predictable. But with no microtransactions or live-service hooks, it is a complete, polished package.
+
+Source: [Pixels in Orbit](https://pixelsinorbit.com/reviews/007-first-light-review-io-interactive-amazon-mgm-patrick-gibson-bond-origin-glacier-engine-may-2026).`,
+  },
   {
     slug: "heart-of-the-beast-review",
     origTitle: "Heart of the Beast",
