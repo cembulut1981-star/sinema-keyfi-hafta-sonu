@@ -76,12 +76,12 @@ export const REVIEWS: Review[] = [
     title: "‘Resident Evil Requiem’ Review: Ten Tight Hours of the Series at Its Best",
     excerpt: "Capcom combines puzzles, horror, action and Leon S. Kennedy into one remarkably disciplined survival horror game.",
     rating: "92/100",
-    image: gameRe.url,
+    image: gameRe,
     body: `After years of Resident Evil games that each excelled in one area, Capcom set itself the task of combining the best of all of them. **Resident Evil Requiem** — puzzles, horror, action and Leon S. Kennedy — not only pulls it off, it does so in about **10 hours**.
 
 Players alternate between Leon and newcomer **Grace Ashcroft**. Grace's sections are slow, tense and genuinely frightening; Leon's deliver the deeply satisfying gunplay of the recent remakes.
 
-![Leon faces the infected in Resident Evil Requiem](${gameRe2.url})
+![Leon faces the infected in Resident Evil Requiem](${gameRe2})
 
 ## No wasted time
 
@@ -101,12 +101,12 @@ Source: [PC Gamer — Elie Gould](https://www.pcgamer.com/games/resident-evil/re
     title: "‘Crimson Desert’ Review: An Overwhelming Fantasy Epic That Says Yes to Everything",
     excerpt: "Pearl Abyss's vast open-world RPG is fascinating and frustrating in equal measure — a game made for players who love systems.",
     rating: "80/100",
-    image: gameCrimson.url,
+    image: gameCrimson,
     body: `**Crimson Desert** is the "Yes, and" of video games: stuffed with just about every mechanic and idea imaginable, an overwhelming ocean of things to discover. After 75 hours, it still feels like there is more to uncover.
 
 You play **Kliff**, a gruff Scottish mercenary of the Greymane faction, voiced by Alec Newman. After an ambush by the rival Black Bears leaves him with a slit throat and his comrades scattered across the continent of **Pywel**, he must rebuild — reuniting old allies and forging new ones.
 
-![Riding across Pywel in Crimson Desert](${gameCrimson2.url})
+![Riding across Pywel in Crimson Desert](${gameCrimson2})
 
 ## MMO DNA
 
@@ -128,12 +128,12 @@ Source: [PC Gamer — Mollie Taylor](https://www.pcgamer.com/games/action/crimso
     title: "‘007 First Light’ Review: The Best James Bond Game Since GoldenEye",
     excerpt: "IO Interactive brings Hitman's patient sandbox design to a young Bond — a confident, cinematic 25-hour spy thriller.",
     rating: "9/10",
-    image: gameSpy.url,
+    image: gameSpy,
     body: `The Bond game drought is over. **007 First Light** is the most confident, cinematic and fully realised James Bond game since GoldenEye — a **25-hour** single-player spy thriller that respects its license, its players and the medium.
 
 **Patrick Gibson's** 26-year-old Bond is the most credible video game version of the character in decades, supported by strong turns from **Gemma Chan** and **Lenny Kravitz**. Lana Del Rey's title song and Hans Zimmer's score land the cinematic tone the series has always chased.
 
-![Bond on a Hong Kong rooftop in 007 First Light](${gameSpy2.url})
+![Bond on a Hong Kong rooftop in 007 First Light](${gameSpy2})
 
 ## A Bond-flavoured sandbox
 

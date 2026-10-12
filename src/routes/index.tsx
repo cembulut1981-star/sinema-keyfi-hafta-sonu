@@ -24,7 +24,23 @@ const NEW_STORIES = [
 ].filter((article): article is Article => Boolean(article)).slice(0, 4);
 const TOP_IDS = new Set([NEW_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 const LOWER_FEATURES = ARTICLES.filter((article) => article.homepagePlacement === "lower");
-const FEED_ARTICLES = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower");
+// New PC Games stories are spread further down the feed so games don't cluster at the top.
+const SCATTERED_GAME_SLUGS = [
+  "resident-evil-requiem-game-review",
+  "subnautica-2-two-million-sales-12-hours",
+  "crimson-desert-game-review",
+  "007-first-light-sales-bond-curse-broken",
+  "007-first-light-game-review",
+  "subnautica-2-early-access-impressions",
+];
+const SCATTERED_GAMES = SCATTERED_GAME_SLUGS.map((slug) => ARTICLES.find((a) => a.newsSlug === slug || a.reviewSlug === slug)).filter((a): a is Article => Boolean(a));
+const SCATTERED_IDS = new Set(SCATTERED_GAMES.map((a) => a.id));
+const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower" && !SCATTERED_IDS.has(article.id));
+export const FEED_ARTICLES = (() => {
+  const out = [...BASE_FEED];
+  SCATTERED_GAMES.forEach((a, i) => out.splice(Math.min(14 + i * 7, out.length), 0, a));
+  return out;
+})();
 
 export const Route = createFileRoute("/")({
   head: () => ({

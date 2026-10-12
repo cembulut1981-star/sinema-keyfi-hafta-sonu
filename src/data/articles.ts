@@ -108,6 +108,12 @@ export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LI
 // Video-game stories collected under the "PC Games" menu tab.
 const GAME_SLUGS = new Set([
   "new-pc-games-2026-release-guide",
+  "subnautica-2-two-million-sales-12-hours",
+  "subnautica-2-early-access-impressions",
+  "007-first-light-sales-bond-curse-broken",
+  "resident-evil-requiem-game-review",
+  "crimson-desert-game-review",
+  "007-first-light-game-review",
   "phantom-blade-zero-15-years-in-the-making",
   "battlefield-6-xbox-game-pass-october-2026",
   "star-wars-galactic-racer-review",

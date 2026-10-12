@@ -2,6 +2,7 @@ import gameOcean from "@/assets/game-alien-ocean.jpg";
 import gameOcean2 from "@/assets/game-alien-ocean-2.jpg";
 import gameOcean3 from "@/assets/game-alien-ocean-3.jpg";
 import gameSpy2 from "@/assets/game-spy-first-light-2.jpg";
+import gameSpy from "@/assets/game-spy-first-light.jpg";
 // Auto-curated news content. Sources: Rolling Stone film news.
 import odysseyAsset from "@/assets/odyssey.webp.asset.json";
 import aliGAsset from "@/assets/ali-g.jpg.asset.json";
@@ -84,11 +85,11 @@ export const NEWS: NewsItem[] = [
     slug: "subnautica-2-two-million-sales-12-hours",
     title: "Subnautica 2 Sells 2 Million Copies in 12 Hours",
     excerpt: "After a bruising legal fight between Krafton and Unknown Worlds' founders, the early access survival sequel became one of 2026's biggest PC launches.",
-    image: gameOcean2.url,
+    image: gameOcean2,
     source: "PC Gamer — Harvey Randall, May 15, 2026",
     body: `**Subnautica 2** reached **2 million copies in just 12 hours** after its early access launch, following a first million sold in roughly one hour. Peak concurrent players across Steam, the Epic Games Store and Xbox passed **651,000**, with Steam alone topping **467,000** — around nine times the all-time peak of the original Subnautica.
 
-![A seabase on the alien seafloor in Subnautica 2](${gameOcean2.url})
+![A seabase on the alien seafloor in Subnautica 2](${gameOcean})
 
 The numbers land after a turbulent year. In 2025, publisher Krafton removed the leadership of developer **Unknown Worlds**, and the dispute went to court amid accusations that the launch was being delayed to avoid a large earn-out payment. In March 2026, a judge ordered former CEO **Ted Gill** reinstated, and Krafton then confirmed the May early access date.
 
@@ -104,11 +105,11 @@ Source: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/subnautica-2-
     slug: "subnautica-2-early-access-impressions",
     title: "Subnautica 2 Early Access: Refined, Generous and Surprisingly Thoughtful",
     excerpt: "Unknown Worlds' sequel is more polished than many 1.0 releases, and its light story asks whether becoming 'inhuman' would really be so bad.",
-    image: gameOcean.url,
+    image: gameOcean,
     source: "PC Gamer — Tyler Wilde, May 14, 2026",
     body: `Subnautica 2 is out in early access, and after its first hours it already feels **more refined than a lot of finished survival games**. Like the original, it is about exploring an alien ocean, cataloguing strange creatures, getting eaten by larger ones and building an underwater base — now with **co-op** for friends.
 
-![Divers explore a crystal cave in Subnautica 2's alien ocean](${gameOcean3.url})
+![Divers explore a crystal cave in Subnautica 2's alien ocean](${gameOcean3})
 
 ## A balanced survival loop
 
@@ -126,11 +127,11 @@ Source: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/in-subnautica
     slug: "007-first-light-sales-bond-curse-broken",
     title: "007 First Light Sells 1.5 Million in a Day and Breaks the Bond Game Curse",
     excerpt: "IO Interactive's origin story for a 26-year-old James Bond became one of 2026's most acclaimed action games.",
-    image: gameSpy2.url,
+    image: gameSpy2,
     source: "GameGuidesBox, May 31, 2026",
     body: `**007 First Light** sold **1.5 million copies in its first 24 hours**, according to IO Interactive — roughly in line with Hitman 3's launch window, despite being a fresh start for the studio's Bond universe.
 
-![A rooftop infiltration in 007 First Light](${gameSpy2.url})
+![A rooftop infiltration in 007 First Light](${gameSpy})
 
 The result matters because Bond games had been commercially radioactive for more than a decade. 2012's *007 Legends* landed with a 41 Metacritic score, and publishers largely walked away from the license. IO Interactive took it on in 2020, and critical scores for First Light have landed largely in the **8–9 range**.
 
