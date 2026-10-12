@@ -12,3 +12,9 @@ describe("2026 PC games guide", () => {
     assert.equal(guide?.homepagePlacement, "lower");
   });
 });
+describe("new 2026 PC games coverage", () => {
+  const slugs = ["subnautica-2-two-million-sales-12-hours", "subnautica-2-early-access-impressions", "007-first-light-sales-bond-curse-broken", "resident-evil-requiem-game-review", "crimson-desert-game-review", "007-first-light-game-review"];
+  test("all six appear in PC Games", () => {
+    for (const s of slugs) assert.equal(GAME_ARTICLES.some((a) => a.newsSlug === s || a.reviewSlug === s), true, s);
+  });
+});
