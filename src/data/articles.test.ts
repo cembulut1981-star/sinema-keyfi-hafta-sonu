@@ -2,6 +2,17 @@ import { describe, test } from "node:test";
 import assert from "node:assert/strict";
 import { ARTICLES, GAME_ARTICLES } from "./articles";
 
+describe("Castlevania coverage placement", () => {
+  test("belongs to PC Games", () => {
+    assert.equal(GAME_ARTICLES.some((article) => article.newsSlug === "castlevania-belmonts-curse-review-highlights"), true);
+  });
+
+  test("appears lower on the homepage instead of the lead pool", () => {
+    const article = ARTICLES.find((item) => item.newsSlug === "castlevania-belmonts-curse-review-highlights");
+    assert.equal(article?.homepagePlacement, "lower");
+  });
+});
+
 describe("2026 PC games guide", () => {
   test("belongs to the PC Games collection", () => {
     assert.equal(GAME_ARTICLES.some((article) => article.newsSlug === "new-pc-games-2026-release-guide"), true);

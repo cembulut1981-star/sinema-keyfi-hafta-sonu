@@ -66,6 +66,8 @@ import pbWorld from "@/assets/phantom-blade-zero-world.jpg.asset.json";
 import pbBoss from "@/assets/phantom-blade-zero-boss.jpg.asset.json";
 import pcGamesGuide from "@/assets/pc-games-2026-guide.jpg.asset.json";
 import pcGamesRacer from "@/assets/pc-games-2026-racer.jpg.asset.json";
+import castlevaniaCover from "@/assets/castlevania-belmonts-curse-cover.jpg.asset.json";
+import castlevaniaParis from "@/assets/castlevania-belmonts-curse-paris.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -81,6 +83,43 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "castlevania-belmonts-curse-review-highlights",
+    title: "Castlevania: Belmont's Curse Earns a Glowing Verdict",
+    excerpt: "Region Free's PlayStation 5 Pro review praises the vampire-hunting adventure's exploration, demanding combat and richly drawn Paris setting.",
+    image: castlevaniaCover.url,
+    source: "Region Free — Joonatan Itkonen, October 12, 2026",
+    homepagePlacement: "lower",
+    body: `**Castlevania: Belmont's Curse** has received an enthusiastic assessment from Region Free's Joonatan Itkonen, whose review places it among the series' strongest adventures. The praise centres on an engaging mix of exploration, challenging battles and storytelling that gives the Belmont family's latest journey an emotional dimension.
+
+This is a report on that review, not a separate hands-on verdict. Itkonen played on **PlayStation 5 Pro**, using a digital retail review code supplied by the distributor; the article does not establish how the PC version performs.
+
+## A Belmont Adventure in Paris
+
+According to the review, Rose and Trevor Belmont arrive in **Paris in 1499**, finding a city overrun by demonic forces. The story takes place twenty years after *Castlevania III: Dracula's Curse*, drawing on the games' history and connections to the Netflix series. Itkonen particularly admires its treatment of family, inherited traditions and characters caught in cycles of suffering.
+
+![Rose Belmont explores a burning Paris in Castlevania: Belmont's Curse](${castlevaniaParis.url})
+
+## Exploration Shares the Spotlight
+
+The review describes an adventure developed by **Evil Empire with assistance from Motion Twin**, the studios associated with *Dead Cells*. Exploration extends beyond Dracula's castle into different parts of Paris, with side quests and routes that become accessible as Rose acquires new abilities. Early bosses can be approached in different orders, encouraging players to try another path rather than persist with a single obstacle.
+
+Platforming also receives renewed emphasis. Itkonen finds the obstacle courses demanding and the movement sharp, while the level design rewards curiosity without feeling unnecessarily fussy.
+
+## Tarot Magic and Tough Bosses
+
+Rose's **Arcanas** are another highlight: an enchanted Tarot deck inherited from her mother, Sypha, captures the souls of major enemies. Those characters contribute perspectives to the narrative, connecting progression to the people and creatures encountered along the way.
+
+Swords, spears and familiar Belmont weapons accompany the magic. The critic praises responsive combat and especially difficult boss encounters, while noting that the weapon selection is less flexible than in earlier entries. Optional difficulty assists offer a way to adjust the challenge.
+
+## An Enthusiastic Verdict, with a Platform Caveat
+
+Art direction and a soundtrack combining remixes with new compositions round out the review's strongest points. Itkonen reports spending around **twenty hours** on a first run that reached a little over **ninety percent completion**, with secrets and Arcanas providing reasons to keep exploring.
+
+For readers following the year's games, the takeaway is a strongly positive PlayStation assessment of Castlevania's return—not a PC performance recommendation or a universal completion-time promise.
+
+Read the original [Region Free review](https://regionfree.net/castlevania-belmonts-curse-review-playstation/).`,
+  },
   {
     slug: "subnautica-2-two-million-sales-12-hours",
     title: "Subnautica 2 Sells 2 Million Copies in 12 Hours",

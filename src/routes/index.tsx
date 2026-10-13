@@ -244,7 +244,7 @@ function Index() {
   const { duo, rows, leftovers } = built;
   const hasMore = effectiveCount < FEED_ARTICLES.length;
   const lowerFeatures = LOWER_FEATURES.map((article) => (
-    <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel="11 October 2026" />
+    <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel={article.newsSlug === "castlevania-belmonts-curse-review-highlights" ? "12 October 2026" : "11 October 2026"} />
   ));
 
 
