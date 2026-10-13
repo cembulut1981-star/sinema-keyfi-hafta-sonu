@@ -7,4 +7,4 @@
 - [x] Add the Inde Navarrette interview card and article, place it in the homepage lead row, and verify both.
 - [x] Add the Empire Zodiac news card to the homepage lead row and verify the article and cover.
 - [x] Add a PC Gamer-based 2026 PC games guide to PC Games, below the homepage lead rows, and verify it.
-- [ ] Add a source-based Castlevania story to PC Games, place it lower on the homepage, and verify its images and article.
+- [x] Add a source-based Castlevania story to PC Games, place it lower on the homepage, and verify its images and article.
