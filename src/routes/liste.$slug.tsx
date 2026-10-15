@@ -1,3 +1,5 @@
+import { articleHead } from "@/lib/seo";
+import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
@@ -13,23 +15,8 @@ export const Route = createFileRoute("/liste/$slug")({
   },
   head: ({ params }) => {
     const l = getList(params.slug);
-    if (!l) return { meta: [{ title: "List not found — Sine-Meta" }] };
-    return {
-      meta: [
-        { title: `${l.title} — Sine-Meta` },
-        { name: "description", content: l.excerpt },
-        { property: "og:title", content: l.title },
-        { property: "og:description", content: l.excerpt },
-        { property: "og:type", content: "article" },
-        { name: "twitter:card", content: "summary_large_image" },
-        ...(l.image.startsWith("https://")
-          ? [
-              { property: "og:image", content: l.image },
-              { name: "twitter:image", content: l.image },
-            ]
-          : []),
-      ],
-    };
+    if (!l) return { meta: [{ title: "List not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    return articleHead(l, `/liste/${params.slug}`);
   },
   component: ListPage,
   notFoundComponent: () => (
@@ -55,7 +42,8 @@ function ListPage() {
           {l.title}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{l.excerpt}</p>
-        <div className="mt-5 text-sm text-muted-foreground">
+        <ArticleByline source={l.source} />
+        <div className="mt-1 text-sm text-muted-foreground">
           Source: <em>{l.source}</em>
         </div>
 

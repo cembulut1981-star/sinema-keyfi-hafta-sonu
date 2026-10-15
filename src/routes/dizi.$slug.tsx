@@ -1,3 +1,5 @@
+import { articleHead } from "@/lib/seo";
+import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
@@ -15,23 +17,8 @@ export const Route = createFileRoute("/dizi/$slug")({
   },
   head: ({ params }) => {
     const s = getSeries(params.slug);
-    if (!s) return { meta: [{ title: "Article not found — Sine-Meta" }] };
-    return {
-      meta: [
-        { title: `${s.title} — Sine-Meta` },
-        { name: "description", content: s.excerpt },
-        { property: "og:title", content: s.title },
-        { property: "og:description", content: s.excerpt },
-        { property: "og:type", content: "article" },
-        { name: "twitter:card", content: "summary_large_image" },
-        ...(s.image.startsWith("https://")
-          ? [
-              { property: "og:image", content: s.image },
-              { name: "twitter:image", content: s.image },
-            ]
-          : []),
-      ],
-    };
+    if (!s) return { meta: [{ title: "Article not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    return articleHead(s, `/dizi/${params.slug}`);
   },
   component: SeriesPage,
   notFoundComponent: () => (
@@ -64,7 +51,8 @@ function SeriesPage() {
           {s.title}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{s.excerpt}</p>
-        <div className="mt-5 text-sm text-muted-foreground">
+        <ArticleByline source={s.source} />
+        <div className="mt-1 text-sm text-muted-foreground">
           Source: <em>{s.source}</em>
         </div>
 

@@ -1,3 +1,5 @@
+import { articleHead } from "@/lib/seo";
+import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
@@ -14,23 +16,8 @@ export const Route = createFileRoute("/inceleme/$slug")({
   },
   head: ({ params }) => {
     const r = getReview(params.slug);
-    if (!r) return { meta: [{ title: "Review not found — Sine-Meta" }] };
-    return {
-      meta: [
-        { title: `${r.title} — Sine-Meta` },
-        { name: "description", content: r.excerpt },
-        { property: "og:title", content: r.title },
-        { property: "og:description", content: r.excerpt },
-        { property: "og:type", content: "article" },
-        { name: "twitter:card", content: "summary_large_image" },
-        ...(r.image.startsWith("https://")
-          ? [
-              { property: "og:image", content: r.image },
-              { name: "twitter:image", content: r.image },
-            ]
-          : []),
-      ],
-    };
+    if (!r) return { meta: [{ title: "Review not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    return articleHead(r, `/inceleme/${params.slug}`);
   },
   component: ReviewPage,
   notFoundComponent: () => (
