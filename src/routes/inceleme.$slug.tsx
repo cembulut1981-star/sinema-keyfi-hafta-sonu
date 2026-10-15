@@ -43,6 +43,7 @@ function ReviewPage() {
           {r.title}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{r.excerpt}</p>
+        <ArticleByline source={"source" in r ? (r as { source?: string }).source : undefined} />
         <div className="mt-5 flex items-center gap-4 text-sm">
           <span className="font-display font-black text-primary text-xl">{r.rating}</span>
           <span className="text-muted-foreground">Original title: <em>{r.origTitle}</em></span>
