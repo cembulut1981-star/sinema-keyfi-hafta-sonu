@@ -1733,47 +1733,47 @@ Source: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
     body: `2026 was a fruitful year for horror cinema: camp slashers, digital legends, zombie sequels, and classic haunted house stories shared the same season. According to Rotten Tomatoes' Tomatometer rankings, here are the 10 best new horror movies of the year:
 
 ## 1. Teenage Sex and Death at Camp Miasma (2026) — %98
-![Teenage Sex and Death at Camp Miasma](https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=)
+![Teenage Sex and Death at Camp Miasma](/__l5e/assets-v1/eebe0338-8465-4e8f-918a-f8c76c0ebb7e/57bbe5df91c4.jpg)
 The film, directed by Jane Schoenbrun, follows a jaded slasher franchise being handed over to a young director (Hannah Einbinder). Critics describe the film as "a bloody love letter to the slasher genre." The cast also includes Gillian Anderson and Jasmin Savoy Brown.
 
 ## 2. Obsession (2025) — %94
-![Obsession](https://resizing.flixster.com/5BlfhxiWUygGuQ_wr755BlVGVlw=/800x1200/v2/https://resizing.flixster.com/wciPMzUm5zbBhWKN24eGdoRfK8I=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzBlZDNhZmI5LTM3N2EtNGIyZC1iZTA5LTU0NzUyY2M2ZGYyYi5qcGc=)
+![Obsession](/__l5e/assets-v1/361b868d-d71d-4f8b-9d31-8807b7c5c915/a1bab121c8c0.jpg)
 Curry Barker's film begins with a romantic's wish to break the mysterious "One Wish Willow" and win his love coming true exactly as he wished. It's a rare production that manages to be as entertaining as it is disturbing.
 
 ## 3. Send Help (2026) — %92
-![Send Help](https://resizing.flixster.com/m_3j1GhxYtAwK6L-U31pfjMtrXw=/800x1200/v2/https://resizing.flixster.com/WEelDTQoFz53v0hGRRC1rZ-3uxY=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2NkMzdhM2Y3LWYzMmEtNGNmYS04YzBjLTc1ZGNhN2JkZGFjOS5qcGc=)
+![Send Help](/__l5e/assets-v1/ea20c74d-b01f-4ec4-a2af-3a2f8c5a0227/2f5e1f30913a.jpg)
 Sam Raimi's film about two co-workers who survive a plane crash and are stranded on a deserted island. Rachel McAdams and Dylan O'Brien are a perfect fit for Raimi's devilish sense of humor.
 
 ## 4. Leviticus (2026) — %92
-![Leviticus](https://resizing.flixster.com/Ie45ZUWu67iP1micNmKazANJGiY=/800x1200/v2/https://resizing.flixster.com/AQQe8xVq4v1wD42l1mFji4ZGm7s=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzVkNTI5YTVmLWNkYjgtNDBiNy1hNzcwLTVjMjgyNmNkMWI4Ny5qcGc=)
+![Leviticus](/__l5e/assets-v1/3a157f6c-f63f-44f7-83ff-f4b6214e385f/978edc327881.jpg)
 In Adrian Chiarella's film, two young people must escape a creature that takes the form of the person they most desire — each other. It combines an emotional love story with a clever monster concept.
 
 ## 5. 28 Years Later: The Bone Temple (2026) — %91
-![28 Years Later: The Bone Temple](https://resizing.flixster.com/wzWUyaYeWCvCjpH-nMxdojatc_Q=/800x1200/v2/https://resizing.flixster.com/KhvweFDt8lqqSgqfVdOUZVXZzow=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFmNjI1OGU2LTY2MDEtNDMyNi04NGFiLTY3NjZhNDA3ODA2MS5qcGc=)
+![28 Years Later: The Bone Temple](/__l5e/assets-v1/9f56e460-b823-4a50-8b4d-bec0c19fe5c6/13e2ac57fd9a.jpg)
 Nia DaCosta takes over the world established by Danny Boyle and Alex Garland and turns it upside down. Ralph Fiennes and Jack O'Connell's performances deepen the film's horror.
 
 ## 6. Hokum (2026) — %90
-![Hokum](https://resizing.flixster.com/CsdnPMckJ4MRD64GQgwTM0n3oeU=/800x1200/v2/https://resizing.flixster.com/jRvqYBpvhPAKUPk2mY9cUsGwuRA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FhMzRlOTkxLWI4MmUtNDcxOS1hYWI2LWU3OGQ4NGNhYjdkMS5qcGc=)
+![Hokum](/__l5e/assets-v1/4e462f13-13cf-4031-8d85-da58f2b3419e/dab8c4495a3b.jpg)
 In Damian McCarthy's film, novelist Ohm Bauman (Adam Scott) becomes entangled in a witch legend at a desolate inn where he's gone to scatter his family's ashes. A classic haunted house story fueled by atmospheric folklore.
 
 ## 7. Backrooms (2026) — %87
-![Backrooms](https://resizing.flixster.com/vNXC0QV1iooJ0p7jei-lQJmjqNc=/800x1200/v2/https://resizing.flixster.com/rhgxSrAD0DJLjAa7CXGBQU5h81E=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U3YzFlM2U0LWM1NzctNDg5Yy05M2Y4LTVmYWYxOTQyMDEyMy5qcGc=)
+![Backrooms](/__l5e/assets-v1/51852159-797a-48e7-9067-b20cb762cf48/8f297513098b.jpg)
 Kane Parsons's debut feature film, bringing his YouTube-born liminal corridor legend to the big screen. Starring Chiwetel Ejiofor and Renate Reinsve, the production is as hypnotic as it is terrifying.
 
 ## 8. We Bury the Dead (2024) — %87
-![We Bury the Dead](https://resizing.flixster.com/s_tZm2eyH-KstknuuyeKSqBvHuY=/800x1200/v2/https://resizing.flixster.com/h3jkbQNfvS-0g3ADQTmnH6-2cJE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzZlNmFmZTlkLTZmYjAtNDRhNi04ZjE5LTY1ZjhhZGQ5MTk1NS5qcGc=)
+![We Bury the Dead](/__l5e/assets-v1/b1092187-4490-40ba-9e99-b5f3db729ecb/4b4150ed1943.jpg)
 The film, starring Daisy Ridley, turns zombie tropes into a meditation on grief and loss. After a military disaster, the dead don't just rise, they hunt.
 
 ## 9. Primate (2025) — %77
-![Primate](https://resizing.flixster.com/smtVXh-Oyl8DXPD4-rFqfvpGcK0=/800x1200/v2/https://resizing.flixster.com/hRGJ1nHXf3xkpX4qyQisxuSZyE0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzE1OWQ2MzdmLWU5OTMtNGM3Yi05NDQxLWYwMjIzOTJjZWFhNy5qcGc=)
+![Primate](/__l5e/assets-v1/1f0e26e8-fe19-43dc-a316-7790c6498083/ba05adef402c.jpg)
 Johannes Roberts's film, released at the beginning of the year, turns a tropical vacation into a primal survival nightmare. Short, lean, and effective.
 
 ## 10. Ready or Not 2: Here I Come (2026) — %75
-![Ready or Not 2](https://resizing.flixster.com/jf21tFzvWtc6lc1ezusO4yn6ZHM=/800x1200/v2/https://resizing.flixster.com/mb7jKn6kPjbfdG_ec1yxUpObtic=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RhYTI3MWU2LTJiMDctNDU3OC1hYTRmLTQ1NWZjNWExZGEyMi5qcGc=)
+![Ready or Not 2](/__l5e/assets-v1/b8d26bf9-a9c9-4835-9a84-40fd36cd0116/37bd82ed47ee.jpg)
 Grace (Samara Weaving) immediately levels up after escaping the Le Domas family. The sequel largely breaks the curse of sequels thanks to Weaving's wild energy.
 
 Source: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
-    image: "https://resizing.flixster.com/V3Dlht0kQFwWScgUnZGsUl_Eo7w=/800x1200/v2/https://resizing.flixster.com/e6L--SBRx1PvceaQoUsdgmWeZqs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2OTE2MjRiLTI0OWMtNDE1ZC04YTQwLTg0ZmVmMzhmMWE4Mi5qcGc=",
+    image: "/__l5e/assets-v1/eebe0338-8465-4e8f-918a-f8c76c0ebb7e/57bbe5df91c4.jpg",
     source: "Rotten Tomatoes",
     countdownBadge: "10 → 1 countdown",
   },
@@ -1784,15 +1784,15 @@ Source: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
     body: `From Boots Riley to Olivia Wilde, from Pixar to Minions: 2026 comedy cinema is a year where both auteur cinema and big studio animations are strong at the same time. The 10 best new comedies of the year, according to Rotten Tomatoes' Tomatometer rankings:
 
 ## 1. The Invite (2026) — %97
-![The Invite](https://resizing.flixster.com/vu3WNu2gCk5JheviBy5KMw07wyc=/800x1200/v2/https://resizing.flixster.com/oQP7j5g3mdXhrPzuVM1Kt5yKNbo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMyM2E1MzNiLWJjYzgtNDQ1MC05M2Q0LTY2NWJmM2IyYjk4ZC5qcGc=)
+![The Invite](/__l5e/assets-v1/f3c21a03-1544-4142-9c27-d19243bb53f7/2eacf819ef58.jpg)
 In the film directed by Olivia Wilde, Joe and Angela, whose marriage is falling apart, invite their mysterious upstairs neighbors to dinner. With a cast including Seth Rogen, Penélope Cruz, and Edward Norton, it's the year's most sophisticated farce.
 
 ## 2. The Sheep Detectives (2026) — %95
-![The Sheep Detectives](https://resizing.flixster.com/mQRp4QAya4hb3SShwOckjngwLIA=/800x1200/v2/https://resizing.flixster.com/LviGdc9-5BykrMyhX1oGyU-HhXE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzYzNjA4ZWQ1LTE1M2UtNGI2Mi05NTJlLWM0ZTg2NWM5ODJhNC5qcGc=)
+![The Sheep Detectives](/__l5e/assets-v1/df744ded-659b-46e3-89da-89b07c2caa15/a47b73279c60.jpg)
 Hugh Jackman plays a shepherd who reads detective novels to his sheep every night. The film, also starring Emma Thompson and Nicholas Braun, wraps surprising depth of themes into a warm family entertainment package.
 
 ## 3. Hoppers (2026) — %94
-![Hoppers](https://resizing.flixster.com/PLxuRQLKTav6wOOrBIvqw736EBE=/800x1200/v2/https://resizing.flixster.com/bwWq8XLRwb_i2OuzPIq0JwPPyw8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzkzNjM1M2U4LWVmODYtNGM4Mi1iYzJmLTNkZWU0MjkxZTU0Yi5qcGc=)
+![Hoppers](/__l5e/assets-v1/65df64b1-fb15-4ce7-942c-a3018c9358e6/9270a83231fc.jpg)
 Pixar's new film is based on a sci-fi idea that makes it possible to talk to animals. According to critics, it's the studio's funniest work to date.
 
 ## 4. Toy Story 5 (2026) — %92
@@ -1800,19 +1800,19 @@ Pixar's new film is based on a sci-fi idea that makes it possible to talk to ani
 This time, toys are competing with screens. The return of Woody and Buzz reminds us that children still need these characters despite franchise fatigue.
 
 ## 5. I Love Boosters (2026) — %92
-![I Love Boosters](https://resizing.flixster.com/xsf25W7RBZbGmis3mCgVcDfiqMY=/800x1200/v2/https://resizing.flixster.com/buDvWJ5KfAV4_4MVcFG_-nZBqLQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzNiZGNiNDA2LTY0NDItNGJlNy04NmRlLTM0OTllZjk0ZGQ2MS5qcGc=)
+![I Love Boosters](/__l5e/assets-v1/84913933-55b1-41c3-8ebf-f3a460d1cabb/19903ba1cc72.jpg)
 Boots Riley's new film, starring Keke Palmer, Naomi Ackie, and Taylour Paige, once again combines the director's sharp social satire with chaotic humor.
 
 ## 6. I Want Your Sex (2026) — %90
-![I Want Your Sex](https://resizing.flixster.com/_XzDHRpLdtIfwZBI0ssBt96kSsk=/800x1200/v2/https://resizing.flixster.com/fArozlChMxf5nY6-Ey0bvc32ig0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JlYjVjMmQ1LTc2YTQtNDBhNC04NzJhLWE2OWEwOTYyYWVkZi5qcGc=)
+![I Want Your Sex](/__l5e/assets-v1/28e7c32b-c12b-4317-879f-7aa7fe2209e3/6911022747f9.jpg)
 One of Gregg Araki's most accessible works. Elliot, played by Cooper Hoffman, finds his fantasies becoming reality when he gets a job working for provocative artist Erika Tracy (Olivia Wilde).
 
 ## 7. Minions & Monsters (2026) — %89
-![Minions & Monsters](https://resizing.flixster.com/LeSi5fpSggaQ4EayHfYv_dCv_0c=/800x1200/v2/https://resizing.flixster.com/1gyu0k41JOFVHiGEh8aA1Pw7X14=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzY0ZTNhMGQwLWEwN2QtNDIxNS05ZTNmLTEzMGM1YmM0ZmYyNC5qcGc=)
+![Minions & Monsters](/__l5e/assets-v1/3f906c9b-1f22-47f9-8eb7-266751a88e4b/0f0688aa3ee1.jpg)
 Minions conquer Hollywood history this time: they become stars, lose everything, and unleash monsters upon the world. The most enjoyable installment of the series.
 
 ## 8. Power Ballad (2026) — %88
-![Power Ballad](https://resizing.flixster.com/48xFRdscTddL_6EpBxYa6QDLY0k=/800x1200/v2/https://resizing.flixster.com/D6ZNf6XfT_f-L-2iIpnUFpG21rA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzM3MTdjMjYzLTE4MzItNGU1MC1hZTYzLWI3NzUwMThjODI4OC5qcGc=)
+![Power Ballad](/__l5e/assets-v1/a5d29a70-3ee8-4021-8574-b21c12a5d696/eea1d3fd971b.jpg)
 In John Carney's film, wedding singer Rick (Paul Rudd), longing for his old days, meets fading boyband star Danny (Nick Jonas). It tells the allure and cost of fame with quiet grace.
 
 ## 9. GOAT (2026) — %82
@@ -1820,11 +1820,11 @@ In John Carney's film, wedding singer Rick (Paul Rudd), longing for his old days
 An action-comedy set in Sony Pictures Animation's all-animal world. The voice cast, including Steph Curry and Gabrielle Union, gets the job done.
 
 ## 10. Cold Storage (2026) — %81
-![Cold Storage](https://resizing.flixster.com/kytUurP27KN3R5E4ikzZDvVwUig=/800x1200/v2/https://resizing.flixster.com/ou6aGKAZo60oUaTDVfNmdc6wZcA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2UxZDY1YzRlLTZlMTYtNDUwOS05Mjc0LThkOGJmM2UzOWRhNS5qcGc=)
+![Cold Storage](/__l5e/assets-v1/be80a1fc-1a5d-4b7d-90a2-d6d762a03ab3/04595477da0f.jpg)
 The film starring Joe Keery and Georgina Campbell is a B-movie homage set in a storage facility built on an old military base. It's a sticky and witty sci-fi with a Liam Neeson-esque cast.
 
 Source: Rotten Tomatoes — "Best New Comedies of 2026".`,
-    image: "https://resizing.flixster.com/vu3WNu2gCk5JheviBy5KMw07wyc=/800x1200/v2/https://resizing.flixster.com/oQP7j5g3mdXhrPzuVM1Kt5yKNbo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMyM2E1MzNiLWJjYzgtNDQ1MC05M2Q0LTY2NWJmM2IyYjk4ZC5qcGc=",
+    image: "/__l5e/assets-v1/f3c21a03-1544-4142-9c27-d19243bb53f7/2eacf819ef58.jpg",
     source: "Rotten Tomatoes",
   },
   {
