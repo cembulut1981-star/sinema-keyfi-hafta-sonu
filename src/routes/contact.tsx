@@ -3,8 +3,8 @@ import { Link, createFileRoute } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/SiteShell";
 import { SITE_URL } from "@/lib/seo";
 
-// Set the editorial inbox here; the page shows a placeholder until it is filled in.
-const CONTACT_EMAIL = "";
+// Editorial inbox shown on the contact page.
+const CONTACT_EMAIL = "cembulut1981@gmail.com";
 
 const TITLE = "Contact Sine-Meta — Tips, Corrections and Partnerships";
 const DESC = "Get in touch with Sine-Meta's editors about story tips, corrections, press releases or partnerships.";
