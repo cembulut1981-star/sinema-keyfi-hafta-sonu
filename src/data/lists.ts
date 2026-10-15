@@ -23,6 +23,10 @@ import ridleyScottCover from "@/assets/ridley-scott-ranked.jpg.asset.json";
 import ridleyGladiator from "@/assets/ridley-gladiator-2.jpg.asset.json";
 import ridleyBladeRunner from "@/assets/ridley-blade-runner.jpg.asset.json";
 import ridleyAlien from "@/assets/ridley-alien.jpg.asset.json";
+import nhjCover from "@/assets/na-hong-jin-hope-cover.jpg.asset.json";
+import nhjChaser from "@/assets/na-hong-jin-chaser.jpg.asset.json";
+import nhjYellowSea from "@/assets/na-hong-jin-yellow-sea.jpg.asset.json";
+import nhjWailing from "@/assets/na-hong-jin-wailing.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -2178,6 +2182,51 @@ Its rain-soaked future changed science fiction forever. Beneath the production d
 Scott's haunted-house movie in space remains a model of patient terror. Industrial design, class tension and the xenomorph converge in a horror film that still feels dangerous.
 
 Source: Rolling Stone — “Ridley Scott's Movies, Ranked Worst to Best” by A.A. Dowd, David Fear, Tim Grierson and Emily Zemler.`,
+  },
+  {
+    slug: "na-hong-jin-movies-to-watch-before-hope",
+    title: "3 Na Hong-jin Movies You Need to Watch Next as Hope Hits Cinemas",
+    excerpt: "As the most expensive South Korean film ever made stomps into cinemas, we walk through Director Na's filmography — three modern classics of Korean thriller and horror, and where to stream them.",
+    countdownBadge: "3 films",
+    image: nhjCover.url,
+    source: "Empire",
+    body: `While the week's biggest headlines belong elsewhere, there is another wildly entertaining, kind of unwieldy, ridiculously ambitious near-three-hour sci-fi blockbuster demanding attention right now: Na Hong-jin's gonzo creature feature "Hope."
+
+Reported as the most expensive South Korean movie ever made, Director Na's latest sees two police officers in a small town near the demilitarised zone between North and South Korea come under attack from a mysterious creature — an experience that demands the biggest screen possible.
+
+As "Hope" stomps into multiplexes, here is a guided tour of Director Na's filmography to date: the three Na Hong-jin films you need to see next, and where to stream them.
+
+## The Chaser (2008)
+
+![The Chaser](${nhjChaser.url})
+
+**Runtime:** 2hrs 5m | **Streaming on:** Prime Video, Arrow Video, Shudder
+
+**Starring:** Kim Yun-seok, Ha Jung-woo, Seo Young-hee, Kim You-jung, Jung In-gi
+
+Thought David Fincher's "Se7en" or "Zodiac" were among the most harrowing serial killer thrillers? The incredibly remorseless murderer in Na's breakout feature makes John Doe seem pretty chill in comparison, and even gives Bong Joon Ho's "Memories of Murder" a run for its money. Set in a world soaked in rain and blood, this cat-and-mouse story carries an all-pervasive sense of hopelessness, yet is so relentlessly paced and utterly gripping that you won't be able to take your eyes off it. Throw in a sharp critique of Korea's policing and legal systems, and "The Chaser" makes the emergence of a major new filmmaking talent incredibly clear.
+
+## The Yellow Sea (2010)
+
+![The Yellow Sea](${nhjYellowSea.url})
+
+**Runtime:** 2hrs 36m | **Buy/Rent on:** Apple TV
+
+**Starring:** Ha Jung-woo, Kim Yun-seok, Cho Seong-ha, Lee Cheol-min, Kwak Do-won, Im Ye-won
+
+Continuing his bleak streak, the director's man-on-the-run thriller soaks its lead taxi driver, Gu-nam (Ha Jung-woo), in a world of desperation. After his contract kill goes wrong, he faces mobsters wanting to break his legs — and the police wanting to break them too. It's a brutal take on a man limping his way out of one sticky situation and into another, with many bloodied knives and smashed heads along the way. A sweaty, sweaty film that'll leave you desperate for a breather by the end of its whacking 156-minute runtime.
+
+## The Wailing (2016)
+
+![The Wailing](${nhjWailing.url})
+
+**Runtime:** 2hrs 36m | **Streaming on:** Prime Video
+
+**Starring:** Kwak Do-won, Hwang Jung-min, Chun Woo-hee, Jun Kunimura, Kim Hwan-hee, Heo Jin
+
+Going full-bore into the horror genre, Director Na delivered one of the most downright terrifying films of the 21st century — channelling something primal in the tale of a South Korean village torn apart by supernatural murders, seemingly linked to a local Japanese stranger. It begins as a police procedural of sorts, as local copper Jong-goo (Kwak Do-won) investigates the terrible killings, before the film shifts into all-out waking-nightmare mode. Gorgeously shot, incredibly atmospheric, and with a final act that instils terror on a primal level, this 150-minute epic is a legitimate all-timer and yet still, somehow, criminally underseen. Get on it!
+
+Source: Empire — "3 Na Hong-Jin Movies You Need To Watch Next As Hope Hits Cinemas" by Harry Stainer, Ben Travis and Jordan King, September 25, 2026.`,
   },
 ];
 
