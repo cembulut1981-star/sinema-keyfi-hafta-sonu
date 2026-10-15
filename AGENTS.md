@@ -9,3 +9,6 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 - News items can opt into a lower homepage placement; propagate it into articles and render them once after the second standard feed row, outside the lead and paginated pools, to preserve deliberate editorial placement.
+- Article images must be site-hosted (lovable-assets pointers in src/assets, remote copies in src/assets/remote); never hotlink publisher CDNs — avoids copyright/broken-image risk.
+- New article slugs are English; keep existing Turkish slugs and route prefixes so published URLs keep working.
+- Article route heads use articleHead() from src/lib/seo.ts (canonical, og, Article JSON-LD); dates come only from the source credit, never invented.

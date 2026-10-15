@@ -1,3 +1,5 @@
+import { articleHead } from "@/lib/seo";
+import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
@@ -15,23 +17,8 @@ export const Route = createFileRoute("/haber/$slug")({
   },
   head: ({ params }) => {
     const n = getNews(params.slug);
-    if (!n) return { meta: [{ title: "Story not found — Sine-Meta" }] };
-    return {
-      meta: [
-        { title: `${n.title} — Sine-Meta` },
-        { name: "description", content: n.excerpt },
-        { property: "og:title", content: n.title },
-        { property: "og:description", content: n.excerpt },
-        { property: "og:type", content: "article" },
-        { name: "twitter:card", content: "summary_large_image" },
-        ...(n.image.startsWith("https://")
-          ? [
-              { property: "og:image", content: n.image },
-              { name: "twitter:image", content: n.image },
-            ]
-          : []),
-      ],
-    };
+    if (!n) return { meta: [{ title: "Story not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    return articleHead(n, `/haber/${params.slug}`);
   },
   component: NewsPage,
   notFoundComponent: () => (
@@ -61,7 +48,8 @@ function NewsPage() {
           {n.title}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{n.excerpt}</p>
-        <div className="mt-5 text-sm text-muted-foreground">
+        <ArticleByline source={n.source} />
+        <div className="mt-1 text-sm text-muted-foreground">
           Source: <em>{n.source}</em>
         </div>
 

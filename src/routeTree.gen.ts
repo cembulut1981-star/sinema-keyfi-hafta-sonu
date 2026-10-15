@@ -10,7 +10,10 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
 import { Route as AramaRouteImport } from './routes/arama'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as DiziSlugRouteImport } from './routes/dizi.$slug'
 import { Route as HaberSlugRouteImport } from './routes/haber.$slug'
@@ -24,9 +27,24 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AramaRoute = AramaRouteImport.update({
   id: '/arama',
   path: '/arama',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RssDotxmlRoute = RssDotxmlRouteImport.update({
+  id: '/rss.xml',
+  path: '/rss.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -67,7 +85,10 @@ const MuzikSlugRoute = MuzikSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/arama': typeof AramaRoute
+  '/contact': typeof ContactRoute
+  '/rss.xml': typeof RssDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
@@ -78,7 +99,10 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/arama': typeof AramaRoute
+  '/contact': typeof ContactRoute
+  '/rss.xml': typeof RssDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
@@ -90,7 +114,10 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/arama': typeof AramaRoute
+  '/contact': typeof ContactRoute
+  '/rss.xml': typeof RssDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/dizi/$slug': typeof DiziSlugRoute
   '/haber/$slug': typeof HaberSlugRoute
@@ -103,7 +130,10 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/about'
     | '/arama'
+    | '/contact'
+    | '/rss.xml'
     | '/sitemap.xml'
     | '/dizi/$slug'
     | '/haber/$slug'
@@ -114,7 +144,10 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/about'
     | '/arama'
+    | '/contact'
+    | '/rss.xml'
     | '/sitemap.xml'
     | '/dizi/$slug'
     | '/haber/$slug'
@@ -125,7 +158,10 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/about'
     | '/arama'
+    | '/contact'
+    | '/rss.xml'
     | '/sitemap.xml'
     | '/dizi/$slug'
     | '/haber/$slug'
@@ -137,7 +173,10 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
   AramaRoute: typeof AramaRoute
+  ContactRoute: typeof ContactRoute
+  RssDotxmlRoute: typeof RssDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   DiziSlugRoute: typeof DiziSlugRoute
   HaberSlugRoute: typeof HaberSlugRoute
@@ -156,11 +195,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/arama': {
       id: '/arama'
       path: '/arama'
       fullPath: '/arama'
       preLoaderRoute: typeof AramaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rss.xml': {
+      id: '/rss.xml'
+      path: '/rss.xml'
+      fullPath: '/rss.xml'
+      preLoaderRoute: typeof RssDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -217,7 +277,10 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
   AramaRoute: AramaRoute,
+  ContactRoute: ContactRoute,
+  RssDotxmlRoute: RssDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   DiziSlugRoute: DiziSlugRoute,
   HaberSlugRoute: HaberSlugRoute,

@@ -1,3 +1,5 @@
+import { articleHead } from "@/lib/seo";
+import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
@@ -14,23 +16,8 @@ export const Route = createFileRoute("/muzik/$slug")({
   },
   head: ({ params }) => {
     const m = getMusic(params.slug);
-    if (!m) return { meta: [{ title: "Story not found — Sine-Meta" }] };
-    return {
-      meta: [
-        { title: `${m.title} — Sine-Meta` },
-        { name: "description", content: m.excerpt },
-        { property: "og:title", content: m.title },
-        { property: "og:description", content: m.excerpt },
-        { property: "og:type", content: "article" },
-        { name: "twitter:card", content: "summary_large_image" },
-        ...(m.image.startsWith("https://")
-          ? [
-              { property: "og:image", content: m.image },
-              { name: "twitter:image", content: m.image },
-            ]
-          : []),
-      ],
-    };
+    if (!m) return { meta: [{ title: "Story not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    return articleHead(m, `/muzik/${params.slug}`);
   },
   component: MusicPage,
   notFoundComponent: () => (
@@ -56,7 +43,8 @@ function MusicPage() {
           {m.title}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{m.excerpt}</p>
-        <div className="mt-5 text-sm text-muted-foreground">
+        <ArticleByline source={m.source} />
+        <div className="mt-1 text-sm text-muted-foreground">
           Source: <em>{m.source}</em>
         </div>
 

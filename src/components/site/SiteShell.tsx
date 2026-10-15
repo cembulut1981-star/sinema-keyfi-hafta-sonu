@@ -138,9 +138,16 @@ function Footer() {
         >
           SM
         </span>
-        <span className="flex-1 text-center italic text-neutral-600 text-[11px] tracking-wide">
-          Sine-Meta media. Independent film magazine, all rights reserved.
-        </span>
+        <div className="flex-1 flex flex-col items-center gap-1 text-center">
+          <span className="italic text-neutral-600 text-[11px] tracking-wide">
+            Sine-Meta media. Independent film magazine, all rights reserved.
+          </span>
+          <nav className="flex gap-4 text-[11px] font-display uppercase tracking-widest text-neutral-700">
+            <Link to="/about" className="hover:text-primary">About</Link>
+            <Link to="/contact" className="hover:text-primary">Contact</Link>
+            <a href="/rss.xml" className="hover:text-primary">RSS</a>
+          </nav>
+        </div>
 
         <div className="ml-auto relative">
           <button
