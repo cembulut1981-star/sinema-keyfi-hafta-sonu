@@ -1,4 +1,10 @@
 import gameOcean from "@/assets/game-alien-ocean.jpg";
+import exoMain from "@/assets/exorcist-martyrs-main.jpg.asset.json";
+import exo1 from "@/assets/exorcist-martyrs-1.jpg.asset.json";
+import exo11 from "@/assets/exorcist-martyrs-11.jpg.asset.json";
+import exo6 from "@/assets/exorcist-martyrs-6.jpg.asset.json";
+import exo8 from "@/assets/exorcist-martyrs-8.jpg.asset.json";
+import exo10 from "@/assets/exorcist-martyrs-10.jpg.asset.json";
 import gameOcean2 from "@/assets/game-alien-ocean-2.jpg";
 import gameOcean3 from "@/assets/game-alien-ocean-3.jpg";
 import gameSpy2 from "@/assets/game-spy-first-light-2.jpg";
@@ -272,6 +278,50 @@ The campaign was enjoyable if rough around the edges, but the core multiplayer �
 Battlefield may be the headliner, but the month is stacked with intriguing indies. **Echo Weaver** is a time-loop metroidvania where knowledge from each run pushes you further on the next. **Neon Abyss 2** is a cyberpunk action roguelike with online co-op for up to four players, while **Chained Beasts** is a co-op gladiator roguelike in which players fight through arenas while literally chained together. **Forever Ago** is a narrative adventure about how life does not always turn out the way you hoped.
 
 Then there is **Valor Mortis**, a Napoleonic Wars Soulslike from the makers of **Ghostrunner** — a striking premise that will need its gameplay to stand apart from the long line of FromSoftware imitators.`,
+  },
+  {
+    slug: "exorcist-martyrs-mike-flanagan-scariest-film",
+    title: "Mike Flanagan: The Exorcist: Martyrs Is 'the Scariest Thing I've Ever Made'",
+    excerpt: "Scarlett Johansson, Chiwetel Ejiofor and Laurence Fishburne lead a serial-killer possession story set in a haunted Manhattan.",
+    image: exoMain.url,
+    source: "Empire — Ben Travis, October 9, 2026",
+    body: `**Mike Flanagan** has spent years circling the meeting point of horror and Catholicism — *Midnight Mass* is the proof. Now the writer-director is taking on the franchise that defines it. **The Exorcist: Martyrs**, an original new chapter, arrives in cinemas on **March 12, 2027**, and Flanagan walked Empire through its first trailer.
+
+"Being raised Roman Catholic is a wonderful on-ramp into the horror genre," he says. The film is a serial-killer thriller with an unholy agenda — and, by his own admission, his darkest work yet.
+
+![The Exorcist: Martyrs — a staircase into darkness](${exo1.url})
+
+## Darker Than Anything Before
+
+"It's the scariest thing I've ever made," Flanagan promises. "It is dark. It is vicious, at times." After the empathy of *Carrie* and *The Life of Chuck*, he wanted to flex different muscles: the film will "go as dark as we're comfortable going, and then go darker."
+
+## Scarlett Johansson's First Horror Role
+
+![Scarlett Johansson in The Exorcist: Martyrs](${exo11.url})
+
+Johansson, who admits she doesn't like horror, plays **Julie Miller**, an NYPD detective who made her name catching a killer who staged religious crime scenes. Now a single mother, she faces what looks like a copycat — one leaving scenes specifically for her. Flanagan calls it "one of my favourite performances of hers."
+
+## New York as a Wasps' Nest
+
+![Manhattan in The Exorcist: Martyrs](${exo6.url})
+
+Swapping the franchise's Washington DC for Manhattan, Flanagan drew on the panic of the Son of Sam era and the eerie sight of skyscrapers beside 17th-century crypts. He cites *Seven* and the underrated *The Exorcist III* as touchstones for a story that is both procedural and possession tale.
+
+## A Stacked Ensemble
+
+Flanagan regulars Hamish Linklater, Rahul Kohli, Kate Siegel and Samantha Sloyan return, joined by **Chiwetel Ejiofor** as Father William, a former prison chaplain, and **John Leguizamo**, who "taps into a profound well of darkness."
+
+![Laurence Fishburne in The Exorcist: Martyrs](${exo8.url})
+
+**Laurence Fishburne** plays "a priest with a very particular set of skills" — possibly the film's titular exorcist, though Flanagan isn't saying.
+
+## A Nod to the Original
+
+![The iconic lamppost shot echoed in The Exorcist: Martyrs](${exo10.url})
+
+One shot of a house and a streetlamp recalls Father Merrin's legendary arrival. "That was an opportunity where you do have to acknowledge the tree," Flanagan says. The title, he adds, comes from his lifelong fascination with martyrdom — "a death that serves a greater purpose," and a horrifying idea all its own.
+
+[Read Ben Travis's original interview at Empire](https://www.empireonline.com/movies/features/exorcist-martyrs-mike-flanagan-interview-trailer-scariest-thing-ive-made/).`,
   },
   {
     slug: "marvel-zodiac-spy-thriller-series-2027",
