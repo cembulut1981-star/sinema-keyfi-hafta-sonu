@@ -99,7 +99,7 @@ Panettiere worked for so long and so much that when she passed away on Sunday at
 
 ## 'Remember the Titans' (2000)
 
-![Hayden Panettiere in Remember the Titans](https://www.rollingstone.com/wp-content/uploads/2026/08/remember-the-titans.jpg)
+![Hayden Panettiere in Remember the Titans](/__l5e/assets-v1/812ce90e-278d-40c2-b832-579dd9964b2e/afb6a6af3283.webp)
 
 Disney's _Remember the Titans_ brought together future stars, including Ryan Gosling and Donald Faison. Panettiere was just 10 years old when she landed the role of the football-obsessed tomboy Sheryl Yoast: the daughter of T.C. Williams High School's assistant coach Bill Yoast (Will Patton). Based on the true story of a desegregated high school football team in 1971 Virginia, the film pitted Patton against Denzel Washington as two coaches navigating racial tensions in the South; Sheryl was angry on her father's behalf when he was demoted and replaced by Washington.
 
@@ -107,7 +107,7 @@ With her thick Southern accent, messy blonde braids, and baseball T-shirts, many
 
 ## 'Ice Princess' (2005)
 
-![Hayden Panettiere in Ice Princess](https://www.rollingstone.com/wp-content/uploads/2026/08/ice-princess-list.jpg)
+![Hayden Panettiere in Ice Princess](/__l5e/assets-v1/d4827fa2-c607-4b4f-8534-ac1f6cf232ff/7737c3e672d0.webp)
 
 By 2005, the world knew Panettiere was a Disney darling after _Remember the Titans_ and _Tiger Cruise_. But the ice skating story _Ice Princess_, her last Disney Channel movie, showed that the young actress was ready for bigger things. In the film, she plays Gennifer "Gen" Harwood, the reluctant rival of Michelle Trachtenberg's Casey Carlyle; all while contending with her strict mother and even stricter coach Tina (Kim Cattrall).
 
@@ -115,7 +115,7 @@ For the role, which she entered with almost no experience, she said in 2024, "Wh
 
 ## 'Bring It On: All or Nothing' (2006)
 
-![Hayden Panettiere in Bring It On: All or Nothing](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-bring-it-on.jpg)
+![Hayden Panettiere in Bring It On: All or Nothing](/__l5e/assets-v1/44cce2c2-c08f-4fe1-a147-c6e617796e50/b989506c92f5.webp)
 
 Not every teen comedy sequel can be _American Pie 2_. While _Bring It On: All or Nothing_ bears all the hallmarks of a direct-to-DVD production, it's the only _Bring It On_ spin-off considered a true sequel to the original. Panettiere is smart and electric as Britney Allen, a Pacific Vista cheerleader forced to leave her rich friends and neighborhood to move to the poorer side of Crenshaw Heights.
 
@@ -123,7 +123,7 @@ As in the first film, the tension here is between the snooty rich kids and the a
 
 ## 'Heroes' (2006-2010)
 
-![Hayden Panettiere as Claire Bennet in Heroes](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-heroes.jpg)
+![Hayden Panettiere as Claire Bennet in Heroes](/__l5e/assets-v1/d7caf0a8-5601-44f8-a643-8bd599ed03ab/153901eaf9e2.webp)
 
 The first 15 minutes of _Heroes_ tell the viewer what they're in for: a man about to jump from a building, a professor pursuing his father's mysterious research, a camera girl fleeing the mafia with her son, and an office worker obsessed with kaiju who believes he can turn back time. But who can forget Panettiere's Claire Bennet diving into a wall of flames to save a stranger?
 
@@ -131,7 +131,7 @@ As the NBC series watched strangers around the world confront their powers, Pane
 
 ## 'Scream 4' (2011)
 
-![Hayden Panettiere as Kirby Reed in Scream 4](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-scream-4-list.jpg)
+![Hayden Panettiere as Kirby Reed in Scream 4](/__l5e/assets-v1/81b80705-9957-4467-8ce6-ceecc9ab4be9/d9720ffee461.webp)
 
 Sometimes people really love know-it-alls. In _Scream 4_, Panettiere's Kirby Reed is a trivia maniac and a cynical encyclopedia of horror cinema. Wes Craven's attempts to give his last _Scream_ film before his death a millennial coat of paint sometimes grate; but Panettiere's charm makes it impossible to take your eyes off Kirby.
 
@@ -139,12 +139,12 @@ She instantly turned throwaway lines into classics and approached Kirby with suc
 
 ## 'Nashville' (2012-2018)
 
-![Hayden Panettiere as Juliette Barnes in Nashville](https://www.rollingstone.com/wp-content/uploads/2026/08/hayden-nashville.jpg)
+![Hayden Panettiere as Juliette Barnes in Nashville](/__l5e/assets-v1/d418b116-f182-4a4c-a2da-0bf1da9d8c9d/005c22ecd052.webp)
 
 The ABC series _Nashville_ could not have existed without Hayden Panettiere. Aside from her ability to oscillate between comedic intrigue and heartbreaking drama, the show's story was directly drawn from Panettiere's own life and struggles. In her memoir, she described the series as a "traumatic" experience that constantly dug into her life story: "It was so obvious… They weren't doing their homework. They weren't creating new storylines. They were just looking at my life and saying, 'Let's take what she's going through right now and put our own spin on it.'"
 
 Still, Panettiere elevated the material. As country star Juliette Barnes, she transformed a typical prime-time soap opera role into a masterclass in dramatic acting; showing the simmering pain behind Juliette's eyes. It was gracefully done and, let's be honest: it was more than the show deserved from its star.`,
-    image: "https://www.rollingstone.com/wp-content/uploads/2026/08/Hayden-Panettiere-Best-Roles.jpg",
+    image: "/__l5e/assets-v1/c17433ad-8d07-4bd0-b8b1-f1d0c5191a13/5642bf3b0576.webp",
     source: "Rolling Stone",
   },
   {
@@ -158,78 +158,78 @@ This list does not include shows like "Better Call Saul," "Batman Beyond," or "H
 
 ## Frasier
 
-![Frasier](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/frasier-1786452681.jpg)
+![Frasier](/__l5e/assets-v1/2691e87a-8668-4388-a7b0-154b2a8a1ff0/48d0ef13d165.jpg)
 
 One of the most successful spin-offs of all time: "Frasier" surpassed the quality of its parent series "Cheers." Dr. Frasier Crane was initially intended for only a few episodes, but Kelsey Grammer's performance propelled him to the center of the show, followed by his own series set in Seattle. Thanks to Frasier and his brother Niles's psychiatrist identities, the writers could play with intellectual humor; the other characters provided a comedic contrast to this subtle wit.
 
 ## Happy Days
 
-![Happy Days](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/happy-days-1786452681.jpg)
+![Happy Days](/__l5e/assets-v1/14726fa7-5b9c-466e-b9f8-8cbdc355319f/8f85a586c907.jpg)
 
 An unusual spin-off by today's standards: the show began as an unsold pilot in ABC's "Love, American Style" anthology. George Lucas liked Ron Howard in the pilot and cast him in "American Graffiti"; the film's success rekindled interest in the pilot. Over time, Fonzie became the show's signature character. "Happy Days" also coined the phrase "jumping the shark" and spawned its own spin-offs like "Laverne & Shirley" and "Mork & Mindy."
 
 ## Xena: Warrior Princess
 
-![Xena: Warrior Princess](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/xena-warrior-princess-1786452682.jpg)
+![Xena: Warrior Princess](/__l5e/assets-v1/ac71609c-0a5c-4103-bb7f-ccd6d43cfc9f/44e9ba58ec9b.jpg)
 
 Xena, who appeared for a three-episode arc in "Hercules: The Legendary Journeys," left such an impression on viewers that she earned her own series. With its action, emotion, and complex relationships, the show brought together both male and female audiences, and thanks to the bond between Xena and Gabrielle, it also became a cult favorite for queer viewers; Lucy Lawless openly embraced this interpretation over the years.
 
 ## A Different World
 
-![A Different World](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/a-different-world-1786452682.jpg)
+![A Different World](/__l5e/assets-v1/8b766f77-37c1-40c4-bb13-cf49294450ed/842f882aacc6.jpg)
 
 Created to move Denise Huxtable from "The Cosby Show" to college, the series found its identity under Debbie Allen's direction after Lisa Bonet's departure. With discussions ranging from gender roles to racism, class issues to Black identity, it established the template for college comedies and surpassed its parent series in depth of content.
 
 ## Family Matters
 
-![Family Matters](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/family-matters-1786452682.jpg)
+![Family Matters](/__l5e/assets-v1/c46919b2-029a-4c3d-8666-d1a8295b7bb5/f6a7dc81c954.jpg)
 
 Harriette Winslow was initially an elevator operator in "Perfect Strangers"; her comedic chemistry with her husband Carl earned them their own show. Spanning the entire 90s, the series almost single-handedly defined the concept of a "nerd" with Steve Urkel's "Did I do that?" catchphrase — and maintained a positive portrayal of a Black middle-class family on screen for years.
 
 ## Law & Order: SVU
 
-![Law & Order: SVU](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/law-order-svu-1786452683.jpg)
+![Law & Order: SVU](/__l5e/assets-v1/9f988baf-a7aa-43b5-b00b-2c329afe542e/8ecb10e0ea08.jpg)
 
 The strongest link in the "Law & Order" universe. The series, which began in 1999, has served as a school for almost every Hollywood actor for a quarter-century. In addition to perfecting the crime procedural, Mariska Hargitay's Olivia Benson, who embodies both toughness and compassion, saves the show from being a cold case narrative.
 
 ## NCIS
 
-![NCIS](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/ncis-1786452683.jpg)
+![NCIS](/__l5e/assets-v1/37534866-8183-4254-a2ef-d4ce7484df09/c907436940f8.jpg)
 
 Leroy Gibbs and his team, who appeared in the eighth season of the now-forgotten CBS series "JAG," formed the pilot for "NCIS" with a two-episode arc. The crime procedural, which combines military themes, has been running for over 20 years; even though Mark Harmon has retired from the flagship series, he continues to be part of the universe as the narrator of "NCIS: Origins."
 
 ## Good Times
 
-![Good Times](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/good-times-1786452683.jpg)
+![Good Times](/__l5e/assets-v1/f5efc164-7797-4843-9a6a-02cfdbb73197/c0e4cd144741.jpg)
 
 Florida Evans first appeared in Norman Lear's "Maude"; for "Good Times," the character's backstory was rewritten, and the family moved to public housing in Chicago. Addressing issues like gang violence, theft, child abuse, and eviction, the series also made history by presenting the first Black father to be found at home on screen.
 
 ## The Flash
 
-![The Flash](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/the-flash-1786452684.jpg)
+![The Flash](/__l5e/assets-v1/2d0f4cb2-5a8c-4985-ae60-4ea7426df62e/8cbf4efa0a08.jpg)
 
 During The CW's golden age, it became the crown jewel of the Arrowverse, even overshadowing "Arrow," which lent its name to the universe. Its tone, balancing seriousness with lightness, the warmth of its cast, and the chemistry between Grant Gustin and Candice Patton, elevated the series beyond superhero action.
 
 ## The Jeffersons
 
-![The Jeffersons](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/the-jeffersons-1786452684.jpg)
+![The Jeffersons](/__l5e/assets-v1/22519ce9-15eb-48b7-bf9d-4c6376ef9ec9/79b46e85c251.jpg)
 
 Another Norman Lear production. The only character you likely remember from "All in the Family" is Archie Bunker; in "The Jeffersons," it's the comedic chemistry of George and Weezie and Florence's sharp tongue that stick in your mind. It tackled topics like racism, gun violence, and substance abuse with the same courage but with a stronger cast.
 
 ## Daria
 
-![Daria](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/daria-1786452685.jpg)
+![Daria](/__l5e/assets-v1/21062e1d-e648-4024-8356-c107b4db3bc8/791cc2580aeb.jpg)
 
 Daria Morgendorffer, a side character from "Beavis and Butt-Head," transformed into MTV animation's smartest social commentary in her own series. What she said about adolescence, class, and popularity is still relevant decades later; the show's strength lies in giving even "stupid" characters a layered past.
 
 ## Star Trek: The Next Generation
 
-![Star Trek: The Next Generation](https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/star-trek-the-next-generation-1786452685.jpg)
+![Star Trek: The Next Generation](/__l5e/assets-v1/11ce8507-8c98-4d36-b82a-5a1b2d3dc81d/b48daf2fae24.jpg)
 
 It's not only one of the best shows of the 90s but also considered one of the best spin-offs of all time. Its stories are more complex, the acting less theatrical; when watched today, it's more digestible than the original series. Picard and his crew elevated science fiction to a respected place in popular culture and laid a solid foundation for subsequent series like "Deep Space Nine."
 
 In short: a spin-off doesn't always have to be a pale copy. Sometimes, it can even be the only reason we remember the original series.`,
-    image: "https://www.slashfilm.com/img/gallery/spin-offs-better-than-original-series/intro-1786452680.jpg",
+    image: "/__l5e/assets-v1/8f5bc766-009c-4ed5-8933-dc72fb71b77a/a644ab98d1d9.jpg",
     source: "SlashFilm",
   },
 
@@ -238,7 +238,7 @@ In short: a spin-off doesn't always have to be a pale copy. Sometimes, it can ev
     title: "13 Best Acting Performances from Christopher Nolan Films: From Matt Damon to Heath Ledger",
     excerpt: "Variety's awards editor Clayton Davis ranked the 13 most memorable acting performances in Nolan's career — a list ranging from Heath Ledger's Joker to Matt Damon's Odysseus.",
     body: "Time has been kind to Christopher Nolan. The director's filmography has become a benchmark, not only for its visual design and temporal experiments but also for the acting performances it has produced. Variety's awards editor Clayton Davis ranked the 13 best acting performances in Nolan's career.\n\n**1. Heath Ledger — Joker (The Dark Knight, 2008):** Undisputedly at the top of the list. Ledger's chaotic, unpredictable Joker proved that a superhero film could win an Oscar for an actor.\n\n**2. Cillian Murphy — J. Robert Oppenheimer (Oppenheimer, 2023):** The pinnacle of the Nolan-Murphy collaboration; it brought Murphy his first Oscar. A rare performance that built a historical figure from the inside out.\n\n**3. Matt Damon — Dr. Mann / Odysseus (Interstellar, 2014 & The Odyssey, 2026):** Davis evaluates Damon's performances in two different Nolan projects together. In 'The Odyssey,' Damon delivers one of the most layered works of his career.\n\n**4. Marion Cotillard — Mal (Inception, 2010):** A performance that reminds us that the ghost in Cobb's mind is not just a threat, but a figure of grief.\n\n**5. Matthew McConaughey — Cooper (Interstellar):** The most emotional work of the 'McConaissance' era; the tears in the bookshelf scene are still debated.\n\nThe list also continues with Christian Bale (Batman trilogy and The Prestige), Guy Pearce (Memento), Robert Pattinson (Tenet), Anne Hathaway (Interstellar & The Dark Knight Rises), Tom Hardy (Dunkirk, The Dark Knight Rises), Florence Pugh (Oppenheimer), Ken Watanabe (Batman Begins, Inception), and Michael Caine (career-long Nolan collaboration).\n\nDavis's conclusion is clear: although Nolan may not be known as an 'actor's director,' his filmography constitutes one of the richest archives of performances of the last two decades.",
-    image: "https://variety.com/wp-content/uploads/2026/07/Christopher-Nolan-Movie-Performances.jpg?w=1200&h=800&crop=1",
+    image: "/__l5e/assets-v1/dddaf637-3b47-4ce6-a8ce-e2993a1c4f3f/041f9cdc3736.webp",
     source: "Variety",
   },
   {
@@ -246,7 +246,7 @@ In short: a spin-off doesn't always have to be a pale copy. Sometimes, it can ev
     title: "\"I Watched It Seven Times in the Cinema\": Guardian Readers' Favorite Films of 2026",
     excerpt: "After Guardian editors picked their best of 2026, readers also had their say. From 'Backrooms' to 'The Secret Agent,' magical cinematic moments that marked the first half of the year.",
     body: "After Guardian editors selected the best films of the first half of 2026, they asked readers to share their magical cinematic moments from the first six months of the year. The recurring themes and surprising choices in the messages received paint a striking collective portrait.\n\n**The Secret Agent** — Kleber Mendonça Filho's film captivated Liz, writing from London, from the very first frame with its strange opening scene set at a gas station in rural Brazil. Ghirotti, a corrupt corporate executive trying to corner the fugitive academic Armando, is a villain who sends shivers down the audience's spine.\n\n**Backrooms** — This low-budget experiment, shot with endless yellow corridors and fluorescent lighting, is one of the most talked-about indies of the first half of the year. In one reader's words, \"I watched it seven times in the cinema\" — one of the rare works that successfully transitioned from a YouTube short film to a feature.\n\n**The Ballad of Wallis Island** — A small-scale, warm, and music-filled island story; for many readers, the 'little miracle' film of the year. Some said they wanted to hug a stranger after leaving the cinema.\n\n**Sinners** — Ryan Coogler's vampire-music hybrid film transformed into a living experience in IMAX theaters. Readers particularly cite the blues sequence as the year's boldest set-piece.\n\n**Bring Her Back** — Danny and Michael Philippou brothers' second film after 'Talk to Me' not only met but exceeded expectations for horror fans. \"I don't remember the last time I saw a cinema so silent,\" wrote a reader from Manchester.\n\nThe list goes on with titles such as 'Sentimental Value,' which resonated at Cannes with its 'Anora' courage, Werner Herzog's new documentary, Payal Kapadia's new work, and readers' surprise favorite 'Friendship.' Returning to the cinema seems to be evolving from a celebrated discourse into a concrete habit each year — at least for Guardian readers, the first half of 2026 is proof of this.",
-    image: "https://i.guim.co.uk/img/media/e245923817e6c5241c330a7af2bc71a910020417/0_0_1547_1031/master/1547.jpg?width=1200&dpr=1&s=none&crop=none",
+    image: "/__l5e/assets-v1/1b267def-cd4a-4daa-9213-d87b0baeb668/1f975db04bfc.avif",
     source: "The Guardian",
   },
 
@@ -546,7 +546,7 @@ This series, which offers a meta-perspective on the superhero format, cleverly e
 
 Source: Rolling Stone – "The Best TV Shows of 2026 So Far".
 `,
-    image: "https://www.rollingstone.com/wp-content/uploads/2026/06/Best-TV-so-far-2026.jpg?w=1581&h=1054&crop=1",
+    image: "/__l5e/assets-v1/5878242b-5eba-4476-abe1-d70f79b394c9/86f0ca23976b.webp",
     source: "Rolling Stone",
   },
   {
@@ -904,7 +904,7 @@ Here's where all previous films can be found:
 As can be seen, HBO Max has become a one-stop shop for the entire franchise. The sequel series 'Ash vs. Evil Dead' is also available on the same platform. This is an ideal configuration for 'completionist' viewers who want to watch the entire series sequentially while preparing for the new Sébastien Vaniček film.
 
 Source: TheWrap – "Where to Stream Every 'Evil Dead' Movie"`,
-    image: "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2023/04/Evil-Dead-2.jpeg?fit=1200%2C675&quality=89&ssl=1",
+    image: "/__l5e/assets-v1/ea493545-12b1-4a2d-99a4-e0bf71238dc0/e46c495fcf0b.webp",
     source: "TheWrap",
   },
   {
@@ -926,7 +926,7 @@ A new 'Evil Dead' film, directed by Sébastien Vaniček, is released on Friday. 
 Whatever you think of Prime Video's prequel series 'Elle', returning to 'Legally Blonde' is always a good idea. Directed by Robert Luketic and written by Karen McCullah Lutz and Kirsten Smith, the film is a funny and thought-provoking work about a woman (Reese Witherspoon) who climbs the legal ladder at Harvard, proving her detractors wrong. One of Witherspoon's best performances and one of the best comedies of the 2000s.
 
 Source: TheWrap – "The 3 Best Movies on HBO Max This Week"`,
-    image: "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2022/03/batman-mask-of-the-phantasm.jpg?resize=1024%2C576&quality=89&ssl=1",
+    image: "/__l5e/assets-v1/c6201118-3568-4be0-aaa3-60e0c40f7159/192b59f6e69f.webp",
     source: "TheWrap",
   },
   {
@@ -1014,7 +1014,7 @@ Twisted Teens don't use effects, Caspian isn't even in tune. "Just plug in and g
 Xiu Xiu's seven-track reinterpretation of David Lynch's 1977 *Eraserhead*. An underground built with homemade instruments, field recordings, flashlights, and electrical interference.
 
 Source: Paste Magazine — "Best New Albums: July 10, 2026".`,
-    image: "https://img.pastemagazine.com/wp-content/uploads/2026/07/10130803/ECC4B89C-35CC-4BFA-AE87-7B1AB37DBDF5-scaled.jpeg",
+    image: "/__l5e/assets-v1/81dea29c-7607-46d8-8cdb-862da33018af/e88a980d1f2f.jpg",
     source: "Paste Magazine",
   },
   {
@@ -1064,7 +1064,7 @@ The follow-up track from British jangle-pop band The Tubs nods to classic R.E.M.
 Cellist and singer Kelsey Lu's new album track is a prayer that moves between choral arrangements and electronic textures.
 
 Source: Paste Magazine — "The 10 Best Songs of June 2026".`,
-    image: "https://img.pastemagazine.com/wp-content/uploads/2026/07/06121515/B3800E2E-09F5-496B-88A2-CAF8743A2B5A-scaled.jpeg",
+    image: "/__l5e/assets-v1/45386981-14ad-4204-8c7d-7aca07c9ae44/7341660cfb7d.jpg",
     source: "Paste Magazine",
   },
   {
@@ -1094,7 +1094,7 @@ Saul Williams' upcoming solo album *Leaf Life*, his first in seven years, will h
 The follow-up to *Cotton Crown* by British jangle-pop band The Tubs. The week's most refreshed anthem, nodding to classic R.E.M. moments with twin-guitar weaving.,
 
 Source: Paste Magazine — "Best New Songs: June 18, 2026".`,
-    image: "https://img.pastemagazine.com/wp-content/uploads/2026/06/18122900/DDC18B8D-4083-4DCD-9F47-2A813B9B3EC2-scaled.jpeg",
+    image: "/__l5e/assets-v1/b7285837-6839-4b6d-995a-0c713eccf1ea/f2792b810467.jpg",
     source: "Paste Magazine",
   },
   {
@@ -1204,7 +1204,7 @@ A masterpiece that Paul McCartney called "the best song ever written." Carl Wils
 The passage in the middle of *Pet Sounds*, the most perfect continuity pop music has ever produced.
 
 Source: Paste Magazine — "The 25 Greatest Beach Boys Songs of All Time".`,
-    image: "https://img.pastemagazine.com/wp-content/uploads/2026/05/08232842/01C97D02-9176-4609-B2EC-B493F01665AB-scaled.jpeg",
+    image: "/__l5e/assets-v1/f04225bc-4b45-42ec-87c7-a50de91a833e/cd0254496ddc.jpg",
     source: "Paste Magazine",
   },
   {
@@ -1278,7 +1278,7 @@ Irving Berlin classic. Bing Crosby's interpretation remains the best-selling sin
 The pinnacle of the canon by Henry Mancini and Johnny Mercer. A masterpiece about alcohol and loss, transformed into a jazz standard.
 
 Source: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranked".`,
-    image: "https://img.pastemagazine.com/wp-content/uploads/2026/03/15142116/6E8F79E6-31B3-4F8F-B116-CCFBE3DE6587-scaled.jpeg",
+    image: "/__l5e/assets-v1/aba2a09d-1e66-4497-a3b9-b732fc76d665/26c30f530c88.jpg",
     source: "Paste Magazine",
   },
   {
@@ -1319,7 +1319,7 @@ Eva Victor's feature debut; a fresh take on the post-trauma comedy genre.
 Michael Shanks's dark comedy-horror hybrid; Alison Brie and Dave Franco in the lead roles.
 
 Source: BBC Culture — Nicholas Barber.`,
-    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0ntx7jd.jpg.webp",
+    image: "/__l5e/assets-v1/6d939522-d231-4a43-91ff-02b07e8aff5f/a80f8bb516fd.webp",
     source: "BBC Culture",
   },
   {
@@ -1573,7 +1573,7 @@ Conan O'Brien's travel comedy, where he travels the world to visit fans he met o
 The parallel universe thriller adapted from Blake Crouch's bestselling novel continues with its second season; Joel Edgerton reprises his lead role.
 
 Source: BBC Culture — Caryn James, "10 of the best TV shows to watch this August".`,
-    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0p13955.jpg.webp",
+    image: "/__l5e/assets-v1/62da9ae1-b2b3-481e-b623-517b76967f1d/4bde2a1381a0.webp",
     source: "BBC Culture",
   },
   {
@@ -1613,7 +1613,7 @@ A film we never thought we'd see. This Roger Rabbit-style live-action–2D anima
 Simon Farnaby, co-writer of "Paddington 2" and "Wonka," modernizes Enid Blyton's classic children's novels. An inventor couple (Claire Foy and Andrew Garfield) move their three children to a remote cottage in the countryside to get them away from the internet; the children discover a tree whose branches are portals to other worlds. Silky (Nicola Coughlan), Moonface (Nonso Anozie), Dame Washalot (Jessica Gunning), and the wicked Dame Snap (Rebecca Ferguson) are also in the cast. Phil de Semlyen from Time Out: "A smart update of Blyton's stories for the smartphone age."
 
 Source: BBC Culture — Nicholas Barber, "10 of the best films to watch this August".`,
-    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0p0cq6q.jpg.webp",
+    image: "/__l5e/assets-v1/1888ebd5-2a74-4f79-88f5-981ada8aa718/2fcf98a1ee08.webp",
     source: "BBC Culture",
   },
   {
@@ -1653,7 +1653,7 @@ The list maker's favorite battle. The last twenty minutes are like a horror-acti
 Finally. After six seasons of crossing deserts, being captured, escaping death, and raising dragons, Daenerys was finally setting sail for Westeros. The show, always grand in scale, began to narrow from this moment on, stories finally started to connect — and that flowing music accompanying the fleet of ships became the series' most magnificent finale.
 
 Source: Giddy Up America — "The Ten Best Moments From 'Game of Thrones'".`,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Game_of_Thrones_throne_model.jpg/1920px-Game_of_Thrones_throne_model.jpg",
+    image: "/__l5e/assets-v1/856a6902-7d72-4e6d-8395-dde39eed016c/9ed45e0eb91b.jpg",
     source: "Giddy Up America",
   },
   {
@@ -1663,67 +1663,67 @@ Source: Giddy Up America — "The Ten Best Moments From 'Game of Thrones'".`,
     body: `Mark Ruffalo is one of those rare actors who can exist with equal ease in both independent cinema and the world's biggest film franchise. Metacritic has ranked Ruffalo's top 15 films based on critic scores — we're counting down.
 
 ## 15. Collateral (2004)
-![Collateral](https://www.metacritic.com/a/img/resize/6c073f12f85ce6c3740431b1532e2675ab77ed76/hub/2026/07/29/3be3852e-f0c4-4a3d-b637-bbf32e258901/collateral.jpg?auto=webp&quality=70&width=1024)
+![Collateral](/__l5e/assets-v1/ef582f8a-ca37-4614-9116-89bbb74578f6/5561bce62a75.webp)
 Ruffalo plays LAPD detective Ray Fanning in Michael Mann's tense crime thriller. While his role is small in a film carried by Tom Cruise and Jamie Foxx, Ruffalo leaves a memorable presence in Mann's nocturnal Los Angeles.
 
 ## 14. Where the Wild Things Are (2009)
-![Where the Wild Things Are](https://www.metacritic.com/a/img/resize/6ec741bda77ec2ddd9d1a1681481b0d5b9384dd3/hub/2026/07/29/5fe5d79d-5d28-431d-8ea4-8aa042dffae3/wherethewildthingsare.jpg?auto=webp&quality=70&width=1024)
+![Where the Wild Things Are](/__l5e/assets-v1/ab3524f0-6f62-4630-a95e-30e6446b3e84/d0f48de7e7c5.webp)
 Spike Jonze's melancholic adaptation of Maurice Sendak's classic. On the way to the island of eight-year-old Max, whose imagination is big and emotions even bigger, Ruffalo represents the adult world framing the fragility of childhood.
 
 ## 13. What Doesn't Kill You (2008)
-![What Doesn't Kill You](https://www.metacritic.com/a/img/resize/a38737035466c4cf08a2d588c167f9d5cfdf3a24/hub/2026/07/29/a42bb4c5-77fb-44e6-b27c-6704e0e01a8b/whatdoesntkillyou.jpg?auto=webp&quality=70&width=1024)
+![What Doesn't Kill You](/__l5e/assets-v1/7cb5952e-b2c0-445f-9281-51fb2832bf6d/eb4d9ed77fc9.webp)
 An underseen but critically acclaimed crime drama. Ruffalo and Ethan Hawke play small-time criminals trying to escape the tough streets of South Boston; their attempts to straighten out their lives don't go as expected.
 
 ## 12. Arco (2025)
-![Arco](https://www.metacritic.com/a/img/resize/acd670f3dac345b198f6b41c1cecc1c10b341d8a/hub/2026/07/29/89ea9470-8db8-49dc-8958-a3cdf210ac69/arco.jpg?auto=webp&quality=70&width=1024)
+![Arco](/__l5e/assets-v1/6ff81be6-c695-4abb-b305-1136618d6bbe/e0bbb0c00f29.webp)
 The French animation tells the story of 10-year-old Arco, who travels back in time from the utopian world of 2932 to see dinosaurs. The child misses his target and lands in 2075. Ruffalo is in the English voice cast.
 
 ## 11. Mickey 17 (2025)
-![Mickey 17](https://www.metacritic.com/a/img/resize/93bfbe9f14252f3b22c5c293e1885dea695cc5a8/hub/2026/07/29/b1401d9e-a48d-4adb-9827-f906cc784eb0/mickey17.jpg?auto=webp&quality=70&width=1024)
+![Mickey 17](/__l5e/assets-v1/fac62ba2-5a21-4c9f-a050-b413d2a31f80/e609888ed199.webp)
 In Bong Joon-ho's post-apocalyptic sci-fi comedy, Ruffalo plays Kenneth Marshall, the head of a mission to colonize an ice planet: an arrogant and comical villain, clearly referencing Trump.
 
 ## 10. Dark Waters (2019)
-![Dark Waters](https://www.metacritic.com/a/img/resize/86f89ab7c77130a3ce85c9b6aab2e213b97b0b4d/hub/2026/07/29/4ca42598-7106-423a-be56-84c2c52ecb85/darkwaters.jpg?auto=webp&quality=70&width=1024)
+![Dark Waters](/__l5e/assets-v1/79191e30-c3f9-4329-ac5e-edf38c110c83/2431965d2b44.webp)
 Todd Haynes' legal thriller based on true events. Ruffalo portrays environmental lawyer Robert Bilott, who takes on DuPont for chemical pollution in a years-long battle — he also produced the film.
 
 ## 9. Thor: Ragnarok (2017)
-![Thor: Ragnarok](https://www.metacritic.com/a/img/resize/a3c747cfae2e4004355559b8ccb3d45f14dfcd68/hub/2026/07/29/1ca4ab56-35cd-4845-aaed-43db2368a3dc/thorragnarok.jpg?auto=webp&quality=70&width=1024)
+![Thor: Ragnarok](/__l5e/assets-v1/11d7f3c1-093f-4282-a57b-576c77e30952/697dde5d4dea.webp)
 Taika Waititi's third Thor film completely shifts the series' tone to comedy. Ruffalo's Hulk here becomes a fully speaking, grumpy, and comical character for the first time.
 
 ## 8. Avengers: Endgame (2019)
-![Avengers: Endgame](https://www.metacritic.com/a/img/resize/8aaede0a77a1efbd901c86446f07726cd9599efd/hub/2026/07/29/8d0f93d8-6a4b-4266-830c-38d8c470d080/avengersendgame.jpg?auto=webp&quality=70&width=1024)
+![Avengers: Endgame](/__l5e/assets-v1/75150622-ece0-4303-ad41-2e8f7c1b1752/749cdf71280c.webp)
 The epic finale of the MCU's first decade and, for a time, the highest-grossing film of all time. Ruffalo's "Professor Hulk" is the logical and surprisingly emotional culmination of the character's long journey.
 
 ## 7. Zodiac (2007)
-![Zodiac](https://www.metacritic.com/a/img/resize/9a8602d2023c3839c09b90e8a48b336999c71582/hub/2026/07/29/71fe075d-e8e7-45b3-860a-28bef1c807fc/zodiac.jpg?auto=webp&quality=70&width=1024)
+![Zodiac](/__l5e/assets-v1/a20af508-d054-4814-91c2-94ca7e6e353b/a5345100c976.webp)
 David Fincher's film turns his obsessive gaze to the Zodiac murders. Ruffalo plays detective Dave Toschi, who relentlessly pursues the case; one of the most stoic of his "man seeking justice" roles.
 
 ## 6. Foxcatcher (2014)
-![Foxcatcher](https://www.metacritic.com/a/img/resize/e80e65c05fbbce4ad34aea96908fdf612abe1314/hub/2026/07/29/0a49ca09-10f0-4ef6-a7f2-a655df2dcad7/foxcatcher.jpg?auto=webp&quality=70&width=1024)
+![Foxcatcher](/__l5e/assets-v1/47bae6b4-e0eb-4dbc-87ef-e4e6daae8608/a40ba325e4aa.webp)
 The second of Ruffalo's two films related to the du Pont family. He was nominated for an Oscar for Best Supporting Actor for his role as Olympic champion wrestler Dave Schultz; his quiet compassion was as much discussed as his physical transformation.
 
 ## 5. You Can Count on Me (2000)
-![You Can Count on Me](https://www.metacritic.com/a/img/resize/0d61cce1132de93149a61c8b214a08ac8b2ed037/hub/2026/07/29/45cbc388-6ba4-489c-88c8-17ce852be38e/youcancountonme.jpg?auto=webp&quality=70&width=1024)
+![You Can Count on Me](/__l5e/assets-v1/705e115b-fc20-43e6-a110-cdfc91ecf26b/3a74940e0c16.webp)
 Ruffalo's breakout role came in Kenneth Lonergan's independent drama. As Terry, the wayward brother of lonely mother Sammy (played by Laura Linney), he showcases all the future veins of his acting here.
 
 ## 4. The Kids Are All Right (2010)
-![The Kids Are All Right](https://www.metacritic.com/a/img/resize/7300b1eeb9f180e9ae50f3588e9e0661bcd88bb1/hub/2026/07/29/28690a3b-85aa-46ad-962a-3973919cea81/kidsareallright.jpg?auto=webp&quality=70&width=1024)
+![The Kids Are All Right](/__l5e/assets-v1/e3e43aa3-bbad-404b-b6b4-6f293130c034/c96979583932.webp)
 Lisa Cholodenko's film starring Annette Bening and Julianne Moore as a couple with two teenage children. The family balance is disrupted when the children seek out and find their biological father, Paul; Ruffalo received his first Oscar nomination for this role.
 
 ## 3. Poor Things (2023)
-![Poor Things](https://www.metacritic.com/a/img/resize/0431474592af7a939c8c0c79f141210add8d7820/hub/2023/09/11/5213317d-b568-4859-9076-f106f44f6c5a/poorthings.jpg?auto=webp&quality=70&width=1024)
+![Poor Things](/__l5e/assets-v1/949a1a81-4dd1-4df5-b18d-f17daad197b2/8f0048c37848.webp)
 In Yorgos Lanthimos' Victorian-era comedy, Ruffalo plays the foppish lawyer Duncan Wedderburn, who abducts Bella Baxter (Emma Stone). His most exaggerated, most overtly comedic performance of his career — and another Oscar nomination.
 
 ## 2. Eternal Sunshine of the Spotless Mind (2004)
-![Eternal Sunshine of the Spotless Mind](https://www.metacritic.com/a/img/resize/ee5ce8b3041e17fbd2fdd401170fdebfb1df7503/hub/2026/07/29/8afc5bcc-9d33-4cee-bbd9-3afcdfb17138/eternalsunshineofthespotlessmind.jpg?auto=webp&quality=70&width=1024)
+![Eternal Sunshine of the Spotless Mind](/__l5e/assets-v1/2b5b8bef-026a-48a1-9058-2c50218358c1/b18db8f93010.webp)
 In Michel Gondry and Charlie Kaufman's memory-erasing story, Jim Carrey decides to erase all memories of Clementine (Kate Winslet). Ruffalo, as Stan, a technician at the clinic performing the procedure, carries the film's messy human side.
 
 ## 1. Spotlight (2015)
-![Spotlight](https://www.metacritic.com/a/img/resize/1272a237592d94346cdf4fe8ab40336281932c0e/hub/2026/07/29/5ced3abc-89c2-4c34-a535-0f5ac56a7ffd/spotlight.jpg?auto=webp&quality=70&width=1024)
+![Spotlight](/__l5e/assets-v1/252074f6-d159-4f13-8671-0653bb7409b7/a8a62a9b9e27.webp)
 Ruffalo's greatest "justice-seeking" role. He plays investigative journalist Michael Rezendes, who, as part of the Boston Globe's Spotlight team, uncovers the Catholic Church's abuse cover-up. The film won the Best Picture Oscar, and Ruffalo was among the nominees again.
 
 Source: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
-    image: "https://www.metacritic.com/a/img/resize/a38737035466c4cf08a2d588c167f9d5cfdf3a24/hub/2026/07/29/a42bb4c5-77fb-44e6-b27c-6704e0e01a8b/whatdoesntkillyou.jpg?auto=webp&quality=70&width=1024",
+    image: "/__l5e/assets-v1/7cb5952e-b2c0-445f-9281-51fb2832bf6d/eb4d9ed77fc9.webp",
     source: "Metacritic",
   },
   {
@@ -1796,7 +1796,7 @@ Hugh Jackman plays a shepherd who reads detective novels to his sheep every nigh
 Pixar's new film is based on a sci-fi idea that makes it possible to talk to animals. According to critics, it's the studio's funniest work to date.
 
 ## 4. Toy Story 5 (2026) — %92
-![Toy Story 5](https://resizing.flixster.com/_qrGu1iWuHN_tDhkSw22ZvHl1B8=/800x1200/v2/https://resizing.flixster.com/mA3D_vy893aAyLJ9qFLLW4U6LIU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2YxNjlmZDVkLWU1YjEtNGU5Mi1hMDQwLWE0ZjNhYmNiMGFkZS5qcGc=)
+![Toy Story 5](/__l5e/assets-v1/272b5515-53d7-4935-be21-e9002c3b4537/25353ed7da60.jpg)
 This time, toys are competing with screens. The return of Woody and Buzz reminds us that children still need these characters despite franchise fatigue.
 
 ## 5. I Love Boosters (2026) — %92
@@ -1816,7 +1816,7 @@ Minions conquer Hollywood history this time: they become stars, lose everything,
 In John Carney's film, wedding singer Rick (Paul Rudd), longing for his old days, meets fading boyband star Danny (Nick Jonas). It tells the allure and cost of fame with quiet grace.
 
 ## 9. GOAT (2026) — %82
-![GOAT](https://resizing.flixster.com/brDsSDz6YaqMD1PUxm6VepaVaEw=/800x1200/v2/https://resizing.flixster.com/E4RWTXg58eK-yeETfMDBjOKjfGI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzk1YWYwNTYzLWNjYjMtNGYyNi1iMGE4LWM2NWM5NmVhMWZkYi5qcGc=)
+![GOAT](/__l5e/assets-v1/60f4d837-a93e-4392-a70d-7ebdb318492b/522421cb2e82.jpg)
 An action-comedy set in Sony Pictures Animation's all-animal world. The voice cast, including Steph Curry and Gabrielle Union, gets the job done.
 
 ## 10. Cold Storage (2026) — %81
@@ -1835,47 +1835,47 @@ Source: Rotten Tomatoes — "Best New Comedies of 2026".`,
     body: `For nearly 25 years, the *Spider-Man* franchise has been one of the most successful brands in cinematic history. While the ninth installment, *Spider-Man: Brand New Day*, broke box office records worldwide, the series has accumulated both very high peaks and quite low troughs. Nerdist ranked the nine live-action films from worst to best, not counting the MCU films where Spidey made guest appearances.
 
 ## 9. The Amazing Spider-Man 2 (2014) — Marc Webb
-![The Amazing Spider-Man 2](https://cdn.nerdist.com/wp-content/uploads/2026/08/07010713/The-Amazing-Spider-Man-2.webp)
+![The Amazing Spider-Man 2](/__l5e/assets-v1/be9db875-255f-456e-a895-426757582d18/0a2dc303ac05.webp)
 A textbook example of a studio drawing the wrong lessons from the MCU: an eagerness to build a universe before character, story, and logic. Jamie Foxx's Electro is almost straight out of Joel Schumacher's 90s Batman; a tone diametrically opposed to Andrew Garfield's performance. It represents the bottom, except for giving us the best Spider-Man suit in the series.
 
 ## 8. Spider-Man 3 (2007) — Sam Raimi
-![Spider-Man 3](https://cdn.nerdist.com/wp-content/uploads/2026/08/07010912/Spider-Man-3.webp)
+![Spider-Man 3](/__l5e/assets-v1/cb8aacfa-1651-42bb-b7a7-b358ebd0d7d5/eb0c0aa2f454.webp)
 Raimi was pressured by the studio to include Venom, whom he disliked; with two villains already, a third completely upset the balance. Thomas Haden Church's Sandman, especially his "birth" scene, is magnificent; the amnesia subplot and screaming MJ are tiresome. A messy but never boring, watchable chaos.
 
 ## 7. The Amazing Spider-Man (2012) — Marc Webb
-![The Amazing Spider-Man](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011203/The-Amazing-Spider-Man.webp)
+![The Amazing Spider-Man](/__l5e/assets-v1/023995bb-cd25-4364-99ae-ab3b90560512/253ad99d5cc2.webp)
 A reboot that came just five years after the Raimi trilogy, essentially made to cut costs. Garfield's casting was right, but the film couldn't go beyond "not bad." The more realistic approach stripped the series of its charm; on top of that, it had the worst suit in the series.
 
 ## 6. Spider-Man: Far From Home (2019) — Jon Watts
-![Spider-Man: Far From Home](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011403/Spider-Man-Far-From-Home.webp)
+![Spider-Man: Far From Home](/__l5e/assets-v1/ef1db7d1-4bee-4975-9a4d-9c8db6884b77/a58f60149ffc.webp)
 A good example of the MCU at its peak: the European trip opens up plenty of lighthearted space for Peter, Ned, and the Midtown crew. Tom Holland and Zendaya's chemistry is convincing, Jake Gyllenhaal's Mysterio is a villain who causes real damage to Peter's life. The hologram nightmare sequence is one of the MCU's best visual moments.
 
 ## 5. Spider-Man: No Way Home (2021) — Jon Watts
-![Spider-Man: No Way Home](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011556/Spider-Man-No-Way-Home.webp)
+![Spider-Man: No Way Home](/__l5e/assets-v1/6020b1f9-9beb-4561-a0fb-34f9e0808b8e/e37ec691d910.webp)
 A film that should have collapsed on paper: resolving the identity cliffhanger, teaming up with Doctor Strange, bringing back two old Spider-Men and their villains. Yet it works, because it's not just about nostalgia; we genuinely care about all three Peter Parkers. Holland's Peter finally steps out of Tony Stark's shadow.
 
 ## 4. Spider-Man (2002) — Sam Raimi
-![Spider-Man (2002)](https://cdn.nerdist.com/wp-content/uploads/2026/08/07011801/Spider-Man-2002.webp)
+![Spider-Man (2002)](/__l5e/assets-v1/23041930-1a3f-404c-8208-284d6cb86756/efab32e4e70e.webp)
 A nearly flawless origin story. Tobey Maguire is brilliant casting; David Koepp's script condenses years of Silver Age comics into a single film and never feels rushed. Willem Dafoe's Norman Osborn and J.K. Simmons' J. Jonah Jameson are iconic. Downsides: a superficial MJ and that terrible Goblin suit.
-![Tobey Maguire — Spider-Man (2002)](https://cdn.nerdist.com/wp-content/uploads/2026/02/02111237/Tobey-Maguire-Spider-Man.webp)
+![Tobey Maguire — Spider-Man (2002)](/__l5e/assets-v1/7ef21f3a-0ec6-4286-a98a-c99543219cfc/0269c0aab256.webp)
 
 ## 3. Spider-Man: Homecoming (2017) — Jon Watts
-![Spider-Man: Homecoming](https://cdn.nerdist.com/wp-content/uploads/2026/08/07012129/Spider-Man-Homecoming.webp)
+![Spider-Man: Homecoming](/__l5e/assets-v1/ec16ad67-546c-419d-bf3b-b3e9e008545e/05127d21ee3a.webp)
 Fifteen years later, a Spidey who finally looks genuinely high school-aged. Skipping the spider bite after two origin films was a smart decision. This version, close to Bendis's *Ultimate Spider-Man* comics, also brings one of the MCU's best villains in Michael Keaton's Vulture.
-![Spider-Man: Homecoming — Peter Parker](https://cdn.nerdist.com/wp-content/uploads/2019/12/13065336/spiderman_homecoming_image_5.0.jpg)
+![Spider-Man: Homecoming — Peter Parker](/__l5e/assets-v1/c985e0db-c3cc-4a7f-8623-c83a9efa00eb/213c3727b497.jpg)
 
 ## 2. Spider-Man: Brand New Day (2026) — Destin Daniel Cretton
-![Spider-Man: Brand New Day](https://cdn.nerdist.com/wp-content/uploads/2026/08/07103253/Spider-Man-Brand-New-Day-banner.webp)
+![Spider-Man: Brand New Day](/__l5e/assets-v1/9fb8e69d-87c6-4722-9e4d-479e0f958ed4/a608ab03f035.webp)
 The ninth film in the series exploded both at the box office and with critics. Cretton tells a more street-level and emotional Spider-Man story, building Holland's Peter from the ground up; the costume design is also the best in the series.
-![Spider-Man: Brand New Day](https://cdn.nerdist.com/wp-content/uploads/2026/08/03145104/Spider-Man-Brand-New-Day-Mask-Off.webp)
+![Spider-Man: Brand New Day](/__l5e/assets-v1/340be605-533e-4d18-a46e-cbca408ae9e3/b9c0b4fbec32.webp)
 
 ## 1. Spider-Man 2 (2004) — Sam Raimi
-![Spider-Man 2](https://cdn.nerdist.com/wp-content/uploads/2026/08/07012546/Spider-Man-2.webp)
+![Spider-Man 2](/__l5e/assets-v1/b5de47ff-47d8-4ee0-bb4c-fc93c44f3306/c9e89900a912.webp)
 No surprises at the top. Raimi's second film is still not only the best Spider-Man movie but also one of the best superhero films of all time. Alfred Molina's Doc Ock is tragic and terrifying, the train scene is one of the genre's benchmark scenes, and the tension between heroism and personal sacrifice is the real force holding the film together.
-![Spider-Man 2 — pizza sahnesi](https://cdn.nerdist.com/wp-content/uploads/2019/07/13093728/spider-man-pizza.jpg)
+![Spider-Man 2 — pizza sahnesi](/__l5e/assets-v1/a62957eb-bfa9-4284-8e13-f1cdb1ebca2b/45c16c20686e.jpg)
 
 Source: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
-    image: "https://cdn.nerdist.com/wp-content/uploads/2026/08/07012546/Spider-Man-2.webp",
+    image: "/__l5e/assets-v1/b5de47ff-47d8-4ee0-bb4c-fc93c44f3306/c9e89900a912.webp",
     source: "Nerdist",
   },
   {
@@ -1885,7 +1885,7 @@ Source: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
     body: `We've known for a while that the Marvel Cinematic Universe is getting closer to mutants. With *X-Men '97* an X-Men narrative is already underway under the MCU umbrella; on top of that came the news of Samara Weaving being cast for the role of telepath Emma Frost. So there's no better time to look back at the series that started the genre. But not all X-films were created equal — Empire's experts picked the three most worth rewatching.
 
 ## X2 (2003) — Bryan Singer
-![X2](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
+![X2](/__l5e/assets-v1/af368ed6-e055-40c1-beff-62db847a2984/12a4791602ce.avif)
 **Duration:** 2h 15m · **Platform:** Disney+ · **Cast:** Patrick Stewart, Hugh Jackman, Ian McKellen, Halle Berry, Famke Janssen, James Marsden
 
 The first *X-Men* is a good film in its own right, but the leap made by the second installment is undeniable. The action is bigger, the scale is wider, and the film delves much deeper into its characters: Wolverine unearths his past shrouded by the 'Weapon X' project, Jean Grey's telekinetic powers whisper of impending doom. From the opening infiltration of the White House (hello Nightcrawler!) to the attack on the X-Mansion, to the Lady Deathstrike showdown at Alkali Lake, it's a classic comic book movie through and through. On top of that, there's Brian Cox's William Stryker and the operatic chess game between Professor X and Magneto. Cinematic checkmate.
@@ -1893,7 +1893,7 @@ The first *X-Men* is a good film in its own right, but the leap made by the seco
 &nbsp;
 
 ## X-Men: Days Of Future Past (2014) — Bryan Singer
-![X-Men: Days Of Future Past](https://images.bauerhosting.com/empire/2024/08/X-Men-Days-Of-Future-Past.jpg?auto=format&w=1440&q=80)
+![X-Men: Days Of Future Past](/__l5e/assets-v1/efa14035-7198-40ae-991f-16ae36ffc882/648e0b002144.avif)
 **Duration:** 2h 13m · **Platform:** Disney+ · **Cast:** Hugh Jackman, James McAvoy, Michael Fassbender, Jennifer Lawrence, Halle Berry, Nicholas Hoult
 
 Long before the MCU started playing with multiverses, two generations of mutants came together in a massive time-travel story. Loosely adapted from Chris Claremont and John Byrne's two-part comic book arc, the film sends the adamantium-clawed Canadian back to 1973 to prevent Mystique from assassinating a senator — and robot apocalypse. From the brutal opening Sentinel fight to the slow-motion Quicksilver prison break, the series has everything a fan could want. As much as Logan's 1973 bewilderment ("someone gave you some really bad acid"), it doesn't shy away from clawing at the known intricate political landscapes of the X-Men.
@@ -1901,7 +1901,7 @@ Long before the MCU started playing with multiverses, two generations of mutants
 &nbsp;
 
 ## Logan (2017) — James Mangold
-![Logan](https://images.bauerhosting.com/empire/2024/08/X-Men-2.jpg?auto=format&w=1440&q=80)
+![Logan](/__l5e/assets-v1/af368ed6-e055-40c1-beff-62db847a2984/12a4791602ce.avif)
 **Duration:** 2h 20m · **Platform:** Disney+ · **Cast:** Hugh Jackman, Patrick Stewart, Dafne Keen, Stephen Merchant
 
 Hugh Jackman technically returned with *Deadpool & Wolverine*, but James Mangold's melancholic masterpiece *Logan* still offers a perfect finale to one of cinema's most defining comic book characters: a *Shane*-esque Western farewell. X-Men for adults; it doesn't shy away from profanity, extreme violence, and intense emotion. Charles Xavier, whose Alzheimer's combines with his telepathic powers turning him into a weapon of mass destruction, Logan, who finally accepts that mortality has caught up with him, and Dafne Keen's savage performance as 'X-23' open up a new vein for the series even twenty years later. In a word: X-traordinary.
@@ -1909,7 +1909,7 @@ Hugh Jackman technically returned with *Deadpool & Wolverine*, but James Mangold
 &nbsp;
 
 Source: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arrive In The MCU".`,
-    image: "https://images.bauerhosting.com/empire/2026/07/xmen-2.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/88a22799-7f90-4ed3-9e8b-290c67f0080d/f431798f6130.avif",
     source: "Empire",
   },
   {
@@ -1919,25 +1919,25 @@ Source: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arriv
     body: `His name is Tom Holland, and for the past decade, he's been the Marvel Cinematic Universe's sole Spider-Man — soon to return with *Spider-Man: Brand New Day*. But while the world knows him best as the friendly neighborhood superhero, there's much more to the British star than Peter Parker. While we continue to admire his work in *The Odyssey*, Empire's experts dug through the archives to pick his top three non-Spidey films.
 
 ## The Impossible (2012) — J.A. Bayona
-![The Impossible](https://images.bauerhosting.com/empire/2026/07/The-Impossible.jpg?auto=format&w=1440&q=80)
+![The Impossible](/__l5e/assets-v1/18b55c5e-99f6-4183-b856-d3cb8a0d15c4/4bece403b6be.avif)
 **Runtime:** 1h 54m · **Cast:** Ewan McGregor, Naomi Watts, Tom Holland
 
 A younger Tom Holland, closer to his *Billy Elliot* days, stars in the true story of a British family caught in the Boxing Day tsunami that hit Thailand in 2004. In Bayona's hands, the film is both breathtaking and exhaustingly harrowing: the physical horror of the disaster and a family's struggle to find each other coexist in the same scene. Holland's maturity here is the first evidence of the dramatic weight he would carry years later.
 
 ## The Lost City Of Z (2016) — James Gray
-![The Lost City Of Z](https://images.bauerhosting.com/empire/2026/07/The-Lost-City-Of-Z.jpg?auto=format&w=1440&q=80)
+![The Lost City Of Z](/__l5e/assets-v1/fe639fdd-2cd3-4b14-a4da-8c1a6adf36b7/1aeb7ceb512a.avif)
 **Cast:** Charlie Hunnam, Robert Pattinson, Sienna Miller, Tom Holland
 
 The story of explorer Percy Fawcett, who pursues a lost civilization in the Amazon; Holland plays his son, who views his father's obsession with deep resentment, then slowly begins to see the world through his eyes. It's an old-fashioned epic of a kind rarely made anymore, capturing the beauty of discovery as much as the disease, starvation, and brutal climate. The duo of Hunnam and Holland is convincing; it's also the first film where Holland and Robert Pattinson are in the same frame.
 
 ## The Devil All The Time (2020) — Antonio Campos
-![The Devil All The Time](https://images.bauerhosting.com/legacy/media/5f2a/93d9/d6ff/5e31/dc1f/3126/devil-all-the-time-excl-crop.jpg?auto=format&w=1440&q=80)
+![The Devil All The Time](/__l5e/assets-v1/a018db1b-f3c4-490b-ba9b-522f96f71df6/f3adcb3d62be.avif)
 **Runtime:** 2h 18m · **Platform:** Netflix · **Cast:** Bill Skarsgård, Robert Pattinson, Tom Holland, Sebastian Stan, Riley Keough, Jason Clarke
 
 Despite opening with a disaster movie, starring in half a dozen MCU films, and flexing his dramatic muscles in a James Gray film, it was Campos's pitch-black Southern Gothic gem that shattered the audience's perception of "forever young" Tom Holland. In Holland's Arvin Russell, violence, intensity, and pervasive darkness coexist: a young man willing to do the unspeakable to avenge the unspeakable in a lawless town at the mercy of false faith leaders and serial killers. On top of that, there's a wildly unhinged Robert Pattinson as a predatory preacher.
 
 Source: Empire — "Three Non-Spider-Man Tom Holland Movies To Watch Before Brand New Day".`,
-    image: "https://images.bauerhosting.com/empire/2026/07/Tom-Holland-Non-Spidey-Movies.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/8ead4289-bf4d-4794-b90f-101722ad7f3a/c88a28918d19.avif",
     source: "Empire",
   },
   {
@@ -1948,47 +1948,47 @@ Source: Empire — "Three Non-Spider-Man Tom Holland Movies To Watch Before Bran
     body: `The zombie film is one of cinema's most flexible genres: the same monster can be used for social satire, pure comedy, and pure horror. Empire has compiled a list of 25, ranging from *Night Of The Living Dead* to *28 Years Later*. Here are the top 10 films from that list.
 
 ## 10. Re-Animator (1985) — Stuart Gordon
-![Re-Animator](https://images.bauerhosting.com/legacy/media/5eea/4621/d165/1354/a1d4/9ffb/9-reanimator.jpg?auto=format&w=1440&q=80)
+![Re-Animator](/__l5e/assets-v1/290a74c4-1721-44a4-a770-de9061acbd1f/2c42985d6e5c.avif)
 Adapted from an H.P. Lovecraft story, the film looks at the dead from a completely different angle: Jeffrey Combs' mad professor Herbert West invents a lime-green fluid that reanimates dead tissue, and soon begins applying it to corpses. A pulp-level mix of horror and comedy; even by the gory standards of the 80s, it's excessively bloody, with a tight script that makes it nauseatingly entertaining.
 
 ## 9. 28 Years Later (2025) — Danny Boyle
-![28 Years Later](https://images.bauerhosting.com/empire/2025/06/28-years-later-1.jpg?auto=format&w=1440&q=80)
+![28 Years Later](/__l5e/assets-v1/4265c7e5-5c4a-49a1-8afc-307940e549a5/7f11841c52a6.avif)
 Boyle and Alex Garland's return to the pandemic they started is not the expected nostalgia trip: it's a story of violence, faith, and grief through the eyes of a child growing up on a quarantined island. With its visual audacity and final move, it's the most debated installment in the series.
 
 ## 8. [REC] (2007) — Jaume Balagueró, Paco Plaza
-![REC](https://images.bauerhosting.com/empire/2020/06/8-rec.jpg?auto=format&w=1440&q=80)
+![REC](/__l5e/assets-v1/3e23697b-318e-4706-a9d1-8a563e43be05/941e53d15ab6.avif)
 The most prolific example of found-footage horror: a quarantined apartment building in Barcelona, a single camera, and increasingly narrowing corridors. The attic sequence at the end is one of the most copied horror moments in the genre.
 
 ## 7. Braindead (1992) — Peter Jackson
-![Braindead](https://images.bauerhosting.com/legacy/media/5eea/465f/f973/9f39/e0a2/c1b5/7-braindead.jpg?auto=format&w=1440&q=80)
+![Braindead](/__l5e/assets-v1/e33abd64-309c-48e5-ba5d-a05f2a0a5d5a/a0eb49fe5f88.avif)
 Peter Jackson before Middle-earth: one of the goriest films in cinema history, with a lawnmower to boot. A happy madness that pushes splatter comedy to the limits of absurdity.
 
 ## 6. Night Of The Living Dead (1968) — George A. Romero
-![Night Of The Living Dead](https://images.bauerhosting.com/legacy/media/5eea/4675/f973/9fcb/f5a2/c1b6/6-night-of-the-living-dead.jpg?auto=format&w=1440&q=80)
+![Night Of The Living Dead](/__l5e/assets-v1/86ba50b1-b09f-461a-8cf9-39362ea03c64/d6b42944dbad.avif)
 The film that invented the genre. Black-and-white, low-budget, and still brutal; it turns a besieged farmhouse into a laboratory for the racial and authority tensions of 60s America. Its ending is one of cinema's coldest final scenes.
 
 ## 5. Train To Busan (2016) — Yeon Sang-ho
-![Train To Busan](https://images.bauerhosting.com/legacy/media/5eea/4768/d165/137a/f8d4/a004/train-to-busan-main.jpg?auto=format&w=1440&q=80)
+![Train To Busan](/__l5e/assets-v1/c0569d98-5073-4bec-b7f7-d01705285212/fd54dee5d475.avif)
 A perfectly crafted thriller as a pandemic film set on a high-speed train; but its real power lies in the time it spends on its characters. A modern classic that brings class criticism and fatherhood melodrama into the same carriage, leaving the audience devastated at the end.
 
 ## 4. Shaun Of The Dead (2004) — Edgar Wright
-![Shaun Of The Dead](https://images.bauerhosting.com/empire/2024/04/shaun-of-the-dead-doppelgangers-1.jpg?auto=format&w=1440&q=80)
+![Shaun Of The Dead](/__l5e/assets-v1/c7ab4a84-df4f-49b3-842d-dc42cbf3e3d8/07dc0ed05145.avif)
 The benchmark for zombie comedy: a sharp British provincial satire as much as a love letter to Romero. Wright's editing rhythm, the record-throwing scene, and the "let's meet at the Winchester when all this blows over" idea permanently changed the genre.
 
 ## 3. 28 Days Later (2002) — Danny Boyle
-![28 Days Later](https://images.bauerhosting.com/empire/2025/01/28-days-later-cillian-murphy.jpg?auto=format&w=1440&q=80)
+![28 Days Later](/__l5e/assets-v1/b0c15ae5-f2b7-4a93-b4fc-6697c745cb00/75db7b9f8110.avif)
 Opening with empty London scenes, the film, which turned the grit of digital video into an aesthetic, brought running zombies into the mainstream. But the real horror comes not from the pandemic, but from the survivors — especially the people at the military base.
 
 ## 2. Day Of The Dead (1985) — George A. Romero
-![Day Of The Dead](https://images.bauerhosting.com/legacy/media/5eea/46cb/740f/850a/8cbd/456e/2-day-of-the-dead.jpg?auto=format&w=1440&q=80)
+![Day Of The Dead](/__l5e/assets-v1/5f308f2e-18a3-4845-8ad0-c78e7aed27ab/8311f6fd1fa1.avif)
 Romero's most pessimistic and radical film: in an underground bunker, science and the military devour each other, while a zombie named Bub becomes the most human character in the film. Tom Savini's makeup work is still legendary.
 
 ## 1. Dawn Of The Dead (1978) — George A. Romero
-![Dawn Of The Dead](https://images.bauerhosting.com/legacy/media/5eea/4719/740f/859d/40bd/4572/1-dawn-of-the-dead.jpg?auto=format&w=1440&q=80)
+![Dawn Of The Dead](/__l5e/assets-v1/84233674-bedb-40c3-bd58-edfe172ed017/cb5f9cbaf90f.avif)
 At the top is the tombstone of consumer society: survivors taking refuge in a shopping mall discover that the place they thought was heaven is their own trap. Both genre cinema and sharp satire; the film that turned the zombie movie into a metaphor machine.
 
 Source: Empire — "The 25 Best Zombie Movies Of All Time".`,
-    image: "https://images.bauerhosting.com/empire/2020/06/Best-Zombie-Movies.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/a476ef2f-dcb2-46d9-b2fd-b1f25ff5d8cd/905c449f6930.avif",
     source: "Empire",
   },
   {
@@ -2001,47 +2001,47 @@ Source: Empire — "The 25 Best Zombie Movies Of All Time".`,
 Alongside these, "classically minded" games are also on stage: Metroidvanias, bullet-hell roguelikes, and of course, "Pokémon". Here's Empire's ranking.
 
 ## 10. MIO: Memories In Orbit
-![MIO: Memories In Orbit](https://images.bauerhosting.com/empire/2026/02/MIO-Memories-In-Orbit-Review.png?auto=format&w=1440&q=80)
+![MIO: Memories In Orbit](/__l5e/assets-v1/7fc70a6a-3559-4b88-a68e-079ee72277bf/736b1885c566.avif)
 No one outside of Metroidvania obsessives expected so much from "MIO"; the game turned out to be the most immersive action platformer in years. As the titular robot, you awaken in a colossal, decaying structure known only as "The Ship" and are left to explore. What emerges is a last-ditch gamble for survival and a story that is profoundly human despite the absence of a single human. With watercolor visuals painted over 3D models, sharp combat, and challenging bosses, it's the new benchmark for the genre.
 
 ## 9. Lego Batman: Legacy Of The Dark Knight
-![Lego Batman: Legacy Of The Dark Knight](https://images.bauerhosting.com/empire/2026/06/LEGO-Batman-Legacy-Of-The-Dark-Knight.webp?auto=format&w=1440&q=80)
+![Lego Batman: Legacy Of The Dark Knight](/__l5e/assets-v1/c5cb1da0-b555-4d1f-b826-d9e5fcb05b2a/d7ba4c525eaf.avif)
 When does a Lego game stop being a Lego game? When it's secretly the best Batman game since the golden days of the "Arkham" series. TT Games opts for a well-told story, a tight cast, and real mechanics instead of thousands of unlockables and hundreds of character piles. The combat has nuance, abilities unlock with RPG logic, and cruising through Gotham's surprisingly detailed streets in the Batmobile is pure joy.
 
 ## 8. Pokémon Pokopia
-![Pokémon Pokopia](https://images.bauerhosting.com/empire/2026/03/Pokopia-Review.webp?auto=format&w=1440&q=80)
+![Pokémon Pokopia](/__l5e/assets-v1/3a2bca2b-525a-4315-b43b-4698d0ed881b/255a1fbcc2f3.avif)
 Take the life simulation of "Animal Crossing", mix it with the rebuildable worlds of "Minecraft", and cast it in the mold of "Pokémon". The result: a charming sandbox game where you, as everyone's favorite purple blob Ditto, rebuild a planet humanity was forced to abandon. Exploring, bringing hundreds of abandoned Pokémon back into society, and shaping all the biomes by yourself keeps you coming back for days. Its only flaw: it will steal your life.
 
 ## 7. Pragmata
-![Pragmata](https://images.bauerhosting.com/empire/2026/04/pragmata-1.jpg?auto=format&w=1440&q=80)
+![Pragmata](/__l5e/assets-v1/63a1be92-ceda-4fe3-b538-55b4f20d3d97/ebc59ab5527b.avif)
 Both a sci-fi epic set on a moon base overrun by a rogue AI, and a touching story between the gruff space mechanic Hugh and his adopted robot daughter Diana. Capcom's true genius lies in the combat: the world's first first-person shooter–real-time puzzle hybrid. While Hugh shoots, you simultaneously hack enemies with Diana using a panel-flipping puzzle, creating openings. It's unlike anything else, and surprisingly thought-provoking on artificial intelligence.
 
 ## 6. Cairn
-![Cairn](https://images.bauerhosting.com/empire/2026/07/Cairn.jpg?auto=format&w=1440&q=80)
+![Cairn](/__l5e/assets-v1/e314c589-662d-4ead-baa8-3a6f261621b2/81e68a7a3c33.avif)
 If "127 Hours" or "Touching the Void" deterred you from even looking at a rock face, "Cairn" might convince you what you've been missing. As Aava, you attempt to conquer the 9,000-meter Mount Kami, charting your own route by individually controlling Aava's limbs. The Game Bakers meticulously balances the technical skill of climbing with the management of hunger, thirst, and fatigue. Tense and demanding yet strangely zen; unique with its cel-shaded aesthetic.
 
 ## 5. Mixtape
-![Mixtape](https://images.bauerhosting.com/empire/2026/05/Mixtape.png?auto=format&w=1440&q=80)
+![Mixtape](/__l5e/assets-v1/06912954-1626-42c9-aa3c-2daafae0c0e9/e66cec6de6a5.avif)
 Beethoven & Dinosaur's elegy to music, 90s youth, and a beautifully wasted adolescence was much debated: some called it "not a game," others found it too linear. They're not wrong — but it's unforgettable. As music-obsessed Stacey Rockford, you live out the last days with her two closest friends before high school ends. The magic is right here: emotions, memories, regrets, and a carefully chosen song for every moment. A playable John Hughes movie.
 
 ## 4. 007 First Light
-![007 First Light](https://images.bauerhosting.com/empire/2026/06/007-first-light-1-1920x1080-1bcef6df295e.jpg?auto=format&w=1440&q=80)
+![007 First Light](/__l5e/assets-v1/d24119ec-98e0-497e-9cbd-171fdc92c458/7ad885158bbf.avif)
 While waiting for a new cinematic Bond, IO Interactive admirably fills the void. Inspired by Ian Fleming's stories, it's a "Bond Begins" tale chronicling 26-year-old James' (Patrick Gibson) recruitment into MI6, his training, and how he earned that iconic 00 code. First encounters with Moneypenny, Q, and M, the flawless shooting–driving–stealth balance expected from the "Hitman" creators, and an opening song by Lana Del Rey.
 
 ## 3. Forza Horizon 6
-![Forza Horizon 6](https://images.bauerhosting.com/empire/2026/05/Forza-Horizon-6-Review.png?auto=format&w=1440&q=80)
+![Forza Horizon 6](/__l5e/assets-v1/d8a8ab8a-92da-4820-b0f5-7f27f3ed41cc/1839d35db8b9.avif)
 "Forza Horizon" has long been a racing game even for those who don't love racing games. The sixth installment is set in Japan this time: Tokyo's streets, rural tranquility, and natural wonders side by side. It approaches Japanese car culture with respect — references to "Tokyo Drift" and "Initial D" are plentiful. With over 500 detailed vehicles and hundreds of races, it's the pinnacle of the genre for motor enthusiasts, and for others, the meditative joy of aimlessly wandering this vast world.
 
 ## 2. Saros
-![Saros](https://images.bauerhosting.com/empire/2026/05/Saros-Review.png?auto=format&w=1440&q=80)
+![Saros](/__l5e/assets-v1/c90e6528-1c88-4254-870c-146beeefc3d8/6aa90a546d03.avif)
 Not technically a sequel to Housemarque's "Returnal" but clearly in its image: time loop and roguelike mechanics are retained, the rest is improved in almost every aspect. As corporate space marine Arjun Devraj (Rahul Kohli), you investigate missing "colonists" on Carcosa, dying and mysteriously resurrecting each time. Getting stronger and progressing a little further with each attempt creates an addictive trial-and-error loop. What sets it apart from its predecessor is its polish: combat with flawless precision.
 
 ## 1. Resident Evil Requiem
-![Resident Evil Requiem](https://images.bauerhosting.com/empire/2026/02/Resident-Evil-Requiem-Review.jpg?auto=format&w=1440&q=80)
+![Resident Evil Requiem](/__l5e/assets-v1/a9279cad-c577-4d9c-926e-ba186320114f/c40d2d0eb487.avif)
 A banner year for Capcom. Despite "Pragmata" and "Monster Hunter Stories 3," nothing can dethrone "Resident Evil Requiem." A dual-pronged horror story split between returning action hero Leon S. Kennedy and newcomer Grace Ashcroft: Grace investigates a chain of deaths starting at the hotel where her mother was murdered years ago, while Leon hunts Umbrella creatures. You're encouraged to play Leon in third-person and Grace in first-person; in either case, the series hasn't been this terrifying in years. With its at times photorealistic visuals, it makes you fear every corner — and it's the best game of the year so far.
 
 Source: Empire — "The Best Games Of 2026… So Far".`,
-    image: "https://images.bauerhosting.com/empire/2026/07/Games-Of-The-Year-2026.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/6820d01e-c52d-41cd-8296-43f90543e611/f510feeb2ff2.avif",
     source: "Empire",
   },
   {

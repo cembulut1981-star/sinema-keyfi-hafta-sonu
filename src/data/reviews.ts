@@ -412,7 +412,7 @@ There are certainly sequences and motifs that may feel overwhelming — but that
     title: "\"Late Fame\" Review: Willem Dafoe's Poet in the Autumn of His Life",
     excerpt: "According to Wall Street Journal critic Kyle Smith, Kent Jones' Arthur Schnitzler adaptation tells the story of intellectuals fawning over a once-celebrated writer now working at a post office, delivered like a small, elegant poem.",
     rating: "4/5",
-    image: "https://opinion-images.wsj.net/im-04588139?width=1280&size=1.499",
+    image: "/__l5e/assets-v1/cd5de13f-cb66-4817-899c-cec802694a3e/e1f3780a9297.avif",
     body: `Ed Saxberger is a man of letters: he works at the post office. He's also a literary genius. Or should that be "was" a genius? Back in 1979, he published a book of poems still admired in very small but very devoted circles. In "Late Fame" he's now elderly, played by Willem Dafoe with a calm sense of balance.
 
 His life is upended by the visit of an odd young man he catches lurking outside his West Village apartment. Also starring Greta Lee and Edmund Donovan, the film follows an intellectual circle that rediscovers the once-forgotten writer and grows infatuated with him.
@@ -428,7 +428,7 @@ It's also a poignant nod to the past: elegantly braiding together the sensibilit
     excerpt: "According to San Francisco Chronicle critic David Lewis, Araki's new film is a lot of fun thanks to one of the best casts of his career: Olivia Wilde's provocateur artist Erika Tracy steals the entire movie.",
     rating: "4/5",
     imdbRating: "6.4",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Olivia_Wilde_SFFILM_2026_05.jpg/1280px-Olivia_Wilde_SFFILM_2026_05.jpg",
+    image: "/__l5e/assets-v1/4f7e4921-657d-4899-b61f-f6b51e2c7770/a3533725b5e5.jpg",
     body: `Gregg Araki, an indie-cinema legend for decades now, has built a career on defiantly challenging our sexual moral codes. In his latest film, 'I Want Your Sex,' he takes aim this time at the supposedly prudish Gen Z — and thanks to one of the best casts of his career, the result is quite funny.
 
 Childish, scattered Elliot (a pitch-perfect Cooper Hoffman) has just finished school and is stuck in a relationship in which sex almost never happens, and when it does, it's a total yawn. But his bedroom life takes a perverse turn once he lands a job at a "hipster warehouse": there, Elliot falls under the spell of iconic art provocateur Erika Tracy (a magnificent Olivia Wilde).
@@ -447,7 +447,7 @@ The 90-minute film swings between erotic comedy and thriller, occasionally trust
     excerpt: "According to TIME critic Judy Berman, Murphy and Bret Easton Ellis's FX series, despite its eye-catching production and pile of references, never reaches the depth it's trying to convey.",
     rating: "2.5/5",
     imdbRating: "5.8",
-    image: "https://static.time.com/v3/assets/bltea6093859af6183b/bltb09c348d73f94447/6a6cb2596f1c8a3ae4a8f424/Shards_Ep101-RayM-00235_r.jpg?branch=production&width=1600&quality=80&auto=webp&crop=16:9",
+    image: "/__l5e/assets-v1/be94dc0b-a977-4a10-a99a-b33a3cc63a80/25873eeb06ef.webp",
     body: `A fruitful collaboration between Ryan Murphy and Bret Easton Ellis seems both inevitable and impossible. Murphy is a maximalist in every sense: a super-producer who churns out show after show, has his characters loudly say the parts of every story that ought to stay quiet, and is one of television's most effective champions of inclusive, identity-politics-driven programming. Ellis is known for the minimalist style of his generation-defining debut novel 'Less Than Zero,' and more recently for his period as a culture warrior railing against the entertainment industry's "fake-woke corporate culture." Yet both are names unafraid to provoke, both obsessed with the psychology of psychopathic killers and the permeability between popular culture and real life. Having been born on the cusp of Boomer and Gen X, they also both remember what it was like to grow up gay in the '80s.
 
 In 'The Shards,' adapted from Ellis's 2023 novel, this synergy of experiences dominates the clash of their sensibilities without erasing it. On the surface, it's the autofictional but familiar tale of a serial killer preying on students at Ellis's high school in 1981; Murphy's trademark slick production design, genre pastiche and grand set-pieces shine through. Yet the series, which premiered on FX and Hulu on August 5 with two episodes, clearly has bigger ambitions: it references cultural touchstones of the era and, through present-day Bret's voiceover, tries to say something profound about the passage from adolescence to adulthood. Whether you blame a mismatched creative team or the visual medium's tendency to favor images over ideas, shallowness wins out in the end.
@@ -468,7 +468,7 @@ The show unravels in its final episodes. In one, it plays on the name of the Ham
     title: "\"Los Vampires\" Review: A Charming But Uneven Hollywood Throwback Where Two Draculas Clash",
     excerpt: "Written and directed by Craig Mitchell, the film adds a dark fiction to the legendary production process in which Universal's 1931 \"Dracula\" was shot on the same sets with both English- and Spanish-speaking casts.",
     rating: "3/5",
-    image: "https://variety.com/wp-content/uploads/2026/07/Los_Vampires_01.png?w=1000&h=667&crop=1",
+    image: "/__l5e/assets-v1/289cd565-85ad-48d8-86b8-b68b2137c342/ad0bebdd4dbd.webp",
     body: "The arrival of sound cinema was, in many ways, a massive upheaval for the film industry: theater owners had to install expensive new equipment, while studios could no longer export their products to lucrative foreign markets as easily as before. One of the era's solutions to that second problem was shooting alternate versions of the same film in different languages.\n\nUniversal took this idea further than most studios at the end of 1930, shooting 'Dracula' twice on the same sets with completely different casts and directors. One, of course, was the legendary film starring Bela Lugosi and directed by Tod Browning. The other bore the signature of George Melford, who had directed Rudolph Valentino in 'The Sheik'; the caped bloodsucker was played by Spanish immigrant actor Carlos Villarias. This second version was forgotten for decades, but after restorations and revival screenings in the 1990s, some viewers declared it the better of the two.\n\nWriter-director Craig Mitchell's 'Los Vampires' imagines the sinister events unfolding on that very shared set: the rivalry between two Draculas, with one crew working days and the other nights on the same sets, spiraling into a tension woven from jealousy, class divides and eerie coincidences.\n\nThe film's greatest strength is its atmosphere: period-accurate design, cinematography that plays with shadow, and a sly irony underscoring the secondary status the studio system assigned to the Spanish-speaking crew. However, the narrative sometimes loses its balance as it swings between fictional tension and a lesson in film history; some side characters remain underdeveloped.\n\nStill, for those who share a cinephile's curiosity about 'Dracula's lost twin, 'Los Vampires' offers an engaging watch despite its flaws.",
   },
 
@@ -479,7 +479,7 @@ The show unravels in its final episodes. In one, it plays on the name of the Ham
     excerpt: "In the film directed by Destin Daniel Cretton, Tom Holland's Peter Parker is a loner who's been erased from everyone's memory after 'No Way Home.' According to TIME critic Stephanie Zacharek, there's an enjoyable summer movie hiding beneath the overcrowded mechanics.",
     rating: "3.5/5",
     imdbRating: "8.1",
-    image: "https://static.time.com/v3/assets/bltea6093859af6183b/bltd536e66953ca6cf9/6a68f5dad15efc423088bfa5/spidey_close-up.jpg?branch=production&width=1600&quality=80&auto=webp&crop=16:9",
+    image: "/__l5e/assets-v1/751dd6e8-0c8c-4423-affb-bae75d4e2604/c7239471c22a.webp",
     body: `At the end of 2021's 'Spider-Man: No Way Home,' Tom Holland's Peter Parker was a shattered young man. His best friend Ned and girlfriend MJ had forgotten him entirely thanks to a mystical spell; his Aunt May had died in the Green Goblin's attack. 'Brand New Day' begins right in the wake of that devastation: "Sometimes Spider-Man has to break Peter Parker's heart in order to do the hard thing."
 
 Directed by Destin Daniel Cretton and written by Chris McKenna and Erik Sommers, the film is so packed with what could be called clichéd themes, plot maneuvers and colliding emotions that it sometimes struggles to focus on the actual story — and our hero's pain. Still, underneath all that overcrowded machinery lies a genuinely enjoyable summer entertainment.
@@ -492,7 +492,7 @@ Holland's sincerity remains the film's biggest asset: Peter's loneliness never h
     title: "Could \"Amadeus\" Be the Most Misunderstood Best Picture Winner of All Time?",
     excerpt: "Miloš Forman's Best Picture-winning masterpiece turns 40. According to BBC Culture, despite being accused of historical inaccuracy, the film's real subject was never Mozart's life — but a hidden critique of the Cold War-era USSR.",
     rating: "5/5",
-    image: "https://ichef.bbci.co.uk/images/ic/1920xn/p0jt1zjz.jpg.webp",
+    image: "/__l5e/assets-v1/e474fc4d-84ce-427c-a497-bb266656cd9a/bdcfc5ef6736.webp",
     body: `According to BBC Culture writer Tom Joudrey, Miloš Forman's 1984 film 'Amadeus' has been misread since the day it came out. The film, which won eight Oscars — including Best Picture, Best Director, and Best Actor for F. Murray Abraham — has largely been criticized as a distorted biography of Mozart's life. But according to Joudrey, the film's real subject was never Mozart at all.
 
 Based on Peter Shaffer's play, the screenplay places Salieri's jealousy at its center while actually building a much larger allegory: state control over art, genius being smothered by bureaucracy, and authority's efforts to tame the artist. It's no coincidence the film was shot in Prague, still behind the Iron Curtain at the time.
@@ -596,7 +596,7 @@ Source: The Guardian`,
     excerpt: "According to Boston Globe critic Odie Henderson, the Lord & Miller film is both a grand space adventure and an unexpectedly emotional character study: \"Imagine HAL 9000 and Dave being best friends.\"",
     rating: "4/5",
     imdbRating: "7.9",
-    image: "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/7XW7LJ3CG6TULA2IGSCQPXBUE4.jpg?auth=dc954688d124ef91ca0af2c7035d69a12b56fa08bbc3e8e4ea2f923a3b1d3b3c&width=1440",
+    image: "/__l5e/assets-v1/78a6dda8-0fdc-4c61-bace-3f103cff7d74/632433bdb55f.avif",
     body: `Imagine HAL 9000 and Dave being best friends in '2001: A Space Odyssey,' and you'll have a good idea of what kind of film 'Project Hail Mary' is. Largely set in space and built around the two-hander between Ryland Grace (Ryan Gosling) and an alien he names "Rocky," the film is the latest adaptation of an Andy Weir novel. As with Weir's 'The Martian' in 2015, the screenplay is once again written by Drew Goddard — a clever, well-constructed script. Christopher Miller and Phil Lord are in the director's chair for the first time since 2014's '22 Jump Street.'
 
 Weir's 2021 sci-fi novel is beloved by fans. But even having read the book, I don't think I could have pictured these grand images spread across an IMAX 70mm screen, or imagined Daniel Pemberton's striking score. Nor could I have guessed what Rocky would look like: in an era when CGI dominates everything, I never would have predicted he'd be partly brought to life with a puppet.
@@ -656,7 +656,7 @@ Coming from the creators of Gossip Girl, the show does what that team does best:
     excerpt: "According to TVGuide critic Keith Phipps, Apple TV's seven-episode miniseries makes you marvel at a con artist's skill while questioning the cost of getting away with it — Taylor-Joy is joined by Annette Bening and Timothy Olyphant.",
     rating: "8.5/10",
     imdbRating: "7.6",
-    image: "https://www.tvguide.com/a/img/resize/b6ea46b6adc44b5f0d3a355ff115811add0761c4/hub/2026/05/19/08047cfc-0e13-4824-a5e8-2e18370b57fd/lucky.jpg?auto=webp&width=1092",
+    image: "/__l5e/assets-v1/fe99a6fc-9e5a-4fcc-860e-c1f9d28861e3/742ec822fb31.webp",
     body: `While writing her 2021 novel 'Lucky,' Marissa Stapley says she learned how con artists operate by watching heist films, reading books on the subject, and studying YouTube videos about separating gullible victims from their money. But she writes that she only remembered her true inspiration much later: at age ten, watching her mother lose her entire savings to a scammer. "I wonder," Stapley says, "given how brutal the reality of being conned actually is, why it's nearly impossible not to root for a skilled fictional con artist."
 
 That apparent contradiction sits right at the heart of the novel's adaptation. The show lets the audience admire its heroine's skill while never losing sight of the human cost of exploiting other people's greed and good faith — both for the victims and for the con artists themselves. Created by Jonathan Tropper ('Warrior,' 'Your Friends & Neighbors') alongside co-showrunner Cassie Pappas ('Silo'), 'Lucky' opens in a furious rush and never really slows down across its seven episodes. But like a con artist playing the long game, the show's second half reveals that it's not just its heroine's life at stake, but her soul.
@@ -703,7 +703,7 @@ Source: The Guardian`,
     title: "\"The Odyssey\" — Nolan's Bronze Age Epic Is Magnificent, but Cool at the Heart",
     excerpt: "Shot in IMAX 65mm, Christopher Nolan's 'The Odyssey' offers a grand mythological journey starring Matt Damon and Zendaya — but according to Rolling Stone, its technical grandeur sometimes walks hand in hand with an emotional chill.",
     rating: "3.5/5",
-    image: "https://www.rollingstone.com/wp-content/uploads/2026/06/the-odyssey-Lead.jpg?w=1581&h=1054&crop=1",
+    image: "/__l5e/assets-v1/4fde943e-5272-44ce-971b-0849796439e1/fac9b0f2884e.webp",
     body: `According to David Fear's review in Rolling Stone, Christopher Nolan's 'The Odyssey' is the most daring formal experiment the director has ever attempted: staging Homer's epic in IMAX 65mm, mostly in real locations and with minimal digital effects.
 
 Matt Damon's Odysseus is father, husband, warrior, king, and a soul lost in the Bronze Age. With his beard and weary gaze, he carries the restlessness of a man who has seen too much. Zendaya (Penelope), Tom Holland (Telemachus), Anne Hathaway (Athena), Charlize Theron (Calypso), Lupita Nyong'o and Robert Pattinson round out the rest of the cast.
@@ -723,7 +723,7 @@ Source: Rolling Stone — David Fear`,
     title: "\"The Hawk\" — Will Ferrell's Golf Comedy Is No \"Talladega Nights\"",
     excerpt: "Netflix's new golf comedy \"The Hawk,\" starring Will Ferrell, never comes close to the heft of his star's classic sports comedies: Ferrell is familiar but tired, the pacing is slow, and the laughs are few.",
     rating: "2.5/5",
-    image: "https://variety.com/wp-content/uploads/2026/07/THEHAWK_101_250915_CH_00106_R2.jpg?w=1000&h=667&crop=1",
+    image: "/__l5e/assets-v1/97de953b-ae63-455e-a185-eebe141392f2/4a4ea25b4356.webp",
     body: `According to Alison Herman's review in Variety, Will Ferrell's new Netflix golf comedy *The Hawk* promises to compete in the same league as the sports comedies etched into audience memory, like 'Talladega Nights' and 'Blades of Glory' — but once it hits the course, it falls well below that league.
 
 Ferrell plays Lonnie "The Hawk" Hawkins, a grumpy, alcoholic, fading professional golfer nearing the end of his career. After winning the 2004 championship, his career collapsed, and now he's chasing a comeback on the PGA Champions Tour. Molly Shannon plays his ex-wife, Jimmy Tatro his irritating young rival, and Luke Wilson his patient manager.
@@ -742,7 +742,7 @@ Source: Variety — Alison Herman`,
     title: "\"Evil Dead Burn\" — The Franchise's Darkest, Most Nerve-Wracking Chapter",
     excerpt: "The new Evil Dead film, taken over by Sébastien Vaniček, sets aside splatstick laughs and turns into pure nightmare. Souheila Yacoub leads, with Deadites out in full force.",
     rating: "4/5",
-    image: "https://images.bauerhosting.com/empire/2026/07/Evil-Dead-Burn-Review.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/f0e6c61d-6c5a-4d10-b1c6-db14f1dc5a21/77eb447d9b8f.avif",
     body: `According to Ben Travis's review in Empire, the Evil Dead franchise has swung on a tonal scale from the beginning: on one end the splatstick laughter of *Evil Dead II* and *Army Of Darkness*, on the other the raw horror of Sam Raimi's original and Fede Alvarez's 2013 remake. Lee Cronin's *Evil Dead Rise* merged the two strands; Sébastien Vaniček's *Evil Dead Burn*, which he's now taken over, resolutely swings the needle to the darkest extreme — with nerve-wrackingly effective results.
 
 The story centers on Alice (Souheila Yacoub), who loses her abusive husband (George Pullar) in a car accident. Her personal hell shows no sign of ending: as her husband is laid to rest, the Deadites come knocking. Vaniček doesn't shy away from piling supernatural horror on top of the metaphorical weight of domestic violence; that choice leaves a lingering subtext even in the film's most disturbing scenes.
@@ -759,7 +759,7 @@ Source: Empire — Ben Travis`,
     title: "\"The Furious\" — Hong Kong Action Cinema's Bone-Crushing Comeback",
     excerpt: "Kenji Tanigaki, promoted from action choreographer to director, takes Taken's basic skeleton and stretches it into two hours of uninterrupted fight-scene recital. Xie Miao and Joe Taslim never let up.",
     rating: "4/5",
-    image: "https://images.bauerhosting.com/empire/2026/07/The-Furious-Review.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/7809f3ca-276b-4fd6-aabb-6fe59c9e965f/81623f60a4b3.avif",
     body: `According to Harry Stainer's review in Empire, by the time *The Furious*'s blood-soaked final duel arrives, you'd struggle to count five minutes over its two-hour runtime when someone isn't being punched, kicked, or having their face slammed into a table. Kenji Tanigaki, moving from action choreography to the director's chair, is completely at home in this territory; he takes the "my daughter's been kidnapped" skeleton of *Taken* and wraps it into a full-blown celebration of Hong Kong martial arts cinema.
 
 The story — a mute father (Xie Miao) whose daughter is kidnapped, teaming up with a journalist (Joe Taslim) to hunt down a child-trafficking ring — doesn't promise anything new on the page. But Tanigaki's instincts are correct: he lets his characters fight instead of talk. Sets, corridors, streets, restaurant kitchens — all of them get used in near-single-take choreography. Xie Miao's physical language more than makes up for the absence of dialogue; Joe Taslim throws his hardest hits as if they cost him no effort at all.
@@ -774,7 +774,7 @@ Source: Empire — Harry Stainer`,
     title: "\"500 Miles\" — A Tender Road Movie from Sheffield to Dingle",
     excerpt: "In Morgan Matthews' sensitive road movie, two brothers run away to reunite with their grandfather (Bill Nighy). Tears guaranteed.",
     rating: "3.5/5",
-    image: "https://images.bauerhosting.com/empire/2026/07/500-Miles.png?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/295d7bf9-7708-4133-84a9-9137defda072/a471559adef3.avif",
     body: `According to Barry Levitt's review in Empire, Morgan Matthews' *500 Miles* is not, despite its title, a Proclaimers musical — but emotionally, it's fed by the same vein as that song. Finn (Roman Griffin Davis) and his little brother Charlie (Dexter Sol Ansell) have run away from home, and their plan is simple: travel from Sheffield to a small town on Ireland's Dingle coast to reunite with their estranged grandfather (Bill Nighy) and bring their family back together.
 
 The film opens with a flashback showing a postcard-perfect day of family happiness: castles built in the sand, hide-and-seek on the beach, grandparents wrapped up in their grandchildren. Today's darkness is illuminated in reverse by the light of that lost paradise. Matthews' direction keeps the framing as low as possible — the story is told through the children's eyes; the camera mostly sits at shoulder height.
@@ -791,7 +791,7 @@ Source: Empire — Barry Levitt`,
     title: "\"Voicemails For Isabelle\" — A Warm Romantic Comedy Born from a Wrong Number",
     excerpt: "The chemistry between Zoey Deutch and Nick Robinson carries a most unusual love story that begins when voicemails left for a deceased sister reach the wrong phone.",
     rating: "3.5/5",
-    image: "https://images.bauerhosting.com/empire/2026/06/Voicemails-For-Isabelle.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/18b3d1be-d808-4621-9e0b-53c9f2b60e7e/a1052aa810be.avif",
     body: `According to Jordan King's review in Empire, *Voicemails For Isabelle* is an unexpectedly sensitive genre blend that weaves the classic "wrong number" rom-com device together with grief. Jill (Zoey Deutch), a promising pastry chef living a chaotic life in San Francisco, leaves her dead sister Isabelle a voicemail every day — messages that serve as both her therapy and her diary.
 
 The trouble is, the messages no longer reach Isabelle's old number; instead they land on Wes's (Nick Robinson) new work phone. Wes is a Texas real-estate agent — orderly, cautious, a little fragile. Before long he finds himself looking forward to hearing Jill's voice. Classic rom-com plotting follows: should Wes tell her the truth, when should he tell her, and what happens once he does?
@@ -808,7 +808,7 @@ Source: Empire — Jordan King`,
     title: "\"Nirvanna The Band The Show The Movie\" — A Brilliant Original on the Brink of Madness",
     excerpt: "The decades-long dream Matt Johnson and Jay McCarrol have chased — playing a show at Toronto's Rivoli — finally makes it to the big screen. Insane, ingenious, heartbreaking.",
     rating: "4.5/5",
-    image: "https://images.bauerhosting.com/empire/2026/06/ntbtstm-1.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    image: "/__l5e/assets-v1/92a46c27-5a03-4106-b7b3-4162f39ee7f9/57d9366be4c8.avif",
     body: `According to Ben Travis's review in Empire, the opening scene of *Nirvanna The Band The Show The Movie* — shot all the way back in 2008 — begins with Matt Johnson's character declaring "what you're about to see is something you've never seen before." The character imagines that his band (which isn't even a real band — it's him, his friend Jay, and a keyboard) will one day play Toronto's legendary venue, the Rivoli. But that line holds up for the film itself too: insane, brilliant, ache-from-laughing funny, heartbreaking, and entirely original.
 
 Matt (Matt Johnson) and Jay (Jay McCarrol) put their most ridiculous plans into motion to fulfill the dream they've chased for decades: playing the Rivoli stage. The film carries every layer of a project that has evolved from short film to TV series to feature: guerrilla-shooting aesthetics, genuine reactions from bystanders, meta jokes, an unconventional editing rhythm.
@@ -825,7 +825,7 @@ Source: Empire — Ben Travis`,
     title: "\"Moana\" — Disney's First Live-Action Remake That Actually Works",
     excerpt: "Half the film is still animation, Dwayne Johnson is in full Maui mode, and new star Catherine Laga'aia plays Moana with radiant enthusiasm. According to Owen Gleiberman, this is Disney's first genuinely successful live-action adaptation.",
     rating: "4/5",
-    image: "https://variety.com/wp-content/uploads/2026/05/Moana.jpg?w=1000&h=667&crop=1",
+    image: "/__l5e/assets-v1/cc4d9f5f-e716-4745-9405-20606e5616ee/6358dc99c9a4.webp",
     body: `According to Owen Gleiberman's piece in Variety, Disney's string of live-action adaptations in recent years has been stuck between faithfulness and uninspired blandness. 'Moana' breaks that cycle: directed by Thomas Kail, the film stays warmly faithful to the 2016 original while carving out its own visual poetic language.
 
 The boldest directorial choice is that nearly half the film remains animated. The ocean, island spirits, sand monsters, and especially the living world of Maui's tattoos, sit somewhere between CGI and stylized animation; this choice preserves the adaptation's fairytale tone. Blended with the photorealistic beauty of real Pacific landscapes shot in the Cook Islands and New Zealand, the result is an unusual hybrid.
@@ -842,7 +842,7 @@ Source: Variety — Owen Gleiberman`,
     title: "\"Night Nurse\" — A Provocative Caregiving Fantasy Where Two Deviants' Paths Cross",
     excerpt: "Georgia Bernstein's bold feature debut turns a real case of exploitation into a disturbingly lavish erotic thriller. Bruce McKenzie and Cemre Paksoy are mesmerizing.",
     rating: "3.5/5",
-    image: "https://variety.com/wp-content/uploads/2026/05/NIGHT-NURSE-STILL-1-1.jpg?w=1000&h=667&crop=1",
+    image: "/__l5e/assets-v1/0a83f2eb-46a8-44d0-8de6-b7bdb170d9b0/1b2ee0af6835.webp",
     body: `According to Beatrice Loayza's review in Variety, Georgia Bernstein's directorial debut 'Night Nurse' carries a dangerous freshness. Drawing on a real story of exploitation, the film treats its subject not as a didactic drama but as a provocative, dark, occasionally funny erotic thriller — and, for the most part, that risk pays off.
 
 The story begins when a financially struggling young caregiver, Ada (newcomer Cemre Paksoy), moves into the home of an elderly, ill but highly manipulative con man (Bruce McKenzie). What starts as a classic caregiving arrangement quickly turns into a complex power game: who's using whom, who's feeding off whom, grows increasingly blurred. Bernstein builds this ambiguity not just into the narrative but into the point of view; the camera deliberately keeps shifting who is the object of desire.
@@ -859,7 +859,7 @@ Source: Variety — Beatrice Loayza`,
     title: "\"Young Washington\" — A Biopic That Shoots Itself in the Foot with a Closing Fundraising Pitch",
     excerpt: "Directed by Jon Erwin and produced by Angel Studios, the film tries to mythologize George Washington while poisoning what could have been a nearly satisfying biopic with a donation appeal tacked onto the end credits.",
     rating: "2.5/5",
-    image: "https://www.thewrap.com/wp-content/uploads/2026/07/Young-Washington-William-Franklyn-Miller.jpg",
+    image: "/__l5e/assets-v1/e706e279-6f5b-4163-9c37-73be55a4c46a/af56945dd2e0.avif",
     body: `No other major studio is as devoted to catering to conservative Christian and American values as Angel Studios — and no other studio believes so little that Americans actually share those values. While other producers release their films into theaters and wait for audiences to buy tickets, Angel Studios insists on ending its most jingoistic, most religious films with a last-minute fundraising appeal slapped over the closing credits.
 
 In 'Young Washington,' directed, produced, and co-written by Jon Erwin, William Franklyn-Miller plays George Washington. He'll eventually become America's first president, but first he needs to learn some valuable lessons about leadership and kick the French in the rear end in slow motion. The title evokes John Ford's 1939 'Young Mr. Lincoln' — but Erwin is no Ford, and Franklyn-Miller is no Henry Fonda.
@@ -895,7 +895,7 @@ Sossai shows Venice without a hint of sentimentality: a brief glimpse of Santa C
     title: "\"Enola Holmes 3\" — A Lovable Detective Saga Going Through Growing Pains",
     excerpt: "Millie Bobby Brown's charm is still firmly intact, but the third film, now taken over by Philip Barantini, can't decide between an attempt at maturity and the franchise's exuberant spirit.",
     rating: "2.5/5",
-    image: "https://www.indiewire.com/wp-content/uploads/2026/06/EH3_Unit_12046R.jpg?w=1600",
+    image: "/__l5e/assets-v1/b3cfde76-b2ea-43e2-a430-e64f3a93c0c2/2cd09b4a5932.webp",
     body: `Time doesn't stop; apparently not even for a largely lovable Netflix film franchise. Growing pains are a fate not even the sharpest minds can escape. *Enola Holmes 3*, with Philip Barantini in the director's chair, brings Millie Bobby Brown's young detective back once more; but the franchise doesn't quite recapture the exuberant rhythm of the first two films this time.
 
 Brown remains a flawless choice for the character drawn from Nancy Springer's YA books. She's one of the rare performers who can carry both Enola's childlike joy and her sharp intellect. But in the third installment, things weigh on the character more like a heavy costume than something that fits naturally. Barantini's more grown-up, more solemn approach — familiar from *Adolescence* — never quite meshes with the playful side of Jack Thorne's script. The result is a film that wants to grow up and stay "old Enola" at the same time, and so fully succeeds at neither.
@@ -1001,7 +1001,7 @@ In the end, this farewell is, fittingly, loud and filthy. The Jackass crew prove
     title: "First Reactions to \"The Odyssey\": 'Clunky,' 'Magnificent,' and 'Like Peter Jackson's Lord of the Rings'",
     excerpt: "Christopher Nolan's long-awaited 'The Odyssey' premiered in London. Early reactions from critics are largely positive for this massive production that boldly embraces the terrors of Greek mythology.",
     rating: "Early reactions",
-    image: "https://kotaku.com/app/uploads/2026/07/the-odyssey.jpg",
+    image: "/__l5e/assets-v1/a4fd62bf-4318-469a-8990-5f1bab6fff38/cf9640eb777c.webp",
     body: `Christopher Nolan's new epic following 'Oppenheimer,' 'The Odyssey,' premiered in London on July 6; the wide release begins July 17. IMAX tickets are already sold out, and regular screenings may fill up fast too. Full reviews of the film, which stars Matt Damon, Anne Hathaway, Tom Holland, John Leguizamo, Robert Pattinson, Lupita Nyong'o and many others, haven't been published yet; but critics' first impressions on social media send strong signals that the film will meet expectations.
 
 Onscreen performances, including Damon's, are being widely praised; but what's really exciting critics is the sheer scale and meticulous detail of the production. According to The Hollywood Reporter's Aaron Crouch, the film features "the first horror sequence Nolan has ever built from start to finish." Polygon's Jacob Kleinman compares the care put into the details directly to 'The Lord of the Rings.' IndieWire's David Ehrlich says it's "a bit too clunky to be A-tier Nolan," though he notes the film isn't as grim as 'Oppenheimer.'
