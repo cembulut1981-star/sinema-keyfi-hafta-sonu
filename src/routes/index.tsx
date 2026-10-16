@@ -62,6 +62,14 @@ const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE
 const FEED_ARTICLES = (() => {
   const out = [...BASE_FEED];
   SCATTERED_GAMES.forEach((a, i) => out.splice(Math.min(14 + i * 7, out.length), 0, a));
+  // Sprinkle 4 more one-word pills across the first feed rows.
+  let added = 0;
+  for (let i = 1; i < out.length && added < 4; i += 2) {
+    const a = out[i];
+    if (a.customBadge || a.id === FRAMED?.id) continue;
+    out[i] = { ...a, customBadge: CATEGORY_WORD[a.category] ?? "News", customBadgeBelow: true };
+    added++;
+  }
   return out;
 })();
 
