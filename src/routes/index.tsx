@@ -4,14 +4,12 @@ import { useState } from "react";
 import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES as RAW_ARTICLES, type Article } from "@/data/articles";
 
-// Yellow/black one-word pills shown under the photo on ~10 cards near the top.
+// Yellow/black one-word pills shown under the photo. Only a couple live in
+// the top rows; the rest are scattered deeper in the feed (see below) so it
+// never looks like every card has one.
 const BELOW_BADGES: Record<string, string> = {
   "metallica-life-burns-faster-sphere-review": "Live",
   "exorcist-martyrs-mike-flanagan-scariest-film": "Horror",
-  "phantom-blade-zero-15-years-in-the-making": "Gaming",
-  "battlefield-6-xbox-game-pass-october-2026": "Free",
-  "marvel-zodiac-spy-thriller-series-2027": "Marvel",
-  "dan-stevens-robocop-prime-video-series": "Reboot",
 };
 const CATEGORY_WORD: Record<string, string> = {
   incelemeler: "Review",
@@ -62,13 +60,22 @@ const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE
 const FEED_ARTICLES = (() => {
   const out = [...BASE_FEED];
   SCATTERED_GAMES.forEach((a, i) => out.splice(Math.min(14 + i * 7, out.length), 0, a));
-  // Sprinkle 4 more one-word pills across the first feed rows.
+  // Sprinkle a handful of one-word pills across the feed with uneven, larger
+  // gaps so they read as scattered, not systematic. Positions are derived
+  // from the index (not Math.random) so SSR and the client match.
+  const SPRINKLE_COUNT = 7;
   let added = 0;
-  for (let i = 1; i < out.length && added < 4; i += 2) {
+  let i = 4;
+  while (i < out.length && added < SPRINKLE_COUNT) {
     const a = out[i];
-    if (a.customBadge || a.id === FRAMED?.id) continue;
-    out[i] = { ...a, customBadge: CATEGORY_WORD[a.category] ?? "News", customBadgeBelow: true };
-    added++;
+    if (!a.customBadge && a.id !== FRAMED?.id) {
+      out[i] = { ...a, customBadge: CATEGORY_WORD[a.category] ?? "News", customBadgeBelow: true };
+      added++;
+      // Uneven gap of 6–11 cards between pills.
+      i += 6 + ((i * 7 + added * 5) % 6);
+    } else {
+      i++;
+    }
   }
   return out;
 })();
