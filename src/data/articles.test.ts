@@ -1,6 +1,11 @@
 import { describe, test } from "node:test";
 import assert from "node:assert/strict";
 import { ARTICLES, GAME_ARTICLES } from "./articles";
+import { NEWS } from "./news";
+import { REVIEWS } from "./reviews";
+import { LISTS } from "./lists";
+import { MUSIC } from "./music";
+import { SERIES } from "./series";
 
 describe("Castlevania coverage placement", () => {
   test("belongs to PC Games", () => {
@@ -27,5 +32,26 @@ describe("new 2026 PC games coverage", () => {
   const slugs = ["subnautica-2-two-million-sales-12-hours", "subnautica-2-early-access-impressions", "007-first-light-sales-bond-curse-broken", "resident-evil-requiem-game-review", "crimson-desert-game-review", "007-first-light-game-review"];
   test("all six appear in PC Games", () => {
     for (const s of slugs) assert.equal(GAME_ARTICLES.some((a) => a.newsSlug === s || a.reviewSlug === s), true, s);
+  });
+});
+
+describe("stories publish without a visible source credit", () => {
+  const all = [
+    ...NEWS.map((n) => ({ slug: n.slug, body: n.body })),
+    ...REVIEWS.map((r) => ({ slug: r.slug, body: r.body })),
+    ...LISTS.map((l) => ({ slug: l.slug, body: l.body })),
+    ...MUSIC.map((m) => ({ slug: m.slug, body: m.body })),
+    ...SERIES.map((s) => ({ slug: s.slug, body: s.body })),
+  ];
+
+  test("every story has body text to check", () => {
+    assert.ok(all.length > 100, `expected the full archive, got ${all.length}`);
+  });
+
+  test("no story text carries a source credit line", () => {
+    for (const item of all) {
+      const credit = item.body.split("\n").find((line) => /^\s*(Source:|Read the original|Images:)/i.test(line));
+      assert.equal(credit, undefined, `${item.slug} still shows: ${credit}`);
+    }
   });
 });

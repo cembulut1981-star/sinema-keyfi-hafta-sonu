@@ -122,9 +122,7 @@ Swords, spears and familiar Belmont weapons accompany the magic. The critic prai
 
 Art direction and a soundtrack combining remixes with new compositions round out the review's strongest points. Itkonen reports spending around **twenty hours** on a first run that reached a little over **ninety percent completion**, with secrets and Arcanas providing reasons to keep exploring.
 
-For readers following the year's games, the takeaway is a strongly positive PlayStation assessment of Castlevania's return—not a PC performance recommendation or a universal completion-time promise.
-
-Read the original [Region Free review](https://regionfree.net/castlevania-belmonts-curse-review-playstation/).`,
+For readers following the year's games, the takeaway is a strongly positive PlayStation assessment of Castlevania's return—not a PC performance recommendation or a universal completion-time promise.`,
   },
   {
     slug: "subnautica-2-two-million-sales-12-hours",
@@ -142,9 +140,7 @@ The numbers land after a turbulent year. In 2025, publisher Krafton removed the 
 
 The original Subnautica grew from a modest 2014 early access debut into a celebrated 1.0 release in 2018, shaped heavily by community feedback. The sequel follows the same route — but this time with **co-op**, a bigger opening slice and a far larger audience from day one. It had been Steam's most-wishlisted game, with more than 5 million wishlists before launch.
 
-For anyone building a 2026 PC library, Subnautica 2 is already one of the year's essential survival games — even with years of early access development still ahead.
-
-Source: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/subnautica-2-has-sold-2-million-copies-in-12-hours-with-9x-the-players-as-the-first-and-at-this-point-i-figure-that-krafton-ceo-is-already-on-his-second-bottle/).`,
+For anyone building a 2026 PC library, Subnautica 2 is already one of the year's essential survival games — even with years of early access development still ahead.`,
   },
   {
     slug: "subnautica-2-early-access-impressions",
@@ -164,9 +160,7 @@ Scavenging and crafting never become a grind, but expanding the base still feels
 
 The biggest surprise is the narrative. Subnautica 2 asks what it means if survival is not optional, and whether transforming into something alien might be preferable to staying human. It is a light thread, but a compelling one.
 
-The developers describe this as the studio's **biggest and most polished early access launch** yet, released in episodic chunks so the community can help shape what comes next. On current evidence, it is a strong start.
-
-Source: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/in-subnautica-2-survival-is-a-prison-and-humanity-might-be-better-off-becoming-something-else/).`,
+The developers describe this as the studio's **biggest and most polished early access launch** yet, released in episodic chunks so the community can help shape what comes next. On current evidence, it is a strong start.`,
   },
   {
     slug: "007-first-light-sales-bond-curse-broken",
@@ -184,9 +178,7 @@ The result matters because Bond games had been commercially radioactive for more
 
 First Light uses the Glacier Engine behind Hitman, adapting its disguise-and-stealth sandbox into a more cinematic, globe-trotting spy story starring **Patrick Gibson** as a young Bond. Players have praised its PC performance, while modders wasted no time swapping Bond for Agent 47.
 
-For PC players, it is one of 2026's clearest picks for a story-driven single-player action game. Read our full review in the PC Games section.
-
-Source: [GameGuidesBox](https://gameguidesbox.com/news/007-first-light-launch-verdict-io-fantasy-rpg/).`,
+For PC players, it is one of 2026's clearest picks for a story-driven single-player action game. Read our full review in the PC Games section.`,
   },
   {
     slug: "new-pc-games-2026-release-guide",

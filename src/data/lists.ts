@@ -547,8 +547,6 @@ This mystery series, revolving around new widow characters settling in a siniste
 ## 12. ‘Wonder Man’ (Disney+)
 
 This series, which offers a meta-perspective on the superhero format, cleverly explores identity crises within Hollywood and the production industry. It's both an entertaining and thought-provoking option for Disney+.
-
-Source: Rolling Stone – "The Best TV Shows of 2026 So Far".
 `,
     image: "/__l5e/assets-v1/5878242b-5eba-4476-abe1-d70f79b394c9/86f0ca23976b.webp",
     source: "Rolling Stone",
@@ -597,9 +595,7 @@ Ryan Coogler's vampire film is still being talked about after winning the Oscar.
 
 ## 10. Toy Story 5
 
-Pixar's film made the biggest opening in franchise history. This installment, featuring Jessie prominently, tells the story of toys' struggle with the digital age.
-
-Source: Entertainment Weekly – "The 10 Best Movies of 2026 (So Far)".`,
+Pixar's film made the biggest opening in franchise history. This installment, featuring Jessie prominently, tells the story of toys' struggle with the digital age.`,
     image: ewMovies.url,
     source: "Entertainment Weekly",
   },
@@ -647,9 +643,7 @@ Denis Villeneuve's long, wet, dark thriller starring Hugh Jackman and Jake Gylle
 
 ## 10. The rest of the list
 
-*The Departed*, *Nightcrawler*, *Gone Girl*, *Mystic River*, *L.A. Confidential*, *Heat*, *The French Connection*, *Blue Ruin*, *Drive*, *A Simple Plan*, *Fargo*, *Blood Simple*, *The Long Goodbye*, *Klute*, *Vertigo*, *Strangers on a Train*, *Insomnia*, *The Vanishing*, *Cure*, *Memento* ve *The Third Man*.
-
-Source: Entertainment Weekly – "The 30 Most Suspenseful Crime Thrillers of All Time, Ranked".`,
+*The Departed*, *Nightcrawler*, *Gone Girl*, *Mystic River*, *L.A. Confidential*, *Heat*, *The French Connection*, *Blue Ruin*, *Drive*, *A Simple Plan*, *Fargo*, *Blood Simple*, *The Long Goodbye*, *Klute*, *Vertigo*, *Strangers on a Train*, *Insomnia*, *The Vanishing*, *Cure*, *Memento* ve *The Third Man*.`,
     image: ewThrillers.url,
     source: "Entertainment Weekly",
   },
@@ -697,9 +691,7 @@ The biggest surprise of the year. This mystical thriller set in a coastal town c
 
 ## 10. Andor (Disney+)
 
-The second and final season goes down in history as the most adult production in the *Star Wars* universe to date.
-
-Source: Entertainment Weekly – "The 10 Best TV Shows of 2026 (So Far)".`,
+The second and final season goes down in history as the most adult production in the *Star Wars* universe to date.`,
     image: ewTv.url,
     source: "Entertainment Weekly",
   },
@@ -749,9 +741,7 @@ Paul McCartney's song for Julian Lennon, with its seven-minute choral finale, st
 
 A manifesto demonstrating what the electric guitar could do.
 
-The rest of the list: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine", "November Rain", "Comfortably Numb", "Won't Get Fooled Again", "Baba O'Riley", "Layla", "Free Bird", "Thunderstruck", "Enter Sandman", "One", "Black", "Everlong", "Somebody to Love" and "Immigrant Song".
-
-Source: Entertainment Weekly – "The 25 Greatest Rock Songs of All Time".`,
+The rest of the list: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine", "November Rain", "Comfortably Numb", "Won't Get Fooled Again", "Baba O'Riley", "Layla", "Free Bird", "Thunderstruck", "Enter Sandman", "One", "Black", "Everlong", "Somebody to Love" and "Immigrant Song".`,
     image: ewRock.url,
     source: "Entertainment Weekly",
   },
@@ -791,9 +781,7 @@ Chekov from the *Star Trek* reboot. His tragic accident in 2016, where he was cr
 
 ## 8. Angus Cloud (25)
 
-*Euphoria*'s Fezco. He died in 2023 from an accidental overdose shortly after his father's death.
-
-Source: Entertainment Weekly – "8 TV Stars Who Died Tragically Young".`,
+*Euphoria*'s Fezco. He died in 2023 from an accidental overdose shortly after his father's death.`,
     image: ewYoung.url,
     source: "Entertainment Weekly",
   },
@@ -881,9 +869,7 @@ Jean Cocteau's magical Orpheus modernization. It was embedded in cinema history 
 
 ## 1. Andrei Rublev (1966)
 
-Tarkovsky's film about the Russian Orthodox icon painter stands at the pinnacle as the noblest expression of the sacred and the mythological in cinema.
-
-Source: The Guardian – \"From Greek epics to biblical blockbusters: the 20 best mythological movies – ranked!\"`,
+Tarkovsky's film about the Russian Orthodox icon painter stands at the pinnacle as the noblest expression of the sacred and the mythological in cinema.`,
     image: mythologicalAsset.url,
     source: "The Guardian",
   },
@@ -905,9 +891,7 @@ Here's where all previous films can be found:
 - **Evil Dead** (2013) – HBO Max
 - **Evil Dead Rise** (2023) – HBO Max
 
-As can be seen, HBO Max has become a one-stop shop for the entire franchise. The sequel series 'Ash vs. Evil Dead' is also available on the same platform. This is an ideal configuration for 'completionist' viewers who want to watch the entire series sequentially while preparing for the new Sébastien Vaniček film.
-
-Source: TheWrap – "Where to Stream Every 'Evil Dead' Movie"`,
+As can be seen, HBO Max has become a one-stop shop for the entire franchise. The sequel series 'Ash vs. Evil Dead' is also available on the same platform. This is an ideal configuration for 'completionist' viewers who want to watch the entire series sequentially while preparing for the new Sébastien Vaniček film.`,
     image: "/__l5e/assets-v1/ea493545-12b1-4a2d-99a4-e0bf71238dc0/e46c495fcf0b.webp",
     source: "TheWrap",
   },
@@ -927,9 +911,7 @@ A new 'Evil Dead' film, directed by Sébastien Vaniček, is released on Friday. 
 
 ## "Legally Blonde"
 
-Whatever you think of Prime Video's prequel series 'Elle', returning to 'Legally Blonde' is always a good idea. Directed by Robert Luketic and written by Karen McCullah Lutz and Kirsten Smith, the film is a funny and thought-provoking work about a woman (Reese Witherspoon) who climbs the legal ladder at Harvard, proving her detractors wrong. One of Witherspoon's best performances and one of the best comedies of the 2000s.
-
-Source: TheWrap – "The 3 Best Movies on HBO Max This Week"`,
+Whatever you think of Prime Video's prequel series 'Elle', returning to 'Legally Blonde' is always a good idea. Directed by Robert Luketic and written by Karen McCullah Lutz and Kirsten Smith, the film is a funny and thought-provoking work about a woman (Reese Witherspoon) who climbs the legal ladder at Harvard, proving her detractors wrong. One of Witherspoon's best performances and one of the best comedies of the 2000s.`,
     image: "/__l5e/assets-v1/c6201118-3568-4be0-aaa3-60e0c40f7159/192b59f6e69f.webp",
     source: "TheWrap",
   },
@@ -1015,9 +997,7 @@ Twisted Teens don't use effects, Caspian isn't even in tune. "Just plug in and g
 
 ## Xiu Xiu — Eraserhead Xiu Xiu
 
-Xiu Xiu's seven-track reinterpretation of David Lynch's 1977 *Eraserhead*. An underground built with homemade instruments, field recordings, flashlights, and electrical interference.
-
-Source: Paste Magazine — "Best New Albums: July 10, 2026".`,
+Xiu Xiu's seven-track reinterpretation of David Lynch's 1977 *Eraserhead*. An underground built with homemade instruments, field recordings, flashlights, and electrical interference.`,
     image: "/__l5e/assets-v1/81dea29c-7607-46d8-8cdb-862da33018af/e88a980d1f2f.jpg",
     source: "Paste Magazine",
   },
@@ -1065,9 +1045,7 @@ The follow-up track from British jangle-pop band The Tubs nods to classic R.E.M.
 
 ## Kelsey Lu — "So Help Me God"
 
-Cellist and singer Kelsey Lu's new album track is a prayer that moves between choral arrangements and electronic textures.
-
-Source: Paste Magazine — "The 10 Best Songs of June 2026".`,
+Cellist and singer Kelsey Lu's new album track is a prayer that moves between choral arrangements and electronic textures.`,
     image: "/__l5e/assets-v1/45386981-14ad-4204-8c7d-7aca07c9ae44/7341660cfb7d.jpg",
     source: "Paste Magazine",
   },
@@ -1095,9 +1073,7 @@ Saul Williams' upcoming solo album *Leaf Life*, his first in seven years, will h
 
 ## The Tubs — "Illusion Pt. II"
 
-The follow-up to *Cotton Crown* by British jangle-pop band The Tubs. The week's most refreshed anthem, nodding to classic R.E.M. moments with twin-guitar weaving.,
-
-Source: Paste Magazine — "Best New Songs: June 18, 2026".`,
+The follow-up to *Cotton Crown* by British jangle-pop band The Tubs. The week's most refreshed anthem, nodding to classic R.E.M. moments with twin-guitar weaving.,`,
     image: "/__l5e/assets-v1/b7285837-6839-4b6d-995a-0c713eccf1ea/f2792b810467.jpg",
     source: "Paste Magazine",
   },
@@ -1205,9 +1181,7 @@ A masterpiece that Paul McCartney called "the best song ever written." Carl Wils
 
 ## 1. "Wouldn't It Be Nice / God Only Knows" — Pet Sounds Peak
 
-The passage in the middle of *Pet Sounds*, the most perfect continuity pop music has ever produced.
-
-Source: Paste Magazine — "The 25 Greatest Beach Boys Songs of All Time".`,
+The passage in the middle of *Pet Sounds*, the most perfect continuity pop music has ever produced.`,
     image: "/__l5e/assets-v1/f04225bc-4b45-42ec-87c7-a50de91a833e/cd0254496ddc.jpg",
     source: "Paste Magazine",
   },
@@ -1279,9 +1253,7 @@ Irving Berlin classic. Bing Crosby's interpretation remains the best-selling sin
 
 ## 1. "Days of Wine and Roses" (*Days of Wine and Roses*, 1962)
 
-The pinnacle of the canon by Henry Mancini and Johnny Mercer. A masterpiece about alcohol and loss, transformed into a jazz standard.
-
-Source: Paste Magazine — "The Greatest Best Original Song Oscar Winners, Ranked".`,
+The pinnacle of the canon by Henry Mancini and Johnny Mercer. A masterpiece about alcohol and loss, transformed into a jazz standard.`,
     image: "/__l5e/assets-v1/aba2a09d-1e66-4497-a3b9-b732fc76d665/26c30f530c88.jpg",
     source: "Paste Magazine",
   },
@@ -1320,9 +1292,7 @@ Michael Angelo Covino's marriage comedy; emerged with praise from Sundance.
 Eva Victor's feature debut; a fresh take on the post-trauma comedy genre.
 
 ## 10. Together
-Michael Shanks's dark comedy-horror hybrid; Alison Brie and Dave Franco in the lead roles.
-
-Source: BBC Culture — Nicholas Barber.`,
+Michael Shanks's dark comedy-horror hybrid; Alison Brie and Dave Franco in the lead roles.`,
     image: "/__l5e/assets-v1/6d939522-d231-4a43-91ff-02b07e8aff5f/a80f8bb516fd.webp",
     source: "BBC Culture",
   },
@@ -1465,9 +1435,7 @@ David Lynch and Mark Frost's mysterious town drama on ABC that changed the gramm
 Mike White's HBO anthology. A class satire set in a different luxury resort each season; three star-studded casts in three seasons.
 
 ## 45. Widow's Bay (2026–)
-Matthew Rhys's Apple TV+ mystery. A new discovery with a foggy-noir aesthetic, tracking a missing girl in a coastal town.
-
-Source: Entertainment Weekly — "The 45 best TV shows to binge-watch right now" (Robert English & Kevin Jacobsen, 3 Temmuz 2026).`,
+Matthew Rhys's Apple TV+ mystery. A new discovery with a foggy-noir aesthetic, tracking a missing girl in a coastal town.`,
     image: "/__l5e/assets-v1/0533f2d0-cc82-4ff7-be8b-7217b8fec22b/ew-binge-45.webp",
     source: "Entertainment Weekly",
   },
@@ -1487,9 +1455,7 @@ Noah Hawley's *Fargo* is on the list with all its seasons — especially season 
 Elisabeth Moss's *The Handmaid's Tale* completed its six-season journey in 2025. The list also includes Amy Adams's *Sharp Objects*, episodes of *The Bear* that highlight its thriller aspect, and *Dopesick*.
 
 ## Surprise picks
-Lesser-discussed productions like *Under the Banner of Heaven*, *A Murder at the End of the World*, *The Patient*, and the darker episodes of *Reservation Dogs* are also on the EW team's radar.
-
-Source: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
+Lesser-discussed productions like *Under the Banner of Heaven*, *A Murder at the End of the World*, *The Patient*, and the darker episodes of *Reservation Dogs* are also on the EW team's radar.`,
     image: "/__l5e/assets-v1/c5933f01-6f8e-4e7c-88a4-a5ee1e94947a/hulu.webp",
     source: "Entertainment Weekly",
   },
@@ -1509,9 +1475,7 @@ Source: Entertainment Weekly — "The 24 best thrillers on Hulu".`,
 *The Electric State* — A retro-futuristic adventure directed by Anthony and Joe Russo, starring Millie Bobby Brown and Chris Pratt. *Plankton: The Movie* — An animated spin-off from the SpongeBob universe. *Ma* (2019) — Octavia Spencer's psychological thriller.
 
 ## Stand-up
-New stand-up specials from Chelsea Handler and John Mulaney will be on the platform this month.
-
-Source: Entertainment Weekly — "New on Netflix in March 2025".`,
+New stand-up specials from Chelsea Handler and John Mulaney will be on the platform this month.`,
     image: "/__l5e/assets-v1/0d45694a-9768-47d5-8f11-8366afddb87d/netflix-march.jpg",
     source: "Entertainment Weekly",
   },
@@ -1534,9 +1498,7 @@ Source: Entertainment Weekly — "New on Netflix in March 2025".`,
 *A Cat in Paris* (2010) — French-made Oscar-nominated animation. *The Boy, the Mole, the Fox and the Horse* (2022) — Adapted from Charlie Mackesy's illustrated book, BAFTA and Oscar winner.
 
 ## Why is this list important?
-According to Stenzel, the "family movie" label should not be reduced to a children's film; the best examples are multifaceted productions where different age groups can read different layers simultaneously. These 20 films perfectly hit this formula.
-
-Source: Entertainment Weekly — "The 20 best family movies on Netflix".`,
+According to Stenzel, the "family movie" label should not be reduced to a children's film; the best examples are multifaceted productions where different age groups can read different layers simultaneously. These 20 films perfectly hit this formula.`,
     image: "/__l5e/assets-v1/f3677a5e-8d50-4a4b-909c-51c809f1a54e/family.jpg",
     source: "Entertainment Weekly",
   },
@@ -1574,9 +1536,7 @@ DC's new superhero series; Kyle Chandler and Aaron Pierre's Green Lanterns trans
 Conan O'Brien's travel comedy, where he travels the world to visit fans he met online in their homes, returns with new episodes.
 
 ## 10. Dark Matter (August 28 — Apple TV)
-The parallel universe thriller adapted from Blake Crouch's bestselling novel continues with its second season; Joel Edgerton reprises his lead role.
-
-Source: BBC Culture — Caryn James, "10 of the best TV shows to watch this August".`,
+The parallel universe thriller adapted from Blake Crouch's bestselling novel continues with its second season; Joel Edgerton reprises his lead role.`,
     image: "/__l5e/assets-v1/62da9ae1-b2b3-481e-b623-517b76967f1d/4bde2a1381a0.webp",
     source: "BBC Culture",
   },
@@ -1614,9 +1574,7 @@ Will Poulter and Noah Centineo play two opioid-addicted brothers in rural Ohio t
 A film we never thought we'd see. This Roger Rabbit-style live-action–2D animation hybrid focuses on Wile E. Coyote and the Roadrunner: in the classic cartoons, Coyote constantly buys faulty gadgets, and this time he sues the company that sells them; Will Forte plays his lawyer. Warner Bros shelved the film three years ago for a tax write-off (as with "Batgirl"); now it's being released by an independent company. Screenwriter Samy Burch: "There's a beauty in trying even after failing a hundred times."
 
 ## 10. The Magic Faraway Tree (August 21, US/Canada)
-Simon Farnaby, co-writer of "Paddington 2" and "Wonka," modernizes Enid Blyton's classic children's novels. An inventor couple (Claire Foy and Andrew Garfield) move their three children to a remote cottage in the countryside to get them away from the internet; the children discover a tree whose branches are portals to other worlds. Silky (Nicola Coughlan), Moonface (Nonso Anozie), Dame Washalot (Jessica Gunning), and the wicked Dame Snap (Rebecca Ferguson) are also in the cast. Phil de Semlyen from Time Out: "A smart update of Blyton's stories for the smartphone age."
-
-Source: BBC Culture — Nicholas Barber, "10 of the best films to watch this August".`,
+Simon Farnaby, co-writer of "Paddington 2" and "Wonka," modernizes Enid Blyton's classic children's novels. An inventor couple (Claire Foy and Andrew Garfield) move their three children to a remote cottage in the countryside to get them away from the internet; the children discover a tree whose branches are portals to other worlds. Silky (Nicola Coughlan), Moonface (Nonso Anozie), Dame Washalot (Jessica Gunning), and the wicked Dame Snap (Rebecca Ferguson) are also in the cast. Phil de Semlyen from Time Out: "A smart update of Blyton's stories for the smartphone age."`,
     image: "/__l5e/assets-v1/1888ebd5-2a74-4f79-88f5-981ada8aa718/2fcf98a1ee08.webp",
     source: "BBC Culture",
   },
@@ -1654,9 +1612,7 @@ We were all in shock at the Red Wedding; Catelyn wasn't. The moment she made eye
 The list maker's favorite battle. The last twenty minutes are like a horror-action movie: everything seems to be going to plan when the dogs start barking, the wind turns, the command "Close the gates!" comes, and each time someone doesn't make it to the gate. Then the Night King looks at Jon and raises the dead: the moment the show said, "we're not kidding."
 
 ## 1. Daenerys sails for Westeros — "The Winds of Winter" (S6, E10)
-Finally. After six seasons of crossing deserts, being captured, escaping death, and raising dragons, Daenerys was finally setting sail for Westeros. The show, always grand in scale, began to narrow from this moment on, stories finally started to connect — and that flowing music accompanying the fleet of ships became the series' most magnificent finale.
-
-Source: Giddy Up America — "The Ten Best Moments From 'Game of Thrones'".`,
+Finally. After six seasons of crossing deserts, being captured, escaping death, and raising dragons, Daenerys was finally setting sail for Westeros. The show, always grand in scale, began to narrow from this moment on, stories finally started to connect — and that flowing music accompanying the fleet of ships became the series' most magnificent finale.`,
     image: "/__l5e/assets-v1/856a6902-7d72-4e6d-8395-dde39eed016c/9ed45e0eb91b.jpg",
     source: "Giddy Up America",
   },
@@ -1724,9 +1680,7 @@ In Michel Gondry and Charlie Kaufman's memory-erasing story, Jim Carrey decides 
 
 ## 1. Spotlight (2015)
 ![Spotlight](/__l5e/assets-v1/252074f6-d159-4f13-8671-0653bb7409b7/a8a62a9b9e27.webp)
-Ruffalo's greatest "justice-seeking" role. He plays investigative journalist Michael Rezendes, who, as part of the Boston Globe's Spotlight team, uncovers the Catholic Church's abuse cover-up. The film won the Best Picture Oscar, and Ruffalo was among the nominees again.
-
-Source: Metacritic — "The Best Movies Starring Mark Ruffalo".`,
+Ruffalo's greatest "justice-seeking" role. He plays investigative journalist Michael Rezendes, who, as part of the Boston Globe's Spotlight team, uncovers the Catholic Church's abuse cover-up. The film won the Best Picture Oscar, and Ruffalo was among the nominees again.`,
     image: "/__l5e/assets-v1/7cb5952e-b2c0-445f-9281-51fb2832bf6d/eb4d9ed77fc9.webp",
     source: "Metacritic",
   },
@@ -1774,9 +1728,7 @@ Johannes Roberts's film, released at the beginning of the year, turns a tropical
 
 ## 10. Ready or Not 2: Here I Come (2026) — %75
 ![Ready or Not 2](/__l5e/assets-v1/b8d26bf9-a9c9-4835-9a84-40fd36cd0116/37bd82ed47ee.jpg)
-Grace (Samara Weaving) immediately levels up after escaping the Le Domas family. The sequel largely breaks the curse of sequels thanks to Weaving's wild energy.
-
-Source: Rotten Tomatoes — "Best New Horror Movies of 2026".`,
+Grace (Samara Weaving) immediately levels up after escaping the Le Domas family. The sequel largely breaks the curse of sequels thanks to Weaving's wild energy.`,
     image: "/__l5e/assets-v1/eebe0338-8465-4e8f-918a-f8c76c0ebb7e/57bbe5df91c4.jpg",
     source: "Rotten Tomatoes",
     countdownBadge: "10 → 1 countdown",
@@ -1825,9 +1777,7 @@ An action-comedy set in Sony Pictures Animation's all-animal world. The voice ca
 
 ## 10. Cold Storage (2026) — %81
 ![Cold Storage](/__l5e/assets-v1/be80a1fc-1a5d-4b7d-90a2-d6d762a03ab3/04595477da0f.jpg)
-The film starring Joe Keery and Georgina Campbell is a B-movie homage set in a storage facility built on an old military base. It's a sticky and witty sci-fi with a Liam Neeson-esque cast.
-
-Source: Rotten Tomatoes — "Best New Comedies of 2026".`,
+The film starring Joe Keery and Georgina Campbell is a B-movie homage set in a storage facility built on an old military base. It's a sticky and witty sci-fi with a Liam Neeson-esque cast.`,
     image: "/__l5e/assets-v1/f3c21a03-1544-4142-9c27-d19243bb53f7/2eacf819ef58.jpg",
     source: "Rotten Tomatoes",
   },
@@ -1876,9 +1826,7 @@ The ninth film in the series exploded both at the box office and with critics. C
 ## 1. Spider-Man 2 (2004) — Sam Raimi
 ![Spider-Man 2](/__l5e/assets-v1/b5de47ff-47d8-4ee0-bb4c-fc93c44f3306/c9e89900a912.webp)
 No surprises at the top. Raimi's second film is still not only the best Spider-Man movie but also one of the best superhero films of all time. Alfred Molina's Doc Ock is tragic and terrifying, the train scene is one of the genre's benchmark scenes, and the tension between heroism and personal sacrifice is the real force holding the film together.
-![Spider-Man 2 — pizza sahnesi](/__l5e/assets-v1/a62957eb-bfa9-4284-8e13-f1cdb1ebca2b/45c16c20686e.jpg)
-
-Source: Nerdist — "Ranking All 9 Live-Action Spider-Man Films".`,
+![Spider-Man 2 — pizza sahnesi](/__l5e/assets-v1/a62957eb-bfa9-4284-8e13-f1cdb1ebca2b/45c16c20686e.jpg)`,
     image: "/__l5e/assets-v1/b5de47ff-47d8-4ee0-bb4c-fc93c44f3306/c9e89900a912.webp",
     source: "Nerdist",
   },
@@ -1910,9 +1858,7 @@ Long before the MCU started playing with multiverses, two generations of mutants
 
 Hugh Jackman technically returned with *Deadpool & Wolverine*, but James Mangold's melancholic masterpiece *Logan* still offers a perfect finale to one of cinema's most defining comic book characters: a *Shane*-esque Western farewell. X-Men for adults; it doesn't shy away from profanity, extreme violence, and intense emotion. Charles Xavier, whose Alzheimer's combines with his telepathic powers turning him into a weapon of mass destruction, Logan, who finally accepts that mortality has caught up with him, and Dafne Keen's savage performance as 'X-23' open up a new vein for the series even twenty years later. In a word: X-traordinary.
 
-&nbsp;
-
-Source: Empire — "3 Great X-Men Movies You Should See Before The Mutants Arrive In The MCU".`,
+&nbsp;`,
     image: "/__l5e/assets-v1/88a22799-7f90-4ed3-9e8b-290c67f0080d/f431798f6130.avif",
     source: "Empire",
   },
@@ -1938,9 +1884,7 @@ The story of explorer Percy Fawcett, who pursues a lost civilization in the Amaz
 ![The Devil All The Time](/__l5e/assets-v1/a018db1b-f3c4-490b-ba9b-522f96f71df6/f3adcb3d62be.avif)
 **Runtime:** 2h 18m · **Platform:** Netflix · **Cast:** Bill Skarsgård, Robert Pattinson, Tom Holland, Sebastian Stan, Riley Keough, Jason Clarke
 
-Despite opening with a disaster movie, starring in half a dozen MCU films, and flexing his dramatic muscles in a James Gray film, it was Campos's pitch-black Southern Gothic gem that shattered the audience's perception of "forever young" Tom Holland. In Holland's Arvin Russell, violence, intensity, and pervasive darkness coexist: a young man willing to do the unspeakable to avenge the unspeakable in a lawless town at the mercy of false faith leaders and serial killers. On top of that, there's a wildly unhinged Robert Pattinson as a predatory preacher.
-
-Source: Empire — "Three Non-Spider-Man Tom Holland Movies To Watch Before Brand New Day".`,
+Despite opening with a disaster movie, starring in half a dozen MCU films, and flexing his dramatic muscles in a James Gray film, it was Campos's pitch-black Southern Gothic gem that shattered the audience's perception of "forever young" Tom Holland. In Holland's Arvin Russell, violence, intensity, and pervasive darkness coexist: a young man willing to do the unspeakable to avenge the unspeakable in a lawless town at the mercy of false faith leaders and serial killers. On top of that, there's a wildly unhinged Robert Pattinson as a predatory preacher.`,
     image: "/__l5e/assets-v1/8ead4289-bf4d-4794-b90f-101722ad7f3a/c88a28918d19.avif",
     source: "Empire",
   },
@@ -1989,9 +1933,7 @@ Romero's most pessimistic and radical film: in an underground bunker, science an
 
 ## 1. Dawn Of The Dead (1978) — George A. Romero
 ![Dawn Of The Dead](/__l5e/assets-v1/84233674-bedb-40c3-bd58-edfe172ed017/cb5f9cbaf90f.avif)
-At the top is the tombstone of consumer society: survivors taking refuge in a shopping mall discover that the place they thought was heaven is their own trap. Both genre cinema and sharp satire; the film that turned the zombie movie into a metaphor machine.
-
-Source: Empire — "The 25 Best Zombie Movies Of All Time".`,
+At the top is the tombstone of consumer society: survivors taking refuge in a shopping mall discover that the place they thought was heaven is their own trap. Both genre cinema and sharp satire; the film that turned the zombie movie into a metaphor machine.`,
     image: "/__l5e/assets-v1/a476ef2f-dcb2-46d9-b2fd-b1f25ff5d8cd/905c449f6930.avif",
     source: "Empire",
   },
@@ -2042,9 +1984,7 @@ Not technically a sequel to Housemarque's "Returnal" but clearly in its image: t
 
 ## 1. Resident Evil Requiem
 ![Resident Evil Requiem](/__l5e/assets-v1/a9279cad-c577-4d9c-926e-ba186320114f/c40d2d0eb487.avif)
-A banner year for Capcom. Despite "Pragmata" and "Monster Hunter Stories 3," nothing can dethrone "Resident Evil Requiem." A dual-pronged horror story split between returning action hero Leon S. Kennedy and newcomer Grace Ashcroft: Grace investigates a chain of deaths starting at the hotel where her mother was murdered years ago, while Leon hunts Umbrella creatures. You're encouraged to play Leon in third-person and Grace in first-person; in either case, the series hasn't been this terrifying in years. With its at times photorealistic visuals, it makes you fear every corner — and it's the best game of the year so far.
-
-Source: Empire — "The Best Games Of 2026… So Far".`,
+A banner year for Capcom. Despite "Pragmata" and "Monster Hunter Stories 3," nothing can dethrone "Resident Evil Requiem." A dual-pronged horror story split between returning action hero Leon S. Kennedy and newcomer Grace Ashcroft: Grace investigates a chain of deaths starting at the hotel where her mother was murdered years ago, while Leon hunts Umbrella creatures. You're encouraged to play Leon in third-person and Grace in first-person; in either case, the series hasn't been this terrifying in years. With its at times photorealistic visuals, it makes you fear every corner — and it's the best game of the year so far.`,
     image: "/__l5e/assets-v1/6820d01e-c52d-41cd-8296-43f90543e611/f510feeb2ff2.avif",
     source: "Empire",
   },
@@ -2179,9 +2119,7 @@ Its rain-soaked future changed science fiction forever. Beneath the production d
 
 ![Harry Dean Stanton in Alien](${ridleyAlien.url})
 
-Scott's haunted-house movie in space remains a model of patient terror. Industrial design, class tension and the xenomorph converge in a horror film that still feels dangerous.
-
-Source: Rolling Stone — “Ridley Scott's Movies, Ranked Worst to Best” by A.A. Dowd, David Fear, Tim Grierson and Emily Zemler.`,
+Scott's haunted-house movie in space remains a model of patient terror. Industrial design, class tension and the xenomorph converge in a horror film that still feels dangerous.`,
   },
   {
     slug: "na-hong-jin-movies-to-watch-before-hope",
@@ -2224,9 +2162,7 @@ Continuing his bleak streak, the director's man-on-the-run thriller soaks its le
 
 **Starring:** Kwak Do-won, Hwang Jung-min, Chun Woo-hee, Jun Kunimura, Kim Hwan-hee, Heo Jin
 
-Going full-bore into the horror genre, Director Na delivered one of the most downright terrifying films of the 21st century — channelling something primal in the tale of a South Korean village torn apart by supernatural murders, seemingly linked to a local Japanese stranger. It begins as a police procedural of sorts, as local copper Jong-goo (Kwak Do-won) investigates the terrible killings, before the film shifts into all-out waking-nightmare mode. Gorgeously shot, incredibly atmospheric, and with a final act that instils terror on a primal level, this 150-minute epic is a legitimate all-timer and yet still, somehow, criminally underseen. Get on it!
-
-Source: Empire — "3 Na Hong-Jin Movies You Need To Watch Next As Hope Hits Cinemas" by Harry Stainer, Ben Travis and Jordan King, September 25, 2026.`,
+Going full-bore into the horror genre, Director Na delivered one of the most downright terrifying films of the 21st century — channelling something primal in the tale of a South Korean village torn apart by supernatural murders, seemingly linked to a local Japanese stranger. It begins as a police procedural of sorts, as local copper Jong-goo (Kwak Do-won) investigates the terrible killings, before the film shifts into all-out waking-nightmare mode. Gorgeously shot, incredibly atmospheric, and with a final act that instils terror on a primal level, this 150-minute epic is a legitimate all-timer and yet still, somehow, criminally underseen. Get on it!`,
   },
 ];
 

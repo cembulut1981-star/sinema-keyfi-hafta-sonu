@@ -49,9 +49,6 @@ function NewsPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{n.excerpt}</p>
         <ArticleByline source={n.source} />
-        <div className="mt-1 text-sm text-muted-foreground">
-          Source: <em>{n.source}</em>
-        </div>
 
         {isNapalm ? (
           <div className="my-10">

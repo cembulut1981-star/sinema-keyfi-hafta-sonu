@@ -9,3 +9,4 @@
 - [x] Add a PC Gamer-based 2026 PC games guide to PC Games, below the homepage lead rows, and verify it.
 - [x] Add a source-based Castlevania story to PC Games, place it lower on the homepage, and verify its images and article.
 - [x] List the editorial email on the contact page and verify the mail link.
+- [x] Publish homepage stories without a visible source credit and verify every homepage article page.
