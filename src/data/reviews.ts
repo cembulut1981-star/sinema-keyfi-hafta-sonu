@@ -91,9 +91,7 @@ Everything in those hours feels necessary: no redundant fetch quests, no dragged
 
 Some boss battles are one-note and a few objectives repeat, but these are small blemishes on the most complete Resident Evil in years. It is a must-play for horror fans on PC.
 
-**Need to know:** Release date February 27, 2026 · Developer/Publisher Capcom · Price $70 / £60 · Single-player.
-
-Source: [PC Gamer — Elie Gould](https://www.pcgamer.com/games/resident-evil/resident-evil-requiem-review/).`,
+**Need to know:** Release date February 27, 2026 · Developer/Publisher Capcom · Price $70 / £60 · Single-player.`,
   },
   {
     slug: "crimson-desert-game-review",
@@ -118,9 +116,7 @@ The story is not gripping as told, the pacing of cutscenes is choppy, and some a
 
 Still, for the patient, it is a fascinating journey — even when the destination is underwhelming.
 
-**Need to know:** Release date March 19, 2026 · Developer/Publisher Pearl Abyss · Price $70 / £55 · PC, PS5, Xbox Series X|S.
-
-Source: [PC Gamer — Mollie Taylor](https://www.pcgamer.com/games/action/crimson-desert-review/).`,
+**Need to know:** Release date March 19, 2026 · Developer/Publisher Pearl Abyss · Price $70 / £55 · PC, PS5, Xbox Series X|S.`,
   },
   {
     slug: "007-first-light-game-review",
@@ -141,9 +137,7 @@ IO Interactive's Glacier Engine stealth-and-disguise loop translates beautifully
 
 ## The trade-offs
 
-It is less freeform than Hitman: public spaces are mostly read-only, and breaking decorum can trigger hard mission failures. Enemy AI occasionally stumbles, and the mission structure is more predictable. But with no microtransactions or live-service hooks, it is a complete, polished package.
-
-Source: [Pixels in Orbit](https://pixelsinorbit.com/reviews/007-first-light-review-io-interactive-amazon-mgm-patrick-gibson-bond-origin-glacier-engine-may-2026).`,
+It is less freeform than Hitman: public spaces are mostly read-only, and breaking decorum can trigger hard mission failures. Enemy AI occasionally stumbles, and the mission structure is more predictable. But with no microtransactions or live-service hooks, it is a complete, polished package.`,
   },
   {
     slug: "heart-of-the-beast-review",
@@ -164,9 +158,7 @@ Rivers, wildlife and rough terrain supply the expected survival-film obstacles, 
 
 Pitt makes James's solitary struggle feel lived-in, while Uber, the German Shepherd playing Odin, anchors the film without being reduced to a gimmick. The movie occasionally leans too hard into imagining the dog's inner life, but more often it lets his movement and attention tell the story. J.K. Simmons appears in a small supporting role; the heart of the film remains the man and dog on their own.
 
-The route through the wilderness may be predictable, yet *Heart of the Beast* earns its sentiment through a convincingly shared ordeal. Its strongest moments are not about conquering nature. They are about two old partners refusing to leave each other behind.
-
-Source: [Empire — Olly Richards, September 22, 2026](https://www.empireonline.com/movies/reviews/heart-of-the-beast/). Images: Empire / film publicity.`,
+The route through the wilderness may be predictable, yet *Heart of the Beast* earns its sentiment through a convincingly shared ordeal. Its strongest moments are not about conquering nature. They are about two old partners refusing to leave each other behind.`,
   },
   {
     slug: "star-wars-galactic-racer-review",
@@ -230,9 +222,7 @@ When Godzilla finally meets Ghidorah, Yamazaki stages more than a contest of siz
 
 The result is a sequel that thinks bigger without reducing its people to spectators. *Godzilla Minus Zero* gives audiences the titanic showdown they came for, and then makes that clash matter by reminding us who has to live in its shadow.
 
-**Film details:** Written and directed by Takashi Yamazaki; starring Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Min Tanaka and Masami Nagasawa. Premiered at the 2026 New York Film Festival. Set for North American release November 6, 2026.
-
-Source: [Variety — Owen Gleiberman](https://variety.com/2026/film/reviews/godzilla-minus-zero-review-takashi-yamazaki-nyff-1236876075/). Images: Toho / GKIDS.`,
+**Film details:** Written and directed by Takashi Yamazaki; starring Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Min Tanaka and Masami Nagasawa. Premiered at the 2026 New York Film Festival. Set for North American release November 6, 2026.`,
   },
   {
     slug: "hope-review-na-hong-jin",
@@ -255,9 +245,7 @@ Still, *Hope* finds its pulse again in a final third that barrels toward a highw
 
 What remains is an overstuffed monster movie with no great philosophical burden and no apology for its vulgar pleasures. That lightness makes it a strange Cannes competition entry, but also a refreshing one. The humans of Hope Harbor may be slower, weaker and less noble than whatever has arrived among them, but they are far more fun to watch.
 
-**Film details:** Directed and written by Na Hong-jin; starring Hwang Jung-min, Zo In-sung, Hoyeon, Taylor Russell, Cameron Britton, Alicia Vikander and Michael Fassbender. Reviewed at Cannes Film Festival. Running time: 160 minutes.
-
-Source: Variety — Jessica Kiang.`,
+**Film details:** Directed and written by Na Hong-jin; starring Hwang Jung-min, Zo In-sung, Hoyeon, Taylor Russell, Cameron Britton, Alicia Vikander and Michael Fassbender. Reviewed at Cannes Film Festival. Running time: 160 minutes.`,
   },
   {
     slug: "resident-evil-review-zach-cregger-austin-abrams",
@@ -295,9 +283,7 @@ Cregger occasionally shifts into first-person perspective, briefly placing the a
 
 What makes this *Resident Evil* work is its confidence. It understands the games' survival-horror rhythm without becoming trapped by their characters or chronology, and it trusts a vulnerable protagonist instead of an invincible action hero. Baroque gore, sharp visual jokes and Abrams' frantic sincerity give a worn franchise precisely the jolt it needed.
 
-**Film details:** Directed by Zach Cregger; written by Zach Cregger and Shay Hatten; starring Austin Abrams, Zach Cherry, Kali Reis, Paul Walter Hauser and Will Merrick. Rated R. Running time: 90 minutes. Released September 18, 2026.
-
-Source: The Hollywood Reporter — Frank Scheck.`,
+**Film details:** Directed by Zach Cregger; written by Zach Cregger and Shay Hatten; starring Austin Abrams, Zach Cherry, Kali Reis, Paul Walter Hauser and Will Merrick. Rated R. Running time: 90 minutes. Released September 18, 2026.`,
   },
   {
     slug: "the-uprising-review-andrew-garfield",
@@ -323,9 +309,7 @@ The film does not need modern speeches to make its point. Talk of immigrants "st
 
 Its final coda flirts with the origin of a famous English folk hero, a choice that may feel more playful than the tragedy preceding it. Yet the film's central idea remains intact: history does not simply repeat, but its inequalities, fears and slogans continue to rhyme.
 
-"The Uprising" works best as an immersive chronicle of oppression becoming protest. Garfield gives that transformation a human center, while Greengrass makes a 600-year-old revolt feel less like a museum piece than a warning arriving in real time.
-
-Source: Rolling Stone — David Fear.`,
+"The Uprising" works best as an immersive chronicle of oppression becoming protest. Garfield gives that transformation a human center, while Greengrass makes a 600-year-old revolt feel less like a museum piece than a warning arriving in real time.`,
   },
   {
     slug: "lanterns-inceleme-hbo-green-lantern",
@@ -499,9 +483,7 @@ Based on Peter Shaffer's play, the screenplay places Salieri's jealousy at its c
 
 Forman himself was an exile who had fled Czechoslovakia and knew the suppression of the 1968 Prague Spring firsthand. Joudrey argues that the film's portrait of Salieri as "the mediocre, rule-abiding statesman who tries to tame talent rather than reward it" is a direct reference to the USSR's cultural policy. Mozart's anarchic laughter and his genius that refuses to bow to power represent the artist's impossible freedom.
 
-Looking back 40 years later, 'Amadeus' isn't just a grand costume drama; it's a still-relevant political manifesto built around censorship, authority, and art's strategies for survival.
-
-Source: BBC Culture — Tom Joudrey.`,
+Looking back 40 years later, 'Amadeus' isn't just a grand costume drama; it's a still-relevant political manifesto built around censorship, authority, and art's strategies for survival.`,
   },
   {
     slug: "a-useful-ghost-thai-black-comedy",
@@ -516,9 +498,7 @@ At the center of the story is a young man who believes his dead wife's spirit ha
 
 **What does it get right?** Boonbunchachoke's visual language is disciplined and stylish: the cold fluorescent light of the factory interiors, the warm tungsten tones of the home scenes, and the use of the vacuum's motor hum in the sound design all give the film a distinctive texture. In the Guardian's words, the result is "unsettling, erotic and deeply moving."
 
-**Verdict.** 'A Useful Ghost' is a rare film capable of winning over both festival audiences and genre-cinema fans alike. With his debut, Boonbunchachoke steps onto the stage as the most notable voice of post-Apichatpong Weerasethakul Thai cinema.
-
-Source: The Guardian`,
+**Verdict.** 'A Useful Ghost' is a rare film capable of winning over both festival audiences and genre-cinema fans alike. With his debut, Boonbunchachoke steps onto the stage as the most notable voice of post-Apichatpong Weerasethakul Thai cinema.`,
   },
   {
     slug: "possession-inceleme-plantasyon-korku-drami-sky-atlantic",
@@ -566,9 +546,7 @@ The voice cast, featuring Seth Rogen, Laverne Cox, Glenn Close and Kieran Culkin
 
 **Where does it stumble?** Serkis's choices as a director are surprisingly cautious. The emotional depth we know from works like 'Mowgli' and 'Breathe' is nowhere to be found here. To be "appropriate" for young audiences, the film censors both the violence and the political weight; but strip out those two elements and what's left is neither the book's heart nor a standalone animated work.
 
-**Verdict.** According to the Guardian, 'Animal Farm' is a case study in how film adaptations shouldn't be made. It's monotonous even for a child who's never read Orwell's text, and outright infuriating for those who have.
-
-Source: The Guardian`,
+**Verdict.** According to the Guardian, 'Animal Farm' is a case study in how film adaptations shouldn't be made. It's monotonous even for a child who's never read Orwell's text, and outright infuriating for those who have.`,
   },
 
   {
@@ -584,9 +562,7 @@ Song Seon-mi plays an actress trying to return to cinema after a long break. Tor
 
 **What does it get right?** As the Guardian notes, "no one shows daytime drinking quite like Hong," and these repetitions create a kind of meditative rhythm in the film. What the characters leave unsaid matters as much as what they say; long silences, hesitations and unfinished sentences form the film's emotional backbone.
 
-**Verdict.** 'The Day She Returns' may not add a new masterpiece to Hong Sang-soo's nearly-thirty-film filmography — but that was never the point. As the Guardian puts it, it's "as mysteriously addictive as ever," another Hong experience. It's not a bad starting point either for those entering his universe for the first time.
-
-Source: The Guardian`,
+**Verdict.** 'The Day She Returns' may not add a new masterpiece to Hong Sang-soo's nearly-thirty-film filmography — but that was never the point. As the Guardian puts it, it's "as mysteriously addictive as ever," another Hong experience. It's not a bad starting point either for those entering his universe for the first time.`,
   },
 
   {
@@ -609,9 +585,7 @@ The Earthbound flashback scenes give us the cool-headed government agent Eva Str
 
 That doesn't mean Lord and Miller have made a heavy film. Everything you'd expect from a space movie is here, from gravity problems to tense spacewalks and explosions; the effects are first-rate and look great on the big screen (especially in 70mm). But beyond all that spectacle, 'Project Hail Mary' is an unexpectedly moving, bittersweet character study as the credits roll: a pas de deux between human and alien.
 
-Directors: Christopher Miller, Phil Lord. Screenplay: Drew Goddard (based on the novel by Andy Weir). Cast: Ryan Gosling, Sandra Hüller, James Ortiz. 156 minutes. PG-13.
-
-Source: The Boston Globe`,
+Directors: Christopher Miller, Phil Lord. Screenplay: Drew Goddard (based on the novel by Andy Weir). Cast: Ryan Gosling, Sandra Hüller, James Ortiz. 156 minutes. PG-13.`,
   },
 
 
@@ -628,9 +602,7 @@ Once a rising star on Washington DC's boxing scene, Walt lost his career to the 
 
 **What does it get right?** Holland's performance is, in the Guardian's words, "indelible." He carries a man who hardens in the ring, softens at home in front of his child, and breaks while confronting his past, all without a single overplayed gesture. The way the director shoots Washington DC is also striking: not the tourist monuments, but abandoned gyms, apartment hallways and late-night bus stops.
 
-**Verdict.** 'They Fight' doesn't reinvent genre conventions — but it wields the genre it works within with great skill, tenderness and toughness. It's a performance that should kick off awards-season conversations for Holland; Andscape's most mature production to date.
-
-Source: The Guardian`,
+**Verdict.** 'They Fight' doesn't reinvent genre conventions — but it wields the genre it works within with great skill, tenderness and toughness. It's a performance that should kick off awards-season conversations for Holland; Andscape's most mature production to date.`,
   },
   {
     slug: "sterling-point-inceleme-genc-draması-prime-video",
@@ -671,9 +643,7 @@ The strength of Taylor-Joy's performance shows in this: you forget how hard it s
 
 Combined with Tropper and Pappas's carefully placed breathing room between waves of action and tension, a beating heart emerges beneath what could have been pulpy plotting. Watching Lucky's dark magic is exhilarating; but the show, like its heroine, knows the emptiness that settles in once the thrill fades.
 
-The first two episodes premiered on Apple TV on Wednesday, July 15; subsequent episodes air weekly.
-
-Source: TVGuide`,
+The first two episodes premiered on Apple TV on Wednesday, July 15; subsequent episodes air weekly.`,
   },
 
 
@@ -692,9 +662,7 @@ Aaron Eckhart plays the character who rises to lead the survivors after an Ameri
 
 **Where does it stumble?** The characters are stock types: the alcoholic pilot, the arrogant businessman, the panicking mother, the young person who finds courage too late. The dialogue often turns didactic, tasting like a "Discovery Channel special."
 
-**Verdict.** 'Deep Water' isn't a masterpiece, nor does it aim to be. But for a late-summer theater outing looking for the right mix of sharks, panic attacks and cynicism, it's a genre delight served at just the right temperature.
-
-Source: The Guardian`,
+**Verdict.** 'Deep Water' isn't a masterpiece, nor does it aim to be. But for a late-summer theater outing looking for the right mix of sharks, panic attacks and cynicism, it's a genre delight served at just the right temperature.`,
   },
 
   {
@@ -712,9 +680,7 @@ Matt Damon's Odysseus is father, husband, warrior, king, and a soul lost in the 
 
 **Where does it stumble?** According to Fear, exactly where we've come to expect from Nolan's other films: intimacy between characters. The Penelope-Odysseus relationship, which should be the film's emotional backbone, stays cool and distant. Zendaya's performance is good, but the character gets little screen time. The Telemachus subplot suffers from the same problem.
 
-**Verdict.** 'The Odyssey' is Nolan's most visually stunning film since 'Dunkirk'; a rare experience that demands to be seen in IMAX 65mm in a theater. But the longing for home that is Homer's true power sometimes gets lost in the shadow of the spectacle. It's a strong contender in the technical categories this awards season, but not the peak of Nolan's career.
-
-Source: Rolling Stone — David Fear`,
+**Verdict.** 'The Odyssey' is Nolan's most visually stunning film since 'Dunkirk'; a rare experience that demands to be seen in IMAX 65mm in a theater. But the longing for home that is Homer's true power sometimes gets lost in the shadow of the spectacle. It's a strong contender in the technical categories this awards season, but not the peak of Nolan's career.`,
   },
 
   {
@@ -732,9 +698,7 @@ Ferrell plays Lonnie "The Hawk" Hawkins, a grumpy, alcoholic, fading professiona
 
 **What saves it?** Molly Shannon brings energy to every scene; Luke Wilson's "tired but loyal" manager remains consistently watchable. The golf-course cinematography is lovely — according to Herman, one of Netflix's most "postcard-pretty" comedies in recent years.
 
-**Verdict.** *The Hawk* is as easy to watch as a Will Ferrell movie and as quickly forgotten as one. It won't satisfy those who still believe Ferrell has time left for sports-comedy classics; for those who've never seen the classics, it's a weak entry point.
-
-Source: Variety — Alison Herman`,
+**Verdict.** *The Hawk* is as easy to watch as a Will Ferrell movie and as quickly forgotten as one. It won't satisfy those who still believe Ferrell has time left for sports-comedy classics; for those who've never seen the classics, it's a weak entry point.`,
   },
   {
     slug: "evil-dead-burn",
@@ -749,9 +713,7 @@ The story centers on Alice (Souheila Yacoub), who loses her abusive husband (Geo
 
 Vaniček's directorial language favors a paper-thin tension: the camera holds wide shots for long stretches, the sound design throbs, and the gore is as generous as Cronin's but far less fun. Yacoub's performance is the film's anchor — she makes it believable that a body carrying trauma can suddenly flip from prey to predator.
 
-According to Empire, *Evil Dead Burn* isn't so much about winning the franchise new fans as it is reminding longtime fans that "this stuff can genuinely still scare you." Those looking for splatstick are in the wrong theater; for those seeking a nightmare, this is one of the most uncompromising Evil Dead experiences yet.
-
-Source: Empire — Ben Travis`,
+According to Empire, *Evil Dead Burn* isn't so much about winning the franchise new fans as it is reminding longtime fans that "this stuff can genuinely still scare you." Those looking for splatstick are in the wrong theater; for those seeking a nightmare, this is one of the most uncompromising Evil Dead experiences yet.`,
   },
   {
     slug: "the-furious",
@@ -764,9 +726,7 @@ Source: Empire — Ben Travis`,
 
 The story — a mute father (Xie Miao) whose daughter is kidnapped, teaming up with a journalist (Joe Taslim) to hunt down a child-trafficking ring — doesn't promise anything new on the page. But Tanigaki's instincts are correct: he lets his characters fight instead of talk. Sets, corridors, streets, restaurant kitchens — all of them get used in near-single-take choreography. Xie Miao's physical language more than makes up for the absence of dialogue; Joe Taslim throws his hardest hits as if they cost him no effort at all.
 
-The film's success lies in knowing exactly what the genre's audience wants and delivering it without a hitch. Those looking for emotional depth should head to a different theater; but for anyone wanting bone-crushing, breathless fight scenes with clear geography, this is one of the most satisfying action movies of the year.
-
-Source: Empire — Harry Stainer`,
+The film's success lies in knowing exactly what the genre's audience wants and delivering it without a hitch. Those looking for emotional depth should head to a different theater; but for anyone wanting bone-crushing, breathless fight scenes with clear geography, this is one of the most satisfying action movies of the year.`,
   },
   {
     slug: "500-miles",
@@ -781,9 +741,7 @@ The film opens with a flashback showing a postcard-perfect day of family happine
 
 Roman Griffin Davis carries the sensitive acting we know from *Jojo Rabbit* into another stage of growth; Dexter Sol Ansell, the film's surprise, carries innocence and stubbornness at once. Bill Nighy, as expected, warms up scenes just by being present. Maisie Williams appears in a small but effective role.
 
-According to Empire, *500 Miles* flirts with melodrama without falling into it; it approaches clichés but pulls back in time. The result is a tender but sturdy family drama that puts the audience in the car and has them laughing and crying the whole way.
-
-Source: Empire — Barry Levitt`,
+According to Empire, *500 Miles* flirts with melodrama without falling into it; it approaches clichés but pulls back in time. The result is a tender but sturdy family drama that puts the audience in the car and has them laughing and crying the whole way.`,
   },
   {
     slug: "voicemails-for-isabelle",
@@ -798,9 +756,7 @@ The trouble is, the messages no longer reach Isabelle's old number; instead they
 
 The film's strength comes from its pairing. Zoey Deutch holds the character's messiness, humor and underlying grief all at once; Nick Robinson balances her with a quiet, observant performance. According to Empire, the best scenes are the ones where the two aren't actually looking at each other: an intimacy built on voice alone forms the film's emotional backbone.
 
-The direction plays it safe at times and leans too heavily on rom-com formula toward the end. But according to King, the real achievement of *Voicemails For Isabelle* is turning the idea of "continuing to talk to someone you're grieving" from a gimmick into the film's beating heart. It's a warm, wistful, easy-to-watch romantic comedy.
-
-Source: Empire — Jordan King`,
+The direction plays it safe at times and leans too heavily on rom-com formula toward the end. But according to King, the real achievement of *Voicemails For Isabelle* is turning the idea of "continuing to talk to someone you're grieving" from a gimmick into the film's beating heart. It's a warm, wistful, easy-to-watch romantic comedy.`,
   },
   {
     slug: "nirvanna-the-band-the-show-the-movie",
@@ -815,9 +771,7 @@ Matt (Matt Johnson) and Jay (Jay McCarrol) put their most ridiculous plans into 
 
 The chemistry between Johnson and McCarrol is the film's sole and sufficient reason for being; the pair play with both a childlike energy and a fragility that comes from knowing they're not young anymore. According to Empire, the film achieves something beyond mere comedy: a funny, absurd, but deeply sincere portrait of sustaining a dream for decades.
 
-Travis calls the film "an act of ingenuity by its mere existence." For anyone curious what independent comedy can truly look like, it's one of 2026's oddest and sweetest surprises.
-
-Source: Empire — Ben Travis`,
+Travis calls the film "an act of ingenuity by its mere existence." For anyone curious what independent comedy can truly look like, it's one of 2026's oddest and sweetest surprises.`,
   },
   {
     slug: "moana-live-action",
@@ -832,9 +786,7 @@ The boldest directorial choice is that nearly half the film remains animated. Th
 
 New star Catherine Laga'aia doesn't try to mimic the freshness Auli'i Cravalho brought to the animated Moana; instead she brings her own radiance: curious, stubborn, a beaming explorer. Dwayne Johnson, meanwhile, is completely unleashed as Maui — lending the character his own iconic grin and carrying the "You're Welcome" number like a concert headliner. The songs have been rearranged by Lin-Manuel Miranda and Opetaia Foa'i, with two new tracks added.
 
-Gleiberman's central argument is this: unlike attempts such as 'The Lion King' or 'Mulan,' 'Moana' works precisely because it isn't afraid of animation's own language. Disney finally seems to have learned to use the "live-action" label as a tool for enrichment rather than dilution.
-
-Source: Variety — Owen Gleiberman`,
+Gleiberman's central argument is this: unlike attempts such as 'The Lion King' or 'Mulan,' 'Moana' works precisely because it isn't afraid of animation's own language. Disney finally seems to have learned to use the "live-action" label as a tool for enrichment rather than dilution.`,
   },
   {
     slug: "night-nurse",
@@ -849,9 +801,7 @@ The story begins when a financially struggling young caregiver, Ada (newcomer Ce
 
 Paksoy's performance is the film's biggest discovery: there's an unreadability in her face that swings between innocence and calculated coldness. McKenzie, as Loayza puts it, manages to "place the character squarely between shadow and light." Bernstein's visual language leans closer to Paul Verhoeven than Hitchcock — an exaggerated richness, a red-and-gold palette, occasionally dreamlike.
 
-The film's weak point is that the further it drifts from the true story, the looser its moral framework becomes; some viewers may read this as "aestheticized exploitation." But according to Loayza, the real power of 'Night Nurse' lies precisely in that unsettling comfort: the film doesn't want your pity, it wants the guilt of watching. A bold, deviant, and promising debut.
-
-Source: Variety — Beatrice Loayza`,
+The film's weak point is that the further it drifts from the true story, the looser its moral framework becomes; some viewers may read this as "aestheticized exploitation." But according to Loayza, the real power of 'Night Nurse' lies precisely in that unsettling comfort: the film doesn't want your pity, it wants the guilt of watching. A bold, deviant, and promising debut.`,
   },
   {
     slug: "young-washington",
@@ -870,9 +820,7 @@ The cast, however, isn't as consistent as Kristopher Kimlin's cinematography. Si
 
 'Young Washington' is such a mechanical biopic that it's hard not to focus on its small failures. Above all, its themes never cohere; the film shows no interest in history's uglier sides. Washington is motivated by the injustice of his circumstances — being unable to go to school, unable to join the British army. Yet by the film's own admission, he owns ten enslaved people. Washington's slaves never appear onscreen; the one time they're mentioned in dialogue, they're described as recipients of his family's charity.
 
-In the 21st century, a simplistic portrait of the Founding Fathers is a hard sell. Watching a Washington who duels the French in slow motion and pulls off dysentery-riddled horseback stunts makes it impossible to take the film seriously. This corn-fed, insistent production, made for America's 250th birthday, might even do good box office; but Angel Studios has no way of knowing that, because ticket sales figures can run far higher than actual audience numbers. The dishonesty of the fundraising gambit poisons what could otherwise have been just another artificial biopic.
-
-Source: TheWrap – William Bibbiani`,
+In the 21st century, a simplistic portrait of the Founding Fathers is a hard sell. Watching a Washington who duels the French in slow motion and pulls off dysentery-riddled horseback stunts makes it impossible to take the film seriously. This corn-fed, insistent production, made for America's 250th birthday, might even do good box office; but Angel Studios has no way of knowing that, because ticket sales figures can run far higher than actual audience numbers. The dishonesty of the fundraising gambit poisons what could otherwise have been just another artificial biopic.`,
   },
   {
     slug: "the-last-one-for-the-road",
