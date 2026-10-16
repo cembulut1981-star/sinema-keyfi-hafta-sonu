@@ -1,6 +1,11 @@
 import { describe, test } from "node:test";
 import assert from "node:assert/strict";
 import { ARTICLES, GAME_ARTICLES } from "./articles";
+import { NEWS } from "./news";
+import { REVIEWS } from "./reviews";
+import { LISTS } from "./lists";
+import { MUSIC } from "./music";
+import { SERIES } from "./series";
 
 describe("Castlevania coverage placement", () => {
   test("belongs to PC Games", () => {
