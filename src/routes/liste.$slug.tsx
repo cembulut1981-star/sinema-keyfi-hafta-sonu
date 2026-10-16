@@ -43,9 +43,6 @@ function ListPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{l.excerpt}</p>
         <ArticleByline source={l.source} />
-        <div className="mt-1 text-sm text-muted-foreground">
-          Source: <em>{l.source}</em>
-        </div>
 
         <div className="my-10 flex justify-center">
           <div className="w-full max-w-[900px] p-3" style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}>
