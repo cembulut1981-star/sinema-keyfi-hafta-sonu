@@ -97,6 +97,7 @@ Creators Alfred Gough and Miles Millar remain the showrunners, with Burton retur
 
 ![Jenna Ortega remains the center of Netflix's Addams Family phenomenon](${jennaWednesdayPortrait.url})
 
+Story details are still being guarded, but Ortega has said the new season confronts the unease of senior year: family pressure, adulthood and the alarming possibility that even Wednesday Addams may need a plan for her future. The cameras have stopped; now Nevermore's next mystery heads into the editing room.`,
   },
   {
     slug: "line-of-fire-peter-krause-hope-davis-cover-story",
