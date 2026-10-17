@@ -50,6 +50,26 @@ export type SeriesItem = {
 
 export const SERIES: SeriesItem[] = [
   {
+    slug: "true-detective-season-5-nicolas-cage-antonio-banderas",
+    title: "True Detective Season 5 Casts Nicolas Cage and Antonio Banderas",
+    excerpt: "HBO's anthology crime series has lined up two screen legends for its fifth season, with filming set to begin in 2027.",
+    customBadge: "HBO",
+    customBadgeStyle: "light",
+    image: trueDetectiveS5,
+    source: "The Hollywood Reporter — October 16, 2026",
+    body: `**True Detective** is coming back with its most star-studded pairing yet: **Nicolas Cage** and **Antonio Banderas** have officially been cast in the HBO anthology's fifth season, with filming set to begin in 2027.
+
+![Two detectives stand under a streetlight on a rain-soaked night, in the moody tradition of True Detective](${trueDetectiveS5})
+
+The casting reunites the series with the kind of heavyweight duo that defined its first season, when Matthew McConaughey and Woody Harrelson turned the show into a phenomenon. Cage, fresh off a run of acclaimed performances, and Banderas, an Oscar nominee, give the new season an immediate awards-season gravity.
+
+![The new season is expected to lean into the franchise's signature atmosphere of fog, flashlights and small-town dread](${trueDetectiveS5Scene})
+
+HBO has kept plot details quiet, but the network's anthology format means Cage and Banderas will anchor a self-contained story with new characters and a new setting. The series remains one of HBO's flagship dramas, and landing two actors of this caliber signals the network's ambition to return the show to the center of the cultural conversation.
+
+A premiere date has not been announced; with cameras rolling in 2027, a late 2027 or 2028 debut looks likely. [Read the original report at The Hollywood Reporter](https://www.hollywoodreporter.com/c/tv/tv-news/).`,
+  },
+  {
     slug: "wednesday-season-3-wraps-production",
     title: "Wednesday Season 3 Wraps Production After Seven Months in Dublin",
     excerpt: "Jenna Ortega is back at the typewriter as Netflix closes the coffin on filming, with Eva Green, Winona Ryder and Lena Headey joining Nevermore's expanding circle.",

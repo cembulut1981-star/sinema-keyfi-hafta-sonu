@@ -28,6 +28,24 @@ export type MusicItem = {
 
 export const MUSIC: MusicItem[] = [
   {
+    slug: "blondie-high-noon-album-clem-burke-final-recording",
+    title: "Blondie Announce New Album 'High Noon' — Clem Burke's Final Recording",
+    excerpt: "After nine years, Debbie Harry and company return with a 13-track LP featuring Johnny Marr and Glen Matlock, and the last recordings of drummer Clem Burke.",
+    image: blondieHighNoon,
+    source: "Rolling Stone — Charisma Madarang, October 15, 2026",
+    body: `After nine years, **Blondie** have returned with their first collection of new music. Their album, *High Noon*, will be unveiled on **February 26**, and the LP's first single, "Spectral Eyes," is out now.
+
+The upcoming record marks the final recording of Blondie co-founding drummer **Clem Burke**, who died in April 2025 at the age of 70. The Hall of Fame musician was the backbone of Blondie's smash hits and kinetic live performances.
+
+![Blondie's new album carries the final drumming of co-founder Clem Burke](${blondieHighNoon})
+
+"This album is classic Blondie — an amalgamation of all our different influences and eras into something new," frontwoman **Debbie Harry** said in a statement. "This music feels grounded in the present, shaped by who we are and how we're living now."
+
+The band describes *High Noon* as "a broad mix of sounds, ideas and collaborators" where rock and roll and punk sit alongside dance music and Latin rhythms. The project features contributions from **Johnny Marr**, **Glen Matlock**, Zach Condon of Beirut, and Jess Wolfe and Holly Laessig of Lucius. The lead single "Spectral Eyes" was written by Marr, who also contributes guitar.
+
+Blondie began sessions for the LP in 2022 and recorded in New York City with producer **John Congleton**, who collaborated with the band on 2017's *Pollinator*. David Wrench later joined for additional production and mixing. The 13-track album includes "Heartbreak Kid," written by guitarist Chris Stein, and "Sleepwalking," penned by Matlock. [Read the original report at Rolling Stone](https://www.rollingstone.com/music/music-news/blonde-new-album-high-noon-clem-burke-final-recording-1235642952/)`,
+  },
+  {
     slug: "metallica-life-burns-faster-sphere-review",
     title: "Metallica's Sphere Residency Is Bigger Than Metallica",
     excerpt: "The metal giants turn Las Vegas into Planet Metallica with two no-repeat set lists, overwhelming visuals, and the most ambitious production of their 45-year career.",
