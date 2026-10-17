@@ -451,6 +451,7 @@ Amblin's involvement adds another layer. Cregger reportedly developed the concep
 
 ![Jennifer Lawrence will anchor the still-secret science-fiction story](${floodCover.url})
 
+The Flood is currently dated for an August 2028 theatrical release, giving Cregger one of the longest runways of his career — and giving audiences years to wonder exactly what the title means.`,
   },
   {
     slug: "alan-ritchson-reacher-die-trying-trump",
