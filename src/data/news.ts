@@ -92,6 +92,24 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "zendaya-alex-garland-a24-sci-fi-film",
+    title: "Zendaya to Star in Alex Garland's New Sci-Fi Film at A24",
+    excerpt: "The Euphoria and Dune star is teaming up with the Ex Machina and Civil War director for a new science-fiction project at A24.",
+    image: zendayaGarlandCover.url ?? zendayaGarlandCover,
+    source: "Variety — Alex Ritman, October 15, 2026",
+    body: `**Zendaya** is set to star in a new science-fiction film from **Alex Garland** at **A24**, bringing together one of Hollywood's most in-demand actors with the director behind *Ex Machina*, *Annihilation* and *Civil War*.
+
+![A lone figure crosses a vast, mist-shrouded facility in a scene evoking Garland's signature sci-fi atmosphere](${zendayaGarlandCover.url ?? zendayaGarlandCover})
+
+Plot details are being kept under wraps, in keeping with Garland's habit of revealing as little as possible before release. What is known is that the project continues A24's run of pairing prestige filmmakers with major stars, a strategy that has turned the studio into one of the most reliable homes for ambitious genre cinema.
+
+![Garland's films are known for their eerie, clinical vision of technology and the human body](${zendayaGarlandLab.url ?? zendayaGarlandLab})
+
+For Zendaya, the film adds another auteur collaboration to a slate that already includes work with Denis Villeneuve, Luca Guadagnino and Sam Levinson. Garland, meanwhile, has spent the past few years moving between directing and writing, and a new original sci-fi feature marks a return to the territory that made his name.
+
+No production start date or release window has been announced yet. [Read the original report at Variety](https://variety.com/2026/film/global/zendaya-to-star-in-alex-garland-sci-fi-film-a24-1236912811/).`,
+  },
+  {
     slug: "castlevania-belmonts-curse-review-highlights",
     title: "Castlevania: Belmont's Curse Earns a Glowing Verdict",
     excerpt: "Region Free's PlayStation 5 Pro review praises the vampire-hunting adventure's exploration, demanding combat and richly drawn Paris setting.",
