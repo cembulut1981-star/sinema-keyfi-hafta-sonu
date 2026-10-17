@@ -14,16 +14,163 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      editorial_job: {
+        Row: {
+          enabled: boolean
+          id: number
+          last_discovery_day: string | null
+          last_run_at: string | null
+          last_run_count: number
+          last_success_at: string | null
+          lease_token: string | null
+          lease_until: string | null
+          message: string | null
+          pause_kind: string | null
+          paused: boolean
+        }
+        Insert: {
+          enabled?: boolean
+          id?: number
+          last_discovery_day?: string | null
+          last_run_at?: string | null
+          last_run_count?: number
+          last_success_at?: string | null
+          lease_token?: string | null
+          lease_until?: string | null
+          message?: string | null
+          pause_kind?: string | null
+          paused?: boolean
+        }
+        Update: {
+          enabled?: boolean
+          id?: number
+          last_discovery_day?: string | null
+          last_run_at?: string | null
+          last_run_count?: number
+          last_success_at?: string | null
+          lease_token?: string | null
+          lease_until?: string | null
+          message?: string | null
+          pause_kind?: string | null
+          paused?: boolean
+        }
+        Relationships: []
+      }
+      editorial_posts: {
+        Row: {
+          approved_at: string | null
+          approved_by: string | null
+          body: string
+          category: string
+          created_at: string
+          excerpt: string
+          failure: string | null
+          id: number
+          image: string
+          image_rights_confirmed: boolean
+          is_game: boolean
+          published_at: string | null
+          slug: string
+          source_credit: string
+          source_text: string
+          source_url: string
+          status: string
+          title: string
+        }
+        Insert: {
+          approved_at?: string | null
+          approved_by?: string | null
+          body?: string
+          category?: string
+          created_at?: string
+          excerpt?: string
+          failure?: string | null
+          id?: never
+          image?: string
+          image_rights_confirmed?: boolean
+          is_game?: boolean
+          published_at?: string | null
+          slug: string
+          source_credit?: string
+          source_text?: string
+          source_url: string
+          status?: string
+          title?: string
+        }
+        Update: {
+          approved_at?: string | null
+          approved_by?: string | null
+          body?: string
+          category?: string
+          created_at?: string
+          excerpt?: string
+          failure?: string | null
+          id?: never
+          image?: string
+          image_rights_confirmed?: boolean
+          is_game?: boolean
+          published_at?: string | null
+          slug?: string
+          source_credit?: string
+          source_text?: string
+          source_url?: string
+          status?: string
+          title?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar_url: string
+          display_name: string
+          id: string
+        }
+        Insert: {
+          avatar_url?: string
+          display_name?: string
+          id: string
+        }
+        Update: {
+          avatar_url?: string
+          display_name?: string
+          id?: string
+        }
+        Relationships: []
+      }
+      user_roles: {
+        Row: {
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      acquire_editorial_lease: { Args: { _token: string }; Returns: boolean }
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "admin" | "user"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +297,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["admin", "user"],
+    },
   },
 } as const
