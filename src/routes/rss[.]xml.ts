@@ -17,6 +17,8 @@ export const Route = createFileRoute("/rss.xml")({
   server: {
     handlers: {
       GET: async () => {
+        const { listPublishedPosts } = await import('@/lib/editorial-public.server');
+        const published = await listPublishedPosts();
         const groups: [string, Item[]][] = [
           ["haber", NEWS],
           ["inceleme", REVIEWS as Item[]],
@@ -27,7 +29,8 @@ export const Route = createFileRoute("/rss.xml")({
         // Data files list newest first; interleave so each section's latest items lead the feed.
         const all = groups.flatMap(([p, items]) => items.map((it, i) => ({ it, p, i })));
         all.sort((a, b) => a.i - b.i);
-        const items = all.slice(0, 50).map(({ it, p }) => {
+        const fresh = published.map(post => ({ it: { title: post.title, excerpt: post.excerpt, image: `/api/public/editorial-media/${post.id}`, source: post.source_credit, slug: post.slug }, p: 'haber', i: -1 }));
+        const items = [...fresh, ...all].slice(0, 50).map(({ it, p }) => {
           const link = `${SITE_URL}/${p}/${it.slug}`;
           const date = extractDate(it.source);
           const img = absoluteImage(it.image);
@@ -59,7 +62,7 @@ export const Route = createFileRoute("/rss.xml")({
           "</rss>",
         ].join("\n");
         return new Response(xml, {
-          headers: { "Content-Type": "application/rss+xml; charset=utf-8", "Cache-Control": "public, max-age=1800" },
+          headers: { "Content-Type": "application/rss+xml; charset=utf-8", "Cache-Control": "public, max-age=60" },
         });
       },
     },

@@ -3,6 +3,9 @@ import { useState } from "react";
 
 import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES as RAW_ARTICLES, type Article } from "@/data/articles";
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { publishedPostsQuery } from '@/lib/editorial-query';
+import { toEditorialCard } from '@/lib/editorial';
 
 // Yellow/black one-word pills shown under the photo. Only a couple live in
 // the top rows; the rest are scattered deeper in the feed (see below) so it
@@ -81,6 +84,7 @@ const FEED_ARTICLES = (() => {
 })();
 
 export const Route = createFileRoute("/")({
+  loader: ({ context }) => context.queryClient.ensureQueryData(publishedPostsQuery),
   head: () => ({
     meta: [
       { title: "Sine-Meta — Movie News, Reviews and Lists" },
@@ -252,10 +256,17 @@ function buildRows(articles: Article[], featured?: Article) {
 
 function Index() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const { data: published } = useSuspenseQuery(publishedPostsQuery);
+  const newCards = published.map(toEditorialCard);
+  const dynamicLead = newCards.filter(a => !a.homepagePlacement);
+  const leadCenter = dynamicLead[0] ?? NEW_REVIEW;
+  const leadSides = dynamicLead.length ? [...dynamicLead.slice(1), ...(NEW_REVIEW ? [NEW_REVIEW] : []), ...NEW_STORIES].slice(0, 4) : NEW_STORIES;
+  const leadIds = new Set([leadCenter?.id, ...leadSides.map(a => a.id)]);
+  const feed = [...dynamicLead, ...(NEW_REVIEW ? [NEW_REVIEW] : []), ...NEW_STORIES, ...FEED_ARTICLES].filter((a, i, all) => !leadIds.has(a.id) && all.findIndex(b => b.id === a.id) === i);
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
-    const visibleArticles = FEED_ARTICLES.slice(0, count);
+    const visibleArticles = feed.slice(0, count);
     const smallCandidates = visibleArticles.filter(
       (a) =>
         (a.category === "haberler" || a.category === "diziler") &&
@@ -269,20 +280,20 @@ function Index() {
 
   // Pad the visible count (up to 3 extra posts) so the final small-card row
   // always fills all 4 columns instead of leaving a gap on the right.
-  let effectiveCount = Math.min(visibleCount, FEED_ARTICLES.length);
+  let effectiveCount = Math.min(visibleCount, feed.length);
   let built = build(effectiveCount);
   for (let extra = 1; extra <= 3; extra++) {
     if (built.leftovers.length % 4 === 0) break;
-    const next = Math.min(visibleCount + extra, FEED_ARTICLES.length);
+    const next = Math.min(visibleCount + extra, feed.length);
     if (next === effectiveCount) break;
     effectiveCount = next;
     built = build(next);
   }
 
   const { duo, rows, leftovers } = built;
-  const hasMore = effectiveCount < FEED_ARTICLES.length;
-  const lowerFeatures = LOWER_FEATURES.map((article) => (
-    <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel={article.newsSlug === "castlevania-belmonts-curse-review-highlights" ? "12 October 2026" : "11 October 2026"} />
+  const hasMore = effectiveCount < feed.length;
+  const lowerFeatures = [...newCards.filter(a => a.homepagePlacement === 'lower'), ...LOWER_FEATURES].map((article) => (
+    <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel={article.id >= 1000000 ? '' : article.newsSlug === "castlevania-belmonts-curse-review-highlights" ? "12 October 2026" : "11 October 2026"} />
   ));
 
 
@@ -313,7 +324,7 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
         <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
         <div className="h-10 md:h-14" aria-hidden />
-        {NEW_REVIEW ? <MixedRow centerCard={NEW_REVIEW} sideCards={NEW_STORIES} centerFirstMobile /> : null}
+        {leadCenter ? <MixedRow centerCard={leadCenter} sideCards={leadSides} centerFirstMobile /> : null}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="TV Series" dateLabel="13 September 2026" />
         ) : null}
@@ -340,7 +351,7 @@ function Index() {
           <div className="flex justify-center mb-12">
             <button
               type="button"
-              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, FEED_ARTICLES.length))}
+              onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, feed.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
               Load More

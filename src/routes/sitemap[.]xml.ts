@@ -22,7 +22,10 @@ export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
       GET: async () => {
+        const { listPublishedPosts } = await import('@/lib/editorial-public.server');
+        const published = await listPublishedPosts();
         const entries: Entry[] = [
+          ...published.map(post => ({ path: `/haber/${post.slug}`, changefreq: 'weekly', priority: '0.7', lastmod: extractDate(post.source_credit) })),
           { path: "/", changefreq: "daily", priority: "1.0" },
           { path: "/about", changefreq: "monthly", priority: "0.4" },
           { path: "/contact", changefreq: "monthly", priority: "0.4" },
@@ -62,7 +65,7 @@ export const Route = createFileRoute("/sitemap.xml")({
         return new Response(xml, {
           headers: {
             "Content-Type": "application/xml",
-            "Cache-Control": "public, max-age=3600",
+            "Cache-Control": "public, max-age=60",
           },
         });
       },

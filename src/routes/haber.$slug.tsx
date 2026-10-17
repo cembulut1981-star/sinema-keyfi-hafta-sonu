@@ -10,12 +10,18 @@ import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getNews, NEWS } from "@/data/news";
 import nickUtAsset from "@/assets/nick-ut.png.asset.json";
 import toCatchAsset from "@/assets/to-catch-a-predator.jpg.asset.json";
+import { publishedPost } from '@/lib/editorial-public.functions';
+import { EditorialArticle } from '@/components/site/EditorialArticle';
 
 export const Route = createFileRoute("/haber/$slug")({
-  beforeLoad: ({ params }) => {
-    if (!getNews(params.slug)) throw notFound();
+  loader: async ({ params }) => {
+    if (getNews(params.slug)) return { post: null };
+    const post = await publishedPost({ data: { slug: params.slug } });
+    if (!post) throw notFound();
+    return { post };
   },
-  head: ({ params }) => {
+  head: ({ params, loaderData }) => {
+    if (loaderData?.post) return articleHead({ ...loaderData.post, source: loaderData.post.source_credit, image: `/api/public/editorial-media/${loaderData.post.id}` }, `/haber/${params.slug}`);
     const n = getNews(params.slug);
     if (!n) return { meta: [{ title: "Story not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
     return articleHead(n, `/haber/${params.slug}`);
@@ -33,7 +39,10 @@ export const Route = createFileRoute("/haber/$slug")({
 
 function NewsPage() {
   const { slug } = Route.useParams();
-  const n = getNews(slug)!;
+  const { post } = Route.useLoaderData();
+  if (post) return <EditorialArticle post={post} />;
+  const n = getNews(slug);
+  if (!n) return null;
   const others = NEWS.filter((x) => x.slug !== slug);
   const isNapalm = slug === "napalm-kizi-fotografi-tartismasi-kim-cekti";
   // Dikey (portre) fotoğraflarda 16/9 çerçeve yüzü kesiyor.

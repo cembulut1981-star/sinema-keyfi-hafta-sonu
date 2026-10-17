@@ -5,6 +5,9 @@ import { z } from "zod";
 
 import { ArticleCard, ArticleGrid, FeaturedArticleCard, SiteShell } from "@/components/site/SiteShell";
 import { ARTICLES, CATEGORY_LABELS, GAME_ARTICLES, type CategorySlug } from "@/data/articles";
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { publishedPostsQuery } from '@/lib/editorial-query';
+import { toEditorialCard } from '@/lib/editorial';
 
 const VALID: CategorySlug[] = ["haberler", "incelemeler", "listeler", "diziler", "muzik", "roportajlar"];
 
@@ -15,6 +18,7 @@ const searchSchema = z.object({
 });
 
 export const Route = createFileRoute("/kategori/$slug")({
+  loader: ({ context }) => context.queryClient.ensureQueryData(publishedPostsQuery),
   validateSearch: zodValidator(searchSchema),
   beforeLoad: ({ params }) => {
     if (params.slug !== "pc-games" && !VALID.includes(params.slug as CategorySlug)) throw notFound();
@@ -55,7 +59,9 @@ function CategoryPage() {
   const navigate = Route.useNavigate();
   const category = slug as CategorySlug;
   const isGames = slug === "pc-games";
-  const articles = isGames ? GAME_ARTICLES : ARTICLES.filter((a) => a.category === category);
+  const { data: published } = useSuspenseQuery(publishedPostsQuery);
+  const dynamic = published.filter(p => isGames ? p.is_game : p.category === category).map(toEditorialCard);
+  const articles = [...dynamic, ...(isGames ? GAME_ARTICLES : ARTICLES.filter((a) => a.category === category))];
   const label = isGames ? "PC Games" : CATEGORY_LABELS[category];
 
   const totalPages = Math.max(1, Math.ceil(articles.length / PAGE_SIZE));
