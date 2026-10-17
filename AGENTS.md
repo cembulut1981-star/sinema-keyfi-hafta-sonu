@@ -12,3 +12,4 @@
 - Article images must be site-hosted (lovable-assets pointers in src/assets, remote copies in src/assets/remote); never hotlink publisher CDNs — avoids copyright/broken-image risk.
 - New article slugs are English; keep existing Turkish slugs and route prefixes so published URLs keep working.
 - Article route heads use articleHead() from src/lib/seo.ts (canonical, og, Article JSON-LD); dates come only from the source credit, never invented.
+- Public editorial reads share one explicit column projection aligned with anonymous grants; never select all columns, because private draft fields must remain inaccessible without breaking public pages.
