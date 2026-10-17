@@ -12,6 +12,7 @@ import img_u2 from "@/assets/news-rs-music-u2-list.jpg";
 import img_rosalia from "@/assets/news-rs-music-rosalia.jpg";
 import img_bennett from "@/assets/news-rs-music-lauren-bennett.jpg";
 import metallicaSphereAsset from "@/assets/metallica-sphere.jpg.asset.json";
+import blondieHighNoon from "@/assets/blondie-high-noon.jpg";
 
 
 export type MusicItem = {

@@ -32,6 +32,8 @@ import wednesdayGala from "@/assets/wednesday-gala.jpg.asset.json";
 import wednesdayStill from "@/assets/wednesday-still.jpg.asset.json";
 import wednesdayPromo from "@/assets/wednesday-promo.jpg.asset.json";
 import jennaWednesdayPortrait from "@/assets/jenna-wednesday.jpg.asset.json";
+import trueDetectiveS5 from "@/assets/true-detective-s5.jpg";
+import trueDetectiveS5Scene from "@/assets/true-detective-s5-2.jpg";
 
 export type SeriesItem = {
   slug: string;
