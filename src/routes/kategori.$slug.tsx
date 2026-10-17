@@ -20,7 +20,7 @@ const searchSchema = z.object({
 export const Route = createFileRoute("/kategori/$slug")({
   loader: ({ context }) => context.queryClient.ensureQueryData(publishedPostsQuery),
   validateSearch: zodValidator(searchSchema),
-  beforeLoad: ({ params }) => {
+  beforeLoad: ({ params }): void => {
     if (params.slug !== "pc-games" && !VALID.includes(params.slug as CategorySlug)) throw notFound();
   },
   head: ({ params }) => {
