@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import type { Article } from '@/data/articles';
 import type { Database } from '@/integrations/supabase/types';
+import type { PublicEditorialPost } from './editorial-public-fields';
 
 export type EditorialPost = Database['public']['Tables']['editorial_posts']['Row'];
 export const editorPostSchema = z.object({
@@ -16,10 +17,10 @@ export const generationSchema = z.object({
 export function canPublish(post: Pick<EditorialPost, 'status' | 'image' | 'image_rights_confirmed' | 'title' | 'body'>) {
   return post.status === 'draft' && post.image.startsWith('posts/') && post.image_rights_confirmed && post.title.length >= 5 && post.body.length >= 100;
 }
-export function publicPost(post: EditorialPost) {
+export function publicPost(post: PublicEditorialPost) {
   return post.status === 'published' && Boolean(post.approved_at && post.approved_by && post.published_at);
 }
-export function toEditorialCard(post: EditorialPost): Article {
+export function toEditorialCard(post: PublicEditorialPost): Article {
   return {
     id: 1000000 + post.id, title: post.title, excerpt: post.excerpt,
     image: `/api/public/editorial-media/${post.id}`,

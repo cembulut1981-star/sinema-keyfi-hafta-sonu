@@ -3,8 +3,8 @@ import { SiteShell } from './SiteShell';
 import { ArticleByline } from './ArticleByline';
 import { ShareButtons } from './ShareButtons';
 import { articleProse, toParagraphs } from '@/lib/prose';
-import type { EditorialPost } from '@/lib/editorial';
-export function EditorialArticle({ post }: { post: EditorialPost }) {
+import type { PublicEditorialPost } from '@/lib/editorial-public-fields';
+export function EditorialArticle({ post }: { post: PublicEditorialPost }) {
   return <SiteShell><main className="mx-auto max-w-[820px] px-4 py-10">
     <article><h1 className="font-serif-display text-3xl sm:text-4xl font-bold text-center leading-tight">{post.title}</h1>
     <p className="mt-4 text-lg text-muted-foreground">{post.excerpt}</p>

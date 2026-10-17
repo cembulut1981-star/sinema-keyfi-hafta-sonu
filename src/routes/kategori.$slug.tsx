@@ -18,11 +18,11 @@ const searchSchema = z.object({
 });
 
 export const Route = createFileRoute("/kategori/$slug")({
-  loader: ({ context }) => context.queryClient.ensureQueryData(publishedPostsQuery),
-  validateSearch: zodValidator(searchSchema),
-  beforeLoad: ({ params }) => {
+  loader: async ({ context, params }) => {
     if (params.slug !== "pc-games" && !VALID.includes(params.slug as CategorySlug)) throw notFound();
+    return context.queryClient.ensureQueryData(publishedPostsQuery);
   },
+  validateSearch: zodValidator(searchSchema),
   head: ({ params }) => {
     const label = params.slug === "pc-games" ? "PC Games" : CATEGORY_LABELS[params.slug as CategorySlug] ?? "Category";
     return {

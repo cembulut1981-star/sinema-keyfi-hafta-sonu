@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from '@/integrations/supabase/types';
+import { PUBLIC_EDITORIAL_COLUMNS } from './editorial-public-fields';
 
 export function publicClient() {
   const url = process.env['SUPABASE_URL'];
@@ -13,12 +14,12 @@ export function publicClient() {
   } } });
 }
 export async function findPublishedPost(slug: string) {
-  const { data, error } = await publicClient().from('editorial_posts').select('*').eq('status', 'published').eq('slug', slug).maybeSingle();
+  const { data, error } = await publicClient().from('editorial_posts').select(PUBLIC_EDITORIAL_COLUMNS).eq('status', 'published').eq('slug', slug).maybeSingle();
   if (error) throw new Error('Article could not be loaded');
   return data;
 }
 export async function listPublishedPosts() {
-  const { data, error } = await publicClient().from('editorial_posts').select('*').eq('status', 'published').order('published_at', { ascending: false });
+  const { data, error } = await publicClient().from('editorial_posts').select(PUBLIC_EDITORIAL_COLUMNS).eq('status', 'published').order('published_at', { ascending: false });
   if (error) throw new Error('Articles could not be loaded');
   return data ?? [];
 }
