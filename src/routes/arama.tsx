@@ -3,12 +3,16 @@ import { z } from "zod";
 
 import { SiteShell, ArticleGrid } from "@/components/site/SiteShell";
 import { ARTICLES } from "@/data/articles";
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { publishedPostsQuery } from '@/lib/editorial-query';
+import { toEditorialCard } from '@/lib/editorial';
 
 const searchSchema = z.object({
   q: z.string().optional().default(""),
 });
 
 export const Route = createFileRoute("/arama")({
+  loader: ({ context }) => context.queryClient.ensureQueryData(publishedPostsQuery),
   validateSearch: searchSchema,
   head: () => ({
     meta: [
@@ -26,8 +30,9 @@ export const Route = createFileRoute("/arama")({
 function SearchPage() {
   const { q } = Route.useSearch();
   const query = q.trim().toLocaleLowerCase("tr");
+  const { data: published } = useSuspenseQuery(publishedPostsQuery);
   const results = query
-    ? ARTICLES.filter(
+    ? [...published.map(toEditorialCard), ...ARTICLES].filter(
         (a) =>
           a.title.toLocaleLowerCase("tr").includes(query) ||
           a.excerpt.toLocaleLowerCase("tr").includes(query),

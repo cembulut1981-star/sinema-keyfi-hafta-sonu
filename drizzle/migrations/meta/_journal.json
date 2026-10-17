@@ -8,6 +8,13 @@
       "when": 1792252091034,
       "tag": "0000_editorial_approval_and_daily_jobs",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792252749422,
+      "tag": "0001_secure_editorial_media_and_public_columns",
+      "breakpoints": true
     }
   ]
 }
