@@ -74,6 +74,8 @@ import pcGamesGuide from "@/assets/pc-games-2026-guide.jpg.asset.json";
 import pcGamesRacer from "@/assets/pc-games-2026-racer.jpg.asset.json";
 import castlevaniaCover from "@/assets/castlevania-belmonts-curse-cover.jpg.asset.json";
 import castlevaniaParis from "@/assets/castlevania-belmonts-curse-paris.jpg.asset.json";
+import zendayaGarlandCover from "@/assets/zendaya-garland-a24.jpg";
+import zendayaGarlandLab from "@/assets/zendaya-garland-a24-2.jpg";
 
 export type NewsItem = {
   slug: string;
@@ -89,6 +91,24 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "zendaya-alex-garland-a24-sci-fi-film",
+    title: "Zendaya to Star in Alex Garland's New Sci-Fi Film at A24",
+    excerpt: "The Euphoria and Dune star is teaming up with the Ex Machina and Civil War director for a new science-fiction project at A24.",
+    image: zendayaGarlandCover,
+    source: "Variety — Alex Ritman, October 15, 2026",
+    body: `**Zendaya** is set to star in a new science-fiction film from **Alex Garland** at **A24**, bringing together one of Hollywood's most in-demand actors with the director behind *Ex Machina*, *Annihilation* and *Civil War*.
+
+![A lone figure crosses a vast, mist-shrouded facility in a scene evoking Garland's signature sci-fi atmosphere](${zendayaGarlandCover})
+
+Plot details are being kept under wraps, in keeping with Garland's habit of revealing as little as possible before release. What is known is that the project continues A24's run of pairing prestige filmmakers with major stars, a strategy that has turned the studio into one of the most reliable homes for ambitious genre cinema.
+
+![Garland's films are known for their eerie, clinical vision of technology and the human body](${zendayaGarlandLab})
+
+For Zendaya, the film adds another auteur collaboration to a slate that already includes work with Denis Villeneuve, Luca Guadagnino and Sam Levinson. Garland, meanwhile, has spent the past few years moving between directing and writing, and a new original sci-fi feature marks a return to the territory that made his name.
+
+No production start date or release window has been announced yet.`,
+  },
   {
     slug: "castlevania-belmonts-curse-review-highlights",
     title: "Castlevania: Belmont's Curse Earns a Glowing Verdict",
@@ -431,7 +451,7 @@ Amblin's involvement adds another layer. Cregger reportedly developed the concep
 
 ![Jennifer Lawrence will anchor the still-secret science-fiction story](${floodCover.url})
 
-Warner Bros. has dated *The Flood* for **August 11, 2028**. Further casting and story information are still under wraps, leaving Lawrence and Cregger's pairing as the first clear signal of the movie's scale and ambition. [Read the original report at Variety](https://variety.com/2026/film/news/jennifer-lawrence-zach-creggers-the-flood-1236878570/).`,
+The Flood is currently dated for an August 2028 theatrical release, giving Cregger one of the longest runways of his career — and giving audiences years to wonder exactly what the title means.`,
   },
   {
     slug: "alan-ritchson-reacher-die-trying-trump",
