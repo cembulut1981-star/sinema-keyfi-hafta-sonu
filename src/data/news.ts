@@ -74,6 +74,8 @@ import pcGamesGuide from "@/assets/pc-games-2026-guide.jpg.asset.json";
 import pcGamesRacer from "@/assets/pc-games-2026-racer.jpg.asset.json";
 import castlevaniaCover from "@/assets/castlevania-belmonts-curse-cover.jpg.asset.json";
 import castlevaniaParis from "@/assets/castlevania-belmonts-curse-paris.jpg.asset.json";
+import zendayaGarlandCover from "@/assets/zendaya-garland-a24.jpg";
+import zendayaGarlandLab from "@/assets/zendaya-garland-a24-2.jpg";
 
 export type NewsItem = {
   slug: string;
