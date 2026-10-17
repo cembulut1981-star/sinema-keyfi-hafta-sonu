@@ -67,7 +67,6 @@ The casting reunites the series with the kind of heavyweight duo that defined it
 
 HBO has kept plot details quiet, but the network's anthology format means Cage and Banderas will anchor a self-contained story with new characters and a new setting. The series remains one of HBO's flagship dramas, and landing two actors of this caliber signals the network's ambition to return the show to the center of the cultural conversation.
 
-A premiere date has not been announced; with cameras rolling in 2027, a late 2027 or 2028 debut looks likely. [Read the original report at The Hollywood Reporter](https://www.hollywoodreporter.com/c/tv/tv-news/).`,
   },
   {
     slug: "wednesday-season-3-wraps-production",
@@ -98,7 +97,6 @@ Creators Alfred Gough and Miles Millar remain the showrunners, with Burton retur
 
 ![Jenna Ortega remains the center of Netflix's Addams Family phenomenon](${jennaWednesdayPortrait.url})
 
-Story details are still being guarded, but Ortega has said the new season confronts the unease of senior year: family pressure, adulthood and the alarming possibility that even Wednesday Addams may need a plan for her future. The cameras have stopped; now Nevermore's next mystery heads into the editing room. [Read the original report at The Hollywood Reporter](https://www.hollywoodreporter.com/tv/tv-news/netflix-wednesday-season-3-release-date-1236717047/).`,
   },
   {
     slug: "line-of-fire-peter-krause-hope-davis-cover-story",

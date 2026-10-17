@@ -107,7 +107,6 @@ Plot details are being kept under wraps, in keeping with Garland's habit of reve
 
 For Zendaya, the film adds another auteur collaboration to a slate that already includes work with Denis Villeneuve, Luca Guadagnino and Sam Levinson. Garland, meanwhile, has spent the past few years moving between directing and writing, and a new original sci-fi feature marks a return to the territory that made his name.
 
-No production start date or release window has been announced yet. [Read the original report at Variety](https://variety.com/2026/film/global/zendaya-to-star-in-alex-garland-sci-fi-film-a24-1236912811/).`,
   },
   {
     slug: "castlevania-belmonts-curse-review-highlights",
@@ -451,7 +450,6 @@ Amblin's involvement adds another layer. Cregger reportedly developed the concep
 
 ![Jennifer Lawrence will anchor the still-secret science-fiction story](${floodCover.url})
 
-Warner Bros. has dated *The Flood* for **August 11, 2028**. Further casting and story information are still under wraps, leaving Lawrence and Cregger's pairing as the first clear signal of the movie's scale and ambition. [Read the original report at Variety](https://variety.com/2026/film/news/jennifer-lawrence-zach-creggers-the-flood-1236878570/).`,
   },
   {
     slug: "alan-ritchson-reacher-die-trying-trump",
