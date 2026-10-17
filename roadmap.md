@@ -10,3 +10,6 @@
 - [x] Add a source-based Castlevania story to PC Games, place it lower on the homepage, and verify its images and article.
 - [x] List the editorial email on the contact page and verify the mail link.
 - [x] Publish homepage stories without a visible source credit and verify every homepage article page.
+- [ ] Add secure editorial sign-in, daily AI drafts, and approval-only publication.
+- [ ] Integrate approved stories into homepage, categories, article pages, RSS and sitemap.
+- [ ] Verify generation, approval, public visibility, and daily scheduling.
