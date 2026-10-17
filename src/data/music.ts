@@ -43,6 +43,7 @@ The upcoming record marks the final recording of Blondie co-founding drummer **C
 
 The band describes *High Noon* as "a broad mix of sounds, ideas and collaborators" where rock and roll and punk sit alongside dance music and Latin rhythms. The project features contributions from **Johnny Marr**, **Glen Matlock**, Zach Condon of Beirut, and Jess Wolfe and Holly Laessig of Lucius. The lead single "Spectral Eyes" was written by Marr, who also contributes guitar.
 
+Blondie began sessions for the LP in 2022 and recorded in New York City with producer **John Congleton**, who collaborated with the band on 2017's *Pollinator*. David Wrench later joined for additional production and mixing. The 13-track album includes "Heartbreak Kid," written by guitarist Chris Stein, and "Sleepwalking," penned by Matlock.`,
   },
   {
     slug: "metallica-life-burns-faster-sphere-review",

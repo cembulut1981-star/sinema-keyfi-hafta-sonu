@@ -107,6 +107,7 @@ Plot details are being kept under wraps, in keeping with Garland's habit of reve
 
 For Zendaya, the film adds another auteur collaboration to a slate that already includes work with Denis Villeneuve, Luca Guadagnino and Sam Levinson. Garland, meanwhile, has spent the past few years moving between directing and writing, and a new original sci-fi feature marks a return to the territory that made his name.
 
+No production start date or release window has been announced yet.`,
   },
   {
     slug: "castlevania-belmonts-curse-review-highlights",
