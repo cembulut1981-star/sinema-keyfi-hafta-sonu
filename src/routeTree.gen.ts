@@ -21,6 +21,7 @@ import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
 import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
 import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
 import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
+import { Route as ApiPublicEditorialMediaIdRouteImport } from './routes/api/public/editorial-media.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -82,6 +83,12 @@ const MuzikSlugRoute = MuzikSlugRouteImport.update({
   path: '/muzik/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicEditorialMediaIdRoute =
+  ApiPublicEditorialMediaIdRouteImport.update({
+    id: '/api/public/editorial-media/$id',
+    path: '/api/public/editorial-media/$id',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -96,6 +103,7 @@ export interface FileRoutesByFullPath {
   '/kategori/$slug': typeof KategoriSlugRoute
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
+  '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -110,6 +118,7 @@ export interface FileRoutesByTo {
   '/kategori/$slug': typeof KategoriSlugRoute
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
+  '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -125,6 +134,7 @@ export interface FileRoutesById {
   '/kategori/$slug': typeof KategoriSlugRoute
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
+  '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -141,6 +151,7 @@ export interface FileRouteTypes {
     | '/kategori/$slug'
     | '/liste/$slug'
     | '/muzik/$slug'
+    | '/api/public/editorial-media/$id'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -155,6 +166,7 @@ export interface FileRouteTypes {
     | '/kategori/$slug'
     | '/liste/$slug'
     | '/muzik/$slug'
+    | '/api/public/editorial-media/$id'
   id:
     | '__root__'
     | '/'
@@ -169,6 +181,7 @@ export interface FileRouteTypes {
     | '/kategori/$slug'
     | '/liste/$slug'
     | '/muzik/$slug'
+    | '/api/public/editorial-media/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -184,6 +197,7 @@ export interface RootRouteChildren {
   KategoriSlugRoute: typeof KategoriSlugRoute
   ListeSlugRoute: typeof ListeSlugRoute
   MuzikSlugRoute: typeof MuzikSlugRoute
+  ApiPublicEditorialMediaIdRoute: typeof ApiPublicEditorialMediaIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -272,6 +286,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MuzikSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/editorial-media/$id': {
+      id: '/api/public/editorial-media/$id'
+      path: '/api/public/editorial-media/$id'
+      fullPath: '/api/public/editorial-media/$id'
+      preLoaderRoute: typeof ApiPublicEditorialMediaIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -288,6 +309,7 @@ const rootRouteChildren: RootRouteChildren = {
   KategoriSlugRoute: KategoriSlugRoute,
   ListeSlugRoute: ListeSlugRoute,
   MuzikSlugRoute: MuzikSlugRoute,
+  ApiPublicEditorialMediaIdRoute: ApiPublicEditorialMediaIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
