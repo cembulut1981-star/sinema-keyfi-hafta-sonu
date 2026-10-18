@@ -28,6 +28,16 @@ describe("2026 PC games guide", () => {
     assert.equal(guide?.homepagePlacement, "lower");
   });
 });
+describe("No Man’s Sky mobile announcement", () => {
+  test("belongs to the PC Games collection", () => {
+    assert.equal(GAME_ARTICLES.some((article) => article.newsSlug === "no-mans-sky-ios-october-28-launch"), true);
+  });
+
+  test("stays lower on the homepage, outside the lead pool", () => {
+    const article = ARTICLES.find((item) => item.newsSlug === "no-mans-sky-ios-october-28-launch");
+    assert.equal(article?.homepagePlacement, "lower");
+  });
+});
 describe("new 2026 PC games coverage", () => {
   const slugs = ["subnautica-2-two-million-sales-12-hours", "subnautica-2-early-access-impressions", "007-first-light-sales-bond-curse-broken", "resident-evil-requiem-game-review", "crimson-desert-game-review", "007-first-light-game-review"];
   test("all six appear in PC Games", () => {

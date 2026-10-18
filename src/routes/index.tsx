@@ -6,6 +6,8 @@ import { ARTICLES as RAW_ARTICLES, type Article } from "@/data/articles";
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { publishedPostsQuery } from '@/lib/editorial-query';
 import { toEditorialCard } from '@/lib/editorial';
+import { getNews } from '@/data/news';
+import { extractDate, formatDate } from '@/lib/seo';
 
 // Yellow/black one-word pills shown under the photo. Only a couple live in
 // the top rows; the rest are scattered deeper in the feed (see below) so it
@@ -36,6 +38,8 @@ const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series"
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 const NEW_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const NEW_STORIES = [
+  ARTICLES.find((article) => article.newsSlug === "haley-lu-richardson-joins-miami-vice-85"),
+  ARTICLES.find((article) => article.newsSlug === "sense-and-sensibility-new-dashwood-sisters-clip"),
   ARTICLES.find((article) => article.newsSlug === "zendaya-alex-garland-a24-sci-fi-film"),
   ARTICLES.find((article) => article.seriesSlug === "true-detective-season-5-nicolas-cage-antonio-banderas"),
   ARTICLES.find((article) => article.musicSlug === "blondie-high-noon-album-clem-burke-final-recording"),
@@ -295,9 +299,10 @@ function Index() {
 
   const { duo, rows, leftovers } = built;
   const hasMore = effectiveCount < feed.length;
-  const lowerFeatures = [...newCards.filter(a => a.homepagePlacement === 'lower'), ...LOWER_FEATURES].map((article) => (
-    <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel={article.id >= 1000000 ? '' : article.newsSlug === "castlevania-belmonts-curse-review-highlights" ? "12 October 2026" : "11 October 2026"} />
-  ));
+  const lowerFeatures = [...newCards.filter(a => a.homepagePlacement === 'lower'), ...LOWER_FEATURES].map((article) => {
+    const date = article.newsSlug ? extractDate(getNews(article.newsSlug)?.source) : null;
+    return <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel={date ? formatDate(date) : ''} />;
+  });
 
 
   const duoSection =
