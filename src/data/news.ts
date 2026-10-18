@@ -76,6 +76,9 @@ import castlevaniaCover from "@/assets/castlevania-belmonts-curse-cover.jpg.asse
 import castlevaniaParis from "@/assets/castlevania-belmonts-curse-paris.jpg.asset.json";
 import zendayaGarlandCover from "@/assets/zendaya-garland-a24.jpg";
 import zendayaGarlandLab from "@/assets/zendaya-garland-a24-2.jpg";
+import miamiViceRichardson from "@/assets/miami-vice-richardson.jpg.asset.json";
+import senseSensibilityDashwoods from "@/assets/sense-sensibility-dashwoods.jpg.asset.json";
+import noMansSkyIos from "@/assets/no-mans-sky-ios.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -91,6 +94,67 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "haley-lu-richardson-joins-miami-vice-85",
+    title: "Haley Lu Richardson Joins Miami Vice ’85",
+    excerpt: "The White Lotus actress joins Michael B. Jordan and Austin Butler in Joseph Kosinski’s return to the neon-lit world of Crockett and Tubbs.",
+    image: miamiViceRichardson.url,
+    source: "Deadline — Matt Grobar, October 13, 2026",
+    body: `**Haley Lu Richardson** has joined **Miami Vice ’85**, adding another familiar face to Universal’s new take on the undercover crime series. Her character has not been disclosed. **Michael B. Jordan** and **Austin Butler** lead the cast as Ricardo “Rico” Tubbs and James “Sonny” Crockett.
+
+## Back to the Original Miami
+
+The film takes its starting point from **“Brother’s Keeper,”** the pilot of the NBC television show. Its setting is mid-1980s Miami, where glamour and corruption run side by side. Further story details remain under wraps, so Richardson’s place in the detectives’ world is still an open question.
+
+**Joseph Kosinski**, the filmmaker behind *Top Gun: Maverick* and *F1*, directs from a screenplay by **Dan Gilroy**, whose credits include *Nightcrawler*. The production is filming for IMAX. The supporting ensemble includes Alden Ehrenreich, Whitney Peak, Camila Morrone, John Leguizamo, Danny Ramirez and Walton Goggins.
+
+## A Growing Cast, a 2028 Target
+
+The casting report describes the film as still in production, with a theatrical release scheduled for **May 19, 2028**. Kosinski and Dylan Clark produce. Richardson’s recent screen work includes the Cold War series *Ponies* and Gore Verbinski’s *Good Luck, Have Fun, Don’t Die*.
+
+For now, the announcement expands an already substantial cast rather than revealing a new plot twist. The most intriguing question is how Kosinski’s large-scale filmmaking will translate the original show’s distinctive blend of police work, style and moral compromise.`,
+  },
+  {
+    slug: "sense-and-sensibility-new-dashwood-sisters-clip",
+    title: "Sense and Sensibility Reveals Its New Dashwood Sisters",
+    excerpt: "A new clip spotlights Esmé Creed-Miles’s spirited Marianne in Georgia Oakley’s Jane Austen adaptation, alongside Daisy Edgar-Jones.",
+    image: senseSensibilityDashwoods.url,
+    source: "Collider — Rachel Leishman, October 13, 2026",
+    body: `A new look at **Sense and Sensibility** puts the Dashwood sisters back in the spotlight. **Daisy Edgar-Jones** and **Esmé Creed-Miles** star as Elinor and Marianne in director **Georgia Oakley’s** adaptation of Jane Austen’s novel, with a screenplay by **Diana Reid**.
+
+## Marianne Speaks Her Mind
+
+The preview centres on a dinner conversation between Marianne and **Colonel Brandon**, played by **Herbert Nordrum**. Marianne asks about his interests, but his answers repeatedly put distance between him and the pleasures she raises. Her impatience gives the scene its spark: this is a young woman unwilling to mistake reserve for depth.
+
+That exchange offers a small window into the adaptation’s approach to Austen’s characters. Rather than outlining the entire story, the scene lets personality emerge through conversation, with Marianne’s directness creating tension across the dinner table. It is a preview, not a basis for a full critical verdict on the film.
+
+## Austen’s Story of Love and Sisterhood
+
+The Focus Features and Working Title production also stars **Caitríona Balfe, Frank Dillane, George MacKay and Fiona Shaw**. Tim Bevan, Eric Fellner, India Flint and Jo Wallett produce. Its central appeal remains the relationship between two sisters navigating love, uncertainty and the expectations surrounding them.
+
+The preview report listed **October 16, 2026** for the theatrical release. The new clip gives Austen readers a concrete introduction to Creed-Miles’s Marianne, while leaving the film’s broader interpretation of Elinor, romance and family to be discovered on screen.`,
+  },
+  {
+    slug: "no-mans-sky-ios-october-28-launch",
+    title: "No Man’s Sky Heads to iOS on October 28",
+    excerpt: "Hello Games brings its space-exploration adventure to mobile with a free opening trial and a one-time purchase for the full game.",
+    image: noMansSkyIos.url,
+    source: "Gematsu — Sal Romano, October 12, 2026",
+    homepagePlacement: "lower",
+    body: `**Hello Games** has announced an **October 28, 2026** iOS launch for **No Man’s Sky**, taking its space-exploration adventure to another platform. This is a mobile release announcement, not a new PC edition or a hands-on assessment of its performance.
+
+## Try the Opening Before Buying
+
+The accompanying App Store description says players can try the beginning for free. A **one-time purchase** then unlocks the full game, including ten years of updates. The announcement does not establish a purchase price, so there is no confirmed price to compare with the existing PC and console versions here.
+
+The mobile edition’s listed content includes the major updates released since launch, from *Foundation* and *NEXT* through *Worlds Part I*, *Worlds Part II* and *Voyagers*. The report’s update list extends to **COSMOS (7.0)**, positioning this as a version of the long-running game rather than a separate, stripped-down spin-off.
+
+## The Same Exploration-Focused Premise
+
+The described experience retains procedurally generated planets, spaceflight, trading, combat and survival. Moving between space and planetary surfaces is central to the game’s appeal, while ship and equipment upgrades shape how players explore and cope with hostile environments.
+
+An **iOS Deep Dive** trailer accompanies the announcement. For readers who already follow the game on PC, the news is about its expanding reach; device compatibility, controls and real-world mobile performance should be checked separately before buying. The October 28 date is an announced launch target, not a claim that the mobile version is already available.`,
+  },
   {
     slug: "zendaya-alex-garland-a24-sci-fi-film",
     title: "Zendaya to Star in Alex Garland's New Sci-Fi Film at A24",
