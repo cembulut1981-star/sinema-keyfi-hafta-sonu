@@ -14,5 +14,5 @@
 - [ ] Add secure editorial sign-in, daily AI drafts, and approval-only publication.
 - [ ] Integrate approved stories into homepage, categories, article pages, RSS and sitemap.
 - [ ] Verify generation, approval, public visibility, and daily scheduling.
-- [ ] Add three verified stories from different new-to-site film and gaming sources, keeping the game card lower on the homepage.
-- [ ] Verify the three new article pages, site-hosted images, homepage cards, and PC Games listing.
+- [x] Add three verified stories from different new-to-site film and gaming sources, keeping the game card lower on the homepage.
+- [x] Verify the three new article pages, site-hosted images, homepage cards, and PC Games listing.
