@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
+import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, OverlayRow, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES as RAW_ARTICLES, type Article } from "@/data/articles";
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { publishedPostsQuery } from '@/lib/editorial-query';
@@ -338,7 +338,14 @@ function Index() {
         ) : null}
         {rows.map((r, i) => (
           <div key={r.center.id}>
-            <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
+            {i >= 2 && i % 2 === 0 ? (
+              <>
+                <OverlayRow articles={[r.center, ...r.sides].slice(0, 3)} />
+                <OverlayRow articles={[r.center, ...r.sides].slice(3)} />
+              </>
+            ) : (
+              <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
+            )}
             {i === 1 ? duoSection : null}
              {i === 1 ? lowerFeatures : null}
           </div>
