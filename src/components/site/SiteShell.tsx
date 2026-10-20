@@ -614,7 +614,7 @@ export function SmallArticleCard({
   );
 
   return (
-    <article className={`group relative aspect-[4/3] rounded-xl overflow-hidden bg-muted transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] ${className || ""}`}>
+    <article className={`group relative w-full min-w-0 min-h-[180px] aspect-[4/3] rounded-xl overflow-hidden bg-muted transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] ${className || ""}`}>
       {linkTo ? <Link to={linkTo.to} params={linkTo.params} className="block absolute inset-0">{inner}</Link> : inner}
     </article>
   );
