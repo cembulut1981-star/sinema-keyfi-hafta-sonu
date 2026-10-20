@@ -601,13 +601,9 @@ export function SmallArticleCard({
           <BadgePill label={article.customBadge} className="mb-2" />
         ) : null}
         {linkTo ? (
-          <Link
-            to={linkTo.to}
-            params={linkTo.params}
-            className="font-display font-black text-base leading-tight text-white line-clamp-2 decoration-2 underline-offset-4 group-hover:underline"
-          >
+          <h3 className="font-display font-black text-base leading-tight text-white line-clamp-2 decoration-2 underline-offset-4 group-hover:underline">
             {article.title}
-          </Link>
+          </h3>
         ) : (
           <h3 className="font-display font-black text-base leading-tight text-white line-clamp-2">
             {article.title}
