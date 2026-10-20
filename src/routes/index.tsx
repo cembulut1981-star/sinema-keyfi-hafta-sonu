@@ -125,7 +125,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
       ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)]"
       : "grid-cols-[minmax(0,1fr)_minmax(0,2fr)]";
     return (
-      <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[560px] ${cols} items-stretch`}>
+      <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[640px] ${cols} items-stretch`}>
         {reverse ? (
           <>
             <div className="min-h-0 h-full">
@@ -157,7 +157,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
     ? "md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)]"
     : "md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)]";
   return (
-    <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[560px] ${cols} items-stretch`}>
+    <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[640px] ${cols} items-stretch`}>
       {reverse ? (
         <>
           <div className="min-h-0 h-full">
