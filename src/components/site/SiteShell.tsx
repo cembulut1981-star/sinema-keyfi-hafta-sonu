@@ -760,7 +760,7 @@ export function OverlayArticleCard({ article }: { article: Article }) {
 
 export function OverlayRow({ articles }: { articles: Article[] }) {
   return (
-    <section className="flex md:grid md:grid-cols-3 gap-4 mb-12 overflow-x-auto md:overflow-visible snap-x pb-2">
+    <section className={`flex md:grid ${articles.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"} gap-4 mb-12 overflow-x-auto md:overflow-visible snap-x pb-2`}>
       {articles.map((a) => <OverlayArticleCard key={a.id} article={a} />)}
     </section>
   );
