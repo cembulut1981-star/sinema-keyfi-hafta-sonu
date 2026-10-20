@@ -584,74 +584,64 @@ export function SmallArticleCard({
   const linkTo = getArticleLink(article);
   if (isPosterArticle(article)) return <PosterListCard article={article} className={className} />;
 
-
-  return (
-    <article className={`relative flex flex-col rounded-lg overflow-hidden h-full transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] group ${className || ""}`}>
-      {/* Üst yarı — yeşil arka plan + fotoğraf */}
-      <div
-        className="relative flex-[0.6] min-h-0 flex items-center justify-center overflow-hidden after:absolute after:left-1/3 after:bottom-0 after:h-[3px] after:w-1/3 after:bg-red-600 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"
-        style={{ background: article.id % 2 === 0 ? "#00EAA1" : "#ffbd3f" }}
-      >
-
-        <div className="relative w-full h-full px-2 pt-1">
-          {linkTo ? (
-            <Link to={linkTo.to} params={linkTo.params} className="block w-full h-full relative">
-                <img
-                  src={article.image}
-                  alt={article.title}
-                  className={`w-full h-full object-cover ${imageFocusClass(article)}`}
-                  width={600}
-                  height={450}
-                  loading="lazy"
-                />
-              </Link>
-            ) : (
-              <img
-                src={article.image}
-                alt={article.title}
-                className={`w-full h-full object-cover ${imageFocusClass(article)}`}
-                width={600}
-                height={450}
-                loading="lazy"
-              />
-            )}
-          {badgeInImage ? (
-            <span className="absolute bottom-2 right-2 font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
-              {CATEGORY_LABEL[article.category]}
-            </span>
-          ) : null}
-          <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-          {!article.customBadgeBelow ? (
-            <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
-          ) : null}
-          <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
-        </div>
-      </div>
-      {/* Alt yarı — bembeyaz metin bloğu */}
-      <div className="flex-[0.4] min-h-0 bg-background px-4 pt-2 pb-3 flex flex-col justify-center">
+  const inner = (
+    <>
+      <img
+        src={article.image}
+        alt={article.title}
+        className={`absolute inset-0 w-full h-full object-cover ${imageFocusClass(article)}`}
+        width={600}
+        height={450}
+        loading="lazy"
+      />
+      <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+      <OverlayBadges article={article} badgeInImage={badgeInImage} />
+      <div className="absolute inset-x-0 bottom-0 px-4 pb-6 pt-8">
         {article.customBadgeBelow && article.customBadge ? (
-          <BadgePill label={article.customBadge} className="mb-2 self-start" />
-        ) : null}
-        {!badgeInImage ? (
-          <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold mb-2 inline-block px-1.5 py-0.5 self-start">
-            {CATEGORY_LABEL[article.category]}
-          </span>
+          <BadgePill label={article.customBadge} className="mb-2" />
         ) : null}
         {linkTo ? (
           <Link
             to={linkTo.to}
             params={linkTo.params}
-            className="font-serif-display text-sm font-bold leading-snug text-foreground break-words"
+            className="font-display font-black text-base leading-tight text-white line-clamp-2 decoration-2 underline-offset-4 group-hover:underline"
           >
             {article.title}
           </Link>
         ) : (
-          <h3 className="font-serif-display text-sm font-bold leading-snug break-words">
+          <h3 className="font-display font-black text-base leading-tight text-white line-clamp-2">
             {article.title}
           </h3>
         )}
       </div>
+    </>
+  );
+
+  return (
+    <article className={`group relative aspect-[4/3] rounded-xl overflow-hidden bg-muted transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] ${className || ""}`}>
+      {linkTo ? <Link to={linkTo.to} params={linkTo.params} className="block absolute inset-0">{inner}</Link> : inner}
     </article>
+  );
+}
+
+function OverlayBadges({ article, badgeInImage = true }: { article: Article; badgeInImage?: boolean }) {
+  return (
+    <>
+      <div className="absolute left-2 top-2 z-20 flex flex-col items-start gap-1.5">
+        <ImdbBadge rating={article.imdbRating} />
+        <CountdownBadge label={article.countdownBadge} />
+      </div>
+      <div className="absolute right-2 top-2 z-20 flex flex-col items-end gap-1.5">
+        {!article.customBadgeBelow ? (
+          <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} />
+        ) : null}
+        {badgeInImage ? (
+          <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
+            {CATEGORY_LABEL[article.category]}
+          </span>
+        ) : null}
+      </div>
+    </>
   );
 }
 
@@ -746,9 +736,15 @@ export function OverlayArticleCard({ article }: { article: Article }) {
     <>
       <img src={article.image} alt={article.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
-      <h3 className="absolute inset-x-0 bottom-0 p-5 font-display font-black text-lg md:text-xl leading-tight text-white line-clamp-3 decoration-2 underline-offset-4 group-hover:underline">
-        {article.title}
-      </h3>
+      <OverlayBadges article={article} />
+      <div className="absolute inset-x-0 bottom-0 px-5 pb-7 pt-12">
+        {article.customBadgeBelow && article.customBadge ? (
+          <BadgePill label={article.customBadge} className="mb-2" />
+        ) : null}
+        <h3 className="font-display font-black text-lg md:text-xl leading-tight text-white line-clamp-3 decoration-2 underline-offset-4 group-hover:underline">
+          {article.title}
+        </h3>
+      </div>
     </>
   );
   return (

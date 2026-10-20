@@ -354,7 +354,7 @@ function Index() {
         {rows.length < 2 ? lowerFeatures : null}
 
         {leftovers.length > 0 ? (
-          <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 auto-rows-fr items-stretch">
+          <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 items-stretch">
             {leftovers.map((a) => (
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}
