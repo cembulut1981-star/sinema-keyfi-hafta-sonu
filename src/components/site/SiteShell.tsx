@@ -739,3 +739,29 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
     </article>
   );
 }
+
+export function OverlayArticleCard({ article }: { article: Article }) {
+  const linkTo = getArticleLink(article);
+  const inner = (
+    <>
+      <img src={article.image} alt={article.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
+      <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+      <h3 className="absolute inset-x-0 bottom-0 p-5 font-display font-black text-lg md:text-xl leading-tight text-white line-clamp-3 decoration-2 underline-offset-4 group-hover:underline">
+        {article.title}
+      </h3>
+    </>
+  );
+  return (
+    <article className="group relative aspect-[4/3] rounded-xl overflow-hidden bg-muted shrink-0 w-[78%] sm:w-[45%] md:w-auto snap-start">
+      {linkTo ? <Link to={linkTo.to} params={linkTo.params} className="block absolute inset-0">{inner}</Link> : inner}
+    </article>
+  );
+}
+
+export function OverlayRow({ articles }: { articles: Article[] }) {
+  return (
+    <section className="flex md:grid md:grid-cols-3 gap-4 mb-12 overflow-x-auto md:overflow-visible snap-x pb-2">
+      {articles.map((a) => <OverlayArticleCard key={a.id} article={a} />)}
+    </section>
+  );
+}
