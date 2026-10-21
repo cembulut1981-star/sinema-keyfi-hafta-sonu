@@ -152,15 +152,15 @@ Hulu, finalin yayımlanmasından birkaç gün önce "Furious"a ikinci sezon onay
     customBadgeStyle: "light",
     image: robocopAsset.url,
     source: "Empire — Jordan King",
-    body: `In recent times, we've seen Dan Stevens play a Titan veterinarian in "Godzilla x Kong: The New Empire," the head of a crew who unwittingly kidnap a vampire ballerina in "Abigail," and a sinister resort owner in "Cuckoo." Now, in his ongoing effort to affirm his status as the most unpredictable actor working today, Stevens has lined up his next major project: per Deadline's reporting, the in-demand actor is set to play RoboCop in Prime Video and Blumhouse Atomic Monster's upcoming James Wan-produced series.
+    body: `Son dönemde Dan Stevens'ı "Godzilla x Kong: The New Empire"da bir Titan veterineri, "Abigail"da farkında olmadan vampir bir balerini kaçıran ekibin lideri ve "Cuckoo"da tekinsiz bir tatil tesisi sahibi olarak izledik. Günümüzün en öngörülemez oyuncusu unvanını pekiştirmeyi sürdüren Stevens'ın sıradaki büyük projesi de belli oldu: Deadline'ın haberine göre aranan oyuncu, Prime Video ve Blumhouse Atomic Monster'ın James Wan yapımcılığında hazırladığı yeni dizide RoboCop'u canlandıracak.
 
-Hailing from showrunner Peter Ocko and based on Paul Verhoeven's legendary 1987 satire — a sharp-edged cyberpunk sci-fi charting the literal dehumanisation of Peter Weller's law enforcer Murphy as he's brought back from the dead and turned into a crime-exploding cyborg — Prime Video's "RoboCop" is set to give the source material a contemporary, eight-episode update. Stevens will be stepping into Weller's mechanical boots as the fallen officer whose consciousness powers a nefarious tech conglomerate's mission to bring metal men in uniforms to a near-future Detroit.
+Yaratıcı yönetimini Peter Ocko'nun üstlendiği yapım, Paul Verhoeven'ın efsanevi 1987 tarihli hicvine dayanıyor. O keskin siberpunk bilimkurgu, Peter Weller'ın canlandırdığı polis Murphy'nin ölümden döndürülüp suçlulara göz açtırmayan bir siborga dönüştürülürken kelimenin tam anlamıyla insanlığından koparılmasını anlatıyordu. Prime Video'nun "RoboCop"u, kaynak malzemeyi sekiz bölümlük güncel bir yorumla ele alacak. Stevens, kötü niyetli bir teknoloji devinin yakın geleceğin Detroit'ine üniformalı metal adamlar getirme planına bilinciyle güç veren, görev sırasında hayatını kaybetmiş polis rolünde Weller'ın mekanik çizmelerini giyecek.
 
-When "RoboCop" first got the greenlight, producer Wan shared his excitement about returning to Verhoeven's cult classic universe. "I've been a massive fan of RoboCop forever, so getting to help bring this world to television is a dream," he said in a press release. "What Paul Verhoeven created in 1987 was decades ahead of its time, and its questions about technology, identity, and who corporations really serve have only grown more urgent."
+"RoboCop"a ilk onay çıktığında yapımcı Wan, Verhoeven'ın kült klasiğinin evrenine dönme heyecanını paylaşmıştı. Basın açıklamasında, "Kendimi bildim bileli büyük bir RoboCop hayranıyım; bu dünyayı televizyona taşımaya yardımcı olmak bir hayalin gerçekleşmesi" demişti. "Paul Verhoeven'ın 1987'de yarattığı şey, zamanının onlarca yıl ilerisindeydi. Teknoloji, kimlik ve şirketlerin gerçekte kime hizmet ettiği konusundaki soruları ise giderek daha da acil hâle geldi."
 
-Wan also celebrated "Peter's distinctive vision and bold approach to storytelling," promising Ocko's self-penned take on the material would "honour what made the original iconic and highlight its relevancy in this modern, tech-driven world, while building something unmistakably new for a global audience."
+Wan ayrıca "Peter'ın kendine özgü vizyonunu ve hikâye anlatımındaki cesur yaklaşımını" överek Ocko'nun bizzat kaleme aldığı yorumun, "orijinali ikonik kılan unsurlara saygı duyacağını ve teknoloji odaklı modern dünyadaki güncelliğini vurgularken küresel izleyici için tartışmasız yeni bir şey inşa edeceğini" söyledi.
 
-Over the years, "RoboCop" has remained in the public consciousness thanks to its sequels, TV adaptations, kids' cartoons, and that 2014 Joel Kinnaman reboot — but nothing has quite measured up to Paul Verhoeven's original darkly satirical genre masterclass. With Stevens on board, TV veteran Ocko showrunning, and the might of Amazon and Blumhouse Atomic Monster powering this new series, perhaps now is the right time to have RoboCop back on the beat: serving the public trust, protecting the innocent, and upholding the law.`,
+"RoboCop", yıllar boyunca devam filmleri, televizyon uyarlamaları, çocuklara yönelik çizgi diziler ve Joel Kinnaman'lı 2014 yeniden çevrimi sayesinde gündemde kalmayı başardı. Ancak hiçbiri Paul Verhoeven'ın kara hicivle örülü orijinal tür başyapıtının seviyesine tam olarak ulaşamadı. Stevens'ın kadroya katıldığı, televizyonun deneyimli ismi Ocko'nun yaratıcı yönetimi üstlendiği, Amazon ve Blumhouse Atomic Monster'ın gücünü arkasına alan bu yeni diziyle RoboCop'un devriyeye dönmesinin vakti belki de gelmiştir: toplumun güvenine layık olmak, masumları korumak ve kanunu uygulamak için.`,
   },
   {
     slug: "visionquest-paul-bettany-identity-crisis",
@@ -169,35 +169,35 @@ Over the years, "RoboCop" has remained in the public consciousness thanks to its
     customBadge: "Marvel",
     image: img_visionquest,
     source: "Empire — Ben Travis",
-    body: `Who is Vision? It's a good question. Paul Bettany's Marvel character has a long and storied history in the MCU, predating even his official Vision debut in "Avengers: Age of Ultron," right back to voicing Tony Stark's JARVIS operating system in "Iron Man." Since then, he's been melded with Ultron and the Mind Stone, become an automaton, been killed by Thanos, revived in a fake reality by his lover Wanda, and re-emerged as White Vision back in his original body. No wonder his new series, "VisionQuest," finds him questioning who he is.
+    body: `Vision kim? Güzel soru. Paul Bettany'nin Marvel karakterinin MCU'daki uzun ve olaylarla dolu geçmişi, "Avengers: Age of Ultron"da resmen Vision olarak ortaya çıkmasından da önceye, "Iron Man"de Tony Stark'ın JARVIS işletim sistemini seslendirdiği günlere uzanıyor. O zamandan bu yana Ultron ve Zihin Taşı ile birleşti, bir otomata dönüştü, Thanos tarafından öldürüldü, sevgilisi Wanda tarafından sahte bir gerçeklikte diriltildi ve kendi orijinal bedeninde White Vision olarak yeniden ortaya çıktı. Yeni dizisi "VisionQuest"te kim olduğunu sorgulamasına şaşmamalı.
 
-For showrunner Terry Matalas, the series — ending a trilogy that began with "WandaVision" and "Agatha All Along" — is the perfect way for Vision to get existential. "This is the first time where we get to watch Vision drive the narrative, and understand who he is, who he thinks he was," he tells Empire. "We watch this character go through an identity crisis. It's kind of the Vision movie, if you will."
+Dizinin yaratıcı sorumlusu Terry Matalas'a göre "WandaVision" ve "Agatha All Along" ile başlayan üçlemeyi tamamlayan bu yapım, Vision'ın varoluşsal sorulara dalması için kusursuz bir fırsat. Empire'a, "Vision'ın hikâyeye bizzat yön verdiğini ilk kez izliyoruz; kim olduğunu, geçmişte kim olduğunu düşündüğünü anlıyoruz" diyor. "Bu karakterin bir kimlik krizinden geçişine tanık oluyoruz. Bir bakıma Vision filmi diyebiliriz."
 
-Part of that exploration involves Vision reverting into an internal virtual reality, where Ultron, EDITH, DUM-E and U are given human-avatar form. "They're there to help him," Bettany explains. "He is attempting to move about in the world in a small way, and then at night download this data and discuss the things that have happened to him with these different AIs, who have different characteristics and help him understand different qualities and skills. But he is also very much using it as an excuse to keep the world and himself at arm's length. And of course, events conspire to drag him actually into the world."
+Bu arayışın bir bölümünde Vision, Ultron, EDITH, DUM-E ve U'nun insan avatarlarına büründüğü içsel bir sanal gerçekliğe çekiliyor. Bettany, "Ona yardım etmek için oradalar" diye açıklıyor. "Dünyaya küçük adımlarla karışmaya çalışıyor; geceleri de bu verileri indirip başından geçenleri farklı özelliklere sahip bu yapay zekâlarla konuşuyor. Onlar da farklı nitelikleri ve becerileri anlamasına yardımcı oluyor. Ama bunu, dünyayla ve kendisiyle arasına mesafe koymak için bir bahane olarak da kullanıyor. Elbette olaylar birleşip onu gerçekten dünyanın içine çekiyor."
 
-For Matalas, the show is — like "WandaVision" and "Agatha" before it — all about what it means to be a human being. "I think ultimately, what Vision is going through are things that we all go through, and deal with," he says. "Trauma, dealing with relationships, dealing with how we react to experiencing love or not experiencing that. It's strange that a show about an AI is the most human of them all."
+Matalas'a göre dizi, kendinden önceki "WandaVision" ve "Agatha" gibi, insan olmanın ne anlama geldiğiyle ilgili. "Bence Vision'ın yaşadıkları, nihayetinde hepimizin yaşadığı ve baş etmeye çalıştığı şeyler" diyor. "Travma, ilişkilerle başa çıkmak, sevgiyi deneyimlediğimizde ya da deneyimleyemediğimizde verdiğimiz tepkilerle yüzleşmek. Bir yapay zekâyı anlatan dizinin hepsinden daha insani olması tuhaf."
 
-"VisionQuest" streams on Disney+ from October 14.`,
+"VisionQuest", 14 Ekim'den itibaren Disney+'ta yayımlanacak.`,
   },
   {
     slug: "it-welcome-to-derry-2-sezon-1935-buyuk-buhran",
     title: "“It: Welcome to Derry”nin 2. sezonu 1935'te geçecek ve “dönemin korkunç olaylarını” görmezden gelmeyecek",
     excerpt: "Dizinin yaratıcı sorumlusu Andy Muschietti'ye göre yeni sezon, Büyük Buhran'ın yıkımı altında çökmüş bir Derry'de geçecek: yoksul, işsiz, umutsuz bir kasaba ve sırf hayatta kalabilmek için çılgınca şeyler yapan karakterler.",
-    body: `"It: Welcome to Derry" is heading to 1935 for its second season — something we already knew, since Pennywise has to return to Derry every 27 years. But unlike Stephen King's original novel, which diverges on the timeline, the show's second season will have to confront the wreckage of the Great Depression head-on.
+    body: `"It: Welcome to Derry", ikinci sezonunda 1935'e gidiyor. Pennywise'ın her 27 yılda bir Derry'ye dönmesi gerektiği için bunu zaten biliyorduk. Ancak zaman çizelgesi farklı ilerleyen Stephen King'in orijinal romanının aksine, dizinin ikinci sezonu Büyük Buhran'ın yıkımıyla doğrudan yüzleşmek zorunda.
 
-"There's going to be a lot of Depression-era desperation in our characters' air," Muschietti tells Variety. "Everyone is trying to get by, to survive the circumstances. They're going to do crazy things."
+Muschietti, Variety'ye "Karakterlerimizin dünyasına Buhran döneminin çaresizliği hâkim olacak" diyor. "Herkes geçinmeye, içinde bulunduğu koşullarda hayatta kalmaya çalışıyor. Çılgınca şeyler yapacaklar."
 
-"In this situation, on the surface Derry is almost a graveyard. It's like a carcass, because people are exhausted, poor, tired, jobless, homeless. The kids don't have a suburban-comfort kind of life. They're in a very different situation," Muschietti adds. Some are orphans, some have run away from home; so the setting is pretty dark. "But there's always a flicker of hope burning, and that's exactly what keeps our new group going."
+Muschietti şöyle devam ediyor: "Bu koşullarda Derry, dışarıdan bakınca neredeyse bir mezarlık. Bir ceset gibi; çünkü insanlar tükenmiş, yoksul, yorgun, işsiz ve evsiz. Çocukların banliyö rahatlığı içinde geçen hayatları yok. Çok farklı bir durumdalar." Bazıları yetim, bazıları evden kaçmış; dolayısıyla atmosfer oldukça karanlık. "Ama her zaman yanan küçücük bir umut ışığı var ve yeni grubumuzu ayakta tutan da tam olarak bu."
 
-## The 27-year countdown is running in reverse
+## 27 yıllık geri sayım tersine işliyor
 
-The first season of "It: Welcome to Derry" is set in 1962 and follows the entity targeting the parents of some of the original Losers' Club members from the 2017 "It" film. The first film was set 27 years after season one, and the second film 27 years after the first film. Since the second film marked the end of the clown, the only way to keep telling the story is to go backward. After the second season, the third season will jump back another 27 years, to 1908, when It first took the form of a clown.
+"It: Welcome to Derry"nin ilk sezonu 1962'de geçiyor ve yaratığın, 2017 yapımı "It" filmindeki orijinal Losers' Club üyelerinden bazılarının ebeveynlerini hedef almasını anlatıyor. İlk film, birinci sezondan 27 yıl sonra; ikinci film de ilk filmden 27 yıl sonra geçiyordu. İkinci film palyaçonun sonunu getirdiği için hikâyeyi anlatmaya devam etmenin tek yolu geçmişe gitmek. İkinci sezonun ardından üçüncü sezon, 27 yıl daha geriye, It'in ilk kez palyaço biçimini aldığı 1908'e dönecek.
 
-As King's works have laid out, every time It returns, a devastating event occurs. In the first film, Bill's brother Georgie was brutally murdered; the second film opened with a horrific hate crime against a tourist. In season one, the event was the destructive Black Spot fire.
+King'in eserlerinde ortaya koyduğu üzere It her döndüğünde yıkıcı bir olay yaşanıyor. İlk filmde Bill'in kardeşi Georgie vahşice öldürülmüş, ikinci film ise bir turiste karşı işlenen korkunç bir nefret suçuyla açılmıştı. İlk sezonda bu olay, yıkıcı Black Spot yangınıydı.
 
-Season two will focus on the Bradley Gang Massacre: the story of a gang of outlaws who descended on Derry and drenched the town in blood.
+İkinci sezon, Bradley Gang Katliamı'na odaklanacak: Derry'ye gelip kasabayı kana bulayan bir haydut çetesinin hikâyesine.
 
-"It: Welcome to Derry" season 2 doesn't have a release date yet.`,
+"It: Welcome to Derry"nin 2. sezonunun yayın tarihi henüz belli değil.`,
     image: "/__l5e/assets-v1/dfefa887-d412-4598-986b-45902811c84e/449b67182390.jpg",
     source: "GamesRadar+",
     customBadge: "HBO",
@@ -207,31 +207,31 @@ Season two will focus on the Bradley Gang Massacre: the story of a gang of outla
     slug: "lanterns-1-bolum-final-surprizi-dcu-sorulari",
     title: "“Lanterns”ın ilk bölüm finalindeki sürpriz, DC evrenine dair pek çok soru doğuruyor",
     excerpt: "HBO'nun yeni dizisi ilk bölümün sonunda bombayı patlattı: John Stewart, akıl hocası Hal Jordan'ı ölü buluyor; üstelik Güç Yüzüğü parmağında değil.",
-    body: `_This contains **spoilers** for the "Lanterns" series premiere._
+    body: `_Bu yazı, "Lanterns"ın ilk bölümüne dair **spoiler** içerir._
 
-"Lanterns" wasted no time delivering its shock. The show's first episode ended with John Stewart (Aaron Pierre) finding his old mentor Hal Jordan (Kyle Chandler) dead. That's jarring not only because Chandler's hero is one of the series' leads, but because it raises huge questions about the entire DC Universe.
+"Lanterns", şoke edici hamlesini yapmak için hiç beklemedi. Dizinin ilk bölümü, John Stewart'ın (Aaron Pierre) eski akıl hocası Hal Jordan'ı (Kyle Chandler) ölü bulmasıyla bitti. Bu yalnızca Chandler'ın kahramanı dizinin başrollerinden biri olduğu için değil, tüm DC evrenine dair büyük sorular doğurduğu için de sarsıcı.
 
-The DCU really gained momentum with James Gunn's crowd-pleasing "Superman." But the latest link in the saga, "Lanterns," is a much more sober affair drawing on the prestige dramas of the last decade — especially "True Detective" and "Slow Horses." True to the spirit of both shows, "Lanterns" builds its central mystery around a murder; only this time, the victim is one of the show's own stars.
+DCU, James Gunn'ın izleyicinin beğenisini kazanan "Superman"iyle asıl ivmesini yakalamıştı. Ancak destanın en yeni halkası "Lanterns", son on yılın prestijli dramalarından, özellikle de "True Detective" ve "Slow Horses"tan beslenen çok daha ağırbaşlı bir yapım. Bu iki dizinin ruhuna sadık kalan "Lanterns", merkezindeki gizemi bir cinayet üzerine kuruyor; ancak bu kez kurban, dizinin kendi yıldızlarından biri.
 
-The HBO series unfolds across three separate timelines: 1996, 2016, and 2026. In the 2016 timeline, Chandler's Jordan is training Pierre's Stewart, sending the pair to investigate strange occurrences in the town of Rushville, Nebraska. The show's weight seems to rest on this timeline; but at the end of the first episode, we jump to 2026 in a scene that feels straight out of "True Detective: Night Country." Stewart arrives in a snow-covered Rushville, this time alone, and meets Sheriff Kerry Kane (Kelly Macdonald) in front of the high school football field. When they go inside, we understand why: Hal Jordan is dead.
+HBO dizisi üç ayrı zaman çizelgesinde ilerliyor: 1996, 2016 ve 2026. 2016'da Chandler'ın Jordan'ı, Pierre'in Stewart'ını eğitiyor; ikili Nebraska'nın Rushville kasabasındaki tuhaf olayları araştırıyor. Dizinin ağırlığı bu zaman çizelgesinde gibi görünüyor. Ancak ilk bölümün sonunda, doğrudan "True Detective: Night Country"den çıkmış hissi veren bir sahneyle 2026'ya atlıyoruz. Stewart bu kez tek başına, karla kaplı Rushville'e geliyor ve lise futbol sahasının önünde Şerif Kerry Kane (Kelly Macdonald) ile buluşuyor. İçeri girdiklerinde nedenini anlıyoruz: Hal Jordan ölmüş.
 
-## What does Jordan's death mean for John Stewart and Guy Gardner?
+## Jordan'ın ölümü John Stewart ve Guy Gardner için ne anlama geliyor?
 
-Stewart asks, "Does anyone else know?" The sheriff's answer is clear: "Just the field guy." They find Jordan in the bleachers, in the same spot where he sat next to Stewart a decade earlier. But this time there's a bullet hole in his forehead and his body is frozen stiff. What's more, when Stewart brushes the snow off his hand, we see that the Power Ring is missing.
+Stewart, "Başka bilen var mı?" diye soruyor. Şerifin yanıtı net: "Sadece saha görevlisi." Jordan'ı tribünde, on yıl önce Stewart'ın yanında oturduğu noktada buluyorlar. Ama bu kez alnında bir kurşun deliği var ve bedeni kaskatı donmuş. Üstelik Stewart elinin üzerindeki karı temizlediğinde Güç Yüzüğü'nün yerinde olmadığını görüyoruz.
 
-What should we make of this? The first question is: why isn't Stewart a Lantern in 2026? Even though his hands are mostly in his pockets throughout the scene, we briefly see both of them; there's no ring on either. Thanks to "Superman," set in 2025, we know that along with Nathan Fillion's Guy Gardner, there's more than one Lantern on Earth in 2026. So why isn't Stewart one of them? Did the 2016 training fail?
+Bundan ne anlamalıyız? İlk soru şu: Stewart neden 2026'da bir Lantern değil? Sahne boyunca elleri çoğunlukla ceplerinde olsa da ikisini de kısa süreliğine görüyoruz; hiçbirinde yüzük yok. 2025'te geçen "Superman" sayesinde, 2026'da Dünya'da Nathan Fillion'ın Guy Gardner'ıyla birlikte birden fazla Lantern bulunduğunu biliyoruz. Peki Stewart neden onlardan biri değil? 2016'daki eğitim başarısız mı oldu?
 
-And the biggest question: who killed Jordan, and who took the ring? Maybe Guy Gardner isn't one of the Lanterns on Earth but someone directly connected to this death; maybe he's carrying Jordan's ring. Could DC's angriest superhero be this show's villain? It's possible, but there are other explanations too.
+Ve en büyük soru: Jordan'ı kim öldürdü, yüzüğü kim aldı? Belki Guy Gardner, Dünya'daki Lantern'lardan biri değil de doğrudan bu ölümle bağlantılı biri; belki Jordan'ın yüzüğünü taşıyor. DC'nin en öfkeli süper kahramanı bu dizinin kötüsü olabilir mi? Mümkün, ama başka açıklamalar da var.
 
-## Major implications for the DCU
+## DCU açısından büyük sonuçlar
 
-"Lanterns" is DC's riskiest bet yet, and the first episode is a perfect example of that. The episode implies Earth only has a single Green Lantern. In the 2016 timeline, Jordan tells Stewart how he got the ring: in his early years as a test pilot in the Air Force, he was pulled from his bed and sent to Rushville, where an alien named Abin Sur had crashed. According to Jordan, Sur was the Lantern "responsible for protecting the peace and sovereignty of sector 2814," which includes Earth. Alone.
+"Lanterns", DC'nin şimdiye kadarki en riskli hamlesi ve ilk bölüm bunun kusursuz bir örneği. Bölüm, Dünya'nın yalnızca tek bir Green Lantern'ı olduğunu ima ediyor. 2016 zaman çizelgesinde Jordan, yüzüğü nasıl aldığını Stewart'a anlatıyor: Hava Kuvvetleri'nde test pilotu olduğu ilk yıllarda yatağından alınıp Abin Sur adlı bir uzaylının düştüğü Rushville'e gönderilmiş. Jordan'a göre Sur, Dünya'nın da içinde bulunduğu "2814. sektörün barışını ve egemenliğini korumakla görevli" Lantern'mış. Tek başına.
 
-When Sur gave him the ring, the reasoning was simple: the ring had "chosen" him as a successor. So when a Lantern dies, another takes their place. In 2026, we know Gardner is the leader of the Justice Gang in "Superman." Did he get his ring before Jordan's death? How? Or did Jordan leave Earth to protect another sector, leaving the spot to Gardner? And why didn't Stewart take over?
+Sur yüzüğü ona verdiğinde gerekçe basitmiş: Yüzük, halef olarak onu "seçmiş". Yani bir Lantern öldüğünde yerini bir başkası alıyor. 2026'da Gardner'ın "Superman"deki Justice Gang'in lideri olduğunu biliyoruz. Yüzüğünü Jordan ölmeden önce mi aldı? Nasıl? Yoksa Jordan başka bir sektörü korumak için Dünya'dan ayrılıp yerini Gardner'a mı bıraktı? Peki Stewart neden görevi devralmadı?
 
-Where the body was found is another matter. Rushville is both the town where Jordan was chosen as a Lantern and where the pair discovered aliens in the 2016 timeline — too central a location to be a coincidence. As Jordan says in a bar conversation: "Something in me always told me that fall wasn't an accident. If it's telling me a storm is coming, I make sure I have a lookout who'll warn me when it arrives." The body being found in the same area shows that the storm really has arrived.
+Cesedin bulunduğu yer de ayrı bir mesele. Rushville, hem Jordan'ın Lantern olarak seçildiği hem de ikilinin 2016 zaman çizelgesinde uzaylıları keşfettiği kasaba; tesadüf olamayacak kadar merkezi bir yer. Jordan'ın bardaki bir sohbette dediği gibi: "İçimde bir şey hep o düşüşün kaza olmadığını söyledi. Bana bir fırtınanın yaklaştığını söylüyorsa, geldiğinde beni uyaracak bir gözcüm olduğundan emin olurum." Cesedin aynı bölgede bulunması, fırtınanın gerçekten koptuğunu gösteriyor.
 
-"Lanterns" is streaming on HBO Max.`,
+"Lanterns", HBO Max'te yayımlanıyor.`,
     image: "/__l5e/assets-v1/e791f387-d61a-4251-8e02-a60e6655126b/0a72a350c2a4.jpg",
     source: "SlashFilm",
     customBadge: "HBO",
@@ -245,17 +245,17 @@ Where the body was found is another matter. Rushville is both the town where Jor
     slug: "house-of-the-dragon-3-sezon-finali-21-milyon-izleyici",
     title: "“House of the Dragon”ın 3. sezon finali üç günde 21 milyon izleyiciye ulaştı",
     excerpt: "HBO'nun ejderha destanı sezonu güçlü kapattı: Final, ilk üç gününde 11 milyonu ABD'den olmak üzere toplam 21 milyon izleyiciye ulaştı. Sezonun bölüm başına izleyici ortalaması ise 34 milyon oldu.",
-    body: `"House of the Dragon" wrapped its third season on HBO Sunday night, and the finale episode reached 21 million viewers within its first three days on air. More than 11 million of those viewers were in the US.
+    body: `"House of the Dragon", pazar akşamı HBO'da üçüncü sezonunu tamamladı. Final bölümü, yayımlandığı ilk üç gün içinde 21 milyon izleyiciye ulaştı. Bu izleyicilerin 11 milyondan fazlası ABD'deydi.
 
-That total combines Nielsen's linear viewership measurement on the HBO cable channel with Warner Bros. Discovery's own viewing count on HBO Max. The figures point to a largely stable trajectory throughout the season: only a 2 percent drop compared to season 3's premiere audience of 21.5 million.
+Bu toplam, Nielsen'ın HBO kablolu kanalındaki geleneksel yayın ölçümleriyle Warner Bros. Discovery'nin HBO Max'teki kendi izlenme verilerinin birleşiminden oluşuyor. Rakamlar, sezon boyunca büyük ölçüde istikrarlı bir gidişata işaret ediyor: 3. sezonun 21,5 milyonluk açılış izleyicisine kıyasla düşüş yalnızca yüzde 2.
 
-WBD did not disclose viewership numbers for episodes 2 through 7, and it also didn't share a three-day total for the season 2 finale back in 2024. Still, it's worth noting that the season 3 premiere nearly matched the season 2 premiere's audience, with only a 2 percent gap.
+WBD, 2. bölümden 7. bölüme kadar olan izlenme rakamlarını açıklamadı. Şirket, 2024'teki 2. sezon finalinin üç günlük toplamını da paylaşmamıştı. Yine de 3. sezon açılışının, yalnızca yüzde 2 farkla 2. sezon açılışının izleyici sayısını neredeyse yakaladığını belirtmekte fayda var.
 
-Overall, the "Game of Thrones" sequel series is averaging 34 million viewers per episode this season, just under season 2's average of 35 million. According to HBO, that performance puts the show among HBO Max's three most-watched returning seasons of all time.
+Genel olarak "Game of Thrones"un devam dizisi, bu sezon bölüm başına ortalama 34 milyon izleyiciye ulaşıyor; bu da 2. sezonun 35 milyonluk ortalamasının hemen altında. HBO'ya göre bu performans, diziyi HBO Max tarihinde geri dönen sezonlar arasında en çok izlenen ilk üçe yerleştiriyor.
 
-Sunday night also marked the seventh and final episode of "Life, Larry and the Pursuit of Unhappiness." The sketch series created by and starring Larry David averaged around 4 million viewers per episode in the US, making it the second most-watched HBO comedy launch in HBO Max history. First place belongs to "Rooster," starring Steve Carell, which premiered earlier this year as the most-watched HBO comedy in 15 years outside of "Hung" (2009) and "Sex and the City" (1998).
+Pazar akşamı ayrıca "Life, Larry and the Pursuit of Unhappiness"ın yedinci ve son bölümü de yayımlandı. Larry David'in yarattığı ve başrolünde yer aldığı skeç dizisi, ABD'de bölüm başına ortalama 4 milyon izleyiciye ulaşarak HBO Max tarihinde yayına başlayan HBO komedileri arasında en çok izlenen ikinci yapım oldu. İlk sırada ise bu yılın başlarında başlayan, Steve Carell başrollü "Rooster" var. Yapım, "Hung" (2009) ve "Sex and the City" (1998) dışında, son 15 yılın en çok izlenen HBO komedisi olarak açılış yapmıştı.
 
-The numbers show that HBO's strategy of centering its lineup around the Westeros universe is still working: the fact that viewership loss stayed around 2 percent throughout the season means the show has retained a loyal audience.`,
+Rakamlar, HBO'nun yayın akışını Westeros evreni etrafında şekillendirme stratejisinin hâlâ işe yaradığını gösteriyor: Sezon boyunca izleyici kaybının yüzde 2 civarında kalması, dizinin sadık kitlesini koruduğu anlamına geliyor.`,
     image: hotd1.url,
     source: "Variety",
     customBadge: "HBO",
