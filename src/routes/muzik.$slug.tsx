@@ -16,7 +16,7 @@ export const Route = createFileRoute("/muzik/$slug")({
   },
   head: ({ params }) => {
     const m = getMusic(params.slug);
-    if (!m) return { meta: [{ title: "Story not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    if (!m) return { meta: [{ title: "Haber bulunamadı — Sine-Meta" }, { name: "robots", content: "noindex" }] };
     return articleHead(m, `/muzik/${params.slug}`);
   },
   component: MusicPage,
@@ -104,7 +104,7 @@ function MusicPage() {
         <ShareButtons title={m.title} path={`/muzik/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="More music news" items={others} to="/muzik/$slug" />
+        <OtherArticlesSidebar heading="Diğer müzik haberleri" items={others} to="/muzik/$slug" />
       </div>
     </SiteShell>
   );

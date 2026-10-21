@@ -16,7 +16,7 @@ export const Route = createFileRoute("/inceleme/$slug")({
   },
   head: ({ params }) => {
     const r = getReview(params.slug);
-    if (!r) return { meta: [{ title: "Review not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    if (!r) return { meta: [{ title: "İnceleme bulunamadı — Sine-Meta" }, { name: "robots", content: "noindex" }] };
     return articleHead(r, `/inceleme/${params.slug}`);
   },
   component: ReviewPage,
@@ -74,12 +74,12 @@ function ReviewPage() {
           ))}
         </div>
 
-        {r.gallery?.length ? <PhotoGallery images={r.gallery} heading="Gallery" /> : null}
+        {r.gallery?.length ? <PhotoGallery images={r.gallery} heading="Galeri" /> : null}
 
         <ShareButtons title={r.title} path={`/inceleme/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="More reviews" items={others} to="/inceleme/$slug" />
+        <OtherArticlesSidebar heading="Diğer incelemeler" items={others} to="/inceleme/$slug" />
       </div>
     </SiteShell>
   );

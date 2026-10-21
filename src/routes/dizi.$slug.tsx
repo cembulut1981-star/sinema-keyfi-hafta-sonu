@@ -17,7 +17,7 @@ export const Route = createFileRoute("/dizi/$slug")({
   },
   head: ({ params }) => {
     const s = getSeries(params.slug);
-    if (!s) return { meta: [{ title: "Article not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    if (!s) return { meta: [{ title: "Yazı bulunamadı — Sine-Meta" }, { name: "robots", content: "noindex" }] };
     return articleHead(s, `/dizi/${params.slug}`);
   },
   component: SeriesPage,
@@ -69,13 +69,13 @@ function SeriesPage() {
           ))}
         </div>
 
-        {s.gallery?.length ? <PhotoGallery images={s.gallery} heading="Gallery" /> : null}
+        {s.gallery?.length ? <PhotoGallery images={s.gallery} heading="Galeri" /> : null}
 
         <ShareButtons title={s.title} path={`/dizi/${slug}`} />
 
         </article>
 
-        <OtherArticlesSidebar heading="More TV shows" items={others} to="/dizi/$slug" />
+        <OtherArticlesSidebar heading="Diğer diziler" items={others} to="/dizi/$slug" />
       </div>
     </SiteShell>
   );

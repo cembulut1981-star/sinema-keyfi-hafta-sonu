@@ -73,8 +73,8 @@ export const REVIEWS: Review[] = [
   {
     slug: "resident-evil-requiem-game-review",
     origTitle: "Resident Evil Requiem",
-    title: "‘Resident Evil Requiem’ Review: Ten Tight Hours of the Series at Its Best",
-    excerpt: "Capcom combines puzzles, horror, action and Leon S. Kennedy into one remarkably disciplined survival horror game.",
+    title: "‘Resident Evil Requiem’ İncelemesi: Serinin Zirvesinde Geçen Dopdolu On Saat",
+    excerpt: "Capcom; bulmacaları, korkuyu, aksiyonu ve Leon S. Kennedy’yi son derece ölçülü bir hayatta kalma korku oyununda bir araya getiriyor.",
     rating: "92/100",
     image: gameRe,
     body: `After years of Resident Evil games that each excelled in one area, Capcom set itself the task of combining the best of all of them. **Resident Evil Requiem** — puzzles, horror, action and Leon S. Kennedy — not only pulls it off, it does so in about **10 hours**.
@@ -96,8 +96,8 @@ Some boss battles are one-note and a few objectives repeat, but these are small 
   {
     slug: "crimson-desert-game-review",
     origTitle: "Crimson Desert",
-    title: "‘Crimson Desert’ Review: An Overwhelming Fantasy Epic That Says Yes to Everything",
-    excerpt: "Pearl Abyss's vast open-world RPG is fascinating and frustrating in equal measure — a game made for players who love systems.",
+    title: "‘Crimson Desert’ İncelemesi: Her Şeye Evet Diyen, Baş Döndürücü Bir Fantastik Destan",
+    excerpt: "Pearl Abyss’in devasa açık dünya rol yapma oyunu, büyülediği kadar da sinir bozuyor; oyun sistemlerini kurcalamayı sevenler için biçilmiş kaftan.",
     rating: "80/100",
     image: gameCrimson,
     body: `**Crimson Desert** is the "Yes, and" of video games: stuffed with just about every mechanic and idea imaginable, an overwhelming ocean of things to discover. After 75 hours, it still feels like there is more to uncover.
@@ -121,8 +121,8 @@ Still, for the patient, it is a fascinating journey — even when the destinatio
   {
     slug: "007-first-light-game-review",
     origTitle: "007 First Light",
-    title: "‘007 First Light’ Review: The Best James Bond Game Since GoldenEye",
-    excerpt: "IO Interactive brings Hitman's patient sandbox design to a young Bond — a confident, cinematic 25-hour spy thriller.",
+    title: "‘007 First Light’ İncelemesi: GoldenEye’dan Bu Yana En İyi James Bond Oyunu",
+    excerpt: "IO Interactive, Hitman’in sabır gerektiren, oyuncuya özgürlük tanıyan tasarımını genç bir Bond’la buluşturuyor: Kendinden emin, sinematik, 25 saatlik bir casusluk gerilimi.",
     rating: "9/10",
     image: gameSpy,
     body: `The Bond game drought is over. **007 First Light** is the most confident, cinematic and fully realised James Bond game since GoldenEye — a **25-hour** single-player spy thriller that respects its license, its players and the medium.
@@ -142,8 +142,8 @@ It is less freeform than Hitman: public spaces are mostly read-only, and breakin
   {
     slug: "heart-of-the-beast-review",
     origTitle: "Heart of the Beast",
-    title: "‘Heart of the Beast’ Review: Brad Pitt and His Dog Brave the Alaskan Wilderness",
-    excerpt: "David Ayer's survival drama finds its emotional center in the bond between an injured ex-soldier and his loyal military dog.",
+    title: "‘Heart of the Beast’ İncelemesi: Brad Pitt ve Köpeği Alaska’nın Vahşi Doğasına Meydan Okuyor",
+    excerpt: "David Ayer’ın hayatta kalma draması, duygusal odağını yaralı bir eski askerle sadık askerî köpeği arasındaki bağda buluyor.",
     rating: "Recommended",
     image: heartOfTheBeastCover.url,
     body: `A retired soldier, his dog and an expanse of unforgiving wilderness: *Heart of the Beast* keeps its premise simple, then finds a surprisingly affecting story in the trust between its two leads. Director David Ayer trades crowded action for a more intimate kind of peril, where surviving the next hour depends as much on companionship as on training.
@@ -163,8 +163,8 @@ The route through the wilderness may be predictable, yet *Heart of the Beast* ea
   {
     slug: "star-wars-galactic-racer-review",
     origTitle: "Star Wars: Galactic Racer",
-    title: "‘Star Wars: Galactic Racer’ Review: The Fastest Way Back to a Galaxy Far, Far Away",
-    excerpt: "Fuse Games turns the thrill of podracing into a terrific arcade racer, with risky boosts, varied vehicles and a campaign that makes every crash count.",
+    title: "‘Star Wars: Galactic Racer’ İncelemesi: Çok Çok Uzak Bir Galaksiye Dönmenin En Hızlı Yolu",
+    excerpt: "Fuse Games, podracing heyecanını riskli hız takviyeleri, çeşit çeşit araç ve her kazanın önem taşıdığı bir hikâye moduyla müthiş bir arcade yarış oyununa dönüştürüyor.",
     rating: "Recommended",
     image: galacticRacerCover.url,
     body: `*Star Wars: Galactic Racer* does not need a lightsaber to make its galaxy feel exciting. It takes the exhilarating idea behind the prequels' podracing sequence and builds an entire racing game around its speed, noise and precarious machinery. The result is at its best when the track is almost too fast to read and keeping a battered vehicle intact feels like a victory of its own.
@@ -190,8 +190,8 @@ The game's grimy visual detail and forceful engine audio give its vehicles a tan
   {
     slug: "godzilla-minus-zero-review-takashi-yamazaki",
     origTitle: "Godzilla Minus Zero",
-    title: "‘Godzilla Minus Zero’ Review: Godzilla and King Ghidorah Collide in Takashi Yamazaki’s Spectacular Sequel",
-    excerpt: "Takashi Yamazaki brings back the family at the heart of Godzilla Minus One for a grander, ferocious clash of movie monsters that still remembers the people beneath them.",
+    title: "‘Godzilla Minus Zero’ İncelemesi: Takashi Yamazaki’nin Görkemli Devam Filminde Godzilla ile King Ghidorah Karşı Karşıya",
+    excerpt: "Takashi Yamazaki, Godzilla Minus One’ın merkezindeki aileyi geri getirerek sinema canavarlarını daha büyük ve daha vahşi bir çatışmada buluşturuyor; üstelik onların ayakları altındaki insanları da unutmuyor.",
     rating: "4.5/5",
     image: godzillaCoverAsset.url,
     body: `The achievement of *Godzilla Minus One* was not simply making an enormous creature frightening again. Takashi Yamazaki made the wreckage feel personal, tying every shattered street to people still trying to build a life after war. His follow-up, *Godzilla Minus Zero*, expands the canvas without forgetting that intimate scale. This time Godzilla is not alone: King Ghidorah enters the story, and their collision turns postwar Japan into the stage for an astonishing spectacle.
@@ -227,8 +227,8 @@ The result is a sequel that thinks bigger without reducing its people to spectat
   {
     slug: "hope-review-na-hong-jin",
     origTitle: "Hope",
-    title: "‘Hope’ Review: Na Hong-jin’s Creature Feature Is a Guns-Blazing Riot of Action and Bawdy Humor",
-    excerpt: "Na Hong-jin returns with a huge, unruly Korean monster movie that pairs brilliant action craft with uneven creature effects and a baggy 160-minute shape.",
+    title: "‘Hope’ İncelemesi: Na Hong-jin’in Canavar Filmi, Silahların Susmadığı Bir Aksiyon ve Müstehcen Mizah Cümbüşü",
+    excerpt: "Na Hong-jin; ustalıklı aksiyon sahnelerini, yer yer aksayan yaratık efektleri ve 160 dakikaya yayılan dağınık anlatımıyla buluşturan devasa, dizginlenemez bir Kore canavar filmiyle dönüyor.",
     rating: "3.5/5",
     image: hopeReviewAsset.url,
     body: `For a decade after *The Wailing*, every new rumor about Na Hong-jin's next film carried the weight of an event. *Hope* finally arrives with that pressure fully visible: it is massive, messy, very funny and, for long stretches, thrillingly alive. The movie may not sustain its best ideas for all 160 minutes, but its strongest passages are the kind of action filmmaking that makes a theater lean forward at once.
@@ -250,8 +250,8 @@ What remains is an overstuffed monster movie with no great philosophical burden 
   {
     slug: "resident-evil-review-zach-cregger-austin-abrams",
     origTitle: "Resident Evil",
-    title: "‘Resident Evil’ Review: Zach Cregger Gives a Fatigued Franchise an Exhilarating Shot in the Arm",
-    excerpt: "Austin Abrams carries Zach Cregger's ferocious, funny reinvention of the survival-horror franchise through one spectacularly disastrous night in Raccoon City.",
+    title: "‘Resident Evil’ İncelemesi: Zach Cregger Yorgun Seriye Heyecan Verici Bir Can Suyu Katıyor",
+    excerpt: "Austin Abrams, Zach Cregger’ın hayatta kalma korku serisini vahşi ve komik bir üslupla yeniden yorumladığı bu filmi, Raccoon City’de felaketlerin birbirini kovaladığı tek bir gece boyunca sırtlıyor.",
     rating: "4/5",
     image: residentEvilCoverAsset.url,
     videoUrl: "https://www.youtube.com/embed/mNd1gb19A-c",
@@ -288,8 +288,8 @@ What makes this *Resident Evil* work is its confidence. It understands the games
   {
     slug: "the-uprising-review-andrew-garfield",
     origTitle: "The Uprising",
-    title: "‘The Uprising’ Review: Andrew Garfield Leads a Revolution That Feels Urgently Current",
-    excerpt: "Paul Greengrass turns England's 1381 Peasants' Revolt into a visceral historical drama, with Andrew Garfield embodying grief, fury and a working class pushed beyond its limit.",
+    title: "‘The Uprising’ İncelemesi: Andrew Garfield, Bugünü Yakıcı Biçimde Hatırlatan Bir Devrime Öncülük Ediyor",
+    excerpt: "Paul Greengrass, İngiltere’deki 1381 Köylü İsyanı’nı sarsıcı bir tarihî dramaya dönüştürürken Andrew Garfield yasın, öfkenin ve sınırlarının ötesine itilmiş bir işçi sınıfının vücut bulmuş hâli oluyor.",
     rating: "4/5",
     image: theUprisingAsset.url,
     videoUrl: "https://www.youtube.com/embed/ZVkrhHebz1Q",
@@ -314,8 +314,8 @@ Its final coda flirts with the origin of a famous English folk hero, a choice th
   {
     slug: "lanterns-inceleme-hbo-green-lantern",
     origTitle: "Lanterns",
-    title: "\"Lanterns\" Review: HBO's Green Lantern Series Shines Bright",
-    excerpt: "According to IndieWire, the series bearing the fingerprints of Chris Mundy, Damon Lindelof and Tom King ties the prickly chemistry between Aaron Pierre and Kyle Chandler to a murder investigation set in Nebraska; the result is less a comic-book show than a bold anti-buddy-cop drama.",
+    title: "“Lanterns” İncelemesi: HBO’nun Green Lantern Dizisi Işıl Işıl Parlıyor",
+    excerpt: "IndieWire’a göre Chris Mundy, Damon Lindelof ve Tom King’in izlerini taşıyan dizi, Aaron Pierre ile Kyle Chandler arasındaki sürtüşmeli uyumu Nebraska’da geçen bir cinayet soruşturmasına bağlıyor; ortaya bir çizgi roman uyarlamasından çok, zıt karakterli polis ikilisi kalıbını tersyüz eden cesur bir drama çıkıyor.",
     rating: "A-",
     image: lanternsCover.url,
     gallery: [lanternsG1.url, lanternsG2.url, lanternsG3.url, lanternsG4.url],
@@ -359,8 +359,8 @@ It looks like "Lanterns" has assembled the perfect crew. Turn those lights on.
 
     slug: "camp-miasma-inceleme-cannes",
     origTitle: "Teenage Sex and Death at Camp Miasma",
-    title: "\"Teenage Sex and Death at Camp Miasma\" Review: Jane Schoenbrun's Bloody Portal at Cannes",
-    excerpt: "According to TheWrap, Jane Schoenbrun's new film digs into everything from the transphobia of the slasher genre to Hollywood's hypocritical \"woke\" posturing; Gillian Anderson and Hannah Einbinder's pairing generates a mesmerizing charge.",
+    title: "“Teenage Sex and Death at Camp Miasma” İncelemesi: Jane Schoenbrun’dan Cannes’da Kanlı Bir Geçit",
+    excerpt: "TheWrap’e göre Jane Schoenbrun’un yeni filmi, slasher türünün transfobisinden Hollywood’un ikiyüzlü “woke” gösterişine kadar pek çok konuyu deşiyor; Gillian Anderson ile Hannah Einbinder’in birlikteliği ise büyüleyici bir elektrik yaratıyor.",
     rating: "4.5/5",
     image: miasma1,
     body: `Jane Schoenbrun's "Teenage Sex and Death at Camp Miasma" contains images and shots for which words haven't been invented yet. Some films arrive not as media you watch but as a vision that possesses you; the world Schoenbrun and their crew have meticulously built comes close to that. A world where slasher killers slam dead campers into a tetherball pole until they burst, where corpses line the walls of a video store like fiberglass insulation, where a scene of Gillian Anderson seductively hauling an armful of KFC melts into a roaring fireplace.
@@ -393,8 +393,8 @@ There are certainly sequences and motifs that may feel overwhelming — but that
 
     slug: "late-fame-inceleme-willem-dafoe",
     origTitle: "Late Fame",
-    title: "\"Late Fame\" Review: Willem Dafoe's Poet in the Autumn of His Life",
-    excerpt: "According to Wall Street Journal critic Kyle Smith, Kent Jones' Arthur Schnitzler adaptation tells the story of intellectuals fawning over a once-celebrated writer now working at a post office, delivered like a small, elegant poem.",
+    title: "“Late Fame” İncelemesi: Willem Dafoe, Ömrünün Sonbaharında Bir Şair",
+    excerpt: "Wall Street Journal eleştirmeni Kyle Smith’e göre Kent Jones’un Arthur Schnitzler uyarlaması, bir zamanlar ün kazanmış, şimdiyse postanede çalışan bir yazara hayranlıkla yaklaşan entelektüellerin hikâyesini küçük, zarif bir şiir gibi anlatıyor.",
     rating: "4/5",
     image: "/__l5e/assets-v1/cd5de13f-cb66-4817-899c-cec802694a3e/e1f3780a9297.avif",
     body: `Ed Saxberger is a man of letters: he works at the post office. He's also a literary genius. Or should that be "was" a genius? Back in 1979, he published a book of poems still admired in very small but very devoted circles. In "Late Fame" he's now elderly, played by Willem Dafoe with a calm sense of balance.
@@ -408,8 +408,8 @@ It's also a poignant nod to the past: elegantly braiding together the sensibilit
   {
     slug: "i-want-your-sex-gregg-araki-inceleme",
     origTitle: "I Want Your Sex",
-    title: "\"I Want Your Sex\" Review: Gregg Araki Skewers Gen Z's Prudishness with a Wild Comedy",
-    excerpt: "According to San Francisco Chronicle critic David Lewis, Araki's new film is a lot of fun thanks to one of the best casts of his career: Olivia Wilde's provocateur artist Erika Tracy steals the entire movie.",
+    title: "“I Want Your Sex” İncelemesi: Gregg Araki, Çılgın Bir Komediyle Z Kuşağının Tutuculuğunu Hedef Alıyor",
+    excerpt: "San Francisco Chronicle eleştirmeni David Lewis’e göre Araki’nin yeni filmi, kariyerinin en iyi oyuncu kadrolarından biri sayesinde çok eğlenceli: Olivia Wilde’ın canlandırdığı provokatör sanatçı Erika Tracy, filmin tamamında sahneyi çalıyor.",
     rating: "4/5",
     imdbRating: "6.4",
     image: "/__l5e/assets-v1/4f7e4921-657d-4899-b61f-f6b51e2c7770/a3533725b5e5.jpg",
@@ -427,8 +427,8 @@ The 90-minute film swings between erotic comedy and thriller, occasionally trust
   {
     slug: "the-shards-inceleme-ryan-murphy-bret-easton-ellis",
     origTitle: "The Shards",
-    title: "\"The Shards\" Review: Ryan Murphy's Serial Killer Thriller Stays in the Shallow End",
-    excerpt: "According to TIME critic Judy Berman, Murphy and Bret Easton Ellis's FX series, despite its eye-catching production and pile of references, never reaches the depth it's trying to convey.",
+    title: "“The Shards” İncelemesi: Ryan Murphy’nin Seri Katil Gerilimi Sığ Sulardan Çıkamıyor",
+    excerpt: "TIME eleştirmeni Judy Berman’a göre Murphy ile Bret Easton Ellis’in FX dizisi, göz alıcı prodüksiyonuna ve sayısız göndermesine rağmen aktarmaya çalıştığı derinliğe bir türlü ulaşamıyor.",
     rating: "2.5/5",
     imdbRating: "5.8",
     image: "/__l5e/assets-v1/be94dc0b-a977-4a10-a99a-b33a3cc63a80/25873eeb06ef.webp",
@@ -449,8 +449,8 @@ The show unravels in its final episodes. In one, it plays on the name of the Ham
   {
     slug: "los-vampires-inceleme",
     origTitle: "Los Vampires",
-    title: "\"Los Vampires\" Review: A Charming But Uneven Hollywood Throwback Where Two Draculas Clash",
-    excerpt: "Written and directed by Craig Mitchell, the film adds a dark fiction to the legendary production process in which Universal's 1931 \"Dracula\" was shot on the same sets with both English- and Spanish-speaking casts.",
+    title: "“Los Vampires” İncelemesi: İki Dracula’nın Çarpıştığı, Eski Hollywood’a Sevimli Ama Dengesiz Bir Yolculuk",
+    excerpt: "Craig Mitchell’ın yazıp yönettiği film, Universal’ın 1931 yapımı “Dracula”sının aynı setlerde hem İngilizce hem İspanyolca konuşan oyuncularla çekildiği efsanevi yapım sürecine karanlık bir kurmaca ekliyor.",
     rating: "3/5",
     image: "/__l5e/assets-v1/289cd565-85ad-48d8-86b8-b68b2137c342/ad0bebdd4dbd.webp",
     body: "The arrival of sound cinema was, in many ways, a massive upheaval for the film industry: theater owners had to install expensive new equipment, while studios could no longer export their products to lucrative foreign markets as easily as before. One of the era's solutions to that second problem was shooting alternate versions of the same film in different languages.\n\nUniversal took this idea further than most studios at the end of 1930, shooting 'Dracula' twice on the same sets with completely different casts and directors. One, of course, was the legendary film starring Bela Lugosi and directed by Tod Browning. The other bore the signature of George Melford, who had directed Rudolph Valentino in 'The Sheik'; the caped bloodsucker was played by Spanish immigrant actor Carlos Villarias. This second version was forgotten for decades, but after restorations and revival screenings in the 1990s, some viewers declared it the better of the two.\n\nWriter-director Craig Mitchell's 'Los Vampires' imagines the sinister events unfolding on that very shared set: the rivalry between two Draculas, with one crew working days and the other nights on the same sets, spiraling into a tension woven from jealousy, class divides and eerie coincidences.\n\nThe film's greatest strength is its atmosphere: period-accurate design, cinematography that plays with shadow, and a sly irony underscoring the secondary status the studio system assigned to the Spanish-speaking crew. However, the narrative sometimes loses its balance as it swings between fictional tension and a lesson in film history; some side characters remain underdeveloped.\n\nStill, for those who share a cinephile's curiosity about 'Dracula's lost twin, 'Los Vampires' offers an engaging watch despite its flaws.",
@@ -459,8 +459,8 @@ The show unravels in its final episodes. In one, it plays on the name of the Ham
   {
     slug: "spider-man-brand-new-day-inceleme",
     origTitle: "Spider-Man: Brand New Day",
-    title: "\"Spider-Man: Brand New Day\" Proves It's Possible to Try Harder with a Marvel Movie",
-    excerpt: "In the film directed by Destin Daniel Cretton, Tom Holland's Peter Parker is a loner who's been erased from everyone's memory after 'No Way Home.' According to TIME critic Stephanie Zacharek, there's an enjoyable summer movie hiding beneath the overcrowded mechanics.",
+    title: "“Spider-Man: Brand New Day”, Bir Marvel Filmi İçin Daha Fazla Çaba Göstermenin Mümkün Olduğunu Kanıtlıyor",
+    excerpt: "Destin Daniel Cretton’ın yönettiği filmde Tom Holland’ın Peter Parker’ı, “No Way Home” sonrasında herkesin hafızasından silinmiş, yapayalnız biri. TIME eleştirmeni Stephanie Zacharek’e göre aşırı yüklü olay örgüsünün altında keyifli bir yaz filmi saklı.",
     rating: "3.5/5",
     imdbRating: "8.1",
     image: "/__l5e/assets-v1/751dd6e8-0c8c-4423-affb-bae75d4e2604/c7239471c22a.webp",
@@ -473,8 +473,8 @@ Holland's sincerity remains the film's biggest asset: Peter's loneliness never h
   {
     slug: "amadeus-en-yanlis-anlasilan-oscar-filmi",
     origTitle: "Amadeus",
-    title: "Could \"Amadeus\" Be the Most Misunderstood Best Picture Winner of All Time?",
-    excerpt: "Miloš Forman's Best Picture-winning masterpiece turns 40. According to BBC Culture, despite being accused of historical inaccuracy, the film's real subject was never Mozart's life — but a hidden critique of the Cold War-era USSR.",
+    title: "“Amadeus”, Tüm Zamanların En Yanlış Anlaşılan En İyi Film Oscar’ı Sahibi Olabilir mi?",
+    excerpt: "Miloš Forman’ın En İyi Film Oscar’lı başyapıtı 40 yaşında. BBC Culture’a göre tarihsel açıdan hatalı olmakla suçlansa da filmin asıl konusu hiçbir zaman Mozart’ın hayatı değildi; Soğuk Savaş dönemi SSCB’sine örtük bir eleştiriydi.",
     rating: "5/5",
     image: "/__l5e/assets-v1/e474fc4d-84ce-427c-a497-bb266656cd9a/bdcfc5ef6736.webp",
     body: `According to BBC Culture writer Tom Joudrey, Miloš Forman's 1984 film 'Amadeus' has been misread since the day it came out. The film, which won eight Oscars — including Best Picture, Best Director, and Best Actor for F. Murray Abraham — has largely been criticized as a distorted biography of Mozart's life. But according to Joudrey, the film's real subject was never Mozart at all.
@@ -488,8 +488,8 @@ Looking back 40 years later, 'Amadeus' isn't just a grand costume drama; it's a 
   {
     slug: "a-useful-ghost-thai-black-comedy",
     origTitle: "A Useful Ghost",
-    title: "\"A Useful Ghost\" — A Black Comedy That Takes On Thai Politics Through a Haunted Vacuum Cleaner",
-    excerpt: "Ratchapoom Boonbunchachoke's sleek and singular film delivers an exhilarating black comedy that collides a restless spirit possessing a vacuum cleaner with Thailand's political past — according to the Guardian's review, one of the most original works of the year.",
+    title: "“A Useful Ghost” — Hayaletli Bir Elektrikli Süpürge Üzerinden Tayland Siyasetini Hedef Alan Bir Kara Komedi",
+    excerpt: "Ratchapoom Boonbunchachoke’un şık ve kendine has filmi, elektrikli süpürgeye musallat olmuş huzursuz bir ruhu Tayland’ın siyasi geçmişiyle çarpıştıran heyecan verici bir kara komedi sunuyor; Guardian’ın eleştirisine göre yılın en özgün işlerinden biri.",
     rating: "4/5",
     image: aUsefulGhostAsset.url,
     body: `According to the Guardian's review, Ratchapoom Boonbunchachoke's debut feature 'A Useful Ghost' is one of the most original and daring cross-genre experiments of recent years. The film blends a ghost story, political allegory, queer romantic melodrama and industrial black comedy under a single roof — and, surprisingly, all of it holds together.
@@ -503,8 +503,8 @@ At the center of the story is a young man who believes his dead wife's spirit ha
   {
     slug: "possession-inceleme-plantasyon-korku-drami-sky-atlantic",
     origTitle: "Possession",
-    title: "\"Possession\" Review: A Nightmarish Plantation Drama with a Divisive Paranormal Twist",
-    excerpt: "Gugu Mbatha-Raw plays a lawyer sent to Jamaica to untangle an inheritance mystery. What follows is full of fears, past injustices, and a supernatural element you'll either love or hate.",
+    title: "“Possession” İncelemesi: İzleyiciyi İkiye Bölen Doğaüstü Sürpriziyle Kâbus Gibi Bir Plantasyon Draması",
+    excerpt: "Gugu Mbatha-Raw, bir miras gizemini çözmek üzere Jamaika’ya gönderilen bir avukatı canlandırıyor. Ardından gelenler korkularla, geçmişin adaletsizlikleriyle ve ya seveceğiniz ya da nefret edeceğiniz doğaüstü bir unsurla dolu.",
     rating: "3/5",
     imdbRating: "6.2",
     image: possessionAsset.url,
@@ -520,8 +520,8 @@ The show's greatest strength is its atmosphere and Mbatha-Raw's measured, tensio
   {
     slug: "spider-man-brand-new-day-sf-chronicle-inceleme",
     origTitle: "Spider-Man: Brand New Day",
-    title: "\"Spider-Man: Brand New Day\" Is Tom Holland's Best Spider-Man Movie Yet",
-    excerpt: "According to San Francisco Chronicle critic Mick LaSalle, Destin Daniel Cretton's film ties together every thread of Holland's trilogy and moves the franchise to a place that's both more emotional and more fun.",
+    title: "“Spider-Man: Brand New Day”, Tom Holland’ın Şimdiye Kadarki En İyi Spider-Man Filmi",
+    excerpt: "San Francisco Chronicle eleştirmeni Mick LaSalle’e göre Destin Daniel Cretton’ın filmi, Holland’ın üçlemesindeki tüm hikâye ipliklerini birleştiriyor ve seriyi hem daha duygusal hem de daha eğlenceli bir noktaya taşıyor.",
     rating: "4/5",
     imdbRating: "8.1",
     image: "/__l5e/assets-v1/46f9cd50-4da3-4eb7-b447-b94a66df09bd/spiderman-brand-new-day-hq.jpg",
@@ -536,8 +536,8 @@ The result is a solid antidote to Marvel's late-stage formula fatigue: a surpris
   {
     slug: "animal-farm-serkis-orwell-adaptation",
     origTitle: "Animal Farm",
-    title: "\"Animal Farm\" — Andy Serkis's Orwell Adaptation Drowns a Classic in Sugar",
-    excerpt: "The new animated feature, voiced by Seth Rogen, Laverne Cox and Glenn Close, betrays Orwell by turning his Stalinism allegory into a happily-ever-after pantomime — according to the Guardian, the most gutless adaptation of the year.",
+    title: "“Animal Farm” — Andy Serkis’in Orwell Uyarlaması Bir Klasiği Şekere Buluyor",
+    excerpt: "Seth Rogen, Laverne Cox ve Glenn Close’un seslendirdiği yeni animasyon, Orwell’ın Stalinizm alegorisini mutlu sonla biten bir gösteriye çevirerek yazara ihanet ediyor; Guardian’a göre yılın en cesaretsiz uyarlaması.",
     rating: "2/5",
     image: animalFarmAsset.url,
     body: `According to the Guardian's review, the new 'Animal Farm' animated film, directed by Andy Serkis and written by Nicholas Stoller, is one of the most distasteful cinematic crimes committed against George Orwell's 1945 classic. Aside from its cheap-looking digital aesthetic, the film's real problem is that it defangs Orwell's Stalinism allegory with a Disney-style happy ending.
@@ -552,8 +552,8 @@ The voice cast, featuring Seth Rogen, Laverne Cox, Glenn Close and Kieran Culkin
   {
     slug: "the-day-she-returns-hong-sang-soo",
     origTitle: "The Day She Returns",
-    title: "\"The Day She Returns\" — Hong Sang-soo's Slow-Burn, Boozy Meditation",
-    excerpt: "Hong Sang-soo, the prolific lo-fi master of Korean cinema, delivers another familiar yet mysteriously addictive work with his new black-and-white film about the return of an actress on hiatus.",
+    title: "“The Day She Returns” — Hong Sang-soo’dan Ağır Ağır Açılan, İçkili Bir Tefekkür",
+    excerpt: "Kore sinemasının üretken, düşük bütçeli sinema ustası Hong Sang-soo, oyunculuğa ara vermiş bir kadının dönüşünü anlattığı yeni siyah-beyaz filmiyle tanıdık ama gizemli biçimde bağımlılık yaratan bir işe daha imza atıyor.",
     rating: "4/5",
     image: theDayShereturnsAsset.url,
     body: `According to the Guardian's review, the new black-and-white film from prolific Korean cinema master Hong Sang-soo, 'The Day She Returns,' won't surprise his devoted followers — and that's a good thing. Long takes, a fixed camera angle, conversations over restaurant tables, and abrupt, inexplicable zoom-ins are all right where they should be.
@@ -568,8 +568,8 @@ Song Seon-mi plays an actress trying to return to cinema after a long break. Tor
   {
     slug: "project-hail-mary-boston-globe-inceleme",
     origTitle: "Project Hail Mary",
-    title: "\"Project Hail Mary\" Review: Ryan Gosling and an Alien's Surprising Friendship",
-    excerpt: "According to Boston Globe critic Odie Henderson, the Lord & Miller film is both a grand space adventure and an unexpectedly emotional character study: \"Imagine HAL 9000 and Dave being best friends.\"",
+    title: "“Project Hail Mary” İncelemesi: Ryan Gosling ile Bir Uzaylının Şaşırtıcı Dostluğu",
+    excerpt: "Boston Globe eleştirmeni Odie Henderson’a göre Lord ve Miller’ın filmi hem büyük bir uzay macerası hem de beklenmedik ölçüde duygusal bir karakter incelemesi: “HAL 9000 ile Dave’in en iyi arkadaş olduğunu düşünün.”",
     rating: "4/5",
     imdbRating: "7.9",
     image: "/__l5e/assets-v1/78a6dda8-0fdc-4c61-bace-3f103cff7d74/632433bdb55f.avif",
@@ -592,8 +592,8 @@ Directors: Christopher Miller, Phil Lord. Screenplay: Drew Goddard (based on the
   {
     slug: "they-fight-boxing-drama-holland",
     origTitle: "They Fight",
-    title: "\"They Fight\" — André Holland's Boxing Drama Is an Emotional \"Gut Punch\"",
-    excerpt: "Carrying on the tradition of 'Creed' and 'Million Dollar Baby,' 'They Fight' finds compassion and warmth against the harsh backdrop of Washington DC through an unforgettable André Holland performance — according to the Guardian, one of the year's most touching sports films.",
+    title: "“They Fight” — André Holland’ın Boks Draması Duygusal Bir “Yumruk” Gibi",
+    excerpt: "“Creed” ve “Million Dollar Baby” geleneğini sürdüren “They Fight”, unutulmaz bir André Holland performansıyla Washington DC’nin sert atmosferinde şefkat ve sıcaklık buluyor; Guardian’a göre yılın en dokunaklı spor filmlerinden biri.",
     rating: "4/5",
     image: theyFightAsset.url,
     body: `According to the Guardian's review, 'They Fight' is a boxing drama descended from 'Creed' and 'Million Dollar Baby' — and it proves once again why boxing remains a timeless allegory for the human condition. This time, the man facing the threat of hitting the canvas is Walt, played by André Holland.
@@ -607,8 +607,8 @@ Once a rising star on Washington DC's boxing scene, Walt lost his career to the 
   {
     slug: "sterling-point-inceleme-genc-draması-prime-video",
     origTitle: "Sterling Point",
-    title: "\"Sterling Point\" Review: A Flawless Escapist Series from the Gossip Girl Team",
-    excerpt: "Set on an idyllic Canadian island, this coming-of-age story is plenty soapy: it swaps out the darkness of recent teen dramas for warmth, humor, and a surprisingly gripping mystery.",
+    title: "“Sterling Point” İncelemesi: Gossip Girl Ekibinden Kusursuz Bir Kaçış Dizisi",
+    excerpt: "Kanada’nın cennet gibi bir adasında geçen bu büyüme hikâyesi, entrika ve melodram bakımından oldukça zengin: Son dönemin gençlik dizilerindeki karanlığın yerine sıcaklığı, mizahı ve şaşırtıcı derecede sürükleyici bir gizemi koyuyor.",
     rating: "4/5",
     imdbRating: "7.0",
     image: sterlingPointAsset.url,
@@ -624,8 +624,8 @@ Coming from the creators of Gossip Girl, the show does what that team does best:
   {
     slug: "lucky-inceleme-anya-taylor-joy-apple-tv",
     origTitle: "Lucky",
-    title: "\"Lucky\" Review: Anya Taylor-Joy's Getaway Is a Crime Thriller That's Both Fast-Paced and Thoughtful",
-    excerpt: "According to TVGuide critic Keith Phipps, Apple TV's seven-episode miniseries makes you marvel at a con artist's skill while questioning the cost of getting away with it — Taylor-Joy is joined by Annette Bening and Timothy Olyphant.",
+    title: "“Lucky” İncelemesi: Anya Taylor-Joy’un Kaçışı Hem Tempolu Hem Düşündürücü Bir Suç Gerilimi",
+    excerpt: "TVGuide eleştirmeni Keith Phipps’e göre Apple TV’nin yedi bölümlük mini dizisi, bir dolandırıcının becerisine hayran bırakırken cezasız kurtulmanın bedelini de sorgulatıyor; Taylor-Joy’a Annette Bening ve Timothy Olyphant eşlik ediyor.",
     rating: "8.5/10",
     imdbRating: "7.6",
     image: "/__l5e/assets-v1/fe99a6fc-9e5a-4fcc-860e-c1f9d28861e3/742ec822fb31.webp",
@@ -650,8 +650,8 @@ The first two episodes premiered on Apple TV on Wednesday, July 15; subsequent e
   {
     slug: "deep-water-aaron-eckhart-shark",
     origTitle: "Deep Water",
-    title: "\"Deep Water\" — Plane Crash Survivors Play Existential Roulette with Sharks",
-    excerpt: "Renny Harlin's new disaster movie follows plane passengers trying to survive in shark-infested waters — Aaron Eckhart leads a genre delight with just the right dose of action and schadenfreude.",
+    title: "“Deep Water” — Uçak Kazasından Kurtulanlar Köpekbalıklarıyla Varoluşsal Rulet Oynuyor",
+    excerpt: "Renny Harlin’in yeni felaket filmi, köpekbalıklarıyla dolu sularda hayatta kalmaya çalışan uçak yolcularını izliyor; Aaron Eckhart’ın başrolde olduğu film, aksiyonla başkalarının felaketinden alınan hazzı tam kıvamında buluşturan bir tür ziyafeti.",
     rating: "3/5",
     image: deepWaterAsset.url,
     body: `According to the Guardian's review, a disaster movie done well scratches an itch nothing else can: it packages sentimentality, tension and schadenfreude into neat little action bundles. Renny Harlin's new effort, 'Deep Water,' knows this exactly — and is fully aware of what it's doing, even as it winks at plenty of predecessors.
@@ -668,8 +668,8 @@ Aaron Eckhart plays the character who rises to lead the survivors after an Ameri
   {
     slug: "the-odyssey-nolan-inceleme",
     origTitle: "The Odyssey",
-    title: "\"The Odyssey\" — Nolan's Bronze Age Epic Is Magnificent, but Cool at the Heart",
-    excerpt: "Shot in IMAX 65mm, Christopher Nolan's 'The Odyssey' offers a grand mythological journey starring Matt Damon and Zendaya — but according to Rolling Stone, its technical grandeur sometimes walks hand in hand with an emotional chill.",
+    title: "“The Odyssey” — Nolan’ın Tunç Çağı Destanı Görkemli Ama Kalbi Soğuk",
+    excerpt: "IMAX 65 mm formatında çekilen Christopher Nolan imzalı “The Odyssey”, Matt Damon ve Zendaya’nın başrollerinde büyük bir mitolojik yolculuk sunuyor; ancak Rolling Stone’a göre teknik ihtişamına zaman zaman duygusal bir soğukluk eşlik ediyor.",
     rating: "3.5/5",
     image: "/__l5e/assets-v1/4fde943e-5272-44ce-971b-0849796439e1/fac9b0f2884e.webp",
     body: `According to David Fear's review in Rolling Stone, Christopher Nolan's 'The Odyssey' is the most daring formal experiment the director has ever attempted: staging Homer's epic in IMAX 65mm, mostly in real locations and with minimal digital effects.
@@ -686,8 +686,8 @@ Matt Damon's Odysseus is father, husband, warrior, king, and a soul lost in the 
   {
     slug: "the-hawk-will-ferrell-golf",
     origTitle: "The Hawk",
-    title: "\"The Hawk\" — Will Ferrell's Golf Comedy Is No \"Talladega Nights\"",
-    excerpt: "Netflix's new golf comedy \"The Hawk,\" starring Will Ferrell, never comes close to the heft of his star's classic sports comedies: Ferrell is familiar but tired, the pacing is slow, and the laughs are few.",
+    title: "“The Hawk” — Will Ferrell’ın Golf Komedisi Bir “Talladega Nights” Değil",
+    excerpt: "Netflix’in Will Ferrell başrollü yeni golf komedisi “The Hawk”, yıldızının klasikleşmiş spor komedilerinin ağırlığına yaklaşamıyor: Ferrell tanıdık ama yorgun, tempo düşük, kahkahalar ise seyrek.",
     rating: "2.5/5",
     image: "/__l5e/assets-v1/97de953b-ae63-455e-a185-eebe141392f2/4a4ea25b4356.webp",
     body: `According to Alison Herman's review in Variety, Will Ferrell's new Netflix golf comedy *The Hawk* promises to compete in the same league as the sports comedies etched into audience memory, like 'Talladega Nights' and 'Blades of Glory' — but once it hits the course, it falls well below that league.
@@ -703,8 +703,8 @@ Ferrell plays Lonnie "The Hawk" Hawkins, a grumpy, alcoholic, fading professiona
   {
     slug: "evil-dead-burn",
     origTitle: "Evil Dead Burn",
-    title: "\"Evil Dead Burn\" — The Franchise's Darkest, Most Nerve-Wracking Chapter",
-    excerpt: "The new Evil Dead film, taken over by Sébastien Vaniček, sets aside splatstick laughs and turns into pure nightmare. Souheila Yacoub leads, with Deadites out in full force.",
+    title: "“Evil Dead Burn” — Serinin En Karanlık, En Sinir Bozucu Bölümü",
+    excerpt: "Yönetmenliği Sébastien Vaniček’in devraldığı yeni Evil Dead filmi, kanlı fiziksel komediyi bir kenara bırakıp saf bir kâbusa dönüşüyor. Başrolde Souheila Yacoub var; Deadites ise bütün güçleriyle sahnede.",
     rating: "4/5",
     image: "/__l5e/assets-v1/f0e6c61d-6c5a-4d10-b1c6-db14f1dc5a21/77eb447d9b8f.avif",
     body: `According to Ben Travis's review in Empire, the Evil Dead franchise has swung on a tonal scale from the beginning: on one end the splatstick laughter of *Evil Dead II* and *Army Of Darkness*, on the other the raw horror of Sam Raimi's original and Fede Alvarez's 2013 remake. Lee Cronin's *Evil Dead Rise* merged the two strands; Sébastien Vaniček's *Evil Dead Burn*, which he's now taken over, resolutely swings the needle to the darkest extreme — with nerve-wrackingly effective results.
@@ -718,8 +718,8 @@ According to Empire, *Evil Dead Burn* isn't so much about winning the franchise 
   {
     slug: "the-furious",
     origTitle: "The Furious",
-    title: "\"The Furious\" — Hong Kong Action Cinema's Bone-Crushing Comeback",
-    excerpt: "Kenji Tanigaki, promoted from action choreographer to director, takes Taken's basic skeleton and stretches it into two hours of uninterrupted fight-scene recital. Xie Miao and Joe Taslim never let up.",
+    title: "“The Furious” — Hong Kong Aksiyon Sinemasının Kemik Kıran Dönüşü",
+    excerpt: "Aksiyon koreograflığından yönetmenliğe geçen Kenji Tanigaki, Taken’ın temel iskeletini alıp iki saatlik kesintisiz bir dövüş gösterisine dönüştürüyor. Xie Miao ve Joe Taslim bir an olsun hız kesmiyor.",
     rating: "4/5",
     image: "/__l5e/assets-v1/7809f3ca-276b-4fd6-aabb-6fe59c9e965f/81623f60a4b3.avif",
     body: `According to Harry Stainer's review in Empire, by the time *The Furious*'s blood-soaked final duel arrives, you'd struggle to count five minutes over its two-hour runtime when someone isn't being punched, kicked, or having their face slammed into a table. Kenji Tanigaki, moving from action choreography to the director's chair, is completely at home in this territory; he takes the "my daughter's been kidnapped" skeleton of *Taken* and wraps it into a full-blown celebration of Hong Kong martial arts cinema.
@@ -731,8 +731,8 @@ The film's success lies in knowing exactly what the genre's audience wants and d
   {
     slug: "500-miles",
     origTitle: "500 Miles",
-    title: "\"500 Miles\" — A Tender Road Movie from Sheffield to Dingle",
-    excerpt: "In Morgan Matthews' sensitive road movie, two brothers run away to reunite with their grandfather (Bill Nighy). Tears guaranteed.",
+    title: "“500 Miles” — Sheffield’dan Dingle’a Uzanan Şefkatli Bir Yol Filmi",
+    excerpt: "Morgan Matthews’ın duyarlı yol filminde iki kardeş, dedelerine (Bill Nighy) kavuşmak için evden kaçıyor. Gözyaşları garanti.",
     rating: "3.5/5",
     image: "/__l5e/assets-v1/295d7bf9-7708-4133-84a9-9137defda072/a471559adef3.avif",
     body: `According to Barry Levitt's review in Empire, Morgan Matthews' *500 Miles* is not, despite its title, a Proclaimers musical — but emotionally, it's fed by the same vein as that song. Finn (Roman Griffin Davis) and his little brother Charlie (Dexter Sol Ansell) have run away from home, and their plan is simple: travel from Sheffield to a small town on Ireland's Dingle coast to reunite with their estranged grandfather (Bill Nighy) and bring their family back together.
@@ -746,8 +746,8 @@ According to Empire, *500 Miles* flirts with melodrama without falling into it; 
   {
     slug: "voicemails-for-isabelle",
     origTitle: "Voicemails For Isabelle",
-    title: "\"Voicemails For Isabelle\" — A Warm Romantic Comedy Born from a Wrong Number",
-    excerpt: "The chemistry between Zoey Deutch and Nick Robinson carries a most unusual love story that begins when voicemails left for a deceased sister reach the wrong phone.",
+    title: "“Voicemails For Isabelle” — Yanlış Numaradan Doğan Sıcacık Bir Romantik Komedi",
+    excerpt: "Zoey Deutch ile Nick Robinson arasındaki uyum, ölen bir kız kardeşe bırakılan sesli mesajların yanlış telefona ulaşmasıyla başlayan son derece sıra dışı bir aşk hikâyesini sırtlıyor.",
     rating: "3.5/5",
     image: "/__l5e/assets-v1/18b3d1be-d808-4621-9e0b-53c9f2b60e7e/a1052aa810be.avif",
     body: `According to Jordan King's review in Empire, *Voicemails For Isabelle* is an unexpectedly sensitive genre blend that weaves the classic "wrong number" rom-com device together with grief. Jill (Zoey Deutch), a promising pastry chef living a chaotic life in San Francisco, leaves her dead sister Isabelle a voicemail every day — messages that serve as both her therapy and her diary.
@@ -761,8 +761,8 @@ The direction plays it safe at times and leans too heavily on rom-com formula to
   {
     slug: "nirvanna-the-band-the-show-the-movie",
     origTitle: "Nirvanna The Band The Show The Movie",
-    title: "\"Nirvanna The Band The Show The Movie\" — A Brilliant Original on the Brink of Madness",
-    excerpt: "The decades-long dream Matt Johnson and Jay McCarrol have chased — playing a show at Toronto's Rivoli — finally makes it to the big screen. Insane, ingenious, heartbreaking.",
+    title: "“Nirvanna The Band The Show The Movie” — Deliliğin Eşiğinde, Müthiş Özgün Bir Film",
+    excerpt: "Matt Johnson ile Jay McCarrol’ın onlarca yıldır peşinden koştuğu hayal, Toronto’daki Rivoli’de konser verme arzusu, sonunda beyazperdeye taşınıyor. Çılgın, dahiyane, yürek burkan.",
     rating: "4.5/5",
     image: "/__l5e/assets-v1/92a46c27-5a03-4106-b7b3-4162f39ee7f9/57d9366be4c8.avif",
     body: `According to Ben Travis's review in Empire, the opening scene of *Nirvanna The Band The Show The Movie* — shot all the way back in 2008 — begins with Matt Johnson's character declaring "what you're about to see is something you've never seen before." The character imagines that his band (which isn't even a real band — it's him, his friend Jay, and a keyboard) will one day play Toronto's legendary venue, the Rivoli. But that line holds up for the film itself too: insane, brilliant, ache-from-laughing funny, heartbreaking, and entirely original.
@@ -776,8 +776,8 @@ Travis calls the film "an act of ingenuity by its mere existence." For anyone cu
   {
     slug: "moana-live-action",
     origTitle: "Moana",
-    title: "\"Moana\" — Disney's First Live-Action Remake That Actually Works",
-    excerpt: "Half the film is still animation, Dwayne Johnson is in full Maui mode, and new star Catherine Laga'aia plays Moana with radiant enthusiasm. According to Owen Gleiberman, this is Disney's first genuinely successful live-action adaptation.",
+    title: "“Moana” — Disney’nin Gerçekten İşe Yarayan İlk Canlı Çekim Yeniden Çevrimi",
+    excerpt: "Filmin yarısı hâlâ animasyon, Dwayne Johnson tam anlamıyla Maui’ye dönüşmüş, yeni yıldız Catherine Laga’aia ise Moana’yı ışıl ışıl bir coşkuyla canlandırıyor. Owen Gleiberman’a göre bu, Disney’nin gerçekten başarılı ilk canlı çekim uyarlaması.",
     rating: "4/5",
     image: "/__l5e/assets-v1/cc4d9f5f-e716-4745-9405-20606e5616ee/6358dc99c9a4.webp",
     body: `According to Owen Gleiberman's piece in Variety, Disney's string of live-action adaptations in recent years has been stuck between faithfulness and uninspired blandness. 'Moana' breaks that cycle: directed by Thomas Kail, the film stays warmly faithful to the 2016 original while carving out its own visual poetic language.
@@ -791,8 +791,8 @@ Gleiberman's central argument is this: unlike attempts such as 'The Lion King' o
   {
     slug: "night-nurse",
     origTitle: "Night Nurse",
-    title: "\"Night Nurse\" — A Provocative Caregiving Fantasy Where Two Deviants' Paths Cross",
-    excerpt: "Georgia Bernstein's bold feature debut turns a real case of exploitation into a disturbingly lavish erotic thriller. Bruce McKenzie and Cemre Paksoy are mesmerizing.",
+    title: "“Night Nurse” — İki Sapkının Yollarının Kesiştiği Kışkırtıcı Bir Bakıcılık Fantezisi",
+    excerpt: "Georgia Bernstein’ın cesur ilk uzun metrajı, gerçek bir istismar vakasını rahatsız edici ölçüde gösterişli bir erotik gerilime dönüştürüyor. Bruce McKenzie ve Cemre Paksoy büyülüyor.",
     rating: "3.5/5",
     image: "/__l5e/assets-v1/0a83f2eb-46a8-44d0-8de6-b7bdb170d9b0/1b2ee0af6835.webp",
     body: `According to Beatrice Loayza's review in Variety, Georgia Bernstein's directorial debut 'Night Nurse' carries a dangerous freshness. Drawing on a real story of exploitation, the film treats its subject not as a didactic drama but as a provocative, dark, occasionally funny erotic thriller — and, for the most part, that risk pays off.
@@ -806,8 +806,8 @@ The film's weak point is that the further it drifts from the true story, the loo
   {
     slug: "young-washington",
     origTitle: "Young Washington",
-    title: "\"Young Washington\" — A Biopic That Shoots Itself in the Foot with a Closing Fundraising Pitch",
-    excerpt: "Directed by Jon Erwin and produced by Angel Studios, the film tries to mythologize George Washington while poisoning what could have been a nearly satisfying biopic with a donation appeal tacked onto the end credits.",
+    title: "“Young Washington” — Finaldeki Bağış Çağrısıyla Kendi Ayağına Sıkan Bir Biyografi",
+    excerpt: "Jon Erwin’in yönettiği, Angel Studios’un yapımcılığını üstlendiği film, George Washington’ı mitleştirmeye çalışırken kapanış jeneriğine eklediği bağış çağrısıyla neredeyse tatmin edici olabilecek bir biyografiyi zehirliyor.",
     rating: "2.5/5",
     image: "/__l5e/assets-v1/e706e279-6f5b-4163-9c37-73be55a4c46a/af56945dd2e0.avif",
     body: `No other major studio is as devoted to catering to conservative Christian and American values as Angel Studios — and no other studio believes so little that Americans actually share those values. While other producers release their films into theaters and wait for audiences to buy tickets, Angel Studios insists on ending its most jingoistic, most religious films with a last-minute fundraising appeal slapped over the closing credits.
@@ -825,8 +825,8 @@ In the 21st century, a simplistic portrait of the Founding Fathers is a hard sel
   {
     slug: "the-last-one-for-the-road",
     origTitle: "The Last One for the Road",
-    title: "\"The Last One for the Road\" — A Tragicomic Odyssey of Old Drunks on the Road to Venice",
-    excerpt: "Francesco Sossai's film portrays alcoholism not as a disease but as the inevitable hour of incorrigible optimists. Bleak yet funny, a peculiar buddy road movie.",
+    title: "“The Last One for the Road” — Yaşlı Ayyaşların Venedik Yolundaki Trajikomik Serüveni",
+    excerpt: "Francesco Sossai’nin filmi, alkolizmi bir hastalık olarak değil, iflah olmaz iyimserlerin kaçınılmaz sonu olarak resmediyor. Kasvetli ama komik, kendine özgü bir dostluk ve yol filmi.",
     rating: "3.5/5",
     image: lastOneRoadAsset.url,
     body: `Francesco Sossai's new film doesn't give much credence to suspicious clinical terms like "alcoholism." Instead, it looks at drunkenness, blurriness, sorrow, and the occasional bout of nausea with wry indulgence; it winks at the tragicomic optimism of middle-aged drunks with the superpower to keep drinking at any hour of the day, always asking for "just one more." The same deadpan joke that repeats at the film's beginning and end sums it all up: someone on the brink of a permanent goodbye shouts a vital piece of advice, but it comes out too slurred to understand.
@@ -840,8 +840,8 @@ Sossai shows Venice without a hint of sentimentality: a brief glimpse of Santa C
   {
     slug: "enola-holmes-3",
     origTitle: "Enola Holmes 3",
-    title: "\"Enola Holmes 3\" — A Lovable Detective Saga Going Through Growing Pains",
-    excerpt: "Millie Bobby Brown's charm is still firmly intact, but the third film, now taken over by Philip Barantini, can't decide between an attempt at maturity and the franchise's exuberant spirit.",
+    title: "“Enola Holmes 3” — Büyüme Sancıları Çeken Sevimli Bir Dedektiflik Serüveni",
+    excerpt: "Millie Bobby Brown’ın cazibesi yerli yerinde, ancak yönetmenliğini Philip Barantini’nin devraldığı üçüncü film, olgunlaşma çabasıyla serinin coşkulu ruhu arasında bir türlü karar veremiyor.",
     rating: "2.5/5",
     image: "/__l5e/assets-v1/b3cfde76-b2ea-43e2-a430-e64f3a93c0c2/2cd09b4a5932.webp",
     body: `Time doesn't stop; apparently not even for a largely lovable Netflix film franchise. Growing pains are a fate not even the sharpest minds can escape. *Enola Holmes 3*, with Philip Barantini in the director's chair, brings Millie Bobby Brown's young detective back once more; but the franchise doesn't quite recapture the exuberant rhythm of the first two films this time.
@@ -860,8 +860,8 @@ In the end, *Enola Holmes 3* still offers a watchable Netflix evening for Millie
     slug: "glastonbury-the-movie",
 
     origTitle: "Glastonbury the Movie",
-    title: "\"Glastonbury the Movie\" — Mud, Music, and Lost Innocence",
-    excerpt: "A nostalgic and almost anthropological journey, shot in 16mm texture, into the muddy and free-spirited soul of the 1993 Glastonbury festival, far from the noise of the digital world.",
+    title: "“Glastonbury the Movie” — Çamur, Müzik ve Yitirilen Masumiyet",
+    excerpt: "Dijital dünyanın gürültüsünden uzakta, 16 mm’nin dokusuyla çekilmiş, 1993 Glastonbury festivalinin çamurlu ve özgür ruhuna nostaljik, neredeyse antropolojik bir yolculuk.",
     rating: "4/5",
     image: glastonburyImg,
     videoUrl: "https://www.youtube.com/embed/jKAfhqmJ4ME",
@@ -878,8 +878,8 @@ In the end, looking back thirty years later, *Glastonbury the Movie* represents 
   {
     slug: "strung",
     origTitle: "Strung",
-    title: "\"Strung\" — A Genre Experiment Trapped Between the Clash of Horror and Melodrama",
-    excerpt: "An interesting collision of Blumhouse-style thrills and Tyler Perry-style dramatics, Strung offers a genre experiment that struggles with a dense script but intrigues with its atmosphere.",
+    title: "“Strung” — Korku ile Melodramın Çatışması Arasında Sıkışan Bir Tür Denemesi",
+    excerpt: "Blumhouse tarzı gerilimle Tyler Perry tarzı dramatik anlatıyı ilginç biçimde çarpıştıran Strung, yoğun senaryosuyla boğuşan ama atmosferiyle merak uyandıran bir tür denemesi sunuyor.",
     rating: "2.5/5",
     image: strungImg,
     body: `What happens when Blumhouse's assembly-line claustrophobic tension melts into the same pot as Tyler Perry's syrupy melodrama tradition? *Strung* answers that question by presenting itself as a strange genre-mashup that both intrigues and confuses the viewer. When the eerie atmosphere felt throughout the film eventually gives way to family tragedies and endless dialogue, we realize what we're watching is less a horror film than a "horror-flavored soap opera."
@@ -895,8 +895,8 @@ In the end, *Strung* isn't a bad choice for those who enjoy genre experiments an
   {
     slug: "the-mission",
     origTitle: "The Mission",
-    title: "\"The Mission\" — A Scalpel's Cut Through the Darkness",
-    excerpt: "The story of surgeon Muhammed Tahir, defying despair in the dark hospital corridors of Gaza, becomes the purest and most shattering document of human dignity.",
+    title: "“The Mission” — Karanlığı Neşterle Yaran Bir Film",
+    excerpt: "Gazze’nin karanlık hastane koridorlarında umutsuzluğa meydan okuyan cerrah Muhammed Tahir’in hikâyesi, insan onurunun en saf ve en sarsıcı belgesine dönüşüyor.",
     rating: "4.5/5",
     image: missionImg,
     body: `Watching what humans do to each other is always hard, but *The Mission* defies expectations by placing before us the anatomy of a resilience that blooms right at the heart of that darkness. The film trains its lens on the extraordinary struggle waged by surgeon Muhammed Tahir and his team in a war-ravaged Gaza, amid chaos where the sound of bombardment echoes through hospital corridors. The director makes viewers a party not just to the devastation of a war, but to the very breath of the surgeons stitching wounds with trembling hands amid that destruction.
@@ -912,8 +912,8 @@ In the end, *The Mission* isn't an easy watch; at times it's even harder than we
   {
     slug: "little-brother",
     origTitle: "Little Brother",
-    title: "\"Little Brother\" — A Road Story Far from the Tamed Chaos and Expected Weirdness It Promised",
-    excerpt: "This road story tames Eric André's wild energy, turning into a forgettable Netflix experience caught undecided between black comedy and family drama.",
+    title: "“Little Brother” — Vaat Ettiği Tuhaflıktan Uzak, Kaosu Ehlileştirilmiş Bir Yol Hikâyesi",
+    excerpt: "Eric André’nin dizginlenemez enerjisini ehlileştiren bu yol hikâyesi, kara komediyle aile draması arasında kararsız kalmış, unutulabilir bir Netflix deneyimine dönüşüyor.",
     rating: "2.5/5",
     image: littleBrotherImg,
     body: `Directed by Sherman Payne, *Little Brother* promises on paper to blend Eric André's chaotic, absurdist sense of humor with a modern road story. What we see on screen, however, falls well short of that potential, swimming in safe waters and ultimately struggling to land the sharp comedy it aims for. Though the film centers on the fraught relationship between a younger brother (Eric André) forced to drive his suicidal older brother (Philip Ettinger) home, this dramatic foundation never forms an organic bond with the comedic elements.
@@ -929,8 +929,8 @@ In the end, *Little Brother* offers a time-passer for genre enthusiasts, but lea
   {
     slug: "jackass-best-and-last",
     origTitle: "Jackass: Best and Last",
-    title: "\"Jackass: Best and Last\" — A Grotesque Farewell to Pain and Laughter",
-    excerpt: "Johnny Knoxville and crew push the limits of pain and laughter one last time, delivering one of cinema history's filthiest yet most heartfelt tales of friendship in this farewell outing.",
+    title: "“Jackass: Best and Last” — Acıya ve Kahkahaya Grotesk Bir Veda",
+    excerpt: "Johnny Knoxville ve ekibi, bu veda filminde acının ve kahkahanın sınırlarını son bir kez zorluyor; sinema tarihinin en pis ama en içten dostluk hikâyelerinden birini sunuyor.",
     rating: "4/5",
     image: jackassImg,
     body: `Vomit, blood, urine, and an endless soundtrack of cracking bones... The crew, one of cinema history's most "cacophonous" and unconventional ensembles, offers us with *Jackass Forever* (Jackass: Best and Last) not just a farewell, but the most grotesque possible portrait of aging and friendship. For more than two decades, this crew has pushed physical limits and social decorum, and in their final onscreen dance, they leave the audience once again caught in that famous dilemma of "too afraid to look, but unable to look away."
@@ -946,8 +946,8 @@ In the end, this farewell is, fittingly, loud and filthy. The Jackass crew prove
   {
     slug: "the-odyssey-ilk-tepkiler",
     origTitle: "The Odyssey",
-    title: "First Reactions to \"The Odyssey\": 'Clunky,' 'Magnificent,' and 'Like Peter Jackson's Lord of the Rings'",
-    excerpt: "Christopher Nolan's long-awaited 'The Odyssey' premiered in London. Early reactions from critics are largely positive for this massive production that boldly embraces the terrors of Greek mythology.",
+    title: "“The Odyssey” İçin İlk Tepkiler: “Hantal”, “Muhteşem” ve “Peter Jackson’ın Lord of the Rings’i Gibi”",
+    excerpt: "Christopher Nolan’ın uzun zamandır beklenen “The Odyssey” filminin prömiyeri Londra’da yapıldı. Yunan mitolojisinin dehşetini cesurca kucaklayan bu dev yapım için eleştirmenlerin ilk tepkileri büyük ölçüde olumlu.",
     rating: "Early reactions",
     image: "/__l5e/assets-v1/a4fd62bf-4318-469a-8990-5f1bab6fff38/cf9640eb777c.webp",
     body: `Christopher Nolan's new epic following 'Oppenheimer,' 'The Odyssey,' premiered in London on July 6; the wide release begins July 17. IMAX tickets are already sold out, and regular screenings may fill up fast too. Full reviews of the film, which stars Matt Damon, Anne Hathaway, Tom Holland, John Leguizamo, Robert Pattinson, Lupita Nyong'o and many others, haven't been published yet; but critics' first impressions on social media send strong signals that the film will meet expectations.
@@ -961,8 +961,8 @@ Not everyone is calling it "flawless"; but for a big-budget summer film, this is
   {
     slug: "good-luck-have-fun-dont-die",
     origTitle: "Good Luck, Have Fun, Don't Die",
-    title: "\"Good Luck, Have Fun, Don't Die\" — A Time-Travel Carnival That Starts at a Diner",
-    excerpt: "This action-comedy-sci-fi hybrid brings together Sam Rockwell, Juno Temple and Haley Lu Richardson at an iconic Los Angeles diner; a man claiming to be from the future takes the customers hostage and turns them into an unlikely team destined to save the world.",
+    title: "“Good Luck, Have Fun, Don’t Die” — Bir Lokantada Başlayan Zaman Yolculuğu Karnavalı",
+    excerpt: "Aksiyon, komedi ve bilimkurguyu harmanlayan film, Sam Rockwell, Juno Temple ve Haley Lu Richardson’ı Los Angeles’ın simgeleşmiş bir lokantasında buluşturuyor; gelecekten geldiğini iddia eden bir adam, müşterileri rehin alıp onları dünyayı kurtaracak beklenmedik bir ekibe dönüştürüyor.",
     rating: "3.5/5",
     image: goodLuckAsset.url,
     body: `At 2 hours and 14 minutes, *Good Luck, Have Fun, Don't Die* never loses the energy its title promises. In the opening sequence, set at an iconic Los Angeles late-night diner, Sam Rockwell's unnamed "Man From the Future" pulls a gun and takes the seated customers hostage. He's not after money or revenge — he's searching for "likely candidates" who can save the world.
@@ -976,8 +976,8 @@ The result: an R-rated, slightly chaotic film that often chases its own tail, bu
   {
     slug: "project-hail-mary",
     origTitle: "Project Hail Mary",
-    title: "\"Project Hail Mary\" — A Space Gamble Kept Aloft by Ryan Gosling's Charm",
-    excerpt: "This last-resort space adventure, adapted from Andy Weir's bestselling novel, swings between earnestness and boyish mischief; but Gosling's natural charisma brings the ship safely into port.",
+    title: "“Project Hail Mary” — Ryan Gosling’in Cazibesiyle Ayakta Kalan Bir Uzay Kumarı",
+    excerpt: "Andy Weir’ın çok satan romanından uyarlanan bu son çare uzay macerası, içten bir ciddiyetle çocuksu muziplik arasında gidip geliyor; ama Gosling’in doğal karizması gemiyi güvenli limana ulaştırıyor.",
     rating: "3/5",
     image: projectHailMaryAsset.url,
     body: `Adapted from Andy Weir's bestselling sci-fi novel, *Project Hail Mary* tells the story of a mission launched into space as Earth's last hope to stop an alien microbe that's extinguishing the Sun. Named after the American football "Hail Mary" pass, this mission is, as the name suggests, a long shot with no other option. With direction from the *The Lego Movie* and *Spider-Man: Into the Spider-Verse* team of Phil Lord and Chris Miller, it's no surprise that the film's tone carries a playful, mischievous, boyish streak.
@@ -993,8 +993,8 @@ The result: if you're familiar with the cheerful, witty tone of Weir's *The Mart
   {
     slug: "avatar-son-hava-bukucu-s2",
     origTitle: "Avatar: The Last Airbender Season 2",
-    title: "\"Avatar: The Last Airbender\" Season 2 — Netflix's Live-Action Adaptation Still Can't Find Its Footing",
-    excerpt: "Netflix's live-action adaptation adapts a compelling story arc, but with its lack of pacing, lack of humor, and dark lighting, it once again misses the charm of the original animation.",
+    title: "“Avatar: The Last Airbender” 2. Sezon — Netflix’in Canlı Çekim Uyarlaması Hâlâ Yolunu Bulamıyor",
+    excerpt: "Netflix’in canlı çekim uyarlaması sürükleyici bir hikâye örgüsünü ele alıyor, ancak tempo ve mizah eksikliğiyle karanlık ışıklandırması yüzünden özgün animasyonun cazibesini bir kez daha ıskalıyor.",
     rating: "2/5",
     image: avatar2Asset.url,
     body: `Netflix's live-action *Avatar: The Last Airbender* adaptation still doesn't understand why the original Nickelodeon cartoon was so beloved. Season two brings back nearly all of season one's core problems without fixing them. The main culprit, once again, is pacing. The animated series, aimed at a middle-school audience with fast, funny 20-minute episodes, gets crammed here into a seven-episode, hour-long, event-packed structure. This doesn't produce a more mature interpretation — it just creates a heavier, more solemn version, which is precisely the worst thing you could do to the source material.
@@ -1010,8 +1010,8 @@ In the end, Netflix's *Avatar* doesn't sink to the level of M. Night Shyamalan's
   {
     slug: "cape-fear-apple-tv",
     origTitle: "Cape Fear",
-    title: "\"Cape Fear\" — The Apple TV Adaptation Loses Itself While Chasing Its Predecessor",
-    excerpt: "Starring Javier Bardem and Amy Adams, the 10-episode Apple TV adaptation is an uneasy thriller that both imitates and tries to escape Scorsese's classic, never quite finding its own tone.",
+    title: "“Cape Fear” — Apple TV Uyarlaması Selefinin Peşinden Giderken Kendini Kaybediyor",
+    excerpt: "Javier Bardem ve Amy Adams’ın başrollerinde olduğu 10 bölümlük Apple TV uyarlaması, Scorsese’nin klasiğini hem taklit eden hem de ondan kaçmaya çalışan, kendi tonunu bir türlü bulamayan huzursuz bir gerilim.",
     rating: "2.5/5",
     image: capeFearAsset.url,
     body: `It's already unfair to ask any actor to step into a role previously played by Robert De Niro — especially when that character is Max Cady. In the violent 1991 *Cape Fear*, De Niro mixed such a potent dose of arrogance, rage and Southern charm into Cady that the character managed to be both terrifying and impossible to look away from. Created by Nick Antosca (*Channel Zero*, *A Friend of the Family*), the new 10-episode Apple TV miniseries puts Javier Bardem into that seat.
@@ -1027,8 +1027,8 @@ Some film-to-series adaptations, *Fargo* chief among them, have managed to wink 
   {
     slug: "the-boroughs",
     origTitle: "The Boroughs",
-    title: "\"The Boroughs\" — A Fun, Spielberg-Style Sci-Fi Led by Alfred Molina and Geena Davis",
-    excerpt: "A hugely likable Netflix series that warms up thanks to its veteran ensemble cast chasing monsters and corporate surveillance in a New Mexico desert retirement village, despite some pacing dips along the way.",
+    title: "“The Boroughs” — Alfred Molina ve Geena Davis Önderliğinde, Spielberg Tadında Eğlenceli Bir Bilimkurgu",
+    excerpt: "New Mexico çölündeki bir emekli yerleşiminde canavarların ve şirket gözetiminin peşine düşen deneyimli oyuncu kadrosuyla iç ısıtan, yer yer temposu düşse de son derece sevimli bir Netflix dizisi.",
     rating: "3.5/5",
     image: boroughAsset.url,
     body: `Netflix's *The Boroughs* arrives with the kind of ensemble cast most shows could only dream of, and along the way delivers a pretty pointed critique of ageism in genre TV. We're used to seeing beloved character actors like Alfred Molina and Geena Davis stuffed into supporting roles; watching them lead as heroes is a rare pleasure. *The Boroughs* breaks that pattern, placing a group of senior citizens trying to unravel a deadly conspiracy at the center of a Spielberg-style adventure.
@@ -1044,8 +1044,8 @@ In the end, *The Boroughs* is an *X-Files*/*Twilight Zone* hybrid whose main vil
   {
     slug: "star-city",
     origTitle: "Star City",
-    title: "\"Star City\" — For All Mankind's Gripping Spinoff Weaves Cold War Paranoia into Sci-Fi",
-    excerpt: "Starring Rhys Ifans and Anna Maxwell Martin, this For All Mankind spinoff explores the Soviet space program under the shadow of the KGB, opening the door to a darker, more psychological kind of science fiction.",
+    title: "“Star City” — For All Mankind’ın Sürükleyici Yan Dizisi, Soğuk Savaş Paranoyasını Bilimkurguya İşliyor",
+    excerpt: "Rhys Ifans ve Anna Maxwell Martin’in başrollerinde olduğu bu For All Mankind yan dizisi, KGB’nin gölgesindeki Sovyet uzay programını keşfederek daha karanlık, psikolojik yönü daha güçlü bir bilimkurguya kapı aralıyor.",
     rating: "4.5/5",
     image: starCityAsset.url,
     body: `*For All Mankind*'s alternate-history premise has always felt closer to a wish list than a fully convincing world. In the Apple TV series' universe, the USSR beat the U.S. to the Moon, and that shock set off a domino effect that eventually led NASA to build an all-female astronaut corps. Over the decades, racial and gender equality advance far faster than in our own timeline; by the 1990s, humanity has settled the Moon and Mars, and the U.S. has a lesbian president. The show's unofficial mission has always been to chart a realistic path toward *Star Trek*'s utopian future — sometimes it felt like propaganda for an America that doesn't exist.

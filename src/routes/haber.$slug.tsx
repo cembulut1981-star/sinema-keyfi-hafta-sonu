@@ -23,7 +23,7 @@ export const Route = createFileRoute("/haber/$slug")({
   head: ({ params, loaderData }) => {
     if (loaderData?.post) return articleHead({ ...loaderData.post, source: loaderData.post.source_credit, image: `/api/public/editorial-media/${loaderData.post.id}` }, `/haber/${params.slug}`);
     const n = getNews(params.slug);
-    if (!n) return { meta: [{ title: "Story not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    if (!n) return { meta: [{ title: "Haber bulunamadı — Sine-Meta" }, { name: "robots", content: "noindex" }] };
     return articleHead(n, `/haber/${params.slug}`);
   },
   component: NewsPage,
@@ -128,7 +128,7 @@ function NewsPage() {
         <ShareButtons title={n.title} path={`/haber/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="More news" items={others} to="/haber/$slug" />
+        <OtherArticlesSidebar heading="Diğer haberler" items={others} to="/haber/$slug" />
       </div>
     </SiteShell>
   );

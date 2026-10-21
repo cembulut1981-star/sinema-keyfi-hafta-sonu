@@ -54,7 +54,7 @@ export const Route = createFileRoute("/rss.xml")({
           "  <channel>",
           `    <title>${SITE_NAME}</title>`,
           `    <link>${SITE_URL}</link>`,
-          `    <description>Film, TV, music and PC games news, reviews and ranked lists.</description>`,
+          `    <description>Film, dizi, müzik ve PC oyunları haberleri, incelemeler ve sıralı listeler.</description>`,
           "    <language>en</language>",
           `    <atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />`,
           ...items,
