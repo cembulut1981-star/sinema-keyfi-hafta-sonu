@@ -13,15 +13,15 @@ import { extractDate, formatDate } from '@/lib/seo';
 // the top rows; the rest are scattered deeper in the feed (see below) so it
 // never looks like every card has one.
 const BELOW_BADGES: Record<string, string> = {
-  "metallica-life-burns-faster-sphere-review": "Live",
-  "exorcist-martyrs-mike-flanagan-scariest-film": "Horror",
+  "metallica-life-burns-faster-sphere-review": "Canlı",
+  "exorcist-martyrs-mike-flanagan-scariest-film": "Korku",
 };
 const CATEGORY_WORD: Record<string, string> = {
-  incelemeler: "Review",
-  listeler: "Ranked",
-  muzik: "Music",
-  diziler: "Series",
-  haberler: "News",
+  incelemeler: "İnceleme",
+  listeler: "Liste",
+  muzik: "Müzik",
+  diziler: "Dizi",
+  haberler: "Haber",
 };
 const slugOf = (a: Article) => a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";
 const ARTICLES: Article[] = RAW_ARTICLES.map((a) => {
@@ -94,10 +94,10 @@ export const Route = createFileRoute("/")({
   loader: ({ context }) => context.queryClient.ensureQueryData(publishedPostsQuery),
   head: () => ({
     meta: [
-      { title: "Sine-Meta — Movie News, Reviews and Lists" },
-      { name: "description", content: "Film and TV coverage: release news, reviews, lists and special features." },
-      { property: "og:title", content: "Sine-Meta — Movies" },
-      { property: "og:description", content: "Film and TV coverage, updated daily." },
+      { title: "Sine-Meta — Film Haberleri, İncelemeler ve Listeler" },
+      { name: "description", content: "Film ve dizi dünyasından haberler, incelemeler, listeler ve özel dosyalar." },
+      { property: "og:title", content: "Sine-Meta — Sinema" },
+      { property: "og:description", content: "Film ve dizi dünyasından güncel haberler, her gün yenilenir." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
@@ -301,7 +301,7 @@ function Index() {
   const hasMore = effectiveCount < feed.length;
   const lowerFeatures = [...newCards.filter(a => a.homepagePlacement === 'lower'), ...LOWER_FEATURES].map((article) => {
     const date = article.newsSlug ? extractDate(getNews(article.newsSlug)?.source) : null;
-    return <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Games" dateLabel={date ? formatDate(date) : ''} />;
+    return <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Oyunları" dateLabel={date ? formatDate(date) : ''} />;
   });
 
 
@@ -311,17 +311,17 @@ function Index() {
         <div className="h-full">
           <FeaturedArticleCard
             article={duo[0]}
-            badgeLabel="Agenda"
-            kicker="Sine-Meta · Featured"
-            counter="Picks"
+            badgeLabel="Gündem"
+            kicker="Sine-Meta · Öne Çıkan"
+            counter="Seçkiler"
           />
         </div>
         <div className="h-full">
           <FeaturedArticleCard
             article={duo[1]}
-            badgeLabel="Focus"
-            kicker="Sine-Meta · Editor's Note"
-            ribbon="Special"
+            badgeLabel="Odak"
+            kicker="Sine-Meta · Editör Notu"
+            ribbon="Özel"
           />
         </div>
       </section>
@@ -330,11 +330,11 @@ function Index() {
   return (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
-        <h1 className="sr-only">Sine-Meta — Movie News, Reviews and Lists</h1>
+        <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
         <div className="h-10 md:h-14" aria-hidden />
         {leadCenter ? <MixedRow centerCard={leadCenter} sideCards={leadSides} centerFirstMobile /> : null}
         {WIDE_FEATURE ? (
-          <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="TV Series" dateLabel="13 September 2026" />
+          <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="Dizi" dateLabel="13 Eylül 2026" />
         ) : null}
         {rows.map((r, i) => (
           <div key={r.center.id}>
@@ -369,7 +369,7 @@ function Index() {
               onClick={() => setVisibleCount(Math.min(effectiveCount + PAGE_SIZE, feed.length))}
               className="font-display font-black uppercase tracking-wider text-base px-8 py-3 border-2 border-black text-black hover:bg-primary hover:text-white hover:border-black transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_-8px_rgba(0,0,0,0.4)] active:translate-y-0"
             >
-              Load More
+              Daha Fazla Yükle
             </button>
           </div>
         ) : null}

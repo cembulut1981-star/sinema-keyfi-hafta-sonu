@@ -41,8 +41,8 @@ export type ListItem = {
 const _LISTS_RAW: ListItem[] = [
   {
     slug: "band-of-brothers-cast-then-and-now-25-years-later",
-    title: "The Band of Brothers Cast, Then and Now: The Stars of HBO's Emmy-Winning Miniseries 25 Years Later",
-    excerpt: "Twenty-five years after Easy Company jumped into Normandy, the ensemble that made HBO's 10-part epic has scattered across prestige TV, network hits and behind the camera. Here's where they landed.",
+    title: "Band of Brothers Oyuncuları Dün ve Bugün: HBO'nun Emmy Ödüllü Mini Dizisinin Yıldızları 25 Yıl Sonra Nerede?",
+    excerpt: "Easy Company'nin Normandiya'ya paraşütle inişinin üzerinden yirmi beş yıl geçti; HBO'nun 10 bölümlük destanına hayat veren oyuncular bugün prestijli dizilerde, geniş kitlelere ulaşan yapımlarda ve kamera arkasında kariyerlerini sürdürüyor. İşte geldikleri nokta.",
     countdownBadge: "25 years later",
     image: bobCover,
     source: "Entertainment Weekly",
@@ -94,8 +94,8 @@ Part of the enduring pleasure of rewatching "Band of Brothers" is the parade of 
   },
   {
     slug: "hayden-panettiere-kacirilmamasi-gereken-6-rolu",
-    title: "6 Must-See Roles of Hayden Panettiere",
-    excerpt: "A career that began at five, approximately 60 jobs, and a sudden farewell at 36. From \"Remember the Titans\" to \"Nashville,\" six performances that tell the story of Hayden Panettiere's mark on screen.",
+    title: "Hayden Panettiere'nin Mutlaka İzlenmesi Gereken 6 Rolü",
+    excerpt: "Beş yaşında başlayan bir kariyer, yaklaşık 60 yapım ve 36 yaşında ani bir veda. Remember the Titans'tan Nashville'e, Hayden Panettiere'nin ekranda bıraktığı izi anlatan altı performans.",
     countdownBadge: "6 role selection",
     body: `Her career, which began at the age of five with the daytime soap opera _One Life to Live_, proved that Hayden Panettiere was born for the screen. She transformed from a precocious child star into a magnetic actress on both the big and small screen: from Disney productions to brave young queen roles, and from there to dramatic performances. She appeared in animated hits like _A Bug's Life_ and sitcom giants like _Ally McBeal_.
 
@@ -153,8 +153,8 @@ Still, Panettiere elevated the material. As country star Juliette Barnes, she tr
   },
   {
     slug: "orijinalinden-iyi-12-spin-off-dizi",
-    title: "12 Spin-Off Series Better Than the Original",
-    excerpt: "From \"Frasier\" to \"Star Trek: The Next Generation,\" 12 spin-offs that overshadowed the series they originated from. SlashFilm's list brings together shows that surpassed their main counterparts in quality or popularity.",
+    title: "Orijinalini Geride Bırakan 12 Yan Dizi",
+    excerpt: "Frasier'dan Star Trek: The Next Generation'a, doğdukları dizileri gölgede bırakan 12 yan dizi. SlashFilm'in listesi, kalitesi veya popülerliğiyle asıl yapımı aşan dizileri bir araya getiriyor.",
     countdownBadge: "12 series selection",
     body: `Making a spin-off on television is a delicate art. Whether planned or accidental, writers need to create a character that captures the audience's heart, and the actor needs to find the charisma to carry that role. After it airs, the real test begins: for the show to be at least as good as the production it originated from. Most spin-offs stumble right here. But a handful of shows not only reached the level of the main production but went a step further.
 
@@ -239,16 +239,16 @@ In short: a spin-off doesn't always have to be a pale copy. Sometimes, it can ev
 
   {
     slug: "christopher-nolan-en-iyi-oyunculuk-performanslari",
-    title: "13 Best Acting Performances from Christopher Nolan Films: From Matt Damon to Heath Ledger",
-    excerpt: "Variety's awards editor Clayton Davis ranked the 13 most memorable acting performances in Nolan's career — a list ranging from Heath Ledger's Joker to Matt Damon's Odysseus.",
+    title: "Christopher Nolan Filmlerindeki En İyi 13 Oyunculuk Performansı: Matt Damon'dan Heath Ledger'a",
+    excerpt: "Variety'nin ödül editörü Clayton Davis, Nolan'ın kariyerindeki en unutulmaz 13 oyunculuk performansını sıraladı: Heath Ledger'ın Joker'inden Matt Damon'ın Odysseus'una uzanan bir seçki.",
     body: "Time has been kind to Christopher Nolan. The director's filmography has become a benchmark, not only for its visual design and temporal experiments but also for the acting performances it has produced. Variety's awards editor Clayton Davis ranked the 13 best acting performances in Nolan's career.\n\n**1. Heath Ledger — Joker (The Dark Knight, 2008):** Undisputedly at the top of the list. Ledger's chaotic, unpredictable Joker proved that a superhero film could win an Oscar for an actor.\n\n**2. Cillian Murphy — J. Robert Oppenheimer (Oppenheimer, 2023):** The pinnacle of the Nolan-Murphy collaboration; it brought Murphy his first Oscar. A rare performance that built a historical figure from the inside out.\n\n**3. Matt Damon — Dr. Mann / Odysseus (Interstellar, 2014 & The Odyssey, 2026):** Davis evaluates Damon's performances in two different Nolan projects together. In 'The Odyssey,' Damon delivers one of the most layered works of his career.\n\n**4. Marion Cotillard — Mal (Inception, 2010):** A performance that reminds us that the ghost in Cobb's mind is not just a threat, but a figure of grief.\n\n**5. Matthew McConaughey — Cooper (Interstellar):** The most emotional work of the 'McConaissance' era; the tears in the bookshelf scene are still debated.\n\nThe list also continues with Christian Bale (Batman trilogy and The Prestige), Guy Pearce (Memento), Robert Pattinson (Tenet), Anne Hathaway (Interstellar & The Dark Knight Rises), Tom Hardy (Dunkirk, The Dark Knight Rises), Florence Pugh (Oppenheimer), Ken Watanabe (Batman Begins, Inception), and Michael Caine (career-long Nolan collaboration).\n\nDavis's conclusion is clear: although Nolan may not be known as an 'actor's director,' his filmography constitutes one of the richest archives of performances of the last two decades.",
     image: "/__l5e/assets-v1/dddaf637-3b47-4ce6-a8ce-e2993a1c4f3f/041f9cdc3736.webp",
     source: "Variety",
   },
   {
     slug: "guardian-okurlarinin-2026-favori-filmleri",
-    title: "\"I Watched It Seven Times in the Cinema\": Guardian Readers' Favorite Films of 2026",
-    excerpt: "After Guardian editors picked their best of 2026, readers also had their say. From 'Backrooms' to 'The Secret Agent,' magical cinematic moments that marked the first half of the year.",
+    title: "“Sinemada Yedi Kez İzledim”: Guardian Okurlarının 2026 Favorileri",
+    excerpt: "Guardian editörlerinin 2026'nın en iyilerini seçmesinin ardından söz okurlara geçti. Backrooms'tan The Secret Agent'a, yılın ilk yarısına damga vuran büyülü sinema anları.",
     body: "After Guardian editors selected the best films of the first half of 2026, they asked readers to share their magical cinematic moments from the first six months of the year. The recurring themes and surprising choices in the messages received paint a striking collective portrait.\n\n**The Secret Agent** — Kleber Mendonça Filho's film captivated Liz, writing from London, from the very first frame with its strange opening scene set at a gas station in rural Brazil. Ghirotti, a corrupt corporate executive trying to corner the fugitive academic Armando, is a villain who sends shivers down the audience's spine.\n\n**Backrooms** — This low-budget experiment, shot with endless yellow corridors and fluorescent lighting, is one of the most talked-about indies of the first half of the year. In one reader's words, \"I watched it seven times in the cinema\" — one of the rare works that successfully transitioned from a YouTube short film to a feature.\n\n**The Ballad of Wallis Island** — A small-scale, warm, and music-filled island story; for many readers, the 'little miracle' film of the year. Some said they wanted to hug a stranger after leaving the cinema.\n\n**Sinners** — Ryan Coogler's vampire-music hybrid film transformed into a living experience in IMAX theaters. Readers particularly cite the blues sequence as the year's boldest set-piece.\n\n**Bring Her Back** — Danny and Michael Philippou brothers' second film after 'Talk to Me' not only met but exceeded expectations for horror fans. \"I don't remember the last time I saw a cinema so silent,\" wrote a reader from Manchester.\n\nThe list goes on with titles such as 'Sentimental Value,' which resonated at Cannes with its 'Anora' courage, Werner Herzog's new documentary, Payal Kapadia's new work, and readers' surprise favorite 'Friendship.' Returning to the cinema seems to be evolving from a celebrated discourse into a concrete habit each year — at least for Guardian readers, the first half of 2026 is proof of this.",
     image: "/__l5e/assets-v1/1b267def-cd4a-4daa-9213-d87b0baeb668/1f975db04bfc.avif",
     source: "The Guardian",
@@ -256,8 +256,8 @@ In short: a spin-off doesn't always have to be a pale copy. Sometimes, it can ev
 
   {
     slug: "az-bilinen-korku-filmleri",
-    title: "10 Great Horror Movies Nobody's Talking About",
-    excerpt: "Ten horror films that remain in the shadow of box office hits and classics, but are among the genre's boldest, most atmospheric, and most unforgettable examples.",
+    title: "Kimsenin Konuşmadığı 10 Harika Korku Filmi",
+    excerpt: "Gişe hitlerinin ve klasiklerin gölgesinde kalan, ancak türün en cesur, en atmosferik ve en unutulmaz örnekleri arasında yer alan on korku filmi.",
     body: `When horror cinema is mentioned, the same names always come to mind: *The Exorcist*, *Halloween*, *Hereditary*. Yet, the genre's vast archive is full of productions that have remained in the shadow of box office hits but are just as bold, cinematographic, and disturbing. In this list, we have brought together ten films that even digital platform algorithms rarely recommend, but which will linger in your mind for days after you watch them.
 
 ## 1. The Hunger (1983)
@@ -304,8 +304,8 @@ This production, directed by Matthew Holness, tells of childhood trauma through 
   },
   {
     slug: "degeri-bilinmemis-korku-filmleri",
-    title: "10 Most Underrated Horror Movies of All Time",
-    excerpt: "Ten horror classics that didn't get the attention they deserved when they were released, but have risen to cult status over the years or are still waiting to be rediscovered.",
+    title: "Tüm Zamanların En Az Takdir Edilen 10 Korku Filmi",
+    excerpt: "Gösterime girdiklerinde hak ettikleri ilgiyi görmeyen, ancak yıllar içinde kült mertebesine yükselen ya da hâlâ yeniden keşfedilmeyi bekleyen on korku klasiği.",
     body: `The horror genre is full of "underrated" stories. Sometimes a film is ahead of its time, sometimes it's released at the wrong time, and sometimes it's left to die by major studios in terms of marketing. The following ten productions are cult classics that didn't get the recognition they deserved from critics or at the box office, but should be re-evaluated over time.
 
 ## 1. The Exorcist III (1990)
@@ -352,8 +352,8 @@ Alan Parker's production that brings together neo-noir and occult horror. With u
   },
   {
     slug: "kotu-olacagi-belli-son-donem-filmleri",
-    title: "10 New Movies Everyone Knows Will Be Bad",
-    excerpt: "One of the most controversial productions of recent times, which gave disaster signals from the moment its trailer was released, and was slammed by moviegoers and critics even before its release.",
+    title: "Kötü Olacağını Herkesin Bildiği 10 Yeni Film",
+    excerpt: "Fragmanı yayımlandığı andan itibaren tehlike çanları çaldıran, daha vizyona girmeden sinemaseverlerin ve eleştirmenlerin sert tepkisiyle karşılaşan, son dönemin en tartışmalı yapımlarından biri.",
     body: `Some films are branded "this won't work" by everyone the moment their first trailers drop. Unfortunately, sometimes predictions come true, and sometimes studios ignore these early signals. Here are ten productions from the 2025-2026 period that have been most debated, many of which had their fates rewritten from the start.
 
 ## 1. Scream 7
@@ -400,8 +400,8 @@ Disney's effort to remake its classic animations as live-action films perhaps hi
   },
   {
     slug: "2020lerin-en-uc-korku-filmleri",
-    title: "10 Most Unusual Horror Films of the 2020s",
-    excerpt: "The boldest, most controversial, and most unusual horror productions of the 2020s so far. Ten films that push the boundaries of the genre and are not afraid to disturb the audience.",
+    title: "2020'lerin En Sıra Dışı 10 Korku Filmi",
+    excerpt: "2020'lerin bugüne kadarki en cesur, en tartışmalı ve en sıra dışı korku yapımları. Türün sınırlarını zorlayan ve seyirciyi rahatsız etmekten çekinmeyen on film.",
     body: `The first half of the 2020s has been an unexpected renaissance for horror cinema. The popularization of independent productions with studios like Blumhouse and A24 has allowed genre cinema to pursue the "unusual." Here are the ten most extreme, most memorable horror productions of this decade so far.,
 
 ## 1. Titane (2021)
@@ -448,8 +448,8 @@ A production starring Sydney Sweeney, which tackles the theme of religious horro
   },
   {
     slug: "2026-en-cok-beklenen-filmler",
-    title: "10 Most Anticipated Movies for the Rest of 2026",
-    excerpt: "The most exciting productions coming to cinemas in the second half of the year. From big studio sequels to auteur works, ten films poised to make their mark on the rest of 2026.",
+    title: "2026'nın Geri Kalanında En Çok Beklenen 10 Film",
+    excerpt: "Yılın ikinci yarısında sinemalara gelecek en heyecan verici yapımlar. Büyük stüdyo devam filmlerinden auteur sinemasına, 2026'nın geri kalanına damga vurmaya aday on film.",
     body: `2026 is shaping up to be one of the busiest periods for the cinema calendar in recent years. The calendar is packed with long-delayed major studio productions finally hitting theaters, new works from great auteurs, and surprises from festival seasons. Here are the ten most talked-about films for the rest of the year.,
 
 ## 1. Avatar: Fire and Ash
@@ -496,8 +496,8 @@ Luca Guadagnino's academic thriller bringing together Julia Roberts and Ayo Edeb
   },
   {
     slug: "2026-nin-simdiye-kadar-en-iyi-tv-dizileri",
-    title: "The Best TV Shows of 2026 So Far",
-    excerpt: "The most powerful TV series that stood out in the first six months of 2026, blending genres and addressing anxieties with humor and original stories.",
+    title: "2026'nın Şimdiye Kadarki En İyi Dizileri",
+    excerpt: "Türleri harmanlayan, kaygıları mizah ve özgün hikâyelerle ele alan, 2026'nın ilk altı ayında öne çıkan en güçlü diziler.",
     body: `This list was inspired by Rolling Stone's "The Best TV Shows of 2026 So Far" article. The standout series from the first half of 2026, while mostly dealing with anxiety, identity, and the tensions of the business world, also offer surprising humor and original narratives.
 
 ## 1. ‘A Knight of the Seven Kingdoms’ (HBO)
@@ -553,8 +553,8 @@ This series, which offers a meta-perspective on the superhero format, cleverly e
   },
   {
     slug: "2026-yilinin-en-iyi-10-filmi",
-    title: "The 10 Best Films of 2026 (So Far)",
-    excerpt: "From horror to animation, space adventure to documentary: Entertainment Weekly's selection of ten films highlighted in the first half of 2026.",
+    title: "2026'nın En İyi 10 Filmi (Şimdiye Kadar)",
+    excerpt: "Korkudan animasyona, uzay macerasından belgesele: Entertainment Weekly'nin 2026'nın ilk yarısında öne çıkardığı on film.",
     body: `2026 has been a year full of surprises for cinema. *Sinners* snatched the Best Picture Oscar, *Obsession* became a phenomenon despite its low budget, *Toy Story 5* broke franchise records. We've translated Entertainment Weekly's editors' selection of ten films for the first half of the year.
 
 ## 1. 28 Years Later: The Bone Temple
@@ -601,8 +601,8 @@ Pixar's film made the biggest opening in franchise history. This installment, fe
   },
   {
     slug: "en-gerilimli-suc-thrillerlari",
-    title: "The 30 Most Tense Crime Thrillers of All Time",
-    excerpt: "From classic noirs to contemporary shocks: Thirty films signed by masters like Hitchcock, Fincher, and Bong Joon Ho, navigating the peak of suspense.",
+    title: "Tüm Zamanların En Çok Gerilim Yaratan 30 Suç Filmi",
+    excerpt: "Klasik kara filmlerden günümüzün sarsıcı yapımlarına: Hitchcock, Fincher ve Bong Joon Ho gibi ustaların imzasını taşıyan, gerilimi zirveye çıkaran otuz film.",
     body: `A good crime thriller places us right in the middle of a dangerous, high-stakes situation; but it doesn't force us to face the consequences of breaking the law. Built with complex plots, moral dilemmas, and gray characters, these films offer a glimpse into the dark side of society. Here are prominent titles from 30 films compiled by Entertainment Weekly, navigating the heights of the genre.
 
 ## 1. Memories of Murder (2003)
@@ -649,8 +649,8 @@ Denis Villeneuve's long, wet, dark thriller starring Hugh Jackman and Jake Gylle
   },
   {
     slug: "2026-en-iyi-tv-dizileri-ew",
-    title: "The 10 Best TV Shows of 2026 (So Far)",
-    excerpt: "From The Pitt to Widow's Bay, Hacks to Industry: Entertainment Weekly's top ten TV shows for the first half of 2026.",
+    title: "2026'nın En İyi 10 Dizisi (Şimdiye Kadar)",
+    excerpt: "The Pitt'ten Widow's Bay'e, Hacks'ten Industry'ye: Entertainment Weekly'nin 2026'nın ilk yarısı için seçtiği en iyi on dizi.",
     body: `The small screen was packed with both new productions and strong returning seasons in the first half of 2026. Sterling K. Brown's *Paradise*, Jean Smart's *Hacks*, Myha'la's *Industry*, and Sam Reid's *Interview with the Vampire* are among the season's most talked-about shows.
 
 ## 1. The Pitt (Max)
@@ -697,8 +697,8 @@ The second and final season goes down in history as the most adult production in
   },
   {
     slug: "tum-zamanlarin-en-iyi-25-rock-sarkisi",
-    title: "The 25 Best Rock Songs of All Time",
-    excerpt: "From Prince to Led Zeppelin, The Beatles to Nirvana: 25 rock classics that form the heart of the genre, never losing their rebellion and noise.",
+    title: "Tüm Zamanların En İyi 25 Rock Şarkısı",
+    excerpt: "Prince'ten Led Zeppelin'e, The Beatles'tan Nirvana'ya: Türün kalbini oluşturan, isyanını ve gürültüsünü hiç yitirmeyen 25 rock klasiği.",
     body: `Rock & roll is, at its core, a rebellion against the status quo — a state of defiance that isn't afraid to make noise and create chaos. That's why compiling a list of "the best rock songs of all time" is a somewhat contradictory task. But Entertainment Weekly took on this challenge and selected 25 songs that have left their mark on the genre's history.
 
 ## 1. "Let's Go Crazy" — Prince
@@ -747,8 +747,8 @@ The rest of the list: "Whole Lotta Love", "Satisfaction", "Sweet Child o' Mine",
   },
   {
     slug: "genc-yasta-hayatini-kaybeden-tv-yildizlari",
-    title: "8 TV Stars Who Died Young",
-    excerpt: "From Heather O'Rourke to Cameron Boyce, Jonathan Brandis to Brittany Murphy: eight actors who left their mark on the screen and left us too soon.",
+    title: "Genç Yaşta Hayatını Kaybeden 8 Televizyon Yıldızı",
+    excerpt: "Heather O'Rourke'tan Cameron Boyce'a, Jonathan Brandis'ten Brittany Murphy'ye: Ekranda iz bırakan ve aramızdan çok erken ayrılan sekiz oyuncu.",
     body: `Some stars shine early, and fade early. The film and music industries have many losses like James Dean, Jayne Mansfield, Jimi Hendrix, and Jim Morrison. Television has also witnessed similar tragedies: from 12-year-old Heather O'Rourke to *Descendants* star Cameron Boyce, the heroes of a generation's childhood disappeared too soon.
 
 ## 1. Heather O'Rourke (12)
@@ -787,8 +787,8 @@ Chekov from the *Star Trek* reboot. His tragic accident in 2016, where he was cr
   },
   {
     slug: "en-iyi-mitolojik-filmler",
-    title: "From Greek Epics to Biblical Blockbusters: The 20 Best Mythological Films, Ranked",
-    excerpt: "As Christopher Nolan's The Odyssey prepares to hit the box office, the Guardian has ranked cinema's most magnificent, bizarre, and memorable mythological films.",
+    title: "Yunan Destanlarından İncil Uyarlamalarına: En İyi 20 Mitolojik Film Sıralaması",
+    excerpt: "Christopher Nolan'ın The Odyssey filmi gişeye çıkmaya hazırlanırken Guardian, sinemanın en görkemli, en tuhaf ve en unutulmaz mitolojik filmlerini sıraladı.",
     body: `As Christopher Nolan prepares to bring The Odyssey to the big screen in December, the Guardian has reopened the great files of mythological cinema. From Greek epics to biblical blockbusters, Korean folklore, and the giant superhero productions of the pre-Marvel era, these 20 films show how mythology has "come home" to cinema.
 
 ## 20. Percy Jackson & the Olympians: The Lightning Thief (2010)
@@ -875,8 +875,8 @@ Tarkovsky's film about the Russian Orthodox icon painter stands at the pinnacle 
   },
   {
     slug: "evil-dead-tum-filmler-nerede",
-    title: "Where to Watch All 'Evil Dead' Movies? The Franchise's One-Stop Guide",
-    excerpt: "With the release of 'Evil Dead Burn,' the entire series started by Sam Raimi has been gathered on a single streaming platform. A practical guide to watching Ash's fight against the Deadites from start to finish.",
+    title: "Tüm Evil Dead Filmleri Nereden İzlenir? Serinin Tek Adreslik Rehberi",
+    excerpt: "Evil Dead Burn'ün gösterime girmesiyle, Sam Raimi'nin başlattığı serinin tamamı tek bir dijital platformda toplandı. Ash'in Deadite'larla mücadelesini baştan sona izlemek için pratik bir rehber.",
     body: `'Before the release of 'Evil Dead Burn,' it's worth revisiting not just the 2023 'Evil Dead Rise,' but the entire franchise. It's hard to complain about watching Ash fight Deadites, but first, you need to find them. Luckily, the entire series is in one convenient place, and you can find the sequel series at the same address.
 
 ## Where to watch all 'Evil Dead' movies?
@@ -897,8 +897,8 @@ As can be seen, HBO Max has become a one-stop shop for the entire franchise. The
   },
   {
     slug: "hbo-max-bu-haftanin-en-iyi-3-filmi",
-    title: "The 3 Best Movies on HBO Max This Week: 'Mask of the Phantasm', 'Evil Dead II', and 'Legally Blonde'",
-    excerpt: "In a TV week full of Emmy nominations, HBO Max also makes a strong case for movie buffs with a Batman animated masterpiece, a horror classic, and one of the best comedies of the 2000s.",
+    title: "Bu Hafta HBO Max'te İzlenecek En İyi 3 Film: Mask of the Phantasm, Evil Dead II ve Legally Blonde",
+    excerpt: "Emmy adaylıklarının gündemi doldurduğu bir haftada HBO Max, bir Batman animasyon başyapıtı, bir korku klasiği ve 2000'lerin en iyi komedilerinden biriyle sinemaseverlere de güçlü seçenekler sunuyor.",
     body: `It's a big TV week with Emmy nominations just announced. But HBO Max is also full of titles that will make movie lovers happy. This week, you can check out one of the best DC films of all time, a horror classic, and an excellent comedy from the early 2000s.
 
 ## "Batman: Mask of the Phantasm"
@@ -917,8 +917,8 @@ Whatever you think of Prime Video's prequel series 'Elle', returning to 'Legally
   },
   {
     slug: "bonnie-tyler-total-eclipse-en-iyi-5-film-sahnesi",
-    title: "Top 5 Cinematic Moments of Bonnie Tyler's 'Total Eclipse of the Heart'",
-    excerpt: "Bonnie Tyler's most powerful legacy after her death at 75: Five moments where 'Total Eclipse of the Heart' blew up the screen in comedy, drama, and horror films.",
+    title: "Bonnie Tyler'ın Total Eclipse of the Heart Şarkısının Sinemadaki En İyi 5 Anı",
+    excerpt: "75 yaşında hayatını kaybeden Bonnie Tyler'ın en güçlü mirası: Total Eclipse of the Heart'ın komedi, dram ve korku filmlerinde perdeyi kasıp kavurduğu beş an.",
     body: `We lost legendary husky-voiced singer Bonnie Tyler at 75. One of the greatest legacies she left behind is her 1983 power ballad 'Total Eclipse of the Heart' — and the unforgettable moments this song has created in movie theaters for decades. We're sharing the list compiled by Britt Hayes for Entertainment Weekly.
 
 ## 1. "Old School" (2003) — The Dan Band Sahnesi
@@ -947,8 +947,8 @@ Bonnie Tyler's voice is gone; but Jim Steinman's melodramatic notes have earned 
   },
   {
     slug: "paste-en-iyi-yeni-albumler-10-temmuz-2026",
-    title: "12 New Albums to Listen to This Week (July 10, 2026)",
-    excerpt: "From Finn Wolfhard's indie-rock debut to Jack White's blues-punk roar, from Kelela's R&B laboratory to Xiu Xiu's Eraserhead ode: Paste's New Music Friday picks for this week.",
+    title: "Bu Hafta Dinlemeniz Gereken 12 Yeni Albüm (10 Temmuz 2026)",
+    excerpt: "Finn Wolfhard'ın ilk indie rock albümünden Jack White'ın blues-punk kükreyişine, Kelela'nın R&B laboratuvarından Xiu Xiu'nun Eraserhead'e övgüsüne: Paste'in bu haftaki New Music Friday seçkisi.",
     body: `Paste continues to be the heart of New Music Friday every Friday. This album compilation, released after the Best New Songs lists, brings together the twelve most striking records of the week of July 10. A cross-section ranging from rock, folk, electronic, and experimental.,
 
 ## Finn Wolfhard — Fire From The Hip
@@ -1003,8 +1003,8 @@ Xiu Xiu's seven-track reinterpretation of David Lynch's 1977 *Eraserhead*. An un
   },
   {
     slug: "paste-haziran-2026-en-iyi-10-sarki",
-    title: "The 10 Best Songs of June 2026",
-    excerpt: "From heavensouls' seven-minute collage to Lily Seabird's Americana headbanger, Kelela's broken beat to Mykki Blanco's queer flâneur tease — Paste's June 2026 favorites.",
+    title: "Haziran 2026'nın En İyi 10 Şarkısı",
+    excerpt: "heavensouls'un yedi dakikalık kolajından Lily Seabird'ün baş sallatan Americana parçasına, Kelela'nın kırık ritimlerinden Mykki Blanco'nun kuir flanör edalı oyunbazlığına: Paste'in Haziran 2026 favorileri.",
     body: `We've selected ten tracks from the twenty featured in Paste's weekly Best New Songs column. These are the songs that will come to the table as the strongest contenders when discussions about the best of the year begin in December. Mykki Blanco and Kelela opened the month with brilliant dance music; The Tubs and the Sullivan siblings closed it with a rock and roll feast.
 
 ## heavensouls — "shipping times and quiet streets"
@@ -1051,8 +1051,8 @@ Cellist and singer Kelsey Lu's new album track is a prayer that moves between ch
   },
   {
     slug: "paste-bu-hafta-dinlenmesi-gereken-5-yeni-sarki-18-haziran-2026",
-    title: "5 New Songs You Need to Hear This Week (June 18, 2026)",
-    excerpt: "This week's song is Lily Seabird's 'Election Day.' Julia Jacklin, No Joy & Fire-Toolz, Saul Williams, and more: Paste's June 18, 2026 picks.",
+    title: "Bu Hafta Dinlemeniz Gereken 5 Yeni Şarkı (18 Haziran 2026)",
+    excerpt: "Haftanın şarkısı Lily Seabird'den Election Day. Julia Jacklin, No Joy & Fire-Toolz, Saul Williams ve daha fazlası: Paste'in 18 Haziran 2026 seçkisi.",
     body: `Every Thursday, the Paste team and contributors select their five favorite songs of the week, giving one the title of "Song of the Week." Here are the five favorites for the week of June 18, 2026.
 
 ## Song of the Week: Lily Seabird — "Election Day"
@@ -1079,8 +1079,8 @@ The follow-up to *Cotton Crown* by British jangle-pop band The Tubs. The week's 
   },
   {
     slug: "paste-beach-boys-tum-zamanlarin-en-iyi-25-sarkisi",
-    title: "The Beach Boys' 25 Best Songs of All Time",
-    excerpt: "On the 63rd anniversary of 'Surfin' U.S.A.', Paste compiles the peak of Brian Wilson and co.'s catalog: a listening guide from 'Caroline, No' to 'Heroes and Villains' to 'God Only Knows'.",
+    title: "The Beach Boys'un Tüm Zamanların En İyi 25 Şarkısı",
+    excerpt: "Surfin' U.S.A.'in 63. yıl dönümünde Paste, Brian Wilson ve arkadaşlarının diskografisinin zirvelerini derliyor: Caroline, No'dan Heroes and Villains'e ve God Only Knows'a uzanan bir dinleme rehberi.",
     body: `Sixty-three years ago, The Beach Boys released "Surfin' U.S.A." and the band scored their first #1 in the US. In the years that followed, the Brian Wilson-led Hawthorne, California group produced some of rock and roll's greatest songs and most influential records. 1966's *Pet Sounds* is one of the greatest records America has ever produced. Here are Paste's picks for the 25 best Beach Boys songs.
 
 ## 25. "Busy Doin' Nothin" (1968)
@@ -1187,8 +1187,8 @@ The passage in the middle of *Pet Sounds*, the most perfect continuity pop music
   },
   {
     slug: "paste-en-buyuk-en-iyi-orijinal-sarki-oscar-kazananlari",
-    title: "The Greatest 'Best Original Song' Oscar Winners, Ranked",
-    excerpt: "From 'My Heart Will Go On' to 'Moon River,' 'Flashdance…What a Feeling' to 'Arthur's Theme' — Paste compiled the 15 best winners from the Academy's 90-year history of Best Original Song.",
+    title: "En İyi Özgün Şarkı Oscar'ını Kazanan En İyi Şarkılar Sıralaması",
+    excerpt: "My Heart Will Go On'dan Moon River'a, Flashdance…What a Feeling'den Arthur's Theme'e: Paste, Akademi'nin 90 yıllık En İyi Özgün Şarkı tarihinde ödüle layık görülen en iyi 15 şarkıyı derledi.",
     body: `Each year, the Academy awards the best directors, actors, cinematographers, writers, makeup artists, and composers. Since 1935, the Academy has been handing out the Best Original Song Oscar. Con Conrad and Herb Magidson won the first award for "The Continental" from *The Gay Divorcee*; Johnny Mercer, Randy Newman, Giorgio Moroder, Henry Mancini, Burt Bacharach, and Elton John have won multiple times. Paste ranked the 15 best winners from 90 years of history.
 
 ## Honorable Mention: "Man or Muppet" (*The Muppets*, 2011)
@@ -1260,8 +1260,8 @@ The pinnacle of the canon by Henry Mancini and Johnny Mercer. A masterpiece abou
   {
 
     slug: "bbc-temmuz-2026-izlenecek-10-film",
-    title: "From Spider-Man to The Odyssey: 10 Films to Watch in July, According to BBC",
-    excerpt: "In a month where Tom Holland and Zendaya star in two of the year's biggest blockbusters, BBC Culture critic Nicholas Barber picks his top 10 films for cinema and home screens this July.",
+    title: "Spider-Man'den The Odyssey'e: BBC'ye Göre Temmuzda İzlenecek 10 Film",
+    excerpt: "Tom Holland ve Zendaya'nın yılın en büyük iki gişe yapımında başrolü paylaştığı bu ayda, BBC Culture eleştirmeni Nicholas Barber temmuzda sinemada ve evde izlenecek en iyi 10 filmi seçiyor.",
     body: `BBC Culture critic Nicholas Barber has compiled his top 10 films to watch in cinemas and at home for July 2026. The month features two massive productions starring Tom Holland and Zendaya: Sony's 'Spider-Man: Brand New Day' and Christopher Nolan's 'The Odyssey'. But the list isn't just about tentpoles.
 
 ## 1. Evil Dead Burn
@@ -1298,8 +1298,8 @@ Michael Shanks's dark comedy-horror hybrid; Alison Brie and Dave Franco in the l
   },
   {
     slug: "ew-en-iyi-binge-dizileri",
-    title: "Binge-Worthy: EW's Top 45 Shows to Watch in One Sitting",
-    excerpt: "From Noah Wyle's 'The Pitt' to 'Fleabag', 'Over the Garden Wall' to 'The Americans' — Entertainment Weekly's binge list of 45 shows you can fit into a weekend.",
+    title: "Bir Oturuşta İzlemelik: EW'den Peş Peşe İzlenecek En İyi 45 Dizi",
+    excerpt: "Noah Wyle'lı The Pitt'ten Fleabag'e, Over the Garden Wall'dan The Americans'a: Entertainment Weekly'den bir hafta sonuna sığdırabileceğiniz 45 dizilik bir maraton listesi.",
     body: `The streaming era has transformed the habit of finishing an entire season in one go into almost a cinematic experience. Entertainment Weekly's updated list (July 3, 2026), by Robert English and Kevin Jacobsen, compiles the 45 most suitable shows for binge-watching. Below is EW's full list in alphabetical order, along with a brief English summary of each title.
 
 ## 1. Abbott Elementary (2021–)
@@ -1442,7 +1442,7 @@ Matthew Rhys's Apple TV+ mystery. A new discovery with a foggy-noir aesthetic, t
   {
     slug: "ew-hulu-en-iyi-gerilim-dizileri",
     title: "Hulu'da Nefes Kesen 24 Gerilim Dizisi",
-    excerpt: "From 'Fargo' to 'Only Murders in the Building,' from 'The Americans' to 'The Handmaid's Tale' — Entertainment Weekly's 24 thrilling series from Hulu's catalog that will keep you glued to your seat.",
+    excerpt: "Fargo'dan Only Murders in the Building'e, The Americans'tan The Handmaid's Tale'e: Entertainment Weekly'den Hulu kataloğunda sizi koltuğunuza çivileyecek 24 gerilim dizisi.",
     body: `Entertainment Weekly's list, penned by Gwen Ihnat and Kevin Jacobsen, unearths 24 thrilling series hidden within Hulu's extensive catalog. Their common denominator: At the end of each episode, you'll start the next one without even thinking about it.
 
 ## Crime and dark humor
@@ -1461,8 +1461,8 @@ Lesser-discussed productions like *Under the Banner of Heaven*, *A Murder at the
   },
   {
     slug: "ew-netflix-mart-2025-yenilikler",
-    title: "March on Netflix: '50 First Dates', 'Ma', 'The Residence' and More",
-    excerpt: "From the Adam Sandler-Drew Barrymore classic '50 First Dates' to Meghan Markle's new reality series, Millie Bobby Brown's film, and Chelsea Handler and John Mulaney's stand-up specials — Netflix's March 2025 catalog update.",
+    title: "Martta Netflix'te: 50 First Dates, Ma, The Residence ve Daha Fazlası",
+    excerpt: "Adam Sandler ve Drew Barrymore klasiği 50 First Dates'ten Meghan Markle'ın yeni reality programına, Millie Bobby Brown'ın filminden Chelsea Handler ve John Mulaney'nin stand-up gösterilerine: Netflix'in Mart 2025 katalog güncellemesi.",
     body: `Ryan Coleman from Entertainment Weekly has compiled Netflix's extensive catalog update for March 2025. Subscribers can expect a month that's a mix of nostalgia, original drama, and stand-up.
 
 ## Nostalgic returns
@@ -1481,8 +1481,8 @@ New stand-up specials from Chelsea Handler and John Mulaney will be on the platf
   },
   {
     slug: "ew-netflix-en-iyi-aile-filmleri",
-    title: "Netflix's Top 20 Family Movies: From 'Chicken Run' to 'Matilda'",
-    excerpt: "Wesley Stenzel's list for EW brings together 20 Netflix movies that both children and adults can watch: 'Rango', 'Galaxy Quest', 'Nimona', and more.",
+    title: "Netflix'teki En İyi 20 Aile Filmi: Chicken Run'dan Matilda'ya",
+    excerpt: "Wesley Stenzel'ın EW için hazırladığı liste, çocukların da yetişkinlerin de izleyebileceği 20 Netflix filmini bir araya getiriyor: Rango, Galaxy Quest, Nimona ve daha fazlası.",
     body: `Entertainment Weekly writer Wesley Stenzel has selected Netflix's top 20 family movies. A diverse list ranging from Aardman's clay animations to contemporary animated hits, and classic comedies.
 
 ## Animation classics
@@ -1504,8 +1504,8 @@ According to Stenzel, the "family movie" label should not be reduced to a childr
   },
   {
     slug: "agustos-ayinin-en-iyi-10-dizisi-bbc",
-    title: "From Ted Lasso to The Shards: 10 Must-Watch Series in August",
-    excerpt: "From the return of Apple TV's football comedy to a dark teen thriller by Ryan Murphy, from DC's new superhero series Lanterns to Conan O'Brien's road stories — Caryn James's August picks from BBC Culture.",
+    title: "Ted Lasso'dan The Shards'a: Ağustosta Mutlaka İzlenmesi Gereken 10 Dizi",
+    excerpt: "Apple TV'nin futbol komedisinin dönüşünden Ryan Murphy imzalı karanlık bir gençlik gerilimine, DC'nin yeni süper kahraman dizisi Lanterns'ten Conan O'Brien'ın yol hikâyelerine: BBC Culture'dan Caryn James'in ağustos seçkisi.",
     body: `Late summer television is unusually crowded this year. Caryn James from BBC Culture has selected ten productions set to air throughout August: comebacks, adaptations, and genre experiments.
 
 ## 1. Fightland (July 31 — Starz / August 27 — Sky & NOW)
@@ -1542,8 +1542,8 @@ The parallel universe thriller adapted from Blake Crouch's bestselling novel con
   },
   {
     slug: "agustos-ayinin-en-iyi-10-filmi-bbc",
-    title: "From The Dog Stars to One Night Only: 10 Must-See Films in August",
-    excerpt: "Ridley Scott's post-apocalyptic thriller with Jacob Elordi, Eli Roth's ice cream killer, Anthony Bourdain's youth, and the shelved Coyote vs Acme — Nicholas Barber's August picks for BBC Culture.",
+    title: "The Dog Stars'tan One Night Only'ye: Ağustosta Mutlaka İzlenmesi Gereken 10 Film",
+    excerpt: "Ridley Scott'ın Jacob Elordi'li kıyamet sonrası gerilimi, Eli Roth'un dondurmacı katili, Anthony Bourdain'in gençliği ve rafa kaldırılan Coyote vs Acme: Nicholas Barber'ın BBC Culture için hazırladığı ağustos seçkisi.",
     body: `August is an unusually busy month, both in cinemas and at home. Nicholas Barber from BBC Culture has selected ten films that will make their mark this month: from an absurd rom-com to Ridley Scott's new dystopia, from Cannes' most critically acclaimed film to a Looney Tunes adaptation shelved for years.
 
 ## 1. One Night Only (August 7 US/Canada — August 28 UK)
@@ -1580,8 +1580,8 @@ Simon Farnaby, co-writer of "Paddington 2" and "Wonka," modernizes Enid Blyton's
   },
   {
     slug: "game-of-thrones-en-iyi-10-ani",
-    title: "Game of Thrones' Top 10 Moments: Not the Grand Battles, But the Silences Before the Storm",
-    excerpt: "Giddy Up America's selection sets aside the show's massive set pieces and focuses on those small moments of tension before the explosion — from barking dogs to Roose Bolton's armor, to that look on Littlefinger's face.",
+    title: "Game of Thrones'un En İyi 10 Anı: Büyük Savaşlar Değil, Fırtına Öncesi Sessizlikler",
+    excerpt: "Giddy Up America'nın seçkisi, dizinin dev sahnelerini bir kenara bırakıp her şeyin patlak vermesinden önceki küçük gerilim anlarına odaklanıyor: havlayan köpeklerden Roose Bolton'ın zırhına, Littlefinger'ın yüzündeki o ifadeye.",
     body: `It's not easy to talk about the legacy of Game of Thrones: on one hand, epic battles, shocking deaths, and breathtaking episodes; on the other, a rushed finale that contradicted everything that came before it. But the list maker's suggestion is this: the show's true power lies in those small moments before the storm. The fireworks were what stuck in memory, but what truly hit home was often the silence just before the explosion.
 
 ## 10. The Mountain trips Oberyn's leg — "The Mountain and the Viper" (S4, E8)
@@ -1618,8 +1618,8 @@ Finally. After six seasons of crossing deserts, being captured, escaping death, 
   },
   {
     slug: "mark-ruffalo-en-iyi-15-filmi",
-    title: "Mark Ruffalo's Top 15 Films: From Spotlight to Zodiac",
-    excerpt: "Metacritic ranked Mark Ruffalo's career based on critic scores. 15 films ranging from independent dramas to Marvel blockbusters, from justice-seeking journalists to Victorian-era comedies.",
+    title: "Mark Ruffalo'nun En İyi 15 Filmi: Spotlight'tan Zodiac'a",
+    excerpt: "Metacritic, Mark Ruffalo'nun kariyerini eleştirmen puanlarına göre sıraladı. Bağımsız dramlardan Marvel'ın gişe canavarlarına, adalet arayan gazetecilerden Viktorya dönemi komedilerine uzanan 15 film.",
     body: `Mark Ruffalo is one of those rare actors who can exist with equal ease in both independent cinema and the world's biggest film franchise. Metacritic has ranked Ruffalo's top 15 films based on critic scores — we're counting down.
 
 ## 15. Collateral (2004)
@@ -1686,8 +1686,8 @@ Ruffalo's greatest "justice-seeking" role. He plays investigative journalist Mic
   },
   {
     slug: "2026nin-en-iyi-yeni-korku-filmleri",
-    title: "Top 10 New Horror Movies of 2026",
-    excerpt: "Rotten Tomatoes ranked the year's highest-rated horror films by Tomatometer score. From a slasher parody to Nia DaCosta's '28 Years Later' sequel, the 10 best horror films of 2026.",
+    title: "2026'nın En İyi 10 Yeni Korku Filmi",
+    excerpt: "Rotten Tomatoes, yılın en yüksek puanlı korku filmlerini Tomatometer puanına göre sıraladı. Bir slasher parodisinden Nia DaCosta'nın 28 Years Later devam filmine, 2026'nın en iyi 10 korku filmi.",
     body: `2026 was a fruitful year for horror cinema: camp slashers, digital legends, zombie sequels, and classic haunted house stories shared the same season. According to Rotten Tomatoes' Tomatometer rankings, here are the 10 best new horror movies of the year:
 
 ## 1. Teenage Sex and Death at Camp Miasma (2026) — %98
@@ -1735,8 +1735,8 @@ Grace (Samara Weaving) immediately levels up after escaping the Le Domas family.
   },
   {
     slug: "2026nin-en-iyi-yeni-komedi-filmleri",
-    title: "Top 10 New Comedy Movies of 2026",
-    excerpt: "From Olivia Wilde's 'The Invite' to Pixar's 'Hoppers', the 10 funniest films of the year according to Rotten Tomatoes' Tomatometer rankings.",
+    title: "2026'nın En İyi 10 Yeni Komedi Filmi",
+    excerpt: "Olivia Wilde'ın The Invite filminden Pixar'ın Hoppers'ına, Rotten Tomatoes'un Tomatometer sıralamasına göre yılın en komik 10 filmi.",
     body: `From Boots Riley to Olivia Wilde, from Pixar to Minions: 2026 comedy cinema is a year where both auteur cinema and big studio animations are strong at the same time. The 10 best new comedies of the year, according to Rotten Tomatoes' Tomatometer rankings:
 
 ## 1. The Invite (2026) — %97
@@ -1784,8 +1784,8 @@ The film starring Joe Keery and Georgina Campbell is a B-movie homage set in a s
   {
     slug: "tum-9-live-action-spider-man-filmi-siralamasi",
     countdownBadge: "9 → 1 countdown",
-    title: "All 9 Live-Action Spider-Man Movies: Ranked From Worst to Best",
-    excerpt: "Nerdist ranked nearly 25 years of Spider-Man cinema from top to bottom: from the Raimi trilogy to the Amazing duo, the Tom Holland era, and the blockbuster Brand New Day.",
+    title: "Canlı Çekim 9 Spider-Man Filminin Tamamı: En Kötüden En İyiye",
+    excerpt: "Nerdist, Spider-Man'in yaklaşık 25 yıllık sinema serüvenini baştan sona sıraladı: Raimi üçlemesinden Amazing ikilisine, Tom Holland dönemine ve gişe hiti Brand New Day'e.",
     body: `For nearly 25 years, the *Spider-Man* franchise has been one of the most successful brands in cinematic history. While the ninth installment, *Spider-Man: Brand New Day*, broke box office records worldwide, the series has accumulated both very high peaks and quite low troughs. Nerdist ranked the nine live-action films from worst to best, not counting the MCU films where Spidey made guest appearances.
 
 ## 9. The Amazing Spider-Man 2 (2014) — Marc Webb
@@ -1832,8 +1832,8 @@ No surprises at the top. Raimi's second film is still not only the best Spider-M
   },
   {
     slug: "mcu-oncesi-izlenmesi-gereken-3-x-men-filmi",
-    title: "3 Great X-Men Movies You Need To Watch Before Mutants Arrive In The MCU",
-    excerpt: "As the mutants' MCU journey accelerates with Samara Weaving cast as Emma Frost, the Empire team picks the three best stops to revisit the series: X2, Days Of Future Past, and Logan.",
+    title: "Mutantlar MCU'ya Gelmeden Önce İzlemeniz Gereken 3 Harika X-Men Filmi",
+    excerpt: "Samara Weaving'in Emma Frost rolüne seçilmesiyle mutantların MCU yolculuğu hız kazanırken Empire ekibi, seriyi yeniden ziyaret etmek için en iyi üç durağı seçiyor: X2, Days Of Future Past ve Logan.",
     body: `We've known for a while that the Marvel Cinematic Universe is getting closer to mutants. With *X-Men '97* an X-Men narrative is already underway under the MCU umbrella; on top of that came the news of Samara Weaving being cast for the role of telepath Emma Frost. So there's no better time to look back at the series that started the genre. But not all X-films were created equal — Empire's experts picked the three most worth rewatching.
 
 ## X2 (2003) — Bryan Singer
@@ -1864,8 +1864,8 @@ Hugh Jackman technically returned with *Deadpool & Wolverine*, but James Mangold
   },
   {
     slug: "brand-new-day-oncesi-3-spider-man-disi-tom-holland-filmi",
-    title: "3 Non-Spider-Man Tom Holland Movies to Watch Before Brand New Day",
-    excerpt: "Tom Holland, the MCU's sole Spider-Man for a decade, is an actor far beyond the web-slinger. The Empire team picked his top three non-Spidey films.",
+    title: "Brand New Day'den Önce İzlenecek, Spider-Man Dışındaki 3 Tom Holland Filmi",
+    excerpt: "On yıldır MCU'nun tek Spider-Man'i olan Tom Holland, ağ fırlatan kahramanın çok ötesinde bir oyuncu. Empire ekibi, onun Spider-Man dışındaki en iyi üç filmini seçti.",
     body: `His name is Tom Holland, and for the past decade, he's been the Marvel Cinematic Universe's sole Spider-Man — soon to return with *Spider-Man: Brand New Day*. But while the world knows him best as the friendly neighborhood superhero, there's much more to the British star than Peter Parker. While we continue to admire his work in *The Odyssey*, Empire's experts dug through the archives to pick his top three non-Spidey films.
 
 ## The Impossible (2012) — J.A. Bayona
@@ -1890,8 +1890,8 @@ Despite opening with a disaster movie, starring in half a dozen MCU films, and f
   },
   {
     slug: "tum-zamanlarin-en-iyi-zombi-filmleri",
-    title: "The Best Zombie Movies Of All Time: Empire's Top 10",
-    excerpt: "From Night Of The Living Dead to 28 Years Later, the top 10 films from Empire's 25-strong zombie list — the best of the genre, from Romero classics to Train To Busan.",
+    title: "Tüm Zamanların En İyi Zombi Filmleri: Empire'ın İlk 10'u",
+    excerpt: "Night Of The Living Dead'den 28 Years Later'a, Empire'ın 25 filmlik zombi listesinin ilk 10'u: Romero klasiklerinden Train To Busan'a türün en iyileri.",
     countdownBadge: "10 → 1 countdown",
     body: `The zombie film is one of cinema's most flexible genres: the same monster can be used for social satire, pure comedy, and pure horror. Empire has compiled a list of 25, ranging from *Night Of The Living Dead* to *28 Years Later*. Here are the top 10 films from that list.
 
@@ -1939,8 +1939,8 @@ At the top is the tombstone of consumer society: survivors taking refuge in a sh
   },
   {
     slug: "2026-nin-en-iyi-10-oyunu",
-    title: "The 10 Best Games of 2026 (So Far)",
-    excerpt: "From \"Cairn\" to \"007 First Light\", from \"Resident Evil Requiem\" to \"Saros\": Empire's top 10 games of the first half of the year. 2026 is shaping up to be the year where cinema and gaming intersect the most.",
+    title: "2026'nın En İyi 10 Oyunu (Şimdiye Kadar)",
+    excerpt: "Cairn'den 007 First Light'a, Resident Evil Requiem'den Saros'a: Empire'ın yılın ilk yarısındaki en iyi 10 oyunu. 2026, sinema ve oyun dünyasının en çok kesiştiği yıl olmaya aday.",
     countdownBadge: "10 → 1 countdown",
     body: `Will 2026 be the year of cinema in the gaming world? We're only halfway through the year, but James Bond has embarked on an entirely new adventure for the first time in years — "007 First Light" tells the story of how the world's most famous agent was born. "Resident Evil Requiem" offers a horror worthy of the silver screen, and even "Lego Batman" is reborn with a Tim Burton aesthetic. Other contenders draw inspiration from John Hughes' filmography or the AI paranoia of "2001".
 
@@ -1990,8 +1990,8 @@ A banner year for Capcom. Despite "Pragmata" and "Monster Hunter Stories 3," not
   },
   {
     slug: "ridley-scott-movies-ranked-worst-to-best",
-    title: "Every Ridley Scott Movie, Ranked From Worst to Best",
-    excerpt: "From biblical misfires to science-fiction landmarks, Rolling Stone ranks 29 Ridley Scott films — with Alien, Blade Runner and Thelma & Louise leading a remarkably varied career.",
+    title: "Tüm Ridley Scott Filmleri: En Kötüden En İyiye",
+    excerpt: "Başarısız İncil uyarlamalarından bilimkurgunun dönüm noktalarına, Rolling Stone 29 Ridley Scott filmini sıralıyor; olağanüstü çeşitlilikteki bu kariyerin zirvesinde Alien, Blade Runner ve Thelma & Louise var.",
     countdownBadge: "29 films ranked",
     image: ridleyScottCover.url,
     source: "Rolling Stone",
@@ -2123,8 +2123,8 @@ Scott's haunted-house movie in space remains a model of patient terror. Industri
   },
   {
     slug: "na-hong-jin-movies-to-watch-before-hope",
-    title: "3 Na Hong-jin Movies You Need to Watch Next as Hope Hits Cinemas",
-    excerpt: "As the most expensive South Korean film ever made stomps into cinemas, we walk through Director Na's filmography — three modern classics of Korean thriller and horror, and where to stream them.",
+    title: "Hope Vizyona Girerken İzlemeniz Gereken 3 Na Hong-jin Filmi",
+    excerpt: "Güney Kore'nin bugüne kadarki en pahalı filmi sinemalara iddialı bir giriş yaparken Na Hong-jin'in filmografisinde bir yolculuğa çıkıyoruz: Kore gerilim ve korku sinemasından üç modern klasik ve onları izleyebileceğiniz platformlar.",
     countdownBadge: "3 films",
     image: nhjCover.url,
     source: "Empire",
