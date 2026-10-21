@@ -100,19 +100,19 @@ export const NEWS: NewsItem[] = [
     excerpt: "The White Lotus oyuncusu, Joseph Kosinski’nin Crockett ve Tubbs’ın neon ışıklı dünyasına dönüşünde Michael B. Jordan ve Austin Butler’a katılıyor.",
     image: miamiViceRichardson.url,
     source: "Deadline — Matt Grobar, October 13, 2026",
-    body: `**Haley Lu Richardson** has joined **Miami Vice ’85**, adding another familiar face to Universal’s new take on the undercover crime series. Her character has not been disclosed. **Michael B. Jordan** and **Austin Butler** lead the cast as Ricardo “Rico” Tubbs and James “Sonny” Crockett.
+    body: `**Haley Lu Richardson** **Miami Vice '85**'e katıldı ve Universal'nin gizli suç serisine yönelik yeni yaklaşımına bir tanıdık yüz daha ekledi. Karakteri açıklanmadı. **Michael B. Jordan** ve **Austin Butler** Ricardo “Rico” Tubbs ve James “Sonny” Crockett rolleriyle kadroya liderlik ediyor.
 
-## Back to the Original Miami
+## Orijinal Miami'ye Dönüş
 
-The film takes its starting point from **“Brother’s Keeper,”** the pilot of the NBC television show. Its setting is mid-1980s Miami, where glamour and corruption run side by side. Further story details remain under wraps, so Richardson’s place in the detectives’ world is still an open question.
+Film, başlangıç ​​noktasını NBC televizyon programının pilotu **"Brother's Keeper"**'dan alıyor. It'nin ortamı, ihtişam ve yozlaşmanın yan yana yürüdüğü 1980'lerin ortaları Miami'dir. Hikâyenin diğer ayrıntıları gizli tutuluyor, bu nedenle Richardson'un dedektiflerin dünyasındaki yeri hala açık bir soru.
 
-**Joseph Kosinski**, the filmmaker behind *Top Gun: Maverick* and *F1*, directs from a screenplay by **Dan Gilroy**, whose credits include *Nightcrawler*. The production is filming for IMAX. The supporting ensemble includes Alden Ehrenreich, Whitney Peak, Camila Morrone, John Leguizamo, Danny Ramirez and Walton Goggins.
+*Top Gun: Maverick* ve *F1*'nin arkasındaki film yapımcısı **Joseph Kosinski**, jeneriği *Nightcrawler* olan **Dan Gilroy**'nin senaryosundan yönetiyor. Prodüksiyon IMAX için çekim yapıyor. Destekleyici topluluk Alden Ehrenreich, Whitney Peak, Camila Morrone, John Leguizamo, Danny Ramirez ve Walton Goggins'yi içerir.
 
-## A Growing Cast, a 2028 Target
+## Büyüyen Kadro, 2028 Hedefi
 
-The casting report describes the film as still in production, with a theatrical release scheduled for **May 19, 2028**. Kosinski and Dylan Clark produce. Richardson’s recent screen work includes the Cold War series *Ponies* and Gore Verbinski’s *Good Luck, Have Fun, Don’t Die*.
+Oyuncu seçimi raporunda filmin halen yapım aşamasında olduğu ve **19 Mayıs 2028**'de vizyona girmesi planlandığı belirtiliyor. Kosinski ve Dylan Clark üretiyor. Richardson'ın son ekran çalışmaları arasında Cold War serisi *Ponies* ve Gore Verbinski'nin *Good Luck, Have Fun, Don’t Die* serisi yer alıyor.
 
-For now, the announcement expands an already substantial cast rather than revealing a new plot twist. The most intriguing question is how Kosinski’s large-scale filmmaking will translate the original show’s distinctive blend of police work, style and moral compromise.`,
+Şimdilik duyuru, yeni bir olay örgüsünü ortaya çıkarmak yerine zaten önemli olan oyuncu kadrosunu genişletiyor. En merak uyandırıcı soru, Kosinski'nin büyük ölçekli film yapımcılığının orijinal dizinin polis işi, stil ve ahlaki uzlaşmanın kendine özgü karışımını nasıl aktaracağıdır.`,
   },
   {
     slug: "sense-and-sensibility-new-dashwood-sisters-clip",
@@ -120,19 +120,19 @@ For now, the announcement expands an already substantial cast rather than reveal
     excerpt: "Yeni bir klip, Georgia Oakley’nin Jane Austen uyarlamasında Daisy Edgar-Jones’a eşlik eden Esmé Creed-Miles’ın hayat dolu Marianne’ini öne çıkarıyor.",
     image: senseSensibilityDashwoods.url,
     source: "Collider — Rachel Leishman, October 13, 2026",
-    body: `A new look at **Sense and Sensibility** puts the Dashwood sisters back in the spotlight. **Daisy Edgar-Jones** and **Esmé Creed-Miles** star as Elinor and Marianne in director **Georgia Oakley’s** adaptation of Jane Austen’s novel, with a screenplay by **Diana Reid**.
+    body: `**Sense and Sensibility**'e yeni bir bakış, Dashwood kardeşleri yeniden ilgi odağı haline getiriyor. **Daisy Edgar-Jones** ve **Esmé Creed-Miles**, yönetmen **Georgia Oakley** tarafından Jane Austen'in romanından uyarlanan, senaryosu **Diana Reid** tarafından yazılan filmde Elinor ve Marianne'i canlandırıyorlar.
 
-## Marianne Speaks Her Mind
+## Marianne Aklındakini Konuşuyor
 
-The preview centres on a dinner conversation between Marianne and **Colonel Brandon**, played by **Herbert Nordrum**. Marianne asks about his interests, but his answers repeatedly put distance between him and the pleasures she raises. Her impatience gives the scene its spark: this is a young woman unwilling to mistake reserve for depth.
+Önizleme, Marianne ve **Colonel Brandon** arasındaki, **Herbert Nordrum** tarafından canlandırılan bir akşam yemeği sohbetine odaklanıyor. Marianne onun ilgi alanlarını soruyor ama cevapları sürekli olarak onunla onun yaşattığı zevkler arasına mesafe koyuyor. Sabırsızlığı sahneye kıvılcım veriyor: Bu, rezervi derinlikle karıştırmak istemeyen genç bir kadın.
 
-That exchange offers a small window into the adaptation’s approach to Austen’s characters. Rather than outlining the entire story, the scene lets personality emerge through conversation, with Marianne’s directness creating tension across the dinner table. It is a preview, not a basis for a full critical verdict on the film.
+Bu fikir alışverişi, uyarlamanın Austen'in karakterlerine yaklaşımına küçük bir pencere açıyor. Sahne, tüm hikayenin ana hatlarını çizmek yerine kişiliğin konuşma yoluyla ortaya çıkmasına olanak tanıyor ve Marianne'in açık sözlülüğü yemek masasında gerilim yaratıyor. It, film hakkında tam bir eleştirel karara varmak için bir temel değil, bir ön izlemedir.
 
-## Austen’s Story of Love and Sisterhood
+## Austen'in Aşk ve Kardeşlik Hikayesi
 
-The Focus Features and Working Title production also stars **Caitríona Balfe, Frank Dillane, George MacKay and Fiona Shaw**. Tim Bevan, Eric Fellner, India Flint and Jo Wallett produce. Its central appeal remains the relationship between two sisters navigating love, uncertainty and the expectations surrounding them.
+Focus Özellikleri ve Working Title prodüksiyonunda ayrıca **Caitríona Balfe, Frank Dillane, George MacKay ve Fiona Shaw** rol alıyor. Tim Bevan, Eric Fellner, India Flint ve Jo Wallett üretiyor. It'nin asıl çekiciliği, aşk, belirsizlik ve onları çevreleyen beklentiler arasında yön değiştiren iki kız kardeş arasındaki ilişki olmaya devam ediyor.
 
-The preview report listed **October 16, 2026** for the theatrical release. The new clip gives Austen readers a concrete introduction to Creed-Miles’s Marianne, while leaving the film’s broader interpretation of Elinor, romance and family to be discovered on screen.`,
+Önizleme raporunda sinemalarda gösterim için **16 Ekim 2026** tarihi listeleniyor. Yeni klip, Austen okurlarına Creed-Miles'nin Marianne'i hakkında somut bir giriş sunarken, filmin Elinor, romantizm ve aileye dair daha geniş yorumunu ekranda keşfedilmeyi bekliyor.`,
   },
   {
     slug: "no-mans-sky-ios-october-28-launch",
@@ -141,19 +141,19 @@ The preview report listed **October 16, 2026** for the theatrical release. The n
     image: noMansSkyIos.url,
     source: "Gematsu — Sal Romano, October 12, 2026",
     homepagePlacement: "lower",
-    body: `**Hello Games** has announced an **October 28, 2026** iOS launch for **No Man’s Sky**, taking its space-exploration adventure to another platform. This is a mobile release announcement, not a new PC edition or a hands-on assessment of its performance.
+    body: `**Hello Games**, **No Man's Sky** için **28 Ekim 2026**'da iOS lansmanı yapılacağını duyurdu ve uzay keşif macerasını başka bir platforma taşıdı. Bu bir mobil sürüm duyurusudur; yeni bir PC sürümü veya performansına ilişkin uygulamalı bir değerlendirme değildir.
 
-## Try the Opening Before Buying
+## Satın Almadan Önce Açılışı Deneyin
 
-The accompanying App Store description says players can try the beginning for free. A **one-time purchase** then unlocks the full game, including ten years of updates. The announcement does not establish a purchase price, so there is no confirmed price to compare with the existing PC and console versions here.
+Ekteki App Store açıklaması, oyuncuların başlangıcı ücretsiz olarak deneyebileceklerini söylüyor. **Tek seferlik satın alma**, on yıllık güncellemeler de dahil olmak üzere oyunun tamamının kilidini açar. Duyuruda bir satın alma fiyatı belirlenmediği için mevcut PC ve konsol versiyonlarıyla karşılaştırılacak onaylanmış bir fiyat bulunmuyor.
 
-The mobile edition’s listed content includes the major updates released since launch, from *Foundation* and *NEXT* through *Worlds Part I*, *Worlds Part II* and *Voyagers*. The report’s update list extends to **COSMOS (7.0)**, positioning this as a version of the long-running game rather than a separate, stripped-down spin-off.
+Mobil sürümün listelenen içeriği, *Foundation* ve *NEXT*'den *Worlds Part I*, *Worlds Part II* ve *Voyagers*'ye kadar piyasaya sürülmesinden bu yana yayınlanan önemli güncellemeleri içerir. Raporun güncelleme listesi **COSMOS (7.0)**'a kadar uzanıyor ve bunu ayrı, sadeleştirilmiş bir yan ürün olarak değil, uzun süredir devam eden oyunun bir versiyonu olarak konumlandırıyor.
 
-## The Same Exploration-Focused Premise
+## Aynı Keşif Odaklı Önerme
 
-The described experience retains procedurally generated planets, spaceflight, trading, combat and survival. Moving between space and planetary surfaces is central to the game’s appeal, while ship and equipment upgrades shape how players explore and cope with hostile environments.
+Açıklanan deneyim, prosedürel olarak oluşturulmuş gezegenleri, uzay uçuşunu, ticareti, savaşı ve hayatta kalmayı korur. Uzay ve gezegen yüzeyleri arasında hareket etmek oyunun çekiciliğinin merkezinde yer alırken, gemi ve ekipman yükseltmeleri oyuncuların düşman ortamlarını nasıl keşfedip bunlarla baş etmelerini şekillendiriyor.
 
-An **iOS Deep Dive** trailer accompanies the announcement. For readers who already follow the game on PC, the news is about its expanding reach; device compatibility, controls and real-world mobile performance should be checked separately before buying. The October 28 date is an announced launch target, not a claim that the mobile version is already available.`,
+Duyuruya bir **iOS Deep Dive** fragmanı da eşlik ediyor. Oyunu zaten PC üzerinden takip eden okuyucular için haber, oyunun genişleyen erişimiyle ilgili; cihaz uyumluluğu, kontroller ve gerçek dünyadaki mobil performans, satın almadan önce ayrıca kontrol edilmelidir. 28 Ekim tarihi, mobil versiyonun halihazırda mevcut olduğu iddiası değil, duyurulan bir lansman hedefidir.`,
   },
   {
     slug: "zendaya-alex-garland-a24-sci-fi-film",
@@ -161,17 +161,17 @@ An **iOS Deep Dive** trailer accompanies the announcement. For readers who alrea
     excerpt: "Euphoria ve Dune yıldızı, A24 bünyesindeki yeni bir bilimkurgu projesinde Ex Machina ve Civil War yönetmeniyle bir araya geliyor.",
     image: zendayaGarlandCover,
     source: "Variety — Alex Ritman, October 15, 2026",
-    body: `**Zendaya** is set to star in a new science-fiction film from **Alex Garland** at **A24**, bringing together one of Hollywood's most in-demand actors with the director behind *Ex Machina*, *Annihilation* and *Civil War*.
+    body: `**Zendaya**, **A24**'de **Alex Garland**'den yeni bir bilim kurgu filminde başrol oynayacak ve Hollywood'nin en çok aranan oyuncularından biri ile *Ex Machina*, *Annihilation* ve *Civil War*'nin arkasındaki yönetmeni bir araya getirecek.
 
-![A lone figure crosses a vast, mist-shrouded facility in a scene evoking Garland's signature sci-fi atmosphere](${zendayaGarlandCover})
+![Garland'nin kendine özgü bilim kurgu atmosferini çağrıştıran bir sahnede yalnız bir figür geniş, sislerle kaplı bir tesisten geçiyor](${zendayaGarlandCover})
 
-Plot details are being kept under wraps, in keeping with Garland's habit of revealing as little as possible before release. What is known is that the project continues A24's run of pairing prestige filmmakers with major stars, a strategy that has turned the studio into one of the most reliable homes for ambitious genre cinema.
+Garland'nin yayınlanmadan önce mümkün olduğunca az açıklama yapma alışkanlığına uygun olarak olay örgüsü ayrıntıları gizli tutuluyor. Bilinen şey, projenin A24'nin prestijli film yapımcılarını büyük yıldızlarla eşleştirme çalışmasını sürdürdüğü; bu strateji, stüdyoyu iddialı tür sineması için en güvenilir evlerden birine dönüştüren bir strateji.
 
-![Garland's films are known for their eerie, clinical vision of technology and the human body](${zendayaGarlandLab})
+![Garland'nin filmleri teknoloji ve insan vücuduna ilişkin ürkütücü, klinik vizyonuyla tanınır](${zendayaGarlandLab})
 
-For Zendaya, the film adds another auteur collaboration to a slate that already includes work with Denis Villeneuve, Luca Guadagnino and Sam Levinson. Garland, meanwhile, has spent the past few years moving between directing and writing, and a new original sci-fi feature marks a return to the territory that made his name.
+Zendaya için film, halihazırda Denis Villeneuve, Luca Guadagnino ve Sam Levinson ile yapılan çalışmaları içeren listeye bir başka auteur işbirliğini daha ekliyor. Bu arada Garland, son birkaç yılını yönetmenlik ve yazarlık arasında gidip gelerek geçirdi ve yeni bir orijinal bilim kurgu özelliği, adını duyuran bölgeye dönüşün habercisi.
 
-No production start date or release window has been announced yet.`,
+Henüz üretime başlama tarihi veya çıkış tarihi açıklanmadı.`,
   },
   {
     slug: "castlevania-belmonts-curse-review-highlights",
@@ -180,33 +180,33 @@ No production start date or release window has been announced yet.`,
     image: castlevaniaCover.url,
     source: "Region Free — Joonatan Itkonen, October 12, 2026",
     homepagePlacement: "lower",
-    body: `**Castlevania: Belmont's Curse** has received an enthusiastic assessment from Region Free's Joonatan Itkonen, whose review places it among the series' strongest adventures. The praise centres on an engaging mix of exploration, challenging battles and storytelling that gives the Belmont family's latest journey an emotional dimension.
+    body: `**Castlevania: Belmont's Curse** Region Free'den Joonatan Itkonen tarafından coşkulu bir değerlendirmeyle karşılandı ve değerlendirmeleri onu serinin en güçlü maceraları arasına yerleştirdi. Övgüler, Belmont ailesinin son yolculuğuna duygusal bir boyut kazandıran ilgi çekici bir keşif, zorlu savaşlar ve hikaye anlatımı karışımına odaklanıyor.
 
-This is a report on that review, not a separate hands-on verdict. Itkonen played on **PlayStation 5 Pro**, using a digital retail review code supplied by the distributor; the article does not establish how the PC version performs.
+Bu, söz konusu incelemeye ilişkin bir rapordur, ayrı bir uygulamalı karar değildir. Itkonen, distribütör tarafından sağlanan dijital perakende inceleme kodunu kullanarak **PlayStation 5 Pro**'da oynadı; makale PC sürümünün nasıl performans gösterdiğini belirlemez.
 
-## A Belmont Adventure in Paris
+## Paris'de bir Belmont Adventure
 
-According to the review, Rose and Trevor Belmont arrive in **Paris in 1499**, finding a city overrun by demonic forces. The story takes place twenty years after *Castlevania III: Dracula's Curse*, drawing on the games' history and connections to the Netflix series. Itkonen particularly admires its treatment of family, inherited traditions and characters caught in cycles of suffering.
+İncelemeye göre Rose ve Trevor Belmont, **1499 yılında Paris**'e vardıklarında şeytani güçlerin istila ettiği bir şehir buluyorlar. Hikaye *Castlevania III: Dracula's Curse*'den yirmi yıl sonra geçiyor ve oyunların geçmişinden ve Netflix serisiyle bağlantılarından yararlanılıyor. Itkonen özellikle aileye, miras alınan geleneklere ve acı döngülerine yakalanmış karakterlere yönelik yaklaşımına hayranlık duyuyor.
 
-![Rose Belmont explores a burning Paris in Castlevania: Belmont's Curse](${castlevaniaParis.url})
+![Rose Belmont, Castlevania: Belmont'un Laneti'nde yanan bir Paris'yi keşfediyor](${castlevaniaParis.url})
 
-## Exploration Shares the Spotlight
+## Keşif Odak Noktasını Paylaşıyor
 
-The review describes an adventure developed by **Evil Empire with assistance from Motion Twin**, the studios associated with *Dead Cells*. Exploration extends beyond Dracula's castle into different parts of Paris, with side quests and routes that become accessible as Rose acquires new abilities. Early bosses can be approached in different orders, encouraging players to try another path rather than persist with a single obstacle.
+İnceleme, *Dead Cells* ile ilişkili stüdyolar olan Motion Twin**'nin yardımıyla **Evil Empire tarafından geliştirilen bir macerayı anlatıyor. Keşif, Rose yeni yetenekler kazandıkça erişilebilir hale gelen yan görevler ve rotalarla Drakula'nın şatosunun ötesine geçerek Paris'nin farklı bölümlerine uzanıyor. İlk bosslara farklı sıralarla yaklaşılabilir, bu da oyuncuları tek bir engelle uğraşmak yerine başka bir yol denemeye teşvik eder.
 
-Platforming also receives renewed emphasis. Itkonen finds the obstacle courses demanding and the movement sharp, while the level design rewards curiosity without feeling unnecessarily fussy.
+Platform oluşturma da yenilenen bir vurgu alıyor. Itkonen engelli parkurları zorlu ve hareketi keskin buluyor; seviye tasarımı ise gereksiz telaş yaratmadan merakı ödüllendiriyor.
 
-## Tarot Magic and Tough Bosses
+## Tarot Magic ve Tough Bosses
 
-Rose's **Arcanas** are another highlight: an enchanted Tarot deck inherited from her mother, Sypha, captures the souls of major enemies. Those characters contribute perspectives to the narrative, connecting progression to the people and creatures encountered along the way.
+Rose'nin **Arcanas**'ı öne çıkan bir diğer özelliktir: annesi Sypha'den miras kalan büyülü Tarot destesi, büyük düşmanların ruhlarını yakalar. Bu karakterler, ilerlemeyi yol boyunca karşılaşılan insanlara ve yaratıklara bağlayarak anlatıya perspektifler katıyor.
 
-Swords, spears and familiar Belmont weapons accompany the magic. The critic praises responsive combat and especially difficult boss encounters, while noting that the weapon selection is less flexible than in earlier entries. Optional difficulty assists offer a way to adjust the challenge.
+Büyüye kılıçlar, mızraklar ve tanıdık Belmont silahları eşlik ediyor. Eleştirmen, tepkisel dövüşü ve özellikle zor patron karşılaşmalarını övüyor, ancak silah seçiminin önceki girişlere göre daha az esnek olduğuna dikkat çekiyor. İsteğe bağlı zorluk asistleri, mücadeleyi ayarlamanın bir yolunu sunar.
 
-## An Enthusiastic Verdict, with a Platform Caveat
+## Platform Uyarısıyla Coşkulu Bir Karar
 
-Art direction and a soundtrack combining remixes with new compositions round out the review's strongest points. Itkonen reports spending around **twenty hours** on a first run that reached a little over **ninety percent completion**, with secrets and Arcanas providing reasons to keep exploring.
+Sanat yönetmenliği ve remiksleri yeni bestelerle birleştiren film müziği, incelemenin en güçlü noktalarını tamamlıyor. Itkonen, **yüzde doksanın biraz üzerinde tamamlanmaya** ulaşan ilk çalıştırmada yaklaşık **yirmi saat** harcandığını, sırların ve Arcanas'ın araştırmaya devam etmek için nedenler sağladığını bildirdi.
 
-For readers following the year's games, the takeaway is a strongly positive PlayStation assessment of Castlevania's return—not a PC performance recommendation or a universal completion-time promise.`,
+Yılın oyunlarını takip eden okuyucular için sonuç, Castlevania'nın geri dönüşüne ilişkin son derece olumlu bir PlayStation değerlendirmesidir; bir PC performans tavsiyesi veya evrensel bir tamamlama süresi vaadi değildir.`,
   },
   {
     slug: "subnautica-2-two-million-sales-12-hours",
@@ -214,17 +214,17 @@ For readers following the year's games, the takeaway is a strongly positive Play
     excerpt: "Krafton ile Unknown Worlds’ün kurucuları arasındaki yıpratıcı hukuk mücadelesinin ardından, hayatta kalma serisinin erken erişime açılan devam oyunu 2026’nın en büyük PC çıkışlarından birine imza attı.",
     image: gameOcean2,
     source: "PC Gamer — Harvey Randall, May 15, 2026",
-    body: `**Subnautica 2** reached **2 million copies in just 12 hours** after its early access launch, following a first million sold in roughly one hour. Peak concurrent players across Steam, the Epic Games Store and Xbox passed **651,000**, with Steam alone topping **467,000** — around nine times the all-time peak of the original Subnautica.
+    body: `**Subnautica 2** yaklaşık bir saat içinde satılan ilk milyonun ardından, erken erişim lansmanından sonra **sadece 12 saat içinde**2 milyon kopyaya ulaştı. Steam, Epic Games Store ve Xbox genelinde eş zamanlı oyuncu sayısı zirvesi **651.000**'i geçerken, tek başına Steam **467.000**'i aştı; bu, orijinal Subnautica'nin tüm zamanların zirvesinin yaklaşık dokuz katıydı.
 
-![A seabase on the alien seafloor in Subnautica 2](${gameOcean})
+![Subnautica 2'deki uzaylı deniz tabanındaki bir deniz üssü](${gameOcean})
 
-The numbers land after a turbulent year. In 2025, publisher Krafton removed the leadership of developer **Unknown Worlds**, and the dispute went to court amid accusations that the launch was being delayed to avoid a large earn-out payment. In March 2026, a judge ordered former CEO **Ted Gill** reinstated, and Krafton then confirmed the May early access date.
+Rakamlar çalkantılı bir yılın ardından geliyor. 2025 yılında yayıncı Krafton, geliştirici **Unknown Worlds**'nin liderliğini kaldırdı ve büyük bir kazanç ödemesinden kaçınmak için lansmanın ertelendiği yönündeki suçlamalar üzerine anlaşmazlık mahkemeye taşındı. Mart 2026'da bir yargıç, eski CEO **Ted Gill**'nin yeniden göreve getirilmesine karar verdi ve ardından Krafton, Mayıs ayı erken erişim tarihini doğruladı.
 
-## Why it matters for PC players
+## PC oyuncuları için neden önemlidir?
 
-The original Subnautica grew from a modest 2014 early access debut into a celebrated 1.0 release in 2018, shaped heavily by community feedback. The sequel follows the same route — but this time with **co-op**, a bigger opening slice and a far larger audience from day one. It had been Steam's most-wishlisted game, with more than 5 million wishlists before launch.
+Orijinal Subnautica, 2014'te mütevazı bir erken erişim çıkışından, büyük ölçüde topluluk geri bildirimleriyle şekillenen, 2018'de ünlü bir 1.0 sürümüne dönüştü. Devam filmi de aynı rotayı izliyor; ancak bu sefer **co-op** ile, daha büyük bir açılış dilimi ve ilk günden itibaren çok daha geniş bir izleyici kitlesi ile. It, lansmandan önce 5 milyondan fazla istek listesiyle Steam'nin en çok istek listesine eklenen oyunu olmuştu.
 
-For anyone building a 2026 PC library, Subnautica 2 is already one of the year's essential survival games — even with years of early access development still ahead.`,
+2026 PC kitaplığı oluşturan herkes için Subnautica 2, yıllarca süren erken erişim geliştirme çalışmalarına rağmen şimdiden yılın en önemli hayatta kalma oyunlarından biri.`,
   },
   {
     slug: "subnautica-2-early-access-impressions",
@@ -232,19 +232,19 @@ For anyone building a 2026 PC library, Subnautica 2 is already one of the year's
     excerpt: "Unknown Worlds’ün devam oyunu, birçok 1.0 sürümünden daha cilalı; hafif tonlu hikâyesi ise “insanlıktan çıkmanın” gerçekten o kadar kötü olup olmayacağını sorguluyor.",
     image: gameOcean,
     source: "PC Gamer — Tyler Wilde, May 14, 2026",
-    body: `Subnautica 2 is out in early access, and after its first hours it already feels **more refined than a lot of finished survival games**. Like the original, it is about exploring an alien ocean, cataloguing strange creatures, getting eaten by larger ones and building an underwater base — now with **co-op** for friends.
+    body: `Subnautica 2 erken erişimde ve ilk saatlerinden sonra **birçok tamamlanmış hayatta kalma oyunundan daha rafine** bir his veriyor. Orijinalinde olduğu gibi, uzaylı bir okyanusu keşfetmek, garip yaratıkları kataloglamak, daha büyük olanlar tarafından yenmek ve bir su altı üssü inşa etmekle ilgili - artık arkadaşlar için **co-op** özelliğiyle.
 
-![Divers explore a crystal cave in Subnautica 2's alien ocean](${gameOcean3})
+![Dalgıçlar Subnautica 2'nin uzaylı okyanusunda kristal bir mağarayı keşfediyor](${gameOcean3})
 
-## A balanced survival loop
+## Dengeli bir hayatta kalma döngüsü
 
-Scavenging and crafting never become a grind, but expanding the base still feels earned. Quality-of-life touches help: the basic crafting station can pull resources directly from storage containers, so players reach the fun of building quickly instead of spending hours on chores.
+Temizlemek ve işlemek asla eziyet haline gelmez, ancak üssü genişletmek yine de hak edilmiş gibi gelir. Yaşam kalitesine yönelik dokunuşlar yardımcı olur: Temel üretim istasyonu, kaynakları doğrudan depolama konteynerlerinden çekebilir, böylece oyuncular ev işlerine saatler harcamak yerine hızlı bir şekilde inşa etme eğlencesine erişebilir.
 
-## A story worth following
+## Takip etmeye değer bir hikaye
 
-The biggest surprise is the narrative. Subnautica 2 asks what it means if survival is not optional, and whether transforming into something alien might be preferable to staying human. It is a light thread, but a compelling one.
+En büyük sürpriz ise anlatım. Subnautica 2, hayatta kalmanın isteğe bağlı olmamasının ne anlama geldiğini ve uzaylı bir şeye dönüşmenin insan kalmaya tercih edilip edilemeyeceğini soruyor. It hafif bir ipliktir ancak ilgi çekicidir.
 
-The developers describe this as the studio's **biggest and most polished early access launch** yet, released in episodic chunks so the community can help shape what comes next. On current evidence, it is a strong start.`,
+Geliştiriciler bunu stüdyonun **şimdiye kadarki en büyük ve en gösterişli erken erişim lansmanı** olarak tanımlıyor; topluluk bir sonraki adımın şekillenmesine yardımcı olabilsin diye bölümler halinde yayınlandı. Mevcut kanıtlara göre bu güçlü bir başlangıç.`,
   },
   {
     slug: "007-first-light-sales-bond-curse-broken",
@@ -252,17 +252,17 @@ The developers describe this as the studio's **biggest and most polished early a
     excerpt: "IO Interactive’in 26 yaşındaki James Bond’un kökenlerini anlattığı oyun, 2026’nın en çok beğenilen aksiyon oyunlarından biri oldu.",
     image: gameSpy2,
     source: "GameGuidesBox, May 31, 2026",
-    body: `**007 First Light** sold **1.5 million copies in its first 24 hours**, according to IO Interactive — roughly in line with Hitman 3's launch window, despite being a fresh start for the studio's Bond universe.
+    body: `**007 First Light**, IO Interactive'e göre **ilk 24 saat içinde 1,5 milyon kopya** sattı; stüdyonun Bond evreni için yeni bir başlangıç ​​olmasına rağmen, aşağı yukarı Hitman 3'ün çıkış dönemine paralel.
 
-![A rooftop infiltration in 007 First Light](${gameSpy})
+![007 First Light'ta çatıdan sızma](${gameSpy})
 
-The result matters because Bond games had been commercially radioactive for more than a decade. 2012's *007 Legends* landed with a 41 Metacritic score, and publishers largely walked away from the license. IO Interactive took it on in 2020, and critical scores for First Light have landed largely in the **8–9 range**.
+Sonuç önemli çünkü Bond oyunları on yılı aşkın bir süredir ticari olarak radyoaktifti. 2012'nin *007 Legends*'si 41 Metacritic puanıyla geldi ve yayıncılar büyük ölçüde lisanstan vazgeçti. IO Interactive bu işi 2020'de üstlendi ve First Light'ın kritik puanları büyük oranda **8-9** aralığına düştü.
 
-## Hitman DNA, Bond style
+## Hitman DNA, Bond tarzı
 
-First Light uses the Glacier Engine behind Hitman, adapting its disguise-and-stealth sandbox into a more cinematic, globe-trotting spy story starring **Patrick Gibson** as a young Bond. Players have praised its PC performance, while modders wasted no time swapping Bond for Agent 47.
+First Light, Hitman'in arkasındaki Glacier Engine'yi kullanıyor ve kılık değiştirme ve gizlilik sanal alanını, **Patrick Gibson**'nin genç bir Bond rolünde oynadığı daha sinematik, dünyayı dolaşan bir casus hikayesine uyarlıyor. Oyuncular PC performansını överken, mod geliştiriciler Bond'u Ajan 47 ile değiştirmek için hiç vakit kaybetmediler.
 
-For PC players, it is one of 2026's clearest picks for a story-driven single-player action game. Read our full review in the PC Games section.`,
+PC oyuncuları için hikaye odaklı tek oyunculu aksiyon oyunu için 2026'nın en net seçimlerinden biri. İncelememizin tamamını PC Oyunlar bölümünde okuyun.`,
   },
   {
     slug: "new-pc-games-2026-release-guide",
@@ -271,35 +271,35 @@ For PC players, it is one of 2026's clearest picks for a story-driven single-pla
     image: pcGamesGuide.url,
     source: "PC Gamer — Andrea Shearon, updated October 8, 2026",
     homepagePlacement: "lower",
-    body: `The PC release calendar for **2026** stretches well beyond blockbuster sequels. New adventures sit alongside survival games graduating from early access, smaller horror projects and familiar worlds finding a new direction. PC Gamer's regularly updated calendar offers a useful snapshot of that variety; this selection draws on its **October 8 update**, rather than treating every date as a permanent promise.
+    body: `**2026** için PC yayın takvimi, gişe rekorları kıran devam filmlerinin çok ötesine uzanıyor. Yeni maceralar, erken erişimden çıkan hayatta kalma oyunları, daha küçük korku projeleri ve yeni bir yön bulan tanıdık dünyaların yanında yer alıyor. PC Gamer'ın düzenli olarak güncellenen takvimi bu çeşitliliğin yararlı bir anlık görüntüsünü sunuyor; bu seçki, her tarihi kalıcı bir vaat olarak görmek yerine **8 Ekim güncellemesinden** yararlanıyor.
 
-## October's Big Names
+## Ekim ayının Big Names'si
 
-The calendar lists **Star Wars: Galactic Racer** and **Gears of War: E-Day** for **October 6**. Galactic Racer brings racing to the New Republic era, with a single-player campaign and online competition across locations including Tatooine and Jakku. For players who would rather take cover than chase a finish line, E-Day returns to Marcus and Dom at the outbreak of the Locust invasion on Sera.
+Takvimde **6 Ekim** için **Star Wars: Galactic Racer** ve **Gears of War: E-Day** listeleniyor. Galactic Racer, tek oyunculu bir harekat ve Tatooine ve Jakku gibi yerlerdeki çevrimiçi rekabetle yarışları New Republic dönemine getiriyor. Bitiş çizgisini kovalamak yerine siper almayı tercih eden oyuncular için E-Day, Sera'da Locust istilasının patlak vermesiyle Marcus ve Dom'a geri dönüyor.
 
-![Star Wars: Galactic Racer brings high-speed racing to the 2026 PC calendar](${pcGamesRacer.url})
+![Star Wars: Galactic Racer, 2026 PC takvimine yüksek hızlı yarışları getiriyor](${pcGamesRacer.url})
 
-The appeal of these two releases is very different: one builds on the speed and spectacle of Star Wars racing, while the other revisits the crisis at the heart of Gears of War. Together they show how much room there is for familiar franchises to explore different chapters of their worlds.
+Bu iki sürümün çekiciliği çok farklı: Biri Star Wars yarışlarının hızına ve gösterisine dayanıyor, diğeri ise Gears of War'ın kalbindeki krizi yeniden ele alıyor. Birlikte, tanıdık serilerin kendi dünyalarının farklı bölümlerini keşfetmeleri için ne kadar yer olduğunu gösteriyorlar.
 
-## Survival Games Reach a New Milestone
+## Survival Games Reach Yeni Bir Dönüm Noktası
 
-**Enshrouded 1.0** is listed for **October 15**. The co-op survival action RPG's move out of early access is a different kind of launch: a major milestone for a game that has already spent nearly three years evolving with its community. For returning players, the question is what the completed version adds; for newcomers, it is an opportunity to approach a more developed adventure.
+**Enshrouded 1.0** **15 Ekim** için listelenmiştir. İşbirliğine dayalı hayatta kalma aksiyon RPG'sinin erken erişimden çıkması farklı türde bir lansman: Yaklaşık üç yıldır topluluğuyla birlikte gelişmeye çalışan bir oyun için önemli bir kilometre taşı. Geri dönen oyuncular için soru, tamamlanmış versiyonun ne kattığıdır; yeni gelenler için daha gelişmiş bir maceraya yaklaşma fırsatıdır.
 
-The calendar also lists **Neon Abyss 2's 1.0 release** for **October 8**. That distinction matters when scanning a release schedule. A new date can refer to a full launch, an early-access debut or an existing game's transition to 1.0, rather than a completely new title arriving for the first time.
+Takvim ayrıca **8 Ekim** için **Neon Abyss 2'nin 1.0 sürümünü** de listeliyor. Bu ayrım, bir yayın programını tararken önemlidir. Yeni bir tarih, tamamen yeni bir oyunun ilk kez gelmesinden ziyade tam lansman, erken erişim başlangıcı veya mevcut bir oyunun 1.0'a geçişi anlamına gelebilir.
 
 ## An RPG Reinvention
 
-**Final Fantasy Resonance**, listed for **October 22**, is another of the month's highlighted games. PC Gamer describes it as an HD-2D reworking of the story from **Final Fantasy Brave Exvius**. It is a reminder that the year's RPG lineup is not simply a procession of numbered sequels: older stories can return in a new form, with a different presentation and a different audience in mind.
+**22 Ekim** için listelenen **Final Fantasy Resonance**, ayın öne çıkan oyunlarından bir diğeri. PC Gamer bunu **Final Fantasy Brave Exvius**'deki hikayenin HD-2D olarak yeniden işlenmesi olarak tanımlıyor. It, yılın RPG serisinin yalnızca numaralandırılmış devam filmlerinden oluşan bir geçit töreni olmadığını hatırlatıyor: eski hikayeler, farklı bir sunum ve farklı bir izleyici kitlesi göz önünde bulundurularak yeni bir biçimde geri dönebilir.
 
-## Smaller Games Deserve a Place on the Calendar
+## Smaller Games Deserve Takvimde Bir Yer
 
-October's schedule also makes room for **Forever Ago**, a narrative road-trip adventure, and **Silver Pines**, a noir-inspired survival horror game, both listed for **October 8**. **Clive Barker's Hellraiser: Revival**, also listed that day, offers a more overtly nightmarish alternative. Looking beyond the largest names is often where a release guide becomes most useful: it makes very different kinds of games visible alongside the blockbusters.
+Ekim ayı programında aynı zamanda hikaye dolu bir yol macerası olan **Forever Ago** ve kara filmden ilham alan bir hayatta kalma korku oyunu olan **Silver Pines**'ye de yer var; her ikisi de **8 Ekim** için listede. **Clive Barker's Hellraiser: Revival** da aynı gün için listeleniyor ve daha açık bir şekilde kabus gibi bir alternatif sunuyor. En büyük isimlerin ötesine bakmak genellikle bir sürüm kılavuzunun en yararlı olduğu yerdir: Gişe rekorları kıran oyunların yanı sıra çok farklı türde oyunları da görünür kılar.
 
-## Read the Dates Carefully
+## Dates Carefully'yi okuyun
 
-This is a selection from a changing release calendar, not a ranked best-games list or a set of reviews. Dates can move, and early-access launches should not be confused with finished releases. **Grand Theft Auto 6** is a particularly important distinction: the source discusses its November console launch, but a PC release date remains unannounced. It should not be treated as a confirmed 2026 PC arrival.
+Bu, sıralanmış en iyi oyunlar listesi veya bir dizi inceleme değil, değişen bir sürüm takviminden bir seçimdir. Tarihler değişebilir ve erken erişim lansmanları, bitmiş sürümlerle karıştırılmamalıdır. **Grand Theft Auto 6** özellikle önemli bir ayrım: Kaynak, konsolun Kasım ayında piyasaya sürülmesinden bahsediyor ancak PC'nin çıkış tarihi henüz açıklanmadı. It, onaylanmış 2026 PC gelişi olarak değerlendirilmemelidir.
 
-For the complete month-by-month schedule and subsequent changes, [see PC Gamer's original 2026 release calendar](https://www.pcgamer.com/games/new-pc-games-2026/).`,
+Aylık programın tamamı ve sonraki değişiklikler için [PC Gamer'ın orijinal 2026 sürüm takvimine bakın](https://www.pcgamer.com/games/new-pc-games-2026/).`,
   },
   {
     slug: "phantom-blade-zero-15-years-in-the-making",
@@ -307,33 +307,33 @@ For the complete month-by-month schedule and subsequent changes, [see PC Gamer's
     excerpt: "S-GAME’in wuxia türündeki aksiyon oyununun temeli, 2010 tarihli pek bilinmeyen iki RPG-Maker oyununa dayanıyor; yaratıcısı on yılı aşkın süredir bu hedef için çalışıyor.",
     image: pbHeader.url,
     source: "Lex Luddy, October 9, 2026",
-    body: `**Phantom Blade Zero** may feel like it appeared out of nowhere, but its roots run deep. The Chinese studio **S-GAME**, led by CEO Qiwei "Soulframe" Liang, first shipped two turn-based RPGs — **Rainblood** and **Rainblood: Town of Death** — back in 2010 and 2011, built in RPG-Maker and sold mostly through fan sites after the first one reached the West via an approved fan translation. The series is over 15 years old, and the new big-budget action game is its long-delayed descendant.
+    body: `**Phantom Blade Zero** bir anda ortaya çıkmış gibi görünebilir ancak kökleri çok derinlere uzanıyor. CEO Qiwei "Soulframe" Liang liderliğindeki Çin stüdyosu **S-GAME**, ilk olarak 2010 ve 2011'de iki sıra tabanlı RPG'yi piyasaya sürdü — **Rainblood** ve **Rainblood: Town of Death** — RPG-Maker'da oluşturulmuş ve ilki onaylı bir hayran çevirisi yoluyla Batı'ya ulaştıktan sonra çoğunlukla hayran siteleri aracılığıyla satılmıştı. Serinin yaşı 15'in üzerindedir ve yeni büyük bütçeli aksiyon oyunu, onun uzun süredir ertelenen devamıdır.
 
-![A wuxia duel in Phantom Blade Zero](${pbCombat.url})
+![Phantom Blade Zero'de bir wuxia düellosu](${pbCombat.url})
 
-The journey continued through 2013's *Rain Blood Chronicles: Mirage*, a Unity-powered 2D hack-and-slash that did reach Steam and consoles, and a run of China-exclusive mobile games. In May 2023, the big-budget 3D *Phantom Blade Zero* was finally announced — a leap in scale from everything that came before, made with hundreds of millions of dollars and featuring martial arts superstar **Donnie Yen**.
+Yolculuk, Steam ve konsollara ulaşan Unity destekli 2 boyutlu hack-and-slash oyunu ve Çin'e özel bir dizi mobil oyun olan 2013'teki *Rain Blood Chronicles: Mirage* ile devam etti. Mayıs 2023'te, büyük bütçeli 3D *Phantom Blade Zero* nihayet duyuruldu; daha önce gelen her şeyden büyük bir sıçrama, yüz milyonlarca dolarla yapılmış ve dövüş sanatları süperstarı **Donnie Yen**'nin yer aldığı.
 
-## Combat built for speed, not turtling
+## Savaş kaplumbağalık için değil hız için tasarlandı
 
-After multiple demos and a multi-hour hands-on at Gamescom this year, the game's defining quality is clear: its free-flowing combat is purpose-built to capture the flow and speed of wuxia action rather than forcing the setting into a Souls-like mold. There are **30 primary weapons**, each with its own moveset, plus **25 secondary weapons** ranging from axes to slow-firing mini-cannons.
+Bu yıl Gamescom'da yapılan çok sayıda demo ve saatler süren uygulamalı çalışmaların ardından oyunun tanımlayıcı kalitesi açık: Serbest akışlı dövüşü, ortamı Soul benzeri bir kalıba sokmak yerine wuxia aksiyonunun akışını ve hızını yakalamak için özel olarak tasarlandı. Her biri kendi hareket setine sahip **30 birincil silah** ve ayrıca baltalardan yavaş ateş eden mini toplara kadar **25 ikincil silah** vardır.
 
-You can equip two primaries at once, swapping on the D-pad or weaving the second weapon into a combo with the left trigger — a high-damage stagger move that runs on a cooldown, so a well-timed swap to dual-blades is not always the right call.
+D-pad'i değiştirerek veya ikinci silahı sol tetikle bir kombinasyon halinde birleştirerek aynı anda iki ana silahı donatabilirsiniz; bekleme süresinde çalışan yüksek hasarlı bir sendeleme hareketi, bu nedenle çift bıçaklara iyi zamanlanmış bir geçiş her zaman doğru karar değildir.
 
-![The dark, plague-stricken world of the Ming Dynasty](${pbWorld.url})
+![Ming Dynasty'nin karanlık, vebalı dünyası](${pbWorld.url})
 
-## A world inspired by Soulslike design
+## Soul'ye benzer tasarımdan ilham alan bir dünya
 
-The combat feels distinctly un-Soulslike, but the world does not. S-GAME describes the interconnected map as "inspired by Soulslike map design," doubling back and reconnecting in ways reminiscent of the first *Dark Souls*. Instead of a detailed map screen, you navigate with hand-painted, ink-wash charts painted on Xuan paper and scanned into the game.
+Savaş açıkça Soul'ye benzemiyor, ancak dünya öyle değil. S-GAME, birbirine bağlı haritayı "Soul'ye benzer harita tasarımından ilham alan", ilk *Dark Souls*'yi anımsatan şekillerde iki katına çıkan ve yeniden bağlanan bir harita olarak tanımlıyor. Ayrıntılı bir harita ekranı yerine, Xuan kağıdına boyanmış ve oyuna taranmış, elle boyanmış, mürekkeple yıkama çizelgeleri ile geziniyorsunuz.
 
-The Ming Dynasty setting is a world of decay and plague, punctuated by flashes of steampunk industrialization — and monstrous enemies corrupted by ramshackle machinery rather than the usual mystic rot.
+Ming Dynasty ortamı, steampunk sanayileşmesinin parıltılarıyla noktalanan bir çürüme ve veba dünyası ve olağan mistik çürüklükten ziyade köhne makineler tarafından yozlaştırılan canavar düşmanlarla dolu bir dünyadır.
 
-## A ticking clock — sometimes
+## İşleyen bir saat — bazen
 
-The protagonist, **Soul**, has only a limited number of days to live, his heart pierced by a cursed blade. On most difficulties this countdown is purely narrative, but an extra-hard mode ties the plot into gameplay, counting down a day with every death. Story-wise, the game largely retells parts of the original *Rainblood* games, and the critic found the supporting cast thin — with one exception: **Mó Yuan**, portrayed by Donnie Yen, who also consulted on the game's action alongside stunt choreographer Kenji Tanigaki.
+Kahraman **Soul**'nin yaşayacak yalnızca sınırlı sayıda günü var ve kalbi lanetli bir bıçakla delinmiş. Çoğu zorlukta bu geri sayım tamamen hikaye niteliğindedir ancak ekstra zor mod, her ölümle birlikte bir günü geri sayarak olay örgüsünü oynanışa bağlar. Hikâye açısından oyun büyük ölçüde orijinal *Rainblood* oyunlarının bazı bölümlerini yeniden anlatıyor ve eleştirmen, destekleyici oyuncu kadrosunu zayıf buldu - bir istisna dışında: Donnie Yen tarafından canlandırılan **Mó Yuan**, aynı zamanda dublör koreografı Kenji Tanigaki ile birlikte oyunun aksiyonu hakkında da danışmanlık yaptı.
 
-![S-GAME's action showcases brutal, pattern-driven boss fights](${pbBoss.url})
+![S-GAME'nin aksiyonu acımasız, desen odaklı boss dövüşlerini sergiliyor](${pbBoss.url})
 
-The verdict so far: *Phantom Blade Zero* is plenty promising — a striking escalation from its humble RPG-Maker origins — even if some of the original's soul may have been lost across the 15-year journey and the hundreds of millions of dollars it took to get here.`,
+Şu ana kadar verilen karar: *Phantom Blade Zero* oldukça umut verici - mütevazı RPG-Maker kökenlerinden çarpıcı bir yükseliş - 15 yıllık yolculuk ve buraya gelmek için gereken yüz milyonlarca dolar boyunca orijinalin ruhunun bir kısmı kaybolmuş olsa bile.`,
   },
   {
     slug: "battlefield-6-xbox-game-pass-october-2026",
@@ -341,19 +341,19 @@ The verdict so far: *Phantom Blade Zero* is plenty promising — a striking esca
     excerpt: "EA’in büyük ilgi gören nişancı oyunu, çıkışından bir yıl sonra, Las Vegas temalı 5. sezonuna tam zamanında yetişerek 13 Ekim’de Xbox Game Pass’e katılıyor.",
     image: battlefield6Asset.url,
     source: "Ethan Gach, October 7, 2026",
-    body: `The first wave of **Xbox Game Pass** additions for October 2026 is here, and its headliner is a big one: **Battlefield 6** is joining the subscription service for the first time, exactly one year after launch. Last year's best-selling game arrives on **October 13**, just in time for the start of its Las Vegas–themed **Season 5**.
+    body: `Ekim 2026'ya yönelik **Xbox Game Pass** eklemelerinin ilk dalgası karşınızda ve en önemli özelliği büyük: **Battlefield 6**, lansmanından tam bir yıl sonra, ilk kez abonelik hizmetine katılıyor. Geçen yılın en çok satan oyunu **13 Ekim**'de, Las Vegas temalı **Sezon 5**'in başlamasıyla tam zamanında geliyor.
 
-The campaign was enjoyable if rough around the edges, but the core multiplayer — especially on the larger maps — remains stellar. It is also a curious moment to see the longtime rival of **Call of Duty** moving onto that franchise's home turf. **Call of Duty: Modern Warfare 4** launches this month too, promising a return to the series' roots, but due to Xbox's ongoing reset it will not arrive on Game Pass at launch.
+Harekât son derece zorlu olsa da keyifliydi, ancak temel çok oyunculu oyun (özellikle daha büyük haritalarda) mükemmel olmaya devam ediyor. It aynı zamanda **Call of Duty**'nin uzun süredir devam eden rakibinin serinin kendi sahasına doğru ilerlediğini görmek için de merak uyandırıcı bir an. **Call of Duty: Modern Warfare 4** bu ay da piyasaya sürülüyor ve serinin köklerine geri dönüş sözü veriyor ancak Xbox'nin devam eden sıfırlaması nedeniyle lansman sırasında Game Pass'ye ulaşmayacak.
 
-## Everything joining Game Pass in October, wave 1
+## Ekim'de Game Pass'ye katılan her şey, dalga 1
 
-**Echo Weaver** (Cloud, Xbox Series X|S, PC) — October 8. **Forever Ago** (Cloud, Console, PC) — October 8. **Neon Abyss 2** (Cloud, Xbox Series X|S, PC) — October 8. **Battlefield 6** (Cloud, Xbox Series X|S, PC) — October 13. **Deep Dish Dungeon** (Cloud, Xbox Series X|S, PC) — October 13. **Valor Mortis** (Cloud, Xbox Series X|S, Handheld, PC) — October 13. **Bluey's Happy Snaps** (Cloud, Console, Handheld, PC) — October 15. **Chained Beasts** (Cloud, Xbox Series X|S, PC) — October 15. **Beyond These Stars** (PC) — October 16.
+**Echo Weaver** (Bulut, Xbox Series X|S, PC) — 8 Ekim. **Forever Ago** (Bulut, Konsol, PC) — 8 Ekim. **Neon Abyss 2** (Bulut, Xbox Series X|S, PC) — 8 Ekim. **Battlefield 6** (Bulut, Xbox Series X|S, PC) — 13 Ekim. **Deep Dish Dungeon** (Bulut, Xbox Series X|S, PC) — 13 Ekim. **Valor Mortis** (Bulut, Xbox Series X|S, Elde Taşınabilir, PC) — 13 Ekim. **Bluey's Happy Snaps** (Bulut, Konsol, Taşınabilir, PC) — 15 Ekim. **Chained Beasts** (Bulut, Xbox Series X|S, PC) — 15 Ekim. **Beyond These Stars** (PC) — 16 Ekim.
 
-## The indies worth watching
+## İzlemeye değer bağımsız filmler
 
-Battlefield may be the headliner, but the month is stacked with intriguing indies. **Echo Weaver** is a time-loop metroidvania where knowledge from each run pushes you further on the next. **Neon Abyss 2** is a cyberpunk action roguelike with online co-op for up to four players, while **Chained Beasts** is a co-op gladiator roguelike in which players fight through arenas while literally chained together. **Forever Ago** is a narrative adventure about how life does not always turn out the way you hoped.
+Battlefield başrolde olabilir ama bu ay ilgi çekici bağımsız yapımlarla dolu. **Echo Weaver**, her çalıştırmadan elde edilen bilgilerin sizi bir sonraki adıma daha da ileriye taşıdığı, zaman döngülü bir metroidvaniadır. **Neon Abyss 2**, dört oyuncuya kadar çevrimiçi işbirliğine sahip roguelike bir siberpunk aksiyon oyunudur; **Chained Beasts** ise oyuncuların kelimenin tam anlamıyla birbirine zincirlenmiş halde arenalarda savaştığı, roguelike bir kooperatif gladyatör oyunudur. **Forever Ago** hayatın her zaman umduğunuz gibi gitmediğini anlatan anlatı dolu bir maceradır.
 
-Then there is **Valor Mortis**, a Napoleonic Wars Soulslike from the makers of **Ghostrunner** — a striking premise that will need its gameplay to stand apart from the long line of FromSoftware imitators.`,
+Ayrıca **Ghostrunner**'ın yapımcılarından bir Napoleonic Wars Soulslike olan **Valor Mortis** var; oynanışının uzun FromSoftware taklitçilerinden farklı olması gereken çarpıcı bir öncül.`,
   },
   {
     slug: "exorcist-martyrs-mike-flanagan-scariest-film",
@@ -361,43 +361,43 @@ Then there is **Valor Mortis**, a Napoleonic Wars Soulslike from the makers of *
     excerpt: "Scarlett Johansson, Chiwetel Ejiofor ve Laurence Fishburne, tekinsiz bir Manhattan’da geçen, bir seri katili ve şeytani ele geçirilmeyi konu alan hikâyenin başrollerinde.",
     image: exoMain.url,
     source: "Empire — Ben Travis, October 9, 2026",
-    body: `**Mike Flanagan** has spent years circling the meeting point of horror and Catholicism — *Midnight Mass* is the proof. Now the writer-director is taking on the franchise that defines it. **The Exorcist: Martyrs**, an original new chapter, arrives in cinemas on **March 12, 2027**, and Flanagan walked Empire through its first trailer.
+    body: `**Mike Flanagan** yıllarını korku ve Katolikliğin buluşma noktasının etrafında dönerek geçirdi — *Midnight Mass* bunun kanıtıdır. Şimdi yazar-yönetmen onu tanımlayan franchise'ı üstleniyor. **The Exorcist: Martyrs**, orijinal yeni bir bölüm, **12 Mart 2027**'de sinemalara geliyor ve Flanagan, Empire'ye ilk fragmanını anlattı.
 
-"Being raised Roman Catholic is a wonderful on-ramp into the horror genre," he says. The film is a serial-killer thriller with an unholy agenda — and, by his own admission, his darkest work yet.
+"Roman Catholic'yi büyütmek, korku türüne harika bir geçiştir" diyor. Film, kutsal olmayan bir gündeme sahip bir seri katil gerilim filmi ve kendisinin de itiraf ettiği gibi şimdiye kadarki en karanlık eseri.
 
-![The Exorcist: Martyrs — a staircase into darkness](${exo1.url})
+![Şeytan: Şehitler — karanlığa giden bir merdiven](${exo1.url})
 
-## Darker Than Anything Before
+## Önceki Her Şeyden Daha Koyu
 
-"It's the scariest thing I've ever made," Flanagan promises. "It is dark. It is vicious, at times." After the empathy of *Carrie* and *The Life of Chuck*, he wanted to flex different muscles: the film will "go as dark as we're comfortable going, and then go darker."
+Flanagan, "It şimdiye kadar yaptığım en korkunç şey" diye söz veriyor. "It karanlık. It bazen çok tehlikeli." *Carrie* ve *The Life of Chuck*'nin empatisinden sonra, farklı kasları esnetmek istedi: film "biz rahat olduğumuz kadar karanlık olacak ve sonra daha da karanlık olacak."
 
-## Scarlett Johansson's First Horror Role
+## Scarlett Johansson'nin İlk Korku Rolü
 
-![Scarlett Johansson in The Exorcist: Martyrs](${exo11.url})
+![Scarlett Johansson Şeytan Çıkarıcı: Şehitler](${exo11.url})
 
-Johansson, who admits she doesn't like horror, plays **Julie Miller**, an NYPD detective who made her name catching a killer who staged religious crime scenes. Now a single mother, she faces what looks like a copycat — one leaving scenes specifically for her. Flanagan calls it "one of my favourite performances of hers."
+Korkudan hoşlanmadığını itiraf eden Johansson, dini suç sahneleri düzenleyen bir katili yakalayarak adını duyuran NYPD dedektifi **Julie Miller**'yi canlandırıyor. Artık bekar bir anne, taklitçiye benzeyen bir şeyle karşı karşıya; sahneleri özellikle onun için bırakan biri. Flanagan bunu "en sevdiğim performanslardan biri" olarak adlandırıyor.
 
-## New York as a Wasps' Nest
+## Eşekarısı Yuvası Olarak New York
 
-![Manhattan in The Exorcist: Martyrs](${exo6.url})
+![Manhattan Şeytan Çıkarıcı: Şehitler](${exo6.url})
 
-Swapping the franchise's Washington DC for Manhattan, Flanagan drew on the panic of the Son of Sam era and the eerie sight of skyscrapers beside 17th-century crypts. He cites *Seven* and the underrated *The Exorcist III* as touchstones for a story that is both procedural and possession tale.
+Serinin Washington DC'sini Manhattan ile değiştiren Flanagan, Son of Sam döneminin paniğinden ve 17. yüzyıl mahzenlerinin yanındaki gökdelenlerin ürkütücü görüntüsünden yararlandı. Hem prosedür hem de ele geçirme hikayesi olan bir hikayenin mihenk taşları olarak *Seven* ve küçümsenen *The Exorcist III*'den bahsediyor.
 
 ## A Stacked Ensemble
 
-Flanagan regulars Hamish Linklater, Rahul Kohli, Kate Siegel and Samantha Sloyan return, joined by **Chiwetel Ejiofor** as Father William, a former prison chaplain, and **John Leguizamo**, who "taps into a profound well of darkness."
+Flanagan müdavimleri Hamish Linklater, Rahul Kohli, Kate Siegel ve Samantha Sloyan geri dönüyor; eski bir hapishane papazı olan Father William rolündeki **Chiwetel Ejiofor** ve "derin bir karanlık kuyusundan yararlanan" **John Leguizamo** de onlara katılıyor.
 
-![Laurence Fishburne in The Exorcist: Martyrs](${exo8.url})
+![Laurence Fishburne Şeytan Çıkarıcı: Şehitler](${exo8.url})
 
-**Laurence Fishburne** plays "a priest with a very particular set of skills" — possibly the film's titular exorcist, though Flanagan isn't saying.
+**Laurence Fishburne** "çok özel becerilere sahip bir rahibi" canlandırıyor - muhtemelen filmin adı geçen şeytan kovucu, ancak Flanagan bunu söylemiyor.
 
-## A Nod to the Original
+## Orijinale Saygı
 
-![The iconic lamppost shot echoed in The Exorcist: Martyrs](${exo10.url})
+![İkonik elektrik direği atışı The Exorcist: Martyrs'de yankılandı](${exo10.url})
 
-One shot of a house and a streetlamp recalls Father Merrin's legendary arrival. "That was an opportunity where you do have to acknowledge the tree," Flanagan says. The title, he adds, comes from his lifelong fascination with martyrdom — "a death that serves a greater purpose," and a horrifying idea all its own.
+Bir evin ve bir sokak lambasının tek fotoğrafı, Father Merrin'nin efsanevi gelişini hatırlatıyor. Flanagan, "Bu, ağacı kabul etmeniz gereken bir fırsattı" diyor. Başlığın, "daha büyük bir amaca hizmet eden bir ölüm" ve başlı başına dehşet verici bir fikir olan şehitliğe ömür boyu süren hayranlığından geldiğini ekliyor.
 
-[Read Ben Travis's original interview at Empire](https://www.empireonline.com/movies/features/exorcist-martyrs-mike-flanagan-interview-trailer-scariest-thing-ive-made/).`,
+[Read Ben Travis'nin Empire'deki orijinal röportajı](https://www.empireonline.com/movies/features/exorcist-martyrs-mike-flanagan-interview-trailer-scariest-thing-ive-made/).`,
   },
   {
     slug: "marvel-zodiac-spy-thriller-series-2027",
@@ -405,27 +405,27 @@ One shot of a house and a streetlamp recalls Father Merrin's legendary arrival. 
     excerpt: "2028’de izleyiciyle buluşması planlanan canlı aksiyon dizisinin çekimleri 2027 baharında Londra’da yapılacak; olası bir S.H.I.E.L.D. bağlantısı ise henüz doğrulanmadı.",
     image: zodiacEmpire.url,
     source: "Empire — Jordan King, October 8, 2026",
-    body: `Marvel Television is preparing another trip into the world of espionage. At its New York Comic Con presentation, television chief **Brad Winderbaum** announced **Zodiac**, a live-action spy thriller intended for Disney+ in **2028**. Production is scheduled to begin in **London in spring 2027**.
+    body: `Marvel Television casusluk dünyasına yeni bir geziye hazırlanıyor. New York Comic Con sunumunda televizyon şefi **Brad Winderbaum**, **2028**'de Disney+ için tasarlanan canlı aksiyon casus gerilim filmi **Zodiac**'yi duyurdu. Üretimin **London'de 2027 baharında** başlaması planlanıyor.
 
-## A New Mission for Marvel Television
+## Marvel Television İçin Yeni Bir Görev
 
-For now, the announcement is deliberately spare. Marvel has confirmed the title, the genre and the production timetable, but has not revealed a cast or detailed storyline. That leaves the show's place within the wider Marvel Cinematic Universe open to interpretation.
+Şimdilik, duyuru kasıtlı olarak yedeklendi. Marvel filmin adını, türünü ve yapım takvimini doğruladı ancak oyuncu kadrosunu veya ayrıntılı hikayeyi açıklamadı. Bu, gösterinin daha geniş Marvel Cinematic Universe içindeki yerini yoruma açık bırakıyor.
 
-The project arrives amid a changing television slate. As Empire notes, the announcement follows news that *Daredevil: Born Again* will conclude with its third season and that *Wonder Man* has been cancelled. *Zodiac* points toward a new direction, although the studio has yet to explain how its espionage story will take shape.
+Proje, değişen televizyon seçeneklerinin ortasında geliyor. As Empire, duyurunun *Daredevil: Born Again*'nin üçüncü sezonuyla sonuçlanacağı ve *Wonder Man*'nin iptal edildiği haberlerinin ardından geldiğini belirtti. *Zodiac* yeni bir yöne işaret ediyor, ancak stüdyo henüz casusluk hikayesinin nasıl şekilleneceğini açıklamadı.
 
-## Is S.H.I.E.L.D. Coming Back?
+## S.H.I.E.L.D. Geri mi dönüyorsun?
 
-The title reveal has given fans something specific to examine: the styling of its letter A, which Empire suggests resembles the emblem associated with *Agents of S.H.I.E.L.D.*. That ABC series ended its seven-season run in 2020, but the resemblance is not confirmation of a revival or returning characters.
+Oyunun tanıtımı, hayranlara incelemeleri gereken özel bir şey verdi: Empire'nin önerdiği A harfinin stili, *Agents of S.H.I.E.L.D.* ile ilişkili amblemi andırıyor. That ABC serisi yedi sezonluk serisini 2020'de sonlandırdı ancak benzerlik, karakterlerin yeniden canlandığının veya geri döndüğünün onayı değil.
 
-There is also a comics connection. Zodiac is the name of a criminal organisation that has clashed with S.H.I.E.L.D. in Marvel stories. It makes an espionage-focused adaptation an intriguing possibility — not an established plot synopsis. No involvement by the earlier show's cast has been announced in the report.
+Ayrıca bir çizgi roman bağlantısı da var. Zodiac, S.H.I.E.L.D. ile çatışan bir suç örgütünün adıdır. Marvel hikayelerinde. It, casusluk odaklı bir uyarlamayı ilgi çekici bir olasılık haline getiriyor - yerleşik bir olay örgüsü özeti değil. Raporda daha önceki dizinin oyuncu kadrosunun herhangi bir katılımı açıklanmadı.
 
-## What Has Actually Been Confirmed?
+## Aslında Ne Doğrulandı?
 
-The clearest details are straightforward: **a live-action spy thriller, a spring 2027 London shoot and a planned 2028 Disney+ release**. A precise premiere date, creative team and casting details remain to be disclosed.
+En net ayrıntılar basit: **canlı aksiyon casus gerilim filmi, 2027 baharında London çekimi ve planlanan 2028 Disney+ sürümü**. Kesin bir prömiyer tarihi, yaratıcı ekip ve oyuncu kadrosu ayrıntıları henüz açıklanmadı.
 
-Marvel has explored covert operations before, including in *Secret Invasion*. Whether *Zodiac* draws on familiar agents or introduces a different corner of its spy mythology is still unknown. Until further announcements arrive, the title treatment and comics history offer reasons for curiosity rather than answers.
+Marvel, *Secret Invasion* dahil olmak üzere daha önce gizli operasyonları araştırmıştı. *Zodiac*'nin tanıdık ajanlardan mı yararlandığı yoksa casusluk mitolojisinin farklı bir yönünü mü tanıttığı hala bilinmiyor. Daha sonraki duyurular gelene kadar kitabın konusu ve çizgi roman tarihi cevaplardan çok merak uyandıracak nedenler sunuyor.
 
-[Read Jordan King's original report at Empire](https://www.empireonline.com/tv/news/marvel-television-announces-spy-thriller-series-zodiac-set-to-shoot-in-spring-2027/).`,
+[Read Jordan King'nin Empire adresindeki orijinal raporu](https://www.empireonline.com/tv/news/marvel-television-announces-spy-thriller-series-zodiac-set-to-shoot-in-spring-2027/).`,
   },
   {
     slug: "inde-navarrette-obsession-gap-style-interview",
@@ -435,29 +435,29 @@ Marvel has explored covert operations before, including in *Secret Invasion*. Wh
     source: "Rolling Stone — Camila Quimper, August 11, 2026",
     customBadge: "Interview",
     customBadgeBelow: true,
-    body: `After making an impression as Nikki in *Obsession*, Inde Navarrette is bringing that same sense of individuality to fashion. In an interview with Rolling Stone, the actress discusses her work on the horror film and her appearance alongside musician Malcolm Todd in Gap's Fall 2026 **Denim on Your Own** campaign. The connection between the two, she explains, is creative freedom: finding room to make choices that feel genuinely her own.
+    body: `*Obsession*'de Nikki olarak izlenim bırakan Inde Navarrette, aynı bireysellik duygusunu modaya da getiriyor. Rolling Stone ile yaptığı bir röportajda aktris, korku filmindeki çalışmasını ve Gap'nin Sonbahar 2026 **Your Own'de Denim** kampanyasında müzisyen Malcolm Todd ile birlikte görünmesini anlatıyor. İkisi arasındaki bağlantının yaratıcı özgürlük olduğunu açıklıyor: Gerçekten kendisine ait olduğunu hissettiren seçimler yapma alanı bulmak.
 
-## A Wardrobe Built Around Personality
+## Kişiliğe Dayalı Bir Gardırop
 
-Navarrette's everyday style starts with straightforward pieces rather than elaborate outfits. She describes pairing jeans with a white or black T-shirt, adding a light sweater and letting her shoes change the mood. Heels have become a particular favorite, while low-rise denim lets her show her hip tattoos. The point is not to follow a formula, but to choose clothes that make her feel comfortable and confident.
+Navarrette'nin günlük stili, gösterişli kıyafetlerden ziyade sade parçalarla başlıyor. Kot pantolonu beyaz veya siyah bir tişörtle eşleştirdiğini, hafif bir kazak eklediğini ve ayakkabılarının havayı değiştirmesine izin verdiğini anlatıyor. Topuklu ayakkabılar özel bir favori haline gelirken, alçak kot pantolon kalça dövmelerini göstermesine olanak tanıyor. Önemli olan bir formülü takip etmek değil, kendisini rahat ve güvende hissettiren kıyafetleri seçmektir.
 
-Accessories bring a more playful streak. Asked about a trend she enjoys, Navarrette singles out bangles — especially the kind that make themselves heard when someone moves their hands. It is a lighthearted detail, but it fits the interview's larger picture of style as something expressive rather than carefully restrained.
+Aksesuarlar daha eğlenceli bir hava katıyor. Beğendiği bir trend sorulduğunda Navarrette bilezikleri öne çıkarıyor; özellikle de birisi ellerini hareket ettirdiğinde sesinin duyulmasını sağlayan türden. It kaygısız bir ayrıntı ama dikkatlice kısıtlanmış olmaktan ziyade ifade edici bir şey olarak röportajın daha geniş stil resmine uyuyor.
 
-## Bringing Herself to Nikki — Without Playing Herself
+## Kendini Nikki'ye Getirmek — Kendini Oynamadan
 
-Some of Navarrette's own taste made its way into *Obsession*. Oversized denim jackets, shorts and boots were already part of her wardrobe around the film's release. She even brought her personal Steve Madden boots to a costume fitting, and they became part of Nikki's onscreen look.
+Navarrette'in kendi zevkinin bir kısmı *Obsession*'de yerini aldı. Büyük beden kot ceketler, şortlar ve botlar filmin vizyona girdiği sıralarda zaten gardırobunun bir parçasıydı. Hatta kişisel Steve Madden botlarını kostüm provasına bile getirdi ve bunlar Nikki'nin ekrandaki görünümünün bir parçası oldu.
 
-That overlap did not erase the difference between actor and character. Navarrette describes Nikki as someone she deeply understood, not simply a version of herself. Familiar clothes helped establish a connection, while the performance still required her to step into another person's experience.
+Bu örtüşme, oyuncu ile karakter arasındaki farkı ortadan kaldırmadı. Navarrette, Nikki'yi yalnızca kendisinin bir versiyonu olarak değil, derinlemesine anladığı biri olarak tanımlıyor. Tanıdık kıyafetler bir bağlantı kurulmasına yardımcı olurken, performans hâlâ onun başka bir kişinin deneyimine adım atmasını gerektiriyordu.
 
-## Letting the Performance Be Bigger
+## Performansın Daha Büyük Olmasına İzin Vermek
 
-For Navarrette, playing Nikki meant setting aside the instinct to worry about how other people might perceive her. She wanted to stop holding back out of fear of being too loud or taking up too much space. In her account, that willingness to be less guarded helped make the character feel emotionally real — and offered audiences something they could recognize in themselves.
+Navarrette için Nikki oynamak, diğer insanların onu nasıl algılayabileceği konusunda endişelenme içgüdüsünü bir kenara bırakmak anlamına geliyordu. Çok gürültülü olma ya da çok fazla yer kaplama korkusuyla geri çekilmeyi bırakmak istedi. Onun açıklamasına göre, daha az temkinli olma isteği, karakterin duygusal açıdan gerçek hissetmesine yardımcı oldu ve izleyicilere kendilerinde tanıyabilecekleri bir şey sundu.
 
-Her favorite horror film is **Jordan Peele's Get Out**, which she praises for combining humor with fear. She remembers it as an early encounter with a kind of psychological horror that stayed with her, rather than a movie whose impact depended only on immediate scares.
+En sevdiği korku filmi **Jordan Peele'nin Get Out**'sidir ve mizahı korkuyla birleştirdiği için övüyor. Etkisi yalnızca anlık korkulara bağlı olan bir filmden ziyade, bunu, bir tür psikolojik korkuyla erken karşılaşma olarak hatırlıyor.
 
-The same independence runs through her approach to dressing. Both acting and personal style, as she presents them, become more meaningful when the choices come from within instead of being shaped entirely by an audience's expectations. Her guiding advice is concise: “Dress for yourself and not anyone else.”
+Aynı bağımsızlık onun giyinme yaklaşımında da görülüyor. Hem oyunculuk hem de kişisel tarzı, seçimler tamamen izleyicinin beklentilerine göre şekillenmek yerine içeriden geldiğinde daha anlamlı hale geliyor. Yol gösterici tavsiyesi kısa ve öz: "Kendiniz için giyin, başkası için değil."
 
-*Campaign photography: Gap. This article summarizes Navarrette's interview rather than reproducing the original Q&A.* [Read Camila Quimper's full interview at Rolling Stone](https://www.rollingstone.com/product-recommendations/style/inde-navarrette-interview-obsession-style-gap-campaign-1235607056/).`,
+*Kampanya fotoğrafçılığı: Gap. Bu makale orijinal Soru-Cevap metnini tekrarlamak yerine Navarrette'in röportajını özetlemektedir.* [Read Camila Quimper'nin Rolling Stone adresindeki röportajının tamamı](https://www.rollingstone.com/product-recommendations/style/inde-navarrette-interview-obsession-style-gap-campaign-1235607056/).`,
   },
   {
     slug: "neon-scp-foundation-open-source-horror-movie",
@@ -466,27 +466,27 @@ The same independence runs through her approach to dressing. Both acting and per
     customBadge: "IndieWire",
     image: scpCover.url,
     source: "IndieWire — Brian Welk",
-    body: `Hollywood has finally entered the SCP Foundation — but the most interesting part of Neon's newly announced movie may be the rules it has chosen to follow. The distributor is developing a theatrical horror anthology based on the enormous, community-written universe, with emerging filmmakers invited to explore its impossible objects, creatures and containment failures.
+    body: `Hollywood sonunda SCP Foundation'ye girdi — ancak Neon'nin yeni duyurulan filminin en ilginç kısmı uymayı seçtiği kurallar olabilir. Dağıtımcı, topluluk tarafından yazılan muazzam evreni temel alan teatral bir korku antolojisi geliştiriyor; yeni film yapımcıları bu evrenin imkansız nesnelerini, yaratıklarını ve kontrol altına alma başarısızlıklarını keşfetmeye davet ediliyor.
 
-![Neon and the SCP Foundation announce their collaboration](${scpCover.url})
+![Neon ve SCP Foundation işbirliklerini duyuruyor](${scpCover.url})
 
-The SCP Wiki began in 2008 and imagines a clandestine organization whose motto is **Secure, Contain, Protect**. Its clinical case files transform internet folklore into institutional horror: every anomaly receives a number, a containment procedure and just enough redacted history to suggest a disaster larger than the page can hold.
+SCP Wiki 2008'de başladı ve sloganı **Secure, Contain, Protect** olan gizli bir organizasyonu hayal ediyor. It'nin klinik vaka dosyaları internet folklorunu kurumsal dehşete dönüştürüyor: Her anomaliye bir sayı, bir sınırlama prosedürü ve sayfanın taşıyamayacağı kadar büyük bir felaketi düşündürmeye yetecek kadar düzeltilmiş bir tarih veriliyor.
 
-![An SCP Foundation community installation at Seoul Comic World](${scpConvention.url})
+![Seoul Comic World'de An SCP Foundation topluluk kurulumu](${scpConvention.url})
 
-Neon's film is planned for 2027, but it is not being presented as an exclusive ownership claim. The studio says it consulted the wiki's licensing team and intends to release the project under **CC BY-SA 3.0**, the same Creative Commons license that governs the source material. That commitment preserves the universe's remixable DNA and lets future creators build from the adaptation under the same terms.
+Neon'nin filminin 2027'de çekilmesi planlanıyor ancak özel mülkiyet iddiası olarak sunulmuyor. Stüdyo, wiki'nin lisans ekibine danıştığını ve projeyi, kaynak materyali yöneten aynı Creative Commons lisansı olan **CC BY-SA 3.0** altında yayınlamayı planladığını söyledi. Bu taahhüt, evrenin yeniden karıştırılabilir DNA'sını korur ve gelecekteki yaratıcıların aynı şartlar altında uyarlamadan yola çıkarak geliştirme yapmasına olanak tanır.
 
-![A fan-made SCP-inspired cover](${scpTinad.url})
+![Hayran yapımı SCP'den ilham alan bir kapak](${scpTinad.url})
 
-That approach sharply contrasts with the controversy around A24's separately announced *V/H/S: SCP*. Wiki representatives said they had not been contacted about that production and stressed that no company can hold exclusive rights to the shared mythology. Neon's announcement therefore lands as both a movie deal and an unusually public argument about how Hollywood should adapt communal internet culture.
+Bu yaklaşım, A24'nin ayrıca duyurulan *V/H/S: SCP* hakkındaki tartışmalarla keskin bir tezat oluşturuyor. Wiki temsilcileri, bu yapımla ilgili kendileriyle iletişime geçilmediğini söyledi ve hiçbir şirketin ortak mitolojinin münhasır haklarına sahip olamayacağını vurguladı. Neon'nin duyurusu bu nedenle hem bir film anlaşması hem de Hollywood'nin ortak internet kültürünü nasıl uyarlaması gerektiğine dair alışılmadık derecede kamusal bir tartışma olarak karşımıza çıkıyor.
 
-![A stark landscape from the SCP-inspired project Stillwater](${scpStillwater.url})
+![SCP'den ilham alan Stillwater projesinden çarpıcı bir manzara](${scpStillwater.url})
 
-The anthology format is a natural fit. SCP stories can move from a single cursed object to cosmic dread, bureaucratic satire or body horror without breaking the fiction's central conceit. A rotating group of directors can preserve that unpredictability instead of forcing thousands of entries into one conventional hero's journey.
+Antoloji formatı doğal bir uyumdur. SCP hikayeleri, kurgunun temel kibirini bozmadan, tek bir lanetli nesneden kozmik dehşete, bürokratik hiciv veya vücut dehşetine dönüşebilir. Dönüşümlü bir yönetmen grubu, binlerce girişi tek bir geleneksel kahramanın yolculuğuna zorlamak yerine bu öngörülemezliği koruyabilir.
 
-![SCP iconography reframed as fan-made horror art](${scpPoster.url})
+![SCP ikonografisi hayran yapımı korku sanatı olarak yeniden çerçevelendi](${scpPoster.url})
 
-No directors, cast or individual anomalies have been revealed. For now, the decisive creative promise is structural: Neon's SCP movie aims to be a contribution to a living archive rather than the final, authorized version of it. [Read the original report at IndieWire](https://www.indiewire.com/news/breaking-news/neon-scp-foundation-movie-compliant-creative-commons-a24-1235219402/).`,
+Hiçbir yönetmen, oyuncu kadrosu veya bireysel anormallik ortaya çıkmadı. Şimdilik belirleyici yaratıcı vaat yapısaldır: Neon'nin SCP filmi, arşivin nihai, yetkili versiyonundan ziyade yaşayan bir arşive katkı sağlamayı amaçlamaktadır. [IndieWire'daki orijinal raporu okuyun](https://www.indiewire.com/news/breaking-news/neon-scp-foundation-movie-compliant-creative-commons-a24-1235219402/).`,
   },
   {
     slug: "jennifer-lawrence-the-flood-zach-cregger",
@@ -495,27 +495,27 @@ No directors, cast or individual anomalies have been revealed. For now, the deci
     customBadge: "Variety",
     image: floodCover.url,
     source: "Variety — Jack Dunn",
-    body: `Jennifer Lawrence is heading back into blockbuster-scale science fiction. The actor will lead *The Flood*, an original thriller written, directed and produced by Zach Cregger for New Line and Warner Bros., with Amblin Entertainment and Vertigo Entertainment also producing.
+    body: `Jennifer Lawrence gişe rekorları kıran bilim kurguya geri dönüyor. Oyuncu, Zach Cregger tarafından New Line ve Warner Bros. için yazılan, yönetilen ve yapımcılığını üstlendiği, Amblin Entertainment ve Vertigo Entertainment'nin de yapımcılığını üstlendiği orijinal gerilim filmi *The Flood*'yi yönetecek.
 
-![Jennifer Lawrence at a film premiere](${floodJlaw.url})
+![Jennifer Lawrence film galasında](${floodJlaw.url})
 
-Plot details remain deliberately sealed, but Cregger has described the idea as science fiction and hinted that its terror reaches into space. That mystery makes the casting especially intriguing: Lawrence can carry both intimate psychological unease and the physical pressure of an effects-heavy studio production.
+Olay örgüsünün ayrıntıları kasıtlı olarak gizli kalıyor ancak Cregger bu fikri bilim kurgu olarak tanımladı ve dehşetinin uzaya ulaştığını ima etti. Bu gizem, oyuncu kadrosunu özellikle ilgi çekici kılıyor: Lawrence hem samimi psikolojik rahatsızlığı hem de efekt ağırlıklı bir stüdyo prodüksiyonunun fiziksel baskısını taşıyabilir.
 
-![Zach Cregger discusses his genre work at San Diego Comic-Con](${floodCregger1.url})
+![Zach Cregger, San Diego Comic-Con'de tür çalışmalarını anlatıyor](${floodCregger1.url})
 
-The film reunites Cregger with New Line after *Weapons*, the follow-up that confirmed *Barbarian* was not a one-off genre breakthrough. His movies thrive on abrupt shifts in perspective and tone, so the title *The Flood* is less a plot summary than an invitation to speculate about what kind of pressure he intends to unleash.
+Film, Cregger'ı *Weapons*'den sonra New Line ile yeniden bir araya getiriyor; bu devam filmi, *Barbarian*'nin türde tek seferlik bir buluş olmadığını doğruladı. Filmleri perspektif ve üsluptaki ani değişimlerle başarılı oluyor, bu nedenle *The Flood* başlığı bir olay örgüsünün özeti olmaktan çok, ne tür bir baskıyı serbest bırakmayı planladığı hakkında spekülasyon yapmaya bir davettir.
 
-![Cregger returns to an original screenplay after his recent horror successes](${floodCregger2.url})
+![Cregger son zamanlardaki korku başarılarından sonra orijinal senaryoya geri dönüyor](${floodCregger2.url})
 
-Lawrence's recent choices have balanced filmmaker-led drama with recognizable genre worlds. Putting her at the center of a secretive original property gives the project star power without revealing the mechanism of its suspense — a rare luxury for a studio film announced years before release.
+Lawrence'ın son seçimleri, film yapımcısının önderlik ettiği drama ile tanınabilir tür dünyalarını dengeledi. Onu gizli bir orijinal filmin merkezine koymak, gerilimin mekanizmasını açığa vurmadan projeye yıldız gücü veriyor; bu, vizyona girmeden yıllar önce duyurulan bir stüdyo filmi için ender görülen bir lüks.
 
-![Cregger's recent work includes a new Resident Evil adaptation](${residentEvilStill1.url})
+![Cregger'ın son çalışması yeni bir Resident Evil uyarlamasını içeriyor](${residentEvilStill1.url})
 
-Amblin's involvement adds another layer. Cregger reportedly developed the concept while considering what could be more frightening than being trapped in space, a premise that connects Spielbergian awe to the director's taste for destabilizing horror. Roy Lee and Miri Yoon of Vertigo Entertainment are producing alongside Amblin.
+Amblin'nin katılımı başka bir katman daha ekliyor. Cregger'in bu konsepti, uzayda sıkışıp kalmaktan daha korkutucu ne olabileceğini düşünürken geliştirdiği bildirildi; bu, Spielberg'in hayranlığını yönetmenin istikrarsızlaştırıcı korku zevkiyle birleştiren bir öncül. Vertigo Entertainment'nin Roy Lee ve Miri Yoon'si, Amblin ile birlikte üretiliyor.
 
-![Jennifer Lawrence will anchor the still-secret science-fiction story](${floodCover.url})
+![Jennifer Lawrence hâlâ gizli olan bilim kurgu hikayesinin habercisi olacak](${floodCover.url})
 
-The Flood is currently dated for an August 2028 theatrical release, giving Cregger one of the longest runways of his career — and giving audiences years to wonder exactly what the title means.`,
+The Flood'nin şu anda Ağustos 2028'de gösterime girmesi planlanıyor, bu da Cregger'a kariyerinin en uzun podyumlarından birini veriyor ve izleyicilere başlığın tam olarak ne anlama geldiğini merak etmeleri için yıllar veriyor.`,
   },
   {
     slug: "alan-ritchson-reacher-die-trying-trump",
@@ -525,19 +525,19 @@ The Flood is currently dated for an August 2028 theatrical release, giving Cregg
     customBadge: "EW",
     image: alanRitchsonReacherAsset.url,
     source: "Entertainment Weekly",
-    body: `Alan Ritchson says one of his favorite Jack Reacher stories came closer to the screen than fans realized — and then vanished from the plan.
+    body: `Alan Ritchson, en sevdiği Jack Reacher hikayelerinden birinin ekrana hayranların fark ettiğinden daha fazla yaklaştığını ve ardından plandan kaybolduğunu söylüyor.
 
-The exchange started when a fan on Threads lamented that Prime Video's *Reacher* still had not adapted Lee Child's 1998 novel *Die Trying*, the book in which Jack Reacher is pulled into a conspiracy involving a white supremacist militia. Ritchson replied that it was his favorite book and added, "Fun fact: I had it approved until someone got re-elected."
+Tartışma, Threads'deki bir hayranın, Prime Video'nin *Reacher*'nin, Jack Reacher'nin beyazların üstünlüğünü savunan milislerin dahil olduğu bir komplonun içine çekildiği Lee Child'nin 1998 tarihli romanı *Die Trying*'yi hâlâ uyarlamadığından yakınmasıyla başladı. Ritchson bunun en sevdiği kitap olduğunu söyledi ve ekledi, "Eğlenceli gerçek: Birisi yeniden seçilene kadar onu onaylattım."
 
-![Alan Ritchson as Jack Reacher in Prime Video's Reacher](${alanRitchsonReacherAsset.url})
+![Alan Ritchson, Prime Video'nin Reacher'sinde Jack Reacher olarak](${alanRitchsonReacherAsset.url})
 
-Ritchson did not name the elected official in that post, but the comment was widely read as a reference to Donald Trump, whom the actor has criticized publicly in the past. That political context is what turned an ordinary adaptation note into a flashpoint: *Die Trying* is not just another Reacher adventure, but a story about the character tearing through an extremist compound built on white nationalist ideology.
+Ritchson bu gönderide seçilmiş yetkilinin adını vermedi ancak yorum, aktörün geçmişte kamuoyu önünde eleştirdiği Donald Trump'ye bir gönderme olarak geniş çapta okundu. Sıradan bir uyarlama notunu bir parlama noktasına dönüştüren şey bu siyasi bağlamdı: *Die Trying* sadece başka bir Reacher macerası değil, beyaz milliyetçi ideoloji üzerine inşa edilmiş aşırılıkçı bir bileşiği parçalayan karakterle ilgili bir hikaye.
 
-The novel follows Reacher and Holly Johnson, the daughter of a powerful military figure, after they are abducted by a radical Montana militia hoping to use her as leverage. For television, that setup would have given the action series a sharper political edge than some of its more self-contained seasons.
+Roman, güçlü bir askeri figürün kızı olan Reacher ve Holly Johnson'nin, onu koz olarak kullanmayı ümit eden radikal bir Montana milisleri tarafından kaçırılmasının ardından yaşananları anlatıyor. Televizyon açısından bu kurulum, aksiyon dizisine daha kendi kendine yeten sezonlardan bazılarına göre daha keskin bir siyasi avantaj sağlayabilirdi.
 
-The show has already moved ahead with other Lee Child books, with each season built around a separate case. Season 4 recently premiered on Prime Video, and the platform has already renewed the series for a fifth season, keeping Ritchson's version of the hulking ex-military investigator at the center of one of streaming's most reliable action franchises.
+Dizi, her sezon ayrı bir vaka etrafında şekillenerek şimdiden diğer Lee Child kitaplarıyla birlikte ilerledi. 4. Sezonun prömiyeri yakın zamanda Prime Video'de yapıldı ve platform, seriyi şimdiden beşinci sezon için yenileyerek, Ritchson'un iri yarı askeri araştırmacı versiyonunu yayın dünyasının en güvenilir aksiyon serilerinden birinin merkezinde tutuyor.
 
-For fans, the comment leaves *Die Trying* in a strange place: not officially canceled in public, but clearly no longer the approved route Ritchson says it once was. Whether the book returns to the table later may depend less on Reacher's fists than on how much political heat Prime Video is willing to let the series carry.`,
+Hayranlar için bu yorum *Die Trying*'yi garip bir yerde bırakıyor: resmi olarak kamuya açık bir şekilde iptal edilmedi, ancak artık Ritchson'un bir zamanlar söylediği onaylanmış rota olmadığı açık. Kitabın daha sonra masaya dönüp dönmeyeceği Reacher'nin yumruklarından çok, Prime Video'nin serinin taşınmasına ne kadar siyasi heyecan katmaya istekli olduğuna bağlı olabilir.`,
   },
   {
     slug: "crystal-lake-13-killer-things-friday-the-13th-series",
@@ -547,63 +547,63 @@ For fans, the comment leaves *Die Trying* in a strange place: not officially can
     customBadge: "Empire Exclusive",
     image: crystalLakeCover.url,
     source: "Empire — Becky Darke",
-    body: `After nearly two decades away from screens, Friday the 13th is returning with **Crystal Lake**, A24's prequel series built around Pamela Voorhees and the tragedy that transforms Camp Crystal Lake forever.
+    body: `Ekranlardan yaklaşık yirmi yıl uzak kaldıktan sonra Friday the 13th, A24'nin Pamela Voorhees ve Camp Crystal Lake'yi sonsuza dek dönüştüren trajedi etrafında inşa edilen ön bölüm serisi **Crystal Lake** ile geri dönüyor.
 
-Linda Cardellini plays Pamela before the events of the original 1980 film. Showrunner Brad Caleb Kane says she avoided imitating Betsy Palmer's famous performance, instead finding her own route into a woman pushed toward a full, blood-soaked breakdown.
+Linda Cardellini, orijinal 1980 filmindeki olaylardan önce Pamela'yi oynuyor. Showrunner Brad Caleb Kane, Betsy Palmer'nin ünlü performansını taklit etmekten kaçındığını, bunun yerine tam, kana bulanmış bir çöküşe doğru itilen bir kadına doğru kendi yolunu bulduğunu söylüyor.
 
-## 1. Linda Cardellini makes Pamela her own
+## 1. Linda Cardellini, Pamela'yi kendisine ait kılıyor
 
-Cardellini was Kane's first choice. The production experimented with the character's familiar look, but ultimately decided that a direct recreation felt too much like cosplay. The result, Kane promises, is a distinct and fiercely committed Pamela.
+Cardellini, Kane'in ilk tercihiydi. Yapım ekibi, karakterin tanıdık görünümüyle denemeler yaptı ancak sonuçta doğrudan canlandırmaların cosplay'e çok benzediğine karar verdi. Kane, sonucun farklı ve son derece kararlı bir Pamela olacağını vaat ediyor.
 
-## 2. The production returned to the original Crystal Lake
+## 2. Üretim orijinal Crystal Lake'ye geri döndü
 
-The crew shot in Blairstown, New Jersey, where key parts of the first Friday the 13th were filmed. Some scenes deliberately echo the 1980 movie while changing what viewers understand about familiar moments.
+Ekip, 13'üncü Cuma gününün önemli bölümlerinin çekildiği Blairstown, New Jersey'de çekim yaptı. Bazı sahneler kasıtlı olarak 1980 yapımı filmi yansıtıyor ve izleyicilerin tanıdık anlarla ilgili algılarını değiştiriyor.
 
-## 3. The showrunner is a lifelong Friday the 13th fan
+## 3. Dizi sorumlusu ömür boyu Friday the 13th hayranıdır
 
-Kane names Part III as his gateway into horror, The Final Chapter as the series' best entry and Jason Lives as its most purely entertaining chapter. That knowledge shapes a prequel intended to reward both newcomers and obsessive fans.
+Kane, Part III'yi korkuya açılan kapı, Son Bölüm'ü serinin en iyi girişi ve Jason Lives'yi de en eğlenceli bölümü olarak adlandırıyor. Bu bilgi, hem yeni gelenleri hem de takıntılı hayranları ödüllendirmeyi amaçlayan bir ön bölümü şekillendiriyor.
 
-## 4. The kills will be seriously bloody
+## 4. Öldürmeler ciddi anlamda kanlı olacak
 
-Crystal Lake is designed to deliver inventive deaths with enough impact to make viewers jump off the couch. Kane says the team wanted the violence to feel fresh, surprising and unmistakably part of Friday the 13th.
+Crystal Lake, izleyicileri kanepeden zıplatmaya yetecek etkiyle yaratıcı ölümler sunmak üzere tasarlandı. Kane, ekibin şiddetin taze, şaşırtıcı ve şüphe götürmez bir şekilde 13'üncü Cuma'nın bir parçası olmasını istediğini söyledi.
 
-![An exclusive scene from A24's Crystal Lake series](${crystalLakeStill.url})
+![A24'nin Crystal Lake serisinden özel bir sahne](${crystalLakeStill.url})
 
-## 5. It begins eight years before the original film
+## 5. It orijinal filmden sekiz yıl önce başlıyor
 
-Pamela is working as a cook at Camp Crystal Lake while 11-year-old Jason joins the other campers. The series follows the twists that lead from their loving relationship to Jason's death and Pamela's murderous collapse.
+Pamela, Camp Crystal Lake'de aşçı olarak çalışırken, 11 yaşındaki Jason diğer kampçılara katılıyor. Dizi, onların aşk dolu ilişkisinden Jason'nin ölümüne ve Pamela'nin öldürücü çöküşüne kadar uzanan değişimleri konu alıyor.
 
-## 6. A practical “blood bag” sequence became an early highlight
+## 6. Pratik bir "kan torbası" sekansı ilk dikkat çeken konu oldu
 
-One episode uses a stunt performer wearing a literal bag filled with blood on his head. The difficult effect took three attempts and reflects the production's commitment to tactile, practical gore.
+Bir bölümde, kafasına kanla dolu gerçek bir çanta takan bir dublör sanatçısı kullanılıyor. Zor etki üç deneme gerektirdi ve yapımın dokunsal ve pratik kana olan bağlılığını yansıtıyor.
 
-## 7. The opening credits honor the movies
+## 7. Açılış jeneriği filmleri onurlandırıyor
 
-The title sequence combines the grainy unease of 1970s television with a direct salute to the original Friday the 13th logo. Composer Harry Manfredini also returned to create new music for the sequence.
+Başlık dizisi, 1970'lerin televizyonunun grenli tedirginliğini, orijinal 13. Cuma logosuna doğrudan bir selamla birleştiriyor. Composer Harry Manfredini ayrıca dizi için yeni müzik yaratmak üzere geri döndü.
 
-## 8. Every death is meant to matter
+## 8. Her ölümün önemi vardır
 
-Rather than treating the victims as disposable bodies, the writers spend time building their stories. Kane's aim is to make each death land emotionally before the carnage arrives.
+Yazarlar, kurbanlara tek kullanımlık bedenler gibi davranmak yerine, hikayelerini oluşturmaya zaman harcıyorlar. Kane'in amacı, her ölümün katliam gelmeden önce duygusal olarak inmesini sağlamaktır.
 
-## 9. Young Jason is presented as a tragic child
+## 9. Young Jason trajik bir çocuk olarak sunuluyor
 
-The story emphasizes Jason's bond with his mother and the devastating effect of his loss. His emergence as the familiar slasher comes later in the season — but Kane says that when it happens, it hits hard.
+Hikaye, Jason'nin annesiyle olan bağını ve kaybının yıkıcı etkisini vurguluyor. Tanıdık bir slasher olarak ortaya çıkışı sezonun ilerleyen dönemlerinde gerçekleşecek; ancak Kane, bu gerçekleştiğinde çok sert etkileneceğini söylüyor.
 
-## 10. Callum Vinson was ready for the role
+## 10. Callum Vinson role hazırdı
 
-The young horror fan embraced the physically demanding part, including heavy prosthetics and difficult lake work, bringing both vulnerability and an ominous presence to Jason.
+Genç korku hayranı, ağır protezler ve zorlu göl işleri de dahil olmak üzere fiziksel olarak zorlu kısmı benimseyerek Jason'ye hem kırılganlık hem de uğursuz bir varlık kazandırdı.
 
-## 11. Crystal Lake becomes a living town
+## 11. Crystal Lake yaşayan bir kasaba haline geliyor
 
-The series expands beyond the camp to explore the surrounding community, its residents and the history that allowed the Voorhees legend to take root.
+Dizi kampın ötesine geçerek çevredeki toplumu, burada yaşayanları ve Voorhees efsanesinin kök salmasını sağlayan tarihi keşfediyor.
 
-## 12. Longtime fans can expect deep-cut references
+## 12. Uzun süredir hayranlar derin referanslar bekleyebilir
 
-Locations, visual details and story echoes draw from across the franchise. The Easter eggs are designed to deepen the new story rather than simply repeat familiar iconography.
+Mekanlar, görsel ayrıntılar ve hikaye yankıları serinin dört bir yanından geliyor. Paskalya yumurtaları, tanıdık ikonografiyi tekrarlamak yerine yeni hikayeyi derinleştirmek için tasarlandı.
 
-## 13. The franchise drought is finally ending
+## 13. Franchise kıtlığı nihayet sona eriyor
 
-Crystal Lake marks the first major screen return for Friday the 13th in almost 20 years. By combining Pamela's origin, young Jason's tragedy and unapologetically practical gore, the series aims to restart the legend without losing what made it endure.`,
+Crystal Lake, neredeyse 20 yıl içinde 13'üncü Cuma'nın ilk büyük ekrana dönüşünü işaret ediyor. Pamela'nin kökenini, genç Jason'nin trajedisini ve pişmanlık duymayan pratik vahşeti birleştiren seri, efsaneyi, dayanmasını sağlayan şeyi kaybetmeden yeniden başlatmayı hedefliyor.`,
   },
   {
     slug: "kri8-universe-sci-fi-franchise-toronto-market",
@@ -613,27 +613,27 @@ Crystal Lake marks the first major screen return for Friday the 13th in almost 2
     customBadge: "Exclusive",
     image: varKri8.url,
     source: "Variety — Naman Ramachandran",
-    body: `"Kri8 Universe," a five-world science-fiction IP ecosystem from production designer and filmmaker Uzair Merchant, will launch at TIFF: The Market, hunting global licensing, studio and strategic partnerships after 14 years of independent development.
+    body: `Yapım tasarımcısı ve film yapımcısı Uzair Merchant'nin sunduğu beş dünyayı kapsayan bilim kurgu fikri mülkiyet ekosistemi "Kri8 Universe", 14 yıllık bağımsız geliştirme sürecinin ardından küresel lisanslama, stüdyo ve stratejik ortaklıklar için TIFF: The Market'de piyasaya sürülecek.
 
-The universe consists of five interconnected worlds — Elixir of Life, Black Rose, the 8th Sin, Skye and Vault X — anchored by 16 original characters and a mythology built to expand across film, television, publishing, music, gaming, digital platforms, artificial intelligence, digital assets and immersive formats.
+Evren, 16 orijinal karakter ve film, televizyon, yayıncılık, müzik, oyun, dijital platformlar, yapay zeka, dijital varlıklar ve sürükleyici formatları kapsayacak şekilde inşa edilmiş bir mitolojiyle desteklenen birbirine bağlı beş dünyadan oluşur: Elixir of Life, Black Rose, the 8th Sin, Skye ve Vault X.
 
-![Key art for the science-fiction franchise Kri8 Universe](${varKri8.url})
+![Bilimkurgu serisi Kri8 Universe'nin ana çizimi](${varKri8.url})
 
-Merchant has spent nearly two decades working in film and television internationally, contributing to titles such as "Deadpool 2," "Fast & Furious 7," "Star Trek Beyond" and "Superman & Lois." His career has taken him through Hollywood, Bollywood, the Middle East and Asia, and he has picked up more than 40 international honors across film, television, music and emerging media.
+Merchant neredeyse yirmi yılını uluslararası film ve televizyon sektöründe çalışarak geçirdi ve "Deadpool 2", "Fast & Furious 7", "Star Trek Beyond" ve "Superman & Lois" gibi yapımlara katkıda bulundu. Kariyeri onu Hollywood, Bollywood, Middle East ve Asya'ya götürdü ve film, televizyon, müzik ve gelişen medya alanlarında 40'tan fazla uluslararası ödüle layık görüldü.
 
-The existing "Kri8 Universe" output includes three published books, nine original soundtracks, films, screenplays, music videos and games, along with more than 1.1 million views and more than 30 international awards, according to the company.
+Şirkete göre, mevcut "Kri8 Universe" çıktısı üç yayınlanmış kitap, dokuz orijinal film müziği, film, senaryo, müzik videosu ve oyunun yanı sıra 1,1 milyondan fazla görüntüleme ve 30'dan fazla uluslararası ödülü içeriyor.
 
-Merchant and Gayathiri Guliani co-founded K2 Media Capital, the entertainment platform now steering the commercial rollout by developing, packaging and financing original IP for markets worldwide. The company is holding discussions with studios, streamers, broadcasters, publishers, gaming and merchandising partners, distributors and technology and investment firms, with options open across licensing, co-productions, publishing, gaming adaptations, distribution and direct investment in the IP.
+Merchant ve Gayathiri Guliani, eğlence platformu K2 Media Capital'nin kurucu ortağı oldu ve artık dünya çapındaki pazarlar için orijinal IP'yi geliştirerek, paketleyerek ve finanse ederek ticari kullanıma yön veriyor. Şirket, lisanslama, ortak yapımlar, yayıncılık, oyun uyarlamaları, dağıtım ve fikri mülkiyete doğrudan yatırım konularında açık seçeneklerle stüdyolar, yayıncılar, yayıncılar, yayıncılar, oyun ve satış ortakları, distribütörler ve teknoloji ve yatırım firmalarıyla görüşmelerde bulunuyor.
 
-"What makes 'Kri8 Universe' particularly compelling is that it is not an IP concept looking for a business model," said Guliani. "The world has already been built, the characters have been developed and the creative ecosystem has been tested across multiple mediums. Our role is to build the commercial pathway around that IP, connecting it with the right studios, platforms, investors, licensing partners and global markets."
+Guliani, "'Kri8 Universe'yi özellikle ilgi çekici kılan şey, bunun bir iş modeli arayan bir fikri mülkiyet konsepti olmamasıdır" dedi. "Dünya zaten inşa edildi, karakterler geliştirildi ve yaratıcı ekosistem birden fazla ortamda test edildi. Bizim rolümüz, bu fikri mülkiyetin etrafında ticari yolu oluşturmak ve onu doğru stüdyolara, platformlara, yatırımcılara, lisans ortaklarına ve küresel pazarlara bağlamaktır."
 
-The mythology weaves together AI, genetics and cloning, questions about immortality and consciousness, spiritual and ancient mythic threads, and humanity's fraught relationship with fast-advancing technology, alongside water scarcity, destiny and identity. Cross-cultural collaboration runs through the project too, with music blending Arabic sounds, hip-hop and Bollywood influences and characters drawing on Arab, Indian and African cultures. The character Musa moves through fractured timelines as a messenger of remembrance, while "3001: A Nafs Odyssey" pairs futuristic Sufi hip-hop with science fiction to trace the seven stages of the soul.
+Mitoloji, su kıtlığı, kader ve kimliğin yanı sıra yapay zeka, genetik ve klonlamayı, ölümsüzlük ve bilince ilişkin soruları, manevi ve kadim mitsel bağları ve insanlığın hızla ilerleyen teknolojiyle sorunlu ilişkisini bir araya getiriyor. Arap seslerini, hip-hop ve Bollywood etkilerini harmanlayan müzik ve Arap, Hint ve Afrika kültürlerinden ilham alan karakterlerle, kültürler arası işbirliği de proje boyunca yürütülüyor. Musa karakteri bir hatıra elçisi olarak parçalanmış zaman çizelgelerinde hareket ederken, "3001: A Nafs Odyssey" fütürist Sufi hip-hop'unu bilim kurguyla eşleştirerek ruhun yedi evresinin izini sürüyor.
 
-"We're not walking into the room with an idea for a universe. We're walking in with the universe," Merchant said. "The mythology exists. The books exist. The music exists. The characters exist. Fourteen years were spent building and proving these worlds. Now the question is how far they can travel. This is where facts meet myth to create fiction."
+Merchant, "Bir evren fikriyle odaya girmiyoruz. Evrenle birlikte giriyoruz" dedi. "Mitoloji var. Kitaplar var. Müzik var. Karakterler var. Bu dünyaları inşa etmek ve kanıtlamak için on dört yıl harcandı. Şimdi soru, bunların ne kadar uzağa gidebileceği. Burası gerçeklerin efsaneyle buluştuğu ve kurgu yarattığı yer."
 
-Created through bKREATIV Prods. and the Kreativ Lab, "Kri8 Universe" was independently developed by Merchant.
+bKREATIV Prods. ve Kreativ Lab aracılığıyla oluşturulan "Kri8 Universe", Merchant tarafından bağımsız olarak geliştirildi.
 
-"For years I was told I was building too much. Now the world calls it an ecosystem," Merchant said. "We are now looking for the right partners to take these worlds to global audiences."`,
+Merchant, "Yıllarca bana çok fazla şey inşa ettiğim söylendi. Artık dünya buna ekosistem diyor" dedi. "Artık bu dünyaları küresel izleyicilere taşıyacak doğru ortakları arıyoruz."`,
   },
   {
     slug: "robert-pattinson-oscars-primetime-odyssey-dune-3",
@@ -643,37 +643,37 @@ Created through bKREATIV Prods. and the Kreativ Lab, "Kri8 Universe" was indepen
     customBadge: "Awards",
     image: varPattinson.url,
     source: "Variety — Clayton Davis",
-    body: `Four Robert Pattinsons are better than one, and that makes his upcoming Oscar run a bit more complicated.
+    body: `Four Robert Pattinsons birden daha iyi ve bu da onun yaklaşmakta olan Oscar yarışını biraz daha karmaşık hale getiriyor.
 
-In "Primetime," Pattinson sits alone in a dim Florida room, reading a stranger's chat logs aloud. He's playing Chris Hansen, host of the hidden-camera series "To Catch a Predator," the man who turned police stings into television events that battled for ratings against the likes of ABC's "Lost." It's the most uncomfortable thing Pattinson has ever done on screen — and it could be what finally gets him an Oscar nomination.
+"Primetime"da Pattinson loş bir Florida odasında tek başına oturuyor ve bir yabancının sohbet kayıtlarını yüksek sesle okuyor. Gizli kamera dizisi "To Catch a Predator"ın sunucusu Chris Hansen'yi canlandırıyor; ABC'nin "Lost" dizisine karşı reyting mücadelesi veren televizyon etkinliklerine polis saldırılarını dönüştüren adam. It, Pattinson'nin beyazperdede şimdiye kadar yaptığı en rahatsız edici şey ve sonunda ona Oscar adaylığı kazandıran da bu olabilir.
 
-![Robert Pattinson as Chris Hansen in A24's Primetime](${varPrimetime.url})
+![Robert Pattinson, A24'nin Primetime'ında Chris Hansen rolünde](${varPrimetime.url})
 
-At 40, he's yet to be recognized despite acclaimed turns in "Good Time," "The Lighthouse" and "The Rover." This year, Pattinson has stacked the deck: indies, franchises and, in the middle of it all, shooting the next "Batman" movie with Matt Reeves.
+40 yaşında, "Good Time", "The Lighthouse" ve "The Rover" filmlerindeki beğeni toplayan dönüşlerine rağmen henüz tanınmadı. Bu yıl, Pattinson desteyi doldurdu: bağımsız filmler, franchise'lar ve tüm bunların ortasında Matt Reeves ile bir sonraki "Batman" filmini çekmek.
 
-**"Primetime" seems to be the obvious one**
+**"Primetime" bariz olanı gibi görünüyor**
 
-In Lance Oppenheim's film, which played in competition at Venice — earning a seven-minute standing ovation — and opens Sept. 25 through A24, Pattinson has what looks like his clearest awards vehicle. Oppenheim's Hansen is a showman, the connective tissue of an anti-hero origin story à la "Joker" and "American Psycho." The film isn't out to canonize him; it watches everything that made him larger than the premise of the show: the ratings, the crew, the wannabe actors playing decoys and the audience who gobbled it up at home.
+Lance Oppenheim'ın Venedik'teki yarışmada gösterilen ve yedi dakika boyunca ayakta alkışlanan ve 25 Eylül'de A24'ye kadar vizyona giren filminde Pattinson, en net ödül aracına benzeyen şeye sahip. Oppenheim'ın Hansen'si bir şovmendir; "Joker" ve "American Psycho" tarzı bir anti-kahraman kökenli hikayenin bağ dokusudur. Filmin amacı onu kutsallaştırmak değil; onu dizinin ana fikrinden daha büyük yapan her şeyi izliyor: reytingler, ekip, tuzak oynayan aktör özentileri ve onu evinde yiyip bitiren seyirci.
 
-Pattinson doesn't ask anyone to root for Hansen, rather he asks them to sit with a man they've known from television and watch him squirm.
+Pattinson kimseden Hansen'yi desteklemesini istemiyor, bunun yerine onlardan televizyondan tanıdıkları bir adamla oturup onun kıvranmasını izlemelerini istiyor.
 
-And he isn't the only highlight. Skyler Gisondo is terrific as Dan Plumb, the hopeful actor hired to play the bait, while Emmy winner Merritt Wever gives the producer an edge as the operation's compromises pile up. And then there's the real Hansen, angling his way into the rollout with countless interviews — a sideshow, and sideshows keep a title in the conversation.
+Ve öne çıkan tek kişi o değil. Skyler Gisondo, yemi oynaması için işe alınan umutlu aktör Dan Plumb kadar muhteşem; Emmy ödüllü Merritt Wever ise operasyonun tavizleri biriktikçe yapımcıya avantaj sağlıyor. Ve bir de sayısız röportajla sunuma giren gerçek Hansen var - bir yan gösteri ve yan gösteriler sohbetin başlığını koruyor.
 
-**The vote-splitting problem**
+**Oy bölme sorunu**
 
-He's very good in Kristoffer Borgli's comedy "The Drama" as a museum curator whose wedding quietly comes apart. In another year, it might have been the campaign. But it came out in April, and "Primetime" is the more recent entrant in a brutal lead race that already includes his "Odyssey" co-star Matt Damon, Andrew Scott ("Elsinore"), John Malkovich ("Wild Horse Nine") and, still to come, Tom Cruise ("Digger").
+Kristoffer Borgli'nin komedisi "The Drama"da düğünü sessizce bozulan bir müze küratörü olarak çok iyi. Başka bir yıl kampanya olabilirdi. Ancak Nisan ayında çıktı ve "Primetime", halihazırda "Odyssey"deki rol arkadaşı Matt Damon, Andrew Scott ("Elsinore"), John Malkovich ("Wild Horse Nine") ve yakında çıkacak olan Tom Cruise'nin ("Digger") yer aldığı acımasız liderlik yarışının en yeni katılımcısı oldu.
 
-![Robert Pattinson as Antinous in Christopher Nolan's The Odyssey](${varOdysseyStill.url})
+![Robert Pattinson, Christopher Nolan'nin The Odyssey'indeki Antinous rolünde](${varOdysseyStill.url})
 
-**The supporting race could be the leaner pathway**
+**Destekleyici yarış daha yalın bir yol olabilir**
 
-In "The Odyssey," Pattinson plays Antinous, ringleader of the suitors circling Penelope, one piece of Nolan's huge ensemble in what became a billion-dollar phenomenon. Best picture contenders of that size can float a supporting player. The question for Universal is whether the part is big enough, and sticky enough, to be worth the political capital.
+"The Odyssey"de Pattinson, Nolan'nin milyarlarca dolarlık bir fenomene dönüşen devasa topluluğunun bir parçası olan Penelope'nin etrafındaki taliplerin elebaşı Antinous'u canlandırıyor. Bu boyuttaki en iyi film yarışmacıları, destekleyici bir oyuncuyu yüzdürebilir. Universal için soru, parçanın siyasi sermayeye değecek kadar büyük ve yeterince yapışkan olup olmadığıdır.
 
-"Dune: Part Three," arriving Dec. 18, is the other option and potentially the showier one. Scytale is a bigger swing, Villeneuve is in his corner and Warner Bros. has a prime December date. The first two "Dune" films drew 15 Oscar nominations between them — none of them for acting.
+18 Aralık'ta çıkacak olan "Dune: Part Three" diğer seçenek ve potansiyel olarak daha gösterişli olanıdır. Scytale daha büyük bir vuruş, Villeneuve kendi köşesinde ve Warner Bros.'nin Aralık ayı için harika bir tarihi var. İlk iki "Dune" filmi 15 dalda Oscar'a aday gösterildi; hiçbiri oyunculuk dalında değil.
 
-Could he land more than one nod? Jamie Foxx pulled it off in 2004, Cate Blanchett in 2007 and Scarlett Johansson in 2019. And actors can now be double-nominated in the same category following an Academy rule update earlier this year.
+Birden fazla başını sallayabilir mi? Jamie Foxx 2004'te, Cate Blanchett 2007'de ve Scarlett Johansson 2019'da başarılı oldu. Ayrıca oyuncular artık bu yılın başlarında yapılan Akademi kural güncellemesinin ardından aynı kategoride iki kez aday gösterilebilecek.
 
-That's no guarantee. "Primetime" might play too harshly for a chunk of the Academy, while "The Odyssey" and "Dune: Part Three" could end up as technical players. Nonetheless, Pattinson stopped having us ask whether he was a great actor a while ago. What's left is for the Academy — and its four Pattinsons — to talk themselves into checking the right box.`,
+Bu bir garanti değil. "Primetime" Akademi'nin bir kısmı için çok sert bir performans gösterebilirken, "The Odyssey" ve "Dune: Part Three" teknik oyuncular olarak ortaya çıkabilir. Yine de Pattinson bir süre önce bize kendisinin harika bir aktör olup olmadığını sormayı bıraktı. Geriye Akademi'nin ve onun dört Pattinson'sinin doğru kutuyu işaretleme konusunda kendilerini ikna etmeleri kalıyor.`,
   },
   {
     slug: "mobland-season-2-premiere-tom-hardy-helen-mirren-guy-ritchie",
@@ -683,29 +683,29 @@ That's no guarantee. "Primetime" might play too harshly for a chunk of the Acade
     customBadge: "Premiere",
     image: varMoblandPremiere.url,
     source: "Variety — K.J. Yossman",
-    body: `After plenty of behind-the-scenes drama on Paramount+ hit "MobLand," which saw Tom Hardy almost booted off the series, the cast and creatives reunited for the premiere of Season 2 in London on Thursday night.
+    body: `Tom Hardy'nin neredeyse seriyi başlattığı Paramount+ hiti "MobLand"ın birçok kamera arkası dramasının ardından oyuncular ve yaratıcılar Perşembe gecesi London'de 2. Sezonun galası için yeniden bir araya geldi.
 
-Leading trio Pierce Brosnan and Helen Mirren — who play crime couple Conrad and Maeve Harrigan opposite Hardy's fixer Harry Da Souza — posed together with Hardy on the black carpet outside the Odeon Luxe theater in Leicester Square before heading inside to take the stage alongside co-creator Guy Ritchie and exec producer David Glasser.
+Hardy'nin tamircisi Harry Da Souza'nin karşısında suç çifti Conrad ve Maeve Harrigan'yi oynayan önde gelen üçlü Pierce Brosnan ve Helen Mirren, ortak yaratıcı Guy Ritchie ve baş yapımcı David Glasser ile birlikte sahneye çıkmak için içeri girmeden önce Leicester Square'deki Odeon Luxe salonunun dışındaki siyah halıda Hardy ile birlikte poz verdi.
 
-![Pierce Brosnan, Helen Mirren and Tom Hardy at the MobLand Season 2 premiere in London](${varMoblandPremiere.url})
+![Pierce Brosnan, Helen Mirren ve Tom Hardy, London'deki MobLand 2. Sezon galasında](${varMoblandPremiere.url})
 
-Introducing the director and cast to the audience, Glasser — who was believed to have lost patience with Hardy after the actor requested script changes and was late to set — heaped plenty of praise on the star, calling him "the captain of our ship."
+Yönetmeni ve oyuncu kadrosunu izleyicilere tanıtan Glasser, aktörün senaryo değişikliği talep etmesi ve sete geç kalması nedeniyle Hardy'ye karşı sabrını kaybettiğine inanılıyordu ve yıldıza bol bol övgü yağdırdı ve onu "gemimizin kaptanı" olarak nitelendirdi.
 
-"Without further ado, the captain of our ship, and the man who really, really pushed the envelope for us to get this to where we want to do Season 1 and Season 2, and was with it from the beginning and stayed with it to the bitter end of us getting through this incredible season, ladies and gentlemen — Tom Hardy," Glasser announced as Hardy joined Ritchie, Brosnan and Mirren on stage.
+Hardy sahnede Ritchie, Brosnan ve Mirren'e katılırken Glasser, "Daha fazla uzatmadan, gemimizin kaptanı ve bunu Sezon 1 ve Sezon 2'yi yapmak istediğimiz yere ulaştırmak için sınırları gerçekten çok zorlayan ve bu inanılmaz sezonu atlatırken başından beri yanında olan ve acı sona kadar da yanında kalan adam, bayanlar baylar - Tom Hardy," diye duyurdu Glasser.
 
-![Tom Hardy as fixer Harry Da Souza in MobLand](${varMoblandHardy.url})
+![Tom Hardy, MobLand'de Harry Da Souza tamircisi olarak](${varMoblandHardy.url})
 
-After the cast and audience sang "Happy Birthday" to Ritchie, who turned 58 that day, the director spoke movingly about his cast, saying they've been "magnificent, it's been nothing other than a pleasure to work with these monsters of creativity."
+Oyuncular ve izleyiciler, o gün 58 yaşına giren Ritchie'ye "Happy Birthday" şarkısını söyledikten sonra yönetmen, oyuncu kadrosu hakkında dokunaklı bir şekilde konuştu ve onların "muhteşem olduklarını, bu yaratıcılık canavarlarıyla çalışmanın bir zevkten başka bir şey olmadığını" söyledi.
 
-"Lady Helen — Dame Helen, fantastic Helen, Queen Helen — has been nothing other than an inspiration and a force of creativity," Ritchie said. "Super positive all day long, super creative all day long. Pierce Brosnan, your lordship, I can say exactly the same about Pierce and my old brother Tom Hardy." He then darted across the stage to hug Hardy.
+Ritchie, "Lady Helen - Dame Helen, fantastik Helen, Queen Helen - bir ilham kaynağı ve yaratıcılık gücünden başka bir şey olmadı" dedi. "Gün boyu süper pozitif, gün boyu süper yaratıcı. Pierce Brosnan, efendimiz, Pierce ve ağabeyim Tom Hardy için de aynısını söyleyebilirim." Daha sonra Hardy'ye sarılmak için sahneye fırladı.
 
-Asked what she was most excited for the audience to see in Season 2, Mirren replied: "Madder, badder, better. Chaotic, cool, funny. Frightening, funny."
+İzleyicilerin 2. Sezonda görmesini en çok heyecanlandırdığı şey sorulduğunda Mirren şu cevabı verdi: "Daha kötü, daha kötü, daha iyi. Kaotik, havalı, komik. Korkutucu, komik."
 
-Brosnan added: "Yeah, very mangled, very strange. And there's frailties within these characters as well, which makes them very human. But we get on like a great company of actors."
+Brosnan şunları ekledi: "Evet, çok karışık, çok tuhaf. Ayrıca bu karakterlerin içinde de zayıflıklar var, bu da onları çok insani kılıyor. Ama biz harika bir oyuncu topluluğu gibi anlaşıyoruz."
 
-Mirren also praised writer Jez Butterworth for "incredible material." "The beautiful poetry of Jez Butterworth, the poetic element in the script, is so incredible. It just heightens it out of the sort of the normal."
+Mirren ayrıca yazar Jez Butterworth'yi "inanılmaz malzeme" nedeniyle övdü. "Senaryodaki şiirsel unsur olan Jez Butterworth'nin güzel şiiri o kadar inanılmaz ki. It onu normalin dışına çıkarıyor."
 
-Glasser gave some insight into how the show first got off the ground, saying he and the Paramount+ team flew to Ritchie's country house to pitch him. "He said yes on the spot," Glasser recalled. "Over a great bottle of wine while he was cooking some amazing lamb." Eight weeks out from shooting Season 1, he added, the team was still trying to "figure out what the show is" — which is when Butterworth was brought in.`,
+Glasser, kendisinin ve Paramount+ ekibinin ona sunum yapmak için Ritchie'nin kır evine uçtuğunu söyleyerek gösterinin ilk olarak nasıl başladığına dair biraz bilgi verdi. Glasser, "O anda evet dedi" diye hatırladı. "Harika bir kuzu eti pişirirken harika bir şişe şarap içerken." 1. Sezonun çekimlerine sekiz hafta kala, ekibin hâlâ "dizinin ne olduğunu anlamaya" çalıştığını, yani Butterworth'un getirildiği zaman olduğunu ekledi.`,
   },
   {
     slug: "remain-trailer-jake-gyllenhaal-shyamalan",
@@ -716,15 +716,15 @@ Glasser gave some insight into how the show first got off the ground, saying he 
     image: img_remain_trailer,
     videoUrl: "https://www.youtube.com/embed/h969bLwxgKc",
     source: "Variety — Tanya Fedak",
-    body: `M. Night Shyamalan's romantic drama *Remain* has released its first trailer, showing Jake Gyllenhaal and Phoebe Dynevor in an unsettling relationship.
+    body: `M. Night Shyamalan'nin romantik draması *Remain*, Jake Gyllenhaal ve Phoebe Dynevor'nin rahatsız edici bir ilişkisini gösteren ilk fragmanını yayınladı.
 
-The trailer opens with a montage of the happiest moments shared by young couple Wren (Dynevor) and Tate (Gyllenhaal), framing the film as a seemingly lighthearted romantic comedy. But the tone suddenly shifts when Wren starts to cry while asking, "Why can't we be together, Tate?" "I think you know," he whispers back. In the moments that follow, Wren seems to be preparing to slam her head against a bathroom wall — before disappearing right in front of Tate.
+Fragman, genç çift Wren (Dynevor) ve Tate'in (Gyllenhaal) paylaştığı en mutlu anların montajıyla açılıyor ve filmi görünüşte neşeli bir romantik komedi olarak çerçeveliyor. Ancak Wren ağlamaya başlayınca ses tonu aniden değişiyor: "Neden birlikte olamıyoruz, Tate?" "Sanırım biliyorsun," diye fısıldıyor. İlerleyen anlarda Wren, Tate'in önünde kaybolmadan önce kafasını banyo duvarına çarpmaya hazırlanıyor gibi görünüyor.
 
-Starring alongside Gyllenhaal and Dynevor are Ashley Walters, Julie Hagerty, Jay O. Sanders, Tracy Ifeachor, Hannah James, Caleb Ruminer, Kieran Mulcare and Maria Dizzia.
+Gyllenhaal ve Dynevor'un yanı sıra Ashley Walters, Julie Hagerty, Jay O. Sanders, Tracy Ifeachor, Hannah James, Caleb Ruminer, Kieran Mulcare ve Maria Dizzia rol alıyor.
 
-*Remain*, which also inspired author Nicholas Sparks' novel of the same name, opens in theaters on Valentine's Day. Shyamalan produces with Ashwin Rajan through Blinding Edge Pictures, alongside Marc Bienstock and Sparks' producing partner Theresa Park, with Sparks executive producing.
+Yazar Nicholas Sparks'nin aynı isimli romanına da ilham veren *Remain*, Sevgililer Günü'nde sinemalarda gösterime giriyor. Shyamalan, Marc Bienstock ve Sparks'ın yapım ortağı Theresa Park ile birlikte Ashwin Rajan'den Blinding Edge Pictures'ye kadar üretim yapıyor ve Sparks yönetici yapımcılığını üstleniyor.
 
-The film was originally slated for a Halloween 2026 release before finalizing its Valentine's Day premiere. Earlier this year, Shyamalan revealed that *Remain* was the highest-testing film of his entire career. He has directed 16 features, including *The Sixth Sense* and *The Visit*, and has written and produced several other thrillers. His most recent release was 2024's *Trap*, starring Josh Hartnett as a serial killer who attends a concert with his young daughter, only to discover the venue is on lockdown.`,
+Filmin, Sevgililer Günü galasını tamamlamadan önce, başlangıçta Cadılar Bayramı 2026'da gösterime girmesi planlanıyordu. Bu yılın başlarında Shyamalan, *Remain*'nin tüm kariyeri boyunca en çok test alan filmi olduğunu açıkladı. *The Sixth Sense* ve *The Visit* dahil 16 uzun metrajlı filmi yönetti ve başka birçok gerilim filmi yazıp yapımcılığını üstlendi. En son filmi 2024 yapımı *Trap* idi. Josh Hartnett, genç kızıyla birlikte bir konsere giden, ancak mekanın karantina altında olduğunu keşfeden bir seri katili canlandırıyordu.`,
   },
   {
     slug: "netflix-to-report-box-office-six-movies",
@@ -734,21 +734,21 @@ The film was originally slated for a Halloween 2026 release before finalizing it
     customBadge: "Exclusive",
     image: img_netflix_box_office,
     source: "Variety — Matt Donnelly",
-    body: `"La Bola Negra" has mucho heat. The generational queer drama swept the Cannes Film Festival off its feet in May, nabbing a $5 million sale to Netflix and earning helmers Javier Ambrossi and Javier Calvo the jury prize for best director. After lighting up Telluride, the Penélope Cruz-starrer is on its way to Toronto for yet another grand premiere.
+    body: `"La Bola Negra" çok fazla ısıya sahiptir. Nesiller boyu süren eşcinsel drama, Mayıs ayında Cannes Film Festival'yi ayağa kaldırdı, Netflix'ye 5 milyon dolarlık bir satış gerçekleştirdi ve yönetmenler Javier Ambrossi ve Javier Calvo'ye en iyi yönetmen dalında jüri ödülü kazandırdı. Penélope Cruz'nin başrol oyuncusu, Telluride'ı aydınlattıktan sonra bir başka büyük prömiyer için Toronto'ya doğru yola çıkıyor.
 
-There is one more bona fide that has raised eyebrows in the industry: *La Bola Negra* will receive the longest theatrical rollout Netflix has ever given one of its films — a 46-day release starting Oct. 16, before it lands on the platform Dec. 2.
+Sektörde dikkatleri üzerine çeken bir gerçek film daha var: *La Bola Negra*, Netflix'nin filmlerinden birinde şimdiye kadarki en uzun sinema gösterimini alacak; 2 Aralık'ta platforma çıkmadan önce, 16 Ekim'den itibaren 46 günlük bir gösterime girecek.
 
-For years the streamer has staged splashy limited releases to hype awards contenders and appease filmmakers who still yearn for the magic of movie theaters. But this plan is hitting differently — to say nothing of Netflix's designs for 2027, when Greta Gerwig's *Narnia: The Magician's Nephew* will enjoy a wide release (including Imax) for almost 50 days, while the animated *Charlie and the Chocolate Factory* plays wide for 47 days at Christmas.
+Yıllardır yayıncı, ödül adaylarını heyecanlandırmak ve hâlâ sinema salonlarının büyüsünü özleyen film yapımcılarını tatmin etmek için gösterişli sınırlı yayınlar sahneledi. Ancak bu plan farklı bir şekilde ilerliyor - Netflix'nin 2027 için olan tasarımları hakkında hiçbir şey söylememek gerekirse, Greta Gerwig'nin *Narnia: The Magician's Nephew* neredeyse 50 gün boyunca geniş bir sürümün keyfini çıkarırken (Imax dahil) animasyonlu *Charlie and the Chocolate Factory* Noel'de 47 gün boyunca geniş çapta oynatılacak.
 
-"The real question is 'What does Netflix want to be now?'" posed one high-level executive at a legacy film studio. "Having almost bought Warner Bros. Discovery, you get the sense that they can't put some of that toothpaste back in the tube."
+Eski bir film stüdyosunda üst düzey bir yönetici, "Asıl soru 'Netflix şimdi ne olmak istiyor?" diye sordu. "Neredeyse Warner Bros. Discovery'yi satın alırken, o diş macununun bir kısmını tüpe geri koyamayacakları hissine kapılıyorsunuz."
 
-Netflix showed its willingness to own and operate a theatrical distribution entity in its pursuit of Warner Bros. and HBO, until David Ellison's Paramount swooped in with a larger offer. Co-CEO Ted Sarandos later admitted he could "see us doing things that we haven't done before" with movie theaters, while insisting the company remains streaming first.
+Netflix, Warner Bros. ve HBO peşinde, David Ellison'den Paramount daha büyük bir teklifle gelene kadar bir tiyatro dağıtım kuruluşuna sahip olma ve işletme isteğini gösterdi. Co-CEO Ted Sarandos daha sonra sinema salonlarında "daha önce yapmadığımız şeyleri yaptığımızı" görebildiğini itiraf ederken, şirketin ilk önce yayın yapmaya devam etmesi konusunda ısrar etti.
 
-Exhibitors have long resisted Netflix titles over the company's refusal to grant a standard window of exclusivity — 45 days on the big screen is the current industry standard. "The exhibitors would absolutely welcome this. Imagine if Netflix of all places threw its weight behind a real theatrical marketing campaign, and not some awards play," one veteran distributor said.
+Katılımcılar, şirketin standart bir ayrıcalık penceresi vermeyi reddetmesi nedeniyle Netflix unvanlarına uzun süredir direndiler - büyük ekranda 45 gün mevcut endüstri standardıdır. Kıdemli bir distribütör, "Katılımcılar bunu kesinlikle memnuniyetle karşılayacaktır. Netflix'nin ağırlığını bazı ödül oyunlarına değil, gerçek bir teatral pazarlama kampanyasına verdiğini düşünün," dedi.
 
-The price of admission to that sandbox is reporting grosses, something the data-shy streamer has never done. Netflix will now report box office for six upcoming films, two company insiders said: *Narnia*, *Charlie*, *La Bola Negra*, David Fincher's *The Further Mis-Adventures of Cliff Booth*, *The Mosquito Bowl* and *Ink*.
+Bu sandbox'a giriş ücreti brüt olarak rapor ediliyor, bu da veriden çekinen yayıncının daha önce hiç yapmadığı bir şey. Şirketten iki kişi, Netflix'nin gelecek altı film için gişe raporu vereceğini söyledi: *Narnia*, *Charlie*, *La Bola Negra*, David Fincher'nin *The Further Mis-Adventures of Cliff Booth*, *The Mosquito Bowl* ve *Ink*.
 
-Theatrical distribution at Netflix has been led by Spencer Klein since 2019. The former 20th Century Fox executive guided the company to its first No. 1 box office weekend in August 2025, with a sing-along version of *KPop Demon Hunters*. Inside Netflix, the theatrical flirtation is being downplayed: extending big-screen runs, the company line goes, is a bespoke process where the film team decides "what's right" for each movie.`,
+Netflix'deki tiyatro dağıtımı 2019'dan beri Spencer Klein tarafından yönetiliyor. Eski 20. Century Fox yöneticisi, şirketi Ağustos 2025'teki ilk 1 numaralı gişe haftasonuna *KPop Demon Hunters*'nin eşlik eden versiyonuyla yönlendirdi. Inside Netflix, teatral flört küçümseniyor: Şirket çizgisine göre büyük ekranda gösterimlerin uzatılması, film ekibinin her film için "neyin doğru olduğuna" karar verdiği özel bir süreç.`,
   },
   {
     slug: "practical-magic-2-review-bullock-kidman",
@@ -758,19 +758,19 @@ Theatrical distribution at Netflix has been led by Spencer Klein since 2019. The
     customBadge: "Review",
     image: img_practical_magic_2_review,
     source: "Variety — Todd Gilchrist",
-    body: `As cumbersome and overlong as the 28-year wait between the 1998 original and its sequel, *Practical Magic 2* is a next-generation reminder that sometimes the best way to let a beloved experience live on is by leaving it behind in one's memory.
+    body: `1998'deki orijinali ile devamı arasındaki 28 yıllık bekleyiş kadar hantal ve aşırı uzun olan *Practical Magic 2*, bazen sevilen bir deneyimi yaşatmanın en iyi yolunun onu hafızada bırakmak olduğunu yeni nesile hatırlatıyor.
 
-Led by Sandra Bullock and Nicole Kidman, the original gained a cult following for its unwieldy mix of romantic comedy, domestic abuse and, yes, magic, with female friendship as the glue. Returning as producers and reuniting with costars Dianne Wiest and Stockard Channing, the two leads play the hits under new director Susanne Bier — and in the process inadvertently expose why not everyone thought the original was that great in the first place.
+Sandra Bullock ve Nicole Kidman liderliğindeki orijinal film, romantik komedi, aile içi şiddet ve evet sihrin, kadın arkadaşlığının birleştirici olduğu hantal karışımıyla bir kült haline geldi. Yapımcı olarak geri dönen ve başrol oyuncuları Dianne Wiest ve Stockard Channing ile yeniden bir araya gelen iki başrol, yeni yönetmen Susanne Bier'nin yönetimi altında hit şarkıları canlandırıyor ve bu süreçte istemeden de olsa herkesin orijinalin neden bu kadar harika olduğunu düşünmediğini açığa çıkarıyor.
 
-Bullock reprises Sally, the older and ever more cautious Owens sister. After two marriages that ended with her husband's death because of a generations-old curse, Sally swears off romance and casts a spell that makes her twentysomething daughters Kylie (Joey King) and Antonia (Maisie Williams) forget they come from a family of witches. When Kylie's boyfriend Gideon (Xolo Maridueña) is critically injured, Gillian (Kidman) forces her sister to reveal the truth, causing a rift between a lovestruck daughter and a mother who only wants to protect her.
+Bullock, Owens'ın daha yaşlı ve her zamankinden daha ihtiyatlı kız kardeşi Sally'yi tekrarlıyor. Nesiller boyu süren bir lanet yüzünden kocasının ölümüyle sonuçlanan iki evliliğin ardından Sally, romantizmden vazgeçer ve yirmili yaşlarındaki kızları Kylie (Joey King) ve Antonia'nın (Maisie Williams) bir cadı ailesinden geldiklerini unutturacak bir büyü yapar. When Kylie'nin erkek arkadaşı Gideon (Xolo Maridueña) ciddi şekilde yaralanır, Gillian (Kidman) kız kardeşini gerçeği açıklamaya zorlar ve aşık bir kız ile yalnızca onu korumak isteyen bir anne arasında bir anlaşmazlığa neden olur.
 
-Hunting for a spell to save Gideon, Kylie finds the Book of Ravens and follows its clues to England, where she meets farmhand Thomas Lockland (Solly McLeod). Meanwhile Sally and Gillian drag oversized luggage across the U.K. with British academic Ian Wright (Lee Pace) in tow, hoping to stop Kylie from using powers that risk causing more problems than they solve.
+Gideon'u kurtarmak için bir büyü arayan Kylie, Kuzgunlar Kitabı'nı bulur ve ipuçlarını takip ederek İngiltere'ye gider ve burada çiftçi Thomas Lockland (Solly McLeod) ile tanışır. Meanwhile Sally ve Gillian, İngiliz akademisyen Ian Wright (Lee Pace) ile birlikte büyük boy bagajları Birleşik Krallık boyunca sürüklüyor ve Kylie'nin çözdüklerinden daha fazla soruna neden olma riski taşıyan güçleri kullanmasını engellemeyi umuyorlar.
 
-The film features one scene after another of women unblinkingly supporting one another, yet it oddly sidelines Jet, Franny and Antonia in favor of Ian, a hunky intellectual ripped straight from a romance novel cover. At 130 minutes, the sequel runs a full half-hour longer than its predecessor, and it dilly-dallies so long before unraveling a pretty obvious mystery that the climax feels like a dereliction of duty to the audience.
+Filmde, gözünü kırpmadan birbirini destekleyen kadınların birbiri ardına sahneleri yer alıyor, ancak tuhaf bir şekilde Jet, Franny ve Antonia'yı bir aşk romanı kapağından koparılmış yakışıklı bir entelektüel olan Ian'ın lehine kenara koyuyor. 130 dakikalık devam filmi, öncekinden tam yarım saat daha uzun sürüyor ve oldukça bariz bir gizemi çözmeden önce o kadar uzun süre oyalanıyor ki, doruk noktası izleyiciye bir görev ihmali gibi geliyor.
 
-Bullock's expression barely changes for the first half, while Kidman leans aggressively into Gillian as an overindulged younger sibling. Wiest and Channing take a welcome victory lap, mostly to pass the torch. Thankfully Joey King brings her A-game as Kylie, and Pace is magnetic, generating effortless chemistry with Bullock — you wish the movie made more of it, save for the fact that it's already too long. Poor Maisie Williams, meanwhile, is stranded in a hospital room watching Maridueña lie in a coma.
+Bullock'un ifadesi ilk yarıda neredeyse hiç değişmiyor, Kidman ise aşırı düşkün bir küçük kardeş olarak Gillian'a agresif bir şekilde yaklaşıyor. Wiest ve Channing, çoğunlukla meşaleyi geçmek için hoş bir zafer turu atıyor. Thankfully Joey King, Kylie rolüne mükemmel bir oyun katıyor ve Pace, Bullock'la zahmetsiz bir kimya oluşturan manyetik bir yapıya sahip; zaten çok uzun olduğu gerçeğini saymazsak, filmin daha fazlasını yapmasını dilersiniz. Bu arada Poor Maisie Williams, bir hastane odasında Maridueña'nın komada yatmasını izliyor.
 
-Back in 1998, *Practical Magic* stood out by focusing as much on its female bonds as its romances. Nearly three decades later, the spell is a lot harder to feel.`,
+1998'de *Practical Magic* aşklar kadar kadın bağlarına da odaklanarak öne çıkıyordu. Neredeyse otuz yıl sonra, büyüyü hissetmek çok daha zorlaşıyor.`,
   },
   {
 
@@ -781,15 +781,15 @@ Back in 1998, *Practical Magic* stood out by focusing as much on its female bond
     customBadge: "Exclusive",
     image: img_days_of_thunder_2,
     source: "Empire — Jordan King",
-    body: `Forget the wind and rain outside: there is a breaking weather alert that will quicken the heart of any movie buff. *Days Of Thunder 2*. Summer 2028. Tom Cruise is revving up to return as hotshot NASCAR driver Cole Trickle in a sequel to Tony Scott's 1990 rubber-burning racing classic — and he is bringing Anne Hathaway along for the ride.
+    body: `Dışarıdaki rüzgarı ve yağmuru unutun: Her film tutkununun kalbini hızlandıracak bir hava durumu uyarısı var. *Days Of Thunder 2*. 2028 yazı. Tom Cruise, Tony Scott'nin 1990'daki lastik yakıcı yarış klasiğinin devamı niteliğindeki filmde başarılı NASCAR sürücüsü Cole Trickle olarak geri dönmek için hızlanıyor ve bu yolculuk için Anne Hathaway'yi de yanında getiriyor.
 
-The announcement video says it all: Hathaway in a cowgirl hat, Cruise beaming a megawatt grin, Daytona's legendary track beneath their feet and a souped-up stock car carrying that iconic *Days Of Thunder* logo. You really can't stop the thunder.
+Duyuru videosu her şeyi anlatıyor: Kovboy şapkalı Hathaway, megawatt'lık bir gülümsemeyle Cruise, Daytona'nın efsanevi pisti ayaklarının altında ve o ikonik *Days Of Thunder* logosunu taşıyan güçlendirilmiş bir stok araba. Gök gürültüsünü gerçekten durduramazsınız.
 
-Hathaway has the small matter of impending childbirth to prepare for before she puts the pedal to the metal — *Deadline* reports the Oscar winner will play a team-leading engineer — but there is already an undeniable buzz that this could be another *Top Gun: Maverick* situation, even if nobody outside the production knows how the plot will shake out.
+Hathaway'in pedala basmadan önce yaklaşan doğum gibi küçük bir meselesi var - *Deadline*, Oscar kazananının takım lideri bir mühendisi oynayacağını bildiriyor - ancak yapım dışında hiç kimse olay örgüsünün nasıl sarsılacağını bilmese bile bunun başka bir *Top Gun: Maverick* durumu olabileceğine dair inkar edilemez bir söylenti zaten var.
 
-Story specifics are under wraps, but some things are locked. *Long Shot* and *Warm Bodies* director Jonathan Levine — whose David Corenswet sports drama *Mr. Irrelevant* has been scoring raves with test audiences ahead of its Christmas Day release — is helming, and the film is being shot for IMAX. *Without Remorse* writer Will Staples is tackling the script, with Cruise producing alongside Jerry Bruckheimer and Tommy Harper.
+Hikayenin ayrıntıları gizli, ancak bazı şeyler kilitli. *Long Shot* ve *Warm Bodies* yönetmeni Jonathan Levine - David Corenswet spor draması *Mr. Irrelevant*, Christmas Day vizyona girmeden önce test izleyicilerinden övgüler topluyor - yönetmenlik görevini üstleniyor ve film IMAX için çekiliyor. *Without Remorse* yazarı Will Staples senaryoyu üstleniyor ve Cruise, Jerry Bruckheimer ve Tommy Harper ile birlikte yapımcılığını üstleniyor.
 
-With Cruise and Hathaway front and centre, hitting the track with Trickle one more time already feels like an event. Vroom vroom.`,
+Cruise ve Hathaway önde ve merkezdeyken, Trickle ile bir kez daha piste çıkmak zaten bir etkinlik gibi geliyor. Vay vay.`,
   },
   {
     slug: "avengers-secret-wars-noah-jupe-cast",
@@ -799,13 +799,13 @@ With Cruise and Hathaway front and centre, hitting the track with Trickle one mo
     customBadge: "Marvel",
     image: img_noah_jupe_secret_wars,
     source: "Variety — Angelique Jackson",
-    body: `Noah Jupe is the latest actor to join the Marvel Cinematic Universe, with the *Hamnet* and *A Quiet Place* star tapped to play a top-secret role in *Avengers: Secret Wars*.
+    body: `Noah Jupe, Marvel Cinematic Universe'ye katılan en son aktör; *Hamnet* ve *A Quiet Place* yıldızı *Avengers: Secret Wars*'de çok gizli bir rol oynamak üzere seçildi.
 
-The superhero team-up is the follow-up to *Avengers: Doomsday*, which doesn't arrive in cinemas until December. Marvel had no comment on Jupe's casting.
+Süper kahraman ekibi, Aralık ayına kadar sinemalara gelmeyecek olan *Avengers: Doomsday* filminin devamı niteliğindedir. Marvel, Jupe'un oyuncu kadrosuna ilişkin herhangi bir yorumda bulunmadı.
 
-Production on *Secret Wars*, again directed by Anthony and Joe Russo, is set to begin later this year. Disney has the film slated for release on 17 December 2027.
+Yine Anthony ve Joe Russo tarafından yönetilen *Secret Wars* filminin prodüksiyonunun bu yılın sonlarında başlaması planlanıyor. Disney, filmin 17 Aralık 2027'de vizyona girmesini planladı.
 
-Deadline first reported Jupe's involvement. The actor is repped by WME and Brillstein Entertainment Partners.`,
+Deadline ilk olarak Jupe'un katılımını bildirdi. Oyuncu WME ve Brillstein Entertainment Partners tarafından temsil ediliyor.`,
   },
   {
     slug: "spider-man-brand-new-day-destin-daniel-cretton-interview",
@@ -815,19 +815,19 @@ Deadline first reported Jupe's involvement. The actor is repped by WME and Brill
     customBadge: "Interview",
     image: img_cretton_spiderman,
     source: "Rolling Stone — Brian Hiatt",
-    body: `The MCU has had its ups and downs since *Avengers: Endgame*, but *Shang-Chi and the Legend of the Ten Rings* was an undisputed high point. It seemed inevitable that its director, Destin Daniel Cretton, would return with another Marvel project — and after a year attached to the never-made *Avengers: Kang Dynasty*, he is back with two: the Disney+ series *Wonder Man* and *Spider-Man: Brand New Day*, the fourth Tom Holland Spidey film.
+    body: `MCU, *Avengers: Endgame*'den bu yana iniş ve çıkışlar yaşadı, ancak *Shang-Chi and the Legend of the Ten Rings* tartışmasız en yüksek noktaydı. It, yönetmeni Destin Daniel Cretton'nin başka bir Marvel projesiyle geri dönmesi kaçınılmaz görünüyordu - ve hiç yapılmamış *Avengers: Kang Dynasty*'ye bağlı geçen bir yılın ardından iki filmle geri döndü: Disney+ serisi *Wonder Man* ve dördüncü Tom Holland Spidey filmi *Spider-Man: Brand New Day*.
 
-*Brand New Day* picks up from *No Way Home*, which ended with all memory of Peter Parker erased by a magic spell. He is an isolated adult now, with no life beyond his crime-fighting, while MJ (Zendaya) and Ned (Jacob Batalon) get on with lives that no longer include him. "He's at a place where he feels like it's his duty to be alone and to work," Cretton says.
+*Brand New Day*, *No Way Home*'den devam eder ve bu, Peter Parker'nin tüm hafızasının sihirli bir büyüyle silinmesiyle sona erer. MJ (Zendaya) ve Ned (Jacob Batalon) artık onu içermeyen hayatlara devam ederken, o artık izole bir yetişkin ve suçla mücadelenin ötesinde bir hayatı yok. Cretton, "Yalnız kalmanın ve çalışmanın görevi olduğunu hissettiği bir yerde" diyor.
 
-The film brings in the Punisher (Jon Bernthal) and Bruce Banner (Mark Ruffalo), and stars Sadie Sink as a still-undisclosed character that many fans suspect is Jean Grey. Cretton stays coy, but he is effusive about the actor: he first worked with Sink on *The Glass Castle* when she was 14, and after seeing her in *John Proctor Is the Villain* on Broadway he was "bawling my eyes out at the end of that show." Her performance here, he promises, is "unbelievable."
+Filmde Punisher (Jon Bernthal) ve Bruce Banner (Mark Ruffalo) yer alıyor ve Sadie Sink, birçok hayranın Jean Grey olduğundan şüphelendiği, henüz açıklanmayan bir karakter olarak rol alıyor. Cretton çekingen davranıyor ama oyuncu konusunda coşkulu: Sink'le ilk kez 14 yaşındayken *The Glass Castle*'de çalıştı ve onu Broadway'de *John Proctor Is the Villain*'de gördükten sonra "gösterinin sonunda gözlerimi kaçırıyordu." Buradaki performansının "inanılmaz" olduğunu vaat ediyor.
 
-On Tramell Tillman's Damage Control chief — a character with comics ties to mutants — Cretton laughs off the spoiler question. "He is the perfect actor to play someone who is perhaps hiding levels."
+On Tramell Tillman'nin mutantlarla çizgi roman bağları olan bir karakter olan Damage Control şefi Cretton, spoiler sorusuna gülüyor. "Belki de seviyeleri gizleyen birini canlandırmak için mükemmel bir aktör."
 
-He is blunter about the film's opening villain montage, which shows Spider-Man cleaning up the city across the four years his friends spent at school. "Montages suck! Every shot is not just a new setup, it's a new location." The fun, he says, came from choosing comic covers that let the team imagine what happened just before or after the frames everyone knows.
+Spider-Man'nin arkadaşlarının okulda geçirdiği dört yıl boyunca şehri temizlediğini gösteren filmin açılış kötü adam montajı konusunda açık sözlü. "Montajlar berbat! Her çekim yalnızca yeni bir kurulum değil, yeni bir konumdur." Eğlencenin, ekibin herkesin bildiği karelerden hemen önce veya sonra ne olduğunu hayal etmesine olanak tanıyan çizgi roman kapaklarını seçmenin getirdiğini söylüyor.
 
-As for the title, Holland hinted it pays off in the final frame. Cretton agrees it reflects where Peter lands: "The journey of this movie is about searching for that feeling of a brand-new day. I don't think he really has that feeling in the beginning."
+Başlığa gelince, Holland son karede karşılığını aldığını ima etti. Cretton da bunun Peter'ın nereye vardığını yansıttığını kabul ediyor: "Bu filmin yolculuğu yepyeni bir günün duygusunu aramakla ilgili. Başlangıçta bu duyguyu gerçekten hissettiğini sanmıyorum."
 
-Asked why some superhero movies work and others fail, his answer is thematic rather than tactical: the ones he connects with have something at their core that is clearly personal to the director. That is also his approach to the *Naruto* movie he is developing — a story about "having an ugliness or a monster or some part of you that you're ashamed of, and then coming to realize that's the part that makes you unique." And yes, *Shang-Chi 2* is still in development: "I also would love to see *Shang-Chi 2*!"`,
+Bazı süper kahraman filmlerinin neden işe yarayıp bazılarının başarısız olduğu sorulduğunda cevabı taktiksel olmaktan çok tematik: Bağlantı kurduğu filmlerin özünde açıkça yönetmen için kişisel olan bir şeyler var. Bu aynı zamanda geliştirmekte olduğu *Naruto* filmine de yaklaşımıdır - "bir çirkinliğe, bir canavara veya utandığınız bir parçanıza sahip olmak ve sonra bunun sizi benzersiz kılan parçanın bu olduğunu fark etmek" ile ilgili bir hikaye. Ve evet, *Shang-Chi 2* hâlâ geliştirilme aşamasında: "Ben de *Shang-Chi 2*'yi görmeyi çok isterim!"`,
   },
 
   {
@@ -838,15 +838,15 @@ Asked why some superhero movies work and others fail, his answer is thematic rat
     customBadge: "Marvel",
     image: img_doomsday_podcast,
     source: "Empire — Jordan King",
-    body: `MCU movies are dominating the Disney+ Top 10. *Avengers: Endgame* is coming back to cinemas. The streets are talking about X-Men, incursions, Secret Wars and Jonathan Hickman comics. All of which can only mean one thing: the countdown to *Avengers: Doomsday* is officially on.
+    body: `MCU filmleri Disney+ İlk 10'da liderliğini sürdürüyor. *Avengers: Endgame* sinemalara geri dönüyor. Sokaklar X-Men'den, saldırılardan, Secret Wars ve Jonathan Hickman çizgi romanlarından bahsediyor. Bunların hepsi tek bir anlama gelebilir: *Avengers: Doomsday* için geri sayım resmi olarak başladı.
 
-And, as of today, so is the *Countdown To Avengers: Doomsday* Official Podcast — hosted by Marvel Studios' own Ms. Marvel, the one and only Iman Vellani, alongside The Basement Yard podcaster Frank Alvarez.
+Ve bugün itibariyle, The Basement Yard podcast yayıncısı Frank Alvarez ile birlikte Marvel Studios'nin tek ve tek Iman Vellani'si olan Bayan Marvel'nin ev sahipliği yaptığı *Countdown To Avengers: Doomsday* Official Podcast de öyle.
 
-It would be easy to write this off as just another piece of marketing, but there is something genuinely appealing about two deeply knowledgeable MCU superfans — one of whom is literally a Young Avenger in waiting — joining forces to recap the franchise's major movies and moments ahead of *Doomsday*. The first episode, which revisits *Avengers Assemble*, is full of nerdy tangents, sharp observations and full-on fangirling, and it makes for ideal appointment viewing in the month leading up to the *Endgame Encore* cinema re-release on 25 September.
+It'yi sadece başka bir pazarlama parçası olarak silmek kolay olurdu, ancak iki derin bilgili MCU süper hayranının (bunlardan biri kelimenin tam anlamıyla bekleyen bir Young Avenger olan) serinin önemli filmlerini ve *Doomsday* öncesindeki anları özetlemek için güçlerini birleştirmesinde gerçekten çekici bir şey var. *Avengers Assemble*'yi yeniden ele alan ilk bölüm, inek teğetler, keskin gözlemler ve hayran hayran hayran bakışlarla dolu ve *Endgame Encore* sinemasının 25 Eylül'de yeniden vizyona girmesinden önceki ayda ideal bir randevu izleme olanağı sunuyor.
 
-It has also been a solid three years since we last saw Vellani in live-action in the MCU, in Nia DaCosta's *The Marvels*. Hearing one of the biggest Marvel fans on Marvel Studios' own roster geek out is a neat reminder of what her absence has cost us.
+It ayrıca Vellani'yi en son MCU'de, Nia DaCosta'nın *The Marvels* filminde canlı aksiyonda gördüğümüzden bu yana sağlam bir üç yıl geçti. En büyük Marvel hayranlarından birinin Marvel Studios'nin kendi kadrosunda yer aldığını duymak, onun yokluğunun bize neye mal olduğunu güzel bir şekilde hatırlatıyor.
 
-With *Avengers: Age Of Ultron* next on Vellani and Alvarez's agenda, there is plenty more MCU chat to come. The show is available on Disney+, YouTube, Apple Podcasts, Spotify and effectively every other podcast platform.`,
+Vellani ve Alvarez'in gündeminde *Avengers: Age Of Ultron* varken, daha pek çok MCU sohbeti de gelecek. Gösteri Disney+, YouTube, Apple Podcasts, Spotify ve diğer tüm podcast platformlarında mevcuttur.`,
   },
   {
     slug: "ridley-scott-third-alien-prequel-michael-fassbender-david",
@@ -856,15 +856,15 @@ With *Avengers: Age Of Ultron* next on Vellani and Alvarez's agenda, there is pl
     customBadge: "Sci-Fi",
     image: img_alien_prequel,
     source: "Empire — Jordan King",
-    body: `With *The Dog Stars* hitting cinemas this week, Sir Ridley Scott is clearly back in his sci-fi bag after years spent mostly on historical epics — *Napoleon*, *Gladiator II*, *The Last Duel* and, er, *House Of Gucci*. So the question of whether he would ever return to arguably his most famous piece of speculative fiction, *Alien*, has reared its head again. Per a new interview with *The LA Times*, the answer is yes — and he already has big plans in mind.
+    body: `*The Dog Stars*'nin bu hafta sinemalarda gösterime girmesiyle Sir Ridley Scott, çoğunlukla tarihi destanlara harcadığı yılların ardından açıkça bilim kurgu çantasına geri döndü — *Napoleon*, *Gladiator II*, *The Last Duel* ve, ee, *House Of Gucci*. Dolayısıyla, tartışmasız en ünlü spekülatif kurgu eseri *Alien*'ye dönüp dönmeyeceği sorusu bir kez daha gündeme geldi. *The LA Times* ile yapılan yeni bir röportaja göre cevap evet ve zaten aklında büyük planlar var.
 
-In a wide-ranging conversation that also revealed his Hugh Jackman-starring *Treasure Island* shoots in November, plus a Bee Gees biopic and WWI thriller *Covenant With Death* on the horizon, Scott confirmed that a long-awaited third *Alien* prequel — following 2012's *Prometheus* and 2017's *Alien: Covenant* — is in the works.
+Kasım ayındaki Hugh Jackman başrollü *Treasure Island* çekimlerinin yanı sıra Bee Gees biyografik filmi ve 1. Dünya Savaşı gerilim filmi *Covenant With Death*'nin de ufukta göründüğü geniş kapsamlı bir sohbette Scott, 2012'deki *Prometheus* ve 2017'deki filmlerin ardından uzun zamandır beklenen üçüncü *Alien* ön filminin geleceğini doğruladı. *Alien: Covenant* — yapım aşamasında.
 
-The plan is to bring Michael Fassbender back as rogue AI android David, in a film that would see the soft-spoken but deeply sinister synthetic creating "a brave new world for himself." Scott, whose aversion to AI is well documented both in his movies and his public statements, is keen to push the idea of malfunctioning artificial intelligence further in a potential capper to the David trilogy. "AIs can go off," Scott told *The LA Times*. "And if they do, it's like a bomb."
+Plan, Michael Fassbender'yi haydut AI android David olarak, yumuşak dilli ama son derece kötü niyetli sentetikin "kendisi için cesur yeni bir dünya" yarattığını görecek bir filmde geri getirmek. Yapay zekaya olan nefreti hem filmlerinde hem de kamuoyuna yaptığı açıklamalarda iyi bir şekilde belgelenen Scott, yapay zekanın arızalı olması fikrini David üçlemesinin potansiyel bir sınırı olarak daha da ileri götürmeye hevesli. Scott *The LA Times*'ye "Yapay zekalar patlayabilir" dedi. "Ve eğer yaparlarsa, bu bir bomba gibidir."
 
-For now, Scott's *Alien* plans remain exactly that — plans. There is no timeline and no word on who else might be involved. But given *Alien: Covenant* ended with David in control of 2,000 sleeping colonists and a couple of facehugger embryos, there is no shortage of directions for bridging the gap between the prequels and the original film.
+Şimdilik Scott'ın *Alien* planları tam olarak bu planlar olarak kalıyor. Başka kimlerin dahil olabileceğine dair bir zaman çizelgesi veya bir kelime yok. Ancak *Alien: Covenant*'nin David'in 2.000 uyuyan kolonisti ve birkaç yüz kucaklayan embriyoyu kontrol etmesiyle sona erdiği göz önüne alındığında, ön bölümler ile orijinal film arasındaki boşluğu doldurmaya yönelik yön sıkıntısı yok.
 
-Between this, *Alien: Earth* Season 2 and an *Alien: Romulus* sequel still on the way, there has never been a better time to be a xenomorph fan.`,
+*Alien: Earth* 2. Sezon ve hala yolda olan *Alien: Romulus* devamı arasında, ksenomorf hayranı olmak için bundan daha iyi bir zaman olamaz.`,
   },
   {
     slug: "tim-curry-rocky-horror-clue-it-dies-aged-80",
@@ -874,19 +874,19 @@ Between this, *Alien: Earth* Season 2 and an *Alien: Romulus* sequel still on th
     customBadge: "Obituary",
     image: img_tim_curry,
     source: "Empire — Jordan King",
-    body: `It is with great sadness that we bring you the news that Tim Curry, the iconic star of *The Rocky Horror Picture Show*, *Stephen King's It*, *Clue* and much more, has died at the age of 80. The multitalented stage and screen actor and singer, who suffered a major stroke in 2012 from which he never fully recovered, passed away at his Toluca Lake home in Los Angeles, as confirmed by his longtime manager and friend Marcia Hurwitz.
+    body: `It, *The Rocky Horror Picture Show*, *Stephen King's It*, *Clue* ve çok daha fazlasının ikonik yıldızı Tim Curry'nin 80 yaşında hayatını kaybettiği haberini büyük bir üzüntüyle sizlere getiriyoruz. 2012 yılında bir türlü tam olarak iyileşemediği büyük bir felç geçiren çok yetenekli tiyatro ve sinema oyuncusu ve şarkıcı, Toluca Lake'deki evinde vefat etti. Los Angeles, uzun süredir menajeri ve arkadaşı olan Marcia Hurwitz tarafından onaylandığı üzere.
 
-The son of a Royal Navy chaplain and a school secretary, Timothy James Curry was born on 19 April 1946 in the English village of Grappenhall, Cheshire. He was never destined to follow in his parents' footsteps. Having sampled the travelling life as a boy — Cheshire to Hong Kong to Plymouth to Bath, all before the age of 12 — he caught the acting bug in school plays, and went on to study Drama and English at Birmingham University, mostly by ditching classes for extracurricular productions.
+Bir Royal Navy papazı ve bir okul sekreterinin oğlu olan Timothy James Curry, 19 Nisan 1946'da Cheshire'ın İngiliz Grappenhall köyünde doğdu. Hiçbir zaman ailesinin ayak izlerini takip etmeye mahkum değildi. Çocukken seyahat hayatını örneklemiş - Cheshire'dan Hong Kong'ye, Plymouth'tan Bath'a, hepsi de 12 yaşından önce - okul oyunlarında oyunculuk hatasını yakaladı ve Birmingham University'de çoğunlukla ders dışı yapımlar için derslerden vazgeçerek Drama ve İngilizce eğitimi almaya devam etti.
 
-A talented soprano with undeniable acting ability, Curry's breakthrough came in the original 1968 production of *Hair*. It was there that he first met Richard O'Brien, who five years later would write — and invite Curry to audition for — an experimental new musical: *The Rocky Horror Picture Show*. With his insatiable, provocative, fearless turn as Dr Frank-N-Furter, first in London, then Los Angeles, and eventually in Jim Sharman's cult classic 1975 movie, Curry announced his arrival as a bona fide star.
+İnkar edilemez oyunculuk yeteneğine sahip yetenekli bir soprano olan Curry'nin atılımı, *Hair*'nin 1968 tarihli orijinal prodüksiyonuyla gerçekleşti. It, beş yıl sonra deneysel yeni bir müzikali yazan ve Curry'yi seçmelere davet eden Richard O'Brien ile ilk kez orada tanıştı: *The Rocky Horror Picture Show*. Dr Frank-N-Furter rolündeki doyumsuz, kışkırtıcı ve korkusuz dönüşüyle, önce London'de, ardından Los Angeles'de ve sonunda Jim Sharman'nin kült klasiği 1975 filminde Curry, gerçek bir yıldız olarak gelişini duyurdu.
 
-Through the 1980s and 90s he became a household name with a wild variety of roles: the moustachioed con man Rooster Hannigan in *Annie*; operatic malevolence as the literally devilish Darkness in Ridley Scott's *Legend*; breathless, bumbling brilliance as butler Wadsworth in *Clue*; the pompous Concierge of *Home Alone 2: Lost In New York*; and, in one of his most out-of-left-field turns, killer clown Pennywise in the original miniseries adaptation of Stephen King's *It*.
+1980'ler ve 90'lar boyunca çok çeşitli rollerle tanınan bir isim haline geldi: *Annie*'deki bıyıklı dolandırıcı Rooster Hannigan; Ridley Scott'nin *Legend* filminde kelimenin tam anlamıyla şeytani Karanlık olarak operatik kötü niyet; *Clue*'deki uşak Wadsworth rolündeki nefes kesici, beceriksiz parlaklık; *Home Alone 2: Lost In New York*'nin kibirli Kapıcısı; ve Stephen King'nin *It* dizisinin orijinal mini dizi uyarlamasında en sol saha dışı dönüşlerinden birinde katil palyaço Pennywise.
 
-The thing about a performer like Tim Curry is that once you start listing his roles — the movies, TV shows, and even video games (his delivery of the word "Space!" in *Command And Conquer: Red Alert 3* will always be famous) — you realise he always gave 100 per cent, no matter the assignment. Long John Silver surrounded by Muppets? Tim Curry. An animated Emperor Palpatine? Tim Curry. Nigel Thornberry, or the audiobooks of *A Series Of Unfortunate Events*? Tim Curry.
+Tim Curry gibi bir sanatçının özelliği, onun rollerini - filmler, TV şovları ve hatta video oyunları (*Command And Conquer: Red Alert 3* dilindeki "Uzay!" kelimesini söylemesi her zaman ünlü olacaktır) - listelemeye başladığınızda, görev ne olursa olsun her zaman yüzde 100'ünü verdiğini fark etmenizdir. Long John Silver Kuklalarla mı çevrili? Tim Curry. Animasyonlu bir Emperor Palpatine mi? Tim Curry. Nigel Thornberry mi yoksa *A Series Of Unfortunate Events* sesli kitapları mı? Tim Curry.
 
-Tributes have poured in from friends, family and collaborators. Luke Evans, who has just wrapped an acclaimed run as Broadway's latest Frank-N-Furter, paid tribute to "a force, a bright fierce flame, an exquisite charm". His *Annie* co-star Carol Burnett remembered "a dear friend", attesting that "nobody could play a lovable villain like he could." *Clue* co-star Lesley Ann Warren called him her "companion in crime", writing: "The brilliant, hilarious, hysterically funny magician of artistry has left us."
+Arkadaşlardan, aileden ve işbirlikçilerden övgüler yağdı. Broadway'nin son Frank-N-Furter'ı olarak beğenilen bir koşuyu kısa süre önce tamamlayan Luke Evans, "bir güce, parlak şiddetli bir aleve, zarif bir çekiciliğe" saygı duruşunda bulundu. *Annie* rol arkadaşı Carol Burnett "sevgili bir arkadaşını" hatırladı ve "hiç kimsenin sevimli bir kötü adamı onun gibi oynayamayacağını" doğruladı. *Clue* başrol oyuncusu Lesley Ann Warren onu "suç arkadaşı" olarak nitelendirdi ve şöyle yazdı: "Parlak, komik, histerik komik sanat sihirbazı bizi terk etti."
 
-Whether a sweet transvestite, a breathless butler, a West Country pirate or a horned Lord of Darkness, Tim Curry was a singular performer who loved what he did his whole life through. He will be remembered for his immense talent, magnetic charisma, and a body of work destined to bring joy to viewers of all ages for generations to come.`,
+İster tatlı bir travesti, ister nefessiz bir kahya, ister bir West Country korsan ya da boynuzlu bir Karanlığın Efendisi olsun, Tim Curry tüm hayatı boyunca yaptığı işi seven eşsiz bir sanatçıydı. Muazzam yeteneği, büyüleyici karizması ve gelecek nesiller boyunca her yaştan izleyiciye neşe getirmeyi amaçlayan çalışmaları ile hatırlanacak.`,
   },
   {
     slug: "rupert-grint-ron-weasley-cursed-child-broadway",
@@ -896,13 +896,13 @@ Whether a sweet transvestite, a breathless butler, a West Country pirate or a ho
     customBadge: "Broadway",
     image: img_rupert_grint,
     source: "Empire — Ben Travis",
-    body: `It's nearly September, which means school's back — and that's true for Rupert Grint, too, who has confirmed he'll be heading back to Hogwarts. From 2001 onwards, Grint spent a decade of his life playing young wizard Ron Weasley in the *Harry Potter* movies. Now, like Tom Felton (aka Draco Malfoy) before him, Grint has announced that he'll reprise his childhood role in adult form in the stage play *Harry Potter And The Cursed Child* on Broadway.
+    body: `It neredeyse eylül ayına geliyor, bu da okulun geri döndüğü anlamına geliyor - ve bu, Hogwarts'a geri döneceğini doğrulayan Rupert Grint için de geçerli. Grint, 2001'den itibaren hayatının on yılını *Harry Potter* filmlerinde genç büyücü Ron Weasley'yi canlandırarak geçirdi. Şimdi, kendisinden önceki Tom Felton (aka Draco Malfoy) gibi, Grint de Broadway'deki *Harry Potter And The Cursed Child* adlı sahne oyununda çocukluk rolünü yetişkin formunda yeniden canlandıracağını duyurdu.
 
-The show, which originated in the West End where it is still performed, features a grown-up Harry, Ron and Hermione, with a plot that largely focuses on their children as they enrol at Hogwarts and face a time-twisting evil. Ron, now 38, is a dad ushering his daughter with Hermione, Rose, onto the Hogwarts Express.
+Halen sergilendiği West End'de ortaya çıkan gösteri, yetişkin bir Harry, Ron ve Hermione'yi konu alıyor ve olay örgüsü büyük ölçüde Hogwarts'a kaydolan ve zamanı değiştiren bir kötülükle karşı karşıya kalan çocuklarına odaklanıyor. Şu anda 38 yaşında olan Ron, Hermione ile birlikte Rose adlı kızını Hogwarts Express'ye yönlendiren bir baba.
 
-"Ron Weasley has been a part of me since I was 11 years old and I can't wait to meet him again in this stage of life," Grint said in a statement. "There is something so full-circle and so special about stepping back into Ron's shoes now when we are both fathers; it is somehow both very familiar and completely new. And the joy of being back on Broadway, this time in a role that defined so much of my life, is truly exciting."
+Grint yaptığı açıklamada, "Ron Weasley 11 yaşımdan beri benim bir parçam oldu ve hayatımın bu aşamasında onunla tekrar tanışmak için sabırsızlanıyorum" dedi. "Artık ikimiz de baba olduğumuza göre Ron'un yerine geçmenin çok özel ve çok yönlü bir yanı var; bir şekilde hem çok tanıdık hem de tamamen yeni. Ve Broadway'ye geri dönmenin sevinci, bu sefer hayatımın büyük bir kısmını tanımlayan bir rolde olmak gerçekten heyecan verici."
 
-Grint will star as Ron from February 2027 for a 17-week engagement. Tom Felton is currently appearing on Broadway as Draco Malfoy, expected to play the role until January 3, 2027 — it remains to be seen whether his tenure will be extended to cross over with Grint's. Meanwhile, the role of Ron in HBO's *Harry Potter* series has been taken on by newcomer Alastair Stout.`,
+Grint, Şubat 2027'den itibaren 17 haftalık bir nişan için Ron rolünü üstlenecek. Tom Felton şu anda Broadway'de Draco Malfoy olarak görünüyor ve 3 Ocak 2027'ye kadar bu rolü oynaması bekleniyor - görev süresinin Grint's'e geçecek şekilde uzatılıp uzatılmayacağı henüz bilinmiyor. Bu arada, HBO'nin *Harry Potter* serisindeki Ron rolünü yeni gelen Alastair Stout üstlendi.`,
   },
   {
     slug: "further-mis-adventures-of-cliff-booth-title-confirmed",
@@ -912,13 +912,13 @@ Grint will star as Ron from February 2027 for a 17-week engagement. Tom Felton i
     customBadge: "Netflix",
     image: img_cliff_booth,
     source: "Empire — Ben Travis",
-    body: `Fare thee well, "Untitled Cliff Booth Movie". See also: "The Adventures Of Cliff Booth". Because we finally know what the unexpected sequel-of-sorts to *Once Upon A Time In Hollywood* is actually going to be called. The film is a fascinating combination of talents — with Brad Pitt returning, of course, as Cliff Booth, the Hollywood stuntman and counterpart to Leonardo DiCaprio's Rick Dalton, Quentin Tarantino penning the screenplay, and none other than David Fincher taking the directorial reins.
+    body: `Elveda, "Untitled Cliff Booth Movie". Ayrıca bakınız: "Cliff Booth'nin Maceraları". Çünkü sonunda *Once Upon A Time In Hollywood*'nin beklenmedik devam filminin gerçekte ne adlandırılacağını biliyoruz. Film, yeteneklerin büyüleyici bir birleşimi; Brad Pitt, Cliff Booth, Hollywood dublör ve Leonardo DiCaprio'nun Rick Dalton'sinin muadili olarak geri dönüyor, Quentin Tarantino senaryoyu yazıyor ve yönetmenlik dizginlerini David Fincher'den başkası almıyor.
 
-Now it's official: the film is called *The Further Mis-Adventures Of Cliff Booth*. So the rumours weren't far off — but now we know these are "Mis-Adventures" (does Booth have any other kind?) and further to any we've seen before. There's little extra information on the film itself, but Netflix has confirmed it's set in 1977, eight years after the events of *OUATIH*, and that it finds Booth in "a very different Hollywood".
+Artık resmileşti: Filmin adı *The Further Mis-Adventures Of Cliff Booth*. Yani söylentiler çok uzakta değildi - ama artık bunların "Mis-Adventures" olduğunu biliyoruz (Booth'un başka bir türü var mı?) ve daha önce gördüklerimizden daha da ileri. Filmin kendisi hakkında çok az ekstra bilgi var ancak Netflix, filmin 1977'de, *OUATIH* olaylarından sekiz yıl sonra geçtiğini ve Booth'u "çok farklı bir Hollywood"de bulduğunu doğruladı.
 
-What we do know is that *Cliff Booth* will get an IMAX release from November 25 this year, ahead of landing on Netflix just in time for Christmas on December 23.
+Bildiğimiz şey *Cliff Booth*'nin bu yıl 25 Kasım'dan itibaren bir IMAX sürümü alacağı ve 23 Aralık'ta Noel için tam zamanında Netflix'ye ineceği.
 
-As for what mis-adventures await Booth this time, that remains to be seen. Pitt will be joined by the likes of Scott Caan, Carla Gugino, Yahya Abdul-Mateen II and Peter Weller. Will we get an appearance from Rick Dalton? Will it feel equal parts Tarantino and Fincher? And will Pitt win himself another Oscar for his return to the role that bagged him the gong in the first place? We'll find out later in 2026.`,
+Booth'u bu sefer ne gibi talihsiz maceraların beklediğine gelince, bunu henüz göreceğiz. Pitt'e Scott Caan, Carla Gugino, Yahya Abdul-Mateen II ve Peter Weller gibi isimler de katılacak. Rick Dalton'den bir görüntü alacak mıyız? Tarantino ve Fincher'ın eşit parçaları olacak mı? Peki Pitt, kendisine ilk etapta gong kazandıran role geri döndüğü için bir Oscar daha kazanacak mı? 2026'nın sonlarında öğreneceğiz.`,
   },
   {
     slug: "avengers-doomsday-41-hours-of-mcu-homework",
@@ -928,21 +928,21 @@ As for what mis-adventures await Booth this time, that remains to be seen. Pitt 
     image: img_kotaku_doomsday_homework.url,
     source: "Kotaku — John Walker",
 
-    body: `And to think people suggest the MCU requires homework! December 18 sees the release of *Avengers: Doomsday*, the latest tentpole in the Marvel Cinematic Universe — a once-ailing franchise given new life by *Spider-Man: Brand New Day* making $2 billion in its first two weeks. Given that *Doomsday* is built on almost 20 years of media, Disney+ is suggesting a list of 15 movies and TV shows to watch (or rewatch) over the coming four months.
+    body: `Ve insanların MCU'nin ev ödevi gerektirdiğini öne sürdüğünü düşünmek! 18 Aralık'ta, bir zamanlar sorunlu olan Marvel Cinematic Universe serisine yeni bir hayat veren *Spider-Man: Brand New Day* tarafından ilk iki haftasında 2 milyar dolar kazanan en son destek noktası olan *Avengers: Doomsday* piyasaya sürüldü. *Doomsday*'nin neredeyse 20 yıllık medya üzerine oluşturulduğu göz önüne alındığında, Disney+ önümüzdeki dört ay içinde izlenecek (veya yeniden izlenecek) 15 film ve TV şovundan oluşan bir liste öneriyor.
 
-Added to Disney+ (in the U.S. at least) under the Marvel section, you'll find a new collection called "Countdown to Avengers: Doomsday" — a chronological selection of 15 MCU entries Disney reckons you'll want to brush up on before heading to the movies this holiday season. Honestly, it's all pretty disastrously delivered: use the web app and it'll only show you nine entries, and only if you're logged out, while the mobile app will show all 15 if you're in the right country.
+Disney+'ye (en azından ABD'de) Marvel bölümü altında eklenen, "Avengers: Doomsday'ye Geri Sayım" adlı yeni bir koleksiyon bulacaksınız - Disney'in bu tatil sezonunda sinemaya gitmeden önce tazelemek isteyeceğinizi düşündüğü 15 MCU girişinden oluşan kronolojik bir seçim. Dürüst olmak gerekirse, hepsi oldukça felaket bir şekilde sunuldu: Web uygulamasını kullanın ve size yalnızca dokuz giriş gösterecektir ve yalnızca çıkış yapmışsanız, mobil uygulama ise doğru ülkedeyseniz 15 girişin tamamını gösterecektir.
 
-Things start a long, long time ago on an Earth far, far away, with the original 26-year-old *X-Men*, which will introduce entire generations to characters reappearing (often with the original actors) in *Doomsday*. Next up is 2003's follow-up, *X2*. We then leap forward to 2011's *Captain America: The First Avenger*, followed by a run of three tentpole *Avengers* movies, before getting to three slightly less obvious inclusions: the *Loki* TV series, *Shang-Chi and the Legend of the Ten Rings*, and *Spider-Man: No Way Home*.
+Her şey çok, çok uzun zaman önce, çok çok uzak bir Dünya'da başlıyor; orijinal 26 yaşındaki *X-Men*, tüm nesilleri *Doomsday*'de (çoğunlukla orijinal oyuncularla birlikte) yeniden ortaya çıkan karakterlerle tanıştıracak. Sırada 2003'ün devamı olan *X2* var. Daha sonra 2011'in *Captain America: The First Avenger* filmlerine atlıyoruz, ardından üç destek amaçlı *Avengers* filmi izliyoruz ve ardından biraz daha az belirgin olan üç eklemeye ulaşıyoruz: *Loki* TV dizisi, *Shang-Chi and the Legend of the Ten Rings* ve *Spider-Man: No Way Home*.
 
-We're then onto 2022's *Black Panther: Wakanda Forever*, followed by *Captain America: Brave New World*, and then *Deadpool & Wolverine*, presumably because of its X-Men inclusions. Then you finish up with the truly excellent *Doctor Strange in the Multiverse of Madness*, *Thunderbolts*, and finally the rather lovely *The Fantastic Four: First Steps*.
+Daha sonra 2022'nin *Black Panther: Wakanda Forever*, ardından *Captain America: Brave New World* ve ardından muhtemelen X-Men eklentileri nedeniyle *Deadpool & Wolverine* geliyor. Daha sonra gerçekten mükemmel *Doctor Strange in the Multiverse of Madness*, *Thunderbolts* ve son olarak oldukça hoş *The Fantastic Four: First Steps* ile bitiriyorsunuz.
 
-## Your assignment
+## Göreviniz
 
-*Doomsday* and 2027's *Avengers: Secret Wars* are about wrapping up the painfully drawn-out "Multiverse Saga" — the events that have allowed characters from outside the MCU's core timeline to show up and get involved. That includes the Fantastic Four and all the olde-worlde X-Men now rocking up, but crucially, much of the framework and rules were laid out in season two of Disney+'s *Loki*. Given Loki's new role at the timeline-maintaining TVA and how that season ends, having a handle on those events will be pretty crucial to fathoming what's coming. *Shang-Chi* is perhaps the real surprise entry here, given the movie didn't seem all that pivotal to the MCU's arc.
+*Doomsday* ve 2027'nin *Avengers: Secret Wars*'si, MCU'nin çekirdek zaman çizelgesinin dışından karakterlerin ortaya çıkmasına ve dahil olmasına olanak tanıyan, acı verici şekilde uzayan "Multiverse Saga" olaylarını tamamlamayla ilgili. Buna Fantastic Four ve şu anda yükselişte olan tüm eski X-Men de dahildir, ancak en önemlisi, çerçeve ve kuralların çoğu Disney+'nin *Loki* ikinci sezonunda ortaya konmuştur. Given Loki'nin zaman çizelgesini koruyan TVA'deki yeni rolü ve sezonun nasıl bittiği, bu olaylara hakim olmak, neyin geleceğini anlamak açısından oldukça önemli olacak. Filmin MCU'nin yayına o kadar da önemli görünmediği göz önüne alındığında, *Shang-Chi* belki de buradaki asıl sürpriz giriş.
 
-A whole bunch of movies technically included in the Multiverse Saga are missing — like *Eternals* (are they just hoping to forget all that?) and the wildly underrated and delightful *The Marvels*, although that one's likely missing because it really only interwove into the wider MCU via Nick Fury.
+Teknik olarak Multiverse Saga'ye dahil olan bir sürü film eksik - *Eternals* (tüm bunları unutmayı mı umuyorlar?) ve çılgınca küçümsenen ve keyifli *The Marvels* gibi, ancak bu muhtemelen eksik çünkü gerçekten sadece Nick Fury aracılığıyla daha geniş MCU'ye karışıyor.
 
-So there you go. You've got your homework assignment, so get to work. The real chore on the list that does feel obligatory is *Loki* season 2 — astonishingly boring, but seemingly too important to skip. Here's the full list so you can print it out and cross them off as you watch:
+İşte buyurun. Ev ödevini aldın, o yüzden işe koyul. Listede zorunlu hissettiren asıl görev *Loki* 2. sezon; şaşırtıcı derecede sıkıcı ama görünüşe göre atlanamayacak kadar önemli. İşte tam liste, böylece çıktısını alıp izlerken üzerini çizebilirsiniz:
 
 • *X-Men*
 
@@ -982,15 +982,15 @@ So there you go. You've got your homework assignment, so get to work. The real c
     image: img_spiderman_why_we_love,
     source: "Variety — Owen Gleiberman",
 
-    body: `When "Spider-Man: No Way Home" landed in late 2021, it earned an astonishing $814 million in the U.S. alone. The obvious reason? It brought together three generations of wall-crawlers — Tom Holland, Andrew Garfield and Tobey Maguire — for a once-in-a-lifetime reunion. Many critics treated it as a one-shot gimmick. Then "Spider-Man: Brand New Day" arrived and rewrote the playbook again.
+    body: `"Spider-Man: No Way Home" 2021'in sonlarında piyasaya çıktığında yalnızca ABD'de şaşırtıcı bir şekilde 814 milyon dolar kazandı. Açık neden? It, üç nesil duvar gezginini (Tom Holland, Andrew Garfield ve Tobey Maguire) hayatta bir kez karşılaşılabilecek bir buluşma için bir araya getirdi. Pek çok eleştirmen bunu tek seferlik bir hile olarak değerlendirdi. Sonra "Spider-Man: Brand New Day" geldi ve başucu kitabını yeniden yazdı.
 
-"Brand New Day" is a solid, well-executed adventure, not a masterpiece on the level of "Spider-Man 2." Yet it is now poised to become the top-grossing movie of all time, at least until the next Spider-Man swings in. So why does Spider-Man dominate the culture right now?
+"Brand New Day" sağlam, iyi yürütülmüş bir maceradır, "Spider-Man 2" düzeyinde bir başyapıt değildir. Yine de en azından bir sonraki Spider-Man çıkana kadar tüm zamanların en çok hasılat yapan filmi olmaya hazırlanıyor. Peki neden Spider-Man şu anda kültüre hakim?
 
-Ever since his 1962 debut, Spider-Man has stood out because of one word: *relatability*. Peter Parker starts as an ordinary teenager dealing with a spider bite the way most kids deal with puberty — awkwardly. He has bullies, crushes, money troubles and the secret-identity burden that keeps him from ever feeling fully known. In Tom Holland's performance, that awkwardness has become a kind of shy charisma; audiences want to root for him, not just watch him win.
+Spider-Man, 1962'deki ilk çıkışından bu yana tek bir kelimeyle ön plana çıktı: *relatability*. Peter Parker, çoğu çocuğun ergenlikle başa çıktığı gibi, örümcek ısırığıyla tuhaf bir şekilde uğraşan sıradan bir genç olarak başlıyor. Zorbaları, aşıkları, para sorunları ve kendisini tam olarak tanındığını hissetmekten alıkoyan gizli kimlik yükü var. Tom Holland'nin performansında bu tuhaflık bir tür utangaç karizmaya dönüştü; İzleyiciler onun sadece kazanmasını izlemek değil, onu desteklemek istiyor.
 
-Superman defined the superhero as mythic and indestructible. Batman made the hero noir, wealthy and tormented. Spider-Man, somehow, is both: he wears patriotic red-and-blue and soars through New York with exhilarating grace, but he is also masked, furtive and wounded. In "Brand New Day," when his powers misfire, he literally does not know which end is up — a mirror of how many people feel in turbulent times.
+Süpermen, süper kahramanı efsanevi ve yok edilemez olarak tanımladı. Batman, kara kahramanı zengin ve eziyetli hale getirdi. Spider-Man bir şekilde her ikisini de taşıyor: Vatansever kırmızı ve mavi giyiyor ve New York'de canlandırıcı bir zarafetle süzülüyor ama aynı zamanda maskeli, sinsi ve yaralı. "Brand New Day"de, güçleri tekleme yaptığında kelimenin tam anlamıyla hangi sonun geleceğini bilmiyor; bu, çalkantılı zamanlarda ne kadar çok insanın hissettiğinin bir aynası.
 
-In the "Spider-Verse" films, he wrestles with identity questions that make Batman's brooding look simple. Who is Spider-Man? He is the light and dark of comic-book culture poured into one body: a romantic teen idol who keeps having to figure out who he is. That is why audiences keep swinging back to him. He makes us feel like we are all hanging, thrillingly, by a thread.`,
+"Spider-Verse" filmlerinde Batman'in kara kara düşünmesini basitleştiren kimlik sorularıyla boğuşuyor. Spider-Man kimdir? O, çizgi roman kültürünün aydınlık ve karanlığının tek bir bedende toplanmış hali: Kim olduğunu çözmek zorunda kalan romantik bir genç idol. Bu yüzden izleyiciler ona geri dönmeye devam ediyor. Hepimizin heyecan verici bir şekilde pamuk ipliğine bağlı olduğumuzu hissettiriyor.`,
   },
   {
     slug: "avengers-doomsday-disney-plus-watchlist",
@@ -1000,9 +1000,9 @@ In the "Spider-Verse" films, he wrestles with identity questions that make Batma
     image: img_doomsday_watchlist,
     source: "Empire — Harry Stainer",
 
-    body: `Avengers: Doomsday isn't far off, and fresh off D23 we've had a closer look at Victor von Doom raising Sentinels and giving the Avengers, the X-Men and company what looks to be a very hard time.
+    body: `Avengers: Doomsday çok uzakta değil ve D23'den yeni çıktık, Victor von Doom'nin Sentinel'leri yükseltmesine ve Avengers, X-Men ve şirkete çok zor gibi görünen zamanlar yaşatmasına daha yakından baktık.
 
-**The full list:**
+**Tam liste:**
 
 - X-Men
 - X2
@@ -1022,11 +1022,11 @@ In the "Spider-Verse" films, he wrestles with identity questions that make Batma
 
 ![X2](${img_doomsday_x2})
 
-Notably, Fox's first two X-Men films are on the list, so there's no need to get lost in the incredibly complex X-Men lore if you're new to the mutant series. You'll also need to take a trip all the way back to Cap's first outing, as well as the Avengers films — bar Age of Ultron, though that one does look to be essential viewing before VisionQuest.
+Özellikle Fox'nin ilk iki X-Men filmi listede yer alıyor, dolayısıyla mutant serisinde yeniyseniz inanılmaz derecede karmaşık X-Men bilgisinde kaybolmanıza gerek yok. Ayrıca Cap'in ilk gezisine ve Avengers filmlerine kadar bir yolculuğa çıkmanız gerekecek - bar Age of Ultron, ancak bu VisionQuest'ten önce mutlaka izlenmesi gereken bir film gibi görünüyor.
 
-Black Panther: Wakanda Forever also makes the cut, and given that the trailer suggests Shuri, M'Baku and Namor could be a big part of the team-up film, it's probably worth brushing up on what went down last time we visited Wakanda. The list leans towards the more recent entries too, with Loki the only TV show you'll need to lock into. You'll also be diving back into multiverse nonsense with Doctor Strange in the Multiverse of Madness — and frankly, it won't take much to convince us to watch Shang-Chi again.
+Black Panther: Wakanda Forever de bu kesintiyi yapıyor ve fragmanın Shuri, M'Baku ve Namor'nin ekip kurma filminin büyük bir parçası olabileceğini öne sürdüğü göz önüne alındığında, muhtemelen Wakanda'yi en son ziyaret ettiğimizde yaşananları tazelemeye değer. Liste daha yeni girişlere de yöneliyor; Loki, kilitlenmeniz gereken tek TV şovu. Ayrıca Doctor Strange in the Multiverse of Madness ile çoklu evren saçmalıklarına geri döneceksiniz ve açıkçası bizi Shang-Chi'yi tekrar izlemeye ikna etmek çok fazla zaman almayacak.
 
-So there you have it. Anyone stressing that they'll have to watch every MCU film and show to make sense of Doomsday can rest easy: you've got a full four months to get up to speed. Given Reed Richards' dramatic words to Victor in the latest trailer, it's probably best to revisit The Fantastic Four: First Steps. Until then, get started on your Doomsday watchlist before the man himself arrives on 18 December.`,
+İşte işte buradasın. Doomsday'yi anlamak için her MCU filmini ve şovunu izlemeleri gerektiğini vurgulayan herkes rahatlayabilir: Hızlanmak için tam dört ayınız var. En son fragmanda Given Reed Richards'nin Victor'a söylediği dramatik sözlere bakılırsa The Fantastic Four: First Steps'yi yeniden ziyaret etmek muhtemelen en iyisi. O zamana kadar, adam 18 Aralık'ta gelmeden önce Doomsday izleme listenize başlayın.`,
   },
   {
     slug: "heroes-yaraticisi-tim-kring-hayden-panettiere-anma-yazisi",
@@ -1035,66 +1035,66 @@ So there you have it. Anyone stressing that they'll have to watch every MCU film
     customBadge: "tribute",
     image: img_heroes_kring_tribute,
     source: "Variety — Tim Kring",
-    body: `Hayden Panettiere was already a seasoned professional by the time she auditioned for "Heroes" at 16.
+    body: `Hayden Panettiere, 16 yaşında "Heroes" seçmelerine katıldığında zaten tecrübeli bir profesyoneldi.
 
-Unlike so many actors who start working as kids, Hayden never had that worn-out "child actor" quality. She was confident in her abilities, yet remained pure, sweet, and open to every suggestion. From the moment we met her, it was clear she'd be playing Claire Bennet — "the Cheerleader."
+Çocukken çalışmaya başlayan pek çok oyuncunun aksine, Hayden hiçbir zaman o yıpranmış "çocuk oyuncu" niteliğine sahip değildi. Yeteneklerine güveniyordu ama yine de saf, tatlı ve her öneriye açık kalıyordu. Onunla tanıştığımız andan itibaren Claire Bennet yani "Ponpon Kız" oynayacağı açıktı.
 
-Hayden was a true team player, which mattered enormously on a show with such a large ensemble cast. As a person she was remarkably composed beyond her years, and as an actor she was uniquely gifted — there was an almost prodigy-like quality to her work. It wasn't just that she learned her lines easily — it was her ability to find and mine the nuances of drama, comedy, and heartbreak in every scene she stepped into.
+Hayden gerçek bir takım oyuncusuydu ve bu kadar büyük bir oyuncu kadrosunun olduğu bir şovda bu çok önemliydi. Bir kişi olarak yaşının ötesinde dikkat çekici bir şekilde bestelenmişti ve bir aktör olarak benzersiz bir yeteneğe sahipti; çalışmalarında neredeyse dahiye benzer bir nitelik vardı. It sadece repliklerini kolayca öğrenmesi değildi; adım attığı her sahnede drama, komedi ve kalp kırıklığının nüanslarını bulma ve keşfetme yeteneğiydi.
 
-Looking back, her performance on "Heroes" is astonishing. She was playing her actual age, which added a meta layer to the role, because to reach those emotions she had to understand her own teenage feelings.
+Geriye dönüp baktığımızda "Heroes"taki performansının hayret verici olduğunu görüyoruz. Gerçek yaşını oynuyordu ve bu da role bir meta katman eklemişti çünkü bu duygulara ulaşmak için kendi ergenlik duygularını anlaması gerekiyordu.
 
-Most 16-year-olds don't know how to interpret or express those emotions, let alone embody them. But she had a grasp of human nature that belied her age. That's why she could find moments within a scene that were deeper, funnier, or more powerful than what was written on the page. As a writer, you dream of working with an actor who elevates everything you write and finds nuances you didn't even realize were there. With her, that happened again and again.
+16 yaşındaki çocukların çoğu bu duyguları bırakın somutlaştırmayı, nasıl yorumlayacaklarını veya ifade edeceklerini bile bilmiyor. Ancak yaşını yalanlayan bir insan doğası anlayışına sahipti. Bu yüzden bir sahnede sayfada yazılandan daha derin, daha komik veya daha güçlü anlar bulabiliyordu. Bir yazar olarak, yazdığınız her şeyi geliştiren ve farkına bile varmadığınız nüansları bulan bir oyuncuyla çalışmanın hayalini kurarsınız. Onunla bu tekrar tekrar oldu.
 
-I clearly remember all of us marveling at how, whenever a scene called for crying, she could cry with the same intensity take after take, twelve times in a row. The moment the director called "cut," she'd turn to text her friends or joke around with her castmates — until the director called "action" again for the next take. Then the tears would return instantly.
+Ne zaman ağlamayı gerektiren bir sahne olsa, arka arkaya on iki kez aynı yoğunlukta ağlayabildiğine hepimizin hayret ettiğimizi açıkça hatırlıyorum. Yönetmen "kes" dediği anda arkadaşlarına mesaj atıyor ya da oyuncu arkadaşlarıyla şakalaşıyordu; ta ki yönetmen bir sonraki çekim için tekrar "aksiyon" diyene kadar. Daha sonra gözyaşları anında geri dönecekti.
 
-Working with her was a joy: professional, cheerful, and always ready to take a risk and experiment with a scene. She had a fearless, break-things determination that genuinely shaped how we wrote her character. The best characters meet you somewhere between the actor and the page. On "Heroes," the line between where Claire Bennet ended and Hayden began became blurred. She never had to change the way she delivered a line to become Claire; the cadence we grew accustomed to writing was simply Hayden's own.
+Onunla çalışmak bir keyifti: profesyonel, neşeli ve her zaman risk almaya ve bir sahneyi denemeye hazırdı. Karakterini nasıl yazdığımızı gerçekten şekillendiren, korkusuz ve her şeyi kıran bir kararlılığa sahipti. En iyi karakterler, oyuncu ile sayfa arasında bir yerde sizinle buluşur. "Heroes"ta Claire Bennet'nin bittiği ve Hayden'ın başladığı yer arasındaki çizgi bulanıklaştı. Claire olmak için replik verme şeklini hiçbir zaman değiştirmek zorunda kalmadı; yazmaya alıştığımız ritim sadece Hayden'ın kendisine aitti.
 
-"Heroes" was a hit from day one, and there was no question Hayden's star was rising. Yet she always understood the ensemble spirit of the show and felt genuine gratitude toward everyone involved. I think she simply loved being part of that community. She enjoyed her sudden success but never seemed swept up by it. She wanted to represent the show itself. The cast, in turn, was very protective of her. We all knew she was a singular talent, and during the brief time she was with us on the show, we considered it our responsibility to look out for that talent.
+"Heroes" ilk günden itibaren büyük ilgi gördü ve Hayden'ın yıldızının yükseldiğine şüphe yoktu. Yine de gösterinin topluluk ruhunu her zaman anladı ve katılan herkese içten bir minnettarlık duydu. Sanırım o topluluğun bir parçası olmayı seviyordu. Ani başarısının tadını çıkardı ama hiçbir zaman bu başarıya kapılmış gibi görünmüyordu. Gösterinin kendisini temsil etmek istiyordu. Oyuncular da ona karşı çok korumacı davrandılar. Hepimiz onun eşsiz bir yetenek olduğunu biliyorduk ve programda bizimle birlikte olduğu kısa süre boyunca bu yeteneğe göz kulak olmanın sorumluluğumuz olduğunu düşündük.
 
-After the show ended in 2010, we didn't stay in close touch. But a few years later, when I reached out to her manager about her availability for another project, she called me right away and teasingly scolded me: "You don't need to call my manager. Don't go Hollywood on me. Pick up the phone and call me yourself," she said.
+Gösteri 2010'da sona erdikten sonra yakın temasta kalmadık. Ancak birkaç yıl sonra, başka bir proje için uygun olup olmadığını öğrenmek üzere yöneticisine ulaştığımda, hemen beni aradı ve alaycı bir şekilde beni azarladı: "Yöneticimi aramana gerek yok. Bana karşı gelme. Telefonu aç ve beni kendin ara" dedi.
 
-As a showrunner, I understand now more than ever how rare it is for your path to cross with a talent like Hayden's. But more importantly, I'll always remember her as a kind, warm-hearted person whose company was, without fail, a joy and an inspiration.
+Bir dizi sorumlusu olarak Hayden gibi bir yetenekle yolunuzun kesişmesinin ne kadar nadir olduğunu şimdi her zamankinden daha iyi anlıyorum. Ama daha da önemlisi, onu her zaman nazik, sıcak kalpli, arkadaşlığı kesinlikle keyif veren ve ilham veren bir insan olarak hatırlayacağım.
 
-*Writer-producer Tim Kring is the creator of the NBC series "Heroes" and served as its showrunner and executive producer from 2006 to 2010. Pictured: Hayden Panettiere in "Heroes" Season 3 (2009).*`,
+*Yazar-yapımcı Tim Kring, NBC dizisi "Heroes"un yaratıcısıdır ve 2006'dan 2010'a kadar dizi sorumlusu ve yönetici yapımcı olarak görev yapmıştır. Resim: "Heroes" Sezon 3'te (2009) Hayden Panettiere.*`,
   },
   {
     slug: "the-end-of-oak-street-gise-dinozor-filmleri",
     title: "The End of Oak Street’in Gişesi, Dinozor Filmleri Hakkında Bir Gerçeği Ortaya Koyuyor",
     excerpt: "David Robert Mitchell’ın özgün dinozor filmi, Kuzey Amerika’da 21 milyon dolarla üçüncü sıradan açıldı: Jurassic dışındaki dinozor filmleri gişede hâlâ neredeyse imkânsız bir mücadele veriyor.",
     customBadge: "box office",
-    body: `Warner Bros. had a bright year both critically and commercially in 2025 by taking chances on original films like "Sinners" and "Weapons." The studio made similarly big bets in 2026, the latest of which is "The End of Oak Street." It was that rare original dinosaur movie unconnected to the "Jurassic Park" universe hitting theaters, and it had most of the right pieces on paper. Unfortunately, the plan didn't quite pan out.
+    body: `Warner Bros., "Sinners" ve "Weapons" gibi orijinal filmlerde şansını deneyerek 2025'te hem eleştirel hem de ticari açıdan parlak bir yıl geçirdi. Stüdyo 2026'da da benzer şekilde büyük bahisler yaptı; bunlardan en sonuncusu "Oak Street'nin Sonu"ydu. It, "Jurassic Park" evreniyle bağlantısı olmayan, sinemalarda gösterime giren nadir orijinal dinozor filmiydi ve kağıt üzerinde doğru parçaların çoğuna sahipti. Ne yazık ki plan tam anlamıyla gerçekleşmedi.
 
-Directed by "It Follows" filmmaker David Robert Mitchell, the film opened domestically with $21 million, landing in third place behind "Spider-Man: Brand New Day" ($71 million) and "The Odyssey" ($23.2 million). The below-expectations opening was part of a dinosaur box office showdown with "Paw Patrol: The Dino Movie" ($20.5 million). With $26 million from international markets, the film's global opening totaled $47 million, against a budget of at least $80 million.
+Yönetmenliğini "It Follows" film yapımcısı David Robert Mitchell'nin yaptığı film, yurt içinde 21 milyon dolarla açıldı ve "Spider-Man: Brand New Day" (71 milyon dolar) ve "The Odyssey"in (23,2 milyon dolar) ardından üçüncü sırada yer aldı. Beklentilerin altındaki açılış, "Paw Patrol: The Dino Movie" (20,5 milyon dolar) ile yaşanan dinozor gişe karşılaşmasının bir parçasıydı. Uluslararası pazarlardan gelen 26 milyon dolarla filmin dünya çapındaki açılışı, en az 80 milyon dolarlık bir bütçeye karşılık 47 milyon doları buldu.
 
-![Giant dinosaur footprints in the grass at night in The End of Oak Street](/__l5e/assets-v1/44dca4cf-26e5-4465-ad4d-95fcef126546/ac739a0281bb.jpg)
+![Oak Street'nin Sonu'nda geceleri çimenlerde dev dinozor ayak izleri](/__l5e/assets-v1/44dca4cf-26e5-4465-ad4d-95fcef126546/ac739a0281bb.jpg)
 
-The film is set after a mysterious cosmic event rips Oak Street out of its suburb and drops it into a distant, dinosaur-filled past. At the center of the story, the Platt family discovers that surviving this dangerous environment is only possible if they stick together. Anne Hathaway and Ewan McGregor lead the cast.
+Film, gizemli bir kozmik olayın Oak Street'yi banliyösünden alıp dinozorlarla dolu uzak bir geçmişe bırakmasının ardından geçiyor. Hikâyenin merkezinde Platt ailesi, bu tehlikeli ortamda hayatta kalmanın ancak birbirine bağlı kalmalarıyla mümkün olabileceğini keşfeder. Kadronun başında Anne Hathaway ve Ewan McGregor yer alıyor.
 
-Despite good reviews and J.J. Abrams among its producers, the film had plenty going for it — yet it didn't translate into meaningful ticket sales, and it's expected to be recorded as a significant financial disappointment. That once again confirms that dinosaur movies unconnected to the "Jurassic" franchise are taking on a nearly impossible task at the box office.
+İyi eleştirilere ve J.J. Abrams'ın yapımcıları arasında filmin pek çok başarısı vardı ancak anlamlı bilet satışlarına dönüşmedi ve kayda değer bir mali hayal kırıklığı olarak kaydedilmesi bekleniyor. Bu, "Jurassic" serisiyle bağlantısı olmayan dinozor filmlerinin gişede neredeyse imkansız bir görevi üstlendiğini bir kez daha doğruluyor.
 
-## The genre's latest disappointment
+## Türün son hayal kırıklığı
 
-The "Jurassic Park" films had already grossed a combined $6 billion even before last year's surprise giant, "Jurassic World Rebirth" ($869 million). Since Steven Spielberg's groundbreaking 1993 film, that franchise has remained the only name that comes to mind when people think of dinosaur cinema.
+"Jurassic Park" filmleri, geçen yılın sürpriz devi "Jurassic World Rebirth"den (869 milyon dolar) önce bile toplam 6 milyar dolar hasılat elde etmişti. Since Steven Spielberg'nin 1993 yapımı çığır açan filmi, bu seri, insanların dinozor sinemasını düşündüğünde akla gelen tek isim olarak kaldı.
 
-Yet dinosaurs aren't intellectual property anyone owns, which makes it surprising studios don't turn to prehistoric creatures more often. You can find dozens of cheap dinosaur movies on Tubi every day, but studio-made examples are quite rare, and when they do happen, they usually don't turn out well.
+Ancak dinozorlar kimsenin fikri mülkiyeti değil, bu da stüdyoların tarih öncesi yaratıklara daha sık yönelmemesi şaşırtıcı oluyor. Tubi'de her gün düzinelerce ucuz dinozor filmi bulabilirsiniz, ancak stüdyo yapımı örnekler oldukça nadirdir ve gerçekleştiğinde genellikle iyi sonuçlanmazlar.
 
-![Ewan McGregor facing off against an allosaurus with a hammer in The End of Oak Street](/__l5e/assets-v1/cb89ff57-3f5b-4520-8a7c-0fce720c2923/9735bb4fcc7d.jpg)
+![Ewan McGregor, The End of Oak Street'de çekiçle bir allosaurus'la karşı karşıya geliyor](/__l5e/assets-v1/cb89ff57-3f5b-4520-8a7c-0fce720c2923/9735bb4fcc7d.jpg)
 
-You can count on one hand the number of non-"Jurassic" live-action dinosaur movies that have hit theaters in the 2020s. Adam Driver's "65" fell just short of $61 million worldwide in 2023 against its $45 million budget. Even with a solid hold, "The End of Oak Street" will struggle to reach the break-even point.
+2020'lerde sinemalarda gösterime giren "Jurassic" olmayan canlı aksiyon dinozor filmlerinin sayısına bir yandan güvenebilirsiniz. Adam Driver'nin "65"i, 45 milyon dolarlık bütçesine kıyasla 2023'te dünya çapında 61 milyon doların biraz altında kaldı. Sağlam bir tutunma olsa bile "Oak Street'nin Sonu" başabaş noktasına ulaşmakta zorlanacak.
 
-The genre's one semi-legitimate success story was last year's "Primitive War." Directed by Luke Sparke, the low-budget film set during the Vietnam War became a viral phenomenon; it made money in theaters but was more of a word-of-mouth digital hit. Even with multiple sequels on the way, it's not the kind of success major Hollywood studios will be chasing.
+Türün yarı meşru başarı öyküsü geçen yılki "Primitive War" idi. Luke Sparke'nin yönettiği, Vietnam War sırasında geçen düşük bütçeli film viral bir fenomen haline geldi; sinemalarda para kazandırdı ama daha çok kulaktan kulağa yayılan bir dijital hit oldu. Birden fazla devam filmi yolda olsa bile bu, büyük Hollywood stüdyolarının peşinde olacağı türden bir başarı değil.
 
-## Why don't non-"Jurassic" dinosaur movies work?
+## "Jurassic" olmayan dinozor filmleri neden işe yaramıyor?
 
-Outside of "Jurassic Park"/"Jurassic World," the dinosaur movies that have succeeded are mostly animated, family-friendly productions. Examples include "Paw Patrol: The Dino Movie," which will make money for Paramount thanks to its low budget, or "The Land Before Time," which spawned an entire franchise of its own.
+"Jurassic Park"/"Jurassic World" dışında başarılı olan dinozor filmleri çoğunlukla animasyonlu, aile dostu yapımlardır. Örnekler arasında, düşük bütçesi sayesinde Paramount'a para kazandıracak "Paw Patrol: The Dino Movie" veya kendine ait bir franchise yaratan "The Land Before Time" yer alıyor.
 
-So why do standalone films struggle so much? Frankly, "Jurassic" has cornered the market. Everything else lives in its shadow and gets compared to it, for better or worse. There would seem to be more room in the subgenre, but studios still can't crack the code.
+Peki neden bağımsız filmler bu kadar zorlanıyor? Açıkçası "Jurassic" piyasayı köşeye sıkıştırdı. Diğer her şey onun gölgesinde yaşar ve iyisiyle kötüsüyle onunla kıyaslanır. Alt türde daha fazla yer var gibi görünüyor, ancak stüdyolar hala kodu kıramıyor.
 
-The "Jurassic World Rebirth" sequel recently lost director Gareth Edwards. It's unclear who will take the chair, but Universal has no intention of stopping this gravy train. So within a few years, the franchise will likely have a new hit on its hands — or, in the worst-case scenario, it'll produce a new "Jurassic Park III" that puts the series to sleep for a while.
+"Jurassic World Rebirth"nin devamı yakın zamanda yönetmen Gareth Edwards'yi kaybetti. It'nin sandalyeyi kimin alacağı belli değil, ancak Universal'nin bu sos trenini durdurmaya niyeti yok. Yani birkaç yıl içinde seri muhtemelen yeni bir başarıya imza atacak veya en kötü senaryoda seriyi bir süreliğine uyku moduna geçirecek yeni bir "Jurassic Park III" üretecek.
 
-In that unlikely scenario, there might be room for another dinosaur movie to enter the arena. But the bar for getting average moviegoers off the couch for a dinosaur adventure without the "Jurassic" label is clearly very high. What will it take to clear that bar? Time will tell.
+Bu beklenmedik senaryoda, başka bir dinozor filminin arenaya girmesi için yer olabilir. Ancak "Jurassic" etiketi olmayan bir dinozor macerası için ortalama sinema izleyicisini kanepeden kaldırma çıtası açıkça çok yüksek. O çubuğu temizlemek için ne gerekecek? Zaman gösterecek.
 
-"The End of Oak Street" is now playing in theaters.`,
+"Oak Street'nin Sonu" artık sinemalarda gösteriliyor.`,
     image: "/__l5e/assets-v1/99235872-a8f8-4323-8e3e-2b7acf27cdb4/1fe927ca072f.jpg",
     source: "SlashFilm",
   },
@@ -1103,25 +1103,25 @@ In that unlikely scenario, there might be room for another dinosaur movie to ent
     title: "They Follow: David Robert Mitchell, It Follows Devam Filmi İçin Önemli Bir İş Birlikçisinin Döneceğini Doğruladı",
     excerpt: "Maika Monroe’yu geri getiren devam filminin müziklerini yine Disasterpeace besteleyecek; görüntü yönetmeni Mike Gioulakis ve kurgucu Julio C. Perez IV de ekipte yer alıyor.",
     customBadge: "horror",
-    body: `More than a decade has passed since David Robert Mitchell unleashed _It Follows_ upon the world. And fittingly for the film, it's been a horror that has followed us ever since: the idea of a sexually transmitted death curse and a being that never stops pursuing you, wrapped in the director's eerie storytelling.
+    body: `David Robert Mitchell'nin _It Follows_'yi dünyaya salıvermesinden bu yana on yıldan fazla zaman geçti. Ve filme yakışır şekilde, o zamandan beri bizi takip eden bir korku oldu: cinsel yolla bulaşan bir ölüm laneti fikri ve yönetmenin ürkütücü hikaye anlatımına sarılmış, sizi takip etmeyi asla bırakmayan bir varlık.
 
-We've known for a while that the sequel, titled _They Follow_, is on the way and that Maika Monroe will return as Jay. While preparing for this summer's dinosaur blockbuster _The End Of Oak Street_, Mitchell shared exciting details about the highly anticipated next chapter.
+_They Follow_ başlıklı devam filminin yolda olduğunu ve Maika Monroe'nin Jay olarak geri döneceğini bir süredir biliyorduk. Bu yazın gişe rekorları kıran dinozor filmi _The End Of Oak Street_'ye hazırlanırken Mitchell, merakla beklenen bir sonraki bölümle ilgili heyecan verici ayrıntıları paylaştı.
 
-![Maika Monroe in It Follows](/__l5e/assets-v1/0fd0c230-6af0-4195-a60a-972bc2a3d5b3/a0e004535348.avif)
+![It Follows'de Maika Monroe](/__l5e/assets-v1/0fd0c230-6af0-4195-a60a-972bc2a3d5b3/a0e004535348.avif)
 
-Speaking to _Empire_, the director confirmed that many key collaborators are returning: "Maika is coming back for this one, as are cinematographer Mike Gioulakis and editor Julio C. Perez IV."
+_Empire_'ye konuşan yönetmen, birçok önemli işbirlikçisinin geri döndüğünü doğruladı: "Görüntü yönetmeni Mike Gioulakis ve editör Julio C. Perez IV gibi Maika da bu film için geri dönüyor."
 
-There's another return to be excited about: "Disasterpeace is doing the music," says Mitchell. _It Follows_'s synth-heavy score was a crucial part of the film's atmosphere, evoking the John Carpenter classics of the '70s and '80s.
+Heyecanlanacak başka bir geri dönüş daha var: Mitchell, "Disasterpeace müziği yapıyor" diyor. _It Follows_'nin sentez ağırlıklı müziği, filmin atmosferinin çok önemli bir parçasıydı ve 70'li ve 80'li yılların John Carpenter klasiklerini çağrıştırıyordu.
 
 ![Maika Monroe](/__l5e/assets-v1/ead262b1-f391-464e-ac6a-89b3c972ed31/e59c0c990ca6.avif)
 
-"I wouldn't want to make a sequel without him," Mitchell says of Disasterpeace. "That first film owes so much to his incredible score; I'm excited to see what he does this time." The composer, also known as Richard Vreeland, also scored Mitchell's mind-bending film _Under The Silver Lake_ — with a sound completely different from _It Follows_. So no one can predict what he'll cook up this time.
+Mitchell, Disasterpeace için "O olmadan bir devam filmi yapmak istemezdim" diyor. "İlk film onun inanılmaz müziğine çok şey borçlu; bu sefer ne yapacağını görmek beni heyecanlandırıyor." Richard Vreeland olarak da bilinen besteci, Mitchell'in akıllara durgunluk veren filmi _Under The Silver Lake_'nin müziklerini de _It Follows_'den tamamen farklı bir sesle yaptı. Yani bu sefer ne pişireceğini kimse tahmin edemez.
 
 ![Director David Robert Mitchell](/__l5e/assets-v1/9451fc51-04c5-4536-8ec7-ba57fc831dce/c09885543191.avif)
 
-As for the plot of _They Follow_, the director isn't showing his cards, though the film is expected to begin shooting in the not-too-distant future. "I'm really happy with the script," says Mitchell. "It's something quite connected to the first film, yet its own thing. It's going to be really fun; it's doing something cool."
+_They Follow_'nin konusuna gelince, yönetmen kartlarını göstermiyor ancak filmin çekimlerinin çok da uzak olmayan bir gelecekte başlaması bekleniyor. Mitchell, "Senaryodan gerçekten çok memnunum" diyor. "It ilk filmle oldukça bağlantılı ama yine de kendine has bir şey. It gerçekten eğlenceli olacak; harika bir şey yapıyor."
 
-Let the existential dread begin anew.`,
+Varoluşsal korku yeniden başlasın.`,
     image: "/__l5e/assets-v1/f90e80e8-542a-43ed-a428-06eb25708040/50a76b19c7b3.avif",
     source: "Empire",
   },
@@ -1132,15 +1132,15 @@ Let the existential dread begin anew.`,
     excerpt: "Comic-Con’da Hall H salonunu ayağa kaldıran görüntüler, D23’ün ardından internette yayımlandı: X-Men evreni, MCU ve Fantastic Four’un dünyası çarpışıyor.",
     customBadge: "trailer",
     videoUrl: "https://www.youtube.com/embed/X1aFkAkFASk",
-    body: `A few weeks ago, new footage from _Avengers: Doomsday_ brought down the house in Comic-Con's Hall H in San Diego, but only a lucky few got to see it. Good things come to those who wait: the trailer, also shown at the D23 Expo in Anaheim, is now online for everyone to watch.
+    body: `Birkaç hafta önce, _Avengers: Doomsday_'den gelen yeni görüntüler, Comic-Con'nin San Diego'deki H Salonundaki evi yerle bir etti, ancak yalnızca şanslı birkaç kişi bunu görebildi. Bekleyenlere güzel şeyler geliyor: Anaheim'daki D23 Expo'da da gösterilen fragman artık herkesin izlemesi için yayında.
 
-This new look at the long-awaited fifth _Avengers_ film once again emphasizes the multiversal scale of the Russo Brothers' comeback story: Fox's original X-Men universe, the main MCU timeline, and the world of the Fantastic Four are all melting into one pot.
+Uzun zamandır beklenen beşinci _Avengers_ filmine yapılan bu yeni bakış, Russo Brothers'nin geri dönüş hikayesinin çoklu evren ölçeğini bir kez daha vurguluyor: Fox'nin orijinal X-Men evreni, ana MCU zaman çizelgesi ve Fantastic Four dünyası, hepsi tek bir kapta eriyip gidiyor.
 
-This time, the trailer focuses in particular on Pedro Pascal's team. Reed Richards and Sue Storm confront the gulf between the Victor Von Doom they once knew and Doctor Doom, who looks set to unleash every kind of destruction on our heroes.
+Bu sefer fragman özellikle Pedro Pascal'nin ekibine odaklanıyor. Reed Richards ve Sue Storm, bir zamanlar tanıdıkları Victor Von Doom ile kahramanlarımıza her türlü yıkımı salmaya kararlı görünen Doctor Doom arasındaki uçurumla yüzleşiyor.
 
-Building on the first teaser, this footage delivers a confident, action-packed showcase for an MCU film carrying serious weight on its shoulders.
+İlk teaser'ı temel alan bu görüntü, omuzlarında ciddi ağırlık taşıyan bir MCU filmi için kendinden emin, aksiyon dolu bir vitrin sunuyor.
 
-There isn't much time left before the beginning of the end for the MCU's Multiverse Saga: _Doomsday_ hits theaters on December 18.`,
+MCU'nin Multiverse Saga filmi için sonun başlangıcına çok az zaman kaldı: _Doomsday_ 18 Aralık'ta sinemalarda gösterime girecek.`,
     image: "/__l5e/assets-v1/8a2ac79e-d10f-4b63-a4f3-d03752e62879/4cdab99df0af.avif",
     source: "Empire",
   },
@@ -1149,25 +1149,25 @@ There isn't much time left before the beginning of the end for the MCU's Multive
     title: "Jenna Ortega’nın Kız Kardeşi, Oyuncunun Görünüşüne Yönelik Tepkilere Yanıt Verdi",
     excerpt: "Sosyal medyada Ortega’nın sağlığı ve bedeni hakkında artan spekülasyonların ardından küçük kız kardeşi Aliyah Ortega, oyuncuyu savunan bir hayran paylaşımına destek verdi.",
     customBadge: "wednesday",
-    body: `Following a wave of online commentary about Jenna Ortega's health and body, the actress's younger sister has joined those coming to her defense.
+    body: `Jenna Ortega'nin sağlığı ve vücudu hakkında internette yapılan bir dizi yorumun ardından aktrisin küçük kız kardeşi de onu savunmaya gelenler arasında yer aldı.
 
-On Wednesday, a fan of the Emmy-nominated actress posted on Instagram telling people to "mind their own business and leave @jennaortega alone, especially after her latest interview generated so many questions and assumptions about her health."
+Emmy adayı aktrisin bir hayranı olan On Wednesday, Instagram'de insanlara "kendi işlerine bakmalarını ve @jennaortega'yı yalnız bırakmalarını, özellikle de son röportajının sağlığı hakkında pek çok soru ve varsayım yaratmasından sonra" dedi.
 
-The fan's comments were a response to the online backlash sparked by Ortega's appearance in a video interview for _Esquire_, with many fans claiming the actress appeared noticeably thinner and drawing comparisons with older videos and photos.
+Hayranın yorumları, Ortega'nın _Esquire_ için bir video röportajında ​​yer almasının yol açtığı çevrimiçi tepkiye bir yanıttı; birçok hayran, aktrisin fark edilir derecede daha zayıf göründüğünü ve eski video ve fotoğraflarla karşılaştırmalar yaptığını iddia etti.
 
-![Comparison of Jenna Ortega's appearance in her Esquire interview and a red carpet photo](${jennaEsquireAsset.url})
+![Jenna Ortega'nin Esquire röportajındaki görünümü ile kırmızı halı fotoğrafının karşılaştırılması](${jennaEsquireAsset.url})
 
-"She doesn't owe anyone an explanation; her life is her life and her body is hers," wrote the fan, Amrita Singh, in a lengthy post. "She has the right to make decisions she believes are best for herself without being judged, discriminated against, or subjected to unnecessary speculation. We don't know what she's going through, and we shouldn't make assumptions based on her appearance or a few sentences in an interview. Sometimes the most respectful thing we can do is give someone privacy, support them, and let them be."
+Hayran Amrita Singh, uzun bir gönderide "Kimseye bir açıklama borçlu değil; hayatı onun hayatı ve bedeni onundur" diye yazdı. "Yargılanmadan, ayrımcılığa uğramadan veya gereksiz spekülasyonlara maruz kalmadan, kendisi için en iyisi olduğuna inandığı kararları verme hakkına sahip. Onun neler yaşadığını bilmiyoruz ve görünüşüne veya bir röportajdaki birkaç cümleye dayanarak varsayımlarda bulunmamalıyız. Bazen yapabileceğimiz en saygılı şey birine mahremiyet vermek, onları desteklemek ve kendi hallerine bırakmaktır."
 
-"For God's sake, she was a human being before she was a celebrity, and that's exactly what people forget. She deserves privacy, peace, and the freedom to live without constant scrutiny. Stop obsessing over her personal life and let her live on her own terms," she added.
+"Allah aşkına, o ünlü olmadan önce de bir insandı ve insanların unuttuğu şey de bu. O, mahremiyeti, huzuru ve sürekli incelemeye maruz kalmadan yaşama özgürlüğünü hak ediyor. Kişisel hayatı konusunda takıntılı olmayı bırakın ve bırakın kendi şartlarıyla yaşasın" diye ekledi.
 
-Ortega's sister, Aliyah Ortega, commented "!!!" on the post, implying she agreed with the fan's perspective, without adding any further comment.
+Ortega'nın kız kardeşi Aliyah Ortega "!!!" yorumunu yaptı gönderide, daha fazla yorum yapmadan hayranın bakış açısına katıldığını ima etti.
 
-![Jenna Ortega as Wednesday Addams and in a casual look](${jennaWednesdayAsset.url})
+![Jenna Ortega, Wednesday Addams olarak ve rahat bir görünümde](${jennaWednesdayAsset.url})
 
-The _Wednesday_ star isn't the only celebrity dealing with online commentary about her body. Ariana Grande faced a similar backlash, particularly after the release of her "Petal" video. This month, it was announced that after completing her Eternal Sunshine Tour, Grande would be "taking a step back from visibility" and "taking a well-deserved break from public-facing work that has led to endless public scrutiny." The singer later said the decision was "not reactive or sudden, but something she'd quietly planned a long time ago."
+_Wednesday_ yıldızı, vücuduyla ilgili çevrimiçi yorumlarla uğraşan tek ünlü değil. Ariana Grande, özellikle "Petal" videosunun yayınlanmasının ardından benzer bir tepkiyle karşılaştı. Bu ay, Eternal Sunshine Tour'yi tamamladıktan sonra Grande'nin "görünürlükten bir adım geri çekeceği" ve "kamuoyunun sonsuz incelemesine yol açan kamuya yönelik çalışmalara hak ettiği bir ara vereceği" açıklandı. Şarkıcı daha sonra kararın "tepkisel ya da ani olmadığını, uzun zaman önce sessizce planladığı bir şey olduğunu" söyledi.
 
-Ortega is currently filming the third season of _Wednesday_ for Netflix, after which she'll head out on a press tour for the dystopian sci-fi adaptation _Klara and the Sun_, set to hit theaters October 23.`,
+Ortega şu anda Netflix için _Wednesday_'nin üçüncü sezonunu çekiyor ve ardından 23 Ekim'de vizyona girecek distopik bilim kurgu uyarlaması _Klara and the Sun_ için bir basın turuna çıkacak.`,
     image: "/__l5e/assets-v1/0f595b18-c094-4435-942b-abc1ddb3dd29/6fdd1da35c17.webp",
     source: "The Hollywood Reporter",
   },
@@ -1176,21 +1176,21 @@ Ortega is currently filming the third season of _Wednesday_ for Netflix, after w
     title: "Eli Roth: 33 Milyon Dolarlık Gişe Hüsranının Ardından Borderlands “Kimseye Ait Olmayan Bir Şeye” Dönüştü",
     excerpt: "120 milyon dolarlık video oyunu uyarlamasının yönetmeni stüdyoyu suçluyor: PG-13 yaş sınıflandırması ısrarı, filmi “ne olduğu belirsiz” bir yapıma dönüştürdü.",
     customBadge: "box office flop",
-    body: `The "Borderlands" movie carried a $120 million budget, not counting the expensive marketing costs surrounding its summer 2024 release. Despite a star-studded cast including Cate Blanchett and Kevin Hart, the film collapsed at the box office instantly, recouping only a quarter of its production cost. The video game adaptation was a disappointment for existing fans and an overly chaotic mess for average moviegoers. Director Eli Roth is now suggesting the studio is to blame.
+    body: `"Borderlands" filmi, 2024 yazında gösterime girmesiyle ilgili pahalı pazarlama maliyetlerini saymazsak, 120 milyon dolarlık bir bütçeye sahipti. Cate Blanchett ve Kevin Hart gibi yıldızlarla dolu oyuncu kadrosuna rağmen film, gişede anında çöktü ve üretim maliyetinin yalnızca dörtte birini telafi etti. Video oyunu uyarlaması, mevcut hayranlar için bir hayal kırıklığıydı ve ortalama sinemaseverler için aşırı kaotik bir karmaşaydı. Director Eli Roth şimdi stüdyonun suçlu olduğunu öne sürüyor.
 
-![The Borderlands (2024) cast](${bl1})
+![Borderlands (2024) oyuncu kadrosu](${bl1})
 
-"As things get bigger, studios naturally become more risk-averse," Roth told Variety in a recent interview. "As a filmmaker, my nature is to do what's left of center, because that's what has worked for me." The writer-director behind early-2000s horror films like "Cabin Fever" and "Hostel" didn't elaborate on which parts of his vision were trimmed by Hollywood, but he said targeting a PG-13 rating for "Borderlands" was fatal.
+Roth yakın tarihli bir röportajında ​​Variety'ye "İşler büyüdükçe stüdyolar doğal olarak riskten daha fazla kaçınıyor" dedi. "Bir film yapımcısı olarak benim doğam merkezin solunda olanı yapmaktır çünkü benim için işe yarayan şey bu." 2000'li yılların başındaki "Cabin Fever" ve "Hostel" gibi korku filmlerinin yazarı-yönetmeni, vizyonunun hangi kısımlarının Hollywood tarafından kırpıldığı konusunda ayrıntılı bilgi vermedi ancak "Borderlands" için PG-13 derecelendirmesini hedeflemenin ölümcül olduğunu söyledi.
 
-"What resulted was something that belongs to no one," Roth said. "It's not a kids' movie, but it's trying to appeal to everyone. It's meant for gamers, but it doesn't include the violence gamers wanted, because it can't be that extreme — the cost would be too high. You end up with a movie that's neither fish nor fowl."
+Roth, "Sonuç, kimseye ait olmayan bir şeydi" dedi. "It bir çocuk filmi değil ama herkese hitap etmeye çalışıyor. It oyunculara yönelik ama oyuncuların istediği şiddeti içermiyor çünkü bu kadar aşırı olamaz; maliyeti çok yüksek olur. Elinizde ne balık ne de kümes hayvanı olan bir film olur."
 
-![Cate Blanchett as Lilith](${bl2})
+![Cate Blanchett Lilith rolünde](${bl2})
 
-While the "Borderlands" games are actually rated M (17+) by the ESRB for bloody animations and crude humor, that's not really what they're known for. The violence and gore are more cartoonish; the cel-shaded art style allows for comic-book-style cutaways, leaving the goriest parts to the imagination.
+"Borderlands" oyunları aslında ESRB tarafından kanlı animasyonlar ve kaba mizah nedeniyle M (17+) olarak derecelendirilmiş olsa da, aslında bu onların tanındığı şey değil. Şiddet ve vahşet daha karikatürize; Cel-gölgeli sanat tarzı, çizgi roman tarzı kesitlere izin vererek en korkunç kısımları hayal gücüne bırakıyor.
 
 ![Ariana Greenblatt as Tiny Tina](${bl3})
 
-Roth chose the independent route for his latest comedy-slasher film, "Ice Cream Man." He initially said the film didn't use generative AI, then later claimed he "misspoke." At least if that film turns out badly, he'll have no one to blame but himself.`,
+Roth, son komedi-slasher filmi "Ice Cream Man" için bağımsız rotayı seçti. Başlangıçta filmin üretken yapay zeka kullanmadığını söyledi, daha sonra "yanlış söylediğini" iddia etti. En azından film kötü sonuçlanırsa kendisinden başka suçlayacak kimsesi olmayacak.`,
     image: "/__l5e/assets-v1/e9b6bd31-cef7-499a-8a41-153fd748f65c/0de2355c1e87.jpg",
     source: "Kotaku",
   },

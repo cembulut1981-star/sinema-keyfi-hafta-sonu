@@ -57,17 +57,17 @@ export const SERIES: SeriesItem[] = [
     customBadgeStyle: "light",
     image: trueDetectiveS5,
     source: "The Hollywood Reporter — October 16, 2026",
-    body: `**True Detective** is coming back with its most star-studded pairing yet: **Nicolas Cage** and **Antonio Banderas** have officially been cast in the HBO anthology's fifth season, with filming set to begin in 2027.
+    body: `**True Detective**, bugüne kadarki en göz alıcı başrol ikilisiyle geri dönüyor: **Nicolas Cage** ve **Antonio Banderas**, HBO'nun antoloji dizisinin beşinci sezonunun kadrosuna resmen katıldı. Çekimlerin 2027'de başlaması planlanıyor.
 
-![Two detectives stand under a streetlight on a rain-soaked night, in the moody tradition of True Detective](${trueDetectiveS5})
+![True Detective geleneğine uygun kasvetli bir atmosferde, yağmurlu bir gecede sokak lambasının altında duran iki dedektif](${trueDetectiveS5})
 
-The casting reunites the series with the kind of heavyweight duo that defined its first season, when Matthew McConaughey and Woody Harrelson turned the show into a phenomenon. Cage, fresh off a run of acclaimed performances, and Banderas, an Oscar nominee, give the new season an immediate awards-season gravity.
+Bu seçim, diziyi ilk sezonuna damga vuran türden güçlü bir ikiliyle yeniden buluşturuyor. O sezon Matthew McConaughey ve Woody Harrelson, diziyi bir fenomene dönüştürmüştü. Son dönemdeki performanslarıyla övgü toplayan Cage ve Oscar adayı Banderas, yeni sezonu şimdiden ödül yarışının iddialı yapımları arasına taşıyor.
 
-![The new season is expected to lean into the franchise's signature atmosphere of fog, flashlights and small-town dread](${trueDetectiveS5Scene})
+![Yeni sezonun serinin alametifarikası olan sis, el fenerleri ve küçük kasaba tedirginliğini öne çıkarması bekleniyor](${trueDetectiveS5Scene})
 
-HBO has kept plot details quiet, but the network's anthology format means Cage and Banderas will anchor a self-contained story with new characters and a new setting. The series remains one of HBO's flagship dramas, and landing two actors of this caliber signals the network's ambition to return the show to the center of the cultural conversation.
+HBO olay örgüsüne dair ayrıntıları saklı tutuyor. Ancak dizinin antoloji formatı gereği Cage ve Banderas, yeni karakterler ve yeni bir mekânla kendi içinde tamamlanan bir hikâyenin merkezinde yer alacak. HBO'nun amiral gemisi dramalarından biri olmayı sürdüren dizinin bu çapta iki oyuncuyu kadrosuna katması, kanalın yapımı yeniden kültürel gündemin odağına taşıma iddiasını gösteriyor.
 
-A premiere date has not been announced; with cameras rolling in 2027, a late 2027 or 2028 debut looks likely.`,
+Yayın tarihi henüz açıklanmadı. Kameraların 2027'de kayda gireceği düşünüldüğünde, dizinin 2027 sonlarında ya da 2028'de izleyiciyle buluşması olası görünüyor.`,
   },
   {
     slug: "wednesday-season-3-wraps-production",
@@ -78,27 +78,27 @@ A premiere date has not been announced; with cameras rolling in 2027, a late 202
     image: wednesdayCover.url,
     source: "The Hollywood Reporter",
     gallery: [wednesdayGala.url, wednesdayStill.url, wednesdayPromo.url, jennaWednesdayPortrait.url],
-    body: `Production on *Wednesday* Season 3 has officially wrapped after a seven-month shoot in Dublin. Netflix marked the milestone with a first-look image of Jenna Ortega's heroine seated at her typewriter, expressionless as ever, in a room drained to the show's signature black-and-white palette.
+    body: `*Wednesday*'in 3. sezon çekimleri, Dublin'de geçen yedi ayın ardından resmen tamamlandı. Netflix bu dönüm noktasını, Jenna Ortega'nın canlandırdığı kahramanı daktilosunun başında gösteren bir ilk bakış görseliyle duyurdu. Wednesday her zamanki gibi ifadesiz; bulunduğu oda ise dizinin imzası hâline gelen siyah-beyaz palete bürünmüş durumda.
 
-![Jenna Ortega returns to the typewriter in the first Season 3 image](${wednesdayCover.url})
+![Jenna Ortega, 3. sezondan ilk karede yeniden daktilosunun başında](${wednesdayCover.url})
 
-The wrap moves the series into a demanding post-production phase packed with supernatural effects. Netflix has not announced a premiere date, though a return in 2027 is expected. The gap will still feel substantial for a show whose first season became the platform's most-watched English-language original series.
+Çekimlerin tamamlanmasıyla dizi, doğaüstü efektlerle dolu yoğun bir post prodüksiyon sürecine giriyor. Netflix henüz yayın tarihini açıklamasa da dizinin 2027'de dönmesi bekleniyor. İlk sezonuyla platformun en çok izlenen İngilizce orijinal dizisi olan bir yapım için bu ara yine de epey uzun hissedilecek.
 
-![Jenna Ortega at a Wednesday Season 2 event](${wednesdayGala.url})
+![Jenna Ortega, Wednesday'in 2. sezon etkinliğinde](${wednesdayGala.url})
 
-Season 3 expands the Addams family mystery introduced at the end of the previous chapter. Eva Green joins as Ophelia Frump, Morticia's long-missing sister, giving Tim Burton another collaborator with an instinct for gothic worlds. Winona Ryder also enters as Tabitha, while Lena Headey, Chris Sarandon, Noah Taylor, Andrew McCarthy and James Lance are among the new faces.
+3. sezon, önceki sezonun sonunda ortaya çıkan Addams ailesi gizemini derinleştiriyor. Eva Green, Morticia'nın uzun süredir kayıp kız kardeşi Ophelia Frump rolüyle kadroya katılıyor; böylece Tim Burton, gotik dünyalara içgüdüsel bir yakınlığı olan bir başka isimle daha buluşuyor. Winona Ryder, Tabitha rolüyle diziye dahil olurken Lena Headey, Chris Sarandon, Noah Taylor, Andrew McCarthy ve James Lance de yeni yüzler arasında yer alıyor.
 
-![Wednesday explores another mystery at Nevermore Academy](${wednesdayStill.url})
+![Wednesday, Nevermore Academy'de yeni bir gizemin peşine düşüyor](${wednesdayStill.url})
 
-The returning ensemble remains unusually deep: Emma Myers, Hunter Doohan, Joy Sunday, Moosa Mostafa, Georgie Farmer, Isaac Ordonez and Billie Piper are back alongside Luis Guzmán, Catherine Zeta-Jones, Joanna Lumley and Fred Armisen. Ortega continues not only as the title character but as an executive producer.
+Geri dönen oyuncu kadrosu da son derece zengin: Emma Myers, Hunter Doohan, Joy Sunday, Moosa Mostafa, Georgie Farmer, Isaac Ordonez ve Billie Piper'ın yanı sıra Luis Guzmán, Catherine Zeta-Jones, Joanna Lumley ve Fred Armisen da dönüyor. Ortega yalnızca başkarakter olarak değil, yürütücü yapımcı olarak da görevini sürdürüyor.
 
-![The series is widening its gothic ensemble for Season 3](${wednesdayPromo.url})
+![Dizi, 3. sezonda gotik oyuncu kadrosunu genişletiyor](${wednesdayPromo.url})
 
-Creators Alfred Gough and Miles Millar remain the showrunners, with Burton returning as director and executive producer. Filming began in February 2026 and continued in Ireland, where production relocated after the first season's Romanian shoot.
+Dizinin yaratıcıları Alfred Gough ve Miles Millar, yaratıcı yönetimin başında kalırken Burton da yönetmen ve yürütücü yapımcı olarak geri dönüyor. Şubat 2026'da başlayan çekimler İrlanda'da sürdü; yapım, ilk sezonun Romanya çekimlerinin ardından buraya taşınmıştı.
 
-![Jenna Ortega remains the center of Netflix's Addams Family phenomenon](${jennaWednesdayPortrait.url})
+![Jenna Ortega, Netflix'in Addams Family fenomeninin merkezinde kalmayı sürdürüyor](${jennaWednesdayPortrait.url})
 
-Story details are still being guarded, but Ortega has said the new season confronts the unease of senior year: family pressure, adulthood and the alarming possibility that even Wednesday Addams may need a plan for her future. The cameras have stopped; now Nevermore's next mystery heads into the editing room.`,
+Hikâyenin ayrıntıları hâlâ gizli tutuluyor. Ancak Ortega, yeni sezonun son sınıfın getirdiği huzursuzluklarla yüzleştiğini söylüyor: aile baskısı, yetişkinlik ve Wednesday Addams'ın bile geleceği için bir plana ihtiyaç duyabileceği gerçeği. Kameralar durdu; şimdi Nevermore'un sıradaki gizemi kurgu odasına taşınıyor.`,
   },
   {
     slug: "line-of-fire-peter-krause-hope-davis-cover-story",
@@ -109,17 +109,17 @@ Story details are still being guarded, but Ortega has said the new season confro
     image: lofCover,
     source: "Entertainment Weekly — Cover Story",
     gallery: [lofG1, lofG2, lofG3, lofG4, lofG5],
-    body: `Most families argue about who does the dishes. The Hollingsworths argue about jurisdiction. In NBC's new drama "Line of Fire," created by Joshua Safran, one family is scattered across the Secret Service, the Department of Justice, the FBI and the U.S. Marshals — which means every dinner table conversation is technically a multi-agency briefing, and every case has a way of coming home.
+    body: `Çoğu aile bulaşıkları kimin yıkayacağını tartışır. Hollingsworth'ler ise yetki alanını. Joshua Safran'ın yarattığı NBC'nin yeni draması "Line of Fire"da bir aile; Secret Service, Department of Justice, FBI ve U.S. Marshals arasında dağılmış durumda. Yani yemek masasındaki her sohbet teknik olarak kurumlar arası bir brifing, her vaka da dönüp dolaşıp eve geliyor.
 
-At the center are Hope Davis as matriarch Jane Hollingsworth and Peter Krause as Mike, parents whose children followed them into law enforcement and now outrank, undercut and occasionally arrest each other's suspects. The ensemble also includes Kat Cunning as Clare, Tommy O'Brien as Micah and Taylor Bloom as Russell — siblings whose loyalties are constantly split between the badge and the last name.
+Merkezde, ailenin annesi Jane Hollingsworth rolünde Hope Davis ve Mike rolünde Peter Krause var. Çocukları da onların izinden giderek kolluk kuvvetlerine katılmış; şimdi birbirlerinin üstü oluyor, işlerini baltalıyor, zaman zaman da birbirlerinin şüphelilerini tutukluyorlar. Kadroda Clare rolünde Kat Cunning, Micah rolünde Tommy O'Brien ve Russell rolünde Taylor Bloom da yer alıyor. Bu kardeşlerin sadakati sürekli rozetleriyle soyadları arasında bölünüyor.
 
-Krause has his own shorthand for the show's tone: "Parenthood packing heat." It's a joke, but it's also a thesis. The series wants the warmth and needling humor of a family drama, then drops it into shootouts, surveillance vans and conspiracies that stretch further up the chain of command than anyone in the house is comfortable admitting.
+Krause, dizinin tonunu kendince şöyle özetliyor: "Silah kuşanmış bir Parenthood." Bu bir şaka ama aynı zamanda dizinin özeti. Yapım, bir aile dramasının sıcaklığını ve iğneleyici mizahını alıp çatışmaların, gözetleme araçlarının ve emir komuta zincirinde evdekilerin itiraf etmek isteyeceğinden çok daha yukarılara uzanan komploların içine yerleştiriyor.
 
-Safran's pitch is a little more mischievous: "Procedural Gossip Girl." There are weekly cases to close, but the pleasure is in the whispers — who told whom, which sibling withheld a file, which parent quietly pulled a string. The conspiracy plot runs underneath the case-of-the-week structure, so the show can deliver a satisfying arrest and still leave the family more suspicious of one another than they were at the top of the hour.
+Safran'ın tanımı biraz daha muzip: "Haftalık vakalarla ilerleyen bir Gossip Girl." Her hafta çözülecek vakalar var ama asıl keyif fısıltılarda: Kim kime ne söyledi, hangi kardeş bir dosyayı sakladı, hangi ebeveyn sessizce nüfuzunu kullandı? Komplo hikâyesi, haftalık vaka yapısının altında ilerliyor. Böylece dizi, izleyiciyi tatmin eden bir tutuklama sunarken aile üyelerinin birbirlerinden bölümün başındakinden daha fazla şüphe duymasını da sağlayabiliyor.
 
-For EW's exclusive cover portraits, the cast leaned into that duality: sharp suits, easy smiles, and the sense that everyone in frame is keeping something from someone else in frame. Davis and Krause pose like a couple who have survived decades of secrets; the younger Hollingsworths look like they're already drafting their own.
+Oyuncular, EW'ye özel kapak portrelerinde bu ikiliği yansıttı: şık takımlar, rahat gülümsemeler ve kadrajdaki herkesin yine kadrajdaki bir başkasından bir şey sakladığı hissi. Davis ve Krause, onlarca yıllık sırları birlikte atlatmış bir çift gibi poz veriyor; genç Hollingsworth'ler ise şimdiden kendi sırlarını biriktiriyor gibi görünüyor.
 
-"Line of Fire" premieres September 21 on NBC.`,
+"Line of Fire", 21 Eylül'de NBC'de başlıyor.`,
   },
   {
     slug: "furious-liz-meriwether-season-1-finale-interview",
@@ -130,19 +130,19 @@ For EW's exclusive cover portraits, the cast leaned into that duality: sharp sui
     image: furFinaleCover,
     source: "Entertainment Weekly — Interview",
     gallery: [furFinaleG1, furFinaleG2, furFinaleG3],
-    body: `**Warning: this article contains spoilers for the season 1 finale of "Furious."**
+    body: `**Uyarı: Bu yazı, "Furious"un 1. sezon finaline dair spoiler içerir.**
 
-For most of its first season, "Furious" let you believe Alice Black was the one being hunted. The finale, "Hart Island," quietly flips that: Alice catches Catherine Grace, brings her to Jay Easton's home, and then — while the two women are in the same house — cuts Jay's oxygen supply. Catherine suspects immediately. Alice smiles. Cut to black.
+"Furious", ilk sezonunun büyük bölümünde avlanan kişinin Alice Black olduğuna inanmamıza izin verdi. "Hart Island" adlı final bölümü ise bunu sessizce tersine çeviriyor: Alice, Catherine Grace'i yakalayıp Jay Easton'ın evine getiriyor ve iki kadın aynı evdeyken Jay'in oksijenini kesiyor. Catherine hemen şüpheleniyor. Alice gülümsüyor. Ekran kararıyor.
 
-"I wanted the last image of the season to be the audience realizing they'd been rooting for someone they don't actually know," creator Liz Meriwether tells EW. "Everything Alice does in that house is a choice. She isn't cornered. She's deciding."
+Dizinin yaratıcısı Liz Meriwether, EW'ye "Sezonun son karesinde seyircinin, aslında tanımadığı birini desteklediğini fark etmesini istedim" diyor. "Alice'in o evde yaptığı her şey bir tercih. Köşeye sıkışmış değil. Karar veriyor."
 
-Meriwether says the oxygen beat was in the plan early, but the smile arrived late. "There was a version where she looks horrified at herself, and it played as guilt. Guilt lets the audience off the hook. The smile doesn't." It also reframes Catherine, who spends the season being told she's paranoid: in the final minute she is the only person in the room who has read Alice correctly.
+Meriwether, oksijen sahnesinin en başından beri planda olduğunu, ancak gülümsemenin sonradan eklendiğini söylüyor. "Bir versiyonda kendinden dehşete düşmüş gibi bakıyordu ve bu, suçluluk duygusu olarak okunuyordu. Suçluluk, seyircinin içini rahatlatıyor. Gülümseme ise öyle değil." Bu an, sezon boyunca paranoyak olduğu söylenen Catherine'i de başka bir ışık altında gösteriyor: Son dakikada odadaki insanlar arasında Alice'i doğru okuyan tek kişi o.
 
-That leaves season 2 with a very specific problem to solve, and Meriwether is happy about it. "Now Catherine knows something she can't prove, and Alice knows Catherine knows. That's not a mystery anymore, it's a standoff." She's careful not to promise a courtroom or a confession — the show, she notes, has never been interested in resolution as much as in pressure.
+Böylece 2. sezonun önüne çözülmesi gereken çok belirgin bir mesele çıkıyor ve Meriwether bundan memnun. "Artık Catherine kanıtlayamadığı bir şeyi biliyor, Alice de Catherine'in bildiğini biliyor. Bu artık bir gizem değil, bir restleşme." Bir mahkeme sahnesi ya da itiraf sözü vermemeye özen gösteriyor; hatırlattığı üzere dizi, çözüme ulaşmaktan çok baskıyı artırmakla ilgileniyor.
 
-Hulu renewed "Furious" for a second season days before the finale dropped, which means the cliffhanger was written with a runway. "We didn't have to be coy about whether we'd get to answer it," Meriwether says. "So we let the ending be as ugly as it wanted to be."
+Hulu, finalin yayımlanmasından birkaç gün önce "Furious"a ikinci sezon onayı verdi. Yani bu merak uyandıran son, devamı geleceği bilinerek yazıldı. Meriwether, "Cevap verme fırsatı bulup bulamayacağımız konusunda ketum davranmamız gerekmiyordu" diyor. "Biz de finalin olabildiğince çirkinleşmesine izin verdik."
 
-Season 1 of "Furious" is streaming now on Hulu.`,
+"Furious"un 1. sezonu şimdi Hulu'da izlenebilir.`,
   },
   {
     slug: "dan-stevens-robocop-prime-video-series",
