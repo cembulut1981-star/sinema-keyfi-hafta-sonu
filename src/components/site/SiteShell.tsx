@@ -7,13 +7,13 @@ import kissIconAsset from "@/assets/rock-kiss-icon.png.asset.json";
 import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
-  { label: "Home", to: "/" },
-  { label: "News", to: "/kategori/$slug", params: { slug: "haberler" } },
-  { label: "Reviews", to: "/kategori/$slug", params: { slug: "incelemeler" } },
-  { label: "Lists", to: "/kategori/$slug", params: { slug: "listeler" } },
-  { label: "TV Shows", to: "/kategori/$slug", params: { slug: "diziler" } },
-  { label: "Music", to: "/kategori/$slug", params: { slug: "muzik" } },
-  { label: "PC Games", to: "/kategori/$slug", params: { slug: "pc-games" } },
+  { label: "Anasayfa", to: "/" },
+  { label: "Haberler", to: "/kategori/$slug", params: { slug: "haberler" } },
+  { label: "İncelemeler", to: "/kategori/$slug", params: { slug: "incelemeler" } },
+  { label: "Listeler", to: "/kategori/$slug", params: { slug: "listeler" } },
+  { label: "Diziler", to: "/kategori/$slug", params: { slug: "diziler" } },
+  { label: "Müzik", to: "/kategori/$slug", params: { slug: "muzik" } },
+  { label: "PC Oyunları", to: "/kategori/$slug", params: { slug: "pc-games" } },
 ];
 
 export function SiteShell({ children }: { children: ReactNode }) {
@@ -92,14 +92,14 @@ function Nav() {
             role="search"
             className="shrink-0 flex items-center"
           >
-            <label htmlFor="site-search" className="sr-only">Search</label>
+            <label htmlFor="site-search" className="sr-only">Ara</label>
             <input
               id="site-search"
               type="search"
               value={q}
               onChange={(e) => setQ(e.target.value)}
               onBlur={() => { if (!q) setOpen(false); }}
-              placeholder="Search"
+              placeholder="Ara"
               aria-hidden={!open}
               tabIndex={open ? 0 : -1}
               className={`bg-transparent text-sm text-foreground placeholder:text-muted-foreground focus:outline-none border-b border-black/70 focus:border-primary transition-all duration-200 ${
@@ -114,7 +114,7 @@ function Nav() {
                   setTimeout(() => document.getElementById("site-search")?.focus(), 0);
                 }
               }}
-              aria-label="Search"
+              aria-label="Ara"
               className="pl-2 pr-1 py-1 border-l border-black/70 ml-2 text-foreground/70 hover:text-primary transition-colors"
             >
               <Search className="h-4 w-4" />
@@ -140,11 +140,11 @@ function Footer() {
         </span>
         <div className="flex-1 flex flex-col items-center gap-1 text-center">
           <span className="italic text-neutral-600 text-[11px] tracking-wide">
-            Sine-Meta media. Independent film magazine, all rights reserved.
+            Sine-Meta media. Bağımsız film dergisi, tüm hakları saklıdır.
           </span>
           <nav className="flex gap-4 text-[11px] font-display uppercase tracking-widest text-neutral-700">
-            <Link to="/about" className="hover:text-primary">About</Link>
-            <Link to="/contact" className="hover:text-primary">Contact</Link>
+            <Link to="/about" className="hover:text-primary">Hakkında</Link>
+            <Link to="/contact" className="hover:text-primary">İletişim</Link>
             <a href="/rss.xml" className="hover:text-primary">RSS</a>
           </nav>
         </div>
@@ -158,7 +158,7 @@ function Footer() {
             aria-expanded={open}
             className="inline-flex items-center justify-between gap-4 min-w-[240px] text-xs font-display uppercase tracking-widest text-neutral-700 hover:text-primary transition-colors border border-black/15 px-5 py-3 bg-white"
           >
-            <span>Explore — Categories</span>
+            <span>Keşfet — Kategoriler</span>
             <span className={`transition-transform text-[10px] ${open ? "rotate-180" : ""}`}>▾</span>
           </button>
           {open ? (
