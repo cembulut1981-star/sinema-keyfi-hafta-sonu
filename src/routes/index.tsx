@@ -15,6 +15,9 @@ import { extractDate, formatDate } from '@/lib/seo';
 const BELOW_BADGES: Record<string, string> = {
   "metallica-life-burns-faster-sphere-review": "Canlı",
   "exorcist-martyrs-mike-flanagan-scariest-film": "Korku",
+  "haley-lu-richardson-joins-miami-vice-85": "Haber",
+  "sense-and-sensibility-new-dashwood-sisters-clip": "Haber",
+  "battlefield-6-xbox-game-pass-october-2026": "Oyun",
 };
 const CATEGORY_WORD: Record<string, string> = {
   incelemeler: "İnceleme",
@@ -26,11 +29,10 @@ const CATEGORY_WORD: Record<string, string> = {
 const slugOf = (a: Article) => a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";
 const ARTICLES: Article[] = RAW_ARTICLES.map((a) => {
   const label = BELOW_BADGES[slugOf(a)];
-  const base = label ? { ...a, customBadge: label, customBadgeBelow: true } : a;
-  // Metallica kartında alt alta iki rozet olmasın: kırmızı kategori rozeti kapalı.
-  return slugOf(a) === "metallica-life-burns-faster-sphere-review"
-    ? { ...base, hideCategoryBadge: true }
-    : base;
+  // Aşağı rozetli kartlarda sarı hap yeterli: kırmızı kategori rozeti gizlenir.
+  return label
+    ? { ...a, customBadge: label, customBadgeBelow: true, hideCategoryBadge: true }
+    : a;
 });
 
 const PAGE_SIZE = 20;
