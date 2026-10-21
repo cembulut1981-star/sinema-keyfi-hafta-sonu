@@ -15,7 +15,7 @@ export const Route = createFileRoute("/liste/$slug")({
   },
   head: ({ params }) => {
     const l = getList(params.slug);
-    if (!l) return { meta: [{ title: "List not found — Sine-Meta" }, { name: "robots", content: "noindex" }] };
+    if (!l) return { meta: [{ title: "Liste bulunamadı — Sine-Meta" }, { name: "robots", content: "noindex" }] };
     return articleHead(l, `/liste/${params.slug}`);
   },
   component: ListPage,
@@ -96,7 +96,7 @@ function ListPage() {
         <ShareButtons title={l.title} path={`/liste/${slug}`} />
         </article>
 
-        <OtherArticlesSidebar heading="More lists" items={others} to="/liste/$slug" />
+        <OtherArticlesSidebar heading="Diğer listeler" items={others} to="/liste/$slug" />
       </div>
     </SiteShell>
   );
