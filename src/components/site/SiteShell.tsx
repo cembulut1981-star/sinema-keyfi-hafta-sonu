@@ -190,7 +190,7 @@ function Footer() {
 
 export function FeaturedArticleCard({
   article,
-  badgeLabel = "Top Story",
+  badgeLabel = "Öne Çıkan",
   kicker,
   meta,
   tags,
@@ -317,7 +317,7 @@ export function FeaturedArticleCard({
 
 export function FullWidthFeatureCard({
   article,
-  categoryLabel = "TV Series",
+  categoryLabel = "Dizi",
   dateLabel,
 }: {
   article: Article;
@@ -398,12 +398,12 @@ const CATEGORY_TO_SLUG: Record<CategorySlug, string> = {
 };
 
 const CATEGORY_LABEL: Record<CategorySlug, string> = {
-  haberler: "News",
-  incelemeler: "Review",
-  listeler: "List",
-  diziler: "TV",
-  muzik: "Music",
-  roportajlar: "Interview",
+  haberler: "Haber",
+  incelemeler: "İnceleme",
+  listeler: "Liste",
+  diziler: "Dizi",
+  muzik: "Müzik",
+  roportajlar: "Röportaj",
 };
 
 // Bazı portre görsellerde yüz, varsayılan "object-top" kırpmasıyla yarım kalıyor.
