@@ -661,7 +661,7 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
           : "bg-background border-b-[3px] border-black h-full flex flex-col overflow-hidden group transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)]"
       }
     >
-      <div className="relative aspect-[16/10] overflow-hidden bg-muted after:absolute after:left-1/3 after:bottom-0 after:h-[3px] after:w-1/3 after:bg-red-600 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:z-10">
+      <div className="relative flex-1 min-h-[220px] md:min-h-0 overflow-hidden bg-muted after:absolute after:left-1/3 after:bottom-0 after:h-[3px] after:w-1/3 after:bg-red-600 after:origin-left after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300 after:z-10">
         {article.videoUrl ? (
           <iframe
             src={article.videoUrl}
@@ -697,17 +697,17 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
           ) : null}
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
       </div>
-      <div className="p-4 flex-1 flex flex-col">
+      <div className="px-4 py-3 flex flex-col">
         {article.customBadgeBelow && article.customBadge ? (
-          <BadgePill label={article.customBadge} className="mb-2 self-start" />
+          <BadgePill label={article.customBadge} className="mb-1.5 self-start" />
         ) : null}
-        <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-2 self-start px-2 py-1 ${compact ? "text-[9px]" : "text-[10px]"}`}>
+        <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-1.5 self-start px-2 py-0.5 ${compact ? "text-[9px]" : "text-[10px]"}`}>
           {CATEGORY_LABEL[article.category]}
         </span>
-        <h2 className={`font-serif-display font-bold leading-tight mb-2 text-balance ${compact ? "text-base" : "text-xl"}`}>
+        <h2 className={`font-serif-display font-bold leading-tight mb-1.5 text-balance ${compact ? "text-base" : "text-xl"}`}>
           {TitleLink}
         </h2>
-        <p className={`text-muted-foreground leading-relaxed mb-3 ${compact ? "text-[12px] line-clamp-2" : "text-[14px] line-clamp-3"}`}>
+        <p className={`text-muted-foreground leading-snug mb-2 ${compact ? "text-[12px] line-clamp-2" : "text-[13.5px] line-clamp-3"}`}>
           {article.excerpt}
         </p>
         {compact ? null : linkTo ? (
