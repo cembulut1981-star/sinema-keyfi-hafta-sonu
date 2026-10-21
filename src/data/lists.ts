@@ -43,7 +43,7 @@ const _LISTS_RAW: ListItem[] = [
     slug: "band-of-brothers-cast-then-and-now-25-years-later",
     title: "Band of Brothers Oyuncuları Dün ve Bugün: HBO'nun Emmy Ödüllü Mini Dizisinin Yıldızları 25 Yıl Sonra Nerede?",
     excerpt: "Easy Company'nin Normandiya'ya paraşütle inişinin üzerinden yirmi beş yıl geçti; HBO'nun 10 bölümlük destanına hayat veren oyuncular bugün prestijli dizilerde, geniş kitlelere ulaşan yapımlarda ve kamera arkasında kariyerlerini sürdürüyor. İşte geldikleri nokta.",
-    countdownBadge: "25 years later",
+    countdownBadge: "25 yıl sonra",
     image: bobCover,
     source: "Entertainment Weekly",
     body: `"Band of Brothers" 2001'de HBO'de prömiyerini yaptığında, şimdiye kadar yapılmış en pahalı televizyon yapımıydı: Tom Hanks and Steven Spielberg tarafından üretilen 10 bölümlük bir destan, Easy Company'nin, 506. Parachute Infantry Regiment'nin, Camp Toccoa'deki eğitimden Normandiya'ya, Bastogne and the'nin Avrupa'daki savaşın sonuna kadar olan gerçek adamlarını konu alıyor. 20 Emmy adaylığı topladı ve Outstanding Miniseries. dahil yedi ödül kazandı
@@ -96,7 +96,7 @@ Part of the "Band of Brothers"yi yeniden izlemenin kalıcı zevki, daha sonra y�
     slug: "hayden-panettiere-kacirilmamasi-gereken-6-rolu",
     title: "Hayden Panettiere'nin Mutlaka İzlenmesi Gereken 6 Rolü",
     excerpt: "Beş yaşında başlayan bir kariyer, yaklaşık 60 yapım ve 36 yaşında ani bir veda. Remember the Titans'tan Nashville'e, Hayden Panettiere'nin ekranda bıraktığı izi anlatan altı performans.",
-    countdownBadge: "6 role selection",
+    countdownBadge: "6 rol seçkisi",
     body: `Beş yaşında gündüz pembe dizisi _One Life to Live_ile başlayan kariyeri, Hayden Panettiere'nin ekran için doğduğunu kanıtladı. Erken gelişmiş bir çocuk yıldızdan, hem büyük hem de küçük ekranda çekici bir oyuncuya dönüştü: Disney yapımlarından cesur genç kraliçe rollerine ve oradan dramatik performanslara. _A Bug's Life_gibi hit animasyonlarda ve _Ally McBeal_gibi sitcom devlerinde rol aldı.
 
 Panettiere o kadar uzun süre ve o kadar çalıştı ki, Pazar günü 36 yaşında vefat ettiğinde arkasında yaklaşık 60 kredilik çarpıcı bir özgeçmiş bıraktı. İşte mutlaka görülmesi gereken altı performans.
@@ -155,7 +155,7 @@ Yine de Panettiere malzemeyi yükseltti. Country yıldızı Juliette Barnes olar
     slug: "orijinalinden-iyi-12-spin-off-dizi",
     title: "Orijinalini Geride Bırakan 12 Yan Dizi",
     excerpt: "Frasier'dan Star Trek: The Next Generation'a, doğdukları dizileri gölgede bırakan 12 yan dizi. SlashFilm'in listesi, kalitesi veya popülerliğiyle asıl yapımı aşan dizileri bir araya getiriyor.",
-    countdownBadge: "12 series selection",
+    countdownBadge: "12 dizi seçkisi",
     body: `Televizyonda bir spin-off yapmak hassas bir sanattır. İster planlı ister tesadüfi olsun, yazarların izleyicinin kalbini fetheden bir karakter yaratması gerekir ve oyuncunun da bu rolü taşıyacak karizmayı bulması gerekir. Yayınlandıktan sonra gerçek test başlıyor: Dizinin en azından çıktığı prodüksiyon kadar iyi olması. Çoğu yan ürün tam burada tökezliyor. Ancak bir avuç gösteri sadece ana prodüksiyon seviyesine ulaşmakla kalmadı, bir adım daha ileri gitti.
 
 Bu liste, " at least as good as their predecessor " olarak değerlendirilebilecek " Better Call Saul, "   " Batman Beyond, " veya " House of the Dragon, " gibi şovları içermez; burada gerçekten seleflerini geride bırakanlar var.
@@ -1731,7 +1731,7 @@ Johannes Roberts'nin bu yılın başında vizyona giren filmi, tropik bir tatili
 Grace (Samara Weaving), Le Domas ailesinden kaçtıktan hemen sonra seviye atlar. Devam filmi, Weaving'in vahşi enerjisi sayesinde devam filmlerinin lanetini büyük ölçüde kırıyor.`,
     image: "/__l5e/assets-v1/eebe0338-8465-4e8f-918a-f8c76c0ebb7e/57bbe5df91c4.jpg",
     source: "Rotten Tomatoes",
-    countdownBadge: "10 → 1 countdown",
+    countdownBadge: "10 → 1 geri sayım",
   },
   {
     slug: "2026nin-en-iyi-yeni-komedi-filmleri",
@@ -1783,7 +1783,7 @@ Joe Keery and Georgina Campbell'nin başrol oynadığı film, eski bir askeri ü
   },
   {
     slug: "tum-9-live-action-spider-man-filmi-siralamasi",
-    countdownBadge: "9 → 1 countdown",
+    countdownBadge: "9 → 1 geri sayım",
     title: "Canlı Çekim 9 Spider-Man Filminin Tamamı: En Kötüden En İyiye",
     excerpt: "Nerdist, Spider-Man'in yaklaşık 25 yıllık sinema serüvenini baştan sona sıraladı: Raimi üçlemesinden Amazing ikilisine, Tom Holland dönemine ve gişe hiti Brand New Day'e.",
     body: `*Spider-Man*serisi yaklaşık 25 yıldır sinema tarihinin en başarılı markalarından biri olmuştur.  While the dokuzuncu bölüm,  *Spider-Man: Brand New Day*dünya çapında gişe rekorları kırdı, seri hem çok yüksek zirvelere hem de oldukça düşük diplere ulaştı. Nerdist, Spidey'in konuk oyuncu olarak yer aldığı MCU filmlerini saymadan, dokuz canlı aksiyon filmini en kötüden en iyiye doğru sıraladı.
@@ -1892,7 +1892,7 @@ Bir felaket filmiyle açılmasına, yarım düzine MCU filminde başrol oynamas�
     slug: "tum-zamanlarin-en-iyi-zombi-filmleri",
     title: "Tüm Zamanların En İyi Zombi Filmleri: Empire'ın İlk 10'u",
     excerpt: "Night Of The Living Dead'den 28 Years Later'a, Empire'ın 25 filmlik zombi listesinin ilk 10'u: Romero klasiklerinden Train To Busan'a türün en iyileri.",
-    countdownBadge: "10 → 1 countdown",
+    countdownBadge: "10 → 1 geri sayım",
     body: `Zombi filmi sinemanın en esnek türlerinden biridir: Aynı canavar sosyal hiciv, saf komedi ve saf korku için kullanılabilir. Empire,*Night Of The Living Dead*ile*28 Years Later*arasında değişen 25 listeyi derledi. İşte o listenin en iyi 10 filmi.
 
 ## 10. Re-Animator (1985)   — Stuart Gordon
@@ -1941,7 +1941,7 @@ At the top, tüketim toplumunun mezar taşıdır: Bir alışveriş merkezine sı
     slug: "2026-nin-en-iyi-10-oyunu",
     title: "2026'nın En İyi 10 Oyunu (Şimdiye Kadar)",
     excerpt: "Cairn'den 007 First Light'a, Resident Evil Requiem'den Saros'a: Empire'ın yılın ilk yarısındaki en iyi 10 oyunu. 2026, sinema ve oyun dünyasının en çok kesiştiği yıl olmaya aday.",
-    countdownBadge: "10 → 1 countdown",
+    countdownBadge: "10 → 1 geri sayım",
     body: `2026 oyun dünyasında sinema yılı mı olacak? Yılın sadece yarısına geldik ama James Bond yıllardır ilk kez tamamen yeni bir maceraya atıldı —   "007 First Light" dünyanın en ünlü ajanının nasıl doğduğunun hikayesini anlatıyor.   "Resident Evil Requiem" beyazperdeye yakışır bir korku sunuyor ve hatta "Lego Batman" Tim Burton estetiğiyle yeniden doğuyor. Diğer yarışmacılar John Hughes'nin filmografisinden veya "2001"nin yapay zeka paranoyasından ilham alıyor.
 
 Bunların yanı sıra   " classically minded " oyunları da sahnede: Metroidvania'lar, kurşun cehennemi roguelike'ler ve tabii ki   " Pokémon ". İşte Empire'ın sıralaması.
@@ -1992,7 +1992,7 @@ Capcom için bir banner yılı. "Pragmata" ve "Monster Hunter Stories 3,"ye rağ
     slug: "ridley-scott-movies-ranked-worst-to-best",
     title: "Tüm Ridley Scott Filmleri: En Kötüden En İyiye",
     excerpt: "Başarısız İncil uyarlamalarından bilimkurgunun dönüm noktalarına, Rolling Stone 29 Ridley Scott filmini sıralıyor; olağanüstü çeşitlilikteki bu kariyerin zirvesinde Alien, Blade Runner ve Thelma & Louise var.",
-    countdownBadge: "29 films ranked",
+    countdownBadge: "29 film sıralandı",
     image: ridleyScottCover.url,
     source: "Rolling Stone",
     body: `Elli yıldır türler arasında Ridley Scott. Across kadar özgürce geçiş yapan çok az film yapımcısı var; o, bilimkurguda simge yapılar, tarihi destanlar, polisiye gerilim filmleri, savaş filmleri, korku filmleri ve samimi karakter çalışmaları yaptı; çoğu zaman ölçek ve atmosfere anında tanınabilen bir hakimiyetle.
@@ -2125,7 +2125,7 @@ Scott'nin uzaydaki perili ev filmi sabırlı bir terör örneği olmaya devam ed
     slug: "na-hong-jin-movies-to-watch-before-hope",
     title: "Hope Vizyona Girerken İzlemeniz Gereken 3 Na Hong-jin Filmi",
     excerpt: "Güney Kore'nin bugüne kadarki en pahalı filmi sinemalara iddialı bir giriş yaparken Na Hong-jin'in filmografisinde bir yolculuğa çıkıyoruz: Kore gerilim ve korku sinemasından üç modern klasik ve onları izleyebileceğiniz platformlar.",
-    countdownBadge: "3 films",
+    countdownBadge: "3 film",
     image: nhjCover.url,
     source: "Empire",
     body: `While the haftasının en büyük manşetleri başka bir yere ait; son derece eğlenceli, biraz hantal, gülünç derecede hırslı, neredeyse üç saatlik, gişe rekorları kıran, şu sıralar ilgi bekleyen başka bir bilim kurgu filmi daha var: Na Hong -jin'in gonzo yaratığı özelliği " Hope. "
