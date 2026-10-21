@@ -83,7 +83,7 @@ const FEED_ARTICLES = (() => {
   while (i < out.length && added < SPRINKLE_COUNT) {
     const a = out[i];
     if (!a.customBadge && a.id !== FRAMED?.id) {
-      out[i] = { ...a, customBadge: CATEGORY_WORD[a.category] ?? "News", customBadgeBelow: true };
+      out[i] = { ...a, customBadge: CATEGORY_WORD[a.category] ?? "Haber", customBadgeBelow: true, hideCategoryBadge: true };
       added++;
       // Uneven gap of 6–11 cards between pills.
       i += 6 + ((i * 7 + added * 5) % 6);

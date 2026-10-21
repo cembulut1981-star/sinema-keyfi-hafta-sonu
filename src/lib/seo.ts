@@ -15,8 +15,8 @@ export function extractDate(source: string | undefined): string | null {
 
 export function formatDate(iso: string): string {
   const [y, m, d] = iso.split("-").map(Number);
-  const name = MONTHS[m - 1];
-  return `${name[0].toUpperCase()}${name.slice(1)} ${d}, ${y}`;
+  const TR = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
+  return `${d} ${TR[m - 1]} ${y}`;
 }
 
 /** Absolute URL for an image, or null when it cannot be made absolute. */
