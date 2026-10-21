@@ -712,12 +712,12 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
         </p>
         {compact ? null : linkTo ? (
           <Link to={linkTo.to} params={linkTo.params} className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
-            <span>Read More</span>
+            <span>Devamını Oku</span>
             <span>→</span>
           </Link>
         ) : (
           <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
-            <span>Read More</span>
+            <span>Devamını Oku</span>
             <span>→</span>
           </div>
         )}
