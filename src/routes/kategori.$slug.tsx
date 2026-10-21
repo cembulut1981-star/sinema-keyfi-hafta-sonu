@@ -24,13 +24,13 @@ export const Route = createFileRoute("/kategori/$slug")({
   },
   validateSearch: zodValidator(searchSchema),
   head: ({ params }) => {
-    const label = params.slug === "pc-games" ? "PC Games" : CATEGORY_LABELS[params.slug as CategorySlug] ?? "Category";
+    const label = params.slug === "pc-games" ? "PC Oyunları" : CATEGORY_LABELS[params.slug as CategorySlug] ?? "Kategori";
     return {
       meta: [
         { title: `${label} — Sine-Meta` },
-        { name: "description", content: `The latest film and TV news, reviews and features in ${label}.` },
+        { name: "description", content: `Film ve dizi dünyasından ${label} kategorisindeki en yeni haberler, incelemeler ve dosyalar.` },
         { property: "og:title", content: `${label} — Sine-Meta` },
-        { property: "og:description", content: `The latest film and TV news, reviews and features in ${label}.` },
+        { property: "og:description", content: `Film ve dizi dünyasından ${label} kategorisindeki en yeni haberler, incelemeler ve dosyalar.` },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary" },
       ],
@@ -40,14 +40,14 @@ export const Route = createFileRoute("/kategori/$slug")({
   notFoundComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Category not found</h1>
+        <h1 className="font-display text-3xl font-black">Kategori bulunamadı</h1>
       </main>
     </SiteShell>
   ),
   errorComponent: () => (
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="font-display text-3xl font-black">Something went wrong</h1>
+        <h1 className="font-display text-3xl font-black">Bir şeyler ters gitti</h1>
       </main>
     </SiteShell>
   ),
@@ -62,7 +62,7 @@ function CategoryPage() {
   const { data: published } = useSuspenseQuery(publishedPostsQuery);
   const dynamic = published.filter(p => isGames ? p.is_game : p.category === category).map(toEditorialCard);
   const articles = [...dynamic, ...(isGames ? GAME_ARTICLES : ARTICLES.filter((a) => a.category === category))];
-  const label = isGames ? "PC Games" : CATEGORY_LABELS[category];
+  const label = isGames ? "PC Oyunları" : CATEGORY_LABELS[category];
 
   const totalPages = Math.max(1, Math.ceil(articles.length / PAGE_SIZE));
   const safePage = Math.min(Math.max(1, page), totalPages);
@@ -112,7 +112,7 @@ function CategoryPage() {
             <div className="lg:col-span-2 h-full">
               <FeaturedArticleCard
                 article={featured}
-                badgeLabel={isSpiderFeatured ? "Critic's Take" : isBbcListFeatured ? "List of the Month" : "Top Story"}
+                badgeLabel={isSpiderFeatured ? "Eleştirmenin Görüşü" : isBbcListFeatured ? "Ayın Listesi" : "Öne Çıkan"}
                 kicker={
                   isSpiderFeatured
                     ? "TIME · Stephanie Zacharek"
@@ -120,8 +120,8 @@ function CategoryPage() {
                     ? "BBC Culture · Caryn James"
                     : undefined
                 }
-                meta={isSpiderFeatured ? "★★★½  3.5/5" : isBbcListFeatured ? "10 SHOWS" : undefined}
-                counter={isBbcListFeatured ? "August" : undefined}
+                meta={isSpiderFeatured ? "★★★½  3.5/5" : isBbcListFeatured ? "10 DİZİ" : undefined}
+                counter={isBbcListFeatured ? "Ağustos" : undefined}
                 tags={
                   isBbcListFeatured
                     ? ["Ted Lasso", "The Shards", "Lanterns", "Reacher", "Dark Matter"]
@@ -149,13 +149,13 @@ function CategoryPage() {
               <div className="lg:col-span-2 h-full">
                 <FeaturedArticleCard
                   article={secondFeatured}
-                  badgeLabel="TV Headline"
+                  badgeLabel="Dizi Gündemi"
                   kicker="The Hollywood Reporter · Chris Gardner"
-                  ribbon="Season 5"
+                  ribbon="5. Sezon"
                   stats={[
                     { label: "Platform", value: "Prime Video" },
-                    { label: "Source Novel", value: "Make Me" },
-                    { label: "New Cast", value: "4 Actors" },
+                    { label: "Kaynak Roman", value: "Make Me" },
+                    { label: "Yeni Kadro", value: "4 Oyuncu" },
                     { label: "Showrunner", value: "Nick Santora" },
                   ]}
                   tags={["Amanda Ip", "Jay Baruchel", "Ciara Bravo", "Kevin Durand"]}
@@ -174,12 +174,12 @@ function CategoryPage() {
         {gridArticles.length > 0 ? (
           <ArticleGrid articles={gridArticles} compact />
         ) : featured || secondFeatured ? null : (
-          <p className="text-center text-muted-foreground py-20">No articles in this category yet.</p>
+          <p className="text-center text-muted-foreground py-20">Bu kategoride henüz yazı yok.</p>
         )}
 
 
         {totalPages > 1 ? (
-          <nav className="mt-10 flex justify-center items-center gap-2 flex-wrap" aria-label="Pagination">
+          <nav className="mt-10 flex justify-center items-center gap-2 flex-wrap" aria-label="Sayfalama">
             {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => {
               const active = p === safePage;
               return (
