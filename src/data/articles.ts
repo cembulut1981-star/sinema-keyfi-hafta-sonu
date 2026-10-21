@@ -31,6 +31,7 @@ export type Article = {
   customBadge?: string;
   customBadgeStyle?: "default" | "light";
   customBadgeBelow?: boolean;
+  hideCategoryBadge?: boolean;
   countdownBadge?: string;
   homepagePlacement?: "lower";
 };

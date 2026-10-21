@@ -631,7 +631,7 @@ function OverlayBadges({ article, badgeInImage = true }: { article: Article; bad
         {!article.customBadgeBelow ? (
           <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} />
         ) : null}
-        {badgeInImage ? (
+        {badgeInImage && !article.hideCategoryBadge ? (
           <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
             {CATEGORY_LABEL[article.category]}
           </span>
@@ -701,9 +701,11 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
         {article.customBadgeBelow && article.customBadge ? (
           <BadgePill label={article.customBadge} className="mb-1.5 self-start" />
         ) : null}
-        <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-1.5 self-start px-2 py-0.5 ${compact ? "text-[9px]" : "text-[10px]"}`}>
-          {CATEGORY_LABEL[article.category]}
-        </span>
+        {!article.hideCategoryBadge ? (
+          <span className={`font-display uppercase tracking-widest bg-primary text-primary-foreground font-bold mb-1.5 self-start px-2 py-0.5 ${compact ? "text-[9px]" : "text-[10px]"}`}>
+            {CATEGORY_LABEL[article.category]}
+          </span>
+        ) : null}
         <h2 className={`font-serif-display font-bold leading-tight mb-1.5 text-balance ${compact ? "text-base" : "text-xl"}`}>
           {TitleLink}
         </h2>
