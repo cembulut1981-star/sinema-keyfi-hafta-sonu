@@ -268,7 +268,12 @@ export function FeaturedArticleCard({
             </span>
           ) : null}
           <ImdbBadge rating={article.imdbRating} className="absolute left-2 top-2 z-20" />
-<CustomBadge label={article.customBadge} variant={article.customBadgeStyle} className="absolute right-2 top-2 z-20" />
+          {/* Sağ üst köşe: sayaç varsa marka/kategori rozeti onun altına iner, üst üste binmesin. */}
+          <CustomBadge
+            label={article.customBadge}
+            variant={article.customBadgeStyle}
+            className={`absolute right-2 z-20 ${counter ? "top-10" : "top-2"}`}
+          />
           <CountdownBadge label={article.countdownBadge} className="absolute left-2 bottom-2 z-20" />
         </div>
         <h2 className="mt-8 text-center font-serif-display text-3xl sm:text-4xl font-black leading-tight text-balance">
