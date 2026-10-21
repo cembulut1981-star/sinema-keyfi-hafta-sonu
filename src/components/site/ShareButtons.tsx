@@ -25,9 +25,9 @@ export function ShareButtons({ title, path }: Props) {
     e.preventDefault();
     try {
       await navigator.clipboard.writeText(url);
-      alert("Link copied. You can share it in the Instagram app.");
+      alert("Link kopyalandı. Instagram uygulamasında paylaşabilirsiniz.");
     } catch {
-      window.prompt("Copy the link:", url);
+      window.prompt("Linki kopyalayın:", url);
     }
   };
 
@@ -37,13 +37,13 @@ export function ShareButtons({ title, path }: Props) {
   return (
     <div className="my-8 flex items-center gap-3">
       <span className="font-display uppercase tracking-widest text-[11px] text-muted-foreground mr-2">
-        Share
+        Paylaş
       </span>
       <a
         href={facebook}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Share on Facebook"
+        aria-label="Facebook'ta paylaş"
         className={btn}
       >
         <Facebook size={18} />
@@ -52,7 +52,7 @@ export function ShareButtons({ title, path }: Props) {
         href={twitter}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Share on Twitter"
+        aria-label="Twitter'da paylaş"
         className={btn}
       >
         <Twitter size={18} />
@@ -61,7 +61,7 @@ export function ShareButtons({ title, path }: Props) {
         href={whatsapp}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Share on WhatsApp"
+        aria-label="WhatsApp'ta paylaş"
         className={btn}
       >
         {/* WhatsApp icon (lucide has no wa) */}
@@ -72,7 +72,7 @@ export function ShareButtons({ title, path }: Props) {
       <a
         href="#"
         onClick={handleInstagram}
-        aria-label="Copy link for Instagram"
+        aria-label="Instagram için linki kopyala"
         className={btn}
       >
         <Instagram size={18} />
