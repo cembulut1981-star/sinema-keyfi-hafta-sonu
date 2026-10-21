@@ -26,7 +26,11 @@ const CATEGORY_WORD: Record<string, string> = {
 const slugOf = (a: Article) => a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";
 const ARTICLES: Article[] = RAW_ARTICLES.map((a) => {
   const label = BELOW_BADGES[slugOf(a)];
-  return label ? { ...a, customBadge: label, customBadgeBelow: true } : a;
+  const base = label ? { ...a, customBadge: label, customBadgeBelow: true } : a;
+  // Metallica kartında alt alta iki rozet olmasın: kırmızı kategori rozeti kapalı.
+  return slugOf(a) === "metallica-life-burns-faster-sphere-review"
+    ? { ...base, hideCategoryBadge: true }
+    : base;
 });
 
 const PAGE_SIZE = 20;

@@ -631,7 +631,7 @@ function OverlayBadges({ article, badgeInImage = true }: { article: Article; bad
         {!article.customBadgeBelow ? (
           <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} />
         ) : null}
-        {badgeInImage ? (
+        {badgeInImage && !article.hideCategoryBadge ? (
           <span className="font-display uppercase tracking-widest text-[9px] bg-primary text-primary-foreground font-bold px-1.5 py-0.5">
             {CATEGORY_LABEL[article.category]}
           </span>
