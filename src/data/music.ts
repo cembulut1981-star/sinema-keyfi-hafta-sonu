@@ -33,17 +33,17 @@ export const MUSIC: MusicItem[] = [
     excerpt: "Dokuz yılın ardından Debbie Harry ve grubu, Johnny Marr ile Glen Matlock'un katkılarını ve davulcu Clem Burke'ün son kayıtlarını içeren 13 şarkılık bir albümle dönüyor.",
     image: blondieHighNoon,
     source: "Rolling Stone — Charisma Madarang, October 15, 2026",
-    body: `After nine years, **Blondie** have returned with their first collection of new music. Their album, *High Noon*, will be unveiled on **February 26**, and the LP's first single, "Spectral Eyes," is out now.
+    body: `Dokuz yılın ardından **Blondie**, yeni şarkılardan oluşan ilk albümüyle geri dönüyor. *High Noon* adlı albüm **26 Şubat** tarihinde yayımlanacak; albümün ilk teklisi "Spectral Eyes" ise şimdiden dinleyicilerle buluştu.
 
-The upcoming record marks the final recording of Blondie co-founding drummer **Clem Burke**, who died in April 2025 at the age of 70. The Hall of Fame musician was the backbone of Blondie's smash hits and kinetic live performances.
+Bu albüm, Blondie'nin kurucu davulcusu **Clem Burke**'ün son kayıtlarını içeriyor. Nisan 2025'te 70 yaşında hayatını kaybeden, Rock and Roll Hall of Fame'e kabul edilmiş müzisyen, Blondie'nin büyük hitlerinin ve enerji dolu sahne performanslarının belkemiğiydi.
 
-![Blondie's new album carries the final drumming of co-founder Clem Burke](${blondieHighNoon})
+![Blondie'nin yeni albümü, grubun kurucularından Clem Burke'ün son davul kayıtlarını içeriyor](${blondieHighNoon})
 
-"This album is classic Blondie — an amalgamation of all our different influences and eras into something new," frontwoman **Debbie Harry** said in a statement. "This music feels grounded in the present, shaped by who we are and how we're living now."
+Grubun solisti **Debbie Harry**, yaptığı açıklamada, "Bu albüm tam anlamıyla klasik Blondie; farklı dönemlerimizi ve beslendiğimiz tüm kaynakları yeni bir şeyde buluşturuyor," dedi. "Bu müzik, bugün kim olduğumuzdan ve nasıl yaşadığımızdan besleniyor; ayakları bugüne basıyor."
 
-The band describes *High Noon* as "a broad mix of sounds, ideas and collaborators" where rock and roll and punk sit alongside dance music and Latin rhythms. The project features contributions from **Johnny Marr**, **Glen Matlock**, Zach Condon of Beirut, and Jess Wolfe and Holly Laessig of Lucius. The lead single "Spectral Eyes" was written by Marr, who also contributes guitar.
+Grup, *High Noon*'u rock and roll ve punk'ın dans müziği ve Latin ritimleriyle yan yana geldiği, "seslerin, fikirlerin ve birlikte çalıştığımız müzisyenlerin geniş bir yelpazede buluştuğu" bir albüm olarak tanımlıyor. Projede **Johnny Marr**, **Glen Matlock**, Beirut'tan Zach Condon ve Lucius'tan Jess Wolfe ile Holly Laessig'in katkıları var. İlk tekli "Spectral Eyes"ın söz ve müziği, şarkıda gitar da çalan Marr'a ait.
 
-Blondie began sessions for the LP in 2022 and recorded in New York City with producer **John Congleton**, who collaborated with the band on 2017's *Pollinator*. David Wrench later joined for additional production and mixing. The 13-track album includes "Heartbreak Kid," written by guitarist Chris Stein, and "Sleepwalking," penned by Matlock.`,
+Blondie, albüm çalışmalarına 2022'de başladı ve kayıtları, 2017 tarihli *Pollinator*'da da birlikte çalıştıkları prodüktör **John Congleton** ile New York'ta gerçekleştirdi. David Wrench daha sonra ek prodüksiyon ve miksaj için ekibe katıldı. 13 şarkılık albümde, gitarist Chris Stein'ın yazdığı "Heartbreak Kid" ve Matlock'un kaleme aldığı "Sleepwalking" de yer alıyor.`,
   },
   {
     slug: "metallica-life-burns-faster-sphere-review",

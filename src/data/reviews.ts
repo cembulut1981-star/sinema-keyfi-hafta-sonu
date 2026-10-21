@@ -77,21 +77,21 @@ export const REVIEWS: Review[] = [
     excerpt: "Capcom; bulmacaları, korkuyu, aksiyonu ve Leon S. Kennedy’yi son derece ölçülü bir hayatta kalma korku oyununda bir araya getiriyor.",
     rating: "92/100",
     image: gameRe,
-    body: `After years of Resident Evil games that each excelled in one area, Capcom set itself the task of combining the best of all of them. **Resident Evil Requiem** — puzzles, horror, action and Leon S. Kennedy — not only pulls it off, it does so in about **10 hours**.
+    body: `Yıllardır her biri farklı bir alanda parlayan Resident Evil oyunlarının ardından Capcom, hepsinin en iyi yanlarını bir araya getirmeye soyundu. Bulmacaları, korkuyu, aksiyonu ve Leon S. Kennedy’yi buluşturan **Resident Evil Requiem**, bunu başarmakla kalmıyor; üstelik yaklaşık **10 saatte** yapıyor.
 
-Players alternate between Leon and newcomer **Grace Ashcroft**. Grace's sections are slow, tense and genuinely frightening; Leon's deliver the deeply satisfying gunplay of the recent remakes.
+Oyuncular Leon ile seriye yeni katılan **Grace Ashcroft** arasında geçiş yapıyor. Grace’in bölümleri ağır tempolu, gergin ve gerçekten korkutucu; Leon’un bölümleri ise son yeniden yapımlardaki son derece tatmin edici silahlı çatışmaları sunuyor.
 
-![Leon faces the infected in Resident Evil Requiem](${gameRe2})
+![Resident Evil Requiem’de Leon enfektelerle karşı karşıya](${gameRe2})
 
-## No wasted time
+## Boşa harcanan tek an yok
 
-Everything in those hours feels necessary: no redundant fetch quests, no dragged-out stealth sequences. Every puzzle, corridor and burst of action is tightly choreographed. Ten hours is actually typical for the series — Resident Evil 7 is about the same, Village and the RE2 remake about 12 — and at $70 the quality never dips.
+Bu saatlerdeki her şey gerekli hissettiriyor: gereksiz getir götür görevleri de uzayıp giden gizlilik sekansları da yok. Her bulmaca, koridor ve aksiyon patlaması titizlikle kurgulanmış. On saat aslında seri için alışıldık bir süre; Resident Evil 7 de aşağı yukarı bu uzunlukta, Village ve RE2 yeniden yapımı ise yaklaşık 12 saat sürüyor. 70 dolarlık oyunda kalite bir an olsun düşmüyor.
 
-## Minor complaints
+## Küçük pürüzler
 
-Some boss battles are one-note and a few objectives repeat, but these are small blemishes on the most complete Resident Evil in years. It is a must-play for horror fans on PC.
+Bazı bölüm sonu canavarı mücadeleleri tekdüze, birkaç hedef de tekrara düşüyor; ancak bunlar yılların en eksiksiz Resident Evil oyununda ufak kusurlar olarak kalıyor. PC’de korku sevenlerin mutlaka oynaması gereken bir yapım.
 
-**Need to know:** Release date February 27, 2026 · Developer/Publisher Capcom · Price $70 / £60 · Single-player.`,
+**Bilmeniz gerekenler:** Çıkış tarihi 27 Şubat 2026 · Geliştirici/Yayıncı Capcom · Fiyat 70 $ / 60 £ · Tek oyunculu.`,
   },
   {
     slug: "crimson-desert-game-review",
@@ -100,23 +100,23 @@ Some boss battles are one-note and a few objectives repeat, but these are small 
     excerpt: "Pearl Abyss’in devasa açık dünya rol yapma oyunu, büyülediği kadar da sinir bozuyor; oyun sistemlerini kurcalamayı sevenler için biçilmiş kaftan.",
     rating: "80/100",
     image: gameCrimson,
-    body: `**Crimson Desert** is the "Yes, and" of video games: stuffed with just about every mechanic and idea imaginable, an overwhelming ocean of things to discover. After 75 hours, it still feels like there is more to uncover.
+    body: `**Crimson Desert**, video oyunlarının “Evet, bir de…” diyen örneği: Akla gelebilecek hemen her mekanik ve fikirle tıka basa dolu, keşfedilecek şeylerle baş döndüren bir okyanus. 75 saatin ardından bile keşfedilmeyi bekleyen daha çok şey olduğu hissini veriyor.
 
-You play **Kliff**, a gruff Scottish mercenary of the Greymane faction, voiced by Alec Newman. After an ambush by the rival Black Bears leaves him with a slit throat and his comrades scattered across the continent of **Pywel**, he must rebuild — reuniting old allies and forging new ones.
+Alec Newman’ın seslendirdiği, Greymane grubundan sert mizaçlı İskoç paralı asker **Kliff**’i yönetiyorsunuz. Rakip Black Bears’ın pususunda boğazı kesilen, yoldaşları **Pywel** kıtasının dört bir yanına dağılan Kliff, eski müttefiklerini yeniden bir araya getirip yenilerini kazanarak her şeye yeniden başlamak zorunda.
 
-![Riding across Pywel in Crimson Desert](${gameCrimson2})
+![Crimson Desert’te Pywel boyunca at sürerken](${gameCrimson2})
 
-## MMO DNA
+## MMO DNA’sı
 
-Pearl Abyss's 12 years running an MMO show everywhere: obtuse systems, huge build variety and middling questing. The combat keeps evolving, the puzzles are well crafted and the world is one of the grandest ever made for a single-player game.
+Pearl Abyss’in 12 yıllık MMO deneyimi her yerde kendini gösteriyor: anlaşılması güç sistemler, muazzam karakter geliştirme çeşitliliği ve vasat görevler. Dövüş sistemi sürekli gelişiyor, bulmacalar özenle tasarlanmış ve dünya, tek oyunculu bir oyun için yaratılmış en görkemli dünyalardan biri.
 
-## Where it stumbles
+## Tökezlediği noktalar
 
-The story is not gripping as told, the pacing of cutscenes is choppy, and some archaic design choices will frustrate players. Gear storage and bugs also need work.
+Hikâye anlatıldığı hâliyle sürükleyici değil, ara sahnelerin temposu aksıyor ve bazı eskimiş tasarım tercihleri oyuncuları bunaltabilir. Ekipman depolama sistemi ile hataların da elden geçirilmesi gerekiyor.
 
-Still, for the patient, it is a fascinating journey — even when the destination is underwhelming.
+Yine de sabırlı oyuncular için büyüleyici bir yolculuk; varılan yer beklentileri karşılamasa bile.
 
-**Need to know:** Release date March 19, 2026 · Developer/Publisher Pearl Abyss · Price $70 / £55 · PC, PS5, Xbox Series X|S.`,
+**Bilmeniz gerekenler:** Çıkış tarihi 19 Mart 2026 · Geliştirici/Yayıncı Pearl Abyss · Fiyat 70 $ / 55 £ · PC, PS5, Xbox Series X|S.`,
   },
   {
     slug: "007-first-light-game-review",
@@ -125,19 +125,19 @@ Still, for the patient, it is a fascinating journey — even when the destinatio
     excerpt: "IO Interactive, Hitman’in sabır gerektiren, oyuncuya özgürlük tanıyan tasarımını genç bir Bond’la buluşturuyor: Kendinden emin, sinematik, 25 saatlik bir casusluk gerilimi.",
     rating: "9/10",
     image: gameSpy,
-    body: `The Bond game drought is over. **007 First Light** is the most confident, cinematic and fully realised James Bond game since GoldenEye — a **25-hour** single-player spy thriller that respects its license, its players and the medium.
+    body: `Bond oyunu hasreti sona erdi. **007 First Light**, GoldenEye’dan bu yana en kendinden emin, en sinematik ve vizyonunu en iyi hayata geçiren James Bond oyunu; lisansına, oyuncularına ve oyun mecrasına saygı duyan, **25 saatlik** tek oyunculu bir casusluk gerilimi.
 
-**Patrick Gibson's** 26-year-old Bond is the most credible video game version of the character in decades, supported by strong turns from **Gemma Chan** and **Lenny Kravitz**. Lana Del Rey's title song and Hans Zimmer's score land the cinematic tone the series has always chased.
+**Patrick Gibson’ın** canlandırdığı 26 yaşındaki Bond, karakterin on yıllardır gördüğümüz en inandırıcı video oyunu yorumu. **Gemma Chan** ve **Lenny Kravitz** de güçlü performanslarıyla ona eşlik ediyor. Lana Del Rey’in tema şarkısı ve Hans Zimmer’ın müzikleri, serinin hep peşinde olduğu sinematik tonu yakalıyor.
 
-![Bond on a Hong Kong rooftop in 007 First Light](${gameSpy2})
+![007 First Light’ta Bond, Hong Kong’da bir çatıda](${gameSpy2})
 
-## A Bond-flavoured sandbox
+## Bond dokunuşlu bir oyun alanı
 
-IO Interactive's Glacier Engine stealth-and-disguise loop translates beautifully. Gunplay is rationed, cinematic and decisive, and the globe-trotting campaign — Iceland, Marrakesh, Vienna, Hong Kong, the Pyrenees and the South of France — gives every chapter its own texture. The Vienna opera house and Hong Kong tower missions are among the studio's best levels.
+IO Interactive’in Glacier Engine üzerinde kurduğu gizlilik ve kılık değiştirme döngüsü buraya harika uyarlanmış. Silahlı çatışmalar ölçülü, sinematik ve belirleyici. Iceland, Marrakesh, Vienna, Hong Kong, Pyrenees ve South of France boyunca dünyayı dolaşan hikâye, her bölüme ayrı bir doku kazandırıyor. Vienna opera binası ile Hong Kong kulesi görevleri, stüdyonun en iyi bölümleri arasında.
 
-## The trade-offs
+## Verilen tavizler
 
-It is less freeform than Hitman: public spaces are mostly read-only, and breaking decorum can trigger hard mission failures. Enemy AI occasionally stumbles, and the mission structure is more predictable. But with no microtransactions or live-service hooks, it is a complete, polished package.`,
+Hitman kadar serbest değil: kamusal alanlar çoğunlukla yalnızca gözlem yapmaya izin veriyor ve uygunsuz davranışlar görevin doğrudan başarısız olmasına yol açabiliyor. Düşman yapay zekâsı zaman zaman tökezliyor, görev yapısı da daha öngörülebilir. Ama mikro ödeme ya da canlı servis kancaları olmadan, eksiksiz ve özenle parlatılmış bir paket sunuyor.`,
   },
   {
     slug: "heart-of-the-beast-review",
