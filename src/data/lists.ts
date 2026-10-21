@@ -43,7 +43,7 @@ const _LISTS_RAW: ListItem[] = [
     slug: "band-of-brothers-cast-then-and-now-25-years-later",
     title: "Band of Brothers Oyuncuları Dün ve Bugün: HBO'nun Emmy Ödüllü Mini Dizisinin Yıldızları 25 Yıl Sonra Nerede?",
     excerpt: "Easy Company'nin Normandiya'ya paraşütle inişinin üzerinden yirmi beş yıl geçti; HBO'nun 10 bölümlük destanına hayat veren oyuncular bugün prestijli dizilerde, geniş kitlelere ulaşan yapımlarda ve kamera arkasında kariyerlerini sürdürüyor. İşte geldikleri nokta.",
-    countdownBadge: "25 years later",
+    countdownBadge: "25 yıl sonra",
     image: bobCover,
     source: "Entertainment Weekly",
     body: `"Band of Brothers" 2001'de HBO'de prömiyerini yaptığında, şimdiye kadar yapılmış en pahalı televizyon yapımıydı: Tom Hanks and Steven Spielberg tarafından üretilen 10 bölümlük bir destan, Easy Company'nin, 506. Parachute Infantry Regiment'nin, Camp Toccoa'deki eğitimden Normandiya'ya, Bastogne and the'nin Avrupa'daki savaşın sonuna kadar olan gerçek adamlarını konu alıyor. 20 Emmy adaylığı topladı ve Outstanding Miniseries. dahil yedi ödül kazandı
@@ -96,7 +96,7 @@ Part of the "Band of Brothers"yi yeniden izlemenin kalıcı zevki, daha sonra y�
     slug: "hayden-panettiere-kacirilmamasi-gereken-6-rolu",
     title: "Hayden Panettiere'nin Mutlaka İzlenmesi Gereken 6 Rolü",
     excerpt: "Beş yaşında başlayan bir kariyer, yaklaşık 60 yapım ve 36 yaşında ani bir veda. Remember the Titans'tan Nashville'e, Hayden Panettiere'nin ekranda bıraktığı izi anlatan altı performans.",
-    countdownBadge: "6 role selection",
+    countdownBadge: "6 rol seçkisi",
     body: `Beş yaşında gündüz pembe dizisi _One Life to Live_ile başlayan kariyeri, Hayden Panettiere'nin ekran için doğduğunu kanıtladı. Erken gelişmiş bir çocuk yıldızdan, hem büyük hem de küçük ekranda çekici bir oyuncuya dönüştü: Disney yapımlarından cesur genç kraliçe rollerine ve oradan dramatik performanslara. _A Bug's Life_gibi hit animasyonlarda ve _Ally McBeal_gibi sitcom devlerinde rol aldı.
 
 Panettiere o kadar uzun süre ve o kadar çalıştı ki, Pazar günü 36 yaşında vefat ettiğinde arkasında yaklaşık 60 kredilik çarpıcı bir özgeçmiş bıraktı. İşte mutlaka görülmesi gereken altı performans.
@@ -1992,7 +1992,7 @@ Capcom için bir banner yılı. "Pragmata" ve "Monster Hunter Stories 3,"ye rağ
     slug: "ridley-scott-movies-ranked-worst-to-best",
     title: "Tüm Ridley Scott Filmleri: En Kötüden En İyiye",
     excerpt: "Başarısız İncil uyarlamalarından bilimkurgunun dönüm noktalarına, Rolling Stone 29 Ridley Scott filmini sıralıyor; olağanüstü çeşitlilikteki bu kariyerin zirvesinde Alien, Blade Runner ve Thelma & Louise var.",
-    countdownBadge: "29 films ranked",
+    countdownBadge: "29 film sıralandı",
     image: ridleyScottCover.url,
     source: "Rolling Stone",
     body: `Elli yıldır türler arasında Ridley Scott. Across kadar özgürce geçiş yapan çok az film yapımcısı var; o, bilimkurguda simge yapılar, tarihi destanlar, polisiye gerilim filmleri, savaş filmleri, korku filmleri ve samimi karakter çalışmaları yaptı; çoğu zaman ölçek ve atmosfere anında tanınabilen bir hakimiyetle.
@@ -2125,7 +2125,7 @@ Scott'nin uzaydaki perili ev filmi sabırlı bir terör örneği olmaya devam ed
     slug: "na-hong-jin-movies-to-watch-before-hope",
     title: "Hope Vizyona Girerken İzlemeniz Gereken 3 Na Hong-jin Filmi",
     excerpt: "Güney Kore'nin bugüne kadarki en pahalı filmi sinemalara iddialı bir giriş yaparken Na Hong-jin'in filmografisinde bir yolculuğa çıkıyoruz: Kore gerilim ve korku sinemasından üç modern klasik ve onları izleyebileceğiniz platformlar.",
-    countdownBadge: "3 films",
+    countdownBadge: "3 film",
     image: nhjCover.url,
     source: "Empire",
     body: `While the haftasının en büyük manşetleri başka bir yere ait; son derece eğlenceli, biraz hantal, gülünç derecede hırslı, neredeyse üç saatlik, gişe rekorları kıran, şu sıralar ilgi bekleyen başka bir bilim kurgu filmi daha var: Na Hong -jin'in gonzo yaratığı özelliği " Hope. "
