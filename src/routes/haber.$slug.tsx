@@ -10,6 +10,8 @@ import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getNews, NEWS } from "@/data/news";
 import nickUtAsset from "@/assets/nick-ut.png.asset.json";
 import toCatchAsset from "@/assets/to-catch-a-predator.jpg.asset.json";
+import kateSiegelAsset from "@/assets/kate-siegel.jpg.asset.json";
+import mikeFlanaganAsset from "@/assets/mike-flanagan.jpg.asset.json";
 import { publishedPost } from '@/lib/editorial-public.functions';
 import { EditorialArticle } from '@/components/site/EditorialArticle';
 
