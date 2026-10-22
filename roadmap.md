@@ -17,3 +17,4 @@
 - [x] Add three verified stories from different new-to-site film and gaming sources, keeping the game card lower on the homepage.
 - [x] Verify the three new article pages, site-hosted images, homepage cards, and PC Games listing.
 - [x] Add and verify the Turkish Carrie season 2 news card and article with a site-hosted cover.
+- [x] Connect the Bluesky account, publish the three prepared posts, and verify the daily auto-share job.
