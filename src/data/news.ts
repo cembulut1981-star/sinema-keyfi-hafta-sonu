@@ -79,6 +79,7 @@ import zendayaGarlandLab from "@/assets/zendaya-garland-a24-2.jpg";
 import miamiViceRichardson from "@/assets/miami-vice-richardson.jpg.asset.json";
 import senseSensibilityDashwoods from "@/assets/sense-sensibility-dashwoods.jpg.asset.json";
 import noMansSkyIos from "@/assets/no-mans-sky-ios.jpg.asset.json";
+import carrieSeasonTwo from "@/assets/carrie-prime-video-season-2.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -94,6 +95,36 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "carrie-season-2-confirmed-prime-video",
+    title: "Carrie’nin 2. Sezonu Onaylandı: Hikâye Balo Gecesinin Ötesine Geçiyor",
+    excerpt: "Prime Video, Mike Flanagan’ın Stephen King uyarlamasına ikinci sezon onayı verdi. Carrie White’ın yolculuğu, romanın sınırlarının ötesinde devam edecek.",
+    image: carrieSeasonTwo.url,
+    source: "Empire — Ben Travis, October 22, 2026",
+    body: `**Prime Video**, **Mike Flanagan** imzalı **Carrie** dizisinin ikinci sezonunu onayladı. Stephen King’in romanından uyarlanan yapım, yeni bölümlerde Carrie White’ın hikâyesini ünlü balo gecesinin ötesine taşıyacak.
+
+## Flanagan’ın Planı Tek Sezonla Sınırlı Değil
+
+Flanagan, daha ilk sezon yayımlanmadan önce hikâyeyi romanın sonrasına uzatmak istediğini ve yaklaşık üç sezonluk bir yolculuk düşündüğünü belirtmişti. İkinci sezon onayı bu hedefin ilk adımı; üçüncü sezon için verilmiş bir onay anlamına gelmiyor.
+
+Yönetmen, açıklamasında en başından beri balo gecesinin çok ötesine geçen bir hikâye hayal ettiklerini söyledi. Bu yeni yönü keşfetmelerine duyduğu güven ve verdiği destek için Stephen King’e teşekkür etti.
+
+## İlk Sezon Finalinden Sonra Ne Olacak?
+
+**Spoiler uyarısı: Bu bölüm ilk sezon finaline ilişkin ayrıntılar içeriyor.**
+
+İlk sezon balo sekansıyla sona erse de Carrie hayatta kalıyor. Finalde, kendisi gibi telekinetik güçlere sahip arkadaşı **Emaline** ile yola çıkıyor. Emaline’in, **Kate Siegel** tarafından canlandırılan gizemli bir psişik karakterin öncülük ettiği daha geniş bir grupla bağlantıları bulunuyor.
+
+Bu son, dizinin yalnızca Carrie’nin okul hayatına ve balo gecesine odaklanan bir uyarlama olarak kalmayacağını gösteriyor. İkinci sezonun temel sorusu, Carrie’nin bu yeni insanlarla karşılaştığında güçleriyle ve yaşadıklarıyla nasıl baş edeceği olacak; ayrıntılı olay örgüsü henüz açıklanmış değil.
+
+## Stephen King de Devam Hikâyesini Destekliyor
+
+Dizinin yapımcıları arasında yer alan **Stephen King**, Carrie White’ı ileride nelerin beklediğini izleyicilerin görmesi için sabırsızlandığını belirtti. Flanagan ile birlikte sıradaki gelişmelerden heyecan duyduklarını söylemesi, romanın ötesine uzanan bu devam hikâyesine verdiği desteği ortaya koyuyor.
+
+**Summer H. Howell**, Carrie rolüyle yeni sezonun merkezinde yer alacak. Ancak diğer oyunculardan kimlerin geri döneceği henüz doğrulanmadı. İkinci sezonun yayın tarihi de bu duyuruda açıklanmadı.
+
+Yeni bölümler, King’in romanını doğrudan takip etmek yerine Flanagan ve ekibinin açtığı yolda ilerleyecek. Dizinin Stephen King’in diğer eserleriyle daha fazla bağ kurup kurmayacağı ise şimdilik yanıt bekleyen sorulardan biri.`,
+  },
   {
     slug: "haley-lu-richardson-joins-miami-vice-85",
     title: "Haley Lu Richardson, Miami Vice ’85 Kadrosuna Katıldı",
