@@ -122,6 +122,34 @@ function NewsPage() {
                   </div>
                 </figure>
               ) : null}
+              {isCarrie && para.includes("romanın sonrasına uzatmak") ? (
+                <figure className="my-10 flex justify-center not-prose">
+                  <div className="w-full max-w-[420px] bg-[#ffbd3f] p-3">
+                    <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+                      <img src={mikeFlanaganAsset.url} alt="Mike Flanagan" className="w-full h-full object-cover object-top" />
+                      <div className="absolute bottom-3 left-3 bg-black/90 px-3 py-1.5">
+                        <span className="font-display text-sm font-black uppercase tracking-wider text-white">
+                          Mike Flanagan
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              ) : null}
+              {isCarrie && para.includes("Kate Siegel tarafından canlandırılan") ? (
+                <figure className="my-10 flex justify-center not-prose">
+                  <div className="w-full max-w-[420px] bg-[#00EAA1] p-3">
+                    <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+                      <img src={kateSiegelAsset.url} alt="Kate Siegel" className="w-full h-full object-cover object-top" />
+                      <div className="absolute bottom-3 left-3 bg-black/90 px-3 py-1.5">
+                        <span className="font-display text-sm font-black uppercase tracking-wider text-white">
+                          Kate Siegel
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              ) : null}
             </div>
           ))}
         </div>
