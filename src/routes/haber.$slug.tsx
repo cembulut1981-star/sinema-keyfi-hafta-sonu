@@ -137,7 +137,7 @@ function NewsPage() {
                   </div>
                 </figure>
               ) : null}
-              {isCarrie && para.includes("Kate Siegel tarafından canlandırılan") ? (
+              {isCarrie && para.includes("Kate Siegel") ? (
                 <figure className="my-10 flex justify-center not-prose">
                   <div className="w-full max-w-[420px] bg-[#00EAA1] p-3">
                     <div className="relative aspect-[4/5] overflow-hidden bg-muted">
