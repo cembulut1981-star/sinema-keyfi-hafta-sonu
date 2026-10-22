@@ -16,4 +16,4 @@
 - [ ] Verify generation, approval, public visibility, and daily scheduling.
 - [x] Add three verified stories from different new-to-site film and gaming sources, keeping the game card lower on the homepage.
 - [x] Verify the three new article pages, site-hosted images, homepage cards, and PC Games listing.
-- [ ] Add and verify the Turkish Carrie season 2 news card and article with a site-hosted cover.
+- [x] Add and verify the Turkish Carrie season 2 news card and article with a site-hosted cover.
