@@ -22,6 +22,7 @@ import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
 import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
 import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
 import { Route as ApiPublicEditorialMediaIdRouteImport } from './routes/api/public/editorial-media.$id'
+import { Route as ApiPublicJobsBlueskyShareRouteImport } from './routes/api/public/jobs/bluesky-share'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -89,6 +90,12 @@ const ApiPublicEditorialMediaIdRoute =
     path: '/api/public/editorial-media/$id',
     getParentRoute: () => rootRouteImport,
   } as any)
+const ApiPublicJobsBlueskyShareRoute =
+  ApiPublicJobsBlueskyShareRouteImport.update({
+    id: '/api/public/jobs/bluesky-share',
+    path: '/api/public/jobs/bluesky-share',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -104,6 +111,7 @@ export interface FileRoutesByFullPath {
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
+  '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -119,6 +127,7 @@ export interface FileRoutesByTo {
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
+  '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -135,6 +144,7 @@ export interface FileRoutesById {
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
+  '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -152,6 +162,7 @@ export interface FileRouteTypes {
     | '/liste/$slug'
     | '/muzik/$slug'
     | '/api/public/editorial-media/$id'
+    | '/api/public/jobs/bluesky-share'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -167,6 +178,7 @@ export interface FileRouteTypes {
     | '/liste/$slug'
     | '/muzik/$slug'
     | '/api/public/editorial-media/$id'
+    | '/api/public/jobs/bluesky-share'
   id:
     | '__root__'
     | '/'
@@ -182,6 +194,7 @@ export interface FileRouteTypes {
     | '/liste/$slug'
     | '/muzik/$slug'
     | '/api/public/editorial-media/$id'
+    | '/api/public/jobs/bluesky-share'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -198,6 +211,7 @@ export interface RootRouteChildren {
   ListeSlugRoute: typeof ListeSlugRoute
   MuzikSlugRoute: typeof MuzikSlugRoute
   ApiPublicEditorialMediaIdRoute: typeof ApiPublicEditorialMediaIdRoute
+  ApiPublicJobsBlueskyShareRoute: typeof ApiPublicJobsBlueskyShareRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -293,6 +307,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiPublicEditorialMediaIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/jobs/bluesky-share': {
+      id: '/api/public/jobs/bluesky-share'
+      path: '/api/public/jobs/bluesky-share'
+      fullPath: '/api/public/jobs/bluesky-share'
+      preLoaderRoute: typeof ApiPublicJobsBlueskyShareRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -310,6 +331,7 @@ const rootRouteChildren: RootRouteChildren = {
   ListeSlugRoute: ListeSlugRoute,
   MuzikSlugRoute: MuzikSlugRoute,
   ApiPublicEditorialMediaIdRoute: ApiPublicEditorialMediaIdRoute,
+  ApiPublicJobsBlueskyShareRoute: ApiPublicJobsBlueskyShareRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
