@@ -10,6 +10,8 @@ import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getNews, NEWS } from "@/data/news";
 import nickUtAsset from "@/assets/nick-ut.png.asset.json";
 import toCatchAsset from "@/assets/to-catch-a-predator.jpg.asset.json";
+import kateSiegelAsset from "@/assets/kate-siegel.jpg.asset.json";
+import mikeFlanaganAsset from "@/assets/mike-flanagan.jpg.asset.json";
 import { publishedPost } from '@/lib/editorial-public.functions';
 import { EditorialArticle } from '@/components/site/EditorialArticle';
 
@@ -45,6 +47,7 @@ function NewsPage() {
   if (!n) return null;
   const others = NEWS.filter((x) => x.slug !== slug);
   const isNapalm = slug === "napalm-kizi-fotografi-tartismasi-kim-cekti";
+  const isCarrie = slug === "carrie-season-2-confirmed-prime-video";
   // Dikey (portre) fotoğraflarda 16/9 çerçeve yüzü kesiyor.
   const isPrimetime = slug === "primetime-fragman-robert-pattinson-chris-hansen";
   const isPortraitPhoto = slug === "audrey-hepburn-anne-frank-rolunu-neden-reddetti";
@@ -117,6 +120,34 @@ function NewsPage() {
                     <figcaption className="mt-3 text-center font-display text-sm font-black uppercase tracking-wider text-black">
                       Chris Hansen — "To Catch a Predator" (2007)
                     </figcaption>
+                  </div>
+                </figure>
+              ) : null}
+              {isCarrie && para.includes("romanın sonrasına uzatmak") ? (
+                <figure className="my-10 flex justify-center not-prose">
+                  <div className="w-full max-w-[420px] bg-[#ffbd3f] p-3">
+                    <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+                      <img src={mikeFlanaganAsset.url} alt="Mike Flanagan" className="w-full h-full object-cover object-top" />
+                      <div className="absolute bottom-3 left-3 bg-black/90 px-3 py-1.5">
+                        <span className="font-display text-sm font-black uppercase tracking-wider text-white">
+                          Mike Flanagan
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              ) : null}
+              {isCarrie && para.includes("Kate Siegel") ? (
+                <figure className="my-10 flex justify-center not-prose">
+                  <div className="w-full max-w-[420px] bg-[#00EAA1] p-3">
+                    <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+                      <img src={kateSiegelAsset.url} alt="Kate Siegel" className="w-full h-full object-cover object-top" />
+                      <div className="absolute bottom-3 left-3 bg-black/90 px-3 py-1.5">
+                        <span className="font-display text-sm font-black uppercase tracking-wider text-white">
+                          Kate Siegel
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 </figure>
               ) : null}
