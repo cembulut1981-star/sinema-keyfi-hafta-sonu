@@ -7,6 +7,12 @@ import { LISTS } from "./lists";
 import { MUSIC } from "./music";
 import { SERIES } from "./series";
 
+describe("Bluesky shared article destinations", () => {
+  test("Ridley Scott's shared list remains available at its published slug", () => {
+    assert.equal(LISTS.filter((item) => item.slug === "ridley-scott-movies-ranked-worst-to-best").length, 1);
+  });
+});
+
 describe("Castlevania coverage placement", () => {
   test("belongs to PC Games", () => {
     assert.equal(GAME_ARTICLES.some((article) => article.newsSlug === "castlevania-belmonts-curse-review-highlights"), true);

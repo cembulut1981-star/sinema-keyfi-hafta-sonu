@@ -2181,6 +2181,7 @@ export const LISTS: ListItem[] = [
   ..._LIST_ORDER
     .filter((i) => i < _LISTS_RAW.length - 1)
     .map((i) => _LISTS_RAW[i]),
+  ..._LISTS_RAW.filter((item, index) => item !== newestList && !_LIST_ORDER.includes(index)),
 ];
 
 export function getList(slug: string) {
