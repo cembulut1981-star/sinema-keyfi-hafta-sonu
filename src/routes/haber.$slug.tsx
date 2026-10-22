@@ -47,6 +47,7 @@ function NewsPage() {
   if (!n) return null;
   const others = NEWS.filter((x) => x.slug !== slug);
   const isNapalm = slug === "napalm-kizi-fotografi-tartismasi-kim-cekti";
+  const isCarrie = slug === "carrie-season-2-confirmed-prime-video";
   // Dikey (portre) fotoğraflarda 16/9 çerçeve yüzü kesiyor.
   const isPrimetime = slug === "primetime-fragman-robert-pattinson-chris-hansen";
   const isPortraitPhoto = slug === "audrey-hepburn-anne-frank-rolunu-neden-reddetti";
