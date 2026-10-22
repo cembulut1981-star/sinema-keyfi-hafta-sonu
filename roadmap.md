@@ -18,3 +18,4 @@
 - [x] Verify the three new article pages, site-hosted images, homepage cards, and PC Games listing.
 - [x] Add and verify the Turkish Carrie season 2 news card and article with a site-hosted cover.
 - [x] Connect the Bluesky account, publish the three prepared posts, and verify the daily auto-share job.
+- [x] Add article cover previews and clickable links to Bluesky shares; verify a new Carrie post (Bluesky hides its cover behind a graphic-media warning; old post edits are not reflected in the feed).

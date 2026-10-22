@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { authenticateCronRequest } from "@/integrations/supabase/cron-auth";
 import type { Article } from "@/data/articles";
+import { buildShareText } from "@/lib/bluesky-post";
 
 const SITE = "https://sine-meta.com";
 const UTM = "?utm_source=bluesky&utm_medium=social&utm_campaign=filmsky_launch";
-const LIMIT = 290;
 
 const LINK_KEYS: Array<[keyof Article, string]> = [
   ["newsSlug", "haber"],
@@ -22,22 +22,6 @@ function articleLink(a: Article): { slug: string; url: string } | null {
     }
   }
   return null;
-}
-
-const len = (s: string) => Array.from(s).length;
-
-function trim(text: string, max: number): string {
-  const chars = Array.from(text.trim());
-  if (chars.length <= max) return chars.join("");
-  return `${chars.slice(0, Math.max(0, max - 1)).join("").trimEnd()}…`;
-}
-
-function buildText(a: Article, url: string): string {
-  const head = trim(a.title, 120);
-  const tail = ` #filmsky\n\n${url}`;
-  const room = LIMIT - len(head) - len(tail) - 2;
-  const body = room > 40 ? `\n\n${trim(a.excerpt, room)}` : "";
-  return `${head}${body}${tail}`;
 }
 
 export const Route = createFileRoute("/api/public/jobs/bluesky-share")({
@@ -66,7 +50,12 @@ export const Route = createFileRoute("/api/public/jobs/bluesky-share")({
           if (!link || done.has(link.slug)) continue;
 
           try {
-            const { uri } = await postToBluesky(buildText(article, link.url));
+            const { uri } = await postToBluesky(buildShareText(article.title, article.excerpt, link.url), {
+              url: link.url,
+              title: article.title,
+              description: article.excerpt,
+              image: article.image,
+            });
             const { error: insertError } = await supabaseAdmin
               .from("bluesky_shares")
               .insert({ slug: link.slug, category: article.category, uri });

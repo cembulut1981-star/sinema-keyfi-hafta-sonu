@@ -13,3 +13,4 @@
 - New article slugs are English; keep existing Turkish slugs and route prefixes so published URLs keep working.
 - Article route heads use articleHead() from src/lib/seo.ts (canonical, og, Article JSON-LD); dates come only from the source credit, never invented.
 - Public editorial reads share one explicit column projection aligned with anonymous grants; never select all columns, because private draft fields must remain inaccessible without breaking public pages.
+- Bluesky publishing uses a server-only credential helper with uploaded site-hosted covers in external link cards and UTF-8 link facets; shared text helpers stay browser-safe for isolated protocol tests.
