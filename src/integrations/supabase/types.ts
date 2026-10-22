@@ -14,6 +14,27 @@ export type Database = {
   }
   public: {
     Tables: {
+      bluesky_shares: {
+        Row: {
+          category: string | null
+          posted_at: string
+          slug: string
+          uri: string | null
+        }
+        Insert: {
+          category?: string | null
+          posted_at?: string
+          slug: string
+          uri?: string | null
+        }
+        Update: {
+          category?: string | null
+          posted_at?: string
+          slug?: string
+          uri?: string | null
+        }
+        Relationships: []
+      }
       editorial_job: {
         Row: {
           enabled: boolean

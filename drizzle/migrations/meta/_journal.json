@@ -15,6 +15,13 @@
       "when": 1792252749422,
       "tag": "0001_secure_editorial_media_and_public_columns",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792703738191,
+      "tag": "0002_create_bluesky_shares",
+      "breakpoints": true
     }
   ]
 }
