@@ -27,6 +27,14 @@ import nhjCover from "@/assets/na-hong-jin-hope-cover.jpg.asset.json";
 import nhjChaser from "@/assets/na-hong-jin-chaser.jpg.asset.json";
 import nhjYellowSea from "@/assets/na-hong-jin-yellow-sea.jpg.asset.json";
 import nhjWailing from "@/assets/na-hong-jin-wailing.jpg.asset.json";
+import projectHailMaryAsset from "@/assets/project_hail_mary.jpg.asset.json";
+import spidermanBndAsset from "@/assets/spiderman-brand-new-day-hq.jpg.asset.json";
+import scifiBackrooms from "@/assets/scifi-2026-backrooms.jpg.asset.json";
+import scifiMando from "@/assets/scifi-2026-mando.jpg.asset.json";
+import scifiDisclosure from "@/assets/scifi-2026-disclosure.jpg.asset.json";
+import scifiWar from "@/assets/scifi-2026-war.jpg.asset.json";
+import scifiCover from "@/assets/scifi-2026-cover.jpg.asset.json";
+import scifiMercy from "@/assets/scifi-2026-mercy.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -2163,6 +2171,87 @@ Yönetmenin kasvetli çizgisini sürdüren bu kaçak adam gerilim filmi, baş ta
 **Oyuncular:**Kwak Do -won, Hwang Jung -min, Chun Woo -hee, Jun Kunimura , Kim Hwan -hee, Heo Jin
 
 Korku türüne tam anlamıyla giren Director Na, 21. yüzyılın en düpedüz dehşet verici filmlerinden birini sundu; yerel bir Japon yabancıyla bağlantılı olduğu anlaşılan, doğaüstü cinayetlerle parçalanan bir South Korean köyünün hikayesinde ilkel bir şeyi kanalize etti. Yerel polis memuru Jong-goo'nun (Kwak Do -won) korkunç cinayetleri araştırmasıyla, film tamamen uyanıkken kabus moduna geçmeden önce bir tür polis prosedürü olarak başlıyor. Muhteşem bir şekilde çekilmiş, inanılmaz derecede atmosferik ve ilkel düzeyde dehşet uyandıran bir son sahneye sahip olan bu 150 dakikalık destan, tüm zamanların meşru bir örneği olmasına rağmen yine de bir şekilde suç teşkil edecek şekilde göz ardı ediliyor. Devam et!`,
+  },
+  {
+    slug: "best-sci-fi-movies-of-2026",
+    title: "2026'nın En İyi 7 Bilimkurgu Filmi: IMDb Puanları, Bütçeleri ve Gişeleriyle",
+    excerpt: "Project Hail Mary'den Backrooms'a, Spielberg'in Disclosure Day'inden Mandalorian and Grogu'ya: 2026'da bilimkurgu türünü sırtlayan yedi film, IMDb puanı, bütçe ve dünya gişesi bilgileriyle tek listede.",
+    countdownBadge: "7 film sıralandı",
+    image: scifiCover.url,
+    source: "Sine-Meta derlemesi — 23 Ekim 2026",
+    body: `2026, bilimkurgu için son yılların en hareketli yılı oldu: bir milyar doları aşan bir süper kahraman filmi, 10 milyon dolarlık bütçeyle A24'ün rekorunu kıran bir korku-bilimkurgu ve uzun süredir beklenen bir roman uyarlaması aynı takvime sığdı. Listeyi IMDb kullanıcı puanına göre sıraladık; bütçe ve gişe rakamlarını yanlarına ekledik. Açıklanmamış bütçeleri tahminle doldurmadık.
+
+## 1. Project Hail Mary
+
+![Project Hail Mary](${projectHailMaryAsset.url})
+
+**IMDb:** 8.2 | **Bütçe:** 200 milyon $ | **Dünya gişesi:** yaklaşık 685 milyon $
+
+**Yönetmen:** Phil Lord ve Christopher Miller | **Oyuncular:** Ryan Gosling
+
+Andy Weir'in romanından uyarlanan film, uzayda hafızasız uyanan bir fen öğretmeninin Güneş'i karartan gizemli maddeyi çözme görevini anlatıyor. Bilimi eğlenceli, dostluğu dokunaklı anlatan film yılın hem eleştirmen hem seyirci favorisi oldu; Prime Video'ya geçtiğinde de dünya çapında en çok izlenen film listesinin zirvesine yerleşti.
+
+## 2. Spider-Man: Brand New Day
+
+![Spider-Man: Brand New Day](${spidermanBndAsset.url})
+
+**IMDb:** 7.9 | **Bütçe:** 225 milyon $ | **Dünya gişesi:** yaklaşık 2,5 milyar $
+
+**Oyuncular:** Tom Holland
+
+No Way Home'un ardından herkesin onu unuttuğu bir dünyada hayatını yeniden kurmaya çalışan Peter Parker'ın hikâyesi. 2026'nın en çok kazanan bilimkurgu filmi; tek başına yılın tür gişesinin neredeyse yarısını topladı.
+
+## 3. Backrooms
+
+![Backrooms](${scifiBackrooms.url})
+
+**IMDb:** 6.7 | **Bütçe:** 10 milyon $ | **Dünya gişesi:** yaklaşık 400 milyon $
+
+**Yönetmen:** Kane Parsons | **Stüdyo:** A24
+
+İnternet efsanesi sonsuz sarı koridorları beyaz perdeye taşıyan Backrooms, yılın en büyük sürprizi oldu. Henüz yirmili yaşlarındaki Kane Parsons'ın filmi, A24'ün tarihindeki en çok kazanan yapım oldu ve bütçesinin yaklaşık 40 katını geri getirdi.
+
+## 4. Star Wars: The Mandalorian and Grogu
+
+![The Mandalorian and Grogu](${scifiMando.url})
+
+**IMDb:** 6.7 | **Bütçe:** açıklanmadı | **Dünya gişesi:** yaklaşık 346 milyon $
+
+**Yönetmen:** Jon Favreau | **Oyuncular:** Pedro Pascal
+
+Din Djarin ve Grogu'nun dizi ekranından sinemaya geçişi. Görsel olarak gösterişli bir macera, ama gişede Star Wars serisinin beklentisinin altında kaldı.
+
+## 5. Disclosure Day
+
+![Disclosure Day](${scifiDisclosure.url})
+
+**IMDb:** 6.4 | **Rotten Tomatoes:** %79 | **Bütçe:** açıklanmadı
+
+**Yönetmen:** Steven Spielberg | **Senaryo:** David Koepp | **Oyuncular:** Emily Blunt
+
+Spielberg'in ilk temas temasına dönüşü: insanlığın dünya dışı yaşamla yüzleştiği bir günü merkezine alan bir gerilim. Yönetmenin Jurassic Park ortağı Koepp'la yeniden buluştuğu film, eleştirmenlerden sıcak karşılık aldı.
+
+## 6. War Machine
+
+![War Machine](${scifiWar.url})
+
+**IMDb:** 6.3 | **Platform:** Netflix | **Bütçe:** açıklanmadı
+
+**Oyuncular:** Alan Ritchson
+
+Reacher yıldızı Alan Ritchson'ın, dev bir savaş makinesiyle karşı karşıya kalan askerleri canlandırdığı bu aksiyon-bilimkurgu, iki saatin altında süren, temposu hiç düşmeyen bir Netflix filmi.
+
+## 7. Mercy
+
+![Mercy](${scifiMercy.url})
+
+**IMDb:** 6.2 | **Bütçe:** açıklanmadı | **ABD gişesi:** yaklaşık 24 milyon $
+
+**Oyuncular:** Chris Pratt, Rebecca Ferguson
+
+Karısını öldürmekle suçlanan bir dedektif, masumiyetini kanıtlamak için yapay zekâ yargıcın karşısında yalnızca 90 dakikaya sahip. Yapay zekâ adaletini sorgulayan, gerçek zamanlı ilerleyen bir gerilim.
+
+Listede eksik gördüğün bir film var mı? Bize yaz.`,
   },
 ];
 
