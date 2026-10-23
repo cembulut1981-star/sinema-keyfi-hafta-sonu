@@ -27,6 +27,13 @@ import nhjCover from "@/assets/na-hong-jin-hope-cover.jpg.asset.json";
 import nhjChaser from "@/assets/na-hong-jin-chaser.jpg.asset.json";
 import nhjYellowSea from "@/assets/na-hong-jin-yellow-sea.jpg.asset.json";
 import nhjWailing from "@/assets/na-hong-jin-wailing.jpg.asset.json";
+import projectHailMaryAsset from "@/assets/project_hail_mary.jpg.asset.json";
+import spidermanBndAsset from "@/assets/spiderman-brand-new-day-hq.jpg.asset.json";
+import scifiBackrooms from "@/assets/scifi-2026-backrooms.jpg.asset.json";
+import scifiMando from "@/assets/scifi-2026-mando.jpg.asset.json";
+import scifiDisclosure from "@/assets/scifi-2026-disclosure.jpg.asset.json";
+import scifiWar from "@/assets/scifi-2026-war.jpg.asset.json";
+import scifiMercy from "@/assets/scifi-2026-mercy.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -2221,7 +2228,7 @@ Din Djarin ve Grogu'nun dizi ekranından sinemaya geçişi. Görsel olarak göst
 
 **Yönetmen:** Steven Spielberg | **Senaryo:** David Koepp | **Oyuncular:** Emily Blunt
 
-Spielberg'in ilk temas temasına dönüşü: dünyanın uzaylı varlığıyla yüzleştiği bir günü, sıradan insanların gözünden anlatan bir gerilim. Yönetmenin Jurassic Park ortağı Koepp'la yeniden buluştuğu film, eleştirmenlerden sıcak karşılık aldı.
+Spielberg'in ilk temas temasına dönüşü: insanlığın dünya dışı yaşamla yüzleştiği bir günü merkezine alan bir gerilim. Yönetmenin Jurassic Park ortağı Koepp'la yeniden buluştuğu film, eleştirmenlerden sıcak karşılık aldı.
 
 ## 6. War Machine
 
@@ -2231,7 +2238,7 @@ Spielberg'in ilk temas temasına dönüşü: dünyanın uzaylı varlığıyla y�
 
 **Oyuncular:** Alan Ritchson
 
-Reacher yıldızı Alan Ritchson'ın, eğitim tatbikatında dünya dışı bir savaş makinesiyle karşılaşan asker birliğini yönettiği bu aksiyon-bilimkurgu, iki saatin altında süren, temposu hiç düşmeyen bir Netflix filmi.
+Reacher yıldızı Alan Ritchson'ın, dev bir savaş makinesiyle karşı karşıya kalan askerleri canlandırdığı bu aksiyon-bilimkurgu, iki saatin altında süren, temposu hiç düşmeyen bir Netflix filmi.
 
 ## 7. Mercy
 
@@ -2243,7 +2250,7 @@ Reacher yıldızı Alan Ritchson'ın, eğitim tatbikatında dünya dışı bir s
 
 Karısını öldürmekle suçlanan bir dedektif, masumiyetini kanıtlamak için yapay zekâ yargıcın karşısında yalnızca 90 dakikaya sahip. Yapay zekâ adaletini sorgulayan, gerçek zamanlı ilerleyen bir gerilim.
 
-Listede eksik gördüğün bir film var mı? Yorumlarda ya da Instagram'da @sinemeta etiketiyle bize yaz.`,
+Listede eksik gördüğün bir film var mı? Bize yaz.`,
   },
 ];
 
