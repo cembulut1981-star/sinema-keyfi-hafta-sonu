@@ -1,3 +1,6 @@
+import yoteiCover from "@/assets/ghost-of-yotei-cover.webp.asset.json";
+import yoteiCharacters from "@/assets/ghost-of-yotei-characters.webp.asset.json";
+import yoteiSekigahara from "@/assets/ghost-of-yotei-sekigahara.webp.asset.json";
 import gameRe from "@/assets/game-re-requiem.jpg";
 import gameRe2 from "@/assets/game-re-requiem-2.jpg";
 import gameCrimson from "@/assets/game-crimson-desert.jpg";
@@ -67,9 +70,58 @@ export type Review = {
   videoUrl?: string;
   imdbRating?: string;
   gallery?: string[];
+  source?: string;
+  homepagePlacement?: "lower";
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "ghost-of-yotei-complete-edition-review",
+    origTitle: "Ghost of Yōtei Complete Edition",
+    title: "Ghost of Yōtei Complete Edition: Yeni Hikâye ve Most Wanted Moduyla Güçlü Bir Dönüş",
+    excerpt: "Echoes of Sekigahara, Atsu’nun geçmişine yeni bir pencere açarken Most Wanted modu dövüş sistemini kısa, yoğun ve tekrar oynanabilir mücadelelerle öne çıkarıyor.",
+    rating: "Olumlu",
+    image: yoteiCover.url,
+    source: "Final Weapon — October 23, 2026 — https://finalweapon.net/2026/10/23/ghost-of-yotei-complete-edition-review/",
+    homepagePlacement: "lower",
+    body: `**Ghost of Yōtei Complete Edition**, yalnızca ek içerikleri aynı pakete toplayan bir sürüm olarak değil, ana oyunun güçlü yanlarını yeniden öne çıkaran bir genişletme olarak dikkat çekiyor. 23 Ekim tarihli incelemenin odağında iki yenilik var: **Most Wanted** adlı roguelike mod ve **Echoes of Sekigahara** hikâye genişlemesi. Biri dövüşlerin temposunu değiştirirken diğeri Atsu’nun yolculuğuna yeni anlamlar katıyor.
+
+Bu yazı, yayımlanan PS5 incelemesindeki değerlendirmeleri derleyen bir içeriktir; bağımsız bir oynanış testine dayanmaz. İncelemenin genel yaklaşımı olumlu olsa da yeni hikâyenin kısa oluşu, paketin en belirgin çekincesi olarak öne çıkıyor.
+
+## Most Wanted: Kısa turlar, yoğun mücadeleler
+
+Most Wanted’da düşman dalgalarını aşarak Yōtei Six üyelerinden biriyle karşılaşmaya ilerliyorsunuz. Her aşamada seçilen güçlendirmeler ve ara karşılaşmaların ardından açılan silahlar, aynı dövüş sisteminden farklı stratejiler çıkarmayı mümkün kılıyor. Başarısız bir denemede bile o ana kadar kazanılan para korunuyor; kalıcı geliştirmeler bir sonraki tur için yeni seçenekler sunuyor.
+
+Dallanan rotalardan çok, arka arkaya gelen karşılaşmalara dayanan yapı bir arcade mücadele merdivenini andırıyor. Kısa turlar ve hızlı yeniden başlama, modun ritmini diri tutuyor. Kılıç darbelerini savuşturmak, oklardan kaçmak ve sıra dışı avantajları birleştirmek, ana oyunun dövüşlerinin neden etkili olduğunu hatırlatıyor.
+
+![Most Wanted modunda Ghost of Tsushima’nın kahramanı Jin Sakai](${yoteiCharacters.url})
+
+## Atsu’dan Jin Sakai’ye dört farklı yaklaşım
+
+Başlangıçta yalnızca Atsu ile oynanırken ilerleme sayesinde Oyuki, Nagato ve **Ghost of Tsushima**’dan Jin Sakai açılıyor. Karakterlerin yetenekleri farklı oyun tarzlarını destekliyor: Nagato uzaktan saldırılara ve patlayıcı oka yaslanırken Jin’in duruşları, çeşitli düşmanlara karşı esnek bir yaklaşım sağlıyor.
+
+İlk altı bölüm sonu karşılaşmasının ardından daha yüksek zorluklar ve kozmetik ödüller devreye giriyor. Bu tekrar oynanabilirlik, Most Wanted’ı tek seferlik bir yan etkinlikten daha değerli hale getiriyor. Bazı kostümler başka PlayStation oyunlarına göndermeler de içeriyor.
+
+## Echoes of Sekigahara: İntikamın ötesindeki hesaplaşma
+
+Yeni hikâye, ana oyunun olayları sürerken Atsu’nun geçmişinden Nagato ile yeniden karşılaşmasına odaklanıyor. Sekigahara Savaşı’nın bıraktığı izler, iki karakterin eski yaraları ve yeniden güven kurma çabası, anlatının merkezine yerleşiyor. Böylece hikâye yalnızca intikamın bedelini değil, hırsın ve saplantının insanları nasıl şekillendirdiğini de tartışıyor.
+
+İncelemede özellikle Atsu ile Nagato arasındaki ilişkinin ana oyunun anlatısını zenginleştirdiği vurgulanıyor. Karakterlerin geçmiş kararlarıyla yüzleşmesi, önceki çatışmaların anlamını genişletiyor; yeni bölüm, ayrı bir macera olmanın yanında mevcut hikâyeyi yeniden değerlendirmeye de alan açıyor.
+
+![Echoes of Sekigahara genişlemesinde Atsu ile Nagato’nun karşılaşması](${yoteiSekigahara.url})
+
+## Yeni yetenekler, sınırlı süre
+
+Genişleme; aynı anda üç hedefe ok atma, ağır silahları geçici olarak kullanma ve düşman oklarını yakalayıp geri gönderme gibi yetenekler ekliyor. Yeni bir bölge, kozmetikler ve Watanabe Mode için ek müzikler de paketi tamamlıyor. Buna karşılık yenilikler bütünüyle farklı bir dövüş sistemi kurmuyor; mevcut yapıyı tazeleyen eklemeler olarak kalıyor.
+
+En önemli sınırlama hikâyenin süresi: ana görevler bir öğleden sonra tamamlanabilecek kadar kısa, yan görevler ise birkaç saat daha ekliyor. Daha uzun bir macera bekleyenler için bu önemli bir not. Paketin değerini artıran unsur, hikâyenin uzunluğundan çok Most Wanted’ın tekrar oynanabilirliğiyle birlikte sunduğu bütünlük.
+
+## Kimler için anlamlı bir geri dönüş?
+
+İncelemede mevcut oyuncular için **15 dolarlık yükseltme**, yeni oyuncular için **70 dolarlık paket** üzerinden değerlendirme yapılıyor; bunlar yerel mağaza fiyatı veya güncel Türkiye fiyatı değildir. Ana oyunun dövüşlerini seven ama geri dönmek için yeni bir neden arayanlar, Most Wanted’da güçlü bir teşvik bulabilir. Hikâyeye önem verenler içinse Echoes of Sekigahara’nın katkısı, kısa süresine rağmen dikkat çekici.
+
+Genel tablo, iki eklemenin birbirini tamamladığı yönünde: Most Wanted mekanikleri yeniden parlatıyor, Echoes of Sekigahara ise karakterlerin hikâyesini derinleştiriyor. **Değerlendirmenin platformu PlayStation 5**; burada bir PC sürümü duyurusu veya PC performans testi aktarılmıyor.`,
+  },
   {
     slug: "resident-evil-requiem-game-review",
     origTitle: "Resident Evil Requiem",

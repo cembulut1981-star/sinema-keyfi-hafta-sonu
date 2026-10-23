@@ -45,6 +45,7 @@ const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
   reviewSlug: r.slug,
   videoUrl: r.videoUrl,
   imdbRating: r.imdbRating,
+  homepagePlacement: r.homepagePlacement,
 }));
 
 const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
@@ -108,6 +109,7 @@ export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LI
 
 // Video-game stories collected under the "PC Games" menu tab.
 const GAME_SLUGS = new Set([
+  "ghost-of-yotei-complete-edition-review",
   "no-mans-sky-ios-october-28-launch",
   "castlevania-belmonts-curse-review-highlights",
   "new-pc-games-2026-release-guide",
