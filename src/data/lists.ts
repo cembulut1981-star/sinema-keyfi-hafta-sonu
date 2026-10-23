@@ -33,6 +33,7 @@ import scifiBackrooms from "@/assets/scifi-2026-backrooms.jpg.asset.json";
 import scifiMando from "@/assets/scifi-2026-mando.jpg.asset.json";
 import scifiDisclosure from "@/assets/scifi-2026-disclosure.jpg.asset.json";
 import scifiWar from "@/assets/scifi-2026-war.jpg.asset.json";
+import scifiCover from "@/assets/scifi-2026-cover.jpg.asset.json";
 import scifiMercy from "@/assets/scifi-2026-mercy.jpg.asset.json";
 
 export type ListItem = {
@@ -2176,7 +2177,7 @@ Korku türüne tam anlamıyla giren Director Na, 21. yüzyılın en düpedüz de
     title: "2026'nın En İyi 7 Bilimkurgu Filmi: IMDb Puanları, Bütçeleri ve Gişeleriyle",
     excerpt: "Project Hail Mary'den Backrooms'a, Spielberg'in Disclosure Day'inden Mandalorian and Grogu'ya: 2026'da bilimkurgu türünü sırtlayan yedi film, IMDb puanı, bütçe ve dünya gişesi bilgileriyle tek listede.",
     countdownBadge: "7 film sıralandı",
-    image: projectHailMaryAsset.url,
+    image: scifiCover.url,
     source: "Sine-Meta derlemesi — 23 Ekim 2026",
     body: `2026, bilimkurgu için son yılların en hareketli yılı oldu: bir milyar doları aşan bir süper kahraman filmi, 10 milyon dolarlık bütçeyle A24'ün rekorunu kıran bir korku-bilimkurgu ve uzun süredir beklenen bir roman uyarlaması aynı takvime sığdı. Listeyi IMDb kullanıcı puanına göre sıraladık; bütçe ve gişe rakamlarını yanlarına ekledik. Açıklanmamış bütçeleri tahminle doldurmadık.
 
