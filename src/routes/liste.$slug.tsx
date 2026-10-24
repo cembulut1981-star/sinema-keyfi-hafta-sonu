@@ -162,6 +162,39 @@ function ListPage() {
 
         <OtherArticlesSidebar heading="Diğer listeler" items={others} to="/liste/$slug" />
       </div>
+
+      {openTrailer ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 sm:p-6"
+          onClick={() => setOpenTrailer(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label={openTrailer.label}
+        >
+          <div
+            className="relative w-full max-w-[880px]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setOpenTrailer(null)}
+              aria-label="Fragmanı kapat"
+              className="absolute -right-3 -top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-neutral-800 text-white shadow-lg transition-colors hover:bg-neutral-600"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+                <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
+              </svg>
+            </button>
+            <video
+              src={openTrailer.src}
+              controls
+              autoPlay
+              playsInline
+              className="aspect-video w-full rounded-sm bg-black"
+            />
+          </div>
+        </div>
+      ) : null}
     </SiteShell>
   );
 }
