@@ -9,6 +9,8 @@ import trailerBackrooms from "@/assets/trailer-backrooms.mp4.asset.json";
 import trailerSpiderMan from "@/assets/trailer-spider-man.mp4.asset.json";
 import trailerMandalorian from "@/assets/trailer-mandalorian-grogu.mp4.asset.json";
 import trailerDisclosureDay from "@/assets/trailer-disclosure-day.mp4.asset.json";
+import trailerWarMachine from "@/assets/trailer-war-machine.mp4.asset.json";
+import trailerMercy from "@/assets/trailer-mercy.mp4.asset.json";
 
 import { SiteShell } from "@/components/site/SiteShell";
 import { articleProse } from "@/lib/prose";
@@ -43,6 +45,8 @@ const FILM_TRAILERS: { match: string; src: string; label: string }[] = [
   { match: "Backrooms", src: trailerBackrooms.url, label: "Backrooms fragmanı" },
   { match: "The Mandalorian and Grogu", src: trailerMandalorian.url, label: "Star Wars: The Mandalorian and Grogu fragmanı" },
   { match: "Disclosure Day", src: trailerDisclosureDay.url, label: "Disclosure Day fragmanı" },
+  { match: "War Machine", src: trailerWarMachine.url, label: "War Machine fragmanı" },
+  { match: "Mercy", src: trailerMercy.url, label: "Mercy fragmanı" },
 ];
 
 function trailerFor(children: React.ReactNode) {

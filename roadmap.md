@@ -27,3 +27,4 @@
 - [x] Check the updated list page and its seven film sections.
 - [x] Add in-page popup trailer players for Project Hail Mary, Backrooms and Spider-Man: Brand New Day from site-hosted videos; verify open and close.
 - [x] Add site-hosted popup trailer players for The Mandalorian and Grogu and Disclosure Day; verify both open and close.
+- [x] Add site-hosted popup trailer players for War Machine and Mercy; verify all seven films have working players.
