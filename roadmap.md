@@ -23,3 +23,5 @@
 - [x] Replace the low-resolution Project Hail Mary photo with a high-resolution wide still; verify on the list and review pages.
 - [x] Replace the low-resolution Mercy photo with a high-resolution wide still; verify on the list page.
 - [x] Fix Turkish dotted-I capitalisation in the top menu (menu words rendered with dotless I); verify in the browser.
+- [ ] Verify Rotten Tomatoes scores for all seven films and add original Turkish critical summaries to the 2026 science-fiction list.
+- [ ] Check the updated list page and its seven film sections.
