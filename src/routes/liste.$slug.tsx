@@ -34,10 +34,36 @@ export const Route = createFileRoute("/liste/$slug")({
   ),
 });
 
+// Fragman butonu gösterilecek film başlıkları (sitede barındırılan videolar)
+const FILM_TRAILERS: { match: string; src: string; label: string }[] = [
+  { match: "Project Hail Mary", src: trailerProjectHailMary.url, label: "Project Hail Mary fragmanı" },
+  { match: "Spider-Man: Brand New Day", src: trailerSpiderMan.url, label: "Spider-Man: Brand New Day fragmanı" },
+  { match: "Backrooms", src: trailerBackrooms.url, label: "Backrooms fragmanı" },
+];
+
+function trailerFor(children: React.ReactNode) {
+  const text = typeof children === "string" ? children : "";
+  return FILM_TRAILERS.find((t) => text.includes(t.match)) ?? null;
+}
+
 function ListPage() {
   const { slug } = Route.useParams();
   const l = getList(slug)!;
   const others = LISTS.filter((x) => x.slug !== slug);
+  const [openTrailer, setOpenTrailer] = useState<{ src: string; label: string } | null>(null);
+
+  useEffect(() => {
+    if (!openTrailer) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpenTrailer(null);
+    };
+    window.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [openTrailer]);
 
   return (
     <SiteShell>
