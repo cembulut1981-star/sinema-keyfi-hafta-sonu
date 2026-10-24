@@ -2179,7 +2179,18 @@ Korku türüne tam anlamıyla giren Director Na, 21. yüzyılın en düpedüz de
     countdownBadge: "7 film sıralama",
     image: scifiCover.url,
     source: "Sine-Meta derlemesi — 23 Ekim 2026",
+    // RT title pages checked 24 October 2026: /m/project_hail_mary,
+    // /m/spider_man_brand_new_day, /m/backrooms,
+    // /m/star_wars_the_mandalorian_and_grogu, /m/disclosure_day,
+    // /m/war_machine (Alan Ritchson, 2026), /m/mercy_2026.
+    // Original critical synthesis from Guardian reviews (10 Mar, 28 Jul,
+    // 19 May, 9 Jun, 6 Mar, 21 Jan 2026 respectively, excluding Backrooms),
+    // CBC Hail Mary review, Independent Backrooms review coverage,
+    // RT Backrooms first-reviews roundup, BBC Disclosure Day review,
+    // THR War Machine review, and Empire/Variety Mercy reviews.
     body: `2026, bilimkurgu için son yılların en hareketli yılı oldu: bir milyar doları aşan bir süper kahraman filmi, 10 milyon dolarlık bütçeyle A24'ün rekorunu kıran bir korku-bilimkurgu ve uzun süredir beklenen bir roman uyarlaması aynı takvime sığdı. Listeyi IMDb kullanıcı puanına göre sıraladık; bütçe ve gişe rakamlarını yanlarına ekledik. Açıklanmamış bütçeleri tahminle doldurmadık.
+
+Her filmin Rotten Tomatoes eleştirmen ve izleyici yüzdesi ayrı ayrı yer alıyor. Bu yüzdeler 10 üzerinden not değil, olumlu değerlendirmelerin oranıdır; yeni değerlendirmeler geldikçe değişebilir. Rotten Tomatoes verileri 24 Ekim 2026'da kontrol edildi.
 
 ## 1. Project Hail Mary
 
@@ -2187,9 +2198,13 @@ Korku türüne tam anlamıyla giren Director Na, 21. yüzyılın en düpedüz de
 
 **IMDb:** 8.2 | **Bütçe:** 200 milyon $ | **Dünya gişesi:** yaklaşık 685 milyon $
 
+**Rotten Tomatoes:** Eleştirmen (Tomatometer) %95 | İzleyici (Popcornmeter) %95
+
 **Yönetmen:** Phil Lord ve Christopher Miller | **Oyuncular:** Ryan Gosling
 
 Andy Weir'in romanından uyarlanan film, uzayda hafızasız uyanan bir fen öğretmeninin Güneş'i karartan gizemli maddeyi çözme görevini anlatıyor. Bilimi eğlenceli, dostluğu dokunaklı anlatan film yılın hem eleştirmen hem seyirci favorisi oldu; Prime Video'ya geçtiğinde de dünya çapında en çok izlenen film listesinin zirvesine yerleşti.
+
+**Eleştirel değerlendirme:** Filmin en güçlü yanı, büyük bir kurtuluş görevini Ryan Gosling'in sıcaklığı ve mizahıyla kişisel bir maceraya dönüştürmesi. Bilimsel problem çözme sahneleri merak duygusunu canlı tutarken, dostluk ekseni teknik ayrıntıların soğuklaşmasını engelliyor. Bununla birlikte, hikâyenin bazı varsayımları fazlasıyla kolay kabul ediliyor ve uzun anlatı yer yer hız kaybediyor. Ortaya çıkan sonuç, felsefi derinliğinden çok karakterlerinin çekiciliği ve keşfetme heyecanıyla etkileyen bir uzay yolculuğu.
 
 ## 2. Spider-Man: Brand New Day
 
@@ -2197,9 +2212,13 @@ Andy Weir'in romanından uyarlanan film, uzayda hafızasız uyanan bir fen öğr
 
 **IMDb:** 7.9 | **Bütçe:** 225 milyon $ | **Dünya gişesi:** yaklaşık 2,5 milyar $
 
+**Rotten Tomatoes:** Eleştirmen (Tomatometer) %90 | İzleyici (Popcornmeter) %97
+
 **Oyuncular:** Tom Holland
 
 No Way Home'un ardından herkesin onu unuttuğu bir dünyada hayatını yeniden kurmaya çalışan Peter Parker'ın hikâyesi. 2026'nın en çok kazanan bilimkurgu filmi; tek başına yılın tür gişesinin neredeyse yarısını topladı.
+
+**Eleştirel değerlendirme:** Yeni maceranın ilgi çekici tarafı, Peter Parker'ı yalnızca şehri kurtaran bir kahraman olarak değil, yalnızlık ve değişimle baş etmeye çalışan kırılgan bir genç olarak yeniden merkeze alması. Bedensel dönüşümün yarattığı huzursuzluk, alışıldık süper kahraman gösterisine daha tekinsiz bir ton katıyor. Ancak çok sayıda fikri aynı anda taşıyan senaryo zaman zaman dağınıklaşıyor ve temposu düşüyor. Duygusal bağların öne çıktığı anlarda ise karakterin insani tarafı, büyük aksiyon sahnelerinden daha kalıcı bir etki bırakıyor.
 
 ## 3. Backrooms
 
@@ -2207,9 +2226,13 @@ No Way Home'un ardından herkesin onu unuttuğu bir dünyada hayatını yeniden 
 
 **IMDb:** 6.7 | **Bütçe:** 10 milyon $ | **Dünya gişesi:** yaklaşık 400 milyon $
 
+**Rotten Tomatoes:** Eleştirmen (Tomatometer) %86 | İzleyici (Popcornmeter) %74
+
 **Yönetmen:** Kane Parsons | **Stüdyo:** A24
 
 İnternet efsanesi sonsuz sarı koridorları beyaz perdeye taşıyan Backrooms, yılın en büyük sürprizi oldu. Henüz yirmili yaşlarındaki Kane Parsons'ın filmi, A24'ün tarihindeki en çok kazanan yapım oldu ve bütçesinin yaklaşık 40 katını geri getirdi.
+
+**Eleştirel değerlendirme:** Backrooms'un etkisi, korkuyu açıkça göstermekten çok tanıdık mekânları yavaş yavaş yabancılaştırmasından geliyor. Boş koridorlar, yön duygusunu bozan kadrajlar ve rahatsız edici ses tasarımı, kaçış ihtimali bile belirsiz bir dünyanın baskısını hissettiriyor. Oyunculuklar bu soyut tehdidi insani bir zemine oturturken, hikâyenin bazı soruları yanıtsız bırakması herkes için aynı ölçüde tatmin edici olmayabilir. Açıklamadan çok atmosfer arayan seyirci için güçlü, olay örgüsünde kesin cevap isteyenler içinse daha mesafeli bir deneyim.
 
 ## 4. Star Wars: The Mandalorian and Grogu
 
@@ -2217,19 +2240,27 @@ No Way Home'un ardından herkesin onu unuttuğu bir dünyada hayatını yeniden 
 
 **IMDb:** 6.7 | **Bütçe:** açıklanmadı | **Dünya gişesi:** yaklaşık 346 milyon $
 
+**Rotten Tomatoes:** Eleştirmen (Tomatometer) %60 | İzleyici (Popcornmeter) %86
+
 **Yönetmen:** Jon Favreau | **Oyuncular:** Pedro Pascal
 
 Din Djarin ve Grogu'nun dizi ekranından sinemaya geçişi. Görsel olarak gösterişli bir macera, ama gişede Star Wars serisinin beklentisinin altında kaldı.
+
+**Eleştirel değerlendirme:** Din Djarin ile Grogu arasındaki bağ ve aksiyonun rahat izlenen akışı, bu sinema macerasının başlıca dayanakları. Tanıdık galaksinin yaratıkları ve çatışmaları, serinin hayranlarına keyifli bir geri dönüş sunuyor. Buna karşılık, görevden göreve ilerleyen yapı zaman zaman tek başına güçlü bir filmden çok birbirine eklenmiş dizi bölümleri hissi veriyor. İkilinin çekiciliği gösteriyi ayakta tutsa da, anlatının daha büyük bir sinema deneyimini haklı çıkaracak dramatik ağırlığı her sahnede aynı ölçüde hissedilmiyor.
 
 ## 5. Disclosure Day
 
 ![Disclosure Day](${scifiDisclosure.url})
 
-**IMDb:** 6.4 | **Rotten Tomatoes:** %79 | **Bütçe:** açıklanmadı
+**IMDb:** 6.4 | **Bütçe:** açıklanmadı
+
+**Rotten Tomatoes:** Eleştirmen (Tomatometer) %79 | İzleyici (Popcornmeter) %69
 
 **Yönetmen:** Steven Spielberg | **Senaryo:** David Koepp | **Oyuncular:** Emily Blunt
 
 Spielberg'in ilk temas temasına dönüşü: insanlığın dünya dışı yaşamla yüzleştiği bir günü merkezine alan bir gerilim. Yönetmenin Jurassic Park ortağı Koepp'la yeniden buluştuğu film, eleştirmenlerden sıcak karşılık aldı.
+
+**Eleştirel değerlendirme:** Spielberg'in görüntü kurma becerisi, komplo gerilimiyle uzaylılarla karşılaşma heyecanını bir araya getirirken Emily Blunt'ın performansı hikâyeye güçlü bir merkez sağlıyor. Bilginin kim tarafından saklandığı ve neye inanılabileceği soruları, gösterişli maceranın altına bir güvensizlik duygusu yerleştiriyor. Yine de bazı fikirler yönetmenin önceki filmlerinden tanıdık geliyor; büyük açıklamalar ve yer yer abartılı gelişmeler herkesi ikna etmeyebilir. Film, yeniliğinden çok klasik bir sinemacının merak ve gerilim yaratma ustalığıyla öne çıkıyor.
 
 ## 6. War Machine
 
@@ -2237,9 +2268,13 @@ Spielberg'in ilk temas temasına dönüşü: insanlığın dünya dışı yaşam
 
 **IMDb:** 6.3 | **Platform:** Netflix | **Bütçe:** açıklanmadı
 
+**Rotten Tomatoes:** Eleştirmen (Tomatometer) %66 | İzleyici (Popcornmeter) %63
+
 **Oyuncular:** Alan Ritchson
 
 Reacher yıldızı Alan Ritchson'ın, dev bir savaş makinesiyle karşı karşıya kalan askerleri canlandırdığı bu aksiyon-bilimkurgu, iki saatin altında süren, temposu hiç düşmeyen bir Netflix filmi.
+
+**Eleştirel değerlendirme:** War Machine, özgün bir bilimkurgu fikri geliştirmekten çok kesintisiz bir hayatta kalma kovalamacasını etkili biçimde işletmeye odaklanıyor. Alan Ritchson'ın fiziksel varlığı, çatışmaların temposu ve görsel efektler, filmin doğrudan aksiyon vaadini destekliyor. Ancak karakterlerin sınırlı derinliği ve tanıdık senaryo kalıpları, gerilim sona erdiğinde geriye daha az şey bırakıyor. Beklentisini büyük sorulara değil sert, hızlı ve kolay izlenen bir mücadeleye ayarlayan seyirci için daha güçlü çalışan bir yapım.
 
 ## 7. Mercy
 
@@ -2247,9 +2282,13 @@ Reacher yıldızı Alan Ritchson'ın, dev bir savaş makinesiyle karşı karşı
 
 **IMDb:** 6.2 | **Bütçe:** açıklanmadı | **ABD gişesi:** yaklaşık 24 milyon $
 
+**Rotten Tomatoes:** Eleştirmen (Tomatometer) %24 | İzleyici (Popcornmeter) %81
+
 **Oyuncular:** Chris Pratt, Rebecca Ferguson
 
 Karısını öldürmekle suçlanan bir dedektif, masumiyetini kanıtlamak için yapay zekâ yargıcın karşısında yalnızca 90 dakikaya sahip. Yapay zekâ adaletini sorgulayan, gerçek zamanlı ilerleyen bir gerilim.
+
+**Eleştirel değerlendirme:** Mercy'nin en ilgi çekici hamlesi, dijital kayıtları ve geri sayımı bir soruşturmanın hareketli parçalarına dönüştürmesi; izleyiciyi sürekli yeni bir ipucunu değerlendirmeye zorlaması. Bu biçimsel canlılık, tanıdık suç hikâyesine zaman zaman gerçek bir gerilim kazandırıyor. Öte yandan, gözetim ve yapay zekâya devredilen adalet gibi ağır meseleler yeterince derinleştirilmiyor; finalde büyüyen aksiyon da başlangıçtaki dar alan baskısını zayıflatıyor. Eleştirmenlerle izleyiciler arasındaki belirgin puan farkı, filmin düşünsel tutarlılığından çok anlık sürükleyiciliğiyle karşılık bulduğunu düşündürüyor.
 
 Listede eksik gördüğün bir film var mı? Bize yaz.`,
   },
