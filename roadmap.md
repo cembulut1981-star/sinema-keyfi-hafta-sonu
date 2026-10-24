@@ -21,3 +21,5 @@
 - [x] Add article cover previews and clickable links to Bluesky shares; verify a new Carrie post (Bluesky hides its cover behind a graphic-media warning; old post edits are not reflected in the feed).
 - [x] Add a Turkish Ghost of Yōtei Complete Edition story with site-hosted images, lower homepage placement and PC Games listing; verify the article and card.
 - [x] Replace the low-resolution Project Hail Mary photo with a high-resolution wide still; verify on the list and review pages.
+- [x] Replace the low-resolution Mercy photo with a high-resolution wide still; verify on the list page.
+- [x] Fix Turkish dotted-I capitalisation in the top menu (menu words rendered with dotless I); verify in the browser.
