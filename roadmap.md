@@ -20,3 +20,4 @@
 - [x] Connect the Bluesky account, publish the three prepared posts, and verify the daily auto-share job.
 - [x] Add article cover previews and clickable links to Bluesky shares; verify a new Carrie post (Bluesky hides its cover behind a graphic-media warning; old post edits are not reflected in the feed).
 - [x] Add a Turkish Ghost of Yōtei Complete Edition story with site-hosted images, lower homepage placement and PC Games listing; verify the article and card.
+- [x] Replace the low-resolution Project Hail Mary photo with a high-resolution wide still; verify on the list and review pages.
