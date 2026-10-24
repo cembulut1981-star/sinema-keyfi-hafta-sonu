@@ -25,3 +25,5 @@
 - [x] Fix Turkish dotted-I capitalisation in the top menu (menu words rendered with dotless I); verify in the browser.
 - [x] Verify Rotten Tomatoes scores for all seven films and add original Turkish critical summaries to the 2026 science-fiction list.
 - [x] Check the updated list page and its seven film sections.
+- [x] Add in-page popup trailer players for Project Hail Mary, Backrooms and Spider-Man: Brand New Day from site-hosted videos; verify open and close.
+- [x] Add site-hosted popup trailer players for The Mandalorian and Grogu and Disclosure Day; verify both open and close.
