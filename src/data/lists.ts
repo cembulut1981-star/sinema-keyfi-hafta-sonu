@@ -27,7 +27,7 @@ import nhjCover from "@/assets/na-hong-jin-hope-cover.jpg.asset.json";
 import nhjChaser from "@/assets/na-hong-jin-chaser.jpg.asset.json";
 import nhjYellowSea from "@/assets/na-hong-jin-yellow-sea.jpg.asset.json";
 import nhjWailing from "@/assets/na-hong-jin-wailing.jpg.asset.json";
-import projectHailMaryAsset from "@/assets/project_hail_mary.jpg.asset.json";
+import projectHailMaryAsset from "@/assets/project_hail_mary-wide.jpg.asset.json";
 import spidermanBndAsset from "@/assets/spiderman-brand-new-day-hq.jpg.asset.json";
 import scifiBackrooms from "@/assets/scifi-2026-backrooms.jpg.asset.json";
 import scifiMando from "@/assets/scifi-2026-mando.jpg.asset.json";
