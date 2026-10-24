@@ -34,7 +34,7 @@ import scifiMando from "@/assets/scifi-2026-mando.jpg.asset.json";
 import scifiDisclosure from "@/assets/scifi-2026-disclosure.jpg.asset.json";
 import scifiWar from "@/assets/scifi-2026-war.jpg.asset.json";
 import scifiCover from "@/assets/scifi-2026-cover.jpg.asset.json";
-import scifiMercy from "@/assets/scifi-2026-mercy.jpg.asset.json";
+import scifiMercy from "@/assets/scifi-2026-mercy-wide.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
