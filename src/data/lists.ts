@@ -2176,7 +2176,7 @@ Korku türüne tam anlamıyla giren Director Na, 21. yüzyılın en düpedüz de
     slug: "best-sci-fi-movies-of-2026",
     title: "2026'nın En İyi 7 Bilimkurgu Filmi: IMDb Puanları, Bütçeleri ve Gişeleriyle",
     excerpt: "Project Hail Mary'den Backrooms'a, Spielberg'in Disclosure Day'inden Mandalorian and Grogu'ya: 2026'da bilimkurgu türünü sırtlayan yedi film, IMDb puanı, bütçe ve dünya gişesi bilgileriyle tek listede.",
-    countdownBadge: "7 film sıralandı",
+    countdownBadge: "7 film sıralama",
     image: scifiCover.url,
     source: "Sine-Meta derlemesi — 23 Ekim 2026",
     body: `2026, bilimkurgu için son yılların en hareketli yılı oldu: bir milyar doları aşan bir süper kahraman filmi, 10 milyon dolarlık bütçeyle A24'ün rekorunu kıran bir korku-bilimkurgu ve uzun süredir beklenen bir roman uyarlaması aynı takvime sığdı. Listeyi IMDb kullanıcı puanına göre sıraladık; bütçe ve gişe rakamlarını yanlarına ekledik. Açıklanmamış bütçeleri tahminle doldurmadık.
