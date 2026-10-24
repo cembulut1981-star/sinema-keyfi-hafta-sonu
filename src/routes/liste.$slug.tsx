@@ -77,6 +77,23 @@ function ListPage() {
                       </h2>
                     ),
                   }
+                : slug === "best-sci-fi-movies-of-2026"
+                ? {
+                    // Film adlarının altında, harflerin alt üçünü kesen yeşil işaretçi çizgisi
+                    h2: ({ children }: { children?: React.ReactNode }) => (
+                      <h2 className="font-serif-display text-3xl font-black leading-snug mt-12 mb-8">
+                        <span
+                          className="box-decoration-clone"
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(to top, transparent 0 12%, var(--card-green) 12% 46%, transparent 46%)",
+                          }}
+                        >
+                          {children}
+                        </span>
+                      </h2>
+                    ),
+                  }
                 : {
                     h2: ({ children }: { children?: React.ReactNode }) => (
                       <h2 className="font-serif-display text-3xl font-black leading-snug mt-12 mb-8">
