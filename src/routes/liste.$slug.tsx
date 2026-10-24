@@ -165,14 +165,14 @@ function ListPage() {
 
       {openTrailer ? (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 sm:p-6"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 sm:p-6"
           onClick={() => setOpenTrailer(null)}
           role="dialog"
           aria-modal="true"
           aria-label={openTrailer.label}
         >
           <div
-            className="relative w-full max-w-[880px]"
+            className="relative w-full max-w-[640px]"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -190,8 +190,11 @@ function ListPage() {
               controls
               autoPlay
               playsInline
-              className="aspect-video w-full rounded-sm bg-black"
+              className="aspect-video w-full rounded-md bg-black shadow-2xl"
             />
+            <p className="mt-3 text-center text-xs uppercase tracking-wider text-white/80">
+              {openTrailer.label} — kapatmak için ✕ tuşunu kullan
+            </p>
           </div>
         </div>
       ) : null}
