@@ -7,6 +7,8 @@ import { useEffect, useState } from "react";
 import trailerProjectHailMary from "@/assets/trailer-project-hail-mary.mp4.asset.json";
 import trailerBackrooms from "@/assets/trailer-backrooms.mp4.asset.json";
 import trailerSpiderMan from "@/assets/trailer-spider-man.mp4.asset.json";
+import trailerMandalorian from "@/assets/trailer-mandalorian-grogu.mp4.asset.json";
+import trailerDisclosureDay from "@/assets/trailer-disclosure-day.mp4.asset.json";
 
 import { SiteShell } from "@/components/site/SiteShell";
 import { articleProse } from "@/lib/prose";
@@ -39,6 +41,8 @@ const FILM_TRAILERS: { match: string; src: string; label: string }[] = [
   { match: "Project Hail Mary", src: trailerProjectHailMary.url, label: "Project Hail Mary fragmanı" },
   { match: "Spider-Man: Brand New Day", src: trailerSpiderMan.url, label: "Spider-Man: Brand New Day fragmanı" },
   { match: "Backrooms", src: trailerBackrooms.url, label: "Backrooms fragmanı" },
+  { match: "The Mandalorian and Grogu", src: trailerMandalorian.url, label: "Star Wars: The Mandalorian and Grogu fragmanı" },
+  { match: "Disclosure Day", src: trailerDisclosureDay.url, label: "Disclosure Day fragmanı" },
 ];
 
 function trailerFor(children: React.ReactNode) {
