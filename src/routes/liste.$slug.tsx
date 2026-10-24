@@ -111,19 +111,35 @@ function ListPage() {
                 : slug === "best-sci-fi-movies-of-2026"
                 ? {
                     // Film adlarının altında, harflerin alt üçünü kesen yeşil işaretçi çizgisi
-                    h2: ({ children }: { children?: React.ReactNode }) => (
-                      <h2 className="font-serif-display text-3xl font-black leading-snug mt-12 mb-8">
-                        <span
-                          className="box-decoration-clone"
-                          style={{
-                            backgroundImage:
-                              "linear-gradient(to top, transparent 0 12%, var(--card-green) 12% 46%, transparent 46%)",
-                          }}
-                        >
-                          {children}
-                        </span>
-                      </h2>
-                    ),
+                    h2: ({ children }: { children?: React.ReactNode }) => {
+                      const trailer = trailerFor(children);
+                      return (
+                        <h2 className="font-serif-display text-3xl font-black leading-snug mt-12 mb-8">
+                          <span
+                            className="box-decoration-clone"
+                            style={{
+                              backgroundImage:
+                                "linear-gradient(to top, transparent 0 12%, var(--card-green) 12% 46%, transparent 46%)",
+                            }}
+                          >
+                            {children}
+                          </span>
+                          {trailer ? (
+                            <button
+                              type="button"
+                              onClick={() => setOpenTrailer(trailer)}
+                              aria-label={trailer.label}
+                              className="ml-3 inline-flex translate-y-[-2px] items-center gap-2 border-2 border-black bg-black px-3 py-1 text-[11px] font-display font-bold uppercase tracking-wider text-white align-middle transition-colors hover:bg-white hover:text-black"
+                            >
+                              <svg viewBox="0 0 24 24" className="h-3 w-3 fill-current" aria-hidden="true">
+                                <path d="M8 5v14l11-7z" />
+                              </svg>
+                              Fragman
+                            </button>
+                          ) : null}
+                        </h2>
+                      );
+                    },
                   }
                 : {
                     h2: ({ children }: { children?: React.ReactNode }) => (
