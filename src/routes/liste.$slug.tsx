@@ -2,6 +2,11 @@ import { articleHead } from "@/lib/seo";
 import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
+import { useEffect, useState } from "react";
+
+import trailerProjectHailMary from "@/assets/trailer-project-hail-mary.mp4.asset.json";
+import trailerBackrooms from "@/assets/trailer-backrooms.mp4.asset.json";
+import trailerSpiderMan from "@/assets/trailer-spider-man.mp4.asset.json";
 
 import { SiteShell } from "@/components/site/SiteShell";
 import { articleProse } from "@/lib/prose";
