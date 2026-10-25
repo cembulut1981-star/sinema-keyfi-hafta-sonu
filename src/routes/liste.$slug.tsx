@@ -97,10 +97,16 @@ function ListPage() {
               // Rolling Stone galerisindeki gibi kalın siyah çerçeveli görseller
               img: ({ src, alt }) => (
                 <span className="my-10 block not-prose">
-                  <span className="mx-auto block w-full max-w-[760px] border-4 border-black bg-black">
+                  <span className="relative mx-auto block w-full max-w-[760px] border-4 border-black bg-black">
                     <img src={typeof src === "string" ? src : ""} alt={alt ?? ""} loading="lazy" className="w-full h-auto block" />
+                    {/* Film adı: fotoğrafın üzerinde sarı-siyah rozet (alt yazı yok) */}
+                    {slug === "best-sci-fi-movies-of-2026" && alt ? (
+                      <span className="absolute bottom-4 left-4 inline-block max-w-[90%] bg-[#ffbd3f] px-4 py-2 font-display text-base sm:text-lg font-bold uppercase tracking-wider text-black">
+                        {alt}
+                      </span>
+                    ) : null}
                   </span>
-                  {alt ? (
+                  {alt && slug !== "best-sci-fi-movies-of-2026" ? (
                     <span className="mt-3 block text-center text-sm text-muted-foreground">{alt}</span>
                   ) : null}
                 </span>
