@@ -22,23 +22,26 @@ export async function generateDraftBatch(db: SupabaseClient<Database>, apiKey: s
     });
     const payload = await search.json().catch(() => ({}));
     if (!search.ok || payload.success === false) throw new ContentServiceError(payload.message ?? payload.error ?? `News search failed (${search.status})`, search.status, payload.type ?? '');
-    const results: Array<{ url: string; title?: string; markdown?: string; metadata?: { publishedTime?: string } }> = Array.isArray(payload.data) ? payload.data : payload.data?.web ?? [];
+    const results: Array<{ url: string; title?: string; markdown?: string; metadata?: { publishedTime?: string; ogImage?: string } }> = Array.isArray(payload.data) ? payload.data : payload.data?.web ?? [];
     for (const item of results.slice(0, 3)) {
       const host = new URL(item.url).hostname.replace(/^www\./, '');
       if (!['empireonline.com','variety.com','ew.com','pcgamer.com','rollingstone.com'].includes(host)) continue;
       let markdown = item.markdown ?? '';
       let date = item.metadata?.publishedTime ?? '';
-      if (markdown.length < 200) {
+      let ogImage = item.metadata?.ogImage ?? '';
+      if (markdown.length < 200 || !ogImage) {
         const scrape = await fetch('https://connector-gateway.lovable.dev/firecrawl/v2/scrape', {
           method: 'POST', headers: { Authorization: `Bearer ${apiKey}`, 'X-Connection-Api-Key': firecrawlKey, 'Content-Type': 'application/json' },
           body: JSON.stringify({ url: item.url, formats: ['markdown'], onlyMainContent: true }),
         });
         const raw = await scrape.json().catch(() => ({}));
         if (!scrape.ok || raw.success === false) throw new ContentServiceError(raw.message ?? raw.error ?? `News retrieval failed (${scrape.status})`, scrape.status, raw.type ?? '');
-        markdown = raw.data?.markdown ?? raw.markdown ?? '';
-        date = raw.data?.metadata?.publishedTime ?? raw.metadata?.publishedTime ?? date;
+        markdown = raw.data?.markdown ?? raw.markdown ?? markdown;
+        const meta = raw.data?.metadata ?? raw.metadata ?? {};
+        date = meta.publishedTime ?? date;
+        ogImage = meta.ogImage ?? meta['og:image'] ?? ogImage;
       }
-      if (markdown.length < 200) continue;
+      if (markdown.length < 200 || !/^https:\/\//.test(ogImage)) continue;
       const url = new URL(item.url); url.hash = ''; url.search = '';
       const existing = await db.from('editorial_posts').select('id').eq('source_url', url.href).maybeSingle();
       if (existing.error) throw new Error('Could not check existing stories');
