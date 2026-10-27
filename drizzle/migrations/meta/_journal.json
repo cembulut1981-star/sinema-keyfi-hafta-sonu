@@ -22,6 +22,27 @@
       "when": 1792703738191,
       "tag": "0002_create_bluesky_shares",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793110201028,
+      "tag": "0003_migration",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793110256131,
+      "tag": "0004_migration",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793110360148,
+      "tag": "0005_migration",
+      "breakpoints": true
     }
   ]
 }

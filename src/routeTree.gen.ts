@@ -23,6 +23,7 @@ import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
 import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
 import { Route as ApiPublicEditorialMediaIdRouteImport } from './routes/api/public/editorial-media.$id'
 import { Route as ApiPublicJobsBlueskyShareRouteImport } from './routes/api/public/jobs/bluesky-share'
+import { Route as ApiPublicJobsEditorialDailyRouteImport } from './routes/api/public/jobs/editorial-daily'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -96,6 +97,12 @@ const ApiPublicJobsBlueskyShareRoute =
     path: '/api/public/jobs/bluesky-share',
     getParentRoute: () => rootRouteImport,
   } as any)
+const ApiPublicJobsEditorialDailyRoute =
+  ApiPublicJobsEditorialDailyRouteImport.update({
+    id: '/api/public/jobs/editorial-daily',
+    path: '/api/public/jobs/editorial-daily',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -112,6 +119,7 @@ export interface FileRoutesByFullPath {
   '/muzik/$slug': typeof MuzikSlugRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
   '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
+  '/api/public/jobs/editorial-daily': typeof ApiPublicJobsEditorialDailyRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -128,6 +136,7 @@ export interface FileRoutesByTo {
   '/muzik/$slug': typeof MuzikSlugRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
   '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
+  '/api/public/jobs/editorial-daily': typeof ApiPublicJobsEditorialDailyRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -145,6 +154,7 @@ export interface FileRoutesById {
   '/muzik/$slug': typeof MuzikSlugRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
   '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
+  '/api/public/jobs/editorial-daily': typeof ApiPublicJobsEditorialDailyRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -163,6 +173,7 @@ export interface FileRouteTypes {
     | '/muzik/$slug'
     | '/api/public/editorial-media/$id'
     | '/api/public/jobs/bluesky-share'
+    | '/api/public/jobs/editorial-daily'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -179,6 +190,7 @@ export interface FileRouteTypes {
     | '/muzik/$slug'
     | '/api/public/editorial-media/$id'
     | '/api/public/jobs/bluesky-share'
+    | '/api/public/jobs/editorial-daily'
   id:
     | '__root__'
     | '/'
@@ -195,6 +207,7 @@ export interface FileRouteTypes {
     | '/muzik/$slug'
     | '/api/public/editorial-media/$id'
     | '/api/public/jobs/bluesky-share'
+    | '/api/public/jobs/editorial-daily'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -212,6 +225,7 @@ export interface RootRouteChildren {
   MuzikSlugRoute: typeof MuzikSlugRoute
   ApiPublicEditorialMediaIdRoute: typeof ApiPublicEditorialMediaIdRoute
   ApiPublicJobsBlueskyShareRoute: typeof ApiPublicJobsBlueskyShareRoute
+  ApiPublicJobsEditorialDailyRoute: typeof ApiPublicJobsEditorialDailyRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -314,6 +328,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiPublicJobsBlueskyShareRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/jobs/editorial-daily': {
+      id: '/api/public/jobs/editorial-daily'
+      path: '/api/public/jobs/editorial-daily'
+      fullPath: '/api/public/jobs/editorial-daily'
+      preLoaderRoute: typeof ApiPublicJobsEditorialDailyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -332,6 +353,7 @@ const rootRouteChildren: RootRouteChildren = {
   MuzikSlugRoute: MuzikSlugRoute,
   ApiPublicEditorialMediaIdRoute: ApiPublicEditorialMediaIdRoute,
   ApiPublicJobsBlueskyShareRoute: ApiPublicJobsBlueskyShareRoute,
+  ApiPublicJobsEditorialDailyRoute: ApiPublicJobsEditorialDailyRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

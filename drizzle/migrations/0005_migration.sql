@@ -1,0 +1,1 @@
+UPDATE public.editorial_posts SET status='rejected' WHERE slug='the-50-most-played-steam-next-fest-demos-include-7-incremental-fee1fa93';
