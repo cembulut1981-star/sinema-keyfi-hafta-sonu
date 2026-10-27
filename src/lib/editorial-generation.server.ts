@@ -2,6 +2,7 @@ import { Output } from 'ai';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '@/integrations/supabase/types';
 import { generationSchema, englishSlug, providerPause } from './editorial';
+import { EDITORIAL_SEARCH_QUERY, isEditorialSource } from './editorial-sources';
 
 class ContentServiceError extends Error {
   constructor(message: string, public status: number, public kind: string) { super(message); }
@@ -18,14 +19,13 @@ export async function generateDraftBatch(db: SupabaseClient<Database>, apiKey: s
   try {
     const search = await fetch('https://connector-gateway.lovable.dev/firecrawl/v2/search', {
       method: 'POST', headers: { Authorization: `Bearer ${apiKey}`, 'X-Connection-Api-Key': firecrawlKey, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query: '(site:empireonline.com OR site:variety.com OR site:ew.com OR site:pcgamer.com OR site:rollingstone.com) (movie OR television OR music OR PC games) news', limit: 3, tbs: 'qdr:d', scrapeOptions: { formats: ['markdown'] } }),
+      body: JSON.stringify({ query: EDITORIAL_SEARCH_QUERY, limit: 3, tbs: 'qdr:d', scrapeOptions: { formats: ['markdown'] } }),
     });
     const payload = await search.json().catch(() => ({}));
     if (!search.ok || payload.success === false) throw new ContentServiceError(payload.message ?? payload.error ?? `News search failed (${search.status})`, search.status, payload.type ?? '');
     const results: Array<{ url: string; title?: string; markdown?: string; metadata?: { publishedTime?: string; ogImage?: string } }> = Array.isArray(payload.data) ? payload.data : payload.data?.web ?? [];
     for (const item of results.slice(0, 3)) {
-      const host = new URL(item.url).hostname.replace(/^www\./, '');
-      if (!['empireonline.com','variety.com','ew.com','pcgamer.com','rollingstone.com'].includes(host)) continue;
+      if (!isEditorialSource(item.url)) continue;
       let markdown = item.markdown ?? '';
       let date = item.metadata?.publishedTime ?? '';
       let ogImage = item.metadata?.ogImage ?? '';
