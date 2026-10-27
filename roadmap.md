@@ -11,9 +11,9 @@
 - [x] List the editorial email on the contact page and verify the mail link.
 - [x] Publish homepage stories without a visible source credit and verify every homepage article page.
 - [x] Repair public page loading after editorial integration and verify homepage, categories, articles, RSS and sitemap.
-- [ ] Add secure editorial sign-in, daily AI drafts, and approval-only publication.
-- [ ] Integrate approved stories into homepage, categories, article pages, RSS and sitemap.
-- [ ] Verify generation, approval, public visibility, and daily scheduling.
+- [x] Daily automatic news publishing (no approval, per user).
+- [x] Auto stories appear on homepage and article pages.
+- [x] Verified a live run and the daily 06:00 UTC schedule.
 - [x] Add three verified stories from different new-to-site film and gaming sources, keeping the game card lower on the homepage.
 - [x] Verify the three new article pages, site-hosted images, homepage cards, and PC Games listing.
 - [x] Add and verify the Turkish Carrie season 2 news card and article with a site-hosted cover.
