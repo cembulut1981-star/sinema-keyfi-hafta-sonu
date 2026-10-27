@@ -1,0 +1,1 @@
+INSERT INTO public.editorial_job (id, enabled, paused) VALUES (1, true, false) ON CONFLICT (id) DO NOTHING;
