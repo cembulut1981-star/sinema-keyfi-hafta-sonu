@@ -274,9 +274,19 @@ function Index() {
   const { data: published } = useSuspenseQuery(publishedPostsQuery);
   const newCards = published.map(toEditorialCard);
   const dynamicLead = newCards.filter(a => !a.homepagePlacement);
-  const leadCenter = dynamicLead[0] ?? NEW_REVIEW;
-  const leadSides = dynamicLead.length ? [...dynamicLead.slice(1), ...(NEW_REVIEW ? [NEW_REVIEW] : []), ...NEW_STORIES].slice(0, 4) : NEW_STORIES;
-  const leadIds = new Set([leadCenter?.id, ...leadSides.map(a => a.id)]);
+  // Yeni otomatik haberler 5'erli (1 büyük + 4 küçük) tam satırlara bölünür.
+  // Her tamamlanan satır kendi kolonu olarak üst bölüme çıkar; böylece yeni
+  // içerik biriktikçe eski satırlar aşağı iner ve sayfanın tepesi taze kalır.
+  const newRowGroups: { center: Article; sides: Article[] }[] = [];
+  const fullGroups = Math.floor(dynamicLead.length / 5);
+  for (let i = 0; i < fullGroups; i++) {
+    const group = dynamicLead.slice(i * 5, i * 5 + 5);
+    newRowGroups.push({ center: group[0], sides: group.slice(1) });
+  }
+  const leadRest = dynamicLead.slice(fullGroups * 5);
+  const leadCenter = leadRest[0] ?? NEW_REVIEW;
+  const leadSides = leadRest.length ? [...leadRest.slice(1), ...(NEW_REVIEW ? [NEW_REVIEW] : []), ...NEW_STORIES].slice(0, 4) : NEW_STORIES;
+  const leadIds = new Set([...dynamicLead.map(a => a.id), NEW_REVIEW?.id, ...leadSides.map(a => a.id)]);
   const feed = [...dynamicLead, ...(NEW_REVIEW ? [NEW_REVIEW] : []), ...NEW_STORIES, ...FEED_ARTICLES].filter((a, i, all) => !leadIds.has(a.id) && all.findIndex(b => b.id === a.id) === i);
 
   // Build the feed for a given number of visible posts.
@@ -341,6 +351,9 @@ function Index() {
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
         <div className="h-10 md:h-14" aria-hidden />
         {leadCenter ? <MixedRow centerCard={leadCenter} sideCards={leadSides} centerFirstMobile /> : null}
+        {newRowGroups.map((r, i) => (
+          <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
+        ))}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="Dizi" dateLabel="13 Eylül 2026" />
         ) : null}
