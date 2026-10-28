@@ -351,6 +351,9 @@ function Index() {
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
         <div className="h-10 md:h-14" aria-hidden />
         {leadCenter ? <MixedRow centerCard={leadCenter} sideCards={leadSides} centerFirstMobile /> : null}
+        {newRowGroups.map((r, i) => (
+          <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
+        ))}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="Dizi" dateLabel="13 Eylül 2026" />
         ) : null}
