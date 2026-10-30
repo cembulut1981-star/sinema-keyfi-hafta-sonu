@@ -98,7 +98,7 @@ function Nav() {
     <nav className="sticky top-0 z-30 bg-background/95 backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 flex items-center gap-3">
         <Link to="/" aria-label="Anasayfa" className="shrink-0">
-          <SiteMark className="h-8 w-8" />
+          <SiteMark className="h-9 w-9" />
         </Link>
         <ul className="flex-1 flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
           {NAV.map((item) => (
