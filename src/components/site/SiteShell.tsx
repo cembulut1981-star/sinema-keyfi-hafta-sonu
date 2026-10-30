@@ -3,7 +3,7 @@ import { useState, type FormEvent, type ReactNode } from "react";
 import { Search } from "lucide-react";
 
 import logoAsset from "@/assets/logo.svg.asset.json";
-import kissIconAsset from "@/assets/rock-kiss-icon.png.asset.json";
+import kissMarkAsset from "@/assets/rock-kiss-mark.png";
 import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
@@ -27,20 +27,9 @@ export function SiteShell({ children }: { children: ReactNode }) {
   );
 }
 
-/** Sine-Meta simgesi: film karesi içinde oynat üçgeni + "SM" monogramı. */
+/** Sine-Meta simgesi: retro dudak (kiss) işareti. */
 export function SiteMark({ className = "h-9 w-9" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 40 40" className={className} aria-hidden="true">
-      <rect x="1.5" y="1.5" width="37" height="37" rx="6" className="fill-foreground" />
-      {[7, 15, 23, 31].map((y) => (
-        <g key={y} className="fill-background">
-          <rect x="4.5" y={y} width="3" height="3" rx="0.6" />
-          <rect x="32.5" y={y} width="3" height="3" rx="0.6" />
-        </g>
-      ))}
-      <path d="M15 11.5 L28 20 L15 28.5 Z" className="fill-primary" />
-    </svg>
-  );
+  return <img src={kissMarkAsset} alt="" className={`${className} object-contain`} draggable={false} />;
 }
 
 const TRENDING: { label: string; slug: string }[] = [
