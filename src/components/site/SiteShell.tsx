@@ -27,19 +27,63 @@ export function SiteShell({ children }: { children: ReactNode }) {
   );
 }
 
+/** Sine-Meta simgesi: film karesi içinde oynat üçgeni + "SM" monogramı. */
+export function SiteMark({ className = "h-9 w-9" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 40 40" className={className} aria-hidden="true">
+      <rect x="1.5" y="1.5" width="37" height="37" rx="6" className="fill-foreground" />
+      {[7, 15, 23, 31].map((y) => (
+        <g key={y} className="fill-background">
+          <rect x="4.5" y={y} width="3" height="3" rx="0.6" />
+          <rect x="32.5" y={y} width="3" height="3" rx="0.6" />
+        </g>
+      ))}
+      <path d="M15 11.5 L28 20 L15 28.5 Z" className="fill-primary" />
+    </svg>
+  );
+}
+
+const TRENDING: { label: string; slug: string }[] = [
+  { label: "Vizyondakiler", slug: "haberler" },
+  { label: "2026 Bilimkurgu", slug: "listeler" },
+  { label: "Yeni Diziler", slug: "diziler" },
+  { label: "Oyun Rehberi", slug: "pc-games" },
+  { label: "Konserler", slug: "muzik" },
+];
+
 function Header() {
   return (
-    <header className="relative overflow-hidden">
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-center">
-        <Link to="/" className="block w-full max-w-2xl">
-          <img
-            src={logoAsset.url}
-            alt="Sine-Meta"
-            className="h-20 w-auto mx-auto"
-            width={2017}
-            height={528}
-          />
+    <header>
+      <div className="bg-foreground text-background">
+        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-9 flex items-center gap-4 text-[11px] font-display uppercase tracking-[0.18em]">
+          <span className="inline-flex items-center gap-2 font-black">
+            <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" aria-hidden="true" />
+            Trend
+          </span>
+          <ul className="flex-1 flex items-center gap-5 overflow-x-auto scrollbar-none whitespace-nowrap">
+            {TRENDING.map((t) => (
+              <li key={t.label}>
+                <Link to="/kategori/$slug" params={{ slug: t.slug }} className="opacity-70 hover:opacity-100 hover:text-primary transition">
+                  {t.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <a href="/rss.xml" className="hidden sm:inline opacity-70 hover:opacity-100 hover:text-primary">RSS</a>
+        </div>
+      </div>
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between gap-4">
+        <p className="hidden md:block w-48 font-display text-[10px] font-black uppercase tracking-[0.25em] text-muted-foreground leading-relaxed">
+          Film · Dizi · Oyun<br />Bağımsız eleştiri dergisi
+        </p>
+        <Link to="/" className="flex-1 md:flex-none flex justify-center">
+          <img src={logoAsset.url} alt="Sine-Meta" className="h-14 sm:h-16 w-auto" width={2017} height={528} />
         </Link>
+        <div className="hidden md:flex w-48 justify-end">
+          <Link to="/kategori/$slug" params={{ slug: "listeler" }} className="inline-flex items-center gap-2 border-2 border-foreground px-3 py-2 font-display text-[10px] font-black uppercase tracking-[0.2em] hover:bg-foreground hover:text-background transition-colors">
+            Editörün Seçimi →
+          </Link>
+        </div>
       </div>
     </header>
   );
@@ -62,130 +106,108 @@ function Nav() {
   }
 
   return (
-    <>
-      <nav className="border-t border-black border-b border-black sticky top-0 z-30 bg-background/95 backdrop-blur">
-        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 flex items-center gap-3">
-          <img
-            src={kissIconAsset.url}
-            alt=""
-            aria-hidden="true"
-            className="h-8 w-8 shrink-0 object-contain"
-            width={32}
-            height={32}
+    <nav className="sticky top-0 z-30 bg-background/95 backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 flex items-center gap-3">
+        <Link to="/" aria-label="Anasayfa" className="shrink-0">
+          <SiteMark className="h-8 w-8" />
+        </Link>
+        <ul className="flex-1 flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
+          {NAV.map((item) => (
+            <li key={item.label}>
+              <Link
+                to={item.to as any}
+                params={item.params as any}
+                activeOptions={{ exact: true }}
+                className="relative font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-foreground/75 hover:text-foreground transition-colors data-[status=active]:text-foreground after:absolute after:left-3 after:right-3 after:bottom-0 after:h-[4px] after:bg-primary after:origin-left after:scale-x-0 hover:after:scale-x-100 data-[status=active]:after:scale-x-100 after:transition-transform after:duration-300"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <form onSubmit={onSubmit} role="search" className="shrink-0 flex items-center">
+          <label htmlFor="site-search" className="sr-only">Ara</label>
+          <input
+            id="site-search"
+            type="search"
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            onBlur={() => { if (!q) setOpen(false); }}
+            placeholder="Film, dizi, oyun ara"
+            aria-hidden={!open}
+            tabIndex={open ? 0 : -1}
+            className={`bg-transparent text-sm text-foreground placeholder:text-muted-foreground focus:outline-none border-b-2 border-foreground focus:border-primary transition-all duration-200 ${
+              open ? "w-36 sm:w-48 opacity-100 px-2 py-1" : "w-0 opacity-0 p-0 border-transparent"
+            }`}
           />
-          <ul className="flex-1 flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
+          <button
+            type={open ? "submit" : "button"}
+            onClick={() => {
+              if (!open) {
+                setOpen(true);
+                setTimeout(() => document.getElementById("site-search")?.focus(), 0);
+              }
+            }}
+            aria-label="Ara"
+            className="ml-2 h-9 w-9 inline-flex items-center justify-center rounded-full bg-foreground text-background hover:bg-primary hover:text-foreground transition-colors"
+          >
+            <Search className="h-4 w-4" />
+          </button>
+        </form>
+      </div>
+    </nav>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="mt-20 bg-foreground text-background">
+      <div className="h-2 bg-primary" aria-hidden="true" />
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-12 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+        <div>
+          <div className="flex items-center gap-3">
+            <span className="rounded-md bg-background p-1"><SiteMark className="h-10 w-10" /></span>
+            <span className="font-display text-3xl font-black uppercase tracking-tight">Sine-Meta</span>
+          </div>
+          <p className="mt-4 max-w-sm text-sm leading-relaxed opacity-70">
+            Film, dizi, müzik ve oyun dünyasından güncel haberler, incelemeler ve listeler. Bağımsız, meraklı, Türkçe.
+          </p>
+          <a href="/rss.xml" className="mt-5 inline-flex items-center gap-2 border-2 border-background px-4 py-2 font-display text-[11px] font-black uppercase tracking-[0.2em] hover:bg-primary hover:border-primary hover:text-foreground transition-colors">
+            RSS ile takip et
+          </a>
+        </div>
+        <div>
+          <h3 className="font-display text-[11px] font-black uppercase tracking-[0.25em] text-primary">Keşfet</h3>
+          <ul className="mt-4 grid grid-cols-2 gap-y-2.5 gap-x-4">
             {NAV.map((item) => (
               <li key={item.label}>
-                <Link
-                  to={item.to as any}
-                  params={item.params as any}
-                  activeOptions={{ exact: true }}
-                  className="relative font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-foreground/70 hover:text-primary transition-colors data-[status=active]:text-primary after:absolute after:left-3 after:right-3 after:bottom-2 after:h-[2px] after:bg-primary after:origin-left after:scale-x-0 hover:after:scale-x-100 data-[status=active]:after:scale-x-100 after:transition-transform after:duration-300"
-                >
+                <Link to={item.to as any} params={item.params as any} className="font-display text-sm font-bold uppercase tracking-wide opacity-80 hover:opacity-100 hover:text-primary">
                   {item.label}
                 </Link>
               </li>
             ))}
           </ul>
-          <form
-            onSubmit={onSubmit}
-            role="search"
-            className="shrink-0 flex items-center"
-          >
-            <label htmlFor="site-search" className="sr-only">Ara</label>
-            <input
-              id="site-search"
-              type="search"
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              onBlur={() => { if (!q) setOpen(false); }}
-              placeholder="Ara"
-              aria-hidden={!open}
-              tabIndex={open ? 0 : -1}
-              className={`bg-transparent text-sm text-foreground placeholder:text-muted-foreground focus:outline-none border-b border-black/70 focus:border-primary transition-all duration-200 ${
-                open ? "w-32 sm:w-40 opacity-100 px-2 py-1" : "w-0 opacity-0 p-0 border-transparent"
-              }`}
-            />
-            <button
-              type={open ? "submit" : "button"}
-              onClick={() => {
-                if (!open) {
-                  setOpen(true);
-                  setTimeout(() => document.getElementById("site-search")?.focus(), 0);
-                }
-              }}
-              aria-label="Ara"
-              className="pl-2 pr-1 py-1 border-l border-black/70 ml-2 text-foreground/70 hover:text-primary transition-colors"
-            >
-              <Search className="h-4 w-4" />
-            </button>
-          </form>
         </div>
-      </nav>
-      <div className="h-3 bg-primary" aria-hidden="true" />
-    </>
-  );
-}
-
-function Footer() {
-  const [open, setOpen] = useState(false);
-  return (
-    <footer className="border-t border-black/10 mt-20 bg-white">
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-6 flex items-center gap-6">
-        <span
-          className="inline-flex items-center justify-center px-3 py-1 font-display text-2xl font-black tracking-tight text-black leading-none"
-          style={{ background: "linear-gradient(to bottom, #00EAA1 0%, #00EAA1 50%, transparent 50%, transparent 100%)" }}
-        >
-          SM
-        </span>
-        <div className="flex-1 flex flex-col items-center gap-1 text-center">
-          <span className="italic text-neutral-600 text-[11px] tracking-wide">
-            Sine-Meta media. Bağımsız film dergisi, tüm hakları saklıdır.
-          </span>
-          <nav className="flex gap-4 text-[11px] font-display uppercase tracking-widest text-neutral-700">
-            <Link to="/about" className="hover:text-primary">Hakkında</Link>
-            <Link to="/contact" className="hover:text-primary">İletişim</Link>
-            <a href="/rss.xml" className="hover:text-primary">RSS</a>
-          </nav>
+        <div>
+          <h3 className="font-display text-[11px] font-black uppercase tracking-[0.25em] text-primary">Sine-Meta</h3>
+          <ul className="mt-4 space-y-2.5 font-display text-sm font-bold uppercase tracking-wide">
+            <li><Link to="/about" className="opacity-80 hover:opacity-100 hover:text-primary">Hakkında</Link></li>
+            <li><Link to="/contact" className="opacity-80 hover:opacity-100 hover:text-primary">İletişim</Link></li>
+            <li><a href="https://bsky.app" target="_blank" rel="noreferrer" className="opacity-80 hover:opacity-100 hover:text-primary">Bluesky</a></li>
+            <li><a href="https://x.com/filmgezgin" target="_blank" rel="noreferrer" className="opacity-80 hover:opacity-100 hover:text-primary">X / Twitter</a></li>
+          </ul>
         </div>
-
-        <div className="ml-auto relative">
-          <button
-            type="button"
-            onClick={() => setOpen((v) => !v)}
-            onBlur={() => setTimeout(() => setOpen(false), 150)}
-            aria-haspopup="menu"
-            aria-expanded={open}
-            className="inline-flex items-center justify-between gap-4 min-w-[240px] text-xs font-display uppercase tracking-widest text-neutral-700 hover:text-primary transition-colors border border-black/15 px-5 py-3 bg-white"
-          >
-            <span>Keşfet — Kategoriler</span>
-            <span className={`transition-transform text-[10px] ${open ? "rotate-180" : ""}`}>▾</span>
-          </button>
-          {open ? (
-            <div
-              role="menu"
-              className="absolute right-0 bottom-full mb-2 w-[240px] bg-white border border-black/10 shadow-lg py-1 z-40"
-            >
-              {NAV.map((item) => (
-                <Link
-                  key={item.label}
-                  to={item.to as any}
-                  params={item.params as any}
-                  role="menuitem"
-                  onClick={() => setOpen(false)}
-                  className="block px-5 py-2.5 text-xs font-display uppercase tracking-wider text-neutral-700 hover:bg-neutral-50 hover:text-primary transition-colors"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          ) : null}
+      </div>
+      <div className="border-t border-background/15">
+        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-4 flex flex-wrap items-center justify-between gap-2 text-[11px] opacity-60">
+          <span>© 2026 Sine-Meta Media. Tüm hakları saklıdır.</span>
+          <span className="font-display uppercase tracking-[0.2em]">sine-meta.com</span>
         </div>
-
       </div>
     </footer>
   );
 }
+
 
 
 export function FeaturedArticleCard({
