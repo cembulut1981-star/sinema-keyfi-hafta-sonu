@@ -155,7 +155,7 @@ function Footer() {
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-12 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <span className="rounded-md bg-background p-1"><SiteMark className="h-10 w-10" /></span>
+            <SiteMark className="h-10 w-10" />
             <span className="font-display text-3xl font-black uppercase tracking-tight">Sine-Meta</span>
           </div>
           <p className="mt-4 max-w-sm text-sm leading-relaxed opacity-70">
