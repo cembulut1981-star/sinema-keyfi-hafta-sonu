@@ -3,7 +3,7 @@ import { useState, type FormEvent, type ReactNode } from "react";
 import { Search } from "lucide-react";
 
 import logoAsset from "@/assets/logo.svg.asset.json";
-import kissIconAsset from "@/assets/rock-kiss-icon.png.asset.json";
+import kissMarkAsset from "@/assets/rock-kiss-mark.png";
 import { type Article, type CategorySlug } from "@/data/articles";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
@@ -27,20 +27,9 @@ export function SiteShell({ children }: { children: ReactNode }) {
   );
 }
 
-/** Sine-Meta simgesi: film karesi içinde oynat üçgeni + "SM" monogramı. */
+/** Sine-Meta simgesi: retro dudak (kiss) işareti. */
 export function SiteMark({ className = "h-9 w-9" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 40 40" className={className} aria-hidden="true">
-      <rect x="1.5" y="1.5" width="37" height="37" rx="6" className="fill-foreground" />
-      {[7, 15, 23, 31].map((y) => (
-        <g key={y} className="fill-background">
-          <rect x="4.5" y={y} width="3" height="3" rx="0.6" />
-          <rect x="32.5" y={y} width="3" height="3" rx="0.6" />
-        </g>
-      ))}
-      <path d="M15 11.5 L28 20 L15 28.5 Z" className="fill-primary" />
-    </svg>
-  );
+  return <img src={kissMarkAsset} alt="" className={`${className} object-contain`} draggable={false} />;
 }
 
 const TRENDING: { label: string; slug: string }[] = [
@@ -109,7 +98,7 @@ function Nav() {
     <nav className="sticky top-0 z-30 bg-background/95 backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 flex items-center gap-3">
         <Link to="/" aria-label="Anasayfa" className="shrink-0">
-          <SiteMark className="h-8 w-8" />
+          <SiteMark className="h-9 w-9" />
         </Link>
         <ul className="flex-1 flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
           {NAV.map((item) => (
@@ -166,7 +155,7 @@ function Footer() {
       <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-12 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <span className="rounded-md bg-background p-1"><SiteMark className="h-10 w-10" /></span>
+            <SiteMark className="h-10 w-10" />
             <span className="font-display text-3xl font-black uppercase tracking-tight">Sine-Meta</span>
           </div>
           <p className="mt-4 max-w-sm text-sm leading-relaxed opacity-70">
