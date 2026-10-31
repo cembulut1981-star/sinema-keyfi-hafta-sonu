@@ -35,6 +35,17 @@ import scifiDisclosure from "@/assets/scifi-2026-disclosure.jpg.asset.json";
 import scifiWar from "@/assets/scifi-2026-war.jpg.asset.json";
 import scifiCover from "@/assets/scifi-2026-cover.jpg.asset.json";
 import scifiMercy from "@/assets/scifi-2026-mercy-wide.jpg.asset.json";
+import werewolfCover from "@/assets/werewolf-cover.jpg.asset.json";
+import werewolfWolf from "@/assets/werewolf-wolf.jpg.asset.json";
+import werewolfBrotherhood from "@/assets/werewolf-brotherhood.jpg.asset.json";
+import werewolfCurse from "@/assets/werewolf-curse.jpg.asset.json";
+import werewolfWithin from "@/assets/werewolf-within.jpg.asset.json";
+import werewolfGinger from "@/assets/werewolf-ginger.jpg.asset.json";
+import werewolfSoldiers from "@/assets/werewolf-soldiers.jpg.asset.json";
+import werewolfClassic from "@/assets/werewolf-wolf-man.jpg.asset.json";
+import werewolfHowling from "@/assets/werewolf-howling.jpg.asset.json";
+import werewolfCompany from "@/assets/werewolf-company.jpg.asset.json";
+import werewolfAmerican from "@/assets/werewolf-american.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -2291,6 +2302,121 @@ Karısını öldürmekle suçlanan bir dedektif, masumiyetini kanıtlamak için 
 **Eleştirel değerlendirme:** Mercy'nin en ilgi çekici hamlesi, dijital kayıtları ve geri sayımı bir soruşturmanın hareketli parçalarına dönüştürmesi; izleyiciyi sürekli yeni bir ipucunu değerlendirmeye zorlaması. Bu biçimsel canlılık, tanıdık suç hikâyesine zaman zaman gerçek bir gerilim kazandırıyor. Öte yandan, gözetim ve yapay zekâya devredilen adalet gibi ağır meseleler yeterince derinleştirilmiyor; finalde büyüyen aksiyon da başlangıçtaki dar alan baskısını zayıflatıyor. Eleştirmenlerle izleyiciler arasındaki belirgin puan farkı, filmin düşünsel tutarlılığından çok anlık sürükleyiciliğiyle karşılık bulduğunu düşündürüyor.
 
 Listede eksik gördüğün bir film var mı? Bize yaz.`,
+  },
+  {
+    slug: "best-werewolf-movies",
+    title: "En İyi 10 Kurt Adam Filmi: Dolunayın Altında Bir Korku Rehberi",
+    excerpt: "An American Werewolf in London'dan Ginger Snaps'e: gotik trajedileri, kanlı kuşatmaları ve kara mizahı buluşturan on kurt adam filmi, 10'dan 1'e geri sayımda.",
+    countdownBadge: "10 → 1 geri sayım",
+    image: werewolfCover.url,
+    source: "Empire — October 19, 2026",
+    body: `Kurt adam sinemasının asıl korkusu, ormanda saklanan bir yaratık değil; insanın kendi bedenine ve davranışlarına yabancılaşması. Dolunay kimi filmde bastırılmış öfkeyi, kiminde ergenliği, kiminde ise kaçılması mümkün olmayan bir kaderi açığa çıkarıyor. Bu yüzden tür, yalnızca dişlerden ve dönüşüm efektlerinden ibaret değil.
+
+Bu seçki, klasik canavar sinemasından modern korku komedisine uzanan on filmi bir araya getiriyor. Sıralamayı 10'dan 1'e takip ederken her yapımın aynı efsaneyi nasıl bambaşka bir duyguya dönüştürdüğüne bakıyoruz. Yorumlar Sine-Meta için özgün olarak hazırlanmıştır.
+
+## 10. Wolf (1994)
+
+![Wolf (1994)](${werewolfWolf.url})
+
+**Yönetmen:** Mike Nichols · **Başroller:** Jack Nicholson, Michelle Pfeiffer, James Spader
+
+İşini ve özgüvenini kaybetmek üzere olan bir yayıncının kurt tarafından ısırılması, Wolf'ta beklenmedik bir güç kazanımına dönüşüyor. Nicholson'ın karakteri keskinleşen duyularıyla birlikte daha atılgan hâle gelirken ofisteki rekabet de hayvani bir mücadeleye benzemeye başlıyor. Film, doğaüstü tehdidi kurumsal dünyanın nezaket maskesini indirmek için kullanıyor.
+
+Wolf'u ilginç kılan, canavar gösterisinden çok oyuncular arasındaki gerilim. Nicholson'ın karizmasıyla Pfeiffer'ın mesafeli duruşu, romantizmi de tekinsizleştiriyor. Yoğun korku arayanlara hafif gelebilir; fakat kurt adam fikrinin yetişkin ilişkilerine ve iktidar arzusuna nasıl uyarlanabileceğini görmek isteyenler için farklı bir durak.
+
+## 9. Brotherhood of the Wolf (2001)
+
+![Brotherhood of the Wolf (2001)](${werewolfBrotherhood.url})
+
+**Yönetmen:** Christophe Gans · **Başroller:** Samuel Le Bihan, Mark Dacascos, Vincent Cassel, Monica Bellucci
+
+18. yüzyıl Fransa'sında insanları öldüren gizemli bir yaratığı araştıran iki yabancı, doğaüstü görünen olayların ardındaki insan hesaplarıyla karşılaşır. Gévaudan Canavarı efsanesinden hareket eden film; tarihî macerayı, dövüş sanatlarını ve gotik korkuyu tek bir gösterişli dünyada topluyor.
+
+Bu, geleneksel anlamda bir insanın kurda dönüşmesini anlatan kurt adam filmi değil. Listeye girmesinin nedeni, kurt benzeri canavarın çevresinde kurduğu korku ve avcıyla av arasındaki ahlaki belirsizlik. Görsel ihtişamı sevenler için güçlü bir seçenek; türün sınırlarını biraz esnetmeye hazır olmak gerekiyor.
+
+## 8. The Curse of the Werewolf (1961)
+
+![The Curse of the Werewolf (1961)](${werewolfCurse.url})
+
+**Yönetmen:** Terence Fisher · **Başrol:** Oliver Reed
+
+Hammer'ın kurt adam hikâyesi, laneti bir macera başlangıcı gibi değil, daha doğumdan önce örülmüş bir trajedi gibi ele alıyor. İspanya'da geçen anlatıda Oliver Reed'in canlandırdığı Leon, kendisine yüklenen karanlık mirastan kurtulmaya çalışıyor. Film, yaratığın ortaya çıkışını bekletirken onun insan tarafına ağırlık veriyor.
+
+Gotik dekorlar ve Reed'in kırılganlığı, dönüşüm sahnelerinden daha uzun süre akılda kalıyor. Özellikle başlangıç bölümündeki cinsel şiddet ve zulüm temaları nedeniyle rahat bir seyir sunmuyor. Eski korku filmlerinin yalnızca nostaljik eğlence olmadığını hatırlatan, ağır ve kasvetli bir klasik.
+
+## 7. Werewolves Within (2021)
+
+![Werewolves Within (2021)](${werewolfWithin.url})
+
+**Yönetmen:** Josh Ruben · **Başroller:** Sam Richardson, Milana Vayntrub
+
+Kar fırtınasının dış dünyayla bağlantısını kestiği küçük bir kasabada, komşular birbirlerinden şüphelenmeye başlar. Yeni gelen orman görevlisi düzeni korumaya çalışırken her tuhaf davranış, aralarında bir kurt adam bulunduğu ihtimalini güçlendirir. Aynı adlı oyundan uyarlanan film, canavar korkusunu kapalı mekânlı bir suç bilmecesiyle buluşturuyor.
+
+Buradaki keyif, insanların ne zaman canavarlaşacağından çok birbirlerini ne kadar çabuk suçlayabildiğinde yatıyor. Richardson'ın sıcak oyunculuğu ve Vayntrub'la kurduğu uyum, şüpheyi mizahla dengeliyor. Kanlı bir dehşet gösterisinden ziyade, arkadaşlarla izlenecek hareketli ve alaycı bir korku komedisi arayanlara uygun.
+
+## 6. Ginger Snaps (2000)
+
+![Ginger Snaps (2000)](${werewolfGinger.url})
+
+**Yönetmen:** John Fawcett · **Başroller:** Katharine Isabelle, Emily Perkins
+
+Birbirlerine sıkı sıkıya bağlı iki kız kardeşin dünyası, Ginger'ın bir yaratık tarafından saldırıya uğramasıyla değişir. Bedensel dönüşüm, ergenliğin getirdiği yabancılaşmayla iç içe ilerlerken Brigitte kardeşini kurtarmanın yolunu arar. Film, kurt adam mitini genç kadınların deneyimlerine taşıyarak türün alışılmış bakışını değiştiriyor.
+
+Ginger Snaps'in kalıcılığı yalnızca güçlü metaforundan gelmiyor. Kardeşlik ilişkisindeki sevgi, kıskançlık ve bağımlılık gerçekten hissediliyor; kara mizah da karakterlerin savunma mekanizmasına dönüşüyor. Bedensel korkuyu duygusal bir hikâyeyle birlikte isteyenler için listenin en keskin ve kişisel filmlerinden biri.
+
+## 5. Dog Soldiers (2002)
+
+![Dog Soldiers (2002)](${werewolfSoldiers.url})
+
+**Yönetmen:** Neil Marshall · **Oyuncular:** Sean Pertwee, Kevin McKidd, Liam Cunningham
+
+İskoçya'daki bir eğitim görevi sırasında saldırıya uğrayan askerler, kırsaldaki bir eve sığınır. Dışarıdaki kurt adamlar karşısında geceyi sağ çıkarabilmek için ellerindeki sınırlı imkânları kullanmaları gerekir. Dog Soldiers, efsanenin romantik yanını geride bırakıp doğrudan bir kuşatma filmine dönüşüyor.
+
+Marshall'ın temposu ve pratik yaratık tasarımları, dar mekânı sürekli değişen bir savaş alanı hâline getiriyor. Askerlerin sert mizahı, şiddeti hafifletmekten çok çaresizliklerini görünür kılıyor. Aksiyonla korkunun birbirini beslediği, gösterişli bütçeden ziyade iyi kurulmuş gerilime güvenen bir hayatta kalma hikâyesi.
+
+## 4. The Wolf Man (1941)
+
+![The Wolf Man (1941)](${werewolfClassic.url})
+
+**Yönetmen:** George Waggner · **Başrol:** Lon Chaney Jr.
+
+Larry Talbot'ın memleketine dönüşü, aldığı bir ısırıkla geri çevrilemez bir felakete dönüşür. Universal'ın klasiği, sisli ormanları ve lanet duygusuyla kurt adamın yalnızca saldıran bir yaratık değil, kendi yaptıklarından korkan bir insan olduğunu anlatır. Sonraki filmlerde tanıdık gelen pek çok unsur burada etkili bir bütün oluşturuyor.
+
+Lon Chaney Jr.'ın hüzünlü performansı, makyajın altındaki insanı unutturmuyor. Bugünün ölçülerine göre sade görünen efektlerin ötesinde, kontrolü kaybetme korkusu hâlâ canlı. Türün köklerine dönmek ve kurt adamın neden korku kadar merhamet de uyandırdığını anlamak için temel bir başlangıç noktası.
+
+## 3. The Howling (1981)
+
+![The Howling (1981)](${werewolfHowling.url})
+
+**Yönetmen:** Joe Dante · **Başrol:** Dee Wallace
+
+Travmatik bir olaydan sonra gözlerden uzak bir topluluğa gönderilen televizyon gazetecisi Karen White, sığınması gereken yerde yeni bir tehlikeyle karşılaşır. The Howling, güvenli görünen bir çevrenin altındaki saldırganlığı açığa çıkarırken bireysel korkuyu toplu bir tehdide dönüştürüyor.
+
+Rob Bottin'in pratik efektleri, dönüşümü kısa bir numara olmaktan çıkarıp rahatsız edici bir bedensel süreç hâline getiriyor. Dante'nin medya ve topluluk davranışına dönük alaycı bakışı da yaratık sahnelerine ikinci bir katman ekliyor. Özellikle 1980'lerin fiziksel efekt geleneğini sevenler için hâlâ etkileyici bir seyir.
+
+## 2. The Company of Wolves (1984)
+
+![The Company of Wolves (1984)](${werewolfCompany.url})
+
+**Yönetmen:** Neil Jordan · **Oyuncular:** Sarah Patterson, Angela Lansbury
+
+Kırmızı Başlıklı Kız masalını Angela Carter'ın karanlık yorumuyla buluşturan film, tek bir düz hikâye yerine iç içe geçen anlatılar kuruyor. Büyükanne tarafından aktarılan öykülerde kurtlar, hem ormanın tehdidi hem de insanların sakladığı arzuların bir yansıması olarak beliriyor.
+
+The Company of Wolves'u bir canavar avı filmi gibi izlemek, onun asıl zenginliğini kaçırmak olur. Rüya mantığı, teatral dekorlar ve tuhaf dönüşümler, büyümeyi hem çekici hem de ürkütücü bir eşik olarak resmediyor. Masal atmosferini seven ama masalın güvenli bir son vaat etmesini beklemeyen izleyicilere hitap ediyor.
+
+## 1. An American Werewolf in London (1981)
+
+![An American Werewolf in London (1981)](${werewolfAmerican.url})
+
+**Yönetmen:** John Landis · **Oyuncular:** David Naughton, Griffin Dunne, Jenny Agutter
+
+İngiltere kırsalında saldırıya uğrayan iki Amerikalı arkadaşın hikâyesi, hayatta kalan David'in Londra'daki iyileşme süreciyle devam eder. Ancak bedenindeki değişim ve giderek ağırlaşan korku, sıradan hayata dönüşünü imkânsızlaştırır. Film, yabancı bir ülkedeki yalnızlığı romantizm ve kara mizahla birlikte ele alıyor.
+
+Rick Baker'ın dönüşüm efektleri hâlâ filmin en güçlü anlarından biri; fakat birinciliği yalnızca teknik başarısına borçlu değil. Komik bir sahneden trajik bir ana geçerken karakterlerinin acısını kaybetmemesi, yaratık hikâyesini insani kılıyor. Kurt adam sinemasının korku, hüzün ve absürt mizahını bir arada deneyimlemek isteyenler için en dengeli seçim.
+
+## Hangi filmle başlamalı?
+
+Klasik atmosfer için **The Wolf Man**, arkadaşlarla korku-komedi gecesi için **Werewolves Within**, daha sert bir aksiyon için **Dog Soldiers** iyi başlangıçlar. Duygusal ve bedensel dönüşüme odaklanan bir hikâye arıyorsan **Ginger Snaps**; masalsı ve deneysel bir dünya istiyorsan **The Company of Wolves** öne çıkıyor. Türün bütün yüzlerini tek filmde görmek içinse ilk tercih **An American Werewolf in London**.`,
   },
 ];
 
