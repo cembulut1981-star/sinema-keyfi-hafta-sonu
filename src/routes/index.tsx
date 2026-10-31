@@ -134,7 +134,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
       ? "grid-cols-[minmax(0,2fr)_minmax(0,1fr)]"
       : "grid-cols-[minmax(0,1fr)_minmax(0,2fr)]";
     return (
-      <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[640px] ${cols} items-stretch`}>
+      <section className={`editorial-mixed-row grid grid-cols-1 gap-6 mb-12 md:h-[640px] ${cols} items-stretch`}>
         {reverse ? (
           <>
             <div className="min-h-0 h-full">
@@ -166,7 +166,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
     ? "md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)]"
     : "md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)]";
   return (
-    <section className={`grid grid-cols-1 gap-6 mb-12 md:h-[640px] ${cols} items-stretch`}>
+    <section className={`editorial-mixed-row grid grid-cols-1 gap-6 mb-12 md:h-[640px] ${cols} items-stretch`}>
       {reverse ? (
         <>
           <div className="min-h-0 h-full">
@@ -348,9 +348,9 @@ function Index() {
 
   return (
     <SiteShell>
-      <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-10">
+      <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-5 md:py-10">
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
-        <div className="h-10 md:h-14" aria-hidden />
+        <div className="h-2 md:h-14" aria-hidden />
         {leadCenter ? <MixedRow centerCard={leadCenter} sideCards={leadSides} centerFirstMobile /> : null}
         {newRowGroups.map((r, i) => (
           <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
@@ -376,7 +376,7 @@ function Index() {
         {rows.length < 2 ? lowerFeatures : null}
 
         {leftovers.length > 0 ? (
-          <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 items-stretch">
+          <section className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 mb-8 md:mb-12 items-stretch">
             {leftovers.map((a) => (
               <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
             ))}

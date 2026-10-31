@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { useState, type FormEvent, type ReactNode } from "react";
 import { Search } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 import logoAsset from "@/assets/logo.svg.asset.json";
 import kissMarkAsset from "@/assets/rock-kiss-mark.png";
@@ -44,12 +45,12 @@ function Header() {
   return (
     <header>
       <div className="bg-foreground text-background">
-        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-9 flex items-center gap-4 text-[11px] font-display uppercase tracking-[0.18em]">
-          <span className="inline-flex items-center gap-2 font-black">
+        <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 h-9 flex min-w-0 items-center gap-4 text-[11px] font-display uppercase tracking-[0.18em]">
+          <span className="inline-flex shrink-0 items-center gap-2 font-black">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" aria-hidden="true" />
             Trend
           </span>
-          <ul className="flex-1 flex items-center gap-5 overflow-x-auto scrollbar-none whitespace-nowrap">
+          <ul className="min-w-0 flex-1 flex items-center gap-5 overflow-x-auto scrollbar-none whitespace-nowrap">
             {TRENDING.map((t) => (
               <li key={t.label}>
                 <Link to="/kategori/$slug" params={{ slug: t.slug }} className="opacity-70 hover:opacity-100 hover:text-primary transition">
@@ -61,14 +62,14 @@ function Header() {
           <a href="/rss.xml" className="hidden sm:inline opacity-70 hover:opacity-100 hover:text-primary">RSS</a>
         </div>
       </div>
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between gap-4">
+      <div className="site-masthead mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between gap-4">
         <p className="hidden md:block w-48 font-display text-[10px] font-black uppercase tracking-[0.25em] text-muted-foreground leading-relaxed">
           Film · Dizi · Oyun<br />Bağımsız eleştiri dergisi
         </p>
-        <Link to="/" className="flex-1 md:flex-none flex justify-center">
+        <Link to="/" className="min-w-0 flex-1 md:flex-none flex justify-center">
           <img src={logoAsset.url} alt="Sine-Meta" className="h-14 sm:h-16 w-auto" width={2017} height={528} />
         </Link>
-        <div className="hidden md:flex w-48 justify-end">
+        <div className="masthead-pick hidden md:flex w-48 justify-end">
           <Link to="/kategori/$slug" params={{ slug: "listeler" }} className="inline-flex items-center gap-2 border-2 border-foreground px-3 py-2 font-display text-[10px] font-black uppercase tracking-[0.2em] hover:bg-foreground hover:text-background transition-colors">
             Editörün Seçimi →
           </Link>
@@ -96,11 +97,11 @@ function Nav() {
 
   return (
     <nav className="sticky top-0 z-30 bg-background/95 backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 flex items-center gap-3">
+      <div className="site-nav-row relative mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 grid grid-cols-[auto_minmax(0,1fr)_auto] sm:flex items-center gap-2 sm:gap-3">
         <Link to="/" aria-label="Anasayfa" className="shrink-0">
           <SiteMark className="h-9 w-9" />
         </Link>
-        <ul className="flex-1 flex items-center justify-center gap-1 overflow-x-auto scrollbar-none">
+        <ul className="site-nav-links min-w-0 flex-1 grid grid-cols-4 sm:flex items-center sm:justify-center gap-1 sm:overflow-x-auto scrollbar-none">
           {NAV.map((item) => (
             <li key={item.label}>
               <Link
@@ -114,7 +115,7 @@ function Nav() {
             </li>
           ))}
         </ul>
-        <form onSubmit={onSubmit} role="search" className="shrink-0 flex items-center">
+        <form onSubmit={onSubmit} role="search" className={`site-nav-search shrink-0 flex items-center ${open ? "is-open" : ""}`}>
           <label htmlFor="site-search" className="sr-only">Ara</label>
           <input
             id="site-search"
@@ -129,7 +130,7 @@ function Nav() {
               open ? "w-36 sm:w-48 opacity-100 px-2 py-1" : "w-0 opacity-0 p-0 border-transparent"
             }`}
           />
-          <button
+          <Button
             type={open ? "submit" : "button"}
             onClick={() => {
               if (!open) {
@@ -138,10 +139,12 @@ function Nav() {
               }
             }}
             aria-label="Ara"
-            className="ml-2 h-9 w-9 inline-flex items-center justify-center rounded-full bg-foreground text-background hover:bg-primary hover:text-foreground transition-colors"
+            size="icon"
+            title="Ara"
+            className="ml-2 h-9 w-9 shrink-0 rounded-full bg-foreground text-background hover:bg-primary hover:text-background transition-colors"
           >
             <Search className="h-4 w-4" />
-          </button>
+          </Button>
         </form>
       </div>
     </nav>
@@ -152,8 +155,8 @@ function Footer() {
   return (
     <footer className="mt-20 bg-foreground text-background">
       <div className="h-2 bg-primary" aria-hidden="true" />
-      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-12 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
-        <div>
+      <div className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-8 md:py-12 grid grid-cols-2 gap-6 md:gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+        <div className="col-span-2 md:col-span-1 min-w-0">
           <div className="flex items-center gap-3">
             <SiteMark className="h-10 w-10" />
             <span className="font-display text-3xl font-black uppercase tracking-tight">Sine-Meta</span>
@@ -167,7 +170,7 @@ function Footer() {
         </div>
         <div>
           <h3 className="font-display text-[11px] font-black uppercase tracking-[0.25em] text-primary">Keşfet</h3>
-          <ul className="mt-4 grid grid-cols-2 gap-y-2.5 gap-x-4">
+          <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-y-2.5 gap-x-4">
             {NAV.map((item) => (
               <li key={item.label}>
                 <Link to={item.to as any} params={item.params as any} className="font-display text-sm font-bold uppercase tracking-wide opacity-80 hover:opacity-100 hover:text-primary">
@@ -630,7 +633,7 @@ export function SmallArticleCard({
   );
 
   return (
-    <article className={`group relative w-full min-w-0 min-h-[180px] aspect-[4/3] md:aspect-auto rounded-xl overflow-hidden bg-muted transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] ${className || ""}`}>
+    <article className={`editorial-small-card group relative w-full min-w-0 min-h-[180px] aspect-[4/3] md:aspect-auto rounded-xl overflow-hidden bg-muted transition-shadow duration-300 hover:shadow-[0_12px_28px_-12px_rgba(0,0,0,0.35)] ${className || ""}`}>
       {linkTo ? <Link to={linkTo.to} params={linkTo.params} className="block absolute inset-0">{inner}</Link> : inner}
     </article>
   );
@@ -639,11 +642,11 @@ export function SmallArticleCard({
 function OverlayBadges({ article, badgeInImage = true }: { article: Article; badgeInImage?: boolean }) {
   return (
     <>
-      <div className="absolute left-2 top-2 z-20 flex flex-col items-start gap-1.5">
+      <div className="overlay-badges-left absolute left-2 top-2 z-20 flex flex-col items-start gap-1.5">
         <ImdbBadge rating={article.imdbRating} />
         <CountdownBadge label={article.countdownBadge} />
       </div>
-      <div className="absolute right-2 top-2 z-20 flex flex-col items-end gap-1.5">
+      <div className={`overlay-badges-right absolute right-2 top-2 z-20 flex flex-col items-end gap-1.5 ${article.countdownBadge ? "has-countdown" : ""}`}>
         {!article.customBadgeBelow ? (
           <CustomBadge label={article.customBadge} variant={article.customBadgeStyle} />
         ) : null}
@@ -762,7 +765,7 @@ export function OverlayArticleCard({ article }: { article: Article }) {
     </>
   );
   return (
-    <article className="group relative aspect-[4/3] rounded-xl overflow-hidden bg-muted shrink-0 w-[78%] sm:w-[45%] md:w-auto snap-start">
+    <article className="editorial-overlay-card group relative aspect-[4/3] rounded-xl overflow-hidden bg-muted min-w-0 w-full">
       {linkTo ? <Link to={linkTo.to} params={linkTo.params} className="block absolute inset-0">{inner}</Link> : inner}
     </article>
   );
@@ -770,7 +773,7 @@ export function OverlayArticleCard({ article }: { article: Article }) {
 
 export function OverlayRow({ articles }: { articles: Article[] }) {
   return (
-    <section className={`flex md:grid ${articles.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"} gap-4 mb-12 overflow-x-auto md:overflow-visible snap-x pb-2`}>
+    <section className={`editorial-overlay-row grid grid-cols-2 ${articles.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"} gap-3 md:gap-4 mb-8 md:mb-12`}>
       {articles.map((a) => <OverlayArticleCard key={a.id} article={a} />)}
     </section>
   );
