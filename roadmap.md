@@ -29,4 +29,4 @@
 - [x] Add site-hosted popup trailer players for The Mandalorian and Grogu and Disclosure Day; verify both open and close.
 - [x] Add site-hosted popup trailer players for War Machine and Mercy; verify all seven films have working players.
 - [x] Add a Turkish best-werewolf-movies list with ten film sections and site-hosted photos, and verify its homepage card and article.
-- [ ] Preserve desktop editorial identity in mobile navigation, homepage card groups and footer; verify navigation, search and layouts.
+- [x] Preserve desktop editorial identity in mobile navigation, homepage card groups and footer; verify navigation, search and layouts.
