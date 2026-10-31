@@ -231,6 +231,13 @@
     border-bottom: 2px solid var(--primary);
   }
   .site-nav-search.is-open input { width: 100%; min-width: 0; }
+  .site-nav-search input { transition: none; }
+  .site-nav-search:not(.is-open) input { width: 0; min-width: 0; }
+}
+
+@media (max-width: 359px) {
+  .site-nav-links { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .site-nav-links a { font-size: 10px; padding-block: 6px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
