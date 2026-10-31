@@ -44,6 +44,7 @@ const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series"
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 const NEW_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const NEW_STORIES = [
+  ARTICLES.find((article) => article.listSlug === "best-werewolf-movies"),
   ARTICLES.find((article) => article.listSlug === "best-sci-fi-movies-of-2026"),
   ARTICLES.find((article) => article.newsSlug === "carrie-season-2-confirmed-prime-video"),
   ARTICLES.find((article) => article.newsSlug === "haley-lu-richardson-joins-miami-vice-85"),
