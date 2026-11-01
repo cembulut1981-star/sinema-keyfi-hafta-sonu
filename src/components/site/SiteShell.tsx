@@ -126,8 +126,9 @@ function Nav() {
             placeholder="Film, dizi, oyun ara"
             aria-hidden={!open}
             tabIndex={open ? 0 : -1}
-            className={`bg-transparent text-sm text-foreground placeholder:text-muted-foreground focus:outline-none border-b-2 border-foreground focus:border-primary transition-all duration-200 ${
+            className={`bg-transparent text-sm text-background placeholder:text-background/50 focus:outline-none border-b-2 border-background focus:border-primary transition-all duration-200 ${
               open ? "w-36 sm:w-48 opacity-100 px-2 py-1" : "w-0 opacity-0 p-0 border-transparent"
+
             }`}
           />
           <Button
