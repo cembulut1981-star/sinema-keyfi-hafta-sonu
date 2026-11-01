@@ -49,6 +49,20 @@ const FILM_TRAILERS: { match: string; src: string; label: string }[] = [
   { match: "Mercy", src: trailerMercy.url, label: "Mercy fragmanı" },
 ];
 
+// Kurt adam listesi: YouTube fragmanları (görsel alt metniyle eşleşir)
+const WEREWOLF_TRAILERS: Record<string, string> = {
+  "Wolf (1994)": "HXcm1cfVIRc",
+  "Brotherhood of the Wolf (2001)": "RAGfNjIzldM",
+  "The Curse of the Werewolf (1961)": "VpDSqf8y5Ys",
+  "Werewolves Within (2021)": "X0WzPQNIBJ4",
+  "Ginger Snaps (2000)": "lRXT1J0kqdY",
+  "Dog Soldiers (2002)": "UX9S3hdgZ5g",
+  "The Wolf Man (1941)": "j_k5TyfHMQw",
+  "The Howling (1981)": "pZARVBpjC1I",
+  "The Company of Wolves (1984)": "Ir34SoEgik0",
+  "An American Werewolf in London (1981)": "ArJhUEAeiw0",
+};
+
 function trailerFor(children: React.ReactNode) {
   const text = typeof children === "string" ? children : "";
   return FILM_TRAILERS.find((t) => text.includes(t.match)) ?? null;
@@ -58,7 +72,7 @@ function ListPage() {
   const { slug } = Route.useParams();
   const l = getList(slug);
   const others = LISTS.filter((x) => x.slug !== slug);
-  const [openTrailer, setOpenTrailer] = useState<{ src: string; label: string } | null>(null);
+  const [openTrailer, setOpenTrailer] = useState<{ src?: string; youtube?: string; label: string } | null>(null);
 
   useEffect(() => {
     if (!openTrailer) return;
@@ -114,6 +128,19 @@ function ListPage() {
                         <span className="max-w-full bg-editorial-yellow px-4 py-2 text-center font-display text-base sm:text-lg font-bold uppercase tracking-normal text-editorial-ink">
                           {alt}
                         </span>
+                        {WEREWOLF_TRAILERS[alt] ? (
+                          <button
+                            type="button"
+                            onClick={() => setOpenTrailer({ youtube: WEREWOLF_TRAILERS[alt], label: `${alt} fragmanı` })}
+                            aria-label={`${alt} fragmanı`}
+                            className="ml-3 inline-flex items-center gap-2 border-2 border-black bg-black px-3 py-1 text-[11px] font-display font-bold uppercase tracking-wider text-white self-center transition-colors hover:bg-white hover:text-black"
+                          >
+                            <svg viewBox="0 0 24 24" className="h-3 w-3 fill-current" aria-hidden="true">
+                              <path d="M8 5v14l11-7z" />
+                            </svg>
+                            Fragman
+                          </button>
+                        ) : null}
                       </span>
                     ) : <span className="mt-3 block text-center text-sm text-muted-foreground">{alt}</span>
                   ) : null}
@@ -215,13 +242,23 @@ function ListPage() {
                 <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
               </svg>
             </button>
-            <video
-              src={openTrailer.src}
-              controls
-              autoPlay
-              playsInline
-              className="aspect-video w-full rounded-md bg-black shadow-2xl"
-            />
+            {openTrailer.youtube ? (
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${openTrailer.youtube}?autoplay=1&rel=0&modestbranding=1`}
+                title={openTrailer.label}
+                allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+                allowFullScreen
+                className="aspect-video w-full rounded-md bg-black shadow-2xl"
+              />
+            ) : (
+              <video
+                src={openTrailer.src}
+                controls
+                autoPlay
+                playsInline
+                className="aspect-video w-full rounded-md bg-black shadow-2xl"
+              />
+            )}
             <p className="mt-3 text-center text-xs uppercase tracking-wider text-white/80">
               {openTrailer.label} — kapatmak için ✕ tuşunu kullan
             </p>
