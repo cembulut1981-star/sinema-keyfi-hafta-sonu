@@ -33,3 +33,5 @@
 - [x] Add a source-based Turkish Kotaku Castlevania review with site-hosted photos.
 - [x] Place the new Castlevania review first and Metallica in the next homepage row, without duplicates.
 - [x] Verify article, images and homepage order; run placement tests.
+- [x] Center yellow-black film-name badges below werewolf-list photos.
+- [x] Add verified IMDb and Rotten Tomatoes scores for all ten films and verify the page.

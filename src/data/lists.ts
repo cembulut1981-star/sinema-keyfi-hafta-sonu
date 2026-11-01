@@ -2318,6 +2318,8 @@ Bu seçki, klasik canavar sinemasından modern korku komedisine uzanan on filmi 
 
 ![Wolf (1994)](${werewolfWolf.url})
 
+**IMDb:** [6.3/10](https://www.imdb.com/title/tt0111742/ratings/) · **Rotten Tomatoes (eleştirmen):** [%61](https://www.rottentomatoes.com/m/1053942-wolf)
+
 **Yönetmen:** Mike Nichols · **Başroller:** Jack Nicholson, Michelle Pfeiffer, James Spader
 
 İşini ve özgüvenini kaybetmek üzere olan bir yayıncının kurt tarafından ısırılması, Wolf'ta beklenmedik bir güç kazanımına dönüşüyor. Nicholson'ın karakteri keskinleşen duyularıyla birlikte daha atılgan hâle gelirken ofisteki rekabet de hayvani bir mücadeleye benzemeye başlıyor. Film, doğaüstü tehdidi kurumsal dünyanın nezaket maskesini indirmek için kullanıyor.
@@ -2327,6 +2329,8 @@ Wolf'u ilginç kılan, canavar gösterisinden çok oyuncular arasındaki gerilim
 ## 9. Brotherhood of the Wolf (2001)
 
 ![Brotherhood of the Wolf (2001)](${werewolfBrotherhood.url})
+
+**IMDb:** [7.0/10](https://www.imdb.com/title/tt0237534/) · **Rotten Tomatoes (eleştirmen):** [%74](https://www.rottentomatoes.com/m/brotherhood_of_the_wolf)
 
 **Yönetmen:** Christophe Gans · **Başroller:** Samuel Le Bihan, Mark Dacascos, Vincent Cassel, Monica Bellucci
 
@@ -2338,6 +2342,8 @@ Bu, geleneksel anlamda bir insanın kurda dönüşmesini anlatan kurt adam filmi
 
 ![The Curse of the Werewolf (1961)](${werewolfCurse.url})
 
+**IMDb:** [6.5/10](https://www.imdb.com/title/tt0054777/) · **Rotten Tomatoes (eleştirmen):** [%60](https://www.rottentomatoes.com/m/the_curse_of_the_werewolf)
+
 **Yönetmen:** Terence Fisher · **Başrol:** Oliver Reed
 
 Hammer'ın kurt adam hikâyesi, laneti bir macera başlangıcı gibi değil, daha doğumdan önce örülmüş bir trajedi gibi ele alıyor. İspanya'da geçen anlatıda Oliver Reed'in canlandırdığı Leon, kendisine yüklenen karanlık mirastan kurtulmaya çalışıyor. Film, yaratığın ortaya çıkışını bekletirken onun insan tarafına ağırlık veriyor.
@@ -2347,6 +2353,8 @@ Gotik dekorlar ve Reed'in kırılganlığı, dönüşüm sahnelerinden daha uzun
 ## 7. Werewolves Within (2021)
 
 ![Werewolves Within (2021)](${werewolfWithin.url})
+
+**IMDb:** [6.0/10](https://www.imdb.com/title/tt9288692/) · **Rotten Tomatoes (eleştirmen):** [%86](https://www.rottentomatoes.com/m/werewolves_within)
 
 **Yönetmen:** Josh Ruben · **Başroller:** Sam Richardson, Milana Vayntrub
 
@@ -2358,6 +2366,8 @@ Buradaki keyif, insanların ne zaman canavarlaşacağından çok birbirlerini ne
 
 ![Ginger Snaps (2000)](${werewolfGinger.url})
 
+**IMDb:** [6.8/10](https://www.imdb.com/title/tt0210070/) · **Rotten Tomatoes (eleştirmen):** [%92](https://www.rottentomatoes.com/m/ginger_snaps)
+
 **Yönetmen:** John Fawcett · **Başroller:** Katharine Isabelle, Emily Perkins
 
 Birbirlerine sıkı sıkıya bağlı iki kız kardeşin dünyası, Ginger'ın bir yaratık tarafından saldırıya uğramasıyla değişir. Bedensel dönüşüm, ergenliğin getirdiği yabancılaşmayla iç içe ilerlerken Brigitte kardeşini kurtarmanın yolunu arar. Film, kurt adam mitini genç kadınların deneyimlerine taşıyarak türün alışılmış bakışını değiştiriyor.
@@ -2367,6 +2377,8 @@ Ginger Snaps'in kalıcılığı yalnızca güçlü metaforundan gelmiyor. Karde�
 ## 5. Dog Soldiers (2002)
 
 ![Dog Soldiers (2002)](${werewolfSoldiers.url})
+
+**IMDb:** [6.8/10](https://www.imdb.com/title/tt0280609/) · **Rotten Tomatoes (eleştirmen):** [%83](https://www.rottentomatoes.com/m/dog_soldiers)
 
 **Yönetmen:** Neil Marshall · **Oyuncular:** Sean Pertwee, Kevin McKidd, Liam Cunningham
 
@@ -2378,6 +2390,8 @@ Marshall'ın temposu ve pratik yaratık tasarımları, dar mekânı sürekli de�
 
 ![The Wolf Man (1941)](${werewolfClassic.url})
 
+**IMDb:** [7.2/10](https://www.imdb.com/title/tt0034398/) · **Rotten Tomatoes (eleştirmen):** [%91](https://www.rottentomatoes.com/m/wolf_man)
+
 **Yönetmen:** George Waggner · **Başrol:** Lon Chaney Jr.
 
 Larry Talbot'ın memleketine dönüşü, aldığı bir ısırıkla geri çevrilemez bir felakete dönüşür. Universal'ın klasiği, sisli ormanları ve lanet duygusuyla kurt adamın yalnızca saldıran bir yaratık değil, kendi yaptıklarından korkan bir insan olduğunu anlatır. Sonraki filmlerde tanıdık gelen pek çok unsur burada etkili bir bütün oluşturuyor.
@@ -2387,6 +2401,8 @@ Lon Chaney Jr.'ın hüzünlü performansı, makyajın altındaki insanı unuttur
 ## 3. The Howling (1981)
 
 ![The Howling (1981)](${werewolfHowling.url})
+
+**IMDb:** [6.5/10](https://www.imdb.com/title/tt0082533/ratings/) · **Rotten Tomatoes (eleştirmen):** [%76](https://www.rottentomatoes.com/m/howling)
 
 **Yönetmen:** Joe Dante · **Başrol:** Dee Wallace
 
@@ -2398,6 +2414,8 @@ Rob Bottin'in pratik efektleri, dönüşümü kısa bir numara olmaktan çıkar�
 
 ![The Company of Wolves (1984)](${werewolfCompany.url})
 
+**IMDb:** [6.6/10](https://www.imdb.com/title/tt0087075/) · **Rotten Tomatoes (eleştirmen):** [%84](https://www.rottentomatoes.com/m/company_of_wolves)
+
 **Yönetmen:** Neil Jordan · **Oyuncular:** Sarah Patterson, Angela Lansbury
 
 Kırmızı Başlıklı Kız masalını Angela Carter'ın karanlık yorumuyla buluşturan film, tek bir düz hikâye yerine iç içe geçen anlatılar kuruyor. Büyükanne tarafından aktarılan öykülerde kurtlar, hem ormanın tehdidi hem de insanların sakladığı arzuların bir yansıması olarak beliriyor.
@@ -2407,6 +2425,8 @@ The Company of Wolves'u bir canavar avı filmi gibi izlemek, onun asıl zenginli
 ## 1. An American Werewolf in London (1981)
 
 ![An American Werewolf in London (1981)](${werewolfAmerican.url})
+
+**IMDb:** [7.5/10](https://www.imdb.com/title/tt0082010/) · **Rotten Tomatoes (eleştirmen):** [%80](https://www.rottentomatoes.com/m/american_werewolf_in_london)
 
 **Yönetmen:** John Landis · **Oyuncular:** David Naughton, Griffin Dunne, Jenny Agutter
 
