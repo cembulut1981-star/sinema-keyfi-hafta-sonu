@@ -13,6 +13,30 @@ describe("Bluesky shared article destinations", () => {
   });
 });
 
+describe("werewolf film ratings", () => {
+  const body = LISTS.find((item) => item.slug === "best-werewolf-movies")?.body ?? "";
+  const films = [
+    ["Wolf (1994)", 6.3, 61],
+    ["Brotherhood of the Wolf (2001)", 7.0, 74],
+    ["The Curse of the Werewolf (1961)", 6.5, 60],
+    ["Werewolves Within (2021)", 6.0, 86],
+    ["Ginger Snaps (2000)", 6.8, 92],
+    ["Dog Soldiers (2002)", 6.8, 83],
+    ["The Wolf Man (1941)", 7.2, 91],
+    ["The Howling (1981)", 6.5, 76],
+    ["The Company of Wolves (1984)", 6.6, 84],
+    ["An American Werewolf in London (1981)", 7.5, 80],
+  ] as const;
+  for (const [title, imdb, tomatoes] of films) {
+    test(`${title} has both verified rating values`, () => {
+      const section = body.split("\n## ").find((part) => part.split("\n")[0].endsWith(title));
+      assert.ok(section, `missing film: ${title}`);
+      assert.equal(Number(section.match(/\[(\d+\.\d+)\/10\]\(https:\/\/www\.imdb\.com\//)?.[1]), imdb);
+      assert.equal(Number(section.match(/\[%(\d+)\]\(https:\/\/www\.rottentomatoes\.com\//)?.[1]), tomatoes);
+    });
+  }
+});
+
 describe("Castlevania coverage placement", () => {
   test("the new Kotaku review appears once in PC Games and remains available for the lead", () => {
     const matching = GAME_ARTICLES.filter((article) => article.reviewSlug === "castlevania-belmonts-curse-kotaku-review");
