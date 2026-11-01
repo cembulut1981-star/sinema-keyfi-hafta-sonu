@@ -108,7 +108,7 @@ function Nav() {
                 to={item.to as any}
                 params={item.params as any}
                 activeOptions={{ exact: true }}
-                className="relative font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-background [-webkit-text-stroke:0.6px_currentColor] hover:text-background transition-colors after:absolute after:left-3 after:right-3 after:bottom-0 after:h-[4px] after:bg-primary after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+                className="relative font-display font-black uppercase tracking-[0.09em] text-[13px] px-3 py-4 inline-block whitespace-nowrap text-background [-webkit-text-stroke:0.6px_currentColor] hover:text-background transition-colors after:absolute after:left-3 after:right-3 after:bottom-0 after:h-[4px] after:bg-primary after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
               >
                 {item.label}
               </Link>
