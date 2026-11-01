@@ -96,7 +96,7 @@ function Nav() {
   }
 
   return (
-    <nav className="sticky top-0 z-30 bg-background/95 backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
+    <nav className="sticky top-0 z-30 bg-foreground/95 text-background backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
       <div className="site-nav-row relative mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 grid grid-cols-[auto_minmax(0,1fr)_auto] sm:flex items-center gap-2 sm:gap-3">
         <Link to="/" aria-label="Anasayfa" className="shrink-0">
           <SiteMark className="h-9 w-9" />
@@ -108,7 +108,7 @@ function Nav() {
                 to={item.to as any}
                 params={item.params as any}
                 activeOptions={{ exact: true }}
-                className="relative font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-foreground/75 hover:text-foreground transition-colors after:absolute after:left-3 after:right-3 after:bottom-0 after:h-[4px] after:bg-primary after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+                className="relative font-display font-black uppercase tracking-wider text-[13px] px-3 py-4 inline-block whitespace-nowrap text-background/75 hover:text-background transition-colors after:absolute after:left-3 after:right-3 after:bottom-0 after:h-[4px] after:bg-primary after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
               >
                 {item.label}
               </Link>
@@ -126,8 +126,9 @@ function Nav() {
             placeholder="Film, dizi, oyun ara"
             aria-hidden={!open}
             tabIndex={open ? 0 : -1}
-            className={`bg-transparent text-sm text-foreground placeholder:text-muted-foreground focus:outline-none border-b-2 border-foreground focus:border-primary transition-all duration-200 ${
+            className={`bg-transparent text-sm text-background placeholder:text-background/50 focus:outline-none border-b-2 border-background focus:border-primary transition-all duration-200 ${
               open ? "w-36 sm:w-48 opacity-100 px-2 py-1" : "w-0 opacity-0 p-0 border-transparent"
+
             }`}
           />
           <Button
@@ -141,7 +142,7 @@ function Nav() {
             aria-label="Ara"
             size="icon"
             title="Ara"
-            className="ml-2 h-9 w-9 shrink-0 rounded-full bg-foreground text-background hover:bg-primary hover:text-background transition-colors"
+            className="ml-2 h-9 w-9 shrink-0 rounded-full bg-background text-foreground hover:bg-primary hover:text-background transition-colors"
           >
             <Search className="h-4 w-4" />
           </Button>
