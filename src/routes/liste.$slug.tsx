@@ -56,7 +56,7 @@ function trailerFor(children: React.ReactNode) {
 
 function ListPage() {
   const { slug } = Route.useParams();
-  const l = getList(slug)!;
+  const l = getList(slug);
   const others = LISTS.filter((x) => x.slug !== slug);
   const [openTrailer, setOpenTrailer] = useState<{ src: string; label: string } | null>(null);
 
@@ -72,6 +72,8 @@ function ListPage() {
       document.body.style.overflow = "";
     };
   }, [openTrailer]);
+
+  if (!l) throw notFound();
 
   return (
     <SiteShell>
@@ -107,7 +109,13 @@ function ListPage() {
                     ) : null}
                   </span>
                   {alt && slug !== "best-sci-fi-movies-of-2026" ? (
-                    <span className="mt-3 block text-center text-sm text-muted-foreground">{alt}</span>
+                    slug === "best-werewolf-movies" ? (
+                      <span className="mt-4 flex justify-center">
+                        <span className="max-w-full bg-editorial-yellow px-4 py-2 text-center font-display text-base sm:text-lg font-bold uppercase tracking-normal text-editorial-ink">
+                          {alt}
+                        </span>
+                      </span>
+                    ) : <span className="mt-3 block text-center text-sm text-muted-foreground">{alt}</span>
                   ) : null}
                 </span>
               ),
@@ -154,6 +162,14 @@ function ListPage() {
                         </h2>
                       );
                     },
+                  }
+                : slug === "best-werewolf-movies"
+                ? {
+                    h2: ({ children }: { children?: React.ReactNode }) => (
+                      <h2 className={/^\d+\./.test(String(children)) ? "sr-only" : "font-serif-display text-3xl font-black leading-snug mt-12 mb-8"}>
+                        {children}
+                      </h2>
+                    ),
                   }
                 : {
                     h2: ({ children }: { children?: React.ReactNode }) => (
