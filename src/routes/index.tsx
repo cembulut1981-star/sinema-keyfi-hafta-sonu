@@ -8,6 +8,7 @@ import { publishedPostsQuery } from '@/lib/editorial-query';
 import { toEditorialCard } from '@/lib/editorial';
 import { getNews } from '@/data/news';
 import { extractDate, formatDate } from '@/lib/seo';
+import { homepageLeadRows } from '@/lib/homepage-lead';
 
 // Yellow/black one-word pills shown under the photo. Only a couple live in
 // the top rows; the rest are scattered deeper in the feed (see below) so it
@@ -42,7 +43,8 @@ const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
 const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series";
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
-const NEW_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
+const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === "castlevania-belmonts-curse-kotaku-review");
+const NEXT_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const NEW_STORIES = [
   ARTICLES.find((article) => article.listSlug === "best-werewolf-movies"),
   ARTICLES.find((article) => article.listSlug === "best-sci-fi-movies-of-2026"),
@@ -62,7 +64,7 @@ const NEW_STORIES = [
   ARTICLES.find((article) => article.newsSlug === "neon-scp-foundation-open-source-horror-movie"),
   ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
 ].filter((article): article is Article => Boolean(article)).slice(0, 4);
-const TOP_IDS = new Set([NEW_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
+const TOP_IDS = new Set([NEW_REVIEW?.id, NEXT_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 const LOWER_FEATURES = ARTICLES.filter((article) => article.homepagePlacement === "lower");
 // New PC Games stories are spread further down the feed so games don't cluster at the top.
 const SCATTERED_GAME_SLUGS = [
@@ -275,20 +277,11 @@ function Index() {
   const { data: published } = useSuspenseQuery(publishedPostsQuery);
   const newCards = published.map(toEditorialCard);
   const dynamicLead = newCards.filter(a => !a.homepagePlacement);
-  // Yeni otomatik haberler 5'erli (1 büyük + 4 küçük) tam satırlara bölünür.
-  // Her tamamlanan satır kendi kolonu olarak üst bölüme çıkar; böylece yeni
-  // içerik biriktikçe eski satırlar aşağı iner ve sayfanın tepesi taze kalır.
-  const newRowGroups: { center: Article; sides: Article[] }[] = [];
-  const fullGroups = Math.floor(dynamicLead.length / 5);
-  for (let i = 0; i < fullGroups; i++) {
-    const group = dynamicLead.slice(i * 5, i * 5 + 5);
-    newRowGroups.push({ center: group[0], sides: group.slice(1) });
-  }
-  const leadRest = dynamicLead.slice(fullGroups * 5);
-  const leadCenter = leadRest[0] ?? NEW_REVIEW;
-  const leadSides = leadRest.length ? [...leadRest.slice(1), ...(NEW_REVIEW ? [NEW_REVIEW] : []), ...NEW_STORIES].slice(0, 4) : NEW_STORIES;
-  const leadIds = new Set([...dynamicLead.map(a => a.id), NEW_REVIEW?.id, ...leadSides.map(a => a.id)]);
-  const feed = [...dynamicLead, ...(NEW_REVIEW ? [NEW_REVIEW] : []), ...NEW_STORIES, ...FEED_ARTICLES].filter((a, i, all) => !leadIds.has(a.id) && all.findIndex(b => b.id === a.id) === i);
+  const { rows: leadRows, usedIds: leadIds } = homepageLeadRows(
+    NEW_REVIEW, NEXT_REVIEW, NEW_STORIES, dynamicLead,
+    FEED_ARTICLES.filter((article) => article.id !== FRAMED?.id),
+  );
+  const feed = [...dynamicLead, ...NEW_STORIES, ...FEED_ARTICLES].filter((a, i, all) => !leadIds.has(a.id) && all.findIndex(b => b.id === a.id) === i);
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
@@ -351,9 +344,8 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-5 md:py-10">
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
         <div className="h-2 md:h-14" aria-hidden />
-        {leadCenter ? <MixedRow centerCard={leadCenter} sideCards={leadSides} centerFirstMobile /> : null}
-        {newRowGroups.map((r, i) => (
-          <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} />
+        {leadRows.map((r, i) => (
+          <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} />
         ))}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="Dizi" dateLabel="13 Eylül 2026" />
