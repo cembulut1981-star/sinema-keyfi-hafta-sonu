@@ -14,6 +14,11 @@ describe("Bluesky shared article destinations", () => {
 });
 
 describe("Castlevania coverage placement", () => {
+  test("the new Kotaku review appears once in PC Games and remains available for the lead", () => {
+    const matching = GAME_ARTICLES.filter((article) => article.reviewSlug === "castlevania-belmonts-curse-kotaku-review");
+    assert.equal(matching.length, 1);
+    assert.equal(matching[0].homepagePlacement, undefined);
+  });
   test("belongs to PC Games", () => {
     assert.equal(GAME_ARTICLES.some((article) => article.newsSlug === "castlevania-belmonts-curse-review-highlights"), true);
   });

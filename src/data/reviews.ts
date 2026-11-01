@@ -1,3 +1,6 @@
+import castlevaniaKotakuCover from "@/assets/castlevania-kotaku-cover.jpg.asset.json";
+import castlevaniaKotakuExploration from "@/assets/castlevania-kotaku-exploration.jpg.asset.json";
+import castlevaniaKotakuCastle from "@/assets/castlevania-kotaku-castle.jpg.asset.json";
 import yoteiCover from "@/assets/ghost-of-yotei-cover.webp.asset.json";
 import yoteiCharacters from "@/assets/ghost-of-yotei-characters.webp.asset.json";
 import yoteiSekigahara from "@/assets/ghost-of-yotei-sekigahara.webp.asset.json";
@@ -75,6 +78,54 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "castlevania-belmonts-curse-kotaku-review",
+    origTitle: "Castlevania: Belmont’s Curse",
+    title: "Castlevania: Belmont’s Curse İncelemesi — Dracula’nın Şatosuna Kusurlu Ama Büyüleyici Bir Dönüş",
+    excerpt: "Rose Belmont’un Paris’ten Dracula’nın şatosuna uzanan macerası, keşif tutkusunu yeniden ateşliyor. Zengin harita ve yaratıcı büyüler güçlü; kontroller ve zorluk dengesi ise tartışmalı.",
+    rating: "Genel değerlendirme: Olumlu, bazı çekincelerle",
+    image: castlevaniaKotakuCover.url,
+    source: "Kotaku — October 30, 2026 — https://kotaku.com/castlevania-belmonts-curse-the-kotaku-review-2000751626",
+    body: `**Castlevania: Belmont’s Curse**, serinin geri dönüşünü yalnızca tanıdık canavarlarla değil, oyuncuyu sürekli yeni bir odaya çağıran keşif duygusuyla anlamlı kılıyor. Paris’in sokaklarıyla Dracula’nın şatosunu birbirine bağlayan bu macerada her aşılmış engelin ardından başka bir sınav beliriyor. Tempo zaman zaman yorucu olsa da haritanın bilinmeyen köşeleri, devam etmek için güçlü bir neden sunuyor.
+
+Bu değerlendirme, yayımlanan incelemenin bulgularından hazırlanan bir derlemedir; oyunu bağımsız olarak test ettiğimiz anlamına gelmez. Aktarılan oynanış deneyimi PS5 sürümünde, yaklaşık 24 saat ve yüzde 94 tamamlama üzerinden şekilleniyor. Kaynakta sayısal bir inceleme puanı verilmediği için burada da puan üretilmiyor.
+
+## Rose Belmont ve annesinden kalan tarot destesi
+
+Trevor ile Sypha’nın kızı **Rose Belmont**, hikâyenin merkezinde. Annesinden kalan büyülü tarot destesi, mağlup ettiği düşmanların güçlerini taşımasını ve bunları yeni büyülere dönüştürmesini sağlıyor. Leon Belmont ve Jeanne d’Arc gibi karakterlerin yol gösterici rolleri, macerayı yalnızca savaşlardan ibaret olmaktan çıkarıyor; Medusa’yla kurulan rekabet de anlatıya hareket katıyor.
+
+Netflix uyarlamasıyla tanışan oyuncular için bazı karakterler tanıdık olsa da Alucard’ın doğrudan görünmemesi dikkat çekici bir eksik. Adı anılıyor ve eşyalarına rastlanıyor, ancak kendisi bu yolculuğa beklenen biçimde katılmıyor.
+
+![Castlevania: Belmont’s Curse’te keşfedilecek alanlar ve ayrıntılı oyun dünyası](${castlevaniaKotakuExploration.url})
+
+## En güçlü tarafı: Haritada kaybolma isteği
+
+Belmont’s Curse’ün asıl cazibesi, keşfin kendi başına ödüle dönüşmesi. Yeni bir silah ya da aksesuar bulmak elbette önemli; fakat ayrıntılı dekorları görmek, farklı bölgelerin bulmacalarını çözmek ve haritadaki boşlukları doldurmak da ilerleme hissini canlı tutuyor.
+
+Haritada **mor alanlar keşfedilecek bir şey kaldığını**, kahverengi alanlar ise o bölümün tamamlandığını gösteriyor. Bu küçük görsel ayrım, geniş dünyayı daha okunabilir hale getiriyor. Bir bölgeyi bütünüyle bitirmek, yalnızca eşya toplamak değil, o mekânın bütün sırlarını çözmek gibi hissettiriyor.
+
+## Büyüler eğlenceli, güç dengesi sorunlu
+
+Gökyüzünden inen dev bir yumruk ya da serinin geçmişinden tanıdık kutsal haç gibi büyüler, çatışmalara çeşitlilik katıyor. Özel mücadele ve keşif görevleri tamamlandıkça açılan geliştirmeler; silahlar ve aksesuarlarla birleştiğinde Rose’un yeteneklerini belirgin biçimde genişletiyor.
+
+Ancak bu ilerlemenin bedeli, zorluk eğrisinde ortaya çıkıyor. İlk Leon karşılaşması sert bir beceri sınavı gibi davranırken, daha sonraki bölüm sonu düşmanları biriken güçlere aynı ölçüde cevap veremeyebiliyor. Düşman mekaniklerini okumak hâlâ gerekli, fakat bazı mücadeleler stratejiden çok yüksek hasarla aşılabilir hale geliyor.
+
+![Castlevania: Belmont’s Curse’te Dracula’nın şatosunun gotik atmosferi](${castlevaniaKotakuCastle.url})
+
+## Platform bölümlerinde akıcılık eksik
+
+Zıplamak, atılmak ve dikenli tuzakları son anda aşmak heyecan yaratıyor; buna karşılık Rose’un hareketleri her zaman bu heyecanın gerektirdiği hızda cevap vermiyor. Özellikle kırbaçla tutunma hareketi, çok hassas zamanlama isteyen bölümlerde ağır hissettirebiliyor.
+
+Sorun yalnızca oyunun zor olması değil: Bazı engellerin talep ettiği hız ile karakterin sunduğu tepki arasında bir uyumsuzluk var. Bu nedenle başarısızlık, her zaman oyuncunun hatası gibi okunmuyor. Hollow Knight: Silksong gibi daha çevik örneklerle karşılaştırıldığında bu pürüz daha görünür hale geliyor.
+
+## Son söz: Türün tahtını almıyor, geri dönüşü anlamlı kılıyor
+
+Belmont’s Curse, metroidvania türünün en kusursuz örneği olarak öne çıkmıyor. Kontrollerin daha keskin, zorluk dengesinin daha tutarlı olması oyunu belirgin biçimde güçlendirebilirdi. Yine de geniş haritası, görsel ayrıntıları ve keşif ödülleri, bu kusurların ötesinde güçlü bir çekim yaratıyor.
+
+**Keşif ve gotik atmosfer arayanlar için dikkate değer bir dönüş; hassas platform kontrollerini her şeyin önüne koyanlar içinse çekinceli bir tercih.**
+
+**Oyun bilgileri:** Geliştiriciler Evil Empire ve Motion Twin · Çıkış: 15 Ekim 2026 · Platformlar: PS5, Xbox, PC ve Nintendo Switch · Aktarılan inceleme platformu: PS5.`,
+  },
   {
     slug: "ghost-of-yotei-complete-edition-review",
     origTitle: "Ghost of Yōtei Complete Edition",
