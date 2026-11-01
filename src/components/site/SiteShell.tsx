@@ -96,7 +96,7 @@ function Nav() {
   }
 
   return (
-    <nav className="sticky top-0 z-30 bg-background/95 backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
+    <nav className="sticky top-0 z-30 bg-foreground/95 text-background backdrop-blur border-y-2 border-foreground shadow-[0_6px_0_-3px_var(--primary)]">
       <div className="site-nav-row relative mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 grid grid-cols-[auto_minmax(0,1fr)_auto] sm:flex items-center gap-2 sm:gap-3">
         <Link to="/" aria-label="Anasayfa" className="shrink-0">
           <SiteMark className="h-9 w-9" />
