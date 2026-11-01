@@ -30,3 +30,6 @@
 - [x] Add site-hosted popup trailer players for War Machine and Mercy; verify all seven films have working players.
 - [x] Add a Turkish best-werewolf-movies list with ten film sections and site-hosted photos, and verify its homepage card and article.
 - [x] Preserve desktop editorial identity in mobile navigation, homepage card groups and footer; verify navigation, search and layouts.
+- [ ] Add a source-based Turkish Kotaku Castlevania review with site-hosted photos.
+- [ ] Place the new Castlevania review first and Metallica in the next homepage row, without duplicates.
+- [ ] Verify article, images and homepage order; run placement tests.

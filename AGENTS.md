@@ -16,3 +16,4 @@
 - Bluesky publishing uses a server-only credential helper with uploaded site-hosted covers in external link cards and UTF-8 link facets; shared text helpers stay browser-safe for isolated protocol tests.
 - Daily news discovery and URL acceptance use the same source-domain configuration, so adding a publisher cannot leave its articles excluded by the acceptance filter.
 - Mobile editorial layouts keep lead stories full-width and compact stories in paired grids, with wrapping navigation; this preserves the magazine identity without shrinking desktop text or hiding categories.
+- Explicit homepage lead and next-row editorial choices are assembled in a browser-safe, tested helper before automated news rows; this preserves requested order without duplicating stories or dropping incomplete groups.
