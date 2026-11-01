@@ -142,7 +142,7 @@ function Nav() {
             aria-label="Ara"
             size="icon"
             title="Ara"
-            className="ml-2 h-9 w-9 shrink-0 rounded-full bg-foreground text-background hover:bg-primary hover:text-background transition-colors"
+            className="ml-2 h-9 w-9 shrink-0 rounded-full bg-background text-foreground hover:bg-primary hover:text-background transition-colors"
           >
             <Search className="h-4 w-4" />
           </Button>
