@@ -33,5 +33,10 @@ test("lead rows do not duplicate stories and leave incomplete incoming groups fo
   const { rows, usedIds } = homepageLeadRows(castlevania, metallica, nocturne, sides, incoming, sides);
   const shown = rows.flatMap((row) => [row.center.id, ...row.sides.map((item) => item.id)]);
   assert.equal(new Set(shown).size, shown.length);
-  assert.equal(incoming.filter((item) => !usedIds.has(item.id)).length, 3);
+  const remaining = incoming.filter((item) => !usedIds.has(item.id));
+  // Two lead rows plus the Nocturne row take eight of the twelve incoming
+  // stories; the four left over are too few for a full row, so they stay in
+  // the feed instead of being shown half-empty.
+  assert.equal(remaining.length, 4);
+  assert.ok(remaining.length < 5, "an incomplete group must be left for the feed");
 });
