@@ -143,6 +143,12 @@ describe("Nocturne coverage placement", () => {
     assert.equal(review?.rating, "★★★★☆");
   });
 
+  test("keeps the two anchor paragraphs the inline photos are attached to", () => {
+    const paragraphs = (review?.body ?? "").split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+    assert.equal(paragraphs.filter((p) => p.includes("Rory Culkin")).length, 1);
+    assert.equal(paragraphs.filter((p) => p.includes("Zazie Beetz")).length, 1);
+  });
+
   test("body carries the reviewed cast and setting details", () => {
     const body = review?.body ?? "";
     for (const fact of ["Jurek Walter", "Rory Culkin", "Liev Schreiber", "Zazie Beetz", "Fairhaven", "Lars Kepler"]) {
