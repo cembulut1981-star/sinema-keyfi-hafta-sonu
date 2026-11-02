@@ -124,3 +124,29 @@ describe("stories publish without a visible source credit", () => {
     }
   });
 });
+
+describe("Nocturne coverage placement", () => {
+  const slug = "nocturne-apple-tv-stephen-graham-review";
+  const review = REVIEWS.find((item) => item.slug === slug);
+
+  test("appears once on the site and is not filed under PC Games", () => {
+    assert.equal(ARTICLES.filter((article) => article.reviewSlug === slug).length, 1);
+    assert.equal(GAME_ARTICLES.some((article) => article.reviewSlug === slug), false);
+  });
+
+  test("stays in the upper homepage pool instead of the lower placement", () => {
+    assert.equal(ARTICLES.find((article) => article.reviewSlug === slug)?.homepagePlacement, undefined);
+  });
+
+  test("credits the source review and its publication date without inventing one", () => {
+    assert.equal(review?.source, "The Times — October 30, 2026 — https://www.thetimes.com/culture/tv-radio/article/nocturne-review-stephen-graham-apple-tv-rq2cxlp3q");
+    assert.equal(review?.rating, "★★★★☆");
+  });
+
+  test("body carries the reviewed cast and setting details", () => {
+    const body = review?.body ?? "";
+    for (const fact of ["Jurek Walter", "Rory Culkin", "Liev Schreiber", "Zazie Beetz", "Fairhaven", "Lars Kepler"]) {
+      assert.ok(body.includes(fact), `missing ${fact}`);
+    }
+  });
+});

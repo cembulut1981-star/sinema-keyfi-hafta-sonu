@@ -1,3 +1,4 @@
+import nocturneCover from "@/assets/nocturne-apple-tv-cover.jpg.asset.json";
 import mortalShell2Cover from "@/assets/mortal-shell-2-cover.jpg.asset.json";
 import mortalShell2Gragu from "@/assets/mortal-shell-2-gragu.jpg.asset.json";
 import mortalShell2Captive from "@/assets/mortal-shell-2-captive.jpg.asset.json";
@@ -83,6 +84,38 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "nocturne-apple-tv-stephen-graham-review",
+    origTitle: "Nocturne review — Stephen Graham's serial killer is creepily compelling",
+    title: "Nocturne İncelemesi — Stephen Graham'ın Seri Katili Ürkütücü Derecede Büyüleyici",
+    excerpt: "Apple TV+'nın on bölümlük geriliminde Stephen Graham, akıl hastanesinin bodrumunda komşu hücreyi fısıltılarıyla bitiren mavi yakalı bir Hannibal Lecter; Liev Schreiber ise bitmemiş bir davayı çözmeye çalışan eski bir dedektif.",
+    rating: "★★★★☆",
+    image: nocturneCover.url,
+    source: "The Times — October 30, 2026 — https://www.thetimes.com/culture/tv-radio/article/nocturne-review-stephen-graham-apple-tv-rq2cxlp3q",
+    body: `**Nocturne**, Apple TV+'nın on bölümlük yeni gerilimi: 1990'ların "kopya katil" filmlerinin otuz yıl gecikmeli dizi hâli. *The Silence of the Lambs*'ın açtığı partiye *Kiss the Girls*, *The Bone Collector* ve *Copycat* gibi yapımlarla katılan tür, burada bilinçli biçimde aynı formülü benimseyip üzerine bir Scandi noir damgası vuruyor.
+
+Bu değerlendirme, yayımlanan incelemenin bulgularından hazırlanan bir derlemedir.
+
+## Mavi yakalı bir Hannibal Lecter
+
+Dizinin ilk sahnesi, suçlulara ayrılmış bir psikiyatri kliniğinin bodrumunda: tıraş edilmiş kafasıyla bir psikopat, yan hücredeki hastayı fısıltılarıyla öyle bir sıkıştırıyor ki adam dayanamayıp kendini öldürüyor. Dr. Lecter'ın Multiple Miggs'e yaptığını hatırlayanlar için tanıdık bir giriş — ama burada kanlı bıçaklı bir iş gibi, süslü bir zekâ oyunu gibi değil.
+
+O "mırıltılı psikopat" **Stephen Graham**: canlandırdığı **Jurek Walter**, Lecter gibi şehvetli bir üsluba sahip değil, daha çok mavi yakalı; yine de dış dünyadaki olayları hücreden yönetme alışkanlığı aynı. Graham tüm Scouse izlerini silmiş, yumuşak bir Amerikan İngilizcesi konuşuyor ve kaba güce fazlasıyla yeten iri gövdesiyle tuhaf biçimde çelişen küçük bir hoot kahkaha kullanıyor. Walter'ın, ona ilacını vermekle görevli solgun, içine kapanık hastabakıcı **Karl**'ı (Rory Culkin) adım adım ele geçirmesi, dizinin en büyüleyici hattı.
+
+## Fairhaven: davanın diğer ayağı
+
+Kliniğin boğucu açılışından sonra Rowan Joffé'nin dizisi *Mare of Easttown* topraklarına geçiyor: kasvetli Pennsylvania kasabası Fairhaven. Üç yıldır kayıp olan zayıf düşmüş bir çocuk ortaya çıkıyor; esaretten kaçmış ve Jurek'le bir biçimde bağlantılı. Çocuk, hâlâ canlı ve ciddi tehlikede olabilecek kayıp kız kardeşini aramaya başlıyor.
+
+Kasabada **Liev Schreiber**'ın **Jonah Lynn**'iyle tanışıyoruz: Walter davası yüzünden kırılmış, ormanda kimse binmeyecek bir ağaç ev yaparak yaşayan yaslı bir eski polis. Sonunda çekilip davaya geri dönen Lynn — ölçülü, çatallı sesli, Wallander kadar kasvetli — olağan dışı bir yola başvuruyor: üvey kızı olan FBI ajanı **Saga Bauer**'i (Zazie Beetz) gizli görevle hapishaneye, Walter'ın yanındaki hücreye sokuyor. "Walter'ın insanlara ulaşmanın bir yolunu buluyor" diye uyarıyor Lynn; "ve bulduğunda bir daha geri gelmiyorlar."
+
+Kasabanın polis şefi **Bill Camp**, diziye tanıdık karakter oyuncuları katmanı ekliyor. Lars Kepler takma adlı Alexander Ahndoril ve Alexandra Coelho Ahndoril çiftinin *The Sandman* ve *Lazarus* romanlarından uyarlanan yapım, böylece Lecter-vari ile İskandinav karanlığı arasında bir yerde duruyor.
+
+## Neden izletiyor?
+
+Fairhaven'daki geri dönüşler ve ağır pasajlar, Jurek's hücresinde olup bitenlerden daha az ilgi çekici; insanı on saatlik yavaş yanan bir dizi yerine iki saatlik bir film izlediği düşüncesi dürtüyor. Yine de dizi bırakılamıyor: Graham'ın katiliyle geçecek sonraki sahneyi beklemek, kabuğu koparılan bir yara gibi.
+
+Dört yıldız: türev olduğunu bilerek, ama kompulsif biçimde izlenen bir seri katil draması. İlk iki bölüm Apple TV+'da, sonrası haftalık yayımlanıyor.`,
+  },
   {
     slug: "mortal-shell-2-rps-review",
     origTitle: "Mortal Shell 2 review — a monumental heavy metal sequel with the spirit of a 90s PC game",

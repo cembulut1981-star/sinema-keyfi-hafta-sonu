@@ -3,6 +3,7 @@ import type { Article } from "@/data/articles";
 export function homepageLeadRows(
   featured: Article | undefined,
   nextFeatured: Article | undefined,
+  thirdFeatured: Article | undefined,
   standardSides: Article[],
   incoming: Article[],
   fallback: Article[],
@@ -23,6 +24,7 @@ export function homepageLeadRows(
   };
   if (featured) addRow(featured, standardSides);
   if (nextFeatured) addRow(nextFeatured, [...incoming, ...fallback, ...standardSides]);
+  if (thirdFeatured) addRow(thirdFeatured, [...incoming, ...fallback, ...standardSides]);
   const remaining = incoming.filter((article) => !usedIds.has(article.id));
   for (let i = 0; i + 5 <= remaining.length; i += 5) {
     addRow(remaining[i], remaining.slice(i + 1, i + 5));
