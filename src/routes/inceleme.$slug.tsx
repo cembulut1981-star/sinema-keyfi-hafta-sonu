@@ -36,6 +36,7 @@ function ReviewPage() {
   const { slug } = Route.useParams();
   const r = getReview(slug)!;
   const others = REVIEWS.filter((x) => x.slug !== slug);
+  const isNocturne = slug === "nocturne-apple-tv-stephen-graham-review";
 
   return (
     <SiteShell>
