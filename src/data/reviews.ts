@@ -1,3 +1,8 @@
+import mortalShell2Cover from "@/assets/mortal-shell-2-cover.jpg.asset.json";
+import mortalShell2Gragu from "@/assets/mortal-shell-2-gragu.jpg.asset.json";
+import mortalShell2Captive from "@/assets/mortal-shell-2-captive.jpg.asset.json";
+import mortalShell2Dungeon from "@/assets/mortal-shell-2-dungeon.jpg.asset.json";
+import mortalShell2Tavern from "@/assets/mortal-shell-2-tavern.jpg.asset.json";
 import castlevaniaKotakuCover from "@/assets/castlevania-kotaku-cover.jpg.asset.json";
 import castlevaniaKotakuExploration from "@/assets/castlevania-kotaku-exploration.jpg.asset.json";
 import castlevaniaKotakuCastle from "@/assets/castlevania-kotaku-castle.jpg.asset.json";
@@ -138,7 +143,7 @@ Bunlar hoş görülebilir sorunlar: Bir güncelleme hata eleştirilerini büyük
 
 ## Son söz: Türün D&D'sinin yanında bir Warhammer
 
-Eğer Dark Souls ve Elden Ring bu türün Dungeons & Dragons'ıysa, Mortal Shell 2 **Warhammer Fantasy Roleplay** gibi: Tuhaf karakterleriyle, her şeyin biraz dingil olduğu dünyasıyla dikkat çeken ama bu sapkın özgünlüğüyle sizi büyüleyen alternatif bir seçim. Tek Meşeli Kurt'meys'te oturup bir kadeh ayran dökün ve kalın: Arka planda o ut gürülüyor, umarım sahneye çıkıp onu eşlik edersiniz — yanınızda duran o zavallıyı parçalamamaya özen göstererek.
+Eğer Dark Souls ve Elden Ring bu türün Dungeons & Dragons'ıysa, Mortal Shell 2 **Warhammer Fantasy Roleplay** gibi: Tuhaf karakterleriyle, her şeyin biraz dingil olduğu dünyasıyla dikkat çeken ama bu sapkın özgünlüğüyle sizi büyüleyen alternatif bir seçim. Tek Bacaklı Kurt tavernasında oturup bir kadeh ayran dökün ve kalın: Arka planda o ut gürülüyor, umarım sahneye çıkıp onu eşlik edersiniz — yanınızda duran o zavallıyı parçalamamaya özen göstererek.
 
 **Oyun bilgileri:** Geliştirici Cold Symmetry · Yayımcı Playstack · Çıkış: 20 Ağustos 2026 · Platformlar: PC (Steam), PlayStation 5, Xbox Series X/S.`,
   },
