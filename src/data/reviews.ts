@@ -99,7 +99,7 @@ Bu değerlendirme, yayımlanan incelemenin bulgularından hazırlanan bir derlem
 
 ## Harbinger ve sekiz kabuk
 
-Oyunda düşmüş savaşçıların "**Shells**"lerini (kabuklar) diriliyorsunuz; bunlar standart sınıfların yerini alıyor. Uzun bir karakter oluşturma ekranıyla boğuşmak yerine kontrol ettiğiniz varlık — **Harbinger** — her seviyeyle artan birkaç temel istatistiğe sahip, ilk oyundaki Foundling'den çok daha dayanıklı. Asıl yetenekleriniz, bir parazitin terk edilmiş bir koza giymesi gibi giydiğiniz kabuklardan geliyor.
+Oyunda düşmüş savaşçıların "**Shells**"lerini (kabuklar) canlandırıyorsunuz; bunlar standart sınıfların yerini alıyor. Uzun bir karakter oluşturma ekranıyla boğuşmak yerine kontrol ettiğiniz varlık — **Harbinger** — her seviyeyle artan birkaç temel istatistiğe sahip, ilk oyundaki Foundling'den çok daha dayanıklı. Asıl yetenekleriniz, bir parazitin terk edilmiş bir koza giymesi gibi giydiğiniz kabuklardan geliyor.
 
 İlk oyunda yalnızca dört kabuk varken devam oyunda sekiz tane bulunuyor ve hepsi, **Glimpse** adlı bir para birimiyle açabileceğiniz karaktere ait anılar taşıyor. Bu somut, karakter odaklı arka plan hikâyeleri, Soulslike'ların milyonlarca eşya açıklamasına sakladığı gizemli lore'a nadir rastlanan bir açıklık getiriyor. Ana anlatım — Harbinger'ın **UnderMether** adlı varlığa hizmet ederek doğmamış Ova'larını toplaması — çoğunlukla arka planda kalıyor; asıl hikâye kabukların hikâyelerinde saklı: bağımlılıkla boğuşan hırsız **Tiel**, bir Predator'ın dişi versiyonu **Proxima** ve klon çağırabilen **Sester Genessa**.
 
@@ -135,7 +135,7 @@ Kayıt noktanızı temizlemek ya da gizli alanları araştırmak istediğinizde 
 
 Bu zindanlar, sanki 1998'de "en iyi 100 harita" paketi olarak korsan dağıtılmış gibi hissettiriyor — ki bu içten bir iltifat. Retro hisli haritaların, Elden Ring ya da Nioh 3 kadar geniş olmayan ama daha sıkı örülmüş, alanları birbirine geçmiş geniş bir açık dünyaya bağlanması etkileyici.
 
-## Pürüzler küçük, geçerlilik uzun
+## Pürüzler küçük, etkisi uzun sürüyor
 
 İncelemede birkaç hata gözlendi: Sester Genessa'nın klonları saldırılarını çoğu zaman ıskalıyor ve haritadaki bazı bölgeler — özellikle kuzeydoğu Fainweald — uzun patron geri koşularını hafifletmek için daha fazla kayıt noktasına ihtiyaç duyuyor. Ayrıca oyun en fazla bir-iki kabuğa bağlanmanızı istiyor: Glimpse'in hepsini min/max yapmanıza yetmeyecek kadar az, bu yüzden çoğu oyuncu büyük olasılıkla ilk açtıkları Tiel ya da Proxima ile tüm yolculuğu bitirecek.
 

@@ -109,6 +109,7 @@ export const ARTICLES: Article[] = interleave(NEWS_ARTICLES, REVIEW_ARTICLES, LI
 
 // Video-game stories collected under the "PC Games" menu tab.
 const GAME_SLUGS = new Set([
+  "mortal-shell-2-rps-review",
   "castlevania-belmonts-curse-kotaku-review",
   "ghost-of-yotei-complete-edition-review",
   "no-mans-sky-ios-october-28-launch",
