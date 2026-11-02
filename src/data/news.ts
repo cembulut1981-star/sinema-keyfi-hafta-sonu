@@ -100,7 +100,7 @@ export const NEWS: NewsItem[] = [
     slug: "oscars-2027-nominations-predictions",
     title: "Oscar 2027 İçin İlk Tahminler: 99. Akademi Ödülleri Yarışı Şekilleniyor",
     excerpt: "Christopher Nolan’ın The Odyssey’si favori konumda; La Bola Negra, The Debut ve Dune: Part Three erken yarışın öne çıkan adayları arasında.",
-    image: oscars2027Predictions,
+    image: oscars2027Predictions.url,
     source: "Entertainment Weekly — October 29, 2026",
     homepagePlacement: "lower",
     body: `**99. Akademi Ödülleri** için geri sayım başladı. Adayların **21 Ocak 2027**'de açıklanacağı tören öncesinde, ödül sezonunun erken tahminleri de şekillenmeye başladı. Geçen yıl **One Battle After Another**'ın En İyi Film zaferinin ardından, bu yılın yarışı şimdiden oldukça renkli görünüyor.
