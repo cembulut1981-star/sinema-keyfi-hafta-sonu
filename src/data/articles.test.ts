@@ -63,6 +63,20 @@ describe("Ghost of Yōtei Complete Edition coverage", () => {
   });
 });
 
+describe("Mortal Shell 2 coverage placement", () => {
+  const slug = "mortal-shell-2-rps-review";
+  test("appears once in PC Games", () => {
+    assert.equal(GAME_ARTICLES.filter((article) => article.reviewSlug === slug).length, 1);
+  });
+  test("stays below the homepage lead pool", () => {
+    assert.equal(ARTICLES.find((article) => article.reviewSlug === slug)?.homepagePlacement, "lower");
+  });
+  test("credits the source review and its publication date without inventing one", () => {
+    const review = REVIEWS.find((item) => item.slug === slug);
+    assert.equal(review?.source, "Rock Paper Shotgun — August 17, 2026 — https://www.rockpapershotgun.com/mortal-shell-2-review-a-monumental-heavy-metal-sequel-with-the-spirit-of-a-90s-pc-game");
+  });
+});
+
 describe("2026 PC games guide", () => {
   test("belongs to the PC Games collection", () => {
     assert.equal(GAME_ARTICLES.some((article) => article.newsSlug === "new-pc-games-2026-release-guide"), true);

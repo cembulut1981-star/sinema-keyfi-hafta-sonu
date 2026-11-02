@@ -1,3 +1,8 @@
+import mortalShell2Cover from "@/assets/mortal-shell-2-cover.jpg.asset.json";
+import mortalShell2Gragu from "@/assets/mortal-shell-2-gragu.jpg.asset.json";
+import mortalShell2Captive from "@/assets/mortal-shell-2-captive.jpg.asset.json";
+import mortalShell2Dungeon from "@/assets/mortal-shell-2-dungeon.jpg.asset.json";
+import mortalShell2Tavern from "@/assets/mortal-shell-2-tavern.jpg.asset.json";
 import castlevaniaKotakuCover from "@/assets/castlevania-kotaku-cover.jpg.asset.json";
 import castlevaniaKotakuExploration from "@/assets/castlevania-kotaku-exploration.jpg.asset.json";
 import castlevaniaKotakuCastle from "@/assets/castlevania-kotaku-castle.jpg.asset.json";
@@ -78,6 +83,70 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "mortal-shell-2-rps-review",
+    origTitle: "Mortal Shell 2 review — a monumental heavy metal sequel with the spirit of a 90s PC game",
+    title: "Mortal Shell 2 İncelemesi — Ağır Metal Ruhlu, 90'lar PC Oyunu Havasında Muhteşem Bir Devam",
+    excerpt: "Kabuk değiştiren Harbinger'ın kıyametî Fainweald serüveni, türün en esnek soulslike'ı olarak öne çıkıyor: dikenli mizah, 90'lar PC oyunu nostaljisi ve akıllı erişilebilirlik aynı pakette.",
+    rating: "Genel değerlendirme: Övgüye değer — türün en esnek soulslike'ı",
+    image: mortalShell2Cover.url,
+    gallery: [mortalShell2Gragu.url, mortalShell2Captive.url, mortalShell2Dungeon.url, mortalShell2Tavern.url],
+    source: "Rock Paper Shotgun — August 17, 2026 — https://www.rockpapershotgun.com/mortal-shell-2-review-a-monumental-heavy-metal-sequel-with-the-spirit-of-a-90s-pc-game",
+    homepagePlacement: "lower",
+    body: `**Mortal Shell 2**, kıyametî krallığı **Fainweald**'de geçen; modern karanlık fantezi soulslike'ını tür formülünden vazgeçmeye istekli, şakacı bir mizah anlayışıyla ve eski bir PC oyununun DNA'sıyla birleştiren bir devam oyunu. Sonuç, **Elden Ring** gibi ana akım örneklerin gotik kuzeni ve serinin ilk oyununu **The Witcher III**'ten beri görülmemiş bir ölçüde geride bırakan, monumental bir çaba.
+
+Bu değerlendirme, yayımlanan incelemenin bulgularından hazırlanan bir derlemedir; oyunu bağımsız olarak test ettiğimiz anlamına gelmez. Kaynakta sayısal bir inceleme puanı verilmediği için burada da puan üretilmiyor.
+
+## Harbinger ve sekiz kabuk
+
+Oyunda düşmüş savaşçıların "**Shells**"lerini (kabuklar) canlandırıyorsunuz; bunlar standart sınıfların yerini alıyor. Uzun bir karakter oluşturma ekranıyla boğuşmak yerine kontrol ettiğiniz varlık — **Harbinger** — her seviyeyle artan birkaç temel istatistiğe sahip, ilk oyundaki Foundling'den çok daha dayanıklı. Asıl yetenekleriniz, bir parazitin terk edilmiş bir koza giymesi gibi giydiğiniz kabuklardan geliyor.
+
+İlk oyunda yalnızca dört kabuk varken devam oyunda sekiz tane bulunuyor ve hepsi, **Glimpse** adlı bir para birimiyle açabileceğiniz karaktere ait anılar taşıyor. Bu somut, karakter odaklı arka plan hikâyeleri, Soulslike'ların milyonlarca eşya açıklamasına sakladığı gizemli lore'a nadir rastlanan bir açıklık getiriyor. Ana anlatım — Harbinger'ın **UnderMether** adlı varlığa hizmet ederek doğmamış Ova'larını toplaması — çoğunlukla arka planda kalıyor; asıl hikâye kabukların hikâyelerinde saklı: bağımlılıkla boğuşan hırsız **Tiel**, bir Predator'ın dişi versiyonu **Proxima** ve klon çağırabilen **Sester Genessa**.
+
+![Mortal Shell 2'de Harbinger, iki devrik düşmanın yanında duruyor](${mortalShell2Cover.url})
+
+## Dikenli bir mizah ve gotik tuhaflıklar
+
+Oyunun karanlık anlarının yanında beklenmedik ölçüde sivrilik dolu bir mizah var: Oyuna başladığınız ilk köyde akordeonla saldıran dans eden yaşlı kadınlar, sizi koyuna çeviren bir patron ve **Twisted Metal** serisinden fırlamışçasına roketle itilen bir elektrikli scooter süren başka bir patron... Üstelik oyuna Midsommar çiçek taçlı başlıyorsunuz ve bu taçı **Gragu** dahil tüm kabuklarınıza taktırabiliyorsunuz.
+
+Bu tuhaflıkların en güzemi **Troubadour's Lute**: Oyunun en iyi yan silahlarından biri; düşmanları şaşırtan büyülü patlamalar gönderiyor ya da isterseniz oturup kültü müziklere eşlik edebiliyorsunuz. Bu, bildiğim kadarıyla bir soulslike'ta D&D tarzı bir **bard** rolü üstlendiğiniz tek oyun.
+
+![Mortal Shell 2'de Gragu, Midsommar çiçek tacını takmış haliyle](${mortalShell2Gragu.url})
+
+## Stamina barı yok — onun yerine üç savunma yolu
+
+Mortal Shell 2, kendi ritmini tutturuyor: **stamina barını** tamamen kaldırıyor. Sekiro da bunu yapmıştı ama bu oyun bunun bedelini hassas parry hassasiyetiyle ödemek zorunda bırakmıyor; bunun yerine gelen hasarı yönetmenin **üç** farklı yolunu sunuyor ve her birini kuşanılabilir Mühürlerle bağlıyor:
+
+- **Guard** — Untarnished Seal ile kuşanılır; postajı zayıflatacak biçimde hasarı bloklarsınız.
+- **Parry** — Infinite Seal ile gelir; daha iyi zamanlama ister, daha yüksek Break hasarı ödüllendirir.
+- **Harden** — Vatra's Seal ile gelir; Harbinger'ı taşa çevirir ve ilk oyunun ana yeteneğiydi.
+
+Bu üçü şaşırtıcı derecede dengeli; hepsi düşmanda Break hasarı yaratarak riposte fırsatı açıyor. Ayrıca **Slayer Seal** adlı bir eşya, ezici bir yumruğun ve Break hasarına dönüşen silahların yanında gizlice **kolay modu** devreye alıyor. Ona karşı çıkanlar için ise kule merkezinde **Gloombound Flame** adlı eşyayı yakarak gizli zor mod açılıyor: Dünya geceye dönüyor, düşmanlar güçleniyor ve deneyimli oyunculara göre saklanmış zindanlar açılıyor. **Slayer Seal** aynı zamanda başarımları devre dışı bırakıyor — oyun, kolay mod isteyenlere ve "aman demem" diyenlere aynı anda göz kırpıyor.
+
+![Mortal Shell 2'de Chainsaw Man'den ilham almış olabilecek İsmolsuz Esir patronu](${mortalShell2Captive.url})
+
+## 90'lar PC oyunu ruhundaki zindanlar
+
+İncelemenin en öne çıkan gözlemi şu: Oyun, **DOOM**'un 1993 orijinalinin ve onun açtığı ağır metal dolu PC oyunu çağının — Heretic, Hexen, Rune, hatta Severance: Blade of Darkness — dalgalarını hatırlatan bir nostalji uyandırıyor. Görseller ve müzikler modern bir Heretic'in giyeceğine uygun; ama karşılaştırmanın en net göründüğü yer, haritaya serpiştirilmiş **düzinelerce zindan**.
+
+Kayıt noktanızı temizlemek ya da gizli alanları araştırmak istediğinizde bu mezarlara giriyorsunuz. İçerik, eski tarz PC oyunu seviye tasarımının nefis parçaları: Yüksek çıkıntılarda bekleyen düşmanlar, gizli geçitler, duvarlarda portal açan kemerler, kapıları açmak için bulunması gereken anahtarlar... Hatta bir zindan, gölge çizgisine kadar **DOOM'un E1M1: Hangar** bölümüne açık bir selam niteliğinde.
+
+![Mortal Shell 2'de Big Ol' Hole adlı zindana giriş](${mortalShell2Dungeon.url})
+
+Bu zindanlar, sanki 1998'de "en iyi 100 harita" paketi olarak korsan dağıtılmış gibi hissettiriyor — ki bu içten bir iltifat. Retro hisli haritaların, Elden Ring ya da Nioh 3 kadar geniş olmayan ama daha sıkı örülmüş, alanları birbirine geçmiş geniş bir açık dünyaya bağlanması etkileyici.
+
+## Pürüzler küçük, etkisi uzun sürüyor
+
+İncelemede birkaç hata gözlendi: Sester Genessa'nın klonları saldırılarını çoğu zaman ıskalıyor ve haritadaki bazı bölgeler — özellikle kuzeydoğu Fainweald — uzun patron geri koşularını hafifletmek için daha fazla kayıt noktasına ihtiyaç duyuyor. Ayrıca oyun en fazla bir-iki kabuğa bağlanmanızı istiyor: Glimpse'in hepsini min/max yapmanıza yetmeyecek kadar az, bu yüzden çoğu oyuncu büyük olasılıkla ilk açtıkları Tiel ya da Proxima ile tüm yolculuğu bitirecek.
+
+Bunlar hoş görülebilir sorunlar: Bir güncelleme hata eleştirilerini büyük olasılıkla geçersiz kılacak, tek kabuğa bağlanmak da yeniden oynanışi teşvik eden bir tasarım tercihi. Bu, hemen tekrar oynamak isteme hissini uyandıran az sayıdaki oyundan biri.
+
+## Son söz: Türün D&D'sinin yanında bir Warhammer
+
+Eğer Dark Souls ve Elden Ring bu türün Dungeons & Dragons'ıysa, Mortal Shell 2 **Warhammer Fantasy Roleplay** gibi: Tuhaf karakterleriyle, her şeyin biraz dingil olduğu dünyasıyla dikkat çeken ama bu sapkın özgünlüğüyle sizi büyüleyen alternatif bir seçim. Tek Bacaklı Kurt tavernasında oturup bir kadeh ayran dökün ve kalın: Arka planda o ut gürülüyor, umarım sahneye çıkıp onu eşlik edersiniz — yanınızda duran o zavallıyı parçalamamaya özen göstererek.
+
+**Oyun bilgileri:** Geliştirici Cold Symmetry · Yayımcı Playstack · Çıkış: 20 Ağustos 2026 · Platformlar: PC (Steam), PlayStation 5, Xbox Series X/S.`,
+  },
   {
     slug: "castlevania-belmonts-curse-kotaku-review",
     origTitle: "Castlevania: Belmont’s Curse",
