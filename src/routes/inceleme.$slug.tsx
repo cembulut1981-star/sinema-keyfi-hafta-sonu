@@ -9,6 +9,8 @@ import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { PhotoGallery } from "@/components/site/PhotoGallery";
 import { getReview, REVIEWS } from "@/data/reviews";
+import nocturneKarlPhoto from "@/assets/nocturne-karl-photo.jpg.asset.json";
+import nocturnePoster from "@/assets/nocturne-poster.png.asset.json";
 
 export const Route = createFileRoute("/inceleme/$slug")({
   beforeLoad: ({ params }) => {
@@ -70,7 +72,37 @@ function ReviewPage() {
 
         <div className={articleProse}>
           {toParagraphs(r.body).map((para, i) => (
-            <ReactMarkdown key={i}>{para}</ReactMarkdown>
+            <div key={i}>
+              <ReactMarkdown>{para}</ReactMarkdown>
+              {isNocturne && para.includes("Rory Culkin") ? (
+                <figure className="my-10 flex justify-center not-prose">
+                  <div className="w-full max-w-[560px] bg-[#ffbd3f] p-3">
+                    <div className="relative aspect-[16/9] overflow-hidden bg-muted">
+                      <img src={nocturneKarlPhoto.url} alt="Nocturne — Karl (Rory Culkin)" className="w-full h-full object-cover" />
+                      <div className="absolute bottom-3 left-3 bg-black/90 px-3 py-1.5">
+                        <span className="font-display text-sm font-black uppercase tracking-wider text-white">
+                          Rory Culkin — Karl
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              ) : null}
+              {isNocturne && para.includes("Zazie Beetz") ? (
+                <figure className="my-10 flex justify-center not-prose">
+                  <div className="w-full max-w-[340px] bg-[#00EAA1] p-3">
+                    <div className="relative aspect-[2/3] overflow-hidden bg-muted">
+                      <img src={nocturnePoster.url} alt="Nocturne — Apple TV+ poster" className="w-full h-full object-cover" />
+                      <div className="absolute bottom-3 left-3 bg-black/90 px-3 py-1.5">
+                        <span className="font-display text-sm font-black uppercase tracking-wider text-white">
+                          Nocturne — Apple TV+
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              ) : null}
+            </div>
           ))}
         </div>
 
