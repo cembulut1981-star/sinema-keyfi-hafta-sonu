@@ -97,6 +97,37 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "oscars-2027-nominations-predictions",
+    title: "Oscar 2027 İçin İlk Tahminler: 99. Akademi Ödülleri Yarışı Şekilleniyor",
+    excerpt: "Christopher Nolan’ın The Odyssey’si favori konumda; La Bola Negra, The Debut ve Dune: Part Three erken yarışın öne çıkan adayları arasında.",
+    image: oscars2027Predictions.src,
+    source: "Entertainment Weekly — October 29, 2026",
+    homepagePlacement: "lower",
+    body: `**99. Akademi Ödülleri** için geri sayım başladı. Adayların **21 Ocak 2027**'de açıklanacağı tören öncesinde, ödül sezonunun erken tahminleri de şekillenmeye başladı. Geçen yıl **One Battle After Another**'ın En İyi Film zaferinin ardından, bu yılın yarışı şimdiden oldukça renkli görünüyor.
+
+## En İyi Film: The Odyssey Önde, Ama Yalnız Değil
+
+**Christopher Nolan**'ın destansı yapımı **The Odyssey**, hem gişe başarısı hem de eleştirmenlerden gördüğü ilgiyle yarışın açık ara favorisi konumunda. **Matt Damon**, **Anne Hathaway**, **Charlize Theron**, **Robert Pattinson**, **Tom Holland** ve **Zendaya**'lı yıldız kadrosu, filmin oyunculuk kategorilerinde de güçlü olacağına işaret ediyor.
+
+Ancak festival sezonunun yükselen yıldızı **La Bola Negra**, The Odyssey'nin en ciddi rakibi olarak öne çıkıyor. **Penélope Cruz** ve **Glenn Close**'lu güçlü yardımcı oyuncu kadrosuyla dikkat çeken film, anlatımı ve yönetmenliğiyle festival çevrelerinde büyük övgü topladı.
+
+## Oyunculuk Yarışında Tanıdık İsimler ve Sürprizler
+
+En İyi Kadın Oyuncu yarışında **Julianne Moore**, **Jesse Eisenberg**'in yönettiği festival favorisi **The Debut**'taki performansıyla zirvede. Moore'un banliyöde yaşayan ve oyunculuk tutkusunu keşfeden bir ev hanımını canlandırdığı rol, eleştirmenlerce kariyerinin en iyilerinden biri olarak niteleniyor. **Olivia Wilde** ve **Obsession** filminin çıkış yapan yıldızı **Inde Navarrette** de güçlü adaylar arasında.
+
+En İyi Erkek Oyuncu cephesinde **Matt Damon** (The Odyssey), **John Malkovich** ve **Andrew Scott** öne çıkan isimler. Yardımcı oyuncu kategorilerinde ise **Paul Giamatti**, **Sam Rockwell**, **Anne Hathaway** ve **Samantha Morton**'un adı geçiyor.
+
+## Yönetmen ve Senaryo Kategorileri
+
+Yönetmenlik yarışında **Christopher Nolan** favori; onu **La Bola Negra**'nın yönetmenleri **Javier Ambrossi** ve **Javier Calvo** ile **Martin McDonagh** izliyor. **Denis Villeneuve**'ün **Dune: Part Three**'su da yıldızlarla dolu kadrosuyla En İyi Film adaylığına en yakın yapımlardan biri olarak gösteriliyor.
+
+Uyarlama senaryoda **La Bola Negra** ve **The Odyssey**, özgün senaryoda ise **Wild Horse Nine** ve **The Debut** önde gidiyor. **Ryan Gosling**'li **Project Hail Mary** de teknik kategoriler ve özgün senaryo dalında şansı olan yapımlar arasında.
+
+## Sırada Ne Var?
+
+Önümüzdeki haftalarda festival gösterimleri ve eleştirmen ödülleri yarışın haritasını yeniden çizebilir. Erken tahminler her yıl olduğu gibi değişken; ancak şu anki tablo, **The Odyssey** ile **La Bola Negra** arasında geçecek bir "Hollywood devi mi, festival favorisi mi?" düellosuna işaret ediyor. Adaylar 21 Ocak'ta, kazananlar ise mart ayındaki törende belli olacak.`,
+  },
+  {
     slug: "carrie-season-2-confirmed-prime-video",
     title: "Carrie’nin 2. Sezonu Onaylandı: Hikâye Balo Gecesinin Ötesine Geçiyor",
     excerpt: "Prime Video, Mike Flanagan’ın Stephen King uyarlamasına ikinci sezon onayı verdi. Carrie White’ın yolculuğu, romanın sınırlarının ötesinde devam edecek.",
