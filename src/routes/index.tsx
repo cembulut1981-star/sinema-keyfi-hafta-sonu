@@ -45,6 +45,7 @@ const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series"
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === "castlevania-belmonts-curse-kotaku-review");
 const NEXT_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
+const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne-apple-tv-stephen-graham-review");
 const NEW_STORIES = [
   ARTICLES.find((article) => article.listSlug === "best-werewolf-movies"),
   ARTICLES.find((article) => article.listSlug === "best-sci-fi-movies-of-2026"),
@@ -64,7 +65,7 @@ const NEW_STORIES = [
   ARTICLES.find((article) => article.newsSlug === "neon-scp-foundation-open-source-horror-movie"),
   ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
 ].filter((article): article is Article => Boolean(article)).slice(0, 4);
-const TOP_IDS = new Set([NEW_REVIEW?.id, NEXT_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
+const TOP_IDS = new Set([NEW_REVIEW?.id, NEXT_REVIEW?.id, THIRD_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 const LOWER_FEATURES = ARTICLES.filter((article) => article.homepagePlacement === "lower");
 // New PC Games stories are spread further down the feed so games don't cluster at the top.
 const SCATTERED_GAME_SLUGS = [
@@ -278,7 +279,7 @@ function Index() {
   const newCards = published.map(toEditorialCard);
   const dynamicLead = newCards.filter(a => !a.homepagePlacement);
   const { rows: leadRows, usedIds: leadIds } = homepageLeadRows(
-    NEW_REVIEW, NEXT_REVIEW, NEW_STORIES, dynamicLead,
+    NEW_REVIEW, NEXT_REVIEW, THIRD_REVIEW, NEW_STORIES, dynamicLead,
     FEED_ARTICLES.filter((article) => article.id !== FRAMED?.id),
   );
   const feed = [...dynamicLead, ...NEW_STORIES, ...FEED_ARTICLES].filter((a, i, all) => !leadIds.has(a.id) && all.findIndex(b => b.id === a.id) === i);
