@@ -80,7 +80,7 @@ import miamiViceRichardson from "@/assets/miami-vice-richardson.jpg.asset.json";
 import senseSensibilityDashwoods from "@/assets/sense-sensibility-dashwoods.jpg.asset.json";
 import noMansSkyIos from "@/assets/no-mans-sky-ios.jpg.asset.json";
 import carrieSeasonTwo from "@/assets/carrie-prime-video-season-2.jpg.asset.json";
-import oscars2027Predictions from "@/assets/oscars-2027-predictions.jpg";
+import oscars2027Predictions from "@/assets/oscars-2027-conan-stage.webp.asset.json";
 
 export type NewsItem = {
   slug: string;
