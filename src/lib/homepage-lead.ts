@@ -1,5 +1,7 @@
 import type { Article } from "@/data/articles";
 
+export const HOMEPAGE_FEATURED_REVIEW_SLUG = "crystal-lake-indiewire-review";
+
 export function homepageLeadRows(
   featured: Article | undefined,
   nextFeatured: Article | undefined,

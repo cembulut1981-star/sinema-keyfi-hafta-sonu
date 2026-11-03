@@ -8,7 +8,7 @@ import { publishedPostsQuery } from '@/lib/editorial-query';
 import { toEditorialCard } from '@/lib/editorial';
 import { getNews } from '@/data/news';
 import { extractDate, formatDate } from '@/lib/seo';
-import { homepageLeadRows } from '@/lib/homepage-lead';
+import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG } from '@/lib/homepage-lead';
 
 // Yellow/black one-word pills shown under the photo. Only a couple live in
 // the top rows; the rest are scattered deeper in the feed (see below) so it
@@ -43,7 +43,7 @@ const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
 const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series";
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
-const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === "castlevania-belmonts-curse-kotaku-review");
+const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === HOMEPAGE_FEATURED_REVIEW_SLUG);
 const NEXT_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne-apple-tv-stephen-graham-review");
 const NEW_STORIES = [
