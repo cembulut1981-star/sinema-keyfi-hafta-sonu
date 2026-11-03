@@ -35,3 +35,5 @@
 - [x] Verify article, images and homepage order; run placement tests.
 - [x] Center yellow-black film-name badges below werewolf-list photos.
 - [x] Add verified IMDb and Rotten Tomatoes scores for all ten films and verify the page.
+- [ ] Add a source-based Turkish Crystal Lake review with a site-hosted cover and place it in the first homepage row.
+- [ ] Verify Crystal Lake article, cover, homepage order and placement tests.
