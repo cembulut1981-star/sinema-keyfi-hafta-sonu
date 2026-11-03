@@ -80,6 +80,7 @@ function ReviewPage() {
   const r = getReview(slug)!;
   const others = REVIEWS.filter((x) => x.slug !== slug);
   const isNocturne = slug === "nocturne-apple-tv-stephen-graham-review";
+  const isCrystalLake = slug === "crystal-lake-indiewire-review";
 
   return (
     <SiteShell>
@@ -146,6 +147,18 @@ function ReviewPage() {
                   </div>
                 </figure>
               ) : null}
+              {isCrystalLake
+                ? CRYSTAL_LAKE_INLINE_PHOTOS.filter((p) => para.includes(p.anchor)).map((p) => (
+                    <figure key={p.anchor} className="my-10 not-prose">
+                      <div className="mx-auto max-w-[760px]">
+                        <img src={p.src} alt={p.alt} className="w-full" />
+                        <figcaption className="mt-2 text-sm text-muted-foreground">
+                          {p.caption} <em className="text-muted-foreground/80">{p.credit}</em>
+                        </figcaption>
+                      </div>
+                    </figure>
+                  ))
+                : null}
             </div>
           ))}
         </div>
