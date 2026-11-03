@@ -136,7 +136,6 @@ export function CommentSection({ slug }: { slug: string }) {
         Yorumlar
         <span className="ml-2 bg-editorial-yellow px-2 py-0.5 text-sm font-bold text-editorial-ink">{list.length}</span>
       </h2>
-      <p className="mt-1 text-sm text-muted-foreground">Google hesabınla giriş yap, bu yazıya yorum bırak.</p>
 
       {userId ? (
         <form onSubmit={submit} className="mt-6">
