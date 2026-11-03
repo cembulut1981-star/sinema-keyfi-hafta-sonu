@@ -259,9 +259,6 @@ function ListPage() {
                 className="aspect-video w-full rounded-md bg-black shadow-2xl"
               />
             )}
-            <p className="mt-3 text-center text-xs uppercase tracking-wider text-white/80">
-              {openTrailer.label} — kapatmak için ✕ tuşunu kullan
-            </p>
           </div>
         </div>
       ) : null}

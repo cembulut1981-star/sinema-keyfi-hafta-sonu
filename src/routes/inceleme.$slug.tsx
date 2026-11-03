@@ -249,9 +249,6 @@ function ReviewPage() {
               playsInline
               className="aspect-video w-full rounded-md bg-black shadow-2xl"
             />
-            <p className="mt-3 text-center text-xs uppercase tracking-wider text-white/80">
-              Crystal Lake fragmanı — kapatmak için ✕ tuşunu kullan
-            </p>
           </div>
         </div>
       ) : null}
