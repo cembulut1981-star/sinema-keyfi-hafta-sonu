@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { homepageLeadRows } from "./homepage-lead";
+import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG } from "./homepage-lead";
+import { ARTICLES } from "@/data/articles";
 import type { Article } from "@/data/articles";
 
 const article = (id: number, slug = `story-${id}`): Article => ({
@@ -12,9 +13,12 @@ const nocturne = article(7, "nocturne-apple-tv-stephen-graham-review");
 const incoming = Array.from({ length: 12 }, (_, i) => article(20 + i));
 const sides = [article(3), article(4), article(5), article(6)];
 
-test("requested Castlevania review is the first row's lead even with new automated news", () => {
-  const { rows } = homepageLeadRows(castlevania, metallica, nocturne, sides, incoming, []);
-  assert.equal(rows[0].center.reviewSlug, "castlevania-belmonts-curse-kotaku-review");
+test("requested Crystal Lake review is the first row's lead even with new automated news", () => {
+  const crystalLake = ARTICLES.find((item) => item.reviewSlug === HOMEPAGE_FEATURED_REVIEW_SLUG);
+  assert.ok(crystalLake);
+  const { rows } = homepageLeadRows(crystalLake, metallica, nocturne, sides, incoming, ARTICLES);
+  assert.equal(rows[0].center.reviewSlug, "crystal-lake-indiewire-review");
+  assert.equal(rows.flatMap((row) => [row.center, ...row.sides]).filter((item) => item.reviewSlug === "crystal-lake-indiewire-review").length, 1);
 });
 
 test("Metallica moves exactly one homepage row down", () => {

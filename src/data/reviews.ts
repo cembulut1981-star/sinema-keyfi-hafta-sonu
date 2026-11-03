@@ -1,4 +1,5 @@
 import nocturneCover from "@/assets/nocturne-apple-tv-cover.jpg.asset.json";
+import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
 import mortalShell2Cover from "@/assets/mortal-shell-2-cover.jpg.asset.json";
 import mortalShell2Gragu from "@/assets/mortal-shell-2-gragu.jpg.asset.json";
 import mortalShell2Captive from "@/assets/mortal-shell-2-captive.jpg.asset.json";
@@ -84,6 +85,40 @@ export type Review = {
 };
 
 export const REVIEWS: Review[] = [
+  {
+    slug: "crystal-lake-indiewire-review",
+    origTitle: "Crystal Lake",
+    title: "Crystal Lake İncelemesi — Kanlı Bir Dönüş, Geç Gelen Bir Hikâye",
+    excerpt: "A24’ün Friday the 13th öncül dizisi, Linda Cardellini’nin Pamela Voorhees’i ve genç Jason üzerinden geçmişe dönüyor. Yaratıcı cinayetler slasher ruhunu yaşatırken, sekiz bölümlük hikâyenin asıl cevaplarını sona saklaması gerilimin önüne geçiyor.",
+    rating: "Genel değerlendirme: Güçlü slasher atmosferi, zayıf öncül hikâye",
+    image: crystalLakeCover.url,
+    source: "IndieWire — October 13, 2026 — https://www.indiewire.com/criticism/shows/crystal-lake-review-watch-last-two-episodes-only-1235221420/",
+    body: `**Crystal Lake**, Friday the 13th evrenine dönmek için yalnızca tanıdık bir katili yeniden sahneye çağırmıyor; Pamela Voorhees ile oğlu Jason’ın geçmişini sekiz bölümlük bir anlatının merkezine yerleştiriyor. Brad Caleb Kane’in hazırladığı A24 yapımı dizide Pamela’yı **Linda Cardellini**, genç Jason’ı ise **Callum Vinson** canlandırıyor. Asıl soru, bu anne-oğul ilişkisinin nasıl bildiğimiz korku hikâyesine dönüştüğü.
+
+Bu yazı, yayımlanan eleştirinin erişilebilen değerlendirmelerinden hazırlanan özgün bir derlemedir; bağımsız bir sezon izleme incelemesi değildir. Olayların ayrıntılarını ve finaldeki açıklamaları açık etmeden dizinin güçlü ve zayıf yanlarına bakıyoruz.
+
+## Eski usul korkunun kanlı enerjisi
+
+Dizinin en dikkat çekici tarafı, slasher kimliğini başka bir türün arkasına saklamaması. Dondurulmuş karelerle yapılan geçişler, keskin orkestral vurgular ve yoğun kanlı sahneler, eski korku sinemasının doğrudanlığını yeniden kuruyor. Buradaki korku yalnızca aile dramını anlatmanın bir bahanesi değil; kendi başına gösterişli, saldırgan ve fiziksel bir deneyim olmayı hedefliyor.
+
+Bu tercih, Friday the 13th dünyasına uygun bir başlangıç sağlıyor. Yaratıcı cinayetlerin ve biçimsel oyunların varlığı, yapımı yalnızca eski malzemeyi yeniden paketleyen bir tekrar olmaktan uzaklaştırıyor. Ancak iyi bir slasher sahnesi ile iyi kurulmuş bir sezon hikâyesi aynı şey değil: Crystal Lake’in temel açığı da bu ayrımda beliriyor.
+
+## Pamela ve Jason: canavardan önce insan
+
+Pamela ile Jason’ı yalnızca gelecekteki şiddetin işaretleri olarak değil, bir anne ile çocuğu olarak düşünmek dizinin en anlamlı fikri. İkilinin arasındaki bağın izleyicide uyandırabileceği yakınlık, her korkuyu bir psikolojik simgeye dönüştürmekten çok, sıradan insani meraktan besleniyor. Bir zamanlar aile olan bu insanların nasıl değiştiğini öğrenmek istiyoruz.
+
+Ne var ki bir öncül hikâyenin gücü, tanıdık sonuca giden yolu ne kadar şaşırtıcı ve inandırıcı kurabildiğine bağlı. Buradaki eleştirinin odağı, kanlı sahnelere harcanan yaratıcılığın karakterlerin geçmişini açıklayan anlatıda aynı ölçüde hissedilmemesi. Atmosfer çalışırken hikâye, vaat ettiği keşfin gerisinde kalıyor.
+
+## Cevapları sona saklamanın bedeli
+
+Sezonun sondan bir önceki bölümünde kullanılan geri dönüş, değerlendirmede özellikle sorunlu bulunuyor: merkezdeki soruların cevapları çok geç geliyor ve gereğinden kolay biçimde sunuluyor. Böyle bir yapı, önceki bölümlerde biriken merakı derinleştirmek yerine onu toplu bir açıklamayla kapatma riski taşıyor.
+
+Bu yüzden “son iki bölümü izlemek yeterli mi?” sorusu, basit bir izleme önerisinden çok sezonun dengesine yönelik bir itiraz gibi okunmalı. Sekiz bölüm boyunca örülen gerilim, açıklamalar geldiğinde yeni bir ağırlık kazanmalı; yalnızca eksik bilgilerin teslim edildiği bir bekleme süresine dönüşmemeli.
+
+## Kimler için izlemeye değer?
+
+Eski usul slasher estetiğini, abartılı kanlı sahneleri ve Voorhees ailesinin geçmişine dönme fikrini sevenler için Crystal Lake’in belirgin bir çekim gücü var. Fakat karakterlere derinlik kazandıran, her bölümde ilerleyen ve finalini sağlam biçimde hazırlayan bir öncül hikâye bekleyenler açısından tablo daha karışık. Kısacası bu dönüşün korku dili, anlattığı köken hikâyesinden daha güçlü görünüyor.`,
+  },
   {
     slug: "nocturne-apple-tv-stephen-graham-review",
     origTitle: "Nocturne review — Stephen Graham's serial killer is creepily compelling",
