@@ -156,3 +156,12 @@ describe("Nocturne coverage placement", () => {
     }
   });
 });
+
+describe("Crystal Lake coverage placement", () => {
+  test("the new review appears once and is available for the upper homepage row", () => {
+    const matches = ARTICLES.filter((item) => item.reviewSlug === "crystal-lake-indiewire-review");
+    assert.equal(matches.length, 1);
+    assert.equal(matches[0].homepagePlacement, undefined);
+    assert.equal(GAME_ARTICLES.some((item) => item.reviewSlug === "crystal-lake-indiewire-review"), false);
+  });
+});
