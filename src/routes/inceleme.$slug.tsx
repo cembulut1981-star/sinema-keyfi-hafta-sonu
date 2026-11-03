@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { articleHead } from "@/lib/seo";
 import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
@@ -15,6 +16,8 @@ import clPamWoods from "@/assets/crystal-lake-pam-woods.jpg.asset.json";
 import clCrazyRalph from "@/assets/crystal-lake-crazy-ralph.jpg.asset.json";
 import clLevonPam from "@/assets/crystal-lake-levon-pam.jpg.asset.json";
 import clDorfLevon from "@/assets/crystal-lake-dorf-levon.jpg.asset.json";
+import crystalLakeTrailer from "@/assets/crystal-lake-trailer.mp4.asset.json";
+import crystalLakeTrailerThumb from "@/assets/crystal-lake-trailer-thumb.jpg.asset.json";
 
 type InlineCaptionPhoto = {
   anchor: string;
@@ -81,6 +84,20 @@ function ReviewPage() {
   const others = REVIEWS.filter((x) => x.slug !== slug);
   const isNocturne = slug === "nocturne-apple-tv-stephen-graham-review";
   const isCrystalLake = slug === "crystal-lake-indiewire-review";
+  const [openTrailer, setOpenTrailer] = useState(false);
+
+  useEffect(() => {
+    if (!openTrailer) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpenTrailer(false);
+    };
+    window.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [openTrailer]);
 
   return (
     <SiteShell>
@@ -114,6 +131,38 @@ function ReviewPage() {
             </div>
           </div>
         </div>
+
+        {isCrystalLake ? (
+          <figure className="my-10 not-prose">
+            <div className="mx-auto max-w-[420px]">
+              <button
+                type="button"
+                onClick={() => setOpenTrailer(true)}
+                aria-label="Crystal Lake fragmanını oynat"
+                className="group relative block w-full overflow-hidden border-2 border-black bg-black shadow-lg transition-transform hover:-translate-y-0.5"
+              >
+                <img
+                  src={crystalLakeTrailerThumb.url}
+                  alt="Crystal Lake fragmanından bir kare"
+                  className="aspect-video w-full object-cover opacity-90 transition-opacity group-hover:opacity-100"
+                />
+                <span className="absolute inset-0 flex items-center justify-center">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-black/80 ring-2 ring-white/80 transition-colors group-hover:bg-primary">
+                    <svg viewBox="0 0 24 24" className="ml-1 h-6 w-6 fill-white" aria-hidden="true">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </span>
+                </span>
+                <span className="absolute bottom-2 left-2 bg-black/90 px-2 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-white">
+                  Fragman · 2:46
+                </span>
+              </button>
+              <figcaption className="mt-2 text-sm text-muted-foreground">
+                Crystal Lake — resmî fragman <em className="text-muted-foreground/80">Peacock</em>
+              </figcaption>
+            </div>
+          </figure>
+        ) : null}
 
         <div className={articleProse}>
           {toParagraphs(r.body).map((para, i) => (
@@ -170,6 +219,42 @@ function ReviewPage() {
 
         <OtherArticlesSidebar heading="Diğer incelemeler" items={others} to="/inceleme/$slug" />
       </div>
+
+      {openTrailer ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 sm:p-6"
+          onClick={() => setOpenTrailer(false)}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Crystal Lake fragmanı"
+        >
+          <div
+            className="relative w-full max-w-[640px]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setOpenTrailer(false)}
+              aria-label="Fragmanı kapat"
+              className="absolute -right-3 -top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-neutral-800 text-white shadow-lg transition-colors hover:bg-neutral-600"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+                <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
+              </svg>
+            </button>
+            <video
+              src={crystalLakeTrailer.url}
+              controls
+              autoPlay
+              playsInline
+              className="aspect-video w-full rounded-md bg-black shadow-2xl"
+            />
+            <p className="mt-3 text-center text-xs uppercase tracking-wider text-white/80">
+              Crystal Lake fragmanı — kapatmak için ✕ tuşunu kullan
+            </p>
+          </div>
+        </div>
+      ) : null}
     </SiteShell>
   );
 }
