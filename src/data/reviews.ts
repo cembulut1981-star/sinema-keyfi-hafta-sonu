@@ -1,5 +1,5 @@
 import nocturneCover from "@/assets/nocturne-apple-tv-cover.jpg.asset.json";
-import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
+import crystalLakeCover from "@/assets/crystal-lake-pam-bowling.jpg.asset.json";
 import mortalShell2Cover from "@/assets/mortal-shell-2-cover.jpg.asset.json";
 import mortalShell2Gragu from "@/assets/mortal-shell-2-gragu.jpg.asset.json";
 import mortalShell2Captive from "@/assets/mortal-shell-2-captive.jpg.asset.json";

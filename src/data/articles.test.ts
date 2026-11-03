@@ -164,4 +164,19 @@ describe("Crystal Lake coverage placement", () => {
     assert.equal(matches[0].homepagePlacement, undefined);
     assert.equal(GAME_ARTICLES.some((item) => item.reviewSlug === "crystal-lake-indiewire-review"), false);
   });
+
+  test("the review cover differs from the news story cover it was paired with", () => {
+    const review = REVIEWS.find((item) => item.slug === "crystal-lake-indiewire-review");
+    const news = NEWS.find((item) => item.slug === "crystal-lake-13-killer-things-friday-the-13th-series");
+    assert.ok(review && news);
+    assert.notEqual(review.image, news.image);
+  });
+
+  test("each captioned inline photo has exactly one anchor paragraph", () => {
+    const review = REVIEWS.find((item) => item.slug === "crystal-lake-indiewire-review");
+    const paragraphs = (review?.body ?? "").split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+    for (const anchor of ["Callum Vinson", "Dondurulmuş karelerle", "gelecekteki şiddetin işaretleri", "sondan bir önceki bölümünde"]) {
+      assert.equal(paragraphs.filter((p) => p.includes(anchor)).length, 1, `anchor not unique: ${anchor}`);
+    }
+  });
 });

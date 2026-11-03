@@ -11,6 +11,49 @@ import { PhotoGallery } from "@/components/site/PhotoGallery";
 import { getReview, REVIEWS } from "@/data/reviews";
 import nocturneKarlPhoto from "@/assets/nocturne-karl-photo.jpg.asset.json";
 import nocturnePoster from "@/assets/nocturne-poster.png.asset.json";
+import clPamWoods from "@/assets/crystal-lake-pam-woods.jpg.asset.json";
+import clCrazyRalph from "@/assets/crystal-lake-crazy-ralph.jpg.asset.json";
+import clLevonPam from "@/assets/crystal-lake-levon-pam.jpg.asset.json";
+import clDorfLevon from "@/assets/crystal-lake-dorf-levon.jpg.asset.json";
+
+type InlineCaptionPhoto = {
+  anchor: string;
+  src: string;
+  alt: string;
+  caption: string;
+  credit: string;
+};
+
+const CRYSTAL_LAKE_INLINE_PHOTOS: InlineCaptionPhoto[] = [
+  {
+    anchor: "Callum Vinson",
+    src: clPamWoods.url,
+    alt: "Linda Cardellini, Pam Voorhees olarak",
+    caption: "Linda Cardellini 'Crystal Lake'de",
+    credit: "Matt Infante / Peacock",
+  },
+  {
+    anchor: "Dondurulmuş karelerle",
+    src: clCrazyRalph.url,
+    alt: "Nick Cordileone, Crazy Ralph olarak",
+    caption: "Nick Cordileone 'Crystal Lake'de, Crazy Ralph olarak",
+    credit: "Matt Infante / Peacock",
+  },
+  {
+    anchor: "gelecekteki şiddetin işaretleri",
+    src: clLevonPam.url,
+    alt: "William Catlett ve Linda Cardellini",
+    caption: "William Catlett ve Linda Cardellini 'Crystal Lake'de",
+    credit: "Matt Infante / Peacock",
+  },
+  {
+    anchor: "sondan bir önceki bölümünde",
+    src: clDorfLevon.url,
+    alt: "Cameron Scoggins ve William Catlett",
+    caption: "Cameron Scoggins ve William Catlett 'Crystal Lake'de",
+    credit: "Matt Infante / Peacock",
+  },
+];
 
 export const Route = createFileRoute("/inceleme/$slug")({
   beforeLoad: ({ params }) => {
@@ -37,6 +80,7 @@ function ReviewPage() {
   const r = getReview(slug)!;
   const others = REVIEWS.filter((x) => x.slug !== slug);
   const isNocturne = slug === "nocturne-apple-tv-stephen-graham-review";
+  const isCrystalLake = slug === "crystal-lake-indiewire-review";
 
   return (
     <SiteShell>
@@ -103,6 +147,18 @@ function ReviewPage() {
                   </div>
                 </figure>
               ) : null}
+              {isCrystalLake
+                ? CRYSTAL_LAKE_INLINE_PHOTOS.filter((p) => para.includes(p.anchor)).map((p) => (
+                    <figure key={p.anchor} className="my-10 not-prose">
+                      <div className="mx-auto max-w-[760px]">
+                        <img src={p.src} alt={p.alt} className="w-full" />
+                        <figcaption className="mt-2 text-sm text-muted-foreground">
+                          {p.caption} <em className="text-muted-foreground/80">{p.credit}</em>
+                        </figcaption>
+                      </div>
+                    </figure>
+                  ))
+                : null}
             </div>
           ))}
         </div>
