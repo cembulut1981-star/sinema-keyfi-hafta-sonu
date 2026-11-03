@@ -35,6 +35,59 @@ export type Database = {
         }
         Relationships: []
       }
+      comment_threads: {
+        Row: {
+          opened_at: string
+          post_slug: string
+        }
+        Insert: {
+          opened_at?: string
+          post_slug: string
+        }
+        Update: {
+          opened_at?: string
+          post_slug?: string
+        }
+        Relationships: []
+      }
+      comments: {
+        Row: {
+          avatar_url: string
+          body: string
+          created_at: string
+          display_name: string
+          id: number
+          post_slug: string
+          user_id: string
+        }
+        Insert: {
+          avatar_url?: string
+          body: string
+          created_at?: string
+          display_name: string
+          id?: never
+          post_slug: string
+          user_id: string
+        }
+        Update: {
+          avatar_url?: string
+          body?: string
+          created_at?: string
+          display_name?: string
+          id?: never
+          post_slug?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "comments_post_slug_fkey"
+            columns: ["post_slug"]
+            isOneToOne: false
+            referencedRelation: "comment_threads"
+            referencedColumns: ["post_slug"]
+          },
+        ]
+      }
       editorial_job: {
         Row: {
           enabled: boolean
