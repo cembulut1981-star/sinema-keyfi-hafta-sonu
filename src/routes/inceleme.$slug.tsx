@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { articleHead } from "@/lib/seo";
 import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
@@ -15,6 +16,8 @@ import clPamWoods from "@/assets/crystal-lake-pam-woods.jpg.asset.json";
 import clCrazyRalph from "@/assets/crystal-lake-crazy-ralph.jpg.asset.json";
 import clLevonPam from "@/assets/crystal-lake-levon-pam.jpg.asset.json";
 import clDorfLevon from "@/assets/crystal-lake-dorf-levon.jpg.asset.json";
+import crystalLakeTrailer from "@/assets/crystal-lake-trailer.mp4.asset.json";
+import crystalLakeTrailerThumb from "@/assets/crystal-lake-trailer-thumb.jpg.asset.json";
 
 type InlineCaptionPhoto = {
   anchor: string;
@@ -81,6 +84,20 @@ function ReviewPage() {
   const others = REVIEWS.filter((x) => x.slug !== slug);
   const isNocturne = slug === "nocturne-apple-tv-stephen-graham-review";
   const isCrystalLake = slug === "crystal-lake-indiewire-review";
+  const [openTrailer, setOpenTrailer] = useState(false);
+
+  useEffect(() => {
+    if (!openTrailer) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpenTrailer(false);
+    };
+    window.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [openTrailer]);
 
   return (
     <SiteShell>
