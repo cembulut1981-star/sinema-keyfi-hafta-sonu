@@ -132,6 +132,38 @@ function ReviewPage() {
           </div>
         </div>
 
+        {isCrystalLake ? (
+          <figure className="my-10 not-prose">
+            <div className="mx-auto max-w-[420px]">
+              <button
+                type="button"
+                onClick={() => setOpenTrailer(true)}
+                aria-label="Crystal Lake fragmanını oynat"
+                className="group relative block w-full overflow-hidden border-2 border-black bg-black shadow-lg transition-transform hover:-translate-y-0.5"
+              >
+                <img
+                  src={crystalLakeTrailerThumb.url}
+                  alt="Crystal Lake fragmanından bir kare"
+                  className="aspect-video w-full object-cover opacity-90 transition-opacity group-hover:opacity-100"
+                />
+                <span className="absolute inset-0 flex items-center justify-center">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-black/80 ring-2 ring-white/80 transition-colors group-hover:bg-primary">
+                    <svg viewBox="0 0 24 24" className="ml-1 h-6 w-6 fill-white" aria-hidden="true">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </span>
+                </span>
+                <span className="absolute bottom-2 left-2 bg-black/90 px-2 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-white">
+                  Fragman · 2:46
+                </span>
+              </button>
+              <figcaption className="mt-2 text-sm text-muted-foreground">
+                Crystal Lake — resmî fragman <em className="text-muted-foreground/80">Peacock</em>
+              </figcaption>
+            </div>
+          </figure>
+        ) : null}
+
         <div className={articleProse}>
           {toParagraphs(r.body).map((para, i) => (
             <div key={i}>
