@@ -37,3 +37,4 @@
 - [x] Add verified IMDb and Rotten Tomatoes scores for all ten films and verify the page.
 - [x] Add a source-based Turkish Crystal Lake review with a site-hosted cover and place it in the first homepage row.
 - [x] Verify Crystal Lake article, cover, homepage order and placement tests.
+- [x] Add Google sign-in and comments to the ten newest posts; verify comments render, sign-in starts, and older posts stay closed.
