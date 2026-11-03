@@ -18,3 +18,4 @@
 - Mobile editorial layouts keep lead stories full-width and compact stories in paired grids, with wrapping navigation; this preserves the magazine identity without shrinking desktop text or hiding categories.
 - Explicit homepage lead and next-row editorial choices are assembled in a browser-safe, tested helper before automated news rows; this preserves requested order without duplicating stories or dropping incomplete groups.
 - List-specific image captions and film heading visibility are scoped by slug in the shared list renderer; this keeps editorial treatments from changing other lists.
+- Comments are open only on posts allowlisted in public.comment_threads and mirrored in COMMENTED_POST_SLUGS (src/lib/comments.ts); writes go through server functions with plain-UUID user IDs and owner-only delete, so a new post needs both the database row and the slug entry — this keeps comment surfaces explicit instead of opening every page.

@@ -15,6 +15,8 @@ import trailerMercy from "@/assets/trailer-mercy.mp4.asset.json";
 import { SiteShell } from "@/components/site/SiteShell";
 import { articleProse } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
+import { CommentSection } from "@/components/site/CommentSection";
+import { isCommentedPost } from "@/lib/comments";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getList, LISTS } from "@/data/lists";
 
@@ -215,6 +217,7 @@ function ListPage() {
         </div>
 
         <ShareButtons title={l.title} path={`/liste/${slug}`} />
+        {isCommentedPost(slug) ? <CommentSection slug={slug} /> : null}
         </article>
 
         <OtherArticlesSidebar heading="Diğer listeler" items={others} to="/liste/$slug" />

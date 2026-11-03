@@ -14,6 +14,8 @@ import kateSiegelAsset from "@/assets/kate-siegel.jpg.asset.json";
 import mikeFlanaganAsset from "@/assets/mike-flanagan.jpg.asset.json";
 import { publishedPost } from '@/lib/editorial-public.functions';
 import { EditorialArticle } from '@/components/site/EditorialArticle';
+import { CommentSection } from '@/components/site/CommentSection';
+import { isCommentedPost } from '@/lib/comments';
 
 export const Route = createFileRoute("/haber/$slug")({
   loader: async ({ params }) => {
@@ -157,6 +159,7 @@ function NewsPage() {
 
 
         <ShareButtons title={n.title} path={`/haber/${slug}`} />
+        {isCommentedPost(slug) ? <CommentSection slug={slug} /> : null}
         </article>
 
         <OtherArticlesSidebar heading="Diğer haberler" items={others} to="/haber/$slug" />
