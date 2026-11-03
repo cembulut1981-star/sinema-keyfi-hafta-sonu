@@ -7,6 +7,8 @@ import ReactMarkdown from "react-markdown";
 import { SiteShell, ImdbBadge } from "@/components/site/SiteShell";
 import { articleProse, toParagraphs } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
+import { CommentSection } from "@/components/site/CommentSection";
+import { isCommentedPost } from "@/lib/comments";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { PhotoGallery } from "@/components/site/PhotoGallery";
 import { getReview, REVIEWS } from "@/data/reviews";
@@ -215,6 +217,7 @@ function ReviewPage() {
         {r.gallery?.length ? <PhotoGallery images={r.gallery} heading="Galeri" /> : null}
 
         <ShareButtons title={r.title} path={`/inceleme/${slug}`} />
+        {isCommentedPost(slug) ? <CommentSection slug={slug} /> : null}
         </article>
 
         <OtherArticlesSidebar heading="Diğer incelemeler" items={others} to="/inceleme/$slug" />
