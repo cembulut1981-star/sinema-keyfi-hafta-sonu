@@ -42,6 +42,8 @@ describe("commented posts", () => {
   });
 
   test("older posts stay closed to comments", () => {
+    assert.equal(isCommentedPost("best-thriller-movies-since-1990-ranked"), true);
+    assert.equal(isCommentedPost("ghost-of-yotei-complete-edition-review"), false);
     assert.equal(isCommentedPost("oscars-2027-nominations-predictions"), true);
     assert.equal(isCommentedPost("ridley-scott-movies-ranked-worst-to-best"), false);
     assert.equal(isCommentedPost(""), false);

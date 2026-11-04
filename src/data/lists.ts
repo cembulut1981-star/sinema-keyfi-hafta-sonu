@@ -1,4 +1,5 @@
 // Auto-curated list content. Sources: WhatCulture film section.
+import { THRILLER_LIST } from './thriller-list';
 import img1 from "@/assets/wc-list-1.jpg";
 import img2 from "@/assets/wc-list-2.jpg";
 import img3 from "@/assets/wc-list-3.jpg";
@@ -2451,6 +2452,7 @@ const _LIST_ORDER = [38, 34, 35, 32, 31, 37, 29, 28, 23, 36, 22, 0, 24, 17, 30, 
 
 const newestList = _LISTS_RAW[_LISTS_RAW.length - 1];
 export const LISTS: ListItem[] = [
+  THRILLER_LIST,
   ...(newestList ? [newestList] : []),
   ..._LIST_ORDER
     .filter((i) => i < _LISTS_RAW.length - 1)

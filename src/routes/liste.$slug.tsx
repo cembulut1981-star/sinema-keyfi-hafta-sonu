@@ -192,6 +192,24 @@ function ListPage() {
                       );
                     },
                   }
+                : slug === "best-thriller-movies-since-1990-ranked"
+                ? {
+                    h2: ({ children }: { children?: React.ReactNode }) => {
+                      const text = String(children);
+                      const ranked = text.match(/^(\d+)\.\s+(.+)$/);
+                      if (!ranked) return <h2 className="font-serif-display text-3xl font-black leading-snug mt-12 mb-8">{children}</h2>;
+                      return (
+                        <h2 className="not-prose mt-12 mb-6 text-center font-display font-bold leading-tight">
+                          <span className="flex w-full items-center" aria-hidden="true">
+                            <span className="h-px flex-1 bg-editorial-ink" />
+                            <span className="flex h-[70px] w-[70px] shrink-0 items-center justify-center rounded-full bg-editorial-ink text-primary-foreground text-4xl">{ranked[1]}</span>
+                            <span className="h-px flex-1 bg-editorial-ink" />
+                          </span>
+                          <span className="mt-4 block text-2xl sm:text-3xl tracking-normal"><span className="sr-only">{ranked[1]}. </span>{ranked[2]}</span>
+                        </h2>
+                      );
+                    },
+                  }
                 : slug === "best-werewolf-movies"
                 ? {
                     h2: ({ children }: { children?: React.ReactNode }) => (
