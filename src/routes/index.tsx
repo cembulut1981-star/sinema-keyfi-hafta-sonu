@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
 import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, OverlayRow, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
-import { ARTICLES as RAW_ARTICLES, type Article } from "@/data/articles";
+import { ARTICLES as RAW_ARTICLES, CATEGORY_LABELS, isGameArticle, type Article } from "@/data/articles";
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { publishedPostsQuery } from '@/lib/editorial-query';
 import { toEditorialCard } from '@/lib/editorial';
@@ -314,7 +314,8 @@ function Index() {
   const hasMore = effectiveCount < feed.length;
   const lowerFeatures = [...newCards.filter(a => a.homepagePlacement === 'lower'), ...LOWER_FEATURES].map((article) => {
     const date = article.newsSlug ? extractDate(getNews(article.newsSlug)?.source) : null;
-    return <FullWidthFeatureCard key={article.id} article={article} categoryLabel="PC Oyunları" dateLabel={date ? formatDate(date) : ''} />;
+    const categoryLabel = isGameArticle(article) ? "PC Oyunları" : CATEGORY_LABELS[article.category];
+    return <FullWidthFeatureCard key={article.id} article={article} categoryLabel={categoryLabel} dateLabel={date ? formatDate(date) : ''} />;
   });
 
 

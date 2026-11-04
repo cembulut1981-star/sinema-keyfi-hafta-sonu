@@ -81,6 +81,7 @@ import senseSensibilityDashwoods from "@/assets/sense-sensibility-dashwoods.jpg.
 import noMansSkyIos from "@/assets/no-mans-sky-ios.jpg.asset.json";
 import carrieSeasonTwo from "@/assets/carrie-prime-video-season-2.jpg.asset.json";
 import oscars2027Predictions from "@/assets/oscars-2027-conan-stage.webp.asset.json";
+import bsgBoardGame from "@/assets/news-bsg-board-game-2027.jpg";
 
 export type NewsItem = {
   slug: string;
@@ -96,6 +97,27 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "battlestar-galactica-board-game-new-edition-2027",
+    title: "Battlestar Galactica Geri Dönüyor: Efsane Masa Oyunu 2027'de Yeni Baskısıyla Geliyor",
+    excerpt: "Ghost Galaxy, Universal ve Fantasy Flight Games'le anlaşarak 2008 tarihli kült masa oyunu Battlestar Galactica: The Board Game'in yeni baskısını duyurdu; kitle fonlaması kampanyası 2027 başında açılacak.",
+    image: bsgBoardGame,
+    source: "Collider — November 2, 2026",
+    homepagePlacement: "lower",
+    body: `**Battlestar Galactica** evreni uzun bir aradan sonra geri dönüyor — ama beklenen yeni dizi ya da filmle değil, masanın üzerinde. **Ghost Galaxy**, **Universal** ve **Fantasy Flight Games**'le yaptığı anlaşmayla, 2008'de yayımlanan ve yıllardır baskısı bulunmayan **Battlestar Galactica: The Board Game**'in yeni bir baskısını hazırladığını duyurdu. Oyun, **2027'nin başlarında** açılacak bir kitle fonlaması kampanyasıyla oyunculara sunulacak.
+
+## "Sen Cylon musun?" Sorusu Masaya Dönüyor
+
+**Corey Konieczka**'nın tasarladığı orijinal oyun, 2003 yapımı dizinin gerilimini masaya taşıyan bir gizli hain oyunuydu: Oyuncular Galactica mürettebatı olarak insanlığı hayatta tutmaya çalışırken, masadaki bazı oyuncular gizlice Cylon ajanı çıkıyordu. Üç genişleme paketiyle büyüyen oyun, bir nesle "Sen Cylon musun?" sorusunu sordurmuştu. Baskısı tükendikten sonra ikinci el fiyatları astronomik seviyelere ulaşmıştı.
+
+Projenin başında tanıdık bir isim var: Ghost Galaxy'nin CEO'su **Christian T. Petersen**, Fantasy Flight Games'in kurucusu ve eski CEO'su olarak oyunun ilk baskısını da yönetmişti. Petersen, yeni baskının "harika bir oyun tasarımını daha da iyi hale getirmek" için çalıştıklarını söylüyor. Fantasy Flight Games tarafında ise Bill Altig, oyunun yeniden baskıya dönmesinden duydukları heyecanı dile getirdi.
+
+## Basit Bir Yeniden Baskı Değil
+
+Ghost Galaxy, yeni baskının orijinal kutunun birebir kopyası olmayacağını, **güncellenmiş bir tasarım** üzerinde çalışıldığını belirtiyor. İçerik, fiyat ve eski genişleme paketlerinden materyal içerip içermeyeceği henüz açıklanmadı. Kitle fonlaması sayfasının önümüzdeki haftalarda açılması bekleniyor.
+
+**Glen A. Larson**'ın 1978'de yarattığı seri, **Ronald D. Moore**'un 2003'teki yeniden çevrimiyle televizyon tarihinin en beğenilen bilimkurgu yapımlarından birine dönüşmüştü. Dizi 2009'da final yaptığından beri yeni bir dizi ya da film projesi hayata geçmedi; **Mr. Robot**'un yaratıcısı Sam Esmail'in geliştirdiği yeniden başlatma projesinden de uzun süredir haber yok. O yüzden 2027'deki bu masa oyunu, hayranların filoya dönüşü için şimdilik en somut bilet gibi görünüyor.`,
+  },
   {
     slug: "oscars-2027-nominations-predictions",
     title: "Oscar 2027 İçin İlk Tahminler: 99. Akademi Ödülleri Yarışı Şekilleniyor",

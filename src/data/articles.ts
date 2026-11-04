@@ -129,6 +129,7 @@ const GAME_SLUGS = new Set([
   "netflix-video-oyunlari-duz-eglence-ekonomisi",
   "eli-roth-borderlands-kimseye-ait-olmayan-film",
 ]);
-export const GAME_ARTICLES: Article[] = ARTICLES.filter((a) =>
-  [a.newsSlug, a.reviewSlug, a.listSlug, a.musicSlug, a.seriesSlug].some((s) => s && GAME_SLUGS.has(s)),
-);
+export function isGameArticle(a: Article) {
+  return [a.newsSlug, a.reviewSlug, a.listSlug, a.musicSlug, a.seriesSlug].some((s) => s && GAME_SLUGS.has(s));
+}
+export const GAME_ARTICLES: Article[] = ARTICLES.filter(isGameArticle);

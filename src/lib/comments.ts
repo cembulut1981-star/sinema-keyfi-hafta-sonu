@@ -3,6 +3,7 @@ import { z } from 'zod';
 // The ten newest Sine-Meta posts, newest first. Comments are open on these only.
 // A newer post joins the list here and in public.comment_threads.
 export const COMMENTED_POST_SLUGS = [
+  'battlestar-galactica-board-game-new-edition-2027',
   'hunger-games-companion-album-to-feature-jennifer-7f53c993',
   'gog-explains-how-one-of-the-most-important-pc-games-22a8b5e9',
   'crystal-lake-indiewire-review',
@@ -12,7 +13,6 @@ export const COMMENTED_POST_SLUGS = [
   'best-werewolf-movies',
   'best-sci-fi-movies-of-2026',
   'ghost-of-yotei-complete-edition-review',
-  'carrie-season-2-confirmed-prime-video',
 ] as const;
 
 export const COMMENT_BODY_MIN = 2;
