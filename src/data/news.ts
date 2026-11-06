@@ -50,6 +50,7 @@ import varKri8 from "@/assets/var-kri8-universe.jpg.asset.json";
 import varPattinson from "@/assets/var-robert-pattinson.jpg.asset.json";
 import varPrimetime from "@/assets/var-primetime.jpg.asset.json";
 import varOdysseyStill from "@/assets/var-mcdodys-uv011.jpg.asset.json";
+import benSoloCover from "@/assets/adam-driver-ben-solo.png.asset.json";
 import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
 import crystalLakeStill from "@/assets/crystal-lake-exclusive-2.jpg.asset.json";
 import alanRitchsonReacherAsset from "@/assets/alan-ritchson-reacher.png.asset.json";
@@ -97,6 +98,30 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "adam-driver-hunt-for-ben-solo-over",
+    title: "Adam Driver Noktayı Koydu: “The Hunt for Ben Solo” İçin Gemi Kalktı",
+    excerpt: "Adam Driver, Steven Soderbergh'le geliştirdikleri Kylo Ren filmi The Hunt for Ben Solo'nun Disney tarafından reddedildiğini ve Star Wars'a dönüşünün söz konusu olmadığını söyledi: “Bitti.”",
+    image: benSoloCover.url,
+    source: "Variety — November 4, 2026",
+    body: `**Star Wars** hayranları için kötü haber: **Adam Driver**, Kylo Ren olarak galaksiye dönme ihtimalini tamamen ortadan kaldırdı. **The Rich Eisen Show**'a konuk olan oyuncu, kendisine serideki kötü karakteri bir daha oynayıp oynamayacağı sorulduğunda net konuştu: “Evet, bitti... Artık Star Wars yok.”
+
+## Soderbergh'le Yıllarca Üzerinde Çalıştıkları Proje
+
+Driver, **Steven Soderbergh**'le birlikte Kylo Ren'e odaklanan bağımsız bir film olan **The Hunt for Ben Solo** üzerinde yıllarca çalıştıklarını anlattı. Senaryoyu **Scott Z. Burns** ve **Rebecca Blunt** ile birlikte yazan ekip, projeyi önce Lucasfilm'e sundu; stüdyo fikri çok beğendi. Ancak iş Disney'in tepe yöneticileri **Bob Iger** ve **Alan Bergman**'a gelince cevap “hayır” oldu: “Ben Solo'nun nasıl hayatta olabileceğini göremediler. Ve konu kapandı.”
+
+Driver, projeyi “gerçekten ve içtenlikle” birkaç yıl boyunca geliştirdiklerini, ortaya çıkan senaryonun “gerçekten iyi” olduğunu söyledi ve ekledi: “Harikaydı, gerçekten çok havalıydı. Ama karar bana ait değil.”
+
+## “Gemi Kalktı”
+
+Eisen'ın proje bir gün yeniden canlandırılırsa döner misin sorusuna Driver'ın yanıtı temkinliydi: “İsterlerse, olur. Ama biz... Bu bizim kararımız değil. Bence gemi kalktı.”
+
+Oyuncu, iptal edilen filme gösterilen hayran tepkisini de “oldukça inanılmaz” olarak nitelendirdi. Haber ilk duyulduğunda bir grup hayran, Kaliforniya Burbank'taki Walt Disney Stüdyoları üzerinde “Save The Hunt for Ben Solo” yazılı bir pankart taşıyan uçak uçurmuştu. Driver, “Billboard'lar, Disney üzerinde uçaklar uçuran insanlar... Bunu beklemiyordum. Çok havalıydı,” dedi.
+
+## Soderbergh de Aynı Fikirde
+
+Nisan ayında benzer bir açıklama yapan **Steven Soderbergh** de filmin “olacaksa çoktan olurdu” diyerek projenin rafa kalktığını doğrulamıştı. Driver'ın son sözleriyle birlikte, **The Rise of Skywalker**'da ölen Ben Solo'nun beyaz perdeye dönüşü artık tamamen bir hayran hayali olarak kalacak gibi görünüyor.`,
+  },
   {
     slug: "battlestar-galactica-board-game-new-edition-2027",
     title: "Battlestar Galactica Geri Dönüyor: Efsane Masa Oyunu 2027'de Yeni Baskısıyla Geliyor",
