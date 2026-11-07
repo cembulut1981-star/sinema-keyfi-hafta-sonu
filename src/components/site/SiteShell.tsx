@@ -38,7 +38,7 @@ const TRENDING: { label: string; slug: string }[] = [
   { label: "2026 Bilimkurgu", slug: "listeler" },
   { label: "Yeni Diziler", slug: "diziler" },
   { label: "Oyun Rehberi", slug: "pc-games" },
-  { label: "Konserler", slug: "muzik" },
+  { label: "MÜZİK", slug: "muzik" },
 ];
 
 function Header() {
