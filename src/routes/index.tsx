@@ -14,6 +14,7 @@ import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG } from '@/lib/homepage-
 // the top rows; the rest are scattered deeper in the feed (see below) so it
 // never looks like every card has one.
 const BELOW_BADGES: Record<string, string> = {
+  "raise-the-red-lantern-gong-li-review": "Öne Çıkanlar",
   "metallica-life-burns-faster-sphere-review": "Canlı",
   "exorcist-martyrs-mike-flanagan-scariest-film": "Korku",
   "haley-lu-richardson-joins-miami-vice-85": "Haber",
