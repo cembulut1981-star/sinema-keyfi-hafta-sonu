@@ -34,7 +34,7 @@ export type Article = {
   hideCategoryBadge?: boolean;
   countdownBadge?: string;
   homepagePlacement?: "lower";
-  /** Siteye eklendiği gün (YYYY-MM-DD) — kartta "Eklendi: 7 Kasım 2026" olarak gösterilir. */
+  /** Siteye eklendiği gün (YYYY-MM-DD) — kartta yalnızca tarih olarak gösterilir. */
   addedAt?: string;
 };
 

@@ -97,7 +97,7 @@ export type NewsItem = {
   customBadge?: string;
   customBadgeBelow?: boolean;
   homepagePlacement?: "lower";
-  /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında "Eklendi" satırı olarak gösterilir. */
+  /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında yalnızca tarih olarak gösterilir. */
   addedAt?: string;
 };
 

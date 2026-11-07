@@ -519,6 +519,7 @@ export function BadgePill({ label, className = "" }: { label?: string; className
 
 /**
  * Eklenme tarihi satırı — yalnızca addedAt alanı dolu olan (en yeni) yazılarda görünür.
+ * Yazı yok, sadece tarih.
  * tone="dark" fotoğraflı kartlarda beyaz, tone="light" açık zeminli kartlarda gri.
  */
 export function AddedAtLabel({
@@ -537,7 +538,7 @@ export function AddedAtLabel({
         tone === "dark" ? "text-white/70" : "text-muted-foreground"
       } ${className}`}
     >
-      Eklendi: {formatDate(article.addedAt)}
+      {formatDate(article.addedAt)}
     </span>
   );
 }
