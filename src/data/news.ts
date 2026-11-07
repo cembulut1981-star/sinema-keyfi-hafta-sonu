@@ -83,6 +83,8 @@ import noMansSkyIos from "@/assets/no-mans-sky-ios.jpg.asset.json";
 import carrieSeasonTwo from "@/assets/carrie-prime-video-season-2.jpg.asset.json";
 import oscars2027Predictions from "@/assets/oscars-2027-conan-stage.webp.asset.json";
 import bsgBoardGame from "@/assets/news-bsg-board-game-2027.jpg";
+import lanternCover from "@/assets/remote/raise-the-red-lantern-cover.jpg.asset.json";
+import lanternStill from "@/assets/remote/raise-the-red-lantern-still.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -98,6 +100,34 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "raise-the-red-lantern-gong-li-review",
+    title: "“Kırmızı Fenerler” Yeniden Gündemde: Gong Li'nin On Yılı Tanımlayan Performansı",
+    excerpt: "Zhang Yimou'nun 1991 tarihli başyapıtı Kırmızı Fenerler yeniden vizyonda; eleştirmenler Gong Li'nin “dördüncü eş” Songlian performansını 90'ların en büyük oyunculuklarından biri sayıyor.",
+    image: lanternCover.url,
+    source: "The Guardian — November 5, 2026",
+    body: `**Zhang Yimou**'nun 1991 yapımı psikolojik draması **Kırmızı Fenerler** (Raise the Red Lantern), yeniden vizyona girmesiyle bir kez daha eleştirmenlerin gündeminde. **Su Tong**'un novellasından uyarlanan film, Batı izleyicisi üzerinde bıraktığı etkiyle hatırlanıyor: Genç bir kadının uğursuz bir konakta yaşadığı çaresiz yalnızlık, Charlotte Brontë ya da Daphne du Maurier'yi andıran bir atmosferle anlatılıyor. Film, 20. yüzyıl Çin'inin gizli zulüm ve kadın düşmanlığı tiyatrosunu; itaat ve kulluk ritüellerinin ince entrikalar, kırgın manevralar ve gizli ihbarlarla iç içe geçtiği bir dünyayı açığa çıkarıyor.
+
+## 90'ların En Büyük Performanslarından Biri
+
+**Gong Li**, 1920'ler Çin'inde babasının ölümüyle üniversite öğrenimini yarıda bırakmak zorunda kalan güzel ve zeki Songlian rolünde on yılın en büyük performanslarından birine imza atıyor. Unutulmaz açılış sahnesi, Gong'un şok ve acıyla adeta parlayan yüzünün kesintisiz tek plan çekimiyle akıyor: Songlian, kadraj dışında kalan acımasız üvey annesine evlenmeye hazır olduğunu söylüyor — ve gözleri yaşlarla doluyor. Bastırılmış öfke, yalnızlık ve aşağılanma, filmin geri kalanında yüzeyin altında kaynamaya devam ediyor.
+
+Songlian, yüzü hiç net görünmeyen otoriter kocası **Chen**'in (Ma Jingwu) aile konağına gelir. Burası adeta duvarlarla çevrili bir şehir devletidir; Chen'in acımasızca uyguladığı aile geleneklerine tabidir. Songlian, kendi dairesinde yaşayan ve kendisine “hanım” statüsü uman asi hizmetkâr Yan'er (Kong Lin) tarafından bakılan “dördüncü eş” olacaktır. Konakta üç kadın daha vardır: Chen'le yaşıt, ona yetişkin bir oğul vermiş vakur “birinci eş” Yuru (Jin Shuyuan); yalnızca kız çocuğu doğurabilmiş, sıradan gülümseyişli “ikinci eş” Zhuoyun (Cao Cuifen) ve yeni gözde Songlian'ı açıkça kıskanan eski opera sanatçısı, gösterişli ve mağrur “üçüncü eş” Meishan (He Saifei).
+
+![Gong Li, geleneksel kıyafetler içinde Çin mimarili bir binanın taş korkuluğunda oturuyor](${lanternStill.url})
+
+## Kırmızı Fenerlerin Büyüleyici Koreografisi
+
+Chen, her şeye Rönesans dönemi bir hükümdar gibi hükmeder; ilgisini bir kadından diğerine kaydırırken tuhaf bir geleneği vardır: Geceyi geçirmek istediği eşin dairesinin çevresine kırmızı fenerler asılır ve bu karar, baş uşak tarafından görkemli bir törenle avluya duyurulur. O sırada Chen'in gözdesi olan eş, yaşlı bir hizmetlinin usta ayak masajıyla ayrıcalıklı bir zevke de erişir. Chen'in gücü ve otoritesi, bu büyüleyici koreografiyle dayatılır.
+
+Eşler ise birbirlerini ne kadar ve nasıl baltalayacaklarını, Chen'e ne kadar boyun eğip ne kadar başkaldıracaklarını hesaplamak zorundadır. Somurtuk bir kırgınlık gösterisi efendiyi eğlendirebilir ama dozu kaçarsa ceza ve yüz kaybıyla sonuçlanabilir. Günün büyük bölümünü yalnız geçiren Songlian, konağın kilitli bir bölümüne rastlar; söylentiye göre bazı mutsuz eşler yıllar önce orada kendilerini asmıştır — ama işin aslı öyle olmayabilir. Giderek bu işlevsiz hane, modern terimlerle bir tür ölüm kültünü andırmaya başlar.
+
+## Var Olma Hakkı İçin Acımasız Bir Yarış
+
+Kırmızı fenerler ve ayak masajı etrafında dönen bu derinden tuhaf düzen, konağın kültürüdür; ne Songlian ne de kamera bu kapalı dünyadan hiç çıkmaz. Songlian, alt sınıftan olduğu için herkesten daha ağır bir bedel ödeyecek olan kurnaz Yan'er aracılığıyla kendisine kurulan bir komployu keşfeder. Film, her an sayısız zehirli entrikanın döndüğünü gösterir: Hayatta kalmak, kardeşçe nezaket maskesini düşürmeden bu entrikaları önceden sezip düşmanlara karşı kullanabilmektir.
+
+Sonuç, mahrem bir siyasi vahşetin ve var olma hakkı için verilen acımasız bir rekabetin sürükleyici bir incelemesi. Kadınlar birbirlerine karşı kışkırtılır ve trajedileri, aralarında hiçbir fark olmadığını fark etmemeleridir: Hepsi, tıpkı kırmızı fenerler gibi korunan, gözde tutulan ya da söndürülen süs eşyalarıdır.`,
+  },
   {
     slug: "adam-driver-hunt-for-ben-solo-over",
     title: "Adam Driver Noktayı Koydu: “The Hunt for Ben Solo” İçin Gemi Kalktı",
