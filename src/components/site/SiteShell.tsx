@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import logoAsset from "@/assets/logo.svg.asset.json";
 import kissMarkAsset from "@/assets/rock-kiss-mark.png";
 import { type Article, type CategorySlug } from "@/data/articles";
+import { formatDate } from "@/lib/seo";
 
 const NAV: { label: string; to: string; params?: Record<string, string> }[] = [
   { label: "Anasayfa", to: "/" },
@@ -303,6 +304,7 @@ export function FeaturedArticleCard({
         <p className="mt-3 text-center text-muted-foreground text-[15px] leading-relaxed">
           {article.excerpt}
         </p>
+        <AddedAtLabel article={article} tone="light" className="mt-3 block text-center" />
         {stats?.length ? (
           <dl className="mt-5 grid grid-cols-2 sm:grid-cols-4 divide-x divide-black/10 border-y-2 border-black/80">
             {stats.map((s) => (
@@ -382,8 +384,18 @@ export function FullWidthFeatureCard({
       </h2>
       <p className="mt-3 font-display text-xs font-bold uppercase text-muted-foreground">
         <span className="text-primary">{categoryLabel}</span>
-        <span className="mx-2 text-border" aria-hidden="true">|</span>
-        <time>{dateLabel}</time>
+        {dateLabel ? (
+          <>
+            <span className="mx-2 text-border" aria-hidden="true">|</span>
+            <time>{dateLabel}</time>
+          </>
+        ) : null}
+        {article.addedAt ? (
+          <>
+            <span className="mx-2 text-border" aria-hidden="true">|</span>
+            <AddedAtLabel article={article} tone="light" />
+          </>
+        ) : null}
       </p>
     </article>
   );
@@ -501,6 +513,31 @@ export function BadgePill({ label, className = "" }: { label?: string; className
       className={`inline-block rounded-full border-[3px] border-black bg-[#ffe600] px-4 py-0.5 font-display uppercase font-black text-[11px] tracking-wide leading-tight text-black ${className}`}
     >
       {label}
+    </span>
+  );
+}
+
+/**
+ * Eklenme tarihi satırı — yalnızca addedAt alanı dolu olan (en yeni) yazılarda görünür.
+ * tone="dark" fotoğraflı kartlarda beyaz, tone="light" açık zeminli kartlarda gri.
+ */
+export function AddedAtLabel({
+  article,
+  tone = "dark",
+  className = "",
+}: {
+  article: Article;
+  tone?: "dark" | "light";
+  className?: string;
+}) {
+  if (!article.addedAt) return null;
+  return (
+    <span
+      className={`font-display text-[10px] font-bold uppercase tracking-[0.16em] ${
+        tone === "dark" ? "text-white/70" : "text-muted-foreground"
+      } ${className}`}
+    >
+      Eklendi: {formatDate(article.addedAt)}
     </span>
   );
 }
@@ -629,6 +666,7 @@ export function SmallArticleCard({
             {article.title}
           </h3>
         )}
+        <AddedAtLabel article={article} className="mt-1.5 block" />
       </div>
     </>
   );
@@ -732,17 +770,20 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
         <p className={`text-muted-foreground leading-snug mb-2 ${compact ? "text-[12px] line-clamp-2" : "text-[13.5px] line-clamp-3"}`}>
           {article.excerpt}
         </p>
-        {compact ? null : linkTo ? (
-          <Link to={linkTo.to} params={linkTo.params} className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
-            <span>Devamını Oku</span>
-            <span>→</span>
-          </Link>
-        ) : (
-          <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
-            <span>Devamını Oku</span>
-            <span>→</span>
-          </div>
-        )}
+        <div className={`flex items-center justify-between gap-3 ${compact ? "" : "mt-auto"}`}>
+          <AddedAtLabel article={article} tone="light" />
+          {compact ? null : linkTo ? (
+            <Link to={linkTo.to} params={linkTo.params} className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
+              <span>Devamını Oku</span>
+              <span>→</span>
+            </Link>
+          ) : (
+            <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
+              <span>Devamını Oku</span>
+              <span>→</span>
+            </div>
+          )}
+        </div>
       </div>
     </article>
   );
@@ -762,6 +803,7 @@ export function OverlayArticleCard({ article }: { article: Article }) {
         <h3 className="font-display font-black text-lg md:text-xl leading-tight text-white line-clamp-3 decoration-2 underline-offset-4 group-hover:underline">
           {article.title}
         </h3>
+        <AddedAtLabel article={article} className="mt-2 block" />
       </div>
     </>
   );

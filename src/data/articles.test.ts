@@ -1,6 +1,7 @@
 import { describe, test } from "node:test";
 import assert from "node:assert/strict";
-import { ARTICLES, GAME_ARTICLES } from "./articles";
+import { ARTICLES, GAME_ARTICLES, type Article } from "./articles";
+import { formatDate } from "@/lib/seo";
 import { NEWS } from "./news";
 import { REVIEWS } from "./reviews";
 import { LISTS } from "./lists";
@@ -178,5 +179,37 @@ describe("Crystal Lake coverage placement", () => {
     for (const anchor of ["Callum Vinson", "Dondurulmuş karelerle", "gelecekteki şiddetin işaretleri", "sondan bir önceki bölümünde"]) {
       assert.equal(paragraphs.filter((p) => p.includes(anchor)).length, 1, `anchor not unique: ${anchor}`);
     }
+  });
+});
+
+describe("added dates on the ten newest homepage cards", () => {
+  const EXPECTED: Record<string, string> = {
+    "raise-the-red-lantern-gong-li-review": "2026-11-07",
+    "adam-driver-hunt-for-ben-solo-over": "2026-11-06",
+    "best-thriller-movies-since-1990-ranked": "2026-11-04",
+    "battlestar-galactica-board-game-new-edition-2027": "2026-11-04",
+    "crystal-lake-indiewire-review": "2026-11-03",
+    "oscars-2027-nominations-predictions": "2026-11-02",
+    "nocturne-apple-tv-stephen-graham-review": "2026-11-02",
+    "mortal-shell-2-rps-review": "2026-11-02",
+    "castlevania-belmonts-curse-kotaku-review": "2026-11-01",
+    "best-werewolf-movies": "2026-10-31",
+  };
+  const slugOf = (a: Article) =>
+    a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";
+
+  test("exactly the ten newest posts carry an added date", () => {
+    const marked = ARTICLES.filter((a) => a.addedAt).map(slugOf).sort();
+    assert.deepEqual(marked, Object.keys(EXPECTED).sort());
+  });
+
+  test("each added date matches the day the post went in", () => {
+    for (const [slug, date] of Object.entries(EXPECTED)) {
+      assert.equal(ARTICLES.find((a) => slugOf(a) === slug)?.addedAt, date, slug);
+    }
+  });
+
+  test("the date renders with a Turkish month name", () => {
+    assert.equal(formatDate("2026-11-07"), "7 Kasım 2026");
   });
 });

@@ -34,6 +34,8 @@ export type Article = {
   hideCategoryBadge?: boolean;
   countdownBadge?: string;
   homepagePlacement?: "lower";
+  /** Siteye eklendiği gün (YYYY-MM-DD) — kartta "Eklendi: 7 Kasım 2026" olarak gösterilir. */
+  addedAt?: string;
 };
 
 const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
@@ -46,6 +48,7 @@ const REVIEW_ARTICLES: Article[] = REVIEWS.map((r, i) => ({
   videoUrl: r.videoUrl,
   imdbRating: r.imdbRating,
   homepagePlacement: r.homepagePlacement,
+  addedAt: r.addedAt,
 }));
 
 const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
@@ -59,6 +62,7 @@ const NEWS_ARTICLES: Article[] = NEWS.map((n, i) => ({
   customBadge: n.customBadge,
   customBadgeBelow: n.customBadgeBelow,
   homepagePlacement: n.homepagePlacement,
+  addedAt: n.addedAt,
 }));
 
 const LIST_ARTICLES: Article[] = LISTS.map((l, i) => ({
@@ -69,6 +73,7 @@ const LIST_ARTICLES: Article[] = LISTS.map((l, i) => ({
   image: l.image,
   listSlug: l.slug,
   countdownBadge: l.countdownBadge,
+  addedAt: l.addedAt,
 }));
 
 const MUSIC_ARTICLES: Article[] = MUSIC.map((m, i) => ({

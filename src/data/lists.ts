@@ -56,6 +56,8 @@ export type ListItem = {
   image: string;
   source: string;
   countdownBadge?: string;
+  /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında "Eklendi" satırı olarak gösterilir. */
+  addedAt?: string;
 };
 
 const _LISTS_RAW: ListItem[] = [
@@ -2306,6 +2308,7 @@ Listede eksik gördüğün bir film var mı? Bize yaz.`,
   },
   {
     slug: "best-werewolf-movies",
+    addedAt: "2026-10-31",
     title: "En İyi 10 Kurt Adam Filmi: Dolunayın Altında Bir Korku Rehberi",
     excerpt: "An American Werewolf in London'dan Ginger Snaps'e: gotik trajedileri, kanlı kuşatmaları ve kara mizahı buluşturan on kurt adam filmi, 10'dan 1'e geri sayımda.",
     countdownBadge: "10 → 1 geri sayım",

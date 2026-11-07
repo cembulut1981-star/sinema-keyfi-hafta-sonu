@@ -82,11 +82,14 @@ export type Review = {
   gallery?: string[];
   source?: string;
   homepagePlacement?: "lower";
+  /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında "Eklendi" satırı olarak gösterilir. */
+  addedAt?: string;
 };
 
 export const REVIEWS: Review[] = [
   {
     slug: "crystal-lake-indiewire-review",
+    addedAt: "2026-11-03",
     origTitle: "Crystal Lake",
     title: "Crystal Lake İncelemesi — Kanlı Bir Dönüş, Geç Gelen Bir Hikâye",
     excerpt: "A24’ün Friday the 13th öncül dizisi, Linda Cardellini’nin Pamela Voorhees’i ve genç Jason üzerinden geçmişe dönüyor. Yaratıcı cinayetler slasher ruhunu yaşatırken, sekiz bölümlük hikâyenin asıl cevaplarını sona saklaması gerilimin önüne geçiyor.",
@@ -121,6 +124,7 @@ Eski usul slasher estetiğini, abartılı kanlı sahneleri ve Voorhees ailesinin
   },
   {
     slug: "nocturne-apple-tv-stephen-graham-review",
+    addedAt: "2026-11-02",
     origTitle: "Nocturne review — Stephen Graham's serial killer is creepily compelling",
     title: "Nocturne İncelemesi — Stephen Graham'ın Seri Katili Ürkütücü Derecede Büyüleyici",
     excerpt: "Apple TV+'nın on bölümlük geriliminde Stephen Graham, akıl hastanesinin bodrumunda komşu hücreyi fısıltılarıyla bitiren mavi yakalı bir Hannibal Lecter; Liev Schreiber ise bitmemiş bir davayı çözmeye çalışan eski bir dedektif.",
@@ -153,6 +157,7 @@ Dört yıldız: türev olduğunu bilerek, ama kompulsif biçimde izlenen bir ser
   },
   {
     slug: "mortal-shell-2-rps-review",
+    addedAt: "2026-11-02",
     origTitle: "Mortal Shell 2 review — a monumental heavy metal sequel with the spirit of a 90s PC game",
     title: "Mortal Shell 2 İncelemesi — Ağır Metal Ruhlu, 90'lar PC Oyunu Havasında Muhteşem Bir Devam",
     excerpt: "Kabuk değiştiren Harbinger'ın kıyametî Fainweald serüveni, türün en esnek soulslike'ı olarak öne çıkıyor: dikenli mizah, 90'lar PC oyunu nostaljisi ve akıllı erişilebilirlik aynı pakette.",
@@ -217,6 +222,7 @@ Eğer Dark Souls ve Elden Ring bu türün Dungeons & Dragons'ıysa, Mortal Shell
   },
   {
     slug: "castlevania-belmonts-curse-kotaku-review",
+    addedAt: "2026-11-01",
     origTitle: "Castlevania: Belmont’s Curse",
     title: "Castlevania: Belmont’s Curse İncelemesi — Dracula’nın Şatosuna Kusurlu Ama Büyüleyici Bir Dönüş",
     excerpt: "Rose Belmont’un Paris’ten Dracula’nın şatosuna uzanan macerası, keşif tutkusunu yeniden ateşliyor. Zengin harita ve yaratıcı büyüler güçlü; kontroller ve zorluk dengesi ise tartışmalı.",

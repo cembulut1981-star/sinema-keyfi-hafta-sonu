@@ -97,11 +97,14 @@ export type NewsItem = {
   customBadge?: string;
   customBadgeBelow?: boolean;
   homepagePlacement?: "lower";
+  /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında "Eklendi" satırı olarak gösterilir. */
+  addedAt?: string;
 };
 
 export const NEWS: NewsItem[] = [
   {
     slug: "raise-the-red-lantern-gong-li-review",
+    addedAt: "2026-11-07",
     title: "“Kırmızı Fenerler” Yeniden Gündemde: Gong Li'nin On Yılı Tanımlayan Performansı",
     excerpt: "Zhang Yimou'nun 1991 tarihli başyapıtı Kırmızı Fenerler yeniden vizyonda; eleştirmenler Gong Li'nin “dördüncü eş” Songlian performansını 90'ların en büyük oyunculuklarından biri sayıyor.",
     image: lanternCover.url,
@@ -130,6 +133,7 @@ Sonuç, mahrem bir siyasi vahşetin ve var olma hakkı için verilen acımasız 
   },
   {
     slug: "adam-driver-hunt-for-ben-solo-over",
+    addedAt: "2026-11-06",
     title: "Adam Driver Noktayı Koydu: “The Hunt for Ben Solo” İçin Gemi Kalktı",
     excerpt: "Adam Driver, Steven Soderbergh'le geliştirdikleri Kylo Ren filmi The Hunt for Ben Solo'nun Disney tarafından reddedildiğini ve Star Wars'a dönüşünün söz konusu olmadığını söyledi: “Bitti.”",
     image: benSoloCover.url,
@@ -154,6 +158,7 @@ Nisan ayında benzer bir açıklama yapan **Steven Soderbergh** de filmin “ola
   },
   {
     slug: "battlestar-galactica-board-game-new-edition-2027",
+    addedAt: "2026-11-04",
     title: "Battlestar Galactica Geri Dönüyor: Efsane Masa Oyunu 2027'de Yeni Baskısıyla Geliyor",
     excerpt: "Ghost Galaxy, Universal ve Fantasy Flight Games'le anlaşarak 2008 tarihli kült masa oyunu Battlestar Galactica: The Board Game'in yeni baskısını duyurdu; kitle fonlaması kampanyası 2027 başında açılacak.",
     image: bsgBoardGame,
@@ -175,6 +180,7 @@ Ghost Galaxy, yeni baskının orijinal kutunun birebir kopyası olmayacağını,
   },
   {
     slug: "oscars-2027-nominations-predictions",
+    addedAt: "2026-11-02",
     title: "Oscar 2027 İçin İlk Tahminler: 99. Akademi Ödülleri Yarışı Şekilleniyor",
     excerpt: "Christopher Nolan’ın The Odyssey’si favori konumda; La Bola Negra, The Debut ve Dune: Part Three erken yarışın öne çıkan adayları arasında.",
     image: oscars2027Predictions.url,
