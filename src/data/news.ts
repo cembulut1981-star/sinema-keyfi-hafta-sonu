@@ -85,6 +85,7 @@ import oscars2027Predictions from "@/assets/oscars-2027-conan-stage.webp.asset.j
 import bsgBoardGame from "@/assets/news-bsg-board-game-2027.jpg";
 import lanternCover from "@/assets/remote/raise-the-red-lantern-cover.jpg.asset.json";
 import lanternStill from "@/assets/remote/raise-the-red-lantern-still.jpg.asset.json";
+import karoshiCover from "@/assets/remote/karoshi-cover.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -94,6 +95,7 @@ export type NewsItem = {
   image: string;
   source: string;
   videoUrl?: string;
+  youtubeTrailerId?: string;
   customBadge?: string;
   customBadgeBelow?: boolean;
   homepagePlacement?: "lower";
@@ -102,6 +104,34 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "karoshi-trailer-teo-yoo-samurai-corporate-thriller",
+    addedAt: "2026-11-07",
+    title: "Karōshi Fragmanı: Teo Yoo, Şirket Dünyasına Samuray Kılıcıyla Giriyor",
+    excerpt: "Teo Yoo, Isabel May ve Cynthia Erivo'lu Karōshi, şirket sadakatini kanlı bir intikam hikâyesine dönüştürüyor. John Wick'in arkasındaki ekibin yeni aksiyon-gerilimi için ilk fragman yayımlandı.",
+    image: karoshiCover.url,
+    youtubeTrailerId: "jQHoAsDcjVU",
+    source: "Empire — November 5, 2026",
+    body: `**Karōshi**'nin ilk fragmanı, gökdelenlerin parlak yüzeylerinin ardında saklanan şiddetli bir şirket düzenini ortaya çıkarıyor. **Past Lives** ile tanıdığımız **Teo Yoo**, bu kez yakın geleceğin Manhattan'ında güçlü bir şirketin içine sızan gizemli yabancı **Hiro** olarak karşımızda. Bir çalışanın şüpheli ölümünün ardından başlayan hikâye, kurumsal gerilimi samuray aksiyonuyla buluşturuyor.
+
+## Fazla Çalışmanın Ölümcül Bedeli
+
+Japoncada aşırı çalışmaya bağlı ölüm anlamına gelen **karōshi**, filmin yalnızca adı değil, merkezindeki çatışmanın da anahtarı. Şirket bağlılığı ve kültürel geleneklerin gündelik yaşamı yeniden şekillendirdiği bu dünyada, kusursuz görünen ofislerin altında acımasız bir sistem işliyor. Hiro'nun bu yapının içine girmesiyle, çalışanların ölümü ve yönetimin gücü arasındaki bağ açığa çıkmaya başlıyor.
+
+Fragmanda kılıçlar, kanlı hesaplaşmalar ve gizli kurallarla yönetilen bir gökdelen öne çıkıyor. Hikâyenin odağındaki **Ikigai** şirketinin CEO'su **Vincent Ogawa**'yı, **Shōgun**'dan tanıdığımız **Takehiro Hira** canlandırıyor. Teo Yoo ile **Isabel May**'in karakterleri, bu dev yapıya karşı aynı cephede buluşacak gibi görünüyor; ancak fragman karakterlerin bütün niyetlerini açık etmiyor.
+
+## John Wick Ekibinden Yeni Bir Aksiyon Dünyası
+
+Filmin senaryosu ve yönetmenliği **Takashi Doscher**'a ait. Yapım tarafında ise **Chad Stahelski** ve **87Eleven** bulunuyor. Bu birliktelik, John Wick'in fiziksel ve keskin aksiyon dilini hatırlatıyor; Karōshi ise bu enerjiyi şirket hiyerarşisi, itaat ve intikam üzerinden farklı bir dünyaya taşıyor.
+
+Oyuncu kadrosunda Teo Yoo ve Isabel May'in yanı sıra **Cynthia Erivo**, **Giancarlo Esposito**, **Show Kasamatsu** ve **Bill Camp** yer alıyor. İlk görüntüler, özellikle Erivo ve Esposito'nun karakterlerini hikâyenin tehditkâr atmosferinin önemli parçaları olarak sunuyor.
+
+## İlk İzlenim: Ofis Gerilimi ile Kılıç Aksiyonunun Buluşması
+
+Karōshi'nin merak uyandıran tarafı, tanıdık bir intikam hikâyesini günümüzün çalışma hayatına dair kaygılarla birleştirmesi. Cam duvarlar, resmi kıyafetler ve kurumsal disiplin; fragmandaki sert dövüşlerle çarpıcı bir karşıtlık kuruyor. Teo Yoo'yu daha kırılgan ve içe dönük rollerinin dışında görmek de filmin güçlü kozlarından biri. Bu, şimdilik fragmanın yarattığı bir beklenti; filmin bu fikri ne kadar derinleştirdiğini görmek için gösterimini beklemek gerekecek.
+
+**Karōshi'nin duyurulan vizyon tarihi 5 Şubat 2027.** Türkiye gösterim tarihi ise henüz bu duyuruda belirtilmiyor.`,
+  },
   {
     slug: "raise-the-red-lantern-gong-li-review",
     addedAt: "2026-11-07",

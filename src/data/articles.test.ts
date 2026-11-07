@@ -184,6 +184,7 @@ describe("Crystal Lake coverage placement", () => {
 
 describe("added dates on the ten newest homepage cards", () => {
   const EXPECTED: Record<string, string> = {
+    "karoshi-trailer-teo-yoo-samurai-corporate-thriller": "2026-11-07",
     "raise-the-red-lantern-gong-li-review": "2026-11-07",
     "adam-driver-hunt-for-ben-solo-over": "2026-11-06",
     "best-thriller-movies-since-1990-ranked": "2026-11-04",
@@ -193,7 +194,6 @@ describe("added dates on the ten newest homepage cards", () => {
     "nocturne-apple-tv-stephen-graham-review": "2026-11-02",
     "mortal-shell-2-rps-review": "2026-11-02",
     "castlevania-belmonts-curse-kotaku-review": "2026-11-01",
-    "best-werewolf-movies": "2026-10-31",
   };
   const slugOf = (a: Article) =>
     a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";
@@ -211,5 +211,17 @@ describe("added dates on the ten newest homepage cards", () => {
 
   test("the date renders with a Turkish month name", () => {
     assert.equal(formatDate("2026-11-07"), "7 Kasım 2026");
+  });
+});
+
+describe("Karōshi news", () => {
+  const slug = "karoshi-trailer-teo-yoo-samurai-corporate-thriller";
+  test("keeps the verified source date distinct from the added date", () => {
+    const news = NEWS.find((item) => item.slug === slug);
+    assert.equal(news?.source, "Empire — November 5, 2026");
+    assert.equal(news?.addedAt, "2026-11-07");
+  });
+  test("uses the verified Lionsgate YouTube trailer", () => {
+    assert.equal(NEWS.find((item) => item.slug === slug)?.youtubeTrailerId, "jQHoAsDcjVU");
   });
 });

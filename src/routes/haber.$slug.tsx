@@ -16,6 +16,7 @@ import { publishedPost } from '@/lib/editorial-public.functions';
 import { EditorialArticle } from '@/components/site/EditorialArticle';
 import { CommentSection } from '@/components/site/CommentSection';
 import { isCommentedPost } from '@/lib/comments';
+import { YouTubeTrailer } from '@/components/site/YouTubeTrailer';
 
 export const Route = createFileRoute("/haber/$slug")({
   loader: async ({ params }) => {
@@ -96,6 +97,8 @@ function NewsPage() {
         )}
 
 
+
+        {n.youtubeTrailerId ? <YouTubeTrailer videoId={n.youtubeTrailerId} title="Karōshi" /> : null}
 
         <div className={articleProse}>
           {toParagraphs(n.body).map((para, i) => (

@@ -20,3 +20,4 @@
 - List-specific image captions, ranking heading treatments and film heading visibility are scoped by slug in the shared list renderer; this keeps editorial treatments from changing other lists.
 - Comments are open only on posts allowlisted in public.comment_threads and mirrored in COMMENTED_POST_SLUGS (src/lib/comments.ts); writes go through server functions with plain-UUID user IDs and owner-only delete, so a new post needs both the database row and the slug entry — this keeps comment surfaces explicit instead of opening every page.
 - Homepage cards show an "Eklendi" line driven by an addedAt (YYYY-MM-DD) field on the data item; when a post is added give it addedAt and keep the marked set to the ten newest — this keeps freshness signals real instead of invented.
+- News can declare a separate YouTube trailer ID rendered by YouTubeTrailer below the cover; this preserves site-hosted card imagery and opens videos without navigating away.

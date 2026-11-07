@@ -3,6 +3,7 @@ import { z } from 'zod';
 // The ten newest Sine-Meta posts, newest first. Comments are open on these only.
 // A newer post joins the list here and in public.comment_threads.
 export const COMMENTED_POST_SLUGS = [
+  'karoshi-trailer-teo-yoo-samurai-corporate-thriller',
   'raise-the-red-lantern-gong-li-review',
   'adam-driver-hunt-for-ben-solo-over',
   'best-thriller-movies-since-1990-ranked',
@@ -12,7 +13,6 @@ export const COMMENTED_POST_SLUGS = [
   'crystal-lake-indiewire-review',
   'nocturne-apple-tv-stephen-graham-review',
   'mortal-shell-2-rps-review',
-  'oscars-2027-nominations-predictions',
 ] as const;
 
 export const COMMENT_BODY_MIN = 2;

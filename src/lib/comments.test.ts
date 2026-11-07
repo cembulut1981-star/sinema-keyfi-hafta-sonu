@@ -42,13 +42,14 @@ describe("commented posts", () => {
   });
 
   test("older posts stay closed to comments", () => {
+    assert.equal(isCommentedPost("karoshi-trailer-teo-yoo-samurai-corporate-thriller"), true);
     assert.equal(isCommentedPost("raise-the-red-lantern-gong-li-review"), true);
     assert.equal(isCommentedPost("adam-driver-hunt-for-ben-solo-over"), true);
     assert.equal(isCommentedPost("best-thriller-movies-since-1990-ranked"), true);
     assert.equal(isCommentedPost("best-werewolf-movies"), false);
     assert.equal(isCommentedPost("best-sci-fi-movies-of-2026"), false);
     assert.equal(isCommentedPost("ghost-of-yotei-complete-edition-review"), false);
-    assert.equal(isCommentedPost("oscars-2027-nominations-predictions"), true);
+    assert.equal(isCommentedPost("oscars-2027-nominations-predictions"), false);
     assert.equal(isCommentedPost("ridley-scott-movies-ranked-worst-to-best"), false);
     assert.equal(isCommentedPost(""), false);
   });

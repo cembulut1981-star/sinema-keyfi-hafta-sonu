@@ -2308,7 +2308,6 @@ Listede eksik gördüğün bir film var mı? Bize yaz.`,
   },
   {
     slug: "best-werewolf-movies",
-    addedAt: "2026-10-31",
     title: "En İyi 10 Kurt Adam Filmi: Dolunayın Altında Bir Korku Rehberi",
     excerpt: "An American Werewolf in London'dan Ginger Snaps'e: gotik trajedileri, kanlı kuşatmaları ve kara mizahı buluşturan on kurt adam filmi, 10'dan 1'e geri sayımda.",
     countdownBadge: "10 → 1 geri sayım",
