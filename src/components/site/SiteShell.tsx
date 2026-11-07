@@ -387,7 +387,7 @@ export function FullWidthFeatureCard({
         {dateLabel ? (
           <>
             <span className="mx-2 text-border" aria-hidden="true">|</span>
-            <time>{dateLabel}</time>
+            <time className="text-foreground">{dateLabel}</time>
           </>
         ) : null}
         {article.addedAt ? (
@@ -520,7 +520,7 @@ export function BadgePill({ label, className = "" }: { label?: string; className
 /**
  * Eklenme tarihi satırı — yalnızca addedAt alanı dolu olan (en yeni) yazılarda görünür.
  * Yazı yok, sadece tarih.
- * tone="dark" fotoğraflı kartlarda beyaz, tone="light" açık zeminli kartlarda gri.
+ * tone="dark" fotoğraflı kartlarda beyaz, tone="light" açık zeminli kartlarda siyah.
  */
 export function AddedAtLabel({
   article,
@@ -535,7 +535,7 @@ export function AddedAtLabel({
   return (
     <span
       className={`font-display text-[10px] font-bold uppercase tracking-[0.16em] ${
-        tone === "dark" ? "text-white/70" : "text-muted-foreground"
+        tone === "dark" ? "text-white" : "text-foreground"
       } ${className}`}
     >
       {formatDate(article.addedAt)}
