@@ -774,12 +774,12 @@ export function ArticleCard({ article, compact = false, framed = false }: { arti
         <div className={`flex items-center justify-between gap-3 ${compact ? "" : "mt-auto"}`}>
           <AddedAtLabel article={article} tone="light" />
           {compact ? null : linkTo ? (
-            <Link to={linkTo.to} params={linkTo.params} className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
+            <Link to={linkTo.to} params={linkTo.params} className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground">
               <span>Devamını Oku</span>
               <span>→</span>
             </Link>
           ) : (
-            <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground/60">
+            <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-foreground">
               <span>Devamını Oku</span>
               <span>→</span>
             </div>
