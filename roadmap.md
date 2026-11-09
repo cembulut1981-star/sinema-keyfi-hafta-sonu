@@ -42,3 +42,5 @@
 - [x] Roll the ten-post comment allowlist forward and verify the new list on desktop and mobile.
 - [x] Add a dated Turkish Karoshi news card with a site-hosted cover and embedded YouTube trailer.
 - [x] Roll newest-post dates and comments forward; verify the homepage, article and player.
+- [x] Add Turkish Other Worlds news with a site-hosted cover and YouTube announcement teaser.
+- [x] Roll newest-post dates and comments forward; verify the new homepage card and popup player.

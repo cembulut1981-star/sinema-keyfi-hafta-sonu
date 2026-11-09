@@ -86,6 +86,7 @@ import bsgBoardGame from "@/assets/news-bsg-board-game-2027.jpg";
 import lanternCover from "@/assets/remote/raise-the-red-lantern-cover.jpg.asset.json";
 import lanternStill from "@/assets/remote/raise-the-red-lantern-still.jpg.asset.json";
 import karoshiCover from "@/assets/remote/karoshi-cover.jpg.asset.json";
+import otherWorldsCover from "@/assets/remote/other-worlds-cover.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -96,6 +97,7 @@ export type NewsItem = {
   source: string;
   videoUrl?: string;
   youtubeTrailerId?: string;
+  youtubeTrailerTitle?: string;
   customBadge?: string;
   customBadgeBelow?: boolean;
   homepagePlacement?: "lower";
@@ -105,12 +107,48 @@ export type NewsItem = {
 
 export const NEWS: NewsItem[] = [
   {
+    slug: "stranger-things-other-worlds-prequel-2028-teaser",
+    addedAt: "2026-11-09",
+    title: "Stranger Things’in Yeni Dizisi Other Worlds: İlk Tanıtım, 1955’e Açılan Bir Kapı",
+    excerpt: "Other Worlds: A Stranger Things Adventure, 2028’de Netflix’e geliyor. Joe Wright’ın yöneteceği yeni dizi, Hawkins’ten önceki gizemleri 1955 yılının Nevada’sına taşıyor; ilk tanıtım videosu yayımlandı.",
+    image: otherWorldsCover.url,
+    youtubeTrailerId: "qb8jZ5zNMrs",
+    youtubeTrailerTitle: "Other Worlds: A Stranger Things Adventure",
+    source: "Empire — November 6, 2026",
+    body: `**Stranger Things** evreni, bu kez Hawkins’in tanıdık sokaklarının dışına çıkıyor. Netflix, canlı aksiyon öncül dizisinin adını **Other Worlds: A Stranger Things Adventure** olarak duyurdu. **2028** için planlanan yapımın ilk tanıtımı, hikâyenin **Nisan 1955’te, Marion, Nevada’da** geçeceğini ortaya koyuyor. Kısa video, uzun bir fragmandan çok yeni dönemin ve mekânın kapısını aralayan bir duyuru niteliğinde.
+
+## Hawkins’ten Önce, Nevada’da
+
+Yeni dizinin zaman çizgisi, **The First Shadow** sahne yapımında anlatılan olayların dört yıl öncesine uzanıyor. Bu tercih, Stranger Things’in doğaüstü tehdidini yalnızca bildiğimiz karakterler üzerinden değil, daha eski deneyler ve henüz keşfedilmemiş bağlantılar aracılığıyla ele alma ihtimalini güçlendiriyor.
+
+Marion, Nevada konumu da önemli: The First Shadow’da gündeme gelen Nevada deneyiyle aynı coğrafyaya dönüyoruz. Sahne hikâyesinin Henry Creel’in geçmişini ve Vecna’ya dönüşümünü araştırması, Other Worlds’ün bu mitolojiyle nasıl bağ kuracağı sorusunu öne çıkarıyor. Ancak açıklanan bilgiler, yeni dizinin tüm olay örgüsünü ya da karakterlerini henüz ortaya koymuyor.
+
+## Duffer Kardeşler, Kate Trefry ve Joe Wright
+
+Projenin yaratıcı ekibinde **Matt ve Ross Duffer** ile **Kate Trefry** bulunuyor. Yönetmenliği ise **Joe Wright** üstleniyor. Trefry’nin The First Shadow bağlantısı, sahne yapımıyla ekran anlatısı arasında yaratıcı bir devamlılık kurulabileceğini düşündürüyor.
+
+Duffer kardeşler, yeni bir ortamın yanı sıra yeni kahramanlar ve kötü karakterler vaat ediyor. Trefry ise ana dizinin korku, merak ve gizem duygusunu korurken tamamen yeni bir hikâye anlatmayı hedeflediklerini belirtiyor. Duyuru sırasında oyuncu seçimi henüz gündemdeki bir sonraki adım olarak sunuluyor; dolayısıyla bu haberle birlikte açıklanmış bir oyuncu kadrosu yok.
+
+## İlk Tanıtım Ne Söylüyor?
+
+Videodaki dönem atmosferi ve boyutlar arasında açılıyormuş gibi görünen yarık, dizinin bilimkurgu-korku damarını öne çıkarıyor. **The Chords’un “Sh-Boom”** şarkısı da 1950’ler havasını pekiştiriyor. Görüntüler, aksiyon sahneleri ya da ayrıntılı karakter tanıtımları sunmak yerine, yeni bir gizemin başladığı duygusuna odaklanıyor.
+
+Stranger Things’in beşinci sezonunda görülen, bilim insanının çantasındaki taş ve **Dimension X** bağlantısı da yeni hikâyeye dair merak uyandıran noktalardan biri. Duffer kardeşlerin daha önce bir öncül dizide bu karşılaşmayı açıklama ihtimalinden söz etmiş olması, Nevada ve 1955 seçimini anlamlı kılıyor. Yine de tanıtımdaki ipuçlarını, bütün bu bağlantıların kesin olarak doğrulandığı ayrıntılı bir konu özetiyle karıştırmamak gerekiyor.
+
+## İlk İzlenim: Nostaljiden Daha Fazlası Olabilir mi?
+
+Other Worlds’ün en ilgi çekici tercihi, aynı karakterlere dönmek yerine evrenin geçmişinde farklı bir kapı açması. 1950’ler Amerika’sı, deneyler ve bilinmeyen bir tehdidin buluşması; Stranger Things’in gizem duygusunu yeniden kurmak için güçlü bir zemin sunuyor. Joe Wright’ın görsel anlatımı da bu yeni döneme farklı bir kimlik kazandırabilir. Şimdilik elimizde kısa bir duyuru var; beklentiyi büyüten şey, açıklanmış bir hikâyeden çok bu yeni bakış açısı.
+
+**Other Worlds: A Stranger Things Adventure, 2028’de Netflix’te yayımlanacak.** Kesin yayın günü ve oyuncu kadrosu bu duyuruda henüz açıklanmadı.`,
+  },
+  {
     slug: "karoshi-trailer-teo-yoo-samurai-corporate-thriller",
     addedAt: "2026-11-07",
     title: "Karōshi Fragmanı: Teo Yoo, Şirket Dünyasına Samuray Kılıcıyla Giriyor",
     excerpt: "Teo Yoo, Isabel May ve Cynthia Erivo'lu Karōshi, şirket sadakatini kanlı bir intikam hikâyesine dönüştürüyor. John Wick'in arkasındaki ekibin yeni aksiyon-gerilimi için ilk fragman yayımlandı.",
     image: karoshiCover.url,
     youtubeTrailerId: "jQHoAsDcjVU",
+    youtubeTrailerTitle: "Karōshi",
     source: "Empire — November 5, 2026",
     body: `**Karōshi**'nin ilk fragmanı, gökdelenlerin parlak yüzeylerinin ardında saklanan şiddetli bir şirket düzenini ortaya çıkarıyor. **Past Lives** ile tanıdığımız **Teo Yoo**, bu kez yakın geleceğin Manhattan'ında güçlü bir şirketin içine sızan gizemli yabancı **Hiro** olarak karşımızda. Bir çalışanın şüpheli ölümünün ardından başlayan hikâye, kurumsal gerilimi samuray aksiyonuyla buluşturuyor.
 

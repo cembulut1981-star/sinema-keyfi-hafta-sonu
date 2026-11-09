@@ -42,6 +42,8 @@ describe("commented posts", () => {
   });
 
   test("older posts stay closed to comments", () => {
+    assert.equal(isCommentedPost("stranger-things-other-worlds-prequel-2028-teaser"), true);
+    assert.equal(isCommentedPost("mortal-shell-2-rps-review"), false);
     assert.equal(isCommentedPost("karoshi-trailer-teo-yoo-samurai-corporate-thriller"), true);
     assert.equal(isCommentedPost("raise-the-red-lantern-gong-li-review"), true);
     assert.equal(isCommentedPost("adam-driver-hunt-for-ben-solo-over"), true);

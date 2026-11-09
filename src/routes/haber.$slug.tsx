@@ -98,7 +98,7 @@ function NewsPage() {
 
 
 
-        {n.youtubeTrailerId ? <YouTubeTrailer videoId={n.youtubeTrailerId} title="Karōshi" /> : null}
+        {n.youtubeTrailerId ? <YouTubeTrailer videoId={n.youtubeTrailerId} title={n.youtubeTrailerTitle ?? n.title} /> : null}
 
         <div className={articleProse}>
           {toParagraphs(n.body).map((para, i) => (

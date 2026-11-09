@@ -184,6 +184,7 @@ describe("Crystal Lake coverage placement", () => {
 
 describe("added dates on the ten newest homepage cards", () => {
   const EXPECTED: Record<string, string> = {
+    "stranger-things-other-worlds-prequel-2028-teaser": "2026-11-09",
     "karoshi-trailer-teo-yoo-samurai-corporate-thriller": "2026-11-07",
     "raise-the-red-lantern-gong-li-review": "2026-11-07",
     "adam-driver-hunt-for-ben-solo-over": "2026-11-06",
@@ -193,7 +194,6 @@ describe("added dates on the ten newest homepage cards", () => {
     "oscars-2027-nominations-predictions": "2026-11-02",
     "nocturne-apple-tv-stephen-graham-review": "2026-11-02",
     "mortal-shell-2-rps-review": "2026-11-02",
-    "castlevania-belmonts-curse-kotaku-review": "2026-11-01",
   };
   const slugOf = (a: Article) =>
     a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";
@@ -223,5 +223,22 @@ describe("Karōshi news", () => {
   });
   test("uses the verified Lionsgate YouTube trailer", () => {
     assert.equal(NEWS.find((item) => item.slug === slug)?.youtubeTrailerId, "jQHoAsDcjVU");
+  });
+});
+
+describe("Other Worlds news", () => {
+  const slug = "stranger-things-other-worlds-prequel-2028-teaser";
+  test("uses the Netflix announcement teaser embedded in the source", () => {
+    assert.equal(NEWS.find((item) => item.slug === slug)?.youtubeTrailerId, "qb8jZ5zNMrs");
+  });
+  test("keeps the source date separate from the site addition date", () => {
+    const news = NEWS.find((item) => item.slug === slug);
+    assert.equal(news?.source, "Empire — November 6, 2026");
+    assert.equal(news?.addedAt, "2026-11-09");
+  });
+  test("appears once in the non-game upper homepage pool", () => {
+    assert.equal(ARTICLES.filter((item) => item.newsSlug === slug).length, 1);
+    assert.equal(ARTICLES.find((item) => item.newsSlug === slug)?.homepagePlacement, undefined);
+    assert.equal(GAME_ARTICLES.some((item) => item.newsSlug === slug), false);
   });
 });

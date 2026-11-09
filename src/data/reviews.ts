@@ -222,7 +222,6 @@ Eğer Dark Souls ve Elden Ring bu türün Dungeons & Dragons'ıysa, Mortal Shell
   },
   {
     slug: "castlevania-belmonts-curse-kotaku-review",
-    addedAt: "2026-11-01",
     origTitle: "Castlevania: Belmont’s Curse",
     title: "Castlevania: Belmont’s Curse İncelemesi — Dracula’nın Şatosuna Kusurlu Ama Büyüleyici Bir Dönüş",
     excerpt: "Rose Belmont’un Paris’ten Dracula’nın şatosuna uzanan macerası, keşif tutkusunu yeniden ateşliyor. Zengin harita ve yaratıcı büyüler güçlü; kontroller ve zorluk dengesi ise tartışmalı.",

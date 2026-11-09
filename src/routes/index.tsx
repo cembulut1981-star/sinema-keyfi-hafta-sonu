@@ -48,6 +48,7 @@ const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === HOMEPAGE_FE
 const NEXT_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne-apple-tv-stephen-graham-review");
 const NEW_STORIES = [
+  ARTICLES.find((article) => article.newsSlug === "stranger-things-other-worlds-prequel-2028-teaser"),
   ARTICLES.find((article) => article.newsSlug === "karoshi-trailer-teo-yoo-samurai-corporate-thriller"),
   ARTICLES.find((article) => article.newsSlug === "raise-the-red-lantern-gong-li-review"),
   ARTICLES.find((article) => article.newsSlug === "adam-driver-hunt-for-ben-solo-over"),
