@@ -839,7 +839,7 @@ Crystal Lake, izleyicileri kanepeden zıplatmaya yetecek etkiyle yaratıcı öl�
 
 ![A24'nin Crystal Lake serisinden özel bir sahne](${crystalLakeStill.url})
 
-## 5. It orijinal filmden sekiz yıl önce başlıyor
+## 5. Hikaye orijinal filmden sekiz yıl önce başlıyor
 
 Pamela, Camp Crystal Lake'de aşçı olarak çalışırken, 11 yaşındaki Jason diğer kampçılara katılıyor. Dizi, onların aşk dolu ilişkisinden Jason'nin ölümüne ve Pamela'nin öldürücü çöküşüne kadar uzanan değişimleri konu alıyor.
 
@@ -851,13 +851,13 @@ Bir bölümde, kafasına kanla dolu gerçek bir çanta takan bir dublör sanatç
 
 ![Crystal Lake'ten bir sahne](${clNewsDorf.url})
 
-## 7. Açılış jeneriği filmleri onurlandırıyor
+## 7. Açılış jeneriği seride çekilen diğer filmleri onurlandırıyor
 
 Başlık dizisi, 1970'lerin televizyonunun grenli tedirginliğini, orijinal 13. Cuma logosuna doğrudan bir selamla birleştiriyor. Composer Harry Manfredini ayrıca dizi için yeni müzik yaratmak üzere geri döndü.
 
 ![Serinin efsanevi besteci Harry Manfredini](${clManfredini.url})
 
-## 8. Her ölümün önemi vardır
+## 8. Her ölümün önemi var
 
 Yazarlar, kurbanlara tek kullanımlık bedenler gibi davranmak yerine, hikayelerini oluşturmaya zaman harcıyorlar. Kane'in amacı, her ölümün katliam gelmeden önce duygusal olarak inmesini sağlamaktır.
 
@@ -867,7 +867,7 @@ Yazarlar, kurbanlara tek kullanımlık bedenler gibi davranmak yerine, hikayeler
 
 Hikaye, Jason'nin annesiyle olan bağını ve kaybının yıkıcı etkisini vurguluyor. Tanıdık bir slasher olarak ortaya çıkışı sezonun ilerleyen dönemlerinde gerçekleşecek; ancak Kane, bu gerçekleştiğinde çok sert etkileneceğini söylüyor.
 
-## 10. Callum Vinson role hazırdı
+## 10. Callum Vinson role hazırdı...
 
 Genç korku hayranı, ağır protezler ve zorlu göl işleri de dahil olmak üzere fiziksel olarak zorlu kısmı benimseyerek Jason'ye hem kırılganlık hem de uğursuz bir varlık kazandırdı.
 
@@ -877,7 +877,7 @@ Dizi kampın ötesine geçerek çevredeki toplumu, burada yaşayanları ve Voorh
 
 ![Camp No-Be-Bo-Sco'daki göl kıyısı](${clBoat.url})
 
-## 12. Uzun süredir hayranlar derin referanslar bekleyebilir
+## 12. Uzun soluklu hayranlar derin referanslar bekleyebilir
 
 Mekanlar, görsel ayrıntılar ve hikaye yankıları serinin dört bir yanından geliyor. Paskalya yumurtaları, tanıdık ikonografiyi tekrarlamak yerine yeni hikayeyi derinleştirmek için tasarlandı.
 
