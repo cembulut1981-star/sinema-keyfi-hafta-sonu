@@ -810,6 +810,7 @@ Hayranlar için bu yorum *Die Trying*'yi garip bir yerde bırakıyor: resmi olar
   },
   {
     slug: "crystal-lake-13-killer-things-friday-the-13th-series",
+    narrated: true,
     title: "Crystal Lake: A24’ün Yeni Friday the 13th Dizisi Hakkında Bilmeniz Gereken 13 Çarpıcı Detay",
     excerpt:
       "Linda Cardellini’nin canlandırdığı Pamela Voorhees, A24’ün orijinal Crystal Lake mekânında çekilen kanlı öncül hikâyesinin merkezinde; yapımda pratik efektler, sıkı hayranlara yönelik gizli göndermeler ve genç bir Jason var.",
