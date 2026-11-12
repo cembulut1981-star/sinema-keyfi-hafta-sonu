@@ -811,7 +811,7 @@ Hayranlar için bu yorum *Die Trying*'yi garip bir yerde bırakıyor: resmi olar
 
 Linda Cardellini, orijinal 1980 filmindeki olaylardan önce Pamela'yi oynuyor. Showrunner Brad Caleb Kane, Betsy Palmer'nin ünlü performansını taklit etmekten kaçındığını, bunun yerine tam, kana bulanmış bir çöküşe doğru itilen bir kadına doğru kendi yolunu bulduğunu söylüyor.
 
-## 1. Linda Cardellini, Pamela'yi kendisine ait kılıyor
+## 1. Linda Cardellini, Pamela rolünü tekeline alıyor.
 
 Cardellini, Kane'in ilk tercihiydi. Yapım ekibi, karakterin tanıdık görünümüyle denemeler yaptı ancak sonuçta doğrudan canlandırmaların cosplay'e çok benzediğine karar verdi. Kane, sonucun farklı ve son derece kararlı bir Pamela olacağını vaat ediyor.
 
@@ -833,7 +833,7 @@ Kane, Part III'yi korkuya açılan kapı, Son Bölüm'ü serinin en iyi girişi 
 
 ![Betsy Palmer, 1980 filminde Pamela Voorhees'i canlandıran oyuncu](${clBetsy.url})
 
-## 4. Öldürmeler ciddi anlamda kanlı olacak
+## 4. Ci ciddi anlamda kanlı olacak
 
 Crystal Lake, izleyicileri kanepeden zıplatmaya yetecek etkiyle yaratıcı ölümler sunmak üzere tasarlandı. Kane, ekibin şiddetin taze, şaşırtıcı ve şüphe götürmez bir şekilde 13'üncü Cuma'nın bir parçası olmasını istediğini söyledi.
 
