@@ -821,19 +821,19 @@ Cardellini, kariyerine 1990'ların sonunda başladı ve ilk büyük çıkışın
 
 Korku izleyicisinin dikkatini en çok çeken rollerinden biri ise *Mad Men*'deki Sylvia Rosen'dı. Cardellini, 6. sezonda Don Draper'ın alt kattaki komşusu ve yakın dostu Dr. Arnold Rosen'ın eşi olarak, Don'la gizli ve yıkıcı bir ilişki yaşayan kadını oynadı. Sakin dış görünüşün altında suçluluk, arzu ve öfkeyi aynı anda taşıyan bu performans 2013'te ona Drama Dizisinde En İyi Konuk Kadın Oyuncu dalında Emmy adaylığı kazandırdı. Kane'in Pamela için aradığı katmanlı, dışarıdan sakin ama içten kaynayan kadın tipinin izleri tam da bu rolde görülüyor.
 
-## 2. Üretim orijinal Crystal Lake'ye geri döndü
+## 2. Prodüksiyon ekibi dizi için orijinal Crystal Lake'ye geri döndü
 
 Ekip, 13'üncü Cuma gününün önemli bölümlerinin çekildiği Blairstown, New Jersey'de çekim yaptı. Bazı sahneler kasıtlı olarak 1980 yapımı filmi yansıtıyor ve izleyicilerin tanıdık anlarla ilgili algılarını değiştiriyor.
 
 ![Blairstown'daki Camp No-Be-Bo-Sco; 1980 yapımı filmin kamp sahneleri burada çekildi](${clLodge.url})
 
-## 3. Dizi yapımcısı daimi bir Friday the 13th hayranıdır
+## 3. Dizi yapımcısı daimi bir Friday the 13th hayranı
 
 Kane, Part III'yi korkuya açılan kapı, Son Bölüm'ü serinin en iyi girişi ve Jason Lives'yi de en eğlenceli bölümü olarak adlandırıyor. Bu bilgi, hem yeni gelenleri hem de takıntılı hayranları ödüllendirmeyi amaçlayan bir ön bölümü şekillendiriyor.
 
 ![Betsy Palmer, 1980 filminde Pamela Voorhees'i canlandıran oyuncu](${clBetsy.url})
 
-## 4. Ci ciddi anlamda kanlı olacak
+## 4. Cinayetler ciddi anlamda kanlı olacak
 
 Crystal Lake, izleyicileri kanepeden zıplatmaya yetecek etkiyle yaratıcı ölümler sunmak üzere tasarlandı. Kane, ekibin şiddetin taze, şaşırtıcı ve şüphe götürmez bir şekilde 13'üncü Cuma'nın bir parçası olmasını istediğini söyledi.
 
