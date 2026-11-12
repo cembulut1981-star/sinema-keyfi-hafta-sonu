@@ -827,7 +827,7 @@ Ekip, 13'üncü Cuma gününün önemli bölümlerinin çekildiği Blairstown, N
 
 ![Blairstown'daki Camp No-Be-Bo-Sco; 1980 yapımı filmin kamp sahneleri burada çekildi](${clLodge.url})
 
-## 3. Dizi sorumlusu ömür boyu Friday the 13th hayranıdır
+## 3. Dizi yapımcısı daimi bir Friday the 13th hayranıdır
 
 Kane, Part III'yi korkuya açılan kapı, Son Bölüm'ü serinin en iyi girişi ve Jason Lives'yi de en eğlenceli bölümü olarak adlandırıyor. Bu bilgi, hem yeni gelenleri hem de takıntılı hayranları ödüllendirmeyi amaçlayan bir ön bölümü şekillendiriyor.
 
