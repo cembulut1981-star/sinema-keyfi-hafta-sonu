@@ -184,6 +184,7 @@ describe("Crystal Lake coverage placement", () => {
 
 describe("added dates on the ten newest homepage cards", () => {
   const EXPECTED: Record<string, string> = {
+    "rings-of-power-season-3-empire-review": "2026-11-12",
     "stranger-things-other-worlds-prequel-2028-teaser": "2026-11-09",
     "karoshi-trailer-teo-yoo-samurai-corporate-thriller": "2026-11-07",
     "raise-the-red-lantern-gong-li-review": "2026-11-07",
@@ -193,7 +194,6 @@ describe("added dates on the ten newest homepage cards", () => {
     "crystal-lake-indiewire-review": "2026-11-03",
     "oscars-2027-nominations-predictions": "2026-11-02",
     "nocturne-apple-tv-stephen-graham-review": "2026-11-02",
-    "mortal-shell-2-rps-review": "2026-11-02",
   };
   const slugOf = (a: Article) =>
     a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";

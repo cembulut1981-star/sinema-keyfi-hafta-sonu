@@ -3,6 +3,7 @@ import { z } from 'zod';
 // The ten newest Sine-Meta posts, newest first. Comments are open on these only.
 // A newer post joins the list here and in public.comment_threads.
 export const COMMENTED_POST_SLUGS = [
+  'rings-of-power-season-3-empire-review',
   'stranger-things-other-worlds-prequel-2028-teaser',
   'karoshi-trailer-teo-yoo-samurai-corporate-thriller',
   'raise-the-red-lantern-gong-li-review',
@@ -12,7 +13,6 @@ export const COMMENTED_POST_SLUGS = [
   'hunger-games-companion-album-to-feature-jennifer-7f53c993',
   'gog-explains-how-one-of-the-most-important-pc-games-22a8b5e9',
   'crystal-lake-indiewire-review',
-  'nocturne-apple-tv-stephen-graham-review',
 ] as const;
 
 export const COMMENT_BODY_MIN = 2;

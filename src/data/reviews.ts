@@ -157,7 +157,6 @@ Dört yıldız: türev olduğunu bilerek, ama kompulsif biçimde izlenen bir ser
   },
   {
     slug: "mortal-shell-2-rps-review",
-    addedAt: "2026-11-02",
     origTitle: "Mortal Shell 2 review — a monumental heavy metal sequel with the spirit of a 90s PC game",
     title: "Mortal Shell 2 İncelemesi — Ağır Metal Ruhlu, 90'lar PC Oyunu Havasında Muhteşem Bir Devam",
     excerpt: "Kabuk değiştiren Harbinger'ın kıyametî Fainweald serüveni, türün en esnek soulslike'ı olarak öne çıkıyor: dikenli mizah, 90'lar PC oyunu nostaljisi ve akıllı erişilebilirlik aynı pakette.",

@@ -51,6 +51,8 @@ import varPattinson from "@/assets/var-robert-pattinson.jpg.asset.json";
 import varPrimetime from "@/assets/var-primetime.jpg.asset.json";
 import varOdysseyStill from "@/assets/var-mcdodys-uv011.jpg.asset.json";
 import benSoloCover from "@/assets/adam-driver-ben-solo.png.asset.json";
+import ringsOfPowerS3Cover from "@/assets/remote/rings-of-power-s3-cover.jpg.asset.json";
+import ringsOfPowerS3Mid from "@/assets/remote/rings-of-power-s3-mid.jpg.asset.json";
 import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
 import crystalLakeStill from "@/assets/crystal-lake-exclusive-2.jpg.asset.json";
 import alanRitchsonReacherAsset from "@/assets/alan-ritchson-reacher.png.asset.json";
@@ -106,6 +108,41 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "rings-of-power-season-3-empire-review",
+    addedAt: "2026-11-12",
+    title: "Güç Yüzükleri 3. Sezon İncelemesi: Sauron'un Savaşı Son Hızına Ulaşıyor",
+    excerpt: "The Rings of Power'ın üçüncü sezonu Prime Video'da başladı. İkinci sezonun beş yıl sonrasında geçen yeni bölümler, Sauron ile Elfler arasındaki savaşı Orta Dünya'nın her köşesine yayıyor; Gandalf nihayet adıyla anılıyor.",
+    image: ringsOfPowerS3Cover.url,
+    youtubeTrailerId: "maP_Kyy3DCA",
+    youtubeTrailerTitle: "The Rings of Power — 3. Sezon",
+    source: "Empire — November 10, 2026",
+    body: `**The Lord of the Rings: The Rings of Power**'ın üçüncü sezonu **Prime Video**'da yayımlanmaya başladı. **J.D. Payne** ve **Patrick McKay**'in destansı öncül dizisi, ikinci sezonun **beş yıl sonrasında** açılıyor: **Sauron** (Charlie Vickers) ile **Lindon** ve yeni kurulan **Rivendell** Elfleri arasındaki savaş kanlı bir çıkmaza girmiş durumda. Karanlık Lord, nihai hedefi olan "Efendi Yüzük"ü dövmeden önce durdurulabilecek mi? Sezonun ilk dört bölümü 11 Kasım'da, kalan bölümler ise 18 ve 25 Kasım'da izleyiciyle buluşuyor.
+
+## Orta Dünya'nın Her Köşesinde Savaş
+
+Bu sezon işler jeopolitik bir hal alıyor. Sauron, insanları **Nazgnagôl** adı verilen proto-Yüzüktayflarına dönüştürmekle meşgul ve **Ciaran Hinds**'in canlandırdığı Kara Büyücü'nün yönettiği **Rhûn** ordularını Ork güruhuna katmak istiyor. Elf cephesinde ise **Galadriel** (Morfydd Clark), **Elrond** (Robert Aramayo) ve Yüce Kral **Gil-galad** (Benjamin Walker), **Númenor**'u yanlarına çekmeye çalışıyor. **Khazad-dûm** Cüceleri ise **Durin** ve **Disa** (Owain Arthur ve Sophia Nomvete) yönetiminde, Sauron'un dövdüğü yedi Cüce yüzüğünü saklayarak şimdilik savaşın dışında kalabiliyor.
+
+![The Rings of Power 3. sezondan bir savaş anı](${ringsOfPowerS3Mid.url})
+
+## Her Yerde Bölünme, Her Yerde İktidar Mücadelesi
+
+Sezon, **Andor**'un politik tonundan ilham almış gibi: İyilerle kötüler arasındaki ana çatışmayı bulandıran çok katmanlı iktidar savaşları var. Númenor'da **Isildur** (Maxim Baldry) ve **Eärien** (Ema Horvath) kardeşler, Kral **Ar-Pharazôn**'un (Trystan Gravelle) yeni "imparatorluğuna" karşı ahlaki açıdan gri bir isyan yürütüyor. Cüce krallığında Durin, **Eddie Marsan**'ın sinsi ve iktidar açlığı çeken kardeşi **Thrain** ile uğraşıyor. Ve evet: Gri şapkalı yabancıya artık sonunda **Gandalf** (Daniel Weyman) diyebiliyoruz.
+
+Bu kalabalık tablo yeni karakterlere de yer açıyor. En dikkat çekici eklemelerden biri, **Stranger Things**'in Vecna'sı **Jamie Campbell Bower**'ın canlandırdığı, Galadriel'in uzun zamandır kayıp olan eşi **Celeborn**. Bir diğeri ise Galadriel ve **Arondir** (Ismael Cruz Córdova) ile Gollum vari bir ittifak kuran Ork generali **Marnûkh** (Adam Young). Bu arada **Simon Pegg**'in **Balrog**'u seslendirdiğini de not düşelim.
+
+## Zayıf Halkalar Var ama Zanaat Kusursuz
+
+Bu kadar çok hikâyeyi aynı anda çevirince bazı toplar düşüyor: **Theo**'nun (Tyroe Muhafidin) karanlık tarafla kurduğu bağ aceleye getirilmiş ve inandırıcılıktan uzak hissettiriyor; Arondir'in hikâyesi ise yolun sonuna gelmiş gibi. Vickers da Barad-dûr'da tepeden bakan kötü adam rolünde, dünyada dolaşıp hile yaptığı dönemdeki kadar rahat görünmüyor — neyse ki sezon ilerledikçe, özellikle de sezonun en parlak anı olan yüzük dövme sahnesinde, rolünün keyfini çıkarmaya başlıyor.
+
+Ama işçilik söz konusu olduğunda hiçbir top düşmüyor. Her fantastik mekân, dijital sihirbazlık ve klasik set inşasının birleşimiyle özenle işlenmiş. Protez makyaj tasarımcısı **Barrie Gower**, hem Cücelerde (özellikle Marsan'ın upuzun sakallı Thrain'inde) hem de bu sezon çok daha fazla ekran süresi alan Orklarda harika iş çıkarıyor. Efsane illüstratör **John Howe**'un tasarımları pusula olarak kullanıldığından, bu Orta Dünya yorumu **Peter Jackson** üçlemesinden hem ayrışıyor hem de ona inandırıcı biçimde bağlanıyor.
+
+## İlk İzlenim: Harita Açılmaya Devam Ediyor
+
+McKay ve Payne'in Üçüncü Çağ'a inişi nasıl yapacağını görmek için önümüzde iki sezon daha var. Ama hırsları tartışılmaz: Üçüncü sezon, kimi unsurları genişliğinin kurbanı etse de savaşın yıprattığı bu dünyaya yeni karakterler ve karmaşıklıklar ekliyor ve prodüksiyon değeriyle etkilemeye devam ediyor. İkonik haritanın açılmaya devam etmesini merakla bekletmeyi başarıyor.
+
+**The Rings of Power'ın 3. sezonu Prime Video'da yayımlanıyor; final bölümleri 25 Kasım'da.**`,
+  },
   {
     slug: "stranger-things-other-worlds-prequel-2028-teaser",
     addedAt: "2026-11-09",
