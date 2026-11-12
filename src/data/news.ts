@@ -55,6 +55,15 @@ import ringsOfPowerS3Cover from "@/assets/remote/rings-of-power-s3-cover.jpg.ass
 import ringsOfPowerS3Mid from "@/assets/remote/rings-of-power-s3-mid.jpg.asset.json";
 import crystalLakeCover from "@/assets/crystal-lake-exclusive-1.jpg.asset.json";
 import crystalLakeStill from "@/assets/crystal-lake-exclusive-2.jpg.asset.json";
+import clLinda from "@/assets/linda-cardellini-deauville-2011.jpg.asset.json";
+import clLodge from "@/assets/remote/crystal-lake-nobebosco-lodge.jpg.asset.json";
+import clBoat from "@/assets/remote/crystal-lake-nobebosco-boat.jpg.asset.json";
+import clBetsy from "@/assets/remote/crystal-lake-betsy-palmer-1960.jpg.asset.json";
+import clManfredini from "@/assets/remote/crystal-lake-harry-manfredini.jpg.asset.json";
+import clNewsPamWoods from "@/assets/crystal-lake-pam-woods.jpg.asset.json";
+import clNewsRalph from "@/assets/crystal-lake-crazy-ralph.jpg.asset.json";
+import clNewsLevonPam from "@/assets/crystal-lake-levon-pam.jpg.asset.json";
+import clNewsDorf from "@/assets/crystal-lake-dorf-levon.jpg.asset.json";
 import alanRitchsonReacherAsset from "@/assets/alan-ritchson-reacher.png.asset.json";
 import floodCover from "@/assets/flood-cover.jpg.asset.json";
 import floodJlaw from "@/assets/flood-jlaw.png.asset.json";
@@ -806,13 +815,23 @@ Linda Cardellini, orijinal 1980 filmindeki olaylardan önce Pamela'yi oynuyor. S
 
 Cardellini, Kane'in ilk tercihiydi. Yapım ekibi, karakterin tanıdık görünümüyle denemeler yaptı ancak sonuçta doğrudan canlandırmaların cosplay'e çok benzediğine karar verdi. Kane, sonucun farklı ve son derece kararlı bir Pamela olacağını vaat ediyor.
 
+![Linda Cardellini, 2011 Deauville Amerikan Film Festivali'nde](${clLinda.url})
+
+Cardellini, kariyerine 1990'ların sonunda başladı ve ilk büyük çıkışını Judd Apatow ile Paul Feig'in kült dizisi *Freaks and Geeks*'te (1999–2000) Lindsay Weir rolüyle yaptı. Ardından *Scooby-Doo* filmlerinde Velma'yı, *ER*'da hemşire Samantha Taggart'ı canlandırdı; *Brokeback Mountain*, *Avengers: Age of Ultron*, *Green Book* ve Netflix'in *Dead to Me* dizisiyle geniş bir yelpazeye yayıldı. *Dead to Me*'deki Judy Hale performansı ona Emmy adaylığı getirdi.
+
+Korku izleyicisinin dikkatini en çok çeken rollerinden biri ise *Mad Men*'deki Sylvia Rosen'dı. Cardellini, 6. sezonda Don Draper'ın alt kattaki komşusu ve yakın dostu Dr. Arnold Rosen'ın eşi olarak, Don'la gizli ve yıkıcı bir ilişki yaşayan kadını oynadı. Sakin dış görünüşün altında suçluluk, arzu ve öfkeyi aynı anda taşıyan bu performans 2013'te ona Drama Dizisinde En İyi Konuk Kadın Oyuncu dalında Emmy adaylığı kazandırdı. Kane'in Pamela için aradığı katmanlı, dışarıdan sakin ama içten kaynayan kadın tipinin izleri tam da bu rolde görülüyor.
+
 ## 2. Üretim orijinal Crystal Lake'ye geri döndü
 
 Ekip, 13'üncü Cuma gününün önemli bölümlerinin çekildiği Blairstown, New Jersey'de çekim yaptı. Bazı sahneler kasıtlı olarak 1980 yapımı filmi yansıtıyor ve izleyicilerin tanıdık anlarla ilgili algılarını değiştiriyor.
 
+![Blairstown'daki Camp No-Be-Bo-Sco; 1980 yapımı filmin kamp sahneleri burada çekildi](${clLodge.url})
+
 ## 3. Dizi sorumlusu ömür boyu Friday the 13th hayranıdır
 
 Kane, Part III'yi korkuya açılan kapı, Son Bölüm'ü serinin en iyi girişi ve Jason Lives'yi de en eğlenceli bölümü olarak adlandırıyor. Bu bilgi, hem yeni gelenleri hem de takıntılı hayranları ödüllendirmeyi amaçlayan bir ön bölümü şekillendiriyor.
+
+![Betsy Palmer, 1980 filminde Pamela Voorhees'i canlandıran oyuncu](${clBetsy.url})
 
 ## 4. Öldürmeler ciddi anlamda kanlı olacak
 
@@ -824,17 +843,25 @@ Crystal Lake, izleyicileri kanepeden zıplatmaya yetecek etkiyle yaratıcı öl�
 
 Pamela, Camp Crystal Lake'de aşçı olarak çalışırken, 11 yaşındaki Jason diğer kampçılara katılıyor. Dizi, onların aşk dolu ilişkisinden Jason'nin ölümüne ve Pamela'nin öldürücü çöküşüne kadar uzanan değişimleri konu alıyor.
 
+![Linda Cardellini, Crystal Lake'te Pamela Voorhees olarak ormanda](${clNewsPamWoods.url})
+
 ## 6. Pratik bir "kan torbası" sekansı ilk dikkat çeken konu oldu
 
 Bir bölümde, kafasına kanla dolu gerçek bir çanta takan bir dublör sanatçısı kullanılıyor. Zor etki üç deneme gerektirdi ve yapımın dokunsal ve pratik kana olan bağlılığını yansıtıyor.
+
+![Crystal Lake'ten bir sahne](${clNewsDorf.url})
 
 ## 7. Açılış jeneriği filmleri onurlandırıyor
 
 Başlık dizisi, 1970'lerin televizyonunun grenli tedirginliğini, orijinal 13. Cuma logosuna doğrudan bir selamla birleştiriyor. Composer Harry Manfredini ayrıca dizi için yeni müzik yaratmak üzere geri döndü.
 
+![Serinin efsanevi besteci Harry Manfredini](${clManfredini.url})
+
 ## 8. Her ölümün önemi vardır
 
 Yazarlar, kurbanlara tek kullanımlık bedenler gibi davranmak yerine, hikayelerini oluşturmaya zaman harcıyorlar. Kane'in amacı, her ölümün katliam gelmeden önce duygusal olarak inmesini sağlamaktır.
+
+![Crystal Lake'ten Pamela ve kasaba sakinleri](${clNewsLevonPam.url})
 
 ## 9. Young Jason trajik bir çocuk olarak sunuluyor
 
@@ -848,9 +875,13 @@ Genç korku hayranı, ağır protezler ve zorlu göl işleri de dahil olmak üze
 
 Dizi kampın ötesine geçerek çevredeki toplumu, burada yaşayanları ve Voorhees efsanesinin kök salmasını sağlayan tarihi keşfediyor.
 
+![Camp No-Be-Bo-Sco'daki göl kıyısı](${clBoat.url})
+
 ## 12. Uzun süredir hayranlar derin referanslar bekleyebilir
 
 Mekanlar, görsel ayrıntılar ve hikaye yankıları serinin dört bir yanından geliyor. Paskalya yumurtaları, tanıdık ikonografiyi tekrarlamak yerine yeni hikayeyi derinleştirmek için tasarlandı.
+
+![Crystal Lake'te seriye selam veren Crazy Ralph figürü](${clNewsRalph.url})
 
 ## 13. Franchise kıtlığı nihayet sona eriyor
 
