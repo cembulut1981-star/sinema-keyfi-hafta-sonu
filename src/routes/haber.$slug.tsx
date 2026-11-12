@@ -1,4 +1,5 @@
 import { articleHead } from "@/lib/seo";
+import { ArticleNarration } from "@/components/site/ArticleNarration";
 import { ArticleByline } from "@/components/site/ArticleByline";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
@@ -64,6 +65,8 @@ function NewsPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{n.excerpt}</p>
         <ArticleByline source={n.source} />
+
+        {n.narrated ? <ArticleNarration slug={n.slug} /> : null}
 
         {isNapalm ? (
           <div className="my-10">

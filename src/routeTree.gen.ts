@@ -21,6 +21,7 @@ import { Route as IncelemeSlugRouteImport } from './routes/inceleme.$slug'
 import { Route as KategoriSlugRouteImport } from './routes/kategori.$slug'
 import { Route as ListeSlugRouteImport } from './routes/liste.$slug'
 import { Route as MuzikSlugRouteImport } from './routes/muzik.$slug'
+import { Route as ApiPublicNarrationRouteImport } from './routes/api/public/narration'
 import { Route as ApiPublicEditorialMediaIdRouteImport } from './routes/api/public/editorial-media.$id'
 import { Route as ApiPublicJobsBlueskyShareRouteImport } from './routes/api/public/jobs/bluesky-share'
 import { Route as ApiPublicJobsEditorialDailyRouteImport } from './routes/api/public/jobs/editorial-daily'
@@ -85,6 +86,11 @@ const MuzikSlugRoute = MuzikSlugRouteImport.update({
   path: '/muzik/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicNarrationRoute = ApiPublicNarrationRouteImport.update({
+  id: '/api/public/narration',
+  path: '/api/public/narration',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiPublicEditorialMediaIdRoute =
   ApiPublicEditorialMediaIdRouteImport.update({
     id: '/api/public/editorial-media/$id',
@@ -117,6 +123,7 @@ export interface FileRoutesByFullPath {
   '/kategori/$slug': typeof KategoriSlugRoute
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
+  '/api/public/narration': typeof ApiPublicNarrationRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
   '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
   '/api/public/jobs/editorial-daily': typeof ApiPublicJobsEditorialDailyRoute
@@ -134,6 +141,7 @@ export interface FileRoutesByTo {
   '/kategori/$slug': typeof KategoriSlugRoute
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
+  '/api/public/narration': typeof ApiPublicNarrationRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
   '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
   '/api/public/jobs/editorial-daily': typeof ApiPublicJobsEditorialDailyRoute
@@ -152,6 +160,7 @@ export interface FileRoutesById {
   '/kategori/$slug': typeof KategoriSlugRoute
   '/liste/$slug': typeof ListeSlugRoute
   '/muzik/$slug': typeof MuzikSlugRoute
+  '/api/public/narration': typeof ApiPublicNarrationRoute
   '/api/public/editorial-media/$id': typeof ApiPublicEditorialMediaIdRoute
   '/api/public/jobs/bluesky-share': typeof ApiPublicJobsBlueskyShareRoute
   '/api/public/jobs/editorial-daily': typeof ApiPublicJobsEditorialDailyRoute
@@ -171,6 +180,7 @@ export interface FileRouteTypes {
     | '/kategori/$slug'
     | '/liste/$slug'
     | '/muzik/$slug'
+    | '/api/public/narration'
     | '/api/public/editorial-media/$id'
     | '/api/public/jobs/bluesky-share'
     | '/api/public/jobs/editorial-daily'
@@ -188,6 +198,7 @@ export interface FileRouteTypes {
     | '/kategori/$slug'
     | '/liste/$slug'
     | '/muzik/$slug'
+    | '/api/public/narration'
     | '/api/public/editorial-media/$id'
     | '/api/public/jobs/bluesky-share'
     | '/api/public/jobs/editorial-daily'
@@ -205,6 +216,7 @@ export interface FileRouteTypes {
     | '/kategori/$slug'
     | '/liste/$slug'
     | '/muzik/$slug'
+    | '/api/public/narration'
     | '/api/public/editorial-media/$id'
     | '/api/public/jobs/bluesky-share'
     | '/api/public/jobs/editorial-daily'
@@ -223,6 +235,7 @@ export interface RootRouteChildren {
   KategoriSlugRoute: typeof KategoriSlugRoute
   ListeSlugRoute: typeof ListeSlugRoute
   MuzikSlugRoute: typeof MuzikSlugRoute
+  ApiPublicNarrationRoute: typeof ApiPublicNarrationRoute
   ApiPublicEditorialMediaIdRoute: typeof ApiPublicEditorialMediaIdRoute
   ApiPublicJobsBlueskyShareRoute: typeof ApiPublicJobsBlueskyShareRoute
   ApiPublicJobsEditorialDailyRoute: typeof ApiPublicJobsEditorialDailyRoute
@@ -314,6 +327,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MuzikSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/narration': {
+      id: '/api/public/narration'
+      path: '/api/public/narration'
+      fullPath: '/api/public/narration'
+      preLoaderRoute: typeof ApiPublicNarrationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/public/editorial-media/$id': {
       id: '/api/public/editorial-media/$id'
       path: '/api/public/editorial-media/$id'
@@ -351,6 +371,7 @@ const rootRouteChildren: RootRouteChildren = {
   KategoriSlugRoute: KategoriSlugRoute,
   ListeSlugRoute: ListeSlugRoute,
   MuzikSlugRoute: MuzikSlugRoute,
+  ApiPublicNarrationRoute: ApiPublicNarrationRoute,
   ApiPublicEditorialMediaIdRoute: ApiPublicEditorialMediaIdRoute,
   ApiPublicJobsBlueskyShareRoute: ApiPublicJobsBlueskyShareRoute,
   ApiPublicJobsEditorialDailyRoute: ApiPublicJobsEditorialDailyRoute,

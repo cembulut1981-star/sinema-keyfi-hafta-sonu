@@ -112,6 +112,8 @@ export type NewsItem = {
   customBadge?: string;
   customBadgeBelow?: boolean;
   homepagePlacement?: "lower";
+  /** Sesli okuma şeridi bu yazının en üstünde gösterilir. */
+  narrated?: boolean;
   /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında yalnızca tarih olarak gösterilir. */
   addedAt?: string;
 };
@@ -125,6 +127,7 @@ export const NEWS: NewsItem[] = [
     image: ringsOfPowerS3Cover.url,
     youtubeTrailerId: "maP_Kyy3DCA",
     youtubeTrailerTitle: "The Rings of Power — 3. Sezon",
+    narrated: true,
     source: "Empire — November 10, 2026",
     body: `**The Lord of the Rings: The Rings of Power**'ın üçüncü sezonu **Prime Video**'da yayımlanmaya başladı. **J.D. Payne** ve **Patrick McKay**'in destansı öncül dizisi, ikinci sezonun **beş yıl sonrasında** açılıyor: **Sauron** (Charlie Vickers) ile **Lindon** ve yeni kurulan **Rivendell** Elfleri arasındaki savaş kanlı bir çıkmaza girmiş durumda. Karanlık Lord, nihai hedefi olan "Efendi Yüzük"ü dövmeden önce durdurulabilecek mi? Sezonun ilk dört bölümü 11 Kasım'da, kalan bölümler ise 18 ve 25 Kasım'da izleyiciyle buluşuyor.
 
