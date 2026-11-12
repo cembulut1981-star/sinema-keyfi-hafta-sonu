@@ -1,8 +1,21 @@
 import { chunkText } from "@/lib/chunk-text";
-import { NEWS, type NewsItem } from "@/data/news";
+import { NEWS } from "@/data/news";
+import { REVIEWS } from "@/data/reviews";
+import { LISTS } from "@/data/lists";
 
 /** Tek bir seslendirme isteğine sığacak en fazla karakter sayısı. */
 export const NARRATION_CHUNK_BUDGET = 1200;
+
+/** Seslendirilebilen içerik: haber, inceleme ya da liste. */
+type NarratableItem = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  body: string;
+  narrated?: boolean;
+};
+
+const ALL_ITEMS: NarratableItem[] = [...NEWS, ...REVIEWS, ...LISTS];
 
 /**
  * Markdown'ı seslendirilecek sade metne çevirir:
@@ -21,13 +34,13 @@ export function stripMarkdown(markdown: string): string {
 }
 
 /** Seslendirilecek tam metin: başlık, özet ve gövde. */
-export function narrationText(item: NewsItem): string {
+export function narrationText(item: Pick<NarratableItem, "title" | "excerpt" | "body">): string {
   return [item.title, item.excerpt, stripMarkdown(item.body)].filter(Boolean).join("\n\n");
 }
 
 /** Bu yazı sesli okumaya açık mı? */
 export function isNarrated(slug: string): boolean {
-  return NEWS.some((item) => item.slug === slug && item.narrated === true);
+  return ALL_ITEMS.some((item) => item.slug === slug && item.narrated === true);
 }
 
 /**
@@ -35,7 +48,7 @@ export function isNarrated(slug: string): boolean {
  * Seslendirmeye açık olmayan ya da bulunamayan yazı için null döner.
  */
 export function narrationChunks(slug: string): string[] | null {
-  const item = NEWS.find((entry) => entry.slug === slug && entry.narrated === true);
+  const item = ALL_ITEMS.find((entry) => entry.slug === slug && entry.narrated === true);
   if (!item) return null;
   const chunks = chunkText(narrationText(item), NARRATION_CHUNK_BUDGET);
   return chunks.length ? chunks : null;

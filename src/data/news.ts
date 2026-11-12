@@ -158,6 +158,7 @@ McKay ve Payne'in Üçüncü Çağ'a inişi nasıl yapacağını görmek için �
   {
     slug: "stranger-things-other-worlds-prequel-2028-teaser",
     addedAt: "2026-11-09",
+    narrated: true,
     title: "Stranger Things’in Yeni Dizisi Other Worlds: İlk Tanıtım, 1955’e Açılan Bir Kapı",
     excerpt: "Other Worlds: A Stranger Things Adventure, 2028’de Netflix’e geliyor. Joe Wright’ın yöneteceği yeni dizi, Hawkins’ten önceki gizemleri 1955 yılının Nevada’sına taşıyor; ilk tanıtım videosu yayımlandı.",
     image: otherWorldsCover.url,
@@ -193,6 +194,7 @@ Other Worlds’ün en ilgi çekici tercihi, aynı karakterlere dönmek yerine ev
   {
     slug: "karoshi-trailer-teo-yoo-samurai-corporate-thriller",
     addedAt: "2026-11-07",
+    narrated: true,
     title: "Karōshi Fragmanı: Teo Yoo, Şirket Dünyasına Samuray Kılıcıyla Giriyor",
     excerpt: "Teo Yoo, Isabel May ve Cynthia Erivo'lu Karōshi, şirket sadakatini kanlı bir intikam hikâyesine dönüştürüyor. John Wick'in arkasındaki ekibin yeni aksiyon-gerilimi için ilk fragman yayımlandı.",
     image: karoshiCover.url,
@@ -222,6 +224,7 @@ Karōshi'nin merak uyandıran tarafı, tanıdık bir intikam hikâyesini günüm
   {
     slug: "raise-the-red-lantern-gong-li-review",
     addedAt: "2026-11-07",
+    narrated: true,
     title: "“Kırmızı Fenerler” Yeniden Gündemde: Gong Li'nin On Yılı Tanımlayan Performansı",
     excerpt: "Zhang Yimou'nun 1991 tarihli başyapıtı Kırmızı Fenerler yeniden vizyonda; eleştirmenler Gong Li'nin “dördüncü eş” Songlian performansını 90'ların en büyük oyunculuklarından biri sayıyor.",
     image: lanternCover.url,
@@ -251,6 +254,7 @@ Sonuç, mahrem bir siyasi vahşetin ve var olma hakkı için verilen acımasız 
   {
     slug: "adam-driver-hunt-for-ben-solo-over",
     addedAt: "2026-11-06",
+    narrated: true,
     title: "Adam Driver Noktayı Koydu: “The Hunt for Ben Solo” İçin Gemi Kalktı",
     excerpt: "Adam Driver, Steven Soderbergh'le geliştirdikleri Kylo Ren filmi The Hunt for Ben Solo'nun Disney tarafından reddedildiğini ve Star Wars'a dönüşünün söz konusu olmadığını söyledi: “Bitti.”",
     image: benSoloCover.url,
@@ -276,6 +280,7 @@ Nisan ayında benzer bir açıklama yapan **Steven Soderbergh** de filmin “ola
   {
     slug: "battlestar-galactica-board-game-new-edition-2027",
     addedAt: "2026-11-04",
+    narrated: true,
     title: "Battlestar Galactica Geri Dönüyor: Efsane Masa Oyunu 2027'de Yeni Baskısıyla Geliyor",
     excerpt: "Ghost Galaxy, Universal ve Fantasy Flight Games'le anlaşarak 2008 tarihli kült masa oyunu Battlestar Galactica: The Board Game'in yeni baskısını duyurdu; kitle fonlaması kampanyası 2027 başında açılacak.",
     image: bsgBoardGame,
@@ -298,6 +303,7 @@ Ghost Galaxy, yeni baskının orijinal kutunun birebir kopyası olmayacağını,
   {
     slug: "oscars-2027-nominations-predictions",
     addedAt: "2026-11-02",
+    narrated: true,
     title: "Oscar 2027 İçin İlk Tahminler: 99. Akademi Ödülleri Yarışı Şekilleniyor",
     excerpt: "Christopher Nolan’ın The Odyssey’si favori konumda; La Bola Negra, The Debut ve Dune: Part Three erken yarışın öne çıkan adayları arasında.",
     image: oscars2027Predictions.url,

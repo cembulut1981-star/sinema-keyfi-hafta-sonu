@@ -13,6 +13,7 @@ import trailerWarMachine from "@/assets/trailer-war-machine.mp4.asset.json";
 import trailerMercy from "@/assets/trailer-mercy.mp4.asset.json";
 
 import { SiteShell } from "@/components/site/SiteShell";
+import { ArticleNarration } from "@/components/site/ArticleNarration";
 import { articleProse } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { CommentSection } from "@/components/site/CommentSection";
@@ -100,6 +101,8 @@ function ListPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{l.excerpt}</p>
         <ArticleByline source={l.source} />
+
+        {l.narrated ? <ArticleNarration slug={l.slug} /> : null}
 
         <div className="my-10 flex justify-center">
           <div className="w-full max-w-[900px] p-3" style={{ background: [...slug].reduce((a,c)=>a+c.charCodeAt(0),0) % 2 === 0 ? "#ffbd3f" : "#00EAA1" }}>

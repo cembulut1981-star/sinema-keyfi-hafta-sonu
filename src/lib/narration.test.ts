@@ -40,4 +40,24 @@ describe("narrationChunks", () => {
     assert.equal(isNarrated("rings-of-power-season-3-empire-review"), true);
     assert.equal(narrationChunks("yok-boyle-bir-yazi"), null);
   });
+
+  test("the ten newest posts across news, reviews and lists are narrated", () => {
+    const narrated = [
+      "rings-of-power-season-3-empire-review",
+      "stranger-things-other-worlds-prequel-2028-teaser",
+      "karoshi-trailer-teo-yoo-samurai-corporate-thriller",
+      "raise-the-red-lantern-gong-li-review",
+      "adam-driver-hunt-for-ben-solo-over",
+      "battlestar-galactica-board-game-new-edition-2027",
+      "oscars-2027-nominations-predictions",
+      "crystal-lake-indiewire-review",
+      "nocturne-apple-tv-stephen-graham-review",
+      "best-thriller-movies-since-1990-ranked",
+    ];
+    for (const slug of narrated) {
+      assert.equal(isNarrated(slug), true, slug);
+      const chunks = narrationChunks(slug);
+      assert.ok(chunks && chunks.length >= 1, `${slug} bölümlere ayrılabilmeli`);
+    }
+  });
 });

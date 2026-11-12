@@ -9,6 +9,7 @@ import lambs from '@/assets/remote/thriller-silence-lambs.jpg.asset.json';
 export const THRILLER_LIST = {
   slug: 'best-thriller-movies-since-1990-ranked',
   addedAt: '2026-11-04',
+  narrated: true,
   title: "1990'dan Bu Yana En İyi 6 Gerilim Filmi",
   excerpt: "The Usual Suspects'tan Kuzuların Sessizliği'ne: gizemi, psikolojik baskıyı ve beklenmedik dönüşleri ustalıkla kullanan altı film. Altıncı sıradan zirveye, spoiler vermeden bir gerilim yolculuğu.",
   countdownBadge: '6 film sıralama',

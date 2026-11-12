@@ -5,6 +5,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell, ImdbBadge } from "@/components/site/SiteShell";
+import { ArticleNarration } from "@/components/site/ArticleNarration";
 import { articleProse, toParagraphs } from "@/lib/prose";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { CommentSection } from "@/components/site/CommentSection";
@@ -110,6 +111,9 @@ function ReviewPage() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{r.excerpt}</p>
         <ArticleByline source={"source" in r ? (r as { source?: string }).source : undefined} />
+
+        {r.narrated ? <ArticleNarration slug={r.slug} /> : null}
+
         <div className="mt-5 flex items-center gap-4 text-sm">
           <span className="font-display font-black text-primary text-xl">{r.rating}</span>
           <span className="text-muted-foreground">Original title: <em>{r.origTitle}</em></span>

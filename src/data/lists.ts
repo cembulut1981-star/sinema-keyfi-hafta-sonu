@@ -56,6 +56,8 @@ export type ListItem = {
   image: string;
   source: string;
   countdownBadge?: string;
+  /** Sesli okuma şeridi bu yazının en üstünde gösterilir. */
+  narrated?: boolean;
   /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında yalnızca tarih olarak gösterilir. */
   addedAt?: string;
 };

@@ -82,6 +82,8 @@ export type Review = {
   gallery?: string[];
   source?: string;
   homepagePlacement?: "lower";
+  /** Sesli okuma şeridi bu yazının en üstünde gösterilir. */
+  narrated?: boolean;
   /** Siteye eklendiği gün (YYYY-MM-DD) — anasayfa kartında yalnızca tarih olarak gösterilir. */
   addedAt?: string;
 };
@@ -90,6 +92,7 @@ export const REVIEWS: Review[] = [
   {
     slug: "crystal-lake-indiewire-review",
     addedAt: "2026-11-03",
+    narrated: true,
     origTitle: "Crystal Lake",
     title: "Crystal Lake İncelemesi — Kanlı Bir Dönüş, Geç Gelen Bir Hikâye",
     excerpt: "A24’ün Friday the 13th öncül dizisi, Linda Cardellini’nin Pamela Voorhees’i ve genç Jason üzerinden geçmişe dönüyor. Yaratıcı cinayetler slasher ruhunu yaşatırken, sekiz bölümlük hikâyenin asıl cevaplarını sona saklaması gerilimin önüne geçiyor.",
@@ -125,6 +128,7 @@ Eski usul slasher estetiğini, abartılı kanlı sahneleri ve Voorhees ailesinin
   {
     slug: "nocturne-apple-tv-stephen-graham-review",
     addedAt: "2026-11-02",
+    narrated: true,
     origTitle: "Nocturne review — Stephen Graham's serial killer is creepily compelling",
     title: "Nocturne İncelemesi — Stephen Graham'ın Seri Katili Ürkütücü Derecede Büyüleyici",
     excerpt: "Apple TV+'nın on bölümlük geriliminde Stephen Graham, akıl hastanesinin bodrumunda komşu hücreyi fısıltılarıyla bitiren mavi yakalı bir Hannibal Lecter; Liev Schreiber ise bitmemiş bir davayı çözmeye çalışan eski bir dedektif.",
