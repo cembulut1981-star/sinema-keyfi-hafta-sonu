@@ -2,6 +2,32 @@ import type { Article } from "@/data/articles";
 
 export const HOMEPAGE_FEATURED_REVIEW_SLUG = "crystal-lake-indiewire-review";
 
+// The list promoted into the top row's fourth small-card slot.
+export const HOMEPAGE_TOP_ROW_LIST_SLUG = "best-star-wars-games-ever-ranked";
+
+// The four small cards shown beside the top row's lead story, in shown order.
+export const HOMEPAGE_TOP_ROW_SLUGS = [
+  "rings-of-power-season-3-empire-review",
+  "stranger-things-other-worlds-prequel-2028-teaser",
+  "karoshi-trailer-teo-yoo-samurai-corporate-thriller",
+  HOMEPAGE_TOP_ROW_LIST_SLUG,
+];
+
+// Kırmızı Fenerler gave its top-row slot to the Star Wars games list and drops
+// into that list's old feed position instead (see FEED_ARTICLES in the route).
+export const HOMEPAGE_FEED_SWAP_SLUG = "raise-the-red-lantern-gong-li-review";
+
+export function findArticleBySlug(articles: Article[], slug: string) {
+  return articles.find(
+    (article) =>
+      article.newsSlug === slug ||
+      article.reviewSlug === slug ||
+      article.listSlug === slug ||
+      article.musicSlug === slug ||
+      article.seriesSlug === slug,
+  );
+}
+
 export function homepageLeadRows(
   featured: Article | undefined,
   nextFeatured: Article | undefined,

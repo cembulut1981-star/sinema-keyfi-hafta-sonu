@@ -8,7 +8,7 @@ import { publishedPostsQuery } from '@/lib/editorial-query';
 import { toEditorialCard } from '@/lib/editorial';
 import { getNews } from '@/data/news';
 import { extractDate, formatDate } from '@/lib/seo';
-import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG } from '@/lib/homepage-lead';
+import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG, HOMEPAGE_TOP_ROW_SLUGS, HOMEPAGE_TOP_ROW_LIST_SLUG, HOMEPAGE_FEED_SWAP_SLUG, findArticleBySlug } from '@/lib/homepage-lead';
 
 // Yellow/black one-word pills shown under the photo. Only a couple live in
 // the top rows; the rest are scattered deeper in the feed (see below) so it
@@ -47,31 +47,10 @@ const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATUR
 const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === HOMEPAGE_FEATURED_REVIEW_SLUG);
 const NEXT_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne-apple-tv-stephen-graham-review");
-const NEW_STORIES = [
-  ARTICLES.find((article) => article.newsSlug === "rings-of-power-season-3-empire-review"),
-  ARTICLES.find((article) => article.newsSlug === "stranger-things-other-worlds-prequel-2028-teaser"),
-  ARTICLES.find((article) => article.newsSlug === "karoshi-trailer-teo-yoo-samurai-corporate-thriller"),
-  ARTICLES.find((article) => article.newsSlug === "raise-the-red-lantern-gong-li-review"),
-  ARTICLES.find((article) => article.newsSlug === "adam-driver-hunt-for-ben-solo-over"),
-  ARTICLES.find((article) => article.listSlug === "best-thriller-movies-since-1990-ranked"),
-  ARTICLES.find((article) => article.listSlug === "best-werewolf-movies"),
-  ARTICLES.find((article) => article.listSlug === "best-sci-fi-movies-of-2026"),
-  ARTICLES.find((article) => article.newsSlug === "carrie-season-2-confirmed-prime-video"),
-  ARTICLES.find((article) => article.newsSlug === "haley-lu-richardson-joins-miami-vice-85"),
-  ARTICLES.find((article) => article.newsSlug === "sense-and-sensibility-new-dashwood-sisters-clip"),
-  ARTICLES.find((article) => article.newsSlug === "zendaya-alex-garland-a24-sci-fi-film"),
-  ARTICLES.find((article) => article.seriesSlug === "true-detective-season-5-nicolas-cage-antonio-banderas"),
-  ARTICLES.find((article) => article.musicSlug === "blondie-high-noon-album-clem-burke-final-recording"),
-  ARTICLES.find((article) => article.newsSlug === "exorcist-martyrs-mike-flanagan-scariest-film"),
-  ARTICLES.find((article) => article.newsSlug === "phantom-blade-zero-15-years-in-the-making"),
-  ARTICLES.find((article) => article.newsSlug === "battlefield-6-xbox-game-pass-october-2026"),
-  ARTICLES.find((article) => article.newsSlug === "marvel-zodiac-spy-thriller-series-2027"),
-  ARTICLES.find((article) => article.newsSlug === "inde-navarrette-obsession-gap-style-interview"),
-  ARTICLES.find((article) => article.reviewSlug === "heart-of-the-beast-review"),
-  ARTICLES.find((article) => article.reviewSlug === "star-wars-galactic-racer-review"),
-  ARTICLES.find((article) => article.newsSlug === "neon-scp-foundation-open-source-horror-movie"),
-  ARTICLES.find((article) => article.newsSlug === "jennifer-lawrence-the-flood-zach-cregger"),
-].filter((article): article is Article => Boolean(article)).slice(0, 4);
+// The four small cards beside the top row's lead story, in the order shown.
+const NEW_STORIES = HOMEPAGE_TOP_ROW_SLUGS
+  .map((slug) => findArticleBySlug(ARTICLES, slug))
+  .filter((article): article is Article => Boolean(article));
 const TOP_IDS = new Set([NEW_REVIEW?.id, NEXT_REVIEW?.id, THIRD_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 const LOWER_FEATURES = ARTICLES.filter((article) => article.homepagePlacement === "lower");
 // New PC Games stories are spread further down the feed so games don't cluster at the top.
@@ -85,9 +64,26 @@ const SCATTERED_GAME_SLUGS = [
 ];
 const SCATTERED_GAMES = SCATTERED_GAME_SLUGS.map((slug) => ARTICLES.find((a) => a.newsSlug === slug || a.reviewSlug === slug)).filter((a): a is Article => Boolean(a));
 const SCATTERED_IDS = new Set(SCATTERED_GAMES.map((a) => a.id));
-const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower" && !SCATTERED_IDS.has(article.id));
+const RED_LANTERN = findArticleBySlug(ARTICLES, HOMEPAGE_FEED_SWAP_SLUG);
+// Kırmızı Fenerler is spliced back in below at the Star Wars list's old slot, so
+// it must not also sit at its natural position in the base feed.
+const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && article.newsSlug !== HOMEPAGE_FEED_SWAP_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower" && !SCATTERED_IDS.has(article.id));
+// The feed as it stood before the exchange: the Star Wars list still in its
+// slot, Kırmızı Fenerler still up in the top row. That slot is where the
+// review lands, so the two cards simply trade places.
+const STAR_WARS_FEED_INDEX = ARTICLES.filter(
+  (article) =>
+    article.newsSlug !== WIDE_FEATURE_SLUG &&
+    article.newsSlug !== HOMEPAGE_FEED_SWAP_SLUG &&
+    (!TOP_IDS.has(article.id) || article.listSlug === HOMEPAGE_TOP_ROW_LIST_SLUG) &&
+    article.homepagePlacement !== "lower" &&
+    !SCATTERED_IDS.has(article.id),
+).findIndex((article) => article.listSlug === HOMEPAGE_TOP_ROW_LIST_SLUG);
 const FEED_ARTICLES = (() => {
   const out = [...BASE_FEED];
+  if (RED_LANTERN && STAR_WARS_FEED_INDEX >= 0) {
+    out.splice(Math.min(STAR_WARS_FEED_INDEX, out.length), 0, RED_LANTERN);
+  }
   SCATTERED_GAMES.forEach((a, i) => out.splice(Math.min(14 + i * 7, out.length), 0, a));
   // Sprinkle a handful of one-word pills across the feed with uneven, larger
   // gaps so they read as scattered, not systematic. Positions are derived

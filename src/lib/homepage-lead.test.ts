@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG } from "./homepage-lead";
+import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG, HOMEPAGE_TOP_ROW_SLUGS, HOMEPAGE_TOP_ROW_LIST_SLUG, HOMEPAGE_FEED_SWAP_SLUG, findArticleBySlug } from "./homepage-lead";
 import { ARTICLES } from "@/data/articles";
 import type { Article } from "@/data/articles";
 
@@ -31,6 +31,20 @@ test("Nocturne takes the third lead row without displacing the first two", () =>
   assert.equal(rows[2].center.reviewSlug, "nocturne-apple-tv-stephen-graham-review");
   assert.equal(rows[0].center.reviewSlug, "castlevania-belmonts-curse-kotaku-review");
   assert.equal(rows[1].center.reviewSlug, "metallica-life-burns-faster-sphere-review");
+});
+
+test("the Star Wars games list takes the top row slot Kırmızı Fenerler held", () => {
+  const topRow = HOMEPAGE_TOP_ROW_SLUGS.map((slug) => findArticleBySlug(ARTICLES, slug));
+  assert.ok(topRow.every(Boolean), "every top-row slug must resolve to a story");
+  assert.equal(topRow.filter((a) => a!.listSlug === HOMEPAGE_TOP_ROW_LIST_SLUG).length, 1);
+  assert.equal(topRow.some((a) => a!.newsSlug === HOMEPAGE_FEED_SWAP_SLUG), false);
+});
+
+test("Kırmızı Fenerler keeps its date line after leaving the top row", () => {
+  const review = findArticleBySlug(ARTICLES, HOMEPAGE_FEED_SWAP_SLUG);
+  assert.ok(review);
+  assert.equal(review!.category, "haberler");
+  assert.equal(review!.addedAt, "2026-11-07");
 });
 
 test("lead rows do not duplicate stories and leave incomplete incoming groups for the feed", () => {
