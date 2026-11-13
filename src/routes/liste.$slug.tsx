@@ -21,6 +21,14 @@ import { isCommentedPost } from "@/lib/comments";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getList, LISTS } from "@/data/lists";
 
+// Sıralama başlığı biçimi: tam genişlikte ince siyah çizginin ortasında siyah
+// daire ve beyaz sıra numarası; başlık altında ortalı. "N. Başlık" yazan
+// listelerde uygulanır.
+const NUMBERED_RANKING_SLUGS = new Set([
+  "best-thriller-movies-since-1990-ranked",
+  "best-star-wars-games-ever-ranked",
+]);
+
 export const Route = createFileRoute("/liste/$slug")({
   beforeLoad: ({ params }) => {
     if (!getList(params.slug)) throw notFound();
@@ -195,7 +203,7 @@ function ListPage() {
                       );
                     },
                   }
-                : slug === "best-thriller-movies-since-1990-ranked"
+                : NUMBERED_RANKING_SLUGS.has(slug)
                 ? {
                     h2: ({ children }: { children?: React.ReactNode }) => {
                       const text = String(children);

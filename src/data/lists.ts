@@ -2465,9 +2465,9 @@ Klasik atmosfer için **The Wolf Man**, arkadaşlarla korku-komedi gecesi için 
     narrated: true,
     body: `İlk film 1977'de vizyona girdiğinden bu yana yüzlerce Star Wars oyunu yayımlandı. Çoğu iyi; ama bazıları gerçekten, gerçekten iyi — öyle ki Star Wars hayranı olmayan birine bile mükemmelliğini kabul ettiriyor. Bu seçkide tür sınırı yok: yeni ve eski, PC ve konsol, taşınabilir, yeniden yapım ve portlar dahil, kutusunda Star Wars yazan her oyun değerlendirmeye girdi.
 
-Ana listeye geçmeden önce onurlu mansiyonlar: **Star Wars Arcade**, **Rogue Squadron 2**, **Galactic Battlegrounds**, **Racer Revenge** ve **Jedi Starfighter** harika oyunlar; ancak ilk ona girecek kadar değil. İşte belirli bir sıralama gözetmeksizin, gelmiş geçmiş en iyi on Star Wars oyunu.
+Ana listeye geçmeden önce onurlu mansiyonlar: **Star Wars Arcade**, **Rogue Squadron 2**, **Galactic Battlegrounds**, **Racer Revenge** ve **Jedi Starfighter** harika oyunlar; ancak ilk ona girecek kadar değil. İşte gelmiş geçmiş en iyi on Star Wars oyunu.
 
-## Star Wars: Dark Forces
+## 1. Star Wars: Dark Forces
 
 ![Star Wars: Dark Forces](${swDarkForces.url})
 
@@ -2477,7 +2477,7 @@ Dark Forces'ın bugün hâlâ bu kadar çığır açıcı görünmesi için hiç
 
 Daha da önemlisi, Dark Forces tek oyunculu bir FPS için tasarlanmış en iyi haritalardan bazılarına sahip. Sith üslerinin labirent gibi keşifleri ya da Hoth'un baş döndüren uçurumları, kendinizi ilk kez Star Wars'un içinde hissettiriyor. Fareyle bakış modunu ekleyin; oyun, o çarpıcı dünya tasarımının gücüyle bugün bile dimdik ayakta.
 
-## Star Wars Jedi Knight II: Jedi Outcast
+## 2. Star Wars Jedi Knight II: Jedi Outcast
 
 ![Star Wars Jedi Knight II: Jedi Outcast](${swJediOutcast.url})
 
@@ -2487,7 +2487,7 @@ Evet, LucasArts'ın Star Wars oyunlarındaki numaralandırma, Call of Duty'ninki
 
 Peki neden özellikle bu oyun? IŞIN KILICLARI. Önceki Jedi Knight oyunları da o vızıldayan sopaları harika hissettiriyordu; ama geliştirmeyi Raven devralınca iş bambaşka bir seviyeye çıktı. Oyun, oyuncuların Aydınlık ve Karanlık taraf güçlerini karıştırmasına da izin veriyordu. Yine de herkesin en iyi hatırladığı şey ışın kılıcı dövüşleri. Bugün oynamak isterseniz, modern PC'nizde sorunsuz çalıştıran hayran yapımı modları kurmayı unutmayın.
 
-## LEGO Star Wars: The Skywalker Saga
+## 3. LEGO Star Wars: The Skywalker Saga
 
 ![LEGO Star Wars: The Skywalker Saga](${swLegoSkywalker.url})
 
@@ -2497,7 +2497,7 @@ Birçok kişi büyük, açık dünyalı bir Star Wars oyununun hayalini kurdu. S
 
 Daha önce hiçbir oyun dokuz ana Star Wars filminin tamamını tek pakette toplamamıştı; hiçbiri galaksiyi de böyle açmamıştı. The Skywalker Saga, sevdiğiniz (ve sevmediğiniz) filmlerden tanıdığınız tüm gezegenleri, başka hiçbir oyunun yapamadığı biçimde keşfetmenize izin veriyor. Sonuç: eğlenceli, komik ve tuhaf biçimde sürükleyici bir Star Wars yeniden yaratımı. Yılmış her hayranın bu evrende yeniden eğlenmek için oynaması gereken bir oyun.
 
-## Star Wars: Knights of the Old Republic
+## 4. Star Wars: Knights of the Old Republic
 
 ![Star Wars: Knights of the Old Republic](${swKotor.url})
 
@@ -2507,7 +2507,7 @@ Bu, yalnızca gelmiş geçmiş en iyi Star Wars oyunlarından biri değil; gelmi
 
 Çok daha uzaklardaki bu galakside Sith'ler ve Jedi'lar zaten birbirinin boğazına çökmüş durumda; Galaktik İmparatorluk ise henüz ufukta bile yok. Oyun devasa: birden çok gezegene yayılıyor ve saatlerce gömüleceğiniz düzinelerce hikâye sunuyor. Star Wars evreninde anlatılmış en iyi öykülerden biri olmayı sürdürüyor.
 
-## Star Wars: Battlefront II (Klasik)
+## 5. Star Wars: Battlefront II (Klasik)
 
 ![Star Wars: Battlefront II](${swBattlefront2.url})
 
@@ -2517,7 +2517,7 @@ EA ve DICE'ın güncel Battlefront 2'si harika görünüyor ve müthiş çatış
 
 Uzun bir araç listesi, genişletilmiş evrenden ilham alan sınıflar ve silahlar da cabası. Bir de Galactic Conquest modu var: yapay zekâya ya da başka bir oyuncuya karşı galaksi çapında taktiksel bir masa oyunu oynuyorsunuz — üstelik içinde üçüncü şahıs nişancı aksiyonu ve uzay savaşları da var. Kısacası bu, müthiş bir oyun ve gelecekteki Battlefront'lar onu örnek almalı.
 
-## Star Wars Jedi: Fallen Order
+## 6. Star Wars Jedi: Fallen Order
 
 ![Star Wars Jedi: Fallen Order](${swFallenOrder.url})
 
@@ -2527,7 +2527,7 @@ Titanfall ve Apex Legends'ın arkasındaki Respawn Entertainment çoğu kişinin
 
 Sith'in İntikamı'ndan beş yıl sonra geçen Fallen Order'da eski Jedi padawanı Kestis'i bir hurdalık gezegeninde saklanırken buluyoruz. İmparatorluk sonunda izini sürüyor ve av başlıyor. Uyumsuzlardan oluşan bir mürettebatın yardımıyla Kestis kaçmayı ve bu sırada biraz iyilik yapmayı başarıyor. Jedi Knight oyunlarını sevdiyseniz Fallen Order aynı kaşıntıyı giderecek — ama birkaç kez ölmeye hazır olun. Tamam, belki "birkaç"tan fazla...
 
-## Star Wars: Republic Commando
+## 7. Star Wars: Republic Commando
 
 ![Star Wars: Republic Commando](${swRepublicCommando.url})
 
@@ -2537,7 +2537,7 @@ Star Wars'un büyük bölümü Jedi'lara odaklanır: orası Güç, burası ış�
 
 Oyun, bu timlerden birine komuta etmenizi sağlıyor; basit ama etkili bir emir sistemiyle timinizi mevzi tutmaya, siper almaya, bomba kurmaya ya da kapı açmaya yönlendiriyorsunuz. Işın kılıcı, Güç, hatta havalı bir yıldız gemisi olmadan kendinizi her zamankinden savunmasız hissediyorsunuz; bu da her çatışmayı gerilimli ama tatmin edici kılıyor. Yalnız muhtemelen hiç çözülmeyecek berbat bir uçurum finaline hazırlıklı olun.
 
-## Star Wars: Squadrons
+## 8. Star Wars: Squadrons
 
 ![Star Wars: Squadrons](${swSquadrons.url})
 
@@ -2547,7 +2547,7 @@ Star Wars, bolca uzay savaşı ve yıldız gemisi içeren bir seri; hâliyle bir
 
 Henüz eski uzay savaşı oyunları gibi "kayıtlara geçmiş klasik" statüsünde olmayabilir; ama Squadrons yine de müthiş keyifli. Sıkı uçuş kontrolleri ve tam kıvamında simülasyon dozuyla, basit bir atari yan ürününden fazlası olduğunu hissettiriyor. Hikâyesi de güçlü — modern Star Wars'un o "İmparatorluk askeri iyiye dönüşür" klişesini yine kullansa bile. Bir de uygun başlığınız ve mideniz varsa oyunu VR'da oynayabilirsiniz.
 
-## Star Wars: Empire at War
+## 9. Star Wars: Empire at War
 
 ![Star Wars: Empire at War](${swEmpireAtWar.url})
 
@@ -2557,7 +2557,7 @@ Evren gerçek zamanlı strateji için bu kadar müsaitken bu kadar az Star Wars 
 
 Empire at War, Sith'in İntikamı ile Yeni Bir Umut arasındaki o keyifli dönemde geçiyor: isyancılar İmparatorluğa karşı hâlâ toparlanmaya çalışıyor, İmparatorluk ise Ölüm Yıldızı'nı inşa etmekle meşgul. Senaryo, Yeni Bir Umut'un olaylarına ve Yavin Savaşı'na doğru ilerliyor. Kara savaşlarıyla uzay muharebelerini tek seferde yönetmek, Star Wars stratejisi hayalini hâlâ en iyi yaşatan deneyim.
 
-## Star Wars: TIE Fighter
+## 10. Star Wars: TIE Fighter
 
 ![Star Wars: TIE Fighter](${swTieFighter.url})
 
