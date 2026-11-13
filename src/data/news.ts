@@ -1,4 +1,5 @@
 import gameOcean from "@/assets/game-alien-ocean.jpg";
+import ropEpisodeGuide from "@/assets/rings-of-power-s3-episode-guide.jpg";
 import exoMain from "@/assets/exorcist-martyrs-main.jpg.asset.json";
 import exo1 from "@/assets/exorcist-martyrs-1.jpg.asset.json";
 import exo11 from "@/assets/exorcist-martyrs-11.jpg.asset.json";
@@ -119,6 +120,41 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "rings-of-power-season-3-episode-guide",
+    addedAt: "2026-11-13",
+    narrated: true,
+    title: "Güç Yüzükleri 3. Sezon Bölüm Takvimi: Yeni Bölümler Ne Zaman Yayında?",
+    excerpt: "Beş yıllık zaman atlamasıyla dönen Güç Yüzükleri'nin üçüncü sezonu sekiz bölümden oluşuyor. Prime Video'daki tüm yayın tarihleri ve final haftası burada.",
+    image: ropEpisodeGuide,
+    youtubeTrailerId: "maP_Kyy3DCA",
+    youtubeTrailerTitle: "Güç Yüzükleri 3. Sezon",
+    source: "ELLE — November 2026",
+    body: `**Güç Yüzükleri** üçüncü sezonuyla geri döndü ve bu kez bahis her zamankinden yüksek. Beş yıllık bir zaman atlamasının ardından **Sauron**'un orduları Orta Dünya'yı ateşe vererek Elflerle savaşını sürdürüyor; mutlak hâkimiyet getirecek **Tek Yüzük**'ü dövme yolunda kayıpların kaçınılmaz olacağı şimdiden belli.
+
+## Savaş Bir Dönüm Noktasında
+
+Dizinin yaratıcılarından **Patrick McKay**, zaman atlamasının hikâyeye genişlik kazandırdığını ve dünyanın değişmesine imkân tanıdığını söylüyor. McKay'e göre savaş Orta Dünya'nın dört bir yanında sürüyor ve artık bir kırılma noktasına gelinmiş durumda: Sauron, yüzükleriyle korunan iki Elf direniş cebi dışında her yeri ele geçirmiş.
+
+McKay, üçüncü sezonda her hikâye çizgisinin Sauron ile Elfler arasındaki büyük ve destansı savaşın bir parçasına dönüştüğünü, dizinin karakterlerin duygusal dünyasına ve psikolojisine daha derinden indiğini de vurguluyor.
+
+## Üçüncü Sezon Kaç Bölüm?
+
+Üçüncü sezon toplam **sekiz bölümden** oluşuyor ve **11 Kasım – 25 Kasım** arasında yayımlanıyor. Yeni bölümler her **çarşamba** günü **Amazon Prime Video**'da toplu hâlde izleyiciyle buluşuyor.
+
+## Tam Yayın Takvimi
+
+- 1. Bölüm: 11 Kasım
+- 2. Bölüm: 11 Kasım
+- 3. Bölüm: 11 Kasım
+- 4. Bölüm: 11 Kasım
+- 5. Bölüm: 18 Kasım
+- 6. Bölüm: 18 Kasım
+- 7. Bölüm: 25 Kasım
+- 8. Bölüm (final): 25 Kasım
+
+İlk dört bölümle hızlı bir başlangıç yapan sezon, iki haftalık ikili paketlerle finale ilerliyor. Sezonun ilk bölümlerine dair izlenimlerimizi merak ediyorsanız **Güç Yüzükleri 3. sezon incelememize** de göz atabilirsiniz.`,
+  },
   {
     slug: "rings-of-power-season-3-empire-review",
     addedAt: "2026-11-12",
@@ -302,7 +338,6 @@ Ghost Galaxy, yeni baskının orijinal kutunun birebir kopyası olmayacağını,
   },
   {
     slug: "oscars-2027-nominations-predictions",
-    addedAt: "2026-11-02",
     narrated: true,
     title: "Oscar 2027 İçin İlk Tahminler: 99. Akademi Ödülleri Yarışı Şekilleniyor",
     excerpt: "Christopher Nolan’ın The Odyssey’si favori konumda; La Bola Negra, The Debut ve Dune: Part Three erken yarışın öne çıkan adayları arasında.",

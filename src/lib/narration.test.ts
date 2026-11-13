@@ -49,7 +49,7 @@ describe("narrationChunks", () => {
       "raise-the-red-lantern-gong-li-review",
       "adam-driver-hunt-for-ben-solo-over",
       "battlestar-galactica-board-game-new-edition-2027",
-      "oscars-2027-nominations-predictions",
+      "rings-of-power-season-3-episode-guide",
       "crystal-lake-indiewire-review",
       "best-thriller-movies-since-1990-ranked",
       "best-star-wars-games-ever-ranked",
