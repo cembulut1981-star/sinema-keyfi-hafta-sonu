@@ -127,8 +127,6 @@ Eski usul slasher estetiğini, abartılı kanlı sahneleri ve Voorhees ailesinin
   },
   {
     slug: "nocturne-apple-tv-stephen-graham-review",
-    addedAt: "2026-11-02",
-    narrated: true,
     origTitle: "Nocturne review — Stephen Graham's serial killer is creepily compelling",
     title: "Nocturne İncelemesi — Stephen Graham'ın Seri Katili Ürkütücü Derecede Büyüleyici",
     excerpt: "Apple TV+'nın on bölümlük geriliminde Stephen Graham, akıl hastanesinin bodrumunda komşu hücreyi fısıltılarıyla bitiren mavi yakalı bir Hannibal Lecter; Liev Schreiber ise bitmemiş bir davayı çözmeye çalışan eski bir dedektif.",

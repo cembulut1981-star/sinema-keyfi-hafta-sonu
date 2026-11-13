@@ -193,7 +193,7 @@ describe("added dates on the ten newest homepage cards", () => {
     "battlestar-galactica-board-game-new-edition-2027": "2026-11-04",
     "crystal-lake-indiewire-review": "2026-11-03",
     "oscars-2027-nominations-predictions": "2026-11-02",
-    "nocturne-apple-tv-stephen-graham-review": "2026-11-02",
+    "best-star-wars-games-ever-ranked": "2026-11-13",
   };
   const slugOf = (a: Article) =>
     a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";

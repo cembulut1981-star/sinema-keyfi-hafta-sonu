@@ -48,6 +48,8 @@ describe("commented posts", () => {
     assert.equal(isCommentedPost("raise-the-red-lantern-gong-li-review"), true);
     assert.equal(isCommentedPost("adam-driver-hunt-for-ben-solo-over"), true);
     assert.equal(isCommentedPost("best-thriller-movies-since-1990-ranked"), true);
+    assert.equal(isCommentedPost("best-star-wars-games-ever-ranked"), true);
+    assert.equal(isCommentedPost("crystal-lake-indiewire-review"), false);
     assert.equal(isCommentedPost("best-werewolf-movies"), false);
     assert.equal(isCommentedPost("best-sci-fi-movies-of-2026"), false);
     assert.equal(isCommentedPost("ghost-of-yotei-complete-edition-review"), false);

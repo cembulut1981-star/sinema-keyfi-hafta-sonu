@@ -51,8 +51,8 @@ describe("narrationChunks", () => {
       "battlestar-galactica-board-game-new-edition-2027",
       "oscars-2027-nominations-predictions",
       "crystal-lake-indiewire-review",
-      "nocturne-apple-tv-stephen-graham-review",
       "best-thriller-movies-since-1990-ranked",
+      "best-star-wars-games-ever-ranked",
     ];
     for (const slug of narrated) {
       assert.equal(isNarrated(slug), true, slug);

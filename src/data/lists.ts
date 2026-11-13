@@ -47,6 +47,17 @@ import werewolfClassic from "@/assets/werewolf-wolf-man.jpg.asset.json";
 import werewolfHowling from "@/assets/werewolf-howling.jpg.asset.json";
 import werewolfCompany from "@/assets/werewolf-company.jpg.asset.json";
 import werewolfAmerican from "@/assets/werewolf-american.jpg.asset.json";
+import swGamesCover from "@/assets/remote/sw-games-cover.jpg.asset.json";
+import swDarkForces from "@/assets/remote/sw-games-dark-forces.jpg.asset.json";
+import swJediOutcast from "@/assets/remote/sw-games-jedi-outcast.jpg.asset.json";
+import swLegoSkywalker from "@/assets/remote/sw-games-lego-skywalker.jpg.asset.json";
+import swKotor from "@/assets/remote/sw-games-kotor.jpg.asset.json";
+import swBattlefront2 from "@/assets/remote/sw-games-battlefront2.jpg.asset.json";
+import swFallenOrder from "@/assets/remote/sw-games-fallen-order.jpg.asset.json";
+import swRepublicCommando from "@/assets/remote/sw-games-republic-commando.jpg.asset.json";
+import swSquadrons from "@/assets/remote/sw-games-squadrons.jpg.asset.json";
+import swEmpireAtWar from "@/assets/remote/sw-games-empire-at-war.jpg.asset.json";
+import swTieFighter from "@/assets/remote/sw-games-tie-fighter.jpg.asset.json";
 
 export type ListItem = {
   slug: string;
@@ -2442,6 +2453,123 @@ Rick Baker'ın dönüşüm efektleri hâlâ filmin en güçlü anlarından biri;
 ## Hangi filmle başlamalı?
 
 Klasik atmosfer için **The Wolf Man**, arkadaşlarla korku-komedi gecesi için **Werewolves Within**, daha sert bir aksiyon için **Dog Soldiers** iyi başlangıçlar. Duygusal ve bedensel dönüşüme odaklanan bir hikâye arıyorsan **Ginger Snaps**; masalsı ve deneysel bir dünya istiyorsan **The Company of Wolves** öne çıkıyor. Türün bütün yüzlerini tek filmde görmek içinse ilk tercih **An American Werewolf in London**.`,
+  },
+  {
+    slug: "best-star-wars-games-ever-ranked",
+    title: "Gelmiş Geçmiş En İyi 10 Star Wars Oyunu: TIE Fighter'dan KOTOR'a Galaksinin Zirvesi",
+    excerpt: "1977'den bu yana sayısız Star Wars oyunu çıktı; peki hangileri hayranı olmayana bile kendini kanıtladı? 1994 klasiklerinden modern hitlere, tür sınırı tanımayan on oyunluk seçki.",
+    countdownBadge: "10 oyun seçkisi",
+    image: swGamesCover.url,
+    source: "Kotaku — May 4, 2026",
+    addedAt: "2026-11-13",
+    narrated: true,
+    body: `İlk film 1977'de vizyona girdiğinden bu yana yüzlerce Star Wars oyunu yayımlandı. Çoğu iyi; ama bazıları gerçekten, gerçekten iyi — öyle ki Star Wars hayranı olmayan birine bile mükemmelliğini kabul ettiriyor. Bu seçkide tür sınırı yok: yeni ve eski, PC ve konsol, taşınabilir, yeniden yapım ve portlar dahil, kutusunda Star Wars yazan her oyun değerlendirmeye girdi.
+
+Ana listeye geçmeden önce onurlu mansiyonlar: **Star Wars Arcade**, **Rogue Squadron 2**, **Galactic Battlegrounds**, **Racer Revenge** ve **Jedi Starfighter** harika oyunlar; ancak ilk ona girecek kadar değil. İşte belirli bir sıralama gözetmeksizin, gelmiş geçmiş en iyi on Star Wars oyunu.
+
+## Star Wars: Dark Forces
+
+![Star Wars: Dark Forces](${swDarkForces.url})
+
+**Yıl:** 1995 · **Geliştirici:** LucasArts · **Platform:** PC, PlayStation
+
+Dark Forces'ın bugün hâlâ bu kadar çığır açıcı görünmesi için hiçbir neden yok — ama öyle. Oyun 1995'te, birinci şahıs nişancı türünün altın çağında, id ve 3D Realms gibi ekiplerin oyun dünyasının devleri sayıldığı dönemde çıktı. Sonra 2D point-and-click maceralarıyla tanınan LucasArts geldi ve ortalığı dağıttı: bu, yukarı ve aşağı bakmanıza izin veren ilk 3D nişancıydı — Quake'ten bile önce.
+
+Daha da önemlisi, Dark Forces tek oyunculu bir FPS için tasarlanmış en iyi haritalardan bazılarına sahip. Sith üslerinin labirent gibi keşifleri ya da Hoth'un baş döndüren uçurumları, kendinizi ilk kez Star Wars'un içinde hissettiriyor. Fareyle bakış modunu ekleyin; oyun, o çarpıcı dünya tasarımının gücüyle bugün bile dimdik ayakta.
+
+## Star Wars Jedi Knight II: Jedi Outcast
+
+![Star Wars Jedi Knight II: Jedi Outcast](${swJediOutcast.url})
+
+**Yıl:** 2002 · **Geliştirici:** Raven Software · **Platform:** PC, Xbox, GameCube
+
+Evet, LucasArts'ın Star Wars oyunlarındaki numaralandırma, Call of Duty'ninki kadar kafa karıştırıcı: Jedi Knight II: Jedi Outcast, aslında Dark Forces II: Jedi Knight'ın devamı ve ikisinin arasında bir de Mysteries of the Sith genişlemesi var. Neyse ki bu oyunların herhangi birini elinize alsanız da muhteşem vakit geçiriyorsunuz.
+
+Peki neden özellikle bu oyun? IŞIN KILICLARI. Önceki Jedi Knight oyunları da o vızıldayan sopaları harika hissettiriyordu; ama geliştirmeyi Raven devralınca iş bambaşka bir seviyeye çıktı. Oyun, oyuncuların Aydınlık ve Karanlık taraf güçlerini karıştırmasına da izin veriyordu. Yine de herkesin en iyi hatırladığı şey ışın kılıcı dövüşleri. Bugün oynamak isterseniz, modern PC'nizde sorunsuz çalıştıran hayran yapımı modları kurmayı unutmayın.
+
+## LEGO Star Wars: The Skywalker Saga
+
+![LEGO Star Wars: The Skywalker Saga](${swLegoSkywalker.url})
+
+**Yıl:** 2022 · **Geliştirici:** TT Games · **Platform:** PC, PlayStation, Xbox, Switch
+
+Birçok kişi büyük, açık dünyalı bir Star Wars oyununun hayalini kurdu. Sonunda geldi — ama şaşırtıcı ve bloklu bir biçimde. Bir LEGO oyununun "gelmiş geçmiş en iyi Star Wars oyunları" listesinde ne işi var diye burun kıvıranlar olabilir; ama bu oyun kesinlikle burayı hak ediyor.
+
+Daha önce hiçbir oyun dokuz ana Star Wars filminin tamamını tek pakette toplamamıştı; hiçbiri galaksiyi de böyle açmamıştı. The Skywalker Saga, sevdiğiniz (ve sevmediğiniz) filmlerden tanıdığınız tüm gezegenleri, başka hiçbir oyunun yapamadığı biçimde keşfetmenize izin veriyor. Sonuç: eğlenceli, komik ve tuhaf biçimde sürükleyici bir Star Wars yeniden yaratımı. Yılmış her hayranın bu evrende yeniden eğlenmek için oynaması gereken bir oyun.
+
+## Star Wars: Knights of the Old Republic
+
+![Star Wars: Knights of the Old Republic](${swKotor.url})
+
+**Yıl:** 2003 · **Geliştirici:** BioWare · **Platform:** Xbox, PC
+
+Bu, yalnızca gelmiş geçmiş en iyi Star Wars oyunlarından biri değil; gelmiş geçmiş en iyi oyunlardan biri. Knights of the Old Republic hâlâ BioWare'in en parlak saatlerinden biri olarak duruyor: 2003'te, serinin Bölüm II ile III arasındaki en dibe vurmuş dönemine bakıp "boş verin, biz bunu 4.000 yıl öncesine kuralım" diyen sıra dışı bir RPG.
+
+Çok daha uzaklardaki bu galakside Sith'ler ve Jedi'lar zaten birbirinin boğazına çökmüş durumda; Galaktik İmparatorluk ise henüz ufukta bile yok. Oyun devasa: birden çok gezegene yayılıyor ve saatlerce gömüleceğiniz düzinelerce hikâye sunuyor. Star Wars evreninde anlatılmış en iyi öykülerden biri olmayı sürdürüyor.
+
+## Star Wars: Battlefront II (Klasik)
+
+![Star Wars: Battlefront II](${swBattlefront2.url})
+
+**Yıl:** 2005 · **Geliştirici:** Pandemic Studios · **Platform:** PS2, Xbox, PC
+
+EA ve DICE'ın güncel Battlefront 2'si harika görünüyor ve müthiş çatışmalar sunuyor, kabul. Ama orijinal Battlefront II hâlâ daha iyi oyun — ve bunun nedeni yalnızca klasikte ganimet kutularının olmaması değil. Pandemic'in geliştirdiği orijinal, daha büyük ve daha "Star Wars'lı" bir deneyim: 501. Klon Birliği'ni izleyen tek oyunculu bir senaryo ve ışın kılıcı sallayamayacağınız kadar çok gezegen içeriyor.
+
+Uzun bir araç listesi, genişletilmiş evrenden ilham alan sınıflar ve silahlar da cabası. Bir de Galactic Conquest modu var: yapay zekâya ya da başka bir oyuncuya karşı galaksi çapında taktiksel bir masa oyunu oynuyorsunuz — üstelik içinde üçüncü şahıs nişancı aksiyonu ve uzay savaşları da var. Kısacası bu, müthiş bir oyun ve gelecekteki Battlefront'lar onu örnek almalı.
+
+## Star Wars Jedi: Fallen Order
+
+![Star Wars Jedi: Fallen Order](${swFallenOrder.url})
+
+**Yıl:** 2019 · **Geliştirici:** Respawn Entertainment · **Platform:** PC, PS4, Xbox One
+
+Titanfall ve Apex Legends'ın arkasındaki Respawn Entertainment çoğu kişinin gözünde bir nişancı stüdyosu. Jedi: Fallen Order, çok daha fazlasını yapabildiklerini kanıtlıyor. Cal Kestis'i başrole koyan bu aksiyon-macera, Dark Souls'u ışın kılıçlarıyla buluşturarak şaşırtıcı derecede zorlu ama çok iyi bir oyun ortaya çıkarıyor.
+
+Sith'in İntikamı'ndan beş yıl sonra geçen Fallen Order'da eski Jedi padawanı Kestis'i bir hurdalık gezegeninde saklanırken buluyoruz. İmparatorluk sonunda izini sürüyor ve av başlıyor. Uyumsuzlardan oluşan bir mürettebatın yardımıyla Kestis kaçmayı ve bu sırada biraz iyilik yapmayı başarıyor. Jedi Knight oyunlarını sevdiyseniz Fallen Order aynı kaşıntıyı giderecek — ama birkaç kez ölmeye hazır olun. Tamam, belki "birkaç"tan fazla...
+
+## Star Wars: Republic Commando
+
+![Star Wars: Republic Commando](${swRepublicCommando.url})
+
+**Yıl:** 2005 · **Geliştirici:** LucasArts · **Platform:** Xbox, PC
+
+Star Wars'un büyük bölümü Jedi'lara odaklanır: orası Güç, burası ışın kılıcı. Güzel ama bir süre sonra sıkıcılaşıyor. Republic Commando ise Star Wars evrenini Klon Savaşları sırasında bir klon askerinin gözünden göstermekle ilgili. Bu taktiksel FPS'te sıradan bir asker değil, bir klon komandosusunuz: en zorlu ve tehlikeli görevlere küçük özel timler hâlinde gönderilen seçkin askerler.
+
+Oyun, bu timlerden birine komuta etmenizi sağlıyor; basit ama etkili bir emir sistemiyle timinizi mevzi tutmaya, siper almaya, bomba kurmaya ya da kapı açmaya yönlendiriyorsunuz. Işın kılıcı, Güç, hatta havalı bir yıldız gemisi olmadan kendinizi her zamankinden savunmasız hissediyorsunuz; bu da her çatışmayı gerilimli ama tatmin edici kılıyor. Yalnız muhtemelen hiç çözülmeyecek berbat bir uçurum finaline hazırlıklı olun.
+
+## Star Wars: Squadrons
+
+![Star Wars: Squadrons](${swSquadrons.url})
+
+**Yıl:** 2020 · **Geliştirici:** EA Motive · **Platform:** PC, PS4, Xbox One
+
+Star Wars, bolca uzay savaşı ve yıldız gemisi içeren bir seri; hâliyle birçok Star Wars oyunu da uzay gemilerinin birbirine girmesiyle ilgili. EA Motive'ın Squadrons'ı, bu türün en güncel ve en iyi görünen denemesi: X-Wing ve TIE Fighter dahil ikonik gemilerin kokpitine atlıyorsunuz.
+
+Henüz eski uzay savaşı oyunları gibi "kayıtlara geçmiş klasik" statüsünde olmayabilir; ama Squadrons yine de müthiş keyifli. Sıkı uçuş kontrolleri ve tam kıvamında simülasyon dozuyla, basit bir atari yan ürününden fazlası olduğunu hissettiriyor. Hikâyesi de güçlü — modern Star Wars'un o "İmparatorluk askeri iyiye dönüşür" klişesini yine kullansa bile. Bir de uygun başlığınız ve mideniz varsa oyunu VR'da oynayabilirsiniz.
+
+## Star Wars: Empire at War
+
+![Star Wars: Empire at War](${swEmpireAtWar.url})
+
+**Yıl:** 2006 · **Geliştirici:** Petroglyph · **Platform:** PC
+
+Evren gerçek zamanlı strateji için bu kadar müsaitken bu kadar az Star Wars RTS'i olması tuhaf: net tanımlanmış birden çok hizip, her birinin karşılaştırılabilir ama farklı araç ve savaşçı listeleri, üstelik sürekli büyük ölçekli savaş hâlinde bir galaksi. Yine de elimize geçen son gerçek Star Wars RTS'i, 2006'da çıkan Empire at War. Neyse ki çok iyi bir oyun.
+
+Empire at War, Sith'in İntikamı ile Yeni Bir Umut arasındaki o keyifli dönemde geçiyor: isyancılar İmparatorluğa karşı hâlâ toparlanmaya çalışıyor, İmparatorluk ise Ölüm Yıldızı'nı inşa etmekle meşgul. Senaryo, Yeni Bir Umut'un olaylarına ve Yavin Savaşı'na doğru ilerliyor. Kara savaşlarıyla uzay muharebelerini tek seferde yönetmek, Star Wars stratejisi hayalini hâlâ en iyi yaşatan deneyim.
+
+## Star Wars: TIE Fighter
+
+![Star Wars: TIE Fighter](${swTieFighter.url})
+
+**Yıl:** 1994 · **Geliştirici:** LucasArts · **Platform:** PC
+
+LucasArts'ın X-Wing uzay uçuş simülasyonu serisi "sevilen" değil, adeta tapılan bir seri; herkesin favorisi muhtemelen ilk oynadığı oyun. Ama geçmişe dönüp bir tutam nostaljiyle baktığımızda, burada öne çıkarmak için TIE Fighter'ı seçtik. 1994 yapımı oyun, dönemin son derece sınırlı, 3D öncesi grafikleriyle olağanüstü işler başardı — ve daha önemlisi, sizi kötü adamların tarafına koydu.
+
+1995'teki CD-ROM sürümü bunu SVGA grafikler, sesli ara sahneler ve yepyeni bir genişlemeyle taçlandırdı; oyuncular o dırdırcı Asi bozuntularını adam akıllı "piuv piuv" uzay savaşlarında alt edebildi. Oyun 2014'te GOG'da yeniden yayımlanarak modern makinelerde oynanabilir hâle geldi; yani bunun neden tüm zamanların klasiği sayıldığını kendi gözlerinizle görebilirsiniz.
+
+## Hangisiyle başlamalı?
+
+Işın kılıcı aksiyonu için **Jedi Outcast** ya da **Fallen Order**, devasa bir rol yapma destanı için **KOTOR**, uzay savaşı için **TIE Fighter** ve **Squadrons** öne çıkıyor. Strateji meraklıları **Empire at War**'a, arkadaşlarıyla eğlence arayanlar **LEGO Star Wars: The Skywalker Saga**'ya yönelebilir. Galaksinin en iyi hâlini tek oyunda görmek isteyenler içinse klasik tercih hâlâ **Battlefront II**.`,
   },
 ];
 
