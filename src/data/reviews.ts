@@ -1,4 +1,6 @@
 import nocturneCover from "@/assets/nocturne-apple-tv-cover.jpg.asset.json";
+import theBodyCover from "@/assets/remote/the-body-netflix-cover.jpg.asset.json";
+import theBodyLisbeth from "@/assets/remote/the-body-lisbeth.jpg.asset.json";
 import crystalLakeCover from "@/assets/crystal-lake-pam-bowling.jpg.asset.json";
 import mortalShell2Cover from "@/assets/mortal-shell-2-cover.jpg.asset.json";
 import mortalShell2Gragu from "@/assets/mortal-shell-2-gragu.jpg.asset.json";
@@ -90,8 +92,57 @@ export type Review = {
 
 export const REVIEWS: Review[] = [
   {
+    slug: "the-body-netflix-coming-of-age-review",
+    addedAt: "2026-11-14",
+    narrated: true,
+    origTitle: "The Body",
+    title: "The Body İncelemesi: Netflix’te Lise Rekabeti, Karanlık Ritüeller ve 2004 Nostaljisi",
+    excerpt: "Quinn Shephard’ın sekiz bölümlük gençlik dizisi, Katolik okulundaki güç savaşlarını tekinsiz bir Cadılar Bayramı gecesiyle buluşturuyor. Cruel Intentions ruhunu taşıyan bu hikâyede asıl korku, büyümek ve dışarıda kalmak.",
+    rating: "Genel değerlendirme: Güçlü karakterler ve atmosfer, yer yer ağır tempo",
+    image: theBodyCover.url,
+    source: "The Guardian — November 13, 2026 — https://www.theguardian.com/tv-and-radio/2026/nov/13/the-body-coming-of-age-review-netflix",
+    body: `**The Body**, gençlik dizilerinin tanıdık sorusunu karanlık bir yere taşıyor: Bir arkadaş grubuna kabul edilmek için ne kadar ileri gidilebilir? Netflix’in **sekiz bölümlük** yapımı, **2004 yılında** bir Katolik okulunda geçiyor. Okul koridorlarındaki statü mücadelesi, bastırılan arzular ve dinsel baskı, doğaüstü olasılıklarla iç içe ilerliyor.
+
+Bu yazı, yayımlanan eleştirideki bilgilerden hazırlanan özgün bir değerlendirme derlemesidir; bağımsız bir sezon izleme incelemesi değildir. Hikâyenin başlangıcına değiniyor, finaldeki cevapları açık etmiyoruz.
+
+## Katolik okulunda kim içeride, kim dışarıda?
+
+St Mark’s okulunun sosyal hayatını **Lions** adlı dans grubu belirliyor. Grubun merkezindeki **Anya (Kristina Bogic)** ve **Elise (Sara Boustany)**, yakın arkadaşlıklarının sınırlarında dolaşırken aralarındaki çekimi adlandırmakta zorlanıyor. Okula daha önce evde eğitim görmüş kardeşi **Leo (Jackson Kelly)** ile gelen **Lisbeth (Geena Meszaros)** ise bu çevrenin dışında kalmak istemiyor.
+
+Lisbeth’in kabul görme arzusu, diziyi basit bir popülerler ve dışlananlar ayrımından uzaklaştırıyor. Karakter yalnızca okulun acımasız düzenine maruz kalan biri değil; bu düzene girebilmek için fırsat kollayan, kendi hamlelerini yapan bir genç. Arkadaşlık ile çıkar arasındaki sınırın bulanıklaşması, hikâyenin gerilimini besliyor.
+
+![Geena Meszaros, The Body’de Lisbeth rolünde okul koridorunda; fotoğraf: Netflix.](${theBodyLisbeth.url})
+
+## Cadılar Bayramı gecesi her şeyi değiştiriyor
+
+Terk edilmiş bir manastırda düzenlenen parti, Lisbeth için grubun dünyasına yaklaşma fırsatı. Fakat dans ekibindeki boş yer, okulun rahibinin dindar yeğeni **Grace’e (Sofia Wylie)** verilmiş durumda. Gecenin ilerleyen saatlerindeki tehlikeli kabul ritüeli Grace’in komaya girmesine, diğer gençlerin ise halüsinasyonlar ve nöbetler yaşamasına yol açıyor.
+
+Dizi, bu olayları yalnızca doğaüstü bir bulmacaya çevirmiyor. Ortak bir sır taşımanın yarattığı suçluluk, grubun kendi içindeki bağlılıkları da değiştiriyor. İzleyici için ilgi çekici olan, karanlık güçlerin gerçekten devrede olup olmadığı kadar, gençlerin yaşadıklarını nasıl yorumladığı ve birbirlerine nasıl davrandığı.
+
+## Quinn Shephard’ın odağı ergenliğin karmaşası
+
+**Under the Bridge** ile de tanınan yaratıcı **Quinn Shephard**, tür oyunlarının altında karakterlerin kırılganlığını koruyor. Anya’nın inkârı, Elise’in reddedilme duygusu ve Lisbeth’in kabul edilme tutkusu, hikâyenin duygusal ağırlığını taşıyor. Tekinsiz olaylar, bu çatışmaları ortadan kaldırmak yerine daha görünür kılıyor.
+
+Okulun dinsel kuralları ile gençlerin yazılı olmayan sosyal kuralları arasında da güçlü bir benzerlik var. İki dünyada da aidiyet vaat ediliyor; fakat kabul görmek, belirli davranışlardan vazgeçmeyi ve yargılanma korkusunu beraberinde getiriyor. The Body’nin ilginç tarafı, korkuyu yalnızca dışarıdan gelen bir tehdide değil, bu gündelik baskılara da yerleştirmesi.
+
+## 2004 yalnızca bir dekor değil
+
+Anlık mesajlaşma, kadife kıyafetler, dar boyun atkıları ve televizyondaki **The Simple Life**, dizinin dönem hissini kuruyor. **Kelly Clarkson, Ciara ve Sean Paul** gibi isimlerin şarkıları da sosyal medyanın bugünkü ölçekte hayatı kaplamadığı bir gençlik dünyasına dönüyor.
+
+Bu ayrıntılar, nostaljiyi yalnızca sevimli bir hatırlamaya dönüştürmüyor. Dönemin gençlik filmlerini çağrıştıran estetik, okulda dışlanmanın ve kimliğini anlamaya çalışmanın rahatsız edici yanlarıyla birlikte işliyor. **Cruel Intentions**, **Bring It On** ve **Mean Girls** gibi yapımlarla kurulabilecek akrabalık, dizinin hem gösterişli hem de sivri tonunda hissediliyor.
+
+## Güçlü atmosfer, uzayan bir sezon
+
+Gotik görüntüler, dinsel simgeler ve bilinçli abartı, The Body’ye belirgin bir kimlik kazandırıyor. Ancak sekiz bölümlük anlatının her hattı aynı derecede canlı değil. Yan plandaki bazı erkek karakterler, merkezdeki genç kadınların çatışmaları kadar ilgi uyandırmıyor; bu da sezonun kimi bölümlerinde temponun düşmesine yol açıyor.
+
+Daha sıkı bir kurgu, hem gizemi hem karakterlerin gerilimini güçlendirebilirdi. Yine de dizinin çekim gücü yalnızca ritüellerden gelmiyor. Arzu, utanç, kıskançlık ve kabul edilme isteği gibi büyük gençlik duygularını bir arada taşıması, onu sıradan bir okul geriliminin ötesine geçiriyor.
+
+## Kimler için izlemeye değer?
+
+2000’lerin gençlik filmlerini, karanlık okul hikâyelerini ve psikolojik gerilime karışan doğaüstü ihtimalleri sevenler için The Body dikkat çekici bir seçenek. Hızla cevap veren bir korku dizisi arayanlar açısından temposu sabır isteyebilir. Asıl vaat, bir canavarın kimliğini bulmaktan çok, arkadaşlık ve aidiyet uğruna gençlerin birbirine neler yapabildiğine bakmak.`,
+  },
+  {
     slug: "crystal-lake-indiewire-review",
-    addedAt: "2026-11-03",
     narrated: true,
     origTitle: "Crystal Lake",
     title: "Crystal Lake İncelemesi — Kanlı Bir Dönüş, Geç Gelen Bir Hikâye",

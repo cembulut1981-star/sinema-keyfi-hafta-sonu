@@ -21,7 +21,7 @@ describe("commented posts", () => {
     const staticSlugs = COMMENTED_POST_SLUGS.filter(
       (slug) => !slug.endsWith("-7f53c993") && !slug.endsWith("-22a8b5e9"),
     );
-    assert.equal(staticSlugs.length, 8);
+    assert.equal(staticSlugs.length, 9);
     for (const slug of staticSlugs) {
       const found =
         NEWS.filter((item) => item.slug === slug).length +
@@ -31,10 +31,9 @@ describe("commented posts", () => {
     }
   });
 
-  test("the two daily-news posts are the ones published from the database", () => {
+  test("the remaining daily-news post is published from the database", () => {
     for (const slug of [
       "hunger-games-companion-album-to-feature-jennifer-7f53c993",
-      "gog-explains-how-one-of-the-most-important-pc-games-22a8b5e9",
     ]) {
       assert.equal(isCommentedPost(slug), true);
       assert.equal(NEWS.some((item) => item.slug === slug), false);
@@ -42,6 +41,8 @@ describe("commented posts", () => {
   });
 
   test("older posts stay closed to comments", () => {
+    assert.equal(isCommentedPost("the-body-netflix-coming-of-age-review"), true);
+    assert.equal(isCommentedPost("gog-explains-how-one-of-the-most-important-pc-games-22a8b5e9"), false);
     assert.equal(isCommentedPost("stranger-things-other-worlds-prequel-2028-teaser"), true);
     assert.equal(isCommentedPost("mortal-shell-2-rps-review"), false);
     assert.equal(isCommentedPost("karoshi-trailer-teo-yoo-samurai-corporate-thriller"), true);

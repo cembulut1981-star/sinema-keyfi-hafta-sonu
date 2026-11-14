@@ -1,6 +1,8 @@
 import type { Article } from "@/data/articles";
 
 export const HOMEPAGE_FEATURED_REVIEW_SLUG = "crystal-lake-indiewire-review";
+// A separately rendered full-width story before every lead row, never in the feed.
+export const HOMEPAGE_TOP_FEATURE_SLUG = "the-body-netflix-coming-of-age-review";
 
 // The list promoted into the top row's fourth small-card slot.
 export const HOMEPAGE_TOP_ROW_LIST_SLUG = "best-star-wars-games-ever-ranked";

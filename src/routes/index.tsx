@@ -8,7 +8,7 @@ import { publishedPostsQuery } from '@/lib/editorial-query';
 import { toEditorialCard } from '@/lib/editorial';
 import { getNews } from '@/data/news';
 import { extractDate, formatDate } from '@/lib/seo';
-import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG, HOMEPAGE_TOP_ROW_SLUGS, HOMEPAGE_TOP_ROW_LIST_SLUG, HOMEPAGE_FEED_SWAP_SLUG, findArticleBySlug } from '@/lib/homepage-lead';
+import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG, HOMEPAGE_TOP_FEATURE_SLUG, HOMEPAGE_TOP_ROW_SLUGS, HOMEPAGE_TOP_ROW_LIST_SLUG, HOMEPAGE_FEED_SWAP_SLUG, findArticleBySlug } from '@/lib/homepage-lead';
 
 // Yellow/black one-word pills shown under the photo. Only a couple live in
 // the top rows; the rest are scattered deeper in the feed (see below) so it
@@ -44,6 +44,7 @@ const FRAMED_SLUG = "dan-stevens-robocop-prime-video-series";
 const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug === FRAMED_SLUG);
 const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series";
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
+const TOP_FEATURE = findArticleBySlug(ARTICLES, HOMEPAGE_TOP_FEATURE_SLUG);
 const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === HOMEPAGE_FEATURED_REVIEW_SLUG);
 const NEXT_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
 const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne-apple-tv-stephen-graham-review");
@@ -51,7 +52,7 @@ const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne
 const NEW_STORIES = HOMEPAGE_TOP_ROW_SLUGS
   .map((slug) => findArticleBySlug(ARTICLES, slug))
   .filter((article): article is Article => Boolean(article));
-const TOP_IDS = new Set([NEW_REVIEW?.id, NEXT_REVIEW?.id, THIRD_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
+const TOP_IDS = new Set([TOP_FEATURE?.id, NEW_REVIEW?.id, NEXT_REVIEW?.id, THIRD_REVIEW?.id, ...NEW_STORIES.map((article) => article.id)]);
 const LOWER_FEATURES = ARTICLES.filter((article) => article.homepagePlacement === "lower");
 // New PC Games stories are spread further down the feed so games don't cluster at the top.
 const SCATTERED_GAME_SLUGS = [
@@ -349,6 +350,9 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-5 md:py-10">
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
         <div className="h-2 md:h-14" aria-hidden />
+        {TOP_FEATURE ? (
+          <FullWidthFeatureCard article={TOP_FEATURE} categoryLabel="Dizi" dateLabel="13 Kasım 2026" />
+        ) : null}
         {leadRows.map((r, i) => (
           <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} />
         ))}
