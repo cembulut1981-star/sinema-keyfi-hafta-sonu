@@ -191,7 +191,7 @@ describe("added dates on the ten newest homepage cards", () => {
     "adam-driver-hunt-for-ben-solo-over": "2026-11-06",
     "best-thriller-movies-since-1990-ranked": "2026-11-04",
     "battlestar-galactica-board-game-new-edition-2027": "2026-11-04",
-    "crystal-lake-indiewire-review": "2026-11-03",
+    "the-body-netflix-coming-of-age-review": "2026-11-14",
     "rings-of-power-season-3-episode-guide": "2026-11-13",
     "best-star-wars-games-ever-ranked": "2026-11-13",
   };

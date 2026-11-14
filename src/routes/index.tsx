@@ -354,7 +354,7 @@ function Index() {
           <Fragment key={r.center.id}>
             <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} />
             {i === HOMEPAGE_FEATURE_AFTER_LEAD_ROW && TOP_FEATURE ? (
-              <FullWidthFeatureCard article={TOP_FEATURE} categoryLabel="Dizi" dateLabel="13 Kasım 2026" />
+              <FullWidthFeatureCard article={TOP_FEATURE} categoryLabel="Dizi" dateLabel="13 Kasım 2026" badgeLabel="NETFLİX" />
             ) : null}
           </Fragment>
         ))}

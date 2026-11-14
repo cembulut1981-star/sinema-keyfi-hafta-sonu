@@ -341,16 +341,19 @@ export function FullWidthFeatureCard({
   article,
   categoryLabel = "Dizi",
   dateLabel,
+  badgeLabel,
 }: {
   article: Article;
   categoryLabel?: string;
   dateLabel: string;
+  badgeLabel?: string;
 }) {
   const linkTo = getArticleLink(article);
 
   return (
     <article className="mb-14 border-b border-border pb-6 group">
       <div className="relative aspect-video w-full overflow-hidden bg-muted after:absolute after:left-1/3 after:bottom-0 after:z-10 after:h-[3px] after:w-1/3 after:origin-center after:scale-x-0 after:bg-primary after:transition-transform after:duration-300 group-hover:after:scale-x-100">
+        {badgeLabel ? <BadgePill label={badgeLabel} className="absolute left-4 top-4 z-20" /> : null}
         {linkTo ? (
           <Link to={linkTo.to} params={linkTo.params} className="block h-full w-full">
             <img
@@ -389,8 +392,8 @@ export function FullWidthFeatureCard({
             <span className="mx-2 text-border" aria-hidden="true">|</span>
             <time className="text-foreground">{dateLabel}</time>
           </>
-        ) : null}
-        {article.addedAt ? (
+        ) : article.addedAt ? (
+          // Tek tarih: satırda hazır tarih yoksa en yeni yazıların eklenme tarihi gösterilir.
           <>
             <span className="mx-2 text-border" aria-hidden="true">|</span>
             <AddedAtLabel article={article} tone="light" />
