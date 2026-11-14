@@ -637,13 +637,31 @@ export function SmallArticleCard({
   article,
   className,
   badgeInImage = false,
+  cutCorner = false,
 }: {
   article: Article;
   className?: string;
   badgeInImage?: boolean;
+  cutCorner?: boolean;
 }) {
   const linkTo = getArticleLink(article);
   if (isPosterArticle(article)) return <PosterListCard article={article} className={className} />;
+
+  if (cutCorner && linkTo) {
+    return (
+      <article className={`editorial-small-card editorial-cut-card group relative w-full min-w-0 min-h-[180px] aspect-[4/3] md:aspect-auto ${className || ""}`}>
+        <Link to={linkTo.to} params={linkTo.params} className="editorial-cut-card-inner absolute block overflow-hidden">
+          <img src={article.image} alt={article.title} className={`absolute inset-0 h-full w-full object-cover ${imageFocusClass(article)}`} width={600} height={450} loading="lazy" />
+          <div className="editorial-cut-card-shade absolute inset-0" />
+          <div className="editorial-cut-card-copy absolute inset-x-0 bottom-0">
+            <span className="editorial-cut-card-kicker block font-black uppercase">Güç Yüzükleri · 3. Sezon</span>
+            <h3 className="editorial-cut-card-title font-black group-hover:underline decoration-2 underline-offset-4">{article.title}</h3>
+            <AddedAtLabel article={article} className="mt-2 block" />
+          </div>
+        </Link>
+      </article>
+    );
+  }
 
   const inner = (
     <>

@@ -29,6 +29,7 @@ const CATEGORY_WORD: Record<string, string> = {
   haberler: "Haber",
 };
 const slugOf = (a: Article) => a.newsSlug ?? a.reviewSlug ?? a.listSlug ?? a.musicSlug ?? a.seriesSlug ?? "";
+const hasCutCorner = (a: Article) => slugOf(a) === "rings-of-power-season-3-episode-guide";
 const ARTICLES: Article[] = RAW_ARTICLES.map((a) => {
   const label = BELOW_BADGES[slugOf(a)];
   // Aşağı rozetli kartlarda sarı hap yeterli: kırmızı kategori rozeti gizlenir.
@@ -149,7 +150,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
             </div>
             <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
               {left.map((a) => (
-                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage cutCorner={hasCutCorner(a)} />
               ))}
             </div>
           </>
@@ -157,7 +158,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
           <>
             <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
               {left.map((a) => (
-                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+                <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage cutCorner={hasCutCorner(a)} />
               ))}
             </div>
             <div className="min-h-0 h-full">
@@ -181,12 +182,12 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
           </div>
           <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
             {left.map((a) => (
-              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage cutCorner={hasCutCorner(a)} />
             ))}
           </div>
           <div className="grid gap-6 auto-rows-fr min-h-0 h-full">
             {right.map((a) => (
-              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage cutCorner={hasCutCorner(a)} />
             ))}
           </div>
         </>
@@ -194,7 +195,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
         <>
           <div className={`grid gap-6 auto-rows-fr min-h-0 h-full ${centerFirstMobile ? "order-2 md:order-none" : ""}`}>
             {left.map((a) => (
-              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage cutCorner={hasCutCorner(a)} />
             ))}
           </div>
           <div className={`min-h-0 h-full ${centerFirstMobile ? "order-1 md:order-none" : ""}`}>
@@ -202,7 +203,7 @@ function MixedRow({ centerCard, sideCards, reverse = false, centerFirstMobile = 
           </div>
           <div className={`grid gap-6 auto-rows-fr min-h-0 h-full ${centerFirstMobile ? "order-3 md:order-none" : ""}`}>
             {right.map((a) => (
-              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage cutCorner={hasCutCorner(a)} />
             ))}
           </div>
         </>
@@ -381,7 +382,7 @@ function Index() {
         {leftovers.length > 0 ? (
           <section className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 mb-8 md:mb-12 items-stretch">
             {leftovers.map((a) => (
-              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage />
+              <SmallArticleCard key={a.id} article={a} className="h-full" badgeInImage cutCorner={hasCutCorner(a)} />
             ))}
           </section>
         ) : null}
