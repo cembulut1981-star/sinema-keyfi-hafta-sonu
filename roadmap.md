@@ -47,3 +47,4 @@
 - [x] Add an AI narration player at the top of the Rings of Power article; verify play, progress, stop and phone layout.
 - [x] Add a Turkish The Body review with site-hosted photos and a full-width card above all homepage rows.
 - [x] Roll newest-card dates and comments forward; verify the article, card and mobile layout.
+- [x] Move The Body full-width card below the first homepage row and replace its cover with a sharper HD scene; verify desktop and mobile.

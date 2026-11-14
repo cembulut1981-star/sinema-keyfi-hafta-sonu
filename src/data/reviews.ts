@@ -1,5 +1,5 @@
 import nocturneCover from "@/assets/nocturne-apple-tv-cover.jpg.asset.json";
-import theBodyCover from "@/assets/remote/the-body-netflix-cover.jpg.asset.json";
+import theBodyCover from "@/assets/remote/the-body-ensemble-hd.jpg.asset.json";
 import theBodyLisbeth from "@/assets/remote/the-body-lisbeth.jpg.asset.json";
 import crystalLakeCover from "@/assets/crystal-lake-pam-bowling.jpg.asset.json";
 import mortalShell2Cover from "@/assets/mortal-shell-2-cover.jpg.asset.json";

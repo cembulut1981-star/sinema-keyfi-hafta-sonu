@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 
 import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, OverlayRow, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES as RAW_ARTICLES, CATEGORY_LABELS, isGameArticle, type Article } from "@/data/articles";
@@ -8,7 +8,7 @@ import { publishedPostsQuery } from '@/lib/editorial-query';
 import { toEditorialCard } from '@/lib/editorial';
 import { getNews } from '@/data/news';
 import { extractDate, formatDate } from '@/lib/seo';
-import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG, HOMEPAGE_TOP_FEATURE_SLUG, HOMEPAGE_TOP_ROW_SLUGS, HOMEPAGE_TOP_ROW_LIST_SLUG, HOMEPAGE_FEED_SWAP_SLUG, findArticleBySlug } from '@/lib/homepage-lead';
+import { homepageLeadRows, HOMEPAGE_FEATURED_REVIEW_SLUG, HOMEPAGE_TOP_FEATURE_SLUG, HOMEPAGE_FEATURE_AFTER_LEAD_ROW, HOMEPAGE_TOP_ROW_SLUGS, HOMEPAGE_TOP_ROW_LIST_SLUG, HOMEPAGE_FEED_SWAP_SLUG, findArticleBySlug } from '@/lib/homepage-lead';
 
 // Yellow/black one-word pills shown under the photo. Only a couple live in
 // the top rows; the rest are scattered deeper in the feed (see below) so it
@@ -350,11 +350,13 @@ function Index() {
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-5 md:py-10">
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
         <div className="h-2 md:h-14" aria-hidden />
-        {TOP_FEATURE ? (
-          <FullWidthFeatureCard article={TOP_FEATURE} categoryLabel="Dizi" dateLabel="13 Kasım 2026" />
-        ) : null}
         {leadRows.map((r, i) => (
-          <MixedRow key={r.center.id} centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} />
+          <Fragment key={r.center.id}>
+            <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} />
+            {i === HOMEPAGE_FEATURE_AFTER_LEAD_ROW && TOP_FEATURE ? (
+              <FullWidthFeatureCard article={TOP_FEATURE} categoryLabel="Dizi" dateLabel="13 Kasım 2026" />
+            ) : null}
+          </Fragment>
         ))}
         {WIDE_FEATURE ? (
           <FullWidthFeatureCard article={WIDE_FEATURE} categoryLabel="Dizi" dateLabel="13 Eylül 2026" />

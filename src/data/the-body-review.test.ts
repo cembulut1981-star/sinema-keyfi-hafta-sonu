@@ -4,12 +4,13 @@ import { REVIEWS } from "./reviews";
 import { NEWS } from "./news";
 import { LISTS } from "./lists";
 import { ARTICLES } from "./articles";
-import { HOMEPAGE_TOP_FEATURE_SLUG, findArticleBySlug } from "@/lib/homepage-lead";
+import { HOMEPAGE_TOP_FEATURE_SLUG, HOMEPAGE_FEATURE_AFTER_LEAD_ROW, findArticleBySlug } from "@/lib/homepage-lead";
 import { isCommentedPost } from "@/lib/comments";
 import { isNarrated } from "@/lib/narration";
 
-test("The Body is the explicitly reserved top full-width story", () => {
+test("The Body is reserved as a full-width story immediately after the first lead row", () => {
   assert.equal(HOMEPAGE_TOP_FEATURE_SLUG, "the-body-netflix-coming-of-age-review");
+  assert.equal(HOMEPAGE_FEATURE_AFTER_LEAD_ROW, 0);
   const card = findArticleBySlug(ARTICLES, HOMEPAGE_TOP_FEATURE_SLUG);
   assert.ok(card);
   assert.equal(card.reviewSlug, "the-body-netflix-coming-of-age-review");
