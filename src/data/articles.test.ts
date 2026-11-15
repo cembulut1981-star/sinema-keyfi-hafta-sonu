@@ -190,8 +190,8 @@ describe("added dates on the ten newest homepage cards", () => {
     "raise-the-red-lantern-gong-li-review": "2026-11-07",
     "adam-driver-hunt-for-ben-solo-over": "2026-11-06",
     "best-thriller-movies-since-1990-ranked": "2026-11-04",
-    "battlestar-galactica-board-game-new-edition-2027": "2026-11-04",
     "the-body-netflix-coming-of-age-review": "2026-11-14",
+    "mike-flanagan-carrie-three-seasons-trilogy-plan": "2026-11-16",
     "rings-of-power-season-3-episode-guide": "2026-11-13",
     "best-star-wars-games-ever-ranked": "2026-11-13",
   };

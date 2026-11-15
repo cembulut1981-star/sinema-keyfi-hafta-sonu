@@ -99,6 +99,7 @@ import lanternCover from "@/assets/remote/raise-the-red-lantern-cover.jpg.asset.
 import lanternStill from "@/assets/remote/raise-the-red-lantern-still.jpg.asset.json";
 import karoshiCover from "@/assets/remote/karoshi-cover.jpg.asset.json";
 import otherWorldsCover from "@/assets/remote/other-worlds-cover.jpg.asset.json";
+import carrieTrilogyCover from "@/assets/remote/carrie-trilogy-cover.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -120,6 +121,36 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "mike-flanagan-carrie-three-seasons-trilogy-plan",
+    addedAt: "2026-11-16",
+    narrated: true,
+    title: "Mike Flanagan’ın Carrie Hayali: Dizi Üç Sezonluk Bir Üçlemeye Dönüşebilir",
+    excerpt: "Carrie’nin yaratıcısı Mike Flanagan, “rüya senaryosunun” üç sezonluk bir üçleme olduğunu söyledi. Stephen King’in onayını alan yönetmen, hikâyeyi romanın ötesine taşımak istiyor.",
+    image: carrieTrilogyCover.url,
+    source: "Deadline — Armando Tinoco, September 30, 2026",
+    body: `**Mike Flanagan**, Stephen King uyarlaması **Carrie** için aklındaki tabloyu ilk kez bu kadar net anlattı: Yönetmenin "rüya senaryosu" gerçekleşirse dizi, **üç sezonluk bir üçlemeye** dönüşecek.
+
+## "Rüya Senaryomda Üç Sezon Var"
+
+Collider'a konuşan Flanagan, "Rüya senaryomda üç sezon olduğunu düşünüyorum. Carrie'nin harika bir üç adımlık yayı var. Aslında bir üçleme," dedi. Uyarlamaya **Stephen King**'in onayını çoktan almış olan yönetmenin vizyonu, orijinal hikâyenin ötesine geçme potansiyeli taşıyor.
+
+## Dizi Ne Anlatıyor?
+
+**Carrie**, hayatını aşırı korumacı annesi **Margaret**'in (Samantha Sloyan) dört duvarı arasında saklanarak geçiren uyumsuz lise öğrencisi **Carrie White**'ı (Summer H. Howell) izliyor. Babasının beklenmedik ölümünün ardından devlet lisesine başlayan Carrie, kendini topluluğunu ikiye bölen viral bir zorbalık skandalının ortasında buluyor.
+
+Carrie bir yandan sosyal medya çağının amansız baskısı ve gündelik zalimliğiyle boğuşurken, bir yandan da ergenliğiyle birlikte uyanan gizemli telekinetik güçleriyle yüzleşiyor. Doğaüstü korku dizisi, başrolde **Summer H. Howell** ile **7 Ekim'de Prime Video**'da izleyiciyle buluştu.
+
+## Carrie'nin Ekran Tarihi
+
+Stephen King'in romanı ilk kez **1976'da** sinemaya uyarlandı: **Brian De Palma**'nın yönettiği, senaryosunu Lawrence D. Cohen'in yazdığı filmde Carrie'yi **Sissy Spacek** canlandırdı. 1999'da Katt Shea'nin yönettiği doğrudan devam filmi **The Rage: Carrie 2**'da Carrie'nin üvey kız kardeşi Rachel Lang'i Emily Bergl oynadı.
+
+2002'de David Carson'ın yönettiği, Bryan Fuller'ın senaryosunu yazdığı televizyon filmi NBC'de yayımlandı; Carrie rolünde **Angela Bettis** vardı. Prime Video'nun yeni dizisinden önceki son uyarlama ise **Kimberly Peirce**'in yönettiği, **Chloë Grace Moretz**'li 2013 yapımı yeniden çevrimdi.
+
+## Üçleme İçin Yol Açık
+
+Flanagan'ın üç sezonluk planı, dizinin King'in romanının sınırlarında kalmayacağının en net işareti. İkinci sezon onayı daha şimdiden verildi; yönetmenin "rüya senaryosu" tamamlanırsa Carrie White'ın hikâyesi, balo gecesinin çok ötesine uzanan üç perdelik bir anlatıya dönüşecek.`,
+  },
   {
     slug: "rings-of-power-season-3-episode-guide",
     addedAt: "2026-11-13",
@@ -315,7 +346,6 @@ Nisan ayında benzer bir açıklama yapan **Steven Soderbergh** de filmin “ola
   },
   {
     slug: "battlestar-galactica-board-game-new-edition-2027",
-    addedAt: "2026-11-04",
     narrated: true,
     title: "Battlestar Galactica Geri Dönüyor: Efsane Masa Oyunu 2027'de Yeni Baskısıyla Geliyor",
     excerpt: "Ghost Galaxy, Universal ve Fantasy Flight Games'le anlaşarak 2008 tarihli kült masa oyunu Battlestar Galactica: The Board Game'in yeni baskısını duyurdu; kitle fonlaması kampanyası 2027 başında açılacak.",
