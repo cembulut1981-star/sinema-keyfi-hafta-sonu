@@ -153,7 +153,7 @@ McKay, üçüncü sezonda her hikâye çizgisinin Sauron ile Elfler arasındaki 
 - 7. Bölüm: 25 Kasım
 - 8. Bölüm (final): 25 Kasım
 
-İlk dört bölümle hızlı bir başlangıç yapan sezon, iki haftalık ikili paketlerle finale ilerliyor. Sezonun ilk bölümlerine dair izlenimlerimizi merak ediyorsanız **Güç Yüzükleri 3. sezon incelememize** de göz atabilirsiniz.`,
+İlk dört bölümle hızlı bir başlangıç yapan sezon, iki haftalık ikili paketlerle finale ilerliyor. Sezonun ilk bölümlerine dair izlenimlerimizi merak ediyorsanız **[Güç Yüzükleri 3. sezon incelememize](/haber/rings-of-power-season-3-empire-review)** de göz atabilirsiniz.`,
   },
   {
     slug: "rings-of-power-season-3-empire-review",
