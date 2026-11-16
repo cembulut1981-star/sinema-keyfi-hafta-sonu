@@ -24,3 +24,4 @@
 - News can declare a separate YouTube trailer ID and title rendered by YouTubeTrailer below the cover; this preserves site-hosted imagery and article-specific player labels without navigating away.
 - Article narration is produced on the server: the public narration route reads the article data, strips formatting, chunks the text and streams speech to the browser player; only items flagged narrated expose it, so enabling narration on a new post needs the flag and nothing else.
 - Special homepage small-card treatments use explicit presentation props selected by slug in the homepage, so category cards and unrelated stories retain their existing design.
+- Homepage box-office panels use dated, source-attributed snapshots in a browser-safe data module and a shared panel with site-hosted posters; never imply a snapshot is a live chart.

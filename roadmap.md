@@ -48,3 +48,5 @@
 - [x] Add a Turkish The Body review with site-hosted photos and a full-width card above all homepage rows.
 - [x] Roll newest-card dates and comments forward; verify the article, card and mobile layout.
 - [x] Move The Body full-width card below the first homepage row and replace its cover with a sharper HD scene; verify desktop and mobile.
+- [x] Add dated Turkey and Hollywood top-five box-office panels with site-hosted posters, at the homepage top-right and further below.
+- [x] Verify both charts, poster loading, source links and desktop/mobile placement.

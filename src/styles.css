@@ -201,6 +201,23 @@
 }
 
 /* Keep the magazine's grouped stories on phones without miniaturising the page. */
+@media (min-width: 1024px) {
+  .homepage-box-office-row .editorial-mixed-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: auto;
+  }
+  .homepage-box-office-row .editorial-mixed-row > div:not(.grid):has(> article) {
+    grid-column: 1 / -1;
+    order: -1;
+    height: 480px;
+  }
+  .homepage-box-office-row .editorial-mixed-row > div.grid {
+    grid-column: auto;
+    order: 0;
+    height: 540px;
+  }
+}
+
 @media (max-width: 767px) {
   .editorial-mixed-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Fragment, useState } from "react";
+import { BoxOfficePanel } from "@/components/site/BoxOfficePanel";
+import { TURKEY_BOX_OFFICE, HOLLYWOOD_BOX_OFFICE } from "@/data/box-office";
 
 import { ArticleCard, FeaturedArticleCard, FullWidthFeatureCard, OverlayRow, SiteShell, SmallArticleCard } from "@/components/site/SiteShell";
 import { ARTICLES as RAW_ARTICLES, CATEGORY_LABELS, isGameArticle, type Article } from "@/data/articles";
@@ -350,10 +352,16 @@ function Index() {
     <SiteShell>
       <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-5 md:py-10">
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
-        <div className="h-2 md:h-14" aria-hidden />
         {leadRows.map((r, i) => (
           <Fragment key={r.center.id}>
-            <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} />
+            {i < 2 ? (
+              <div className="homepage-box-office-row grid grid-cols-1 items-start gap-6 lg:grid-cols-[minmax(0,1fr)_270px]">
+                <div className="min-w-0"><MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} /></div>
+                <div className="mb-12"><BoxOfficePanel chart={i === 0 ? TURKEY_BOX_OFFICE : HOLLYWOOD_BOX_OFFICE} /></div>
+              </div>
+            ) : (
+              <MixedRow centerCard={r.center} sideCards={r.sides} reverse={i % 2 === 1} centerFirstMobile={i === 0} />
+            )}
             {i === HOMEPAGE_FEATURE_AFTER_LEAD_ROW && TOP_FEATURE ? (
               <FullWidthFeatureCard article={TOP_FEATURE} categoryLabel="Dizi" dateLabel="13 Kasım 2026" badgeLabel="NETFLİX" />
             ) : null}
