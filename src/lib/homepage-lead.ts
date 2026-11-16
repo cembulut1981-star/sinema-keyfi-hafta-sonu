@@ -12,7 +12,7 @@ export const HOMEPAGE_TOP_ROW_LIST_SLUG = "best-star-wars-games-ever-ranked";
 export const HOMEPAGE_TOP_ROW_SLUGS = [
   "rings-of-power-season-3-episode-guide",
   "rings-of-power-season-3-empire-review",
-  "stranger-things-other-worlds-prequel-2028-teaser",
+  "mike-flanagan-carrie-three-seasons-trilogy-plan",
   HOMEPAGE_TOP_ROW_LIST_SLUG,
 ];
 

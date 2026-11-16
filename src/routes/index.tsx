@@ -49,7 +49,7 @@ const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series"
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 const TOP_FEATURE = findArticleBySlug(ARTICLES, HOMEPAGE_TOP_FEATURE_SLUG);
 const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === HOMEPAGE_FEATURED_REVIEW_SLUG);
-const NEXT_REVIEW = ARTICLES.find((article) => article.musicSlug === "metallica-life-burns-faster-sphere-review");
+const NEXT_REVIEW = findArticleBySlug(ARTICLES, "best-sci-fi-movies-of-2026");
 const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne-apple-tv-stephen-graham-review");
 // The four small cards beside the top row's lead story, in the order shown.
 const NEW_STORIES = HOMEPAGE_TOP_ROW_SLUGS
@@ -69,9 +69,25 @@ const SCATTERED_GAME_SLUGS = [
 const SCATTERED_GAMES = SCATTERED_GAME_SLUGS.map((slug) => ARTICLES.find((a) => a.newsSlug === slug || a.reviewSlug === slug)).filter((a): a is Article => Boolean(a));
 const SCATTERED_IDS = new Set(SCATTERED_GAMES.map((a) => a.id));
 const RED_LANTERN = findArticleBySlug(ARTICLES, HOMEPAGE_FEED_SWAP_SLUG);
+// Az tıklanan ya da editoryal olarak geri çekilen içerikler akışın en sonuna
+// taşınır; üst satırlarda ve erken feed'de görünmezler.
+const DEMOTED_SLUGS = new Set([
+  "metallica-life-burns-faster-sphere-review",
+  "jet-lag-the-game-season-20-premiere-movie-theater-80e34882",
+  "adam-driver-hunt-for-ben-solo-over",
+  "true-detective-season-5-nicolas-cage-antonio-banderas",
+  "wednesday-season-3-wraps-production",
+  "juliette-lewis-cape-fear-gosterimi-sonrasi-ozur",
+  "stranger-things-other-worlds-prequel-2028-teaser",
+  "mortal-shell-2-rps-review",
+  "ghost-of-yotei-complete-edition-review",
+  "castlevania-belmonts-curse-review-highlights",
+]);
+const isDemoted = (a: Article) => DEMOTED_SLUGS.has(slugOf(a));
+const DEMOTED_STATIC = ARTICLES.filter(isDemoted);
 // Kırmızı Fenerler is spliced back in below at the Star Wars list's old slot, so
 // it must not also sit at its natural position in the base feed.
-const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && article.newsSlug !== HOMEPAGE_FEED_SWAP_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower" && !SCATTERED_IDS.has(article.id));
+const BASE_FEED = ARTICLES.filter((article) => article.newsSlug !== WIDE_FEATURE_SLUG && article.newsSlug !== HOMEPAGE_FEED_SWAP_SLUG && !TOP_IDS.has(article.id) && article.homepagePlacement !== "lower" && !SCATTERED_IDS.has(article.id) && !isDemoted(article));
 // The feed as it stood before the exchange: the Star Wars list still in its
 // slot, Kırmızı Fenerler still up in the top row. That slot is where the
 // review lands, so the two cards simply trade places.
@@ -81,7 +97,8 @@ const STAR_WARS_FEED_INDEX = ARTICLES.filter(
     article.newsSlug !== HOMEPAGE_FEED_SWAP_SLUG &&
     (!TOP_IDS.has(article.id) || article.listSlug === HOMEPAGE_TOP_ROW_LIST_SLUG) &&
     article.homepagePlacement !== "lower" &&
-    !SCATTERED_IDS.has(article.id),
+    !SCATTERED_IDS.has(article.id) &&
+    !isDemoted(article),
 ).findIndex((article) => article.listSlug === HOMEPAGE_TOP_ROW_LIST_SLUG);
 const FEED_ARTICLES = (() => {
   const out = [...BASE_FEED];
@@ -106,6 +123,8 @@ const FEED_ARTICLES = (() => {
       i++;
     }
   }
+  // Geri çekilen içerikler her zaman akışın en sonunda durur.
+  out.push(...DEMOTED_STATIC);
   return out;
 })();
 
@@ -284,12 +303,13 @@ function Index() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const { data: published } = useSuspenseQuery(publishedPostsQuery);
   const newCards = published.map(toEditorialCard);
-  const dynamicLead = newCards.filter(a => !a.homepagePlacement);
+  const dynamicLead = newCards.filter(a => !a.homepagePlacement && !isDemoted(a));
+  const demotedDynamic = newCards.filter(a => !a.homepagePlacement && isDemoted(a));
   const { rows: leadRows, usedIds: leadIds } = homepageLeadRows(
     NEW_REVIEW, NEXT_REVIEW, THIRD_REVIEW, NEW_STORIES, dynamicLead,
-    FEED_ARTICLES.filter((article) => article.id !== FRAMED?.id),
+    FEED_ARTICLES.filter((article) => article.id !== FRAMED?.id && !isDemoted(article)),
   );
-  const feed = [...dynamicLead, ...NEW_STORIES, ...FEED_ARTICLES].filter((a, i, all) => !leadIds.has(a.id) && all.findIndex(b => b.id === a.id) === i);
+  const feed = [...dynamicLead, ...NEW_STORIES, ...FEED_ARTICLES, ...demotedDynamic].filter((a, i, all) => !leadIds.has(a.id) && all.findIndex(b => b.id === a.id) === i);
 
   // Build the feed for a given number of visible posts.
   const build = (count: number) => {
