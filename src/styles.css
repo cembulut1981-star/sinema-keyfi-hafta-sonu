@@ -200,21 +200,64 @@
   100% { background-position: -200% 0; }
 }
 
-/* Keep the magazine's grouped stories on phones without miniaturising the page. */
+.box-office-panel {
+  position: relative;
+  border: 2px solid var(--foreground);
+  border-top: 5px solid var(--primary);
+  border-bottom: 5px solid var(--foreground);
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
+}
+.box-office-panel::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 42px;
+  height: 5px;
+  background: var(--primary);
+  pointer-events: none;
+}
+.box-office-panel > header {
+  border-bottom: 0;
+  position: relative;
+}
+.box-office-panel > header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  width: 48px;
+  height: 3px;
+  background: var(--primary);
+}
+
+/* Lead and chart share one row; compact stories fill the entire row below. */
 @media (min-width: 1024px) {
-  .homepage-box-office-row .editorial-mixed-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    height: auto;
+  .homepage-box-office-row {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: stretch;
+    margin-bottom: 48px;
+  }
+  .homepage-box-office-row > div:first-child,
+  .homepage-box-office-row .editorial-mixed-row,
+  .homepage-box-office-row .editorial-mixed-row > div.grid {
+    display: contents;
   }
   .homepage-box-office-row .editorial-mixed-row > div:not(.grid):has(> article) {
-    grid-column: 1 / -1;
+    grid-column: 1 / 4;
+    grid-row: 1;
     order: -1;
-    height: 480px;
+    height: auto;
   }
-  .homepage-box-office-row .editorial-mixed-row > div.grid {
-    grid-column: auto;
-    order: 0;
-    height: 540px;
+  .homepage-box-office-row > div:last-child {
+    grid-column: 4;
+    grid-row: 1;
+    margin-bottom: 0;
+  }
+  .homepage-box-office-row .editorial-small-card {
+    height: 300px;
+    min-height: 0;
+    aspect-ratio: auto;
   }
 }
 

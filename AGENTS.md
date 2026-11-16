@@ -25,3 +25,4 @@
 - Article narration is produced on the server: the public narration route reads the article data, strips formatting, chunks the text and streams speech to the browser player; only items flagged narrated expose it, so enabling narration on a new post needs the flag and nothing else.
 - Special homepage small-card treatments use explicit presentation props selected by slug in the homepage, so category cards and unrelated stories retain their existing design.
 - Homepage box-office panels use dated, source-attributed snapshots in a browser-safe data module and a shared panel with site-hosted posters; never imply a snapshot is a live chart.
+- Desktop homepage chart groups share a grid between the lead story and chart, with compact stories spanning the full row below; this prevents unused space beneath the chart without changing story order.

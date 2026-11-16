@@ -3,7 +3,7 @@ import type { BoxOfficeChart } from "@/data/box-office";
 
 export function BoxOfficePanel({ chart }: { chart: BoxOfficeChart }) {
   return (
-    <aside aria-labelledby={`box-office-${chart.id}`} className="box-office-panel min-w-0 self-start border border-foreground bg-background text-foreground">
+    <aside aria-labelledby={`box-office-${chart.id}`} className="box-office-panel min-w-0 bg-background text-foreground">
       <header className="border-b-4 border-primary bg-editorial-ink px-4 py-4 text-primary-foreground">
         <div className="mb-2 flex items-center justify-between text-[10px] font-bold">
           <span>{chart.market}</span><TrendingUp size={16} aria-hidden />
