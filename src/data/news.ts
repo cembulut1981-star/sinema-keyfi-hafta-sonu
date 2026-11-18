@@ -14,11 +14,6 @@ import gameSpy from "@/assets/game-spy-first-light.jpg";
 import odysseyAsset from "@/assets/odyssey.webp.asset.json";
 import aliGAsset from "@/assets/ali-g.jpg.asset.json";
 import scottFoleyAsset from "@/assets/scott-foley.jpg.asset.json";
-import img_practical_magic_2 from "@/assets/news-rs-practical-magic-2.jpg";
-import img_blair_witch_reboot from "@/assets/news-rs-blair-witch-reboot.jpg";
-import img_tangled_up_in_blue from "@/assets/news-rs-tangled-up-in-blue.jpg";
-import img_not_alone from "@/assets/news-rs-not-alone.jpg";
-import img_artificial_amazon from "@/assets/news-rs-artificial-amazon.jpg";
 import img_obsession_400m from "@/assets/news-variety-obsession-400m.jpg";
 import img_minions_monsters from "@/assets/news-variety-minions-monsters.jpg";
 import rdjDoomAsset from "@/assets/rdj-doom.webp.asset.json";
@@ -100,6 +95,7 @@ import lanternStill from "@/assets/remote/raise-the-red-lantern-still.jpg.asset.
 import karoshiCover from "@/assets/remote/karoshi-cover.jpg.asset.json";
 import otherWorldsCover from "@/assets/remote/other-worlds-cover.jpg.asset.json";
 import carrieTrilogyCover from "@/assets/remote/carrie-trilogy-cover.jpg.asset.json";
+import werwulfCover from "@/assets/remote/werwulf-cover.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -121,6 +117,32 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "robert-eggers-werwulf-scariest-horror-movie",
+    addedAt: "2026-11-18",
+    narrated: true,
+    title: "Robert Eggers, Werwulf İçin “Yazabileceğim En Korkunç Filmi” Hedefledi: “Fiziksel Olarak Hasta Hissettim”",
+    excerpt: "Nosferatu’nun ardından kurt adam korkusu Werwulf’u hazırlayan Robert Eggers, yeni filminin kariyerinin en karanlık işi olduğunu söylüyor. Aaron Taylor-Johnson ise rol için kendinden kopmak zorunda kaldı.",
+    image: werwulfCover.url,
+    source: "Empire — Ben Travis, 17 November 2026",
+    body: `**Robert Eggers** filmleri titizlikle işlenmiş, dokusu ve kiriyle elle tutulur, cesurca oynanmış ve çoğu zaman da gerçekten ürkütücü yapımlar. **The Witch** ve **Nosferatu**'nun dönem korkusu, **The Lighthouse**'un siyah-beyaz gerçeküstücülüğü ya da **The Northman**'in destansı İskandinav aksiyonu bunun kanıtı. Ama yönetmenin kendisine bakılırsa asıl karanlık henüz gelmedi: Yeni kurt adam filmi **Werwulf**, Eggers sinemasını çok daha derin, karanlık ve kirli bir bölgeye taşıyacak.
+
+## "En Korkunç Filmi Yazmak İstedim"
+
+Nosferatu'nun büyük başarısının ardından Eggers, kendini daha da tavizsiz bir işe atmaya hazırdı. "Hep kendini zorlamaya çalışıyorsun," diyor yönetmen, "ve düşündüm ki, 'Yazabileceğim en korkunç korku filmini yazmayı deneyeyim.' Kesinlikle en karanlığı bu."
+
+Werwulf'un ilkel imgeleri daha kameraya alınmadan proje yönetmeni yıpratmaya başlamış. "Yazım süreci kesinlikle hoş değildi," diye anlatıyor Eggers. "Bu filmi yazarken bazen fiziksel olarak hasta hissettim, ama filmin ihtiyacı buydu. Bitmiş filmi gördüğünüzde…"
+
+## Aaron Taylor-Johnson: "Ruhsuz Bir Karakter"
+
+Başroldeki **Aaron Taylor-Johnson** için de 14. yüzyılın dünyasına dalmak ve bu kadar karanlık, sapkın bir malzemeyle yüzleşmek benzer biçimde yorucu olmuş. "Bu rolü oynamak ve Rob'un benden istediği şeyleri canlandırmak için kendimin büyük bir parçasını kenara koyup kendimden kopmam gerektiğini biliyordum," diyor oyuncu. "Karakterim ruhsuz. Ruhunu şeytana vermiş biri; yani boş bir kabım. İçten dışa doğru oyulmuş hissetmek istedim. Pek çok farklı süreçten geçtim ve hepsinin birleşimi beni çok, çok karanlık bir ruh haline soktu."
+
+Filmde Taylor-Johnson'a **Lily-Rose Depp** eşlik ediyor; Depp, Eggers'la Nosferatu'dan sonra ikinci kez çalışıyor.
+
+## Ne Zaman Vizyonda?
+
+**Werwulf**, 1 Ocak 2027'de İngiltere sinemalarında vizyona giriyor. Kışın karanlığında uçuruma doğru ulumaya hazır olun.`,
+  },
   {
     slug: "mike-flanagan-carrie-three-seasons-trilogy-plan",
     addedAt: "2026-11-16",
@@ -1853,46 +1875,6 @@ Roth, son komedi-slasher filmi "Ice Cream Man" için bağımsız rotayı seçti.
     body: "Staines’in en ünlü siyasi \"muhabiri\" Ali G, 2002 yapımı Ali G Indahouse’tan 24 yıl sonra sinemaya dönüyor. The InSneider’ın haberine göre yeni filmin çekimleri tamamlandı; çekim yerleri arasında Sacha Baron Cohen’in geçen yaz karakterinin kostümüyle görüldüğü Oxfordshire ve ABD’deki çeşitli mekânlar bulunuyor. Filmin adı ve gösterim tarihi henüz açıklanmadı; yıldızın temsilcileri yorum yapmayı reddetti.\n\nKarakterin dönüşüne dair ilk söylentiler 2023’te çıkmıştı, ancak ABD’deki senarist ve oyuncu grevleri projeyi yıllarca geciktirdi. Eşofmanlı, saf \"gençliğin sesi\" Ali G, ilk kez 1998’de Channel 4’un The 11 O'Clock Show programında göründü ve kısa sürede kendi dizisine kavuştu. Sacha Baron Cohen, 2007’de hem Ali G’yi hem de Borat’ı emekliye ayırdığını açıklasa da iki karakter de o tarihten bu yana zaman zaman geri döndü.\n\nBorat ve 2009 yapımı Brüno gibi yeni Ali G filminin de büyük ölçüde gizlice çekildiği ve durumdan habersiz kişilerle röportajlar içerdiği düşünülüyor. Ali G’nin geçmişteki \"kurbanları\" arasında şaşkına dönen Newt Gingrich ve öfkeden köpüren Tony Benn de vardı. Cohen’in son projesi, Netflix’in cinsiyet rollerini tersine çeviren komedisi Ladies First, eleştirmenlerden olumsuz yorumlar aldı; imza karakterine bu dönüşü, Oscar’a aday gösterildiği The Trial of the Chicago 7’dan bu yana en yakından izlenen projesi olmaya aday.",
     image: aliGAsset.url,
     source: "The Guardian",
-  },
-  {
-    slug: "practical-magic-2",
-    title: "Practical Magic 2 Fragmanı Yayımlandı: Owens Cadıları Lanete Meydan Okuyor",
-    excerpt: "Sandra Bullock ve Nicole Kidman, kült klasiğin devam filminde Owens kardeşler olarak geri dönüyor. Yeni fragman, ailenin genç kuşağının ölümcül bir aşk lanetini kırmak için harekete geçtiğini gösteriyor.",
-    body: "Sandra Bullock’un 'Practical Magic 2' fragmanında söylediği gibi: \"Büyünün özelliği budur; susturulamaz.\" 90’ların kült klasiğinin devam filmi için yayımlanan son fragman büyüyle dolu, ancak Owens kardeşlerin, özellikle de Bullock’un canlandırdığı Sally’nin, büyünün getirdiklerine her zaman hazır olmadığını da gösteriyor.\n\nSusanne Bier’in yönettiği, Alice Hoffman’ın 2021 tarihli 'The Book of Magic' romanından uyarlanan film, bizi Owens kardeşler Sally (Sandra Bullock) ve Gillian (Nicole Kidman) ile yeniden buluşturuyor. İkisi hâlâ birbirinin zıddı: Sally şahane turtalar yapan, erkeklerden uzak duran fedakâr bir anneyken Gillian hâlâ Tinder’da eşleşme arıyor. Jet (Dianne Wiest) ve Frances (Stockard Channing) teyzeler de bilgece öğütleriyle geri dönüyor.\n\nAma asıl kaos, Owens ailesinin yeni kuşağı, yani Sally’nin kızları sahneye çıktığında başlıyor. Joey King’in canlandırdığı Kylie Owens, kız kardeşine (Maisie Williams), \"Annemin bize âşık olan herkesin öldüğüne dair anlattığı hikâyeleri hatırlıyor musun?\" diye soruyor. Kylie’nin sevgilisi olduğu düşünülen adam bir trafik kazası geçirince kardeşler hikâyelerin doğru olabileceğini fark ediyor ve \"laneti düzeltmek\" için yola koyuluyor.\n\nElbette Sally ve Gillian da kızların peşine düşüyor ve kendilerini Londra’da, Lee Pace’in canlandırdığı yeni bir karakterden yardım isterken buluyor. Aile dramını, büyüyü ve macerayı harmanlayan bir hikâye vadeden fragman, efsaneye yeni bir sayfa eklerken ilk filmin hayranlarını da memnun etmeyi hedefliyor.",
-    image: img_practical_magic_2,
-    source: "Rolling Stone",
-  },
-  {
-    slug: "blair-witch-reboot",
-    title: "Blair Witch Kâbusu Geri Dönüyor: Korku Klasiği TikTok Çağına Ayak Uydurabilir mi?",
-    excerpt: "1999’un kült korku filmi The Blair Witch Project, yeni bir kuşak için yeniden çekiliyor. Lionsgate’in yeni duyurduğu film, “buluntu görüntü” yaklaşımını günümüz teknolojisine ve TikTok kuşağına uyarlamaya çalışacak.",
-    body: "1999’da 'The Blair Witch Project', ormanda kaybolan bir grup sinema öğrencisinden geriye kalan \"buluntu görüntülerle\" sinemaseverleri dehşete düşürmüştü; şimdi yeni bir kâbus için geri dönüyor. Lionsgate, korku klasiğini modern çağ için yeniden yorumlayacağını açıkladı. Yeni film 24 Eylül 2027’de gösterime girecek.\n\nİlk filmin başarısı, büyük ölçüde karakterlerin akıllı telefonların ve sosyal medyanın olmadığı bir dünyada yaşadığı yalnızlık ve çaresizliğe dayanıyordu. Peki herkesin cebinde GPS ve iletişim cihazı taşıdığı TikTok çağında bu korku nasıl yeniden yaratılacak? Lionsgate Başkanı Adam Fogelson, projeyi \"Blair Witch’i yeni bir kuşakla tanıştıracak yeni bir vizyon\" olarak tanımladı; ancak senaryoya dair ayrıntılar henüz paylaşılmadı.\n\nFilmi, 'Bloody Bites' gibi korku projelerinde çalışan Dylan Clark yönetecek. Senaryo, 2022 yapımı 'Texas Chainsaw Massacre' ve 'Cobweb'in yazarı Chris Thomas Devlin’e emanet. Clark, Instagram paylaşımında şöyle dedi: \"'The Blair Witch Project', sinemacılığa başlamamı sağlayan filmlerden biri. Bu dünyaya, onu yaratan isimlerden bazılarıyla birlikte adım atmak tam anlamıyla bir hayal.\"\n\nİlk filmin oyuncuları Joshua Leonard ve Michael C. Williams’ın, yönetmenler Daniel Myrick ve Eduardo Sánchez ile birlikte yapımcılığı üstlenmesi de projeye güveni artırıyor. Bu, yeni filmin köklerine sadık kalmak istediğine işaret ediyor. Ancak asıl soru değişmiyor: Blair Witch, dijital çağın gürültüsü içinde o ilkel korkuyu yeniden yakalayabilecek mi?",
-    image: img_blair_witch_reboot,
-    source: "Rolling Stone",
-  },
-  {
-    slug: "tangled-up-in-blue",
-    title: "Sürpriz İkili: Kylie Minogue ve Quentin Tarantino Aynı Filmde!",
-    excerpt: "Pop ikonu Kylie Minogue ile efsane yönetmen Quentin Tarantino, adını bir Bob Dylan şarkısından alan Tangled Up in Blue’da başrolleri paylaşacak. Çekimler Galler’de başladı.",
-    body: "Netflix belgeselinin kısa süre önce yayımlanmasının ardından pop ikonu Kylie Minogue oyunculuğa dönüyor. Kariyerine Avustralya televizyon dizilerinde başlayan yıldız, yönetmen Jamie Adams’ın yeni filmi 'Tangled Up in Blue'da başrolü üstlenecek. Ama filmin asıl sürprizi, Minogue’a eşlik edecek isim: Quentin Tarantino!\n\nAdını Bob Dylan’ın 1975 tarihli 'Blood on the Tracks' albümündeki ikonik şarkıdan alan filmin çekimleri, Galler’in Porthcawl kasabasında başladı. Minogue ve Tarantino’nun bir restoranda birlikte görülmesi, sinema dünyasında heyecan dalgası yarattı. Görünüşe göre Tarantino, uzun süredir sözünü verdiği son filmini yönetmek yerine bu kez kamera önüne geçmeye karar verdi.\n\nVariety’nin doğruladığı bilgilere göre filmin zengin kadrosunda Jason Isaacs, Allison Williams, Sofia Boutella ve RZA’nın yanı sıra Galli oyuncular Julian Lewis Jones ve Craig Russell da yer alıyor. Yönetmen Jamie Adams, Variety’ye rolü Tarantino’ya doğrudan teklif ettiğini söyledi.\n\nAdams süreci şöyle anlatıyor: \"Ona hikâyenin bir taslağını ve bir mektup gönderdim. Oyunculuğuna inandığım konusunda son derece samimiydim. Doğaçlamaya dayalı yöntemim, anda kalmak ve doğal tepkiler vermek üzerine kurulu. O, yaşayan en büyük hikâye anlatıcılarından biri. Bunun bir karakterin içinde inanılmaz olacağını düşündüm. Bana döneceğini sanmıyordum ama iki hafta sonra menajeri aradı ve Quentin’in ilgilendiğini, Zoom görüşmesi yapmak istediğini söyledi.\"",
-    image: img_tangled_up_in_blue,
-    source: "Rolling Stone",
-  },
-  {
-    slug: "not-alone",
-    title: "Timothée Chalamet ve Selena Gomez Bir Uzay Macerası İçin Bir Arada: Karşınızda Not Alone",
-    excerpt: "Timothée Chalamet ile Selena Gomez, yeni animasyon filmi Not Alone için güçlerini birleştiriyor. Film, birbirine âşık iki bilim insanı ve evlerine sığınan üç sevimli uzaylının maceralarını izleyecek.",
-    body: "Yıldızlararası bir kutsal savaşı konu alan 'Dune' serisinin ardından Timothée Chalamet, bu kez çok daha aile dostu bir uzay macerası için Selena Gomez ile bir araya geliyor. İkilinin başrolleri seslendireceği yeni animasyon filmi 'Not Alone', 16 Nisan 2027’de gösterime girecek.\n\nChalamet’nin bir önceki gece Instagram’da roket emojisi ve \"Yarın yeni film duyurusu :)\" notuyla yaptığı gizemli paylaşım, hayranlarını çoktan heyecanlandırmıştı. Duyurulan 'Not Alone', Chalamet’nin ilk uzun metrajlı animasyon projesi olacak. Filmde Chalamet, \"içine kapanık bir roket tamircisi\" olan Joe’yu seslendirirken Gomez, \"bitki yakıtıyla çalışan ilk roketi\" icat eden \"uzay botanikçisi\" Fran’e ses veriyor. İkili, roketin ilk fırlatılışı için bir araya geldiklerinde, romantizm konusunda pek becerikli olmasalar da birbirlerine âşık oluyor.\n\nHikâyeye, Joe’nun evine sığınan Dunk, Welly ve Shirm adlı üç sevimli uzaylı renk katıyor. Beceriksiz galaksilerarası polis Memur Zandro’dan kaçan uzaylılar, Fran’in roketini kullanarak kendi gezegenlerine sağ salim dönmeyi umuyor.\n\nFilmin yıldızlarla dolu seslendirme kadrosunda Chalamet ve Gomez’in yanı sıra üç uzaylıyı sırasıyla seslendiren Rob Brydon, Diane Morgan ve Jamie Demetriou yer alıyor. 'Ted Lasso'nun yıldızı Brett Goldstein, Memur Zandro’yu seslendirirken Allison Janney ve Lamorne Morris de yardımcı rollerde kadroyu tamamlıyor.",
-    image: img_not_alone,
-    source: "Rolling Stone",
-  },
-  {
-    slug: "artificial-amazon",
-    title: "Amazon, OpenAI ile Anlaşınca Kendi OpenAI Filmini Rafa Kaldırdı",
-    excerpt: "Amazon, OpenAI ortaklığının ardından çıkar çatışması endişelerini gerekçe göstererek Andrew Garfield’ın başrolünde olduğu, Sam Altman’ı konu alan Artificial filmini iptal etti.",
-    body: "Sinema sektöründe ender görülen bir adımla Amazon MGM Studios, OpenAI ve kurucusu Sam Altman’ı konu alan 'Artificial' filminden çekildiğini açıkladı. Andrew Garfield’ın başrolünde olduğu, Luca Guadagnino’nun yönettiği projeden vazgeçilmesi, Amazon’un OpenAI ile milyonlarca dolarlık stratejik ortaklık imzalamasından yalnızca dört ay sonra geldi.\n\nNeredeyse tamamlandığı ve test gösterimlerinin bile yapıldığı belirtilen film, Amazon tarafından yeni bir ortak arayışıyla ansızın yeniden piyasaya sunuldu. Bir Amazon sözcüsü, \"Ödüllü sinemacı Luca Guadagnino’ya büyük saygı ve hayranlık duyuyoruz. 'Artificial'ın başka bir stüdyo aracılığıyla gösterime girmesinin film için daha iyi olacağına inanıyoruz ve filme yeni bir yuva bulmak için yapım ekibiyle yakın çalışıyoruz\" diyerek altta yatan çıkar çatışmasını dolaylı biçimde kabul etti.\n\nBu çatışmanın merkezinde, Amazon Web Services (AWS) ile OpenAI arasında bu yılın başında açıklanan dev ortaklık bulunuyor. İki şirket, \"üretim ölçeğinde üretken yapay zekâ uygulamaları geliştirmek\" üzere güçlerini birleştirmişti. Bu nedenle Amazon’un önemli bir yeni iş ortağına eleştirel yaklaşabilecek bir filmi finanse edip dağıtması ticari açıdan sürdürülemez görüldü.\n\nVariety’ye göre 'Artificial', başka stüdyolara ve dijital platformlara sunulmaya başlandı bile. Özellikle OpenAI ile yüz milyarlarca dolarlık anlaşmaları bulunmayan şirketlerin filme ilgi göstermesi bekleniyor. Bu durum, filmin sonunda başka bir platformda izleyiciyle buluşma ihtimalini canlı tutarken teknoloji ile sanat arasındaki karmaşık, zaman zaman çelişkili ilişkinin de çarpıcı bir örneğini oluşturuyor.",
-    image: img_artificial_amazon,
-    source: "Rolling Stone",
   },
   {
     slug: "obsession-400-milyon-dolar",

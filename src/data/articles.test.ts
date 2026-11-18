@@ -189,7 +189,7 @@ describe("added dates on the ten newest homepage cards", () => {
     "karoshi-trailer-teo-yoo-samurai-corporate-thriller": "2026-11-07",
     "raise-the-red-lantern-gong-li-review": "2026-11-07",
     "adam-driver-hunt-for-ben-solo-over": "2026-11-06",
-    "best-thriller-movies-since-1990-ranked": "2026-11-04",
+    "robert-eggers-werwulf-scariest-horror-movie": "2026-11-18",
     "the-body-netflix-coming-of-age-review": "2026-11-14",
     "mike-flanagan-carrie-three-seasons-trilogy-plan": "2026-11-16",
     "rings-of-power-season-3-episode-guide": "2026-11-13",
