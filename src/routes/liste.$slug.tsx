@@ -14,7 +14,7 @@ import trailerMercy from "@/assets/trailer-mercy.mp4.asset.json";
 
 import { SiteShell } from "@/components/site/SiteShell";
 import { ArticleNarration } from "@/components/site/ArticleNarration";
-import { articleProse } from "@/lib/prose";
+import { articleProseFor } from "@/lib/article-fonts";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { CommentSection } from "@/components/site/CommentSection";
 import { isCommentedPost } from "@/lib/comments";
@@ -120,7 +120,7 @@ function ListPage() {
           </div>
         </div>
 
-        <div className={articleProse}>
+        <div className={articleProseFor(l.slug)}>
           <ReactMarkdown
             components={{
               // Rolling Stone galerisindeki gibi kalın siyah çerçeveli görseller

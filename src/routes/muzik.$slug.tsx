@@ -4,7 +4,8 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell } from "@/components/site/SiteShell";
-import { articleProse, toParagraphs } from "@/lib/prose";
+import { toParagraphs } from "@/lib/prose";
+import { articleProseFor } from "@/lib/article-fonts";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getMusic, MUSIC } from "@/data/music";
@@ -64,7 +65,7 @@ function MusicPage() {
         </div>
 
 
-        <div className={articleProse}>
+        <div className={articleProseFor(m.slug)}>
           {toParagraphs(m.body).map((para, i) => (
             <ReactMarkdown key={i}>{para}</ReactMarkdown>
           ))}

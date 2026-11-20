@@ -4,7 +4,8 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell, ImdbBadge, CustomBadge } from "@/components/site/SiteShell";
-import { articleProse, toParagraphs } from "@/lib/prose";
+import { toParagraphs } from "@/lib/prose";
+import { articleProseFor } from "@/lib/article-fonts";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { PhotoGallery } from "@/components/site/PhotoGallery";
@@ -63,7 +64,7 @@ function SeriesPage() {
           </div>
         </div>
 
-        <div className={articleProse}>
+        <div className={articleProseFor(s.slug)}>
           {toParagraphs(s.body).map((para, i) => (
             <ReactMarkdown key={i}>{para}</ReactMarkdown>
           ))}

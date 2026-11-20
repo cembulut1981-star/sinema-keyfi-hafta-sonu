@@ -5,7 +5,8 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import ReactMarkdown from "react-markdown";
 
 import { SiteShell, CustomBadge } from "@/components/site/SiteShell";
-import { articleProse, toParagraphs } from "@/lib/prose";
+import { toParagraphs } from "@/lib/prose";
+import { articleProseFor } from "@/lib/article-fonts";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { OtherArticlesSidebar } from "@/components/site/OtherArticlesSidebar";
 import { getNews, NEWS } from "@/data/news";
@@ -103,7 +104,7 @@ function NewsPage() {
 
         {n.youtubeTrailerId ? <YouTubeTrailer videoId={n.youtubeTrailerId} title={n.youtubeTrailerTitle ?? n.title} /> : null}
 
-        <div className={articleProse}>
+        <div className={articleProseFor(n.slug)}>
           {toParagraphs(n.body).map((para, i) => (
             <div key={i}>
               <ReactMarkdown>{para}</ReactMarkdown>

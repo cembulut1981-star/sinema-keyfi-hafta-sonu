@@ -26,3 +26,4 @@
 - Special homepage small-card treatments use explicit presentation props selected by slug in the homepage, so category cards and unrelated stories retain their existing design.
 - Homepage box-office panels use dated, source-attributed snapshots in a browser-safe data module and a shared panel with site-hosted posters; never imply a snapshot is a live chart.
 - Desktop homepage chart groups share a grid between the lead story and chart, with compact stories spanning the full row below; this prevents unused space beneath the chart without changing story order.
+- Article body typography comes from the variants in src/lib/prose.ts, chosen per slug by src/lib/article-fonts.ts; switching a post to the editorial serif means editing that list only, never inline font classes in a route.

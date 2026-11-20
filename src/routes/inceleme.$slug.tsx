@@ -6,7 +6,8 @@ import ReactMarkdown from "react-markdown";
 
 import { SiteShell, ImdbBadge } from "@/components/site/SiteShell";
 import { ArticleNarration } from "@/components/site/ArticleNarration";
-import { articleProse, toParagraphs } from "@/lib/prose";
+import { toParagraphs } from "@/lib/prose";
+import { articleProseFor } from "@/lib/article-fonts";
 import { ShareButtons } from "@/components/site/ShareButtons";
 import { CommentSection } from "@/components/site/CommentSection";
 import { isCommentedPost } from "@/lib/comments";
@@ -170,7 +171,7 @@ function ReviewPage() {
           </figure>
         ) : null}
 
-        <div className={articleProse}>
+        <div className={articleProseFor(r.slug)}>
           {toParagraphs(r.body).map((para, i) => (
             <div key={i}>
               <ReactMarkdown>{para}</ReactMarkdown>

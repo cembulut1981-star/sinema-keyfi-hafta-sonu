@@ -65,6 +65,8 @@
   --font-display: "Roboto Condensed", "Arial Narrow", sans-serif;
   --font-serif: "Roboto", system-ui, sans-serif;
   --font-sans: "Roboto", system-ui, sans-serif;
+  /* Editorial serif used for selected article bodies (Miller Text-like) */
+  --font-serif-body: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
 :root {

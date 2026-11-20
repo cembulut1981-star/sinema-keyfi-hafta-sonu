@@ -3,7 +3,8 @@ import { SiteShell } from './SiteShell';
 import { ArticleByline } from './ArticleByline';
 import { ShareButtons } from './ShareButtons';
 import { CommentSection } from './CommentSection';
-import { articleProse, toParagraphs } from '@/lib/prose';
+import { toParagraphs } from '@/lib/prose';
+import { articleProseFor } from '@/lib/article-fonts';
 import { isCommentedPost } from '@/lib/comments';
 import type { PublicEditorialPost } from '@/lib/editorial-public-fields';
 export function EditorialArticle({ post }: { post: PublicEditorialPost }) {
@@ -12,7 +13,7 @@ export function EditorialArticle({ post }: { post: PublicEditorialPost }) {
     <p className="mt-4 text-lg text-muted-foreground">{post.excerpt}</p>
     <ArticleByline source={post.source_credit} />
     <figure className="my-10 mx-auto max-w-[560px] bg-card-green p-3"><img src={`/api/public/editorial-media/${post.id}`} alt={post.title} className="w-full max-h-[500px] object-contain" /></figure>
-    <div className={articleProse}>{toParagraphs(post.body).map((paragraph, i) => <div key={i}><ReactMarkdown>{paragraph}</ReactMarkdown></div>)}</div>
+    <div className={articleProseFor(post.slug)}>{toParagraphs(post.body).map((paragraph, i) => <div key={i}><ReactMarkdown>{paragraph}</ReactMarkdown></div>)}</div>
     <ShareButtons title={post.title} path={`/haber/${post.slug}`} />
     {isCommentedPost(post.slug) ? <CommentSection slug={post.slug} /> : null}
     </article>

@@ -1,12 +1,16 @@
 /**
  * Single source of truth for article body typography.
- * Paragraph spacing (prose-p:my-8) and line-height are defined here only,
+ * Paragraph spacing (prose-p:my-7) and line-height are defined here only,
  * so every article page renders identical gaps between paragraphs.
+ *
+ * Two variants share the same layout rules and differ only in type:
+ * - articleProse: default sans body (Roboto, 17px)
+ * - articleProseSerif: editorial serif body (Source Serif 4, 19px)
  */
-export const articleProse = [
-  "max-w-none text-[17px] leading-[1.85]",
+const proseLayout = [
+  "max-w-none",
   // Paragraf arası boşluk: tek kural, tipografi eklentisine bağlı değil
-  "[&_p]:my-7 [&_p]:leading-[1.85] [&_p]:text-[17px]",
+  "[&_p]:my-7",
   "[&>*+*]:mt-7",
   "[&_h2]:font-serif-display [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:mt-12 [&_h2]:mb-5",
   "[&_h3]:font-serif-display [&_h3]:text-xl [&_h3]:font-bold [&_h3]:mt-10 [&_h3]:mb-4",
@@ -15,7 +19,21 @@ export const articleProse = [
   "[&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_li]:my-2",
   "[&_img]:my-8 [&_img]:w-full",
   "[&_blockquote]:border-l-4 [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:my-8",
-].join(" ");
+];
+
+const sansTypography = [
+  "text-[17px] leading-[1.85]",
+  "[&_p]:leading-[1.85] [&_p]:text-[17px]",
+];
+
+const serifTypography = [
+  "font-serif-body text-[19px] leading-[1.75]",
+  "[&_p]:leading-[1.75] [&_p]:text-[19px]",
+];
+
+export const articleProse = [...proseLayout, ...sansTypography].join(" ");
+
+export const articleProseSerif = [...proseLayout, ...serifTypography].join(" ");
 
 /**
  * Normalizes an article body into clean paragraphs:
