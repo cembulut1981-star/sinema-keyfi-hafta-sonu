@@ -3,6 +3,7 @@ import { z } from 'zod';
 // The ten newest Sine-Meta posts, newest first. Comments are open on these only.
 // A newer post joins the list here and in public.comment_threads.
 export const COMMENTED_POST_SLUGS = [
+  'robert-pattinson-james-bond-casting-analysis',
   'robert-eggers-werwulf-scariest-horror-movie',
   'mike-flanagan-carrie-three-seasons-trilogy-plan',
   'the-body-netflix-coming-of-age-review',
@@ -11,7 +12,6 @@ export const COMMENTED_POST_SLUGS = [
   'stranger-things-other-worlds-prequel-2028-teaser',
   'karoshi-trailer-teo-yoo-samurai-corporate-thriller',
   'raise-the-red-lantern-gong-li-review',
-  'adam-driver-hunt-for-ben-solo-over',
   'hunger-games-companion-album-to-feature-jennifer-7f53c993',
 ] as const;
 

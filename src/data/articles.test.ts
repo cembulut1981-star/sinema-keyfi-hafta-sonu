@@ -188,7 +188,7 @@ describe("added dates on the ten newest homepage cards", () => {
     "stranger-things-other-worlds-prequel-2028-teaser": "2026-11-09",
     "karoshi-trailer-teo-yoo-samurai-corporate-thriller": "2026-11-07",
     "raise-the-red-lantern-gong-li-review": "2026-11-07",
-    "adam-driver-hunt-for-ben-solo-over": "2026-11-06",
+    "robert-pattinson-james-bond-casting-analysis": "2026-11-20",
     "robert-eggers-werwulf-scariest-horror-movie": "2026-11-18",
     "the-body-netflix-coming-of-age-review": "2026-11-14",
     "mike-flanagan-carrie-three-seasons-trilogy-plan": "2026-11-16",

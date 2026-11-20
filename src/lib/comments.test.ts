@@ -47,7 +47,8 @@ describe("commented posts", () => {
     assert.equal(isCommentedPost("mortal-shell-2-rps-review"), false);
     assert.equal(isCommentedPost("karoshi-trailer-teo-yoo-samurai-corporate-thriller"), true);
     assert.equal(isCommentedPost("raise-the-red-lantern-gong-li-review"), true);
-    assert.equal(isCommentedPost("adam-driver-hunt-for-ben-solo-over"), true);
+    assert.equal(isCommentedPost("adam-driver-hunt-for-ben-solo-over"), false);
+    assert.equal(isCommentedPost("robert-pattinson-james-bond-casting-analysis"), true);
     assert.equal(isCommentedPost("best-thriller-movies-since-1990-ranked"), false);
     assert.equal(isCommentedPost("best-star-wars-games-ever-ranked"), true);
     assert.equal(isCommentedPost("crystal-lake-indiewire-review"), false);

@@ -96,6 +96,7 @@ import karoshiCover from "@/assets/remote/karoshi-cover.jpg.asset.json";
 import otherWorldsCover from "@/assets/remote/other-worlds-cover.jpg.asset.json";
 import carrieTrilogyCover from "@/assets/remote/carrie-trilogy-cover.jpg.asset.json";
 import werwulfCover from "@/assets/remote/werwulf-cover.jpg.asset.json";
+import bondPattinsonCover from "@/assets/remote/bond-pattinson-cover.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -117,6 +118,36 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "robert-pattinson-james-bond-casting-analysis",
+    addedAt: "2026-11-20",
+    narrated: true,
+    title: "Şık, Cesur, Tuhaf: Robert Pattinson’ın Bond Seçimi 007 İçin Ne Anlama Geliyor?",
+    excerpt: "Robert Pattinson resmen yeni James Bond. Batman ve Mickey 17 yıldızının Denis Villeneuve’ün 007’sine getireceği şey, serinin alışık olmadığı türden bir tuhaflık olabilir.",
+    image: bondPattinsonCover.url,
+    source: "Empire — Chris Hewitt, 16 November 2026",
+    body: `**Robert Pattinson** resmen yeni **James Bond**. Amazon MGM Studios'un **Denis Villeneuve** yönetmenliğindeki 007 yeniden başlatması için aylardır adı geçen **Jack Lowden**, **Callum Turner**, **Josh O'Connor** ve **Jack O'Connell** gibi adayların arasından, son anda yarışa giren Pattinson sıyrıldı. Son düzlükte kadroya katılan bir yıldızın rolü kapması kimseyi şaşırtmadı: Bu büyüklükte bir isim, stüdyoya ancak rolü almak için gelir.
+
+## Şimdiye Kadarki En Büyük İsim
+
+Pattinson, Bond rolüne seçilen tartışmasız en büyük yıldız. **Roger Moore** ve **Pierce Brosnan** rolü aldıklarında büyük isimlerdi ama televizyon şöhretiyle sınırlıydı. **Sean Connery** ve **George Lazenby** neredeyse tanınmıyordu; **Timothy Dalton** ve **Daniel Craig** ise büyük çıkışını bekleyen saygın oyunculardı.
+
+Pattinson ise farklı bir ligde: O **Batman**. O **Edward Cullen**. O **Mickey 17**. Üstelik **Primetime**'daki performansıyla Oscar konuşuluyor. Yani bu, tanınmayan birini ya da şöhretin eşiğindeki bir oyuncuyu seçmekten çok farklı bir durum. Pattinson bu role talip olduysa, gerçekten Bond olmak istediği içindir; buna ihtiyacı yok. Ve bu, cesaret verici bir başlangıç.
+
+## Tuhaf Bond Kapıda mı?
+
+Pattinson cesur, ilginç ve riskli seçimler yapan bir oyuncu. Bu kadar yakışıklı birinin bu denli "tuhaf" olabilmesi nadir görülür. Yaklaşan **Dune: Part Three** fragmanlarında — Bond filminde de yönetmeni olacak Villeneuve'le burada tanıştı — canlandırdığı **Scytale** karakteri, bu tuhaflık çizgisinin süreceğinin işareti.
+
+Bond da zaten normal bir adam değil: Sert içen, kadın düşkünü, buz gibi soğuk bir katil. Pattinson ve Villeneuve'ün karakterin psikolojik kırılma noktalarını bulup ona daha öncekilerden farklı yaklaşması hayal değil.
+
+## İlk Kare Gelenekseldi
+
+Yine de geleneksel olarak Bond, etrafındaki renkli kötü adamların ve kadınların karşısında "düz adam"dır. Pattinson'ın Bond olarak yayınlanan ilk fotoğrafı ve videosu da fazlasıyla gelenekseldi: Smokin, silah, gölgelerden çıkış. Bu, yeni 007'nin beklenenden daha ortodoks olabileceğine işaret ediyor. Tuhaflaşacaklarsa bile bunu oldukça dar ve yerleşik sınırlar içinde yapmak zorundalar; votka martininin yerini başka bir kokteylin almasını beklemeyin.
+
+## Yaş Meselesi
+
+İlginç bir detay: Pattinson 40 yaşında. Rolle güçlü biçimde anılan diğer oyuncuların tamamı 36'sında. İlk bakışta büyük bir fark değil ama Pattinson'ın bu rolü 50'li yaşlarına taşıma ihtimali zayıf. Üç filmlik anlaşma söylentileri doğruysa, birkaç yıl içinde bu casting dansını baştan yapıyor olabiliriz. Bu, şu an 20'li yaşlarının başındaki İngiliz oyuncular için müjde sayılır.`,
+  },
   {
     slug: "robert-eggers-werwulf-scariest-horror-movie",
     addedAt: "2026-11-18",
@@ -342,7 +373,6 @@ Sonuç, mahrem bir siyasi vahşetin ve var olma hakkı için verilen acımasız 
   },
   {
     slug: "adam-driver-hunt-for-ben-solo-over",
-    addedAt: "2026-11-06",
     narrated: true,
     title: "Adam Driver Noktayı Koydu: “The Hunt for Ben Solo” İçin Gemi Kalktı",
     excerpt: "Adam Driver, Steven Soderbergh'le geliştirdikleri Kylo Ren filmi The Hunt for Ben Solo'nun Disney tarafından reddedildiğini ve Star Wars'a dönüşünün söz konusu olmadığını söyledi: “Bitti.”",

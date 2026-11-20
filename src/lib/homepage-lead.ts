@@ -10,7 +10,7 @@ export const HOMEPAGE_TOP_ROW_LIST_SLUG = "best-star-wars-games-ever-ranked";
 
 // The four small cards shown beside the top row's lead story, in shown order.
 export const HOMEPAGE_TOP_ROW_SLUGS = [
-  "rings-of-power-season-3-episode-guide",
+  "robert-pattinson-james-bond-casting-analysis",
   "rings-of-power-season-3-empire-review",
   "mike-flanagan-carrie-three-seasons-trilogy-plan",
   HOMEPAGE_TOP_ROW_LIST_SLUG,
