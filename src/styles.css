@@ -335,3 +335,15 @@
 @media (prefers-reduced-motion: reduce) {
   .site-nav-links a::after { transition: none; }
 }
+
+/* Homepage cards: Rolling Stone-like condensed bold serif headlines + serif dek */
+.home-rs-type :is(h2, h3) {
+  font-family: "Roboto Serif", Georgia, serif;
+  font-variation-settings: "wdth" 62, "opsz" 144;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.02;
+}
+.home-rs-type p {
+  font-family: var(--font-serif-body);
+}

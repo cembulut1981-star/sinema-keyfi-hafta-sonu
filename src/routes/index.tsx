@@ -370,7 +370,7 @@ function Index() {
 
   return (
     <SiteShell>
-      <main className="mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-5 md:py-10">
+      <main className="home-rs-type mx-auto max-w-[1180px] px-4 sm:px-6 lg:px-8 py-5 md:py-10">
         <h1 className="sr-only">Sine-Meta — Film Haberleri, İncelemeler ve Listeler</h1>
         {leadRows.map((r, i) => (
           <Fragment key={r.center.id}>
