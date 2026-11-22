@@ -1,4 +1,15 @@
 // Auto-curated list content. Sources: WhatCulture film section.
+import ps_cover from "@/assets/remote/patrick-stewart-cover.jpg.asset.json";
+import ps_tng from "@/assets/remote/patrick-stewart-tng.jpg.asset.json";
+import ps_tights from "@/assets/remote/patrick-stewart-tights.jpg.asset.json";
+import ps_xmen from "@/assets/remote/patrick-stewart-xmen.jpg.asset.json";
+import ps_match from "@/assets/remote/patrick-stewart-match.jpg.asset.json";
+import ps_blunt from "@/assets/remote/patrick-stewart-blunt.jpg.asset.json";
+import ps_greenroom from "@/assets/remote/patrick-stewart-greenroom.jpg.asset.json";
+import ps_nomans from "@/assets/remote/patrick-stewart-nomans.jpg.asset.json";
+import ps_logan from "@/assets/remote/patrick-stewart-logan.jpg.asset.json";
+import ps_kid from "@/assets/remote/patrick-stewart-kid.jpg.asset.json";
+import ps_bait from "@/assets/remote/patrick-stewart-bait.jpg.asset.json";
 import { THRILLER_LIST } from './thriller-list';
 import img1 from "@/assets/wc-list-1.jpg";
 import img2 from "@/assets/wc-list-2.jpg";
@@ -74,6 +85,79 @@ export type ListItem = {
 };
 
 const _LISTS_RAW: ListItem[] = [
+  {
+    slug: "patrick-stewart-best-roles",
+    title: "Patrick Stewart'ın En Unutulmaz 10 Rolü: Kaptan Picard'dan Profesör X'e",
+    excerpt: "Jean-Luc Picard ve Charles Xavier'ın ötesinde: Shakespeare sahnelerinden neo-Nazi kötü adama, Merlin'den konuşan domuz kafasına, Sir Patrick Stewart'ın kariyerini tanımlayan on rol.",
+    countdownBadge: "10 rol seçkisi",
+    image: ps_cover.url,
+    source: "Rolling Stone — October 29, 2026",
+    addedAt: "2026-11-22",
+    narrated: true,
+    body: `Sir Patrick Stewart yalnızca USS Enterprise'ın kaptanı Jean-Luc Picard'ı ya da X-Men'in lideri Charles Xavier'ı oynamış olsaydı bile sinema ve televizyon tarihinde kalıcı bir yer edinirdi. Ama İngiliz oyuncu ikisini de oynadı — üstüne altı on yıla yayılan bir kariyerde sahnede ve ekranda sayısız rol üstlendi. 86 yaşında hayatını kaybeden Stewart'ın o derin, bariton sesi en basit cümleyi bile ağırbaşlı bir buyruğa dönüştürebiliyordu.
+
+Efsanevi bilimkurgu ve süper kahraman rollerinden komedilere, klasik bir tiyatro ikilisinin yarısı olmasından alaycı bir domuz kafasını seslendirmesine kadar, işte en sevdiğimiz on Patrick Stewart rolü.
+
+## 1. Star Trek: The Next Generation (1987)
+
+![Star Trek: The Next Generation (1987)](${ps_tng.url})
+
+Stewart, 1987'de Kaptan Jean-Luc Picard rolüne seçildiğinde ne koyu bir Star Trek hayranıydı ne de bilimkurgu meraklısı. Hatta bir röportajında diziye karşı hiçbir heyecan duymadığını açıkça söylemişti. Ama ilk tereddütlerin ardından izleyiciler, Shakespeare ekolünden gelen bu oyuncunun Romulanlarla savaşmasını, Klingonlarla ortak dava bulmasını ve Dr. Beverly Crusher'la (Gates McFadden) yıllara yayılan bir yakınlaşma yaşamasını büyük bir tutkuyla izledi. "Make it so" ("Gereğini yapın") sözü onun sesinde bir otorite mantrasına dönüştü.
+
+## 2. Robin Hood: Men in Tights (1993)
+
+![Robin Hood: Men in Tights (1993)](${ps_tights.url})
+
+Stewart kariyeri boyunca sahnede ve ekranda pek çok kral oynadı; Mel Brooks'un Sherwood Ormanı parodisinin finalinde zırhlar içinde, kendinden emin bir yürüyüşle beliren Kral Richard da bunların en keyiflilerinden. Hırsızlar, taytlı adamlar ve kardeşi John saygıyla diz çökerken "Onu Londra Kulesi'ne atın — turun bir parçası olsun!" diye bağırması, filmin "büyükler odaya geri döndü" deme biçimi.
+
+## 3. X-Men (2000)
+
+![X-Men (2000)](${ps_xmen.url})
+
+Stewart, Charles Xavier rolü teklif edildiğinde önce hayır demişti: "Boynumda zaten şanlı bir yük var, ikincisine ihtiyacım yok." Bryan Singer'la bir öğle yemeğinin ardından ikna oldu ve Profesör X olarak süper kahraman sinemasının çehresini değiştiren filmlerden birinin merkezine yerleşti. Ian McKellen'ın Magneto'suyla kurduğu dostluk-düşmanlık dengesi, serinin duygusal omurgası oldu.
+
+## 4. Match (2014)
+
+![Match (2014)](${ps_match.url})
+
+"Hayatımı seviyorum. Hayatımdan pişmanım. Çizgiler zamanla bulanıklaşıyor." Stewart'ın canlandırdığı Tobi, Juilliard'da ders veren efsanevi bir koreograf. Tezi için onunla görüşmek isteyen bir kadın (Carla Gugino) ve kocası (Matthew Lillard) kapısını çaldığında geçmişiyle yüzleşmek zorunda kalıyor. Stephen Belber'in kendi oyunundan uyarladığı bu küçük film, Stewart'a en kırılgan rollerinden birini verdi.
+
+## 5. Blunt Talk (2015)
+
+![Blunt Talk (2015)](${ps_blunt.url})
+
+Jonathan Ames'in tuhaf komedisinde Stewart, kablolu haber dünyasında yolunu şaşırmış İngiliz yayıncı Walter Blunt'u oynadı. Bir havalimanı tuvaletiyle verdiği unutulmaz mücadele sahnesi tek başına bile diziyi izlemeye değer kılıyor; ama asıl keyif, Sir Patrick'in içindeki huysuz, utanç komedisi ustasını serbest bırakmasında.
+
+## 6. Green Room (2015)
+
+![Green Room (2015)](${ps_greenroom.url})
+
+Jeremy Saulnier'nin nefes kesen gerilim filminde bir punk grubu, Oregon kırsalındaki neo-Nazi bir kulüpte bir cinayete tanık olup kulis odasına kapana kısılıyor. Stewart burada kulübün sahibi, yaşlı ırkçı lider Darcy Banker olarak kariyerinin en ürkütücü kötü adamlarından birini yaratıyor: sesini hiç yükseltmeden, sakin bir yönetici soğukluğuyla korku salan bir figür.
+
+## 7. No Man's Land (2016)
+
+![No Man's Land (2016)](${ps_nomans.url})
+
+Stewart'ın Shakespeare'den Godot'yu Beklerken'e, tek kişilik Noel Şarkısı'na uzanan sahne kariyeri başlı başına ayrı bir listeyi hak ediyor. Harold Pinter'ın bir içki gecesinin tekinsiz bir hâl aldığı oyununun filme alınmış bu versiyonu, onu yine yakın dostu Ian McKellen'la buluşturdu ve Broadway'e ya da West End'e gidemeyenlere tiyatro gücünü görme fırsatı sundu.
+
+## 8. Logan (2017)
+
+![Logan (2017)](${ps_logan.url})
+
+Profesör X'i birçok kez oynamıştı; ama James Mangold'ın filmindeki yaşlı, acı çeken, kırık anılarla boğuşan Charles Xavier ayrı bir girişi hak ediyor. Film bir gişe filminden çok bir dönemin sonuna dair sade bir vedaya benziyor ve Stewart'ın yorgun, şefkatli ve trajik performansı olmadan işlemezdi.
+
+## 9. The Kid Who Would Be King (2019)
+
+![The Kid Who Would Be King (2019)](${ps_kid.url})
+
+McKellen Gandalf'ı canlandırmıştı; Stewart ise büyücülerin atası Merlin'e can verdi. Bir inşaat alanında Excalibur'u bulan bir çocuğun macerasını anlatan bu genç seyirci filminde Merlin'in yetişkin hâlini oynadı (genç hâlini Angus Imrie canlandırıyor) ve her göründüğü sahneye bilge bir oyunbazlık kattı.
+
+## 10. Bait (2026)
+
+![Bait (2026)](${ps_bait.url})
+
+Riz Ahmed'in yaratıp başrolünü oynadığı bu şov dünyası hicvinde Stewart, kesik bir domuz kafasını seslendiriyor. Kulağa tuhaf gelebilir; ama cesur yaratıcı sıçrayışlar yapan oyunculara destek olmayı ve iyi bir kahkahayı seven Stewart'ın ruhunu bundan daha iyi özetleyen pek az rol var.`,
+  },
   {
     slug: "band-of-brothers-cast-then-and-now-25-years-later",
     title: "Band of Brothers Oyuncuları Dün ve Bugün: HBO'nun Emmy Ödüllü Mini Dizisinin Yıldızları 25 Yıl Sonra Nerede?",

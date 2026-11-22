@@ -40,11 +40,11 @@ test("the Star Wars games list takes the top row slot Kırmızı Fenerler held",
   assert.equal(topRow.some((a) => a!.newsSlug === HOMEPAGE_FEED_SWAP_SLUG), false);
 });
 
-test("Kırmızı Fenerler keeps its date line after leaving the top row", () => {
+test("Kırmızı Fenerler stays in the feed after leaving the ten-newest dated set", () => {
   const review = findArticleBySlug(ARTICLES, HOMEPAGE_FEED_SWAP_SLUG);
   assert.ok(review);
   assert.equal(review!.category, "haberler");
-  assert.equal(review!.addedAt, "2026-11-07");
+  assert.equal(review!.addedAt, undefined);
 });
 
 test("lead rows do not duplicate stories and leave incomplete incoming groups for the feed", () => {

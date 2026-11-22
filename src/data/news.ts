@@ -355,7 +355,6 @@ Karōshi'nin merak uyandıran tarafı, tanıdık bir intikam hikâyesini günüm
   },
   {
     slug: "raise-the-red-lantern-gong-li-review",
-    addedAt: "2026-11-07",
     narrated: true,
     title: "“Kırmızı Fenerler” Yeniden Gündemde: Gong Li'nin On Yılı Tanımlayan Performansı",
     excerpt: "Zhang Yimou'nun 1991 tarihli başyapıtı Kırmızı Fenerler yeniden vizyonda; eleştirmenler Gong Li'nin “dördüncü eş” Songlian performansını 90'ların en büyük oyunculuklarından biri sayıyor.",

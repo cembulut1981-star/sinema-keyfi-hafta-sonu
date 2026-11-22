@@ -12,7 +12,7 @@ export const HOMEPAGE_TOP_ROW_LIST_SLUG = "best-star-wars-games-ever-ranked";
 export const HOMEPAGE_TOP_ROW_SLUGS = [
   "robert-pattinson-james-bond-casting-analysis",
   "rings-of-power-season-3-empire-review",
-  "mike-flanagan-carrie-three-seasons-trilogy-plan",
+  "patrick-stewart-best-roles",
   HOMEPAGE_TOP_ROW_LIST_SLUG,
 ];
 

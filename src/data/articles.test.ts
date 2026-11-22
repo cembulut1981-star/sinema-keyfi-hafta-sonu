@@ -187,7 +187,7 @@ describe("added dates on the ten newest homepage cards", () => {
     "rings-of-power-season-3-empire-review": "2026-11-12",
     "stranger-things-other-worlds-prequel-2028-teaser": "2026-11-09",
     "karoshi-trailer-teo-yoo-samurai-corporate-thriller": "2026-11-07",
-    "raise-the-red-lantern-gong-li-review": "2026-11-07",
+    "patrick-stewart-best-roles": "2026-11-22",
     "robert-pattinson-james-bond-casting-analysis": "2026-11-20",
     "robert-eggers-werwulf-scariest-horror-movie": "2026-11-18",
     "the-body-netflix-coming-of-age-review": "2026-11-14",
