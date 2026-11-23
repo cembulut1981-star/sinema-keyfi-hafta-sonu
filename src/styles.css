@@ -336,13 +336,13 @@
   .site-nav-links a::after { transition: none; }
 }
 
-/* Homepage cards: Rolling Stone-like condensed bold serif headlines + serif dek */
+/* Homepage cards: plain editorial serif headlines (Newsreader) with a touch of tracking + serif dek */
 .home-rs-type :is(h2, h3) {
-  font-family: "Roboto Serif", Georgia, serif;
-  font-variation-settings: "wdth" 62, "opsz" 144;
-  font-weight: 800;
-  letter-spacing: -0.01em;
-  line-height: 1.02;
+  font-family: "Newsreader", Georgia, serif;
+  font-variation-settings: "opsz" 48;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  line-height: 1.12;
 }
 .home-rs-type p {
   font-family: var(--font-serif-body);
