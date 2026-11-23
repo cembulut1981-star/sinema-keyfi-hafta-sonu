@@ -27,6 +27,7 @@ import { getList, LISTS } from "@/data/lists";
 const NUMBERED_RANKING_SLUGS = new Set([
   "best-thriller-movies-since-1990-ranked",
   "best-star-wars-games-ever-ranked",
+  "best-open-endings-film-history",
 ]);
 
 export const Route = createFileRoute("/liste/$slug")({

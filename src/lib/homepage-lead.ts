@@ -1,6 +1,6 @@
 import type { Article } from "@/data/articles";
 
-export const HOMEPAGE_FEATURED_REVIEW_SLUG = "crystal-lake-indiewire-review";
+export const HOMEPAGE_FEATURED_REVIEW_SLUG = "best-open-endings-film-history";
 // A separately rendered full-width story, never in the feed.
 export const HOMEPAGE_TOP_FEATURE_SLUG = "the-body-netflix-coming-of-age-review";
 export const HOMEPAGE_FEATURE_AFTER_LEAD_ROW = 0;

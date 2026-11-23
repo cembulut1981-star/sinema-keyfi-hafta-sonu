@@ -48,7 +48,7 @@ const FRAMED = ARTICLES.find((a) => a.musicSlug === FRAMED_SLUG || a.seriesSlug 
 const WIDE_FEATURE_SLUG = "crystal-lake-13-killer-things-friday-the-13th-series";
 const WIDE_FEATURE = ARTICLES.find((article) => article.newsSlug === WIDE_FEATURE_SLUG);
 const TOP_FEATURE = findArticleBySlug(ARTICLES, HOMEPAGE_TOP_FEATURE_SLUG);
-const NEW_REVIEW = ARTICLES.find((article) => article.reviewSlug === HOMEPAGE_FEATURED_REVIEW_SLUG);
+const NEW_REVIEW = findArticleBySlug(ARTICLES, HOMEPAGE_FEATURED_REVIEW_SLUG);
 const NEXT_REVIEW = findArticleBySlug(ARTICLES, "best-sci-fi-movies-of-2026");
 const THIRD_REVIEW = ARTICLES.find((article) => article.reviewSlug === "nocturne-apple-tv-stephen-graham-review");
 // The four small cards beside the top row's lead story, in the order shown.

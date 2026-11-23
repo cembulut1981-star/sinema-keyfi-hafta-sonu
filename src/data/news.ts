@@ -325,7 +325,6 @@ Other Worlds’ün en ilgi çekici tercihi, aynı karakterlere dönmek yerine ev
   },
   {
     slug: "karoshi-trailer-teo-yoo-samurai-corporate-thriller",
-    addedAt: "2026-11-07",
     narrated: true,
     title: "Karōshi Fragmanı: Teo Yoo, Şirket Dünyasına Samuray Kılıcıyla Giriyor",
     excerpt: "Teo Yoo, Isabel May ve Cynthia Erivo'lu Karōshi, şirket sadakatini kanlı bir intikam hikâyesine dönüştürüyor. John Wick'in arkasındaki ekibin yeni aksiyon-gerilimi için ilk fragman yayımlandı.",

@@ -45,7 +45,7 @@ describe("commented posts", () => {
     assert.equal(isCommentedPost("gog-explains-how-one-of-the-most-important-pc-games-22a8b5e9"), false);
     assert.equal(isCommentedPost("stranger-things-other-worlds-prequel-2028-teaser"), true);
     assert.equal(isCommentedPost("mortal-shell-2-rps-review"), false);
-    assert.equal(isCommentedPost("karoshi-trailer-teo-yoo-samurai-corporate-thriller"), true);
+    assert.equal(isCommentedPost("karoshi-trailer-teo-yoo-samurai-corporate-thriller"), false);
     assert.equal(isCommentedPost("patrick-stewart-best-roles"), true);
     assert.equal(isCommentedPost("adam-driver-hunt-for-ben-solo-over"), false);
     assert.equal(isCommentedPost("robert-pattinson-james-bond-casting-analysis"), true);

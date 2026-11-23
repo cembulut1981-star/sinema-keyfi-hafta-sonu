@@ -3,6 +3,7 @@ import { z } from 'zod';
 // The ten newest Sine-Meta posts, newest first. Comments are open on these only.
 // A newer post joins the list here and in public.comment_threads.
 export const COMMENTED_POST_SLUGS = [
+  'best-open-endings-film-history',
   'patrick-stewart-best-roles',
   'robert-pattinson-james-bond-casting-analysis',
   'robert-eggers-werwulf-scariest-horror-movie',
@@ -11,7 +12,6 @@ export const COMMENTED_POST_SLUGS = [
   'best-star-wars-games-ever-ranked',
   'rings-of-power-season-3-empire-review',
   'stranger-things-other-worlds-prequel-2028-teaser',
-  'karoshi-trailer-teo-yoo-samurai-corporate-thriller',
   'hunger-games-companion-album-to-feature-jennifer-7f53c993',
 ] as const;
 

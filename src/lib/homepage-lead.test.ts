@@ -14,11 +14,11 @@ const incoming = Array.from({ length: 12 }, (_, i) => article(20 + i));
 const sides = [article(3), article(4), article(5), article(6)];
 
 test("requested Crystal Lake review is the first row's lead even with new automated news", () => {
-  const crystalLake = ARTICLES.find((item) => item.reviewSlug === HOMEPAGE_FEATURED_REVIEW_SLUG);
+  const crystalLake = findArticleBySlug(ARTICLES, HOMEPAGE_FEATURED_REVIEW_SLUG);
   assert.ok(crystalLake);
   const { rows } = homepageLeadRows(crystalLake, metallica, nocturne, sides, incoming, ARTICLES);
-  assert.equal(rows[0].center.reviewSlug, "crystal-lake-indiewire-review");
-  assert.equal(rows.flatMap((row) => [row.center, ...row.sides]).filter((item) => item.reviewSlug === "crystal-lake-indiewire-review").length, 1);
+  assert.equal(rows[0].center.listSlug, "best-open-endings-film-history");
+  assert.equal(rows.flatMap((row) => [row.center, ...row.sides]).filter((item) => item.listSlug === "best-open-endings-film-history").length, 1);
 });
 
 test("Metallica moves exactly one homepage row down", () => {

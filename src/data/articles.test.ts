@@ -186,7 +186,7 @@ describe("added dates on the ten newest homepage cards", () => {
   const EXPECTED: Record<string, string> = {
     "rings-of-power-season-3-empire-review": "2026-11-12",
     "stranger-things-other-worlds-prequel-2028-teaser": "2026-11-09",
-    "karoshi-trailer-teo-yoo-samurai-corporate-thriller": "2026-11-07",
+    "best-open-endings-film-history": "2026-11-23",
     "patrick-stewart-best-roles": "2026-11-22",
     "robert-pattinson-james-bond-casting-analysis": "2026-11-20",
     "robert-eggers-werwulf-scariest-horror-movie": "2026-11-18",
@@ -219,7 +219,7 @@ describe("Karōshi news", () => {
   test("keeps the verified source date distinct from the added date", () => {
     const news = NEWS.find((item) => item.slug === slug);
     assert.equal(news?.source, "Empire — November 5, 2026");
-    assert.equal(news?.addedAt, "2026-11-07");
+    assert.equal(news?.addedAt, undefined);
   });
   test("uses the verified Lionsgate YouTube trailer", () => {
     assert.equal(NEWS.find((item) => item.slug === slug)?.youtubeTrailerId, "jQHoAsDcjVU");
