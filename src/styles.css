@@ -336,10 +336,9 @@
   .site-nav-links a::after { transition: none; }
 }
 
-/* Homepage cards: plain editorial serif headlines (Newsreader) with a touch of tracking + serif dek */
+/* Homepage cards: plain slab serif headlines (Roboto Slab) with a touch of tracking + serif dek */
 .home-rs-type :is(h2, h3) {
-  font-family: "Newsreader", Georgia, serif;
-  font-variation-settings: "opsz" 48;
+  font-family: "Roboto Slab", Georgia, serif;
   font-weight: 700;
   letter-spacing: 0.015em;
   line-height: 1.12;
