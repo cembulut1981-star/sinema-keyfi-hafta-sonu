@@ -339,8 +339,8 @@
 /* Homepage cards: plain slab serif headlines (Roboto Slab) with a touch of tracking + serif dek */
 .home-rs-type :is(h2, h3) {
   font-family: "Roboto Slab", Georgia, serif;
-  font-weight: 700;
-  letter-spacing: 0.015em;
+  font-weight: 800;
+  letter-spacing: 0.03em;
   line-height: 1.12;
 }
 .home-rs-type p {
