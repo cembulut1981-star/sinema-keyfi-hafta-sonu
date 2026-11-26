@@ -3,6 +3,9 @@ import { z } from 'zod';
 // The ten newest Sine-Meta posts, newest first. Comments are open on these only.
 // A newer post joins the list here and in public.comment_threads.
 export const COMMENTED_POST_SLUGS = [
+  'blade-runner-2099-ridley-scott-series-vision',
+  'flags-of-our-fathers-free-pluto-tv',
+  'longlegs-netflix-december-2026',
   'best-open-endings-film-history',
   'patrick-stewart-best-roles',
   'robert-pattinson-james-bond-casting-analysis',
@@ -10,9 +13,6 @@ export const COMMENTED_POST_SLUGS = [
   'mike-flanagan-carrie-three-seasons-trilogy-plan',
   'the-body-netflix-coming-of-age-review',
   'best-star-wars-games-ever-ranked',
-  'rings-of-power-season-3-empire-review',
-  'stranger-things-other-worlds-prequel-2028-teaser',
-  'hunger-games-companion-album-to-feature-jennifer-7f53c993',
 ] as const;
 
 export const COMMENT_BODY_MIN = 2;

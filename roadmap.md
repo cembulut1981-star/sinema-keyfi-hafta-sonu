@@ -1,3 +1,5 @@
+- [x] Add three Turkish Collider news cards and articles with site-hosted covers.
+- [x] Roll newest-post dates and comments forward and verify the three articles and homepage cards.
 - [x] Add an original Galactic Racer review without the publication name in visible review text.
 - [x] Show the newest stories first on the homepage without duplicates.
 - [x] Check review, homepage, and media rendering.

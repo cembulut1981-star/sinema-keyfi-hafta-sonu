@@ -10,9 +10,9 @@ export const HOMEPAGE_TOP_ROW_LIST_SLUG = "best-star-wars-games-ever-ranked";
 
 // The four small cards shown beside the top row's lead story, in shown order.
 export const HOMEPAGE_TOP_ROW_SLUGS = [
-  "robert-pattinson-james-bond-casting-analysis",
-  "rings-of-power-season-3-empire-review",
-  "patrick-stewart-best-roles",
+  "blade-runner-2099-ridley-scott-series-vision",
+  "flags-of-our-fathers-free-pluto-tv",
+  "longlegs-netflix-december-2026",
   HOMEPAGE_TOP_ROW_LIST_SLUG,
 ];
 

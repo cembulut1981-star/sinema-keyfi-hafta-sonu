@@ -101,6 +101,9 @@ import bondPattinsonPortrait from "@/assets/remote/bond-pattinson-portrait.jpg.a
 import bondDuneScytale from "@/assets/remote/bond-dune-scytale.jpg.asset.json";
 import bondFirstLook from "@/assets/remote/bond-first-look.jpg.asset.json";
 import bondVilleneuve from "@/assets/remote/bond-villeneuve.jpg.asset.json";
+import bladeRunner2099Cover from "@/assets/remote/blade-runner-2099-ridley-scott.jpg.asset.json";
+import flagsOfOurFathersCover from "@/assets/remote/flags-of-our-fathers-pluto-tv.jpg.asset.json";
+import longlegsNetflixCover from "@/assets/remote/longlegs-netflix-december.jpg.asset.json";
 
 export type NewsItem = {
   slug: string;
@@ -122,6 +125,96 @@ export type NewsItem = {
 };
 
 export const NEWS: NewsItem[] = [
+  {
+    slug: "blade-runner-2099-ridley-scott-series-vision",
+    addedAt: "2026-11-26",
+    narrated: true,
+    title: "Blade Runner 2099: Ridley Scott’ın Yeni Dizideki Etkisi ve Güneşli Bir Distopya",
+    excerpt: "Prime Video’nun yeni Blade Runner dizisi, replikantların yönettiği Los Angeles’a gidiyor. Yapımcılar Ridley Scott’ın katkısını, gerçek setleri ve serinin analog dünyasını neden koruduklarını anlattı.",
+    image: bladeRunner2099Cover.url,
+    source: "Collider — Therese Lacson, November 24, 2026 — https://collider.com/blade-runner-2099-bosses-reveal-ridley-scotts-take-on-prime-videos-new-sci-fi-series/",
+    body: `**Blade Runner 2099**, serinin insanlık ve yapay yaşam arasındaki sınırı sorgulayan dünyasını televizyona taşıyor. **25 Kasım’da Prime Video’da başlayan** dizi, Blade Runner 2049’un elli yıl sonrasında geçiyor. Bu kez Los Angeles’ın hâkimi replikantlar; insanlar ise ikinci sınıf yurttaş konumunda. Yeni düzen, bildiğimiz avcı ile av ilişkisini de tersine çeviriyor.
+
+Hikâyenin merkezinde, replikant bir Blade Runner gibi davranarak gerçek kimliğini gizleyen insan **Cora** bulunuyor. **Hunter Schafer**’ın canlandırdığı Cora’nın ortağı, yaşam döngüsünün son günlerindeki **Olwen**; bu rolde **Michelle Yeoh** var. İkilinin araştırdığı gizem derinleştikçe Cora’nın sırrını saklaması zorlaşıyor ve insan ile replikant arasındaki ayrım giderek bulanıklaşıyor.
+
+## Ridley Scott Ne Kadar İşin İçinde?
+
+Alcon Entertainment’ın kurucuları ve dizinin yürütücü yapımcıları **Andrew Kosove** ile **Broderick Johnson**, Ridley Scott’ın projeye uzaktan adını veren bir figür olmadığını anlatıyor. Johnson’a göre Scott, hikâyenin ilk taslağından olayların hangi yılda geçeceğine ve dünyanın ne kadar ileri taşınacağına kadar başlangıçtaki kararların içinde yer aldı.
+
+Scott ayrıca kurgu aşamasında notlar verdi ve ses tasarımı hakkında görüşlerini paylaştı. Bununla birlikte yaratıcı ekibin alanına saygı gösteriyor: Blade Runner 2049’da Denis Villeneuve’e bıraktığı hareket özgürlüğünü, bu kez dizinin yaratıcısı ve yürütücüsü **Silka Luisa** için koruyor. Yapımcıların tarifinde Scott, her ayrıntıyı bizzat yöneten biri değil, serinin yönünü hatırlatan bir pusula.
+
+## Karanlık Geleceğe Güneş Doğuyor
+
+2099’un görsel yaklaşımı, ilk iki filmin karanlık dedektif hikâyesi estetiğini bütünüyle terk etmiyor. Kosove bunu daha aydınlık, güneşin görülebildiği bir noir yorumu olarak açıklıyor. Replikantlar gezegeni ve Los Angeles’ı yeniden yaşanabilir hâle getirmeye başladığı için kirli havayı temizleyen kuleler ve bulutları yaran güneş, yalnızca görsel tercih değil, hikâyedeki değişimin sonucu.
+
+Ancak bu geleceğin teknolojisi hâlâ dokunulabilir ve **analog**. Yapımcılar, Blade Runner’ın pürüzsüz ekranlardan oluşan dijital bir evrene dönüşmesini istemiyor. Yapım tasarımcısı **Paul Inglis**’in 2049’dan getirdiği deneyim, yeni dönemi tasarlarken eski dünyanın dokusunu korumaya yardımcı oluyor.
+
+## Gerçek Setler, Sekiz Bölümlük Anlatı
+
+Prag, Barselona ve Almanya’daki mekânlar ile büyük stüdyo setleri, dijital efektlerle genişletilen dünyanın fiziksel temelini oluşturuyor. Johnson ve Kosove, yeşil perde ile sanal setlerin çok sınırlı kullanıldığını; oyuncuların gerçekten içinde dolaşabildiği ortamları kurmanın daha fazla zaman ve maliyet gerektirdiğini vurguluyor.
+
+**Sekiz bölümlük** format ise iki saatlik bir filmin izin verdiğinden daha uzun karakter ve fikir araştırmalarına alan açıyor. Yapımcılar için asıl mesele, organik ve yapay olarak yaratılmış iki bilinçli varlığın farklılıkları içinde ortak bir zemin bulması. Yapay zekâ tartışmalarının gündelik hayatı kapladığı bir dönemde, dizinin sorusu uzak gelecekten çok bugüne uzanıyor: Birini insan yapan şey, nasıl üretildiği mi, yoksa nasıl yaşadığı mı?`,
+  },
+  {
+    slug: "flags-of-our-fathers-free-pluto-tv",
+    addedAt: "2026-11-26",
+    narrated: true,
+    title: "Clint Eastwood’un Flags of Our Fathers’ı Pluto TV’de Ücretsiz İzlenebiliyor",
+    excerpt: "Iwo Jima’daki ünlü bayrak fotoğrafının ardındaki askerleri anlatan Flags of Our Fathers, kahramanlık mitini sorguluyor. Clint Eastwood’un 2006 yapımı savaş dramı Pluto TV’nin ücretsiz kataloğunda.",
+    image: flagsOfOurFathersCover.url,
+    source: "Collider — Erik Hawkins, November 26, 2026 — https://collider.com/clint-eastwood-flags-of-our-fathers-ww2-streaming-free-pluto-tv-november-2026/",
+    body: `**Clint Eastwood**’un 2006 yapımı **Flags of Our Fathers**, **Pluto TV’de ücretsiz izlenebilen** filmler arasında yer alıyor. Iwo Jima Muharebesi’ni ve tarihin en tanınmış savaş fotoğraflarından birinin arkasındaki insanları anlatan yapım, bir zafer hikâyesinden çok kahramanlık imgesinin nasıl üretildiğiyle ilgileniyor. Platform katalogları ülkeye göre değiştiğinden, bu haber Türkiye’de erişim garantisi anlamına gelmiyor.
+
+Eastwood aynı yıl **Letters from Iwo Jima** ile çatışmanın Japon askerleri tarafına da baktı. Birbirini tamamlayan bu iki film, aynı savaşı karşı cephelerin deneyimleri üzerinden düşünmeye çağırıyor. Flags of Our Fathers’ın odağında ise cephede hayatta kalmakla, eve dönünce bir ulusal simgeye dönüşmek arasında sıkışan Amerikan askerleri var.
+
+## Bir Fotoğrafın Ardındaki İkinci Bayrak
+
+Film, Iwo Jima’daki yaklaşık bir ay süren çarpışmaları ve **Suribachi Dağı**’na dikilen bayrağın öyküsünü izliyor. Fotoğrafçı **Joe Rosenthal**’ın ölümsüzleştirdiği kare, ilk bayrağın değil, daha sonra yapılan ikinci bayrak dikiminin görüntüsü. Fotoğrafın dünyaya hızla yayılması, cephedeki askerlerin hayatını beklemedikleri biçimde değiştiriyor.
+
+Bayrak yükseldiğinde çatışma bitmiş değil. Eastwood, simgesel zafer anıyla devam eden ölüm ve yıkımı yan yana getiriyor. **Ryan Phillippe**, **Jesse Bradford** ve **Adam Beach**’in yer aldığı oyuncu kadrosu, fotoğraftaki figürleri kusursuz anıtlar olarak değil, korku ve kayıp taşıyan insanlar olarak görünür kılıyor.
+
+## Eve Dönüş, Savaşın Sonu Değil
+
+Hayatta kalan askerlerin dönüşüyle hikâye cepheden başka bir mücadele alanına kayıyor. Ünlü fotoğraf, savaş tahvillerinin satışını destekleyen kampanyanın merkezine yerleştiriliyor; askerler de halkın önünde kahraman rolünü oynamaya zorlanıyor. Fotoğrafta kimin bulunduğu üzerine tartışmalar, yaşananların hatırlanma biçimini daha da karmaşıklaştırıyor.
+
+Filmin duygusal ağırlığı burada belirginleşiyor: Toplum, kolayca benimseyebileceği bir başarı anlatısı istiyor; askerlerse arkadaşlarının kaybını ve yaşadıkları travmayı bu anlatıya sığdıramıyor. Kamuoyunun alkışı, gündelik hayata dönmenin zorluğunu ortadan kaldırmıyor.
+
+## Kahramanlık Yerine Yas
+
+Eastwood’un soluk renkleri ve sert, gösterişsiz çatışma sahneleri, savaşı heyecan verici bir gösteriye dönüştürmekten uzak duruyor. Görüntülerdeki kasvet, filmin kahramanlık mitine duyduğu kuşkuyla birleşiyor. Bir fotoğrafın berrak anlamına karşı, onu yaşayan insanların parçalı ve acı dolu hatıraları çıkıyor.
+
+**James Bradley** ve **Ron Powers**’ın kitabından uyarlanan film, savaşın yalnızca meydanda yaşanmadığını hatırlatıyor. Flags of Our Fathers’ı bugün yeniden izlemeye değer kılan da bu: Büyük bir tarihsel görüntünün arkasındaki insanları ve o görüntünün onların omuzlarına yüklediği ağırlığı unutturmaması.`,
+  },
+  {
+    slug: "longlegs-netflix-december-2026",
+    addedAt: "2026-11-26",
+    narrated: true,
+    title: "Nicolas Cage’li Longlegs Hulu’dan Ayrılıyor: 10 Aralık’ta Netflix ABD’ye Geliyor",
+    excerpt: "Osgood Perkins’in Maika Monroe ve Nicolas Cage’li korku-gerilimi Longlegs, ABD’de Netflix’e taşınıyor. Cage’in Dracula’yı oynadığı Renfield ise bir gün önce kataloğa katılacak.",
+    image: longlegsNetflixCover.url,
+    source: "Collider — Hannah Hunt, November 26, 2026 — https://collider.com/longlegs-nicolas-cage-leaving-hulu-netflix-december-2026/",
+    body: `**Nicolas Cage** ve **Maika Monroe**’nun başrollerini paylaştığı **Longlegs**, Hulu’dan ayrılarak **10 Aralık 2026 Perşembe günü Netflix’in ABD kataloğuna** geliyor. **Osgood Perkins**’in yazıp yönettiği 2024 yapımı korku-gerilim için duyurulan tarih ABD’ye ait; Netflix Türkiye kataloğu için aynı tarihte bir yayın bilgisi doğrulanmış değil.
+
+Cage hayranları için platformda arka arkaya iki farklı korku seçeneği bulunacak. Oyuncunun Dracula’yı canlandırdığı, **Nicholas Hoult**’un ise onun yorgun asistanını oynadığı **Renfield**, ABD’de **9 Aralık’ta**, Longlegs’ten bir gün önce Netflix’e katılıyor. İki film, Cage’in korku türündeki oldukça farklı yüzlerini bir araya getiriyor.
+
+## Çözülemeyen Cinayetler, Şifreli Mektuplar
+
+Longlegs’in merkezinde FBI ajanı **Lee Harker** var. Monroe’nun canlandırdığı Harker, Oregon’daki aile cinayetlerini araştırırken olay yerlerinde bırakılan şifreli mektupların peşine düşüyor. Mektupları imzalayan kişi kendini Longlegs olarak tanıtıyor; fakat fiziksel kanıtlar, cinayetlerin aile babaları tarafından işlendiğine işaret ediyor.
+
+**Blair Underwood**’un canlandırdığı Ajan Carter’ın Harker’a verdiği dosyada ürpertici bir ortak nokta da bulunuyor: Öldürülen ailelerdeki kız çocuklarının doğum günleri ayın 14’üne denk geliyor. Harker’ın doğum günü de aynı güne rastlıyor. Böylece soruşturma, uzaktan incelenen bir vaka olmaktan çıkıp onun kendi geçmişine yaklaşan bir tehdide dönüşüyor.
+
+## Kuzuların Sessizliği’yle Akrabalık
+
+Genç bir FBI ajanı, korkutucu bir fail ve giderek kişiselleşen soruşturma, **The Silence of the Lambs** ile karşılaştırmayı kaçınılmaz kılıyor. Perkins de bu etkiyi saklamıyor. Ancak Longlegs, ajan ile katil arasında uzun konuşmalar kurmak yerine, karşılaşmanın kendisini sürekli erteliyor. Monroe ve Cage, film boyunca yalnızca **bir sahneyi** paylaşıyor.
+
+Bu uzaklık, Longlegs’in nerede olduğundan çok ne kadar yakında olabileceği duygusunu büyütüyor. Harker’ın annesiyle ilişkisi de soruşturmanın baskısını artırıyor; **Alicia Witt**’in canlandırdığı anne, gündelik bir telefon konuşmasını bile rahatsız edici bir yakınlığa dönüştürebiliyor. Filmin gerilimi, suç dosyası ile aile geçmişi arasındaki mesafe daraldıkça güçleniyor.
+
+## Korku Sinemasının Büyük Gişe Başarılarından
+
+Longlegs, ABD’deki açılış hafta sonunda **22,4 milyon dolar**, dünya genelinde ise **125,4 milyon dolar** hasılata ulaştı. Bu rakamlar, filmin yalnızca Nicolas Cage’in sıra dışı performansıyla konuşulan bir yapım olmadığını; geniş bir izleyici kitlesine ulaşan korku başarısına dönüştüğünü de gösteriyor.
+
+Netflix’e geçiş, filmi ilk gösteriminde kaçıran ABD izleyicilerine yeni bir erişim noktası sunuyor. Polisiye soruşturmanın düzen duygusunu daha tekinsiz bir atmosferle bozan Longlegs, cevap ararken güvende olduğunuz hissini de yavaş yavaş elinizden alan bir korku deneyimi.`,
+  },
   {
     slug: "robert-pattinson-james-bond-casting-analysis",
     addedAt: "2026-11-20",
@@ -218,7 +311,6 @@ Flanagan'ın üç sezonluk planı, dizinin King'in romanının sınırlarında k
   },
   {
     slug: "rings-of-power-season-3-episode-guide",
-    addedAt: "2026-11-13",
     narrated: true,
     title: "Güç Yüzükleri 3. Sezon Bölüm Takvimi: Yeni Bölümler Ne Zaman Yayında?",
     excerpt: "Beş yıllık zaman atlamasıyla dönen Güç Yüzükleri'nin üçüncü sezonu sekiz bölümden oluşuyor. Prime Video'daki tüm yayın tarihleri ve final haftası burada.",
@@ -253,7 +345,6 @@ McKay, üçüncü sezonda her hikâye çizgisinin Sauron ile Elfler arasındaki 
   },
   {
     slug: "rings-of-power-season-3-empire-review",
-    addedAt: "2026-11-12",
     title: "Güç Yüzükleri 3. Sezon İncelemesi: Sauron'un Savaşı Son Hızına Ulaşıyor",
     excerpt: "The Rings of Power'ın üçüncü sezonu Prime Video'da başladı. İkinci sezonun beş yıl sonrasında geçen yeni bölümler, Sauron ile Elfler arasındaki savaşı Orta Dünya'nın her köşesine yayıyor; Gandalf nihayet adıyla anılıyor.",
     image: ringsOfPowerS3Cover.url,
@@ -289,7 +380,6 @@ McKay ve Payne'in Üçüncü Çağ'a inişi nasıl yapacağını görmek için �
   },
   {
     slug: "stranger-things-other-worlds-prequel-2028-teaser",
-    addedAt: "2026-11-09",
     narrated: true,
     title: "Stranger Things’in Yeni Dizisi Other Worlds: İlk Tanıtım, 1955’e Açılan Bir Kapı",
     excerpt: "Other Worlds: A Stranger Things Adventure, 2028’de Netflix’e geliyor. Joe Wright’ın yöneteceği yeni dizi, Hawkins’ten önceki gizemleri 1955 yılının Nevada’sına taşıyor; ilk tanıtım videosu yayımlandı.",

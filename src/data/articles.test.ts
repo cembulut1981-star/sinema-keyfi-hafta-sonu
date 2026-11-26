@@ -184,15 +184,15 @@ describe("Crystal Lake coverage placement", () => {
 
 describe("added dates on the ten newest homepage cards", () => {
   const EXPECTED: Record<string, string> = {
-    "rings-of-power-season-3-empire-review": "2026-11-12",
-    "stranger-things-other-worlds-prequel-2028-teaser": "2026-11-09",
+    "blade-runner-2099-ridley-scott-series-vision": "2026-11-26",
+    "flags-of-our-fathers-free-pluto-tv": "2026-11-26",
+    "longlegs-netflix-december-2026": "2026-11-26",
     "best-open-endings-film-history": "2026-11-23",
     "patrick-stewart-best-roles": "2026-11-22",
     "robert-pattinson-james-bond-casting-analysis": "2026-11-20",
     "robert-eggers-werwulf-scariest-horror-movie": "2026-11-18",
     "the-body-netflix-coming-of-age-review": "2026-11-14",
     "mike-flanagan-carrie-three-seasons-trilogy-plan": "2026-11-16",
-    "rings-of-power-season-3-episode-guide": "2026-11-13",
     "best-star-wars-games-ever-ranked": "2026-11-13",
   };
   const slugOf = (a: Article) =>
@@ -234,7 +234,7 @@ describe("Other Worlds news", () => {
   test("keeps the source date separate from the site addition date", () => {
     const news = NEWS.find((item) => item.slug === slug);
     assert.equal(news?.source, "Empire — November 6, 2026");
-    assert.equal(news?.addedAt, "2026-11-09");
+    assert.equal(news?.addedAt, undefined);
   });
   test("appears once in the non-game upper homepage pool", () => {
     assert.equal(ARTICLES.filter((item) => item.newsSlug === slug).length, 1);

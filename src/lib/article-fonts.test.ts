@@ -12,11 +12,11 @@ describe("editorial serif bodies on the five newest posts", () => {
     assert.deepEqual(
       [...SERIF_BODY_SLUGS].sort(),
       [
-        "mike-flanagan-carrie-three-seasons-trilogy-plan",
-        "rings-of-power-season-3-episode-guide",
-        "robert-eggers-werwulf-scariest-horror-movie",
-        "robert-pattinson-james-bond-casting-analysis",
-        "the-body-netflix-coming-of-age-review",
+        "blade-runner-2099-ridley-scott-series-vision",
+        "flags-of-our-fathers-free-pluto-tv",
+        "longlegs-netflix-december-2026",
+        "best-open-endings-film-history",
+        "patrick-stewart-best-roles",
       ].sort(),
     );
   });
@@ -29,7 +29,7 @@ describe("editorial serif bodies on the five newest posts", () => {
   });
 
   test("serif posts render in the larger serif body", () => {
-    const css = articleProseFor("robert-pattinson-james-bond-casting-analysis");
+    const css = articleProseFor("blade-runner-2099-ridley-scott-series-vision");
     assert.equal(css, articleProseSerif);
     assert.ok(css.includes("font-serif-body"));
     assert.ok(css.includes("text-[19px]"));

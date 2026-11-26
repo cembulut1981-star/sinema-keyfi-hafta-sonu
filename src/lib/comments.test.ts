@@ -21,7 +21,7 @@ describe("commented posts", () => {
     const staticSlugs = COMMENTED_POST_SLUGS.filter(
       (slug) => !slug.endsWith("-7f53c993") && !slug.endsWith("-22a8b5e9"),
     );
-    assert.equal(staticSlugs.length, 9);
+    assert.equal(staticSlugs.length, 10);
     for (const slug of staticSlugs) {
       const found =
         NEWS.filter((item) => item.slug === slug).length +
@@ -31,19 +31,23 @@ describe("commented posts", () => {
     }
   });
 
-  test("the remaining daily-news post is published from the database", () => {
+  test("all three new Collider stories are open for comments", () => {
     for (const slug of [
-      "hunger-games-companion-album-to-feature-jennifer-7f53c993",
+      "blade-runner-2099-ridley-scott-series-vision",
+      "flags-of-our-fathers-free-pluto-tv",
+      "longlegs-netflix-december-2026",
     ]) {
       assert.equal(isCommentedPost(slug), true);
-      assert.equal(NEWS.some((item) => item.slug === slug), false);
+      assert.equal(NEWS.some((item) => item.slug === slug), true);
     }
   });
 
   test("older posts stay closed to comments", () => {
     assert.equal(isCommentedPost("the-body-netflix-coming-of-age-review"), true);
     assert.equal(isCommentedPost("gog-explains-how-one-of-the-most-important-pc-games-22a8b5e9"), false);
-    assert.equal(isCommentedPost("stranger-things-other-worlds-prequel-2028-teaser"), true);
+    assert.equal(isCommentedPost("stranger-things-other-worlds-prequel-2028-teaser"), false);
+    assert.equal(isCommentedPost("rings-of-power-season-3-empire-review"), false);
+    assert.equal(isCommentedPost("hunger-games-companion-album-to-feature-jennifer-7f53c993"), false);
     assert.equal(isCommentedPost("mortal-shell-2-rps-review"), false);
     assert.equal(isCommentedPost("karoshi-trailer-teo-yoo-samurai-corporate-thriller"), false);
     assert.equal(isCommentedPost("patrick-stewart-best-roles"), true);

@@ -8,11 +8,11 @@ import { articleProse, articleProseSerif } from "./prose";
  * tests can share this one list.
  */
 export const SERIF_BODY_SLUGS: readonly string[] = [
-  "robert-pattinson-james-bond-casting-analysis",
-  "robert-eggers-werwulf-scariest-horror-movie",
-  "mike-flanagan-carrie-three-seasons-trilogy-plan",
-  "the-body-netflix-coming-of-age-review",
-  "rings-of-power-season-3-episode-guide",
+  "blade-runner-2099-ridley-scott-series-vision",
+  "flags-of-our-fathers-free-pluto-tv",
+  "longlegs-netflix-december-2026",
+  "best-open-endings-film-history",
+  "patrick-stewart-best-roles",
 ];
 
 export function hasSerifBody(slug: string | undefined): boolean {
